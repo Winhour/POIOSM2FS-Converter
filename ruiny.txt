@@ -1,0 +1,1102 @@
+<LandmarkLocation instanceId="{2f4ce4f2-a391-4955-b975-795471de4f4e}" type="POI" name="Caesarea Old City" owner="RipPipPip" lat="32.5018388" lon="34.8924472" alt="500.0"/> 
+<LandmarkLocation instanceId="{dc863237-023d-44a2-a3e6-c455cf7a38de}" type="POI" name="Shahariya" owner="RipPipPip" lat="31.6020749" lon="34.8107979" alt="500.0"/> 
+<LandmarkLocation instanceId="{a755d2a1-a1b7-4c16-81fb-8efac5316a95}" type="POI" name="Tel Shaharit" owner="RipPipPip" lat="32.6500000" lon="35.5500000" alt="500.0"/> 
+<LandmarkLocation instanceId="{bc6fbfdd-889c-46ab-b598-6116fd0c00d0}" type="POI" name="Avuqah" owner="RipPipPip" lat="32.4652061" lon="35.5413094" alt="500.0"/> 
+<LandmarkLocation instanceId="{a8db7857-d821-476d-9cce-ae1262bb98d6}" type="POI" name="Mezad Zohar" owner="RipPipPip" lat="31.1510387" lon="35.3463769" alt="500.0"/> 
+<LandmarkLocation instanceId="{b8e0a4ae-fa05-4fa9-bede-72f13255e569}" type="POI" name="Ez Zawiya" owner="RipPipPip" lat="33.1500000" lon="35.6000000" alt="500.0"/> 
+<LandmarkLocation instanceId="{57b1e358-09c1-462c-a90d-63d3696166e0}" type="POI" name="Horbat Karkara" owner="RipPipPip" lat="33.0740739" lon="35.2184771" alt="500.0"/> 
+<LandmarkLocation instanceId="{64c52990-1fde-4a84-8953-c32f691d6e5c}" type="POI" name="Horbat `Edron" owner="RipPipPip" lat="33.0536512" lon="35.2106395" alt="500.0"/> 
+<LandmarkLocation instanceId="{51900073-694a-4531-a678-2ca88a5fdcf6}" type="POI" name="Tel Hasi" owner="RipPipPip" lat="31.5471245" lon="34.7307012" alt="500.0"/> 
+<LandmarkLocation instanceId="{9b0e155f-96e1-40fc-91fc-4ba3595d8bf6}" type="POI" name="Tel Hazir" owner="RipPipPip" lat="32.7219428" lon="35.2033327" alt="500.0"/> 
+<LandmarkLocation instanceId="{f05ccd6f-1e3b-4ef4-a0ba-136eba86e550}" type="POI" name="Tel Zayit" owner="RipPipPip" lat="31.6300842" lon="34.8306502" alt="500.0"/> 
+<LandmarkLocation instanceId="{4728d51b-7bd8-4447-afe9-073d38c07524}" type="POI" name="Rogem Zafir" owner="RipPipPip" lat="30.8992694" lon="35.1298348" alt="500.0"/> 
+<LandmarkLocation instanceId="{560c391d-1d2f-4103-affb-8b3354a71cee}" type="POI" name="Horbat Nuha" owner="RipPipPip" lat="33.2500000" lon="35.5666670" alt="500.0"/> 
+<LandmarkLocation instanceId="{5c2326f4-dd3d-496e-9b8d-d3fc4bbe4eb2}" type="POI" name="Tohelet" owner="RipPipPip" lat="31.9933386" lon="34.8483264" alt="500.0"/> 
+<LandmarkLocation instanceId="{9a017386-109e-4b2b-af0b-e53a76841328}" type="POI" name="Tel `Avdon" owner="RipPipPip" lat="33.0477963" lon="35.1622501" alt="500.0"/> 
+<LandmarkLocation instanceId="{72509673-2619-450f-82df-9ffaf4523b9e}" type="POI" name="Horbat Migda" owner="RipPipPip" lat="32.4668370" lon="35.4576381" alt="500.0"/> 
+<LandmarkLocation instanceId="{e17b0666-13f6-45cf-aadf-7c8b1f7b0210}" type="POI" name="Horbat Bet HaGaddi" owner="RipPipPip" lat="31.4230605" lon="34.6245551" alt="500.0"/> 
+<LandmarkLocation instanceId="{779e2410-33b1-4e2a-b6a6-dacbb9932365}" type="POI" name="Tel Maresha" owner="RipPipPip" lat="31.5926495" lon="34.8981438" alt="500.0"/> 
+<LandmarkLocation instanceId="{e82061ff-6d98-43fe-b920-e5f2c0049a76}" type="POI" name="Horbat Dafit" owner="RipPipPip" lat="29.6933331" lon="35.0083330" alt="500.0"/> 
+<LandmarkLocation instanceId="{2788921a-ba70-4b4e-9834-9c2b1b8efae1}" type="POI" name="Tel Qashish" owner="RipPipPip" lat="32.6851803" lon="35.1096171" alt="500.0"/> 
+<LandmarkLocation instanceId="{3cea871b-7721-45a9-a1cf-af439f3d708b}" type="POI" name="Yikkon Maabara" owner="RipPipPip" lat="32.3577782" lon="35.0019438" alt="500.0"/> 
+<LandmarkLocation instanceId="{9689608f-2534-4c22-bd06-6e1b25dfa613}" type="POI" name="Saliha" owner="RipPipPip" lat="33.0833330" lon="35.4500000" alt="500.0"/> 
+<LandmarkLocation instanceId="{d8b065f3-a5d8-40af-af81-b8b78414571c}" type="POI" name="Tel Zehavi" owner="RipPipPip" lat="32.4857331" lon="35.4616330" alt="500.0"/> 
+<LandmarkLocation instanceId="{aceaca74-1c89-4cdf-baeb-10b64ae3040d}" type="POI" name="Tel Me`ammer" owner="RipPipPip" lat="32.7280615" lon="35.0966717" alt="500.0"/> 
+<LandmarkLocation instanceId="{6f61bfcc-da8d-460d-baf8-7c4fdf080215}" type="POI" name="Horbat Zahal" owner="RipPipPip" lat="31.0848674" lon="34.8393268" alt="500.0"/> 
+<LandmarkLocation instanceId="{8c0be124-0ac9-4caf-b4d7-03f682290dfd}" type="POI" name="Tel Shoqeq" owner="RipPipPip" lat="32.4965788" lon="35.4620771" alt="500.0"/> 
+<LandmarkLocation instanceId="{370c1e77-3214-491b-bc05-dc4431b2ec1d}" type="POI" name="Horbat `Illit" owner="RipPipPip" lat="31.6630331" lon="35.0310626" alt="500.0"/> 
+<LandmarkLocation instanceId="{aaf1283a-73a6-4513-a720-c00c8ddf0805}" type="POI" name="El `Abisiya" owner="RipPipPip" lat="33.2000000" lon="35.6333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{6a2b8707-b210-46c2-85d8-8237646b1271}" type="POI" name="Horbat Sela" owner="RipPipPip" lat="32.9277780" lon="35.4944440" alt="500.0"/> 
+<LandmarkLocation instanceId="{1cfc65c2-72f7-4daf-ab5d-7f0a3e657223}" type="POI" name="Simsim" owner="RipPipPip" lat="31.5676361" lon="34.6066732" alt="500.0"/> 
+<LandmarkLocation instanceId="{c1e941f5-4643-4ad3-84b5-584eddaeb42d}" type="POI" name="Tel Kedesh" owner="RipPipPip" lat="33.1101085" lon="35.5309562" alt="500.0"/> 
+<LandmarkLocation instanceId="{04b4495b-b569-40bb-b2b3-aa0dff9d797e}" type="POI" name="Tel Gamma" owner="RipPipPip" lat="31.3872195" lon="34.4447229" alt="500.0"/> 
+<LandmarkLocation instanceId="{1163156a-af88-497e-9f51-ff06e3078059}" type="POI" name="Tel Rosh" owner="RipPipPip" lat="33.0333141" lon="35.3333561" alt="500.0"/> 
+<LandmarkLocation instanceId="{1861c10f-4746-46b6-b3b3-6888c88dca9e}" type="POI" name="Tel Yeshua" owner="RipPipPip" lat="31.2740404" lon="34.9875500" alt="500.0"/> 
+<LandmarkLocation instanceId="{9f2f5b31-524d-40c9-bc31-525ecaa76ba3}" type="POI" name="Horbat Tabburit" owner="RipPipPip" lat="33.0477451" lon="35.2000272" alt="500.0"/> 
+<LandmarkLocation instanceId="{3c387df6-4a5a-4c12-9f3f-017ae45aef62}" type="POI" name="El Murassas" owner="RipPipPip" lat="32.5500000" lon="35.4666670" alt="500.0"/> 
+<LandmarkLocation instanceId="{394a6d79-e40a-4e1f-9d75-ac4319e11c92}" type="POI" name="Sharayi`" owner="RipPipPip" lat="32.5000000" lon="35.1333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{fbede542-0b0e-4bdb-ae4f-e28870216713}" type="POI" name="Horbat Ribbo" owner="RipPipPip" lat="31.6575865" lon="34.9791273" alt="500.0"/> 
+<LandmarkLocation instanceId="{567cb161-0a56-43de-a5b7-284261e6e65d}" type="POI" name="Horbat Qazra" owner="RipPipPip" lat="30.5598660" lon="35.0879898" alt="500.0"/> 
+<LandmarkLocation instanceId="{4f8b1b74-f700-451d-a1d6-dfb7fca62e94}" type="POI" name="Tel Peha" owner="RipPipPip" lat="32.4833385" lon="35.5499603" alt="500.0"/> 
+<LandmarkLocation instanceId="{bc66de91-d34f-435b-b825-1bcd40310e20}" type="POI" name="Horbat Buz" owner="RipPipPip" lat="31.6654156" lon="35.0140627" alt="500.0"/> 
+<LandmarkLocation instanceId="{c485c892-f781-4bac-a53a-a987b79789fb}" type="POI" name="Horbat `Aqrav" owner="RipPipPip" lat="33.0666625" lon="35.3166128" alt="500.0"/> 
+<LandmarkLocation instanceId="{221d4089-8249-4c97-a2b1-99477c66d2c9}" type="POI" name="Fara" owner="RipPipPip" lat="33.0666481" lon="35.4500317" alt="500.0"/> 
+<LandmarkLocation instanceId="{3ff12ac6-6762-4962-8d54-48537be95fe0}" type="POI" name="Tel Rekhesh" owner="RipPipPip" lat="32.6530514" lon="35.4663322" alt="500.0"/> 
+<LandmarkLocation instanceId="{c51243ec-5c38-4fcd-ad47-2b1442d42312}" type="POI" name="Mt. `Arqov" owner="RipPipPip" lat="30.7890453" lon="34.7344360" alt="500.0"/> 
+<LandmarkLocation instanceId="{8b3cdc95-39b0-47bc-9cec-2cb3808134b1}" type="POI" name="Tel Rehov" owner="RipPipPip" lat="32.4583321" lon="35.4972229" alt="500.0"/> 
+<LandmarkLocation instanceId="{8a8272d1-19a5-4c92-beed-652bb2aeca91}" type="POI" name="Horbat Baq" owner="RipPipPip" lat="32.9905560" lon="35.4075000" alt="500.0"/> 
+<LandmarkLocation instanceId="{3b5e83e6-9453-409d-8707-bb2145cea9c8}" type="POI" name="Mezad `Aqrabbim" owner="RipPipPip" lat="30.9299999" lon="35.1499999" alt="500.0"/> 
+<LandmarkLocation instanceId="{e9cfd598-d764-4b8a-85f0-9b0ce5df9ab5}" type="POI" name="Horbat Qanim" owner="RipPipPip" lat="31.6658617" lon="34.9643044" alt="500.0"/> 
+<LandmarkLocation instanceId="{fb586d4c-11ad-40ee-a6f6-84cf37857275}" type="POI" name="Manshiya" owner="RipPipPip" lat="32.9333330" lon="35.0833330" alt="500.0"/> 
+<LandmarkLocation instanceId="{8b274451-c4c7-4294-8e2f-12fd0988ae77}" type="POI" name="Horbat Kanisa" owner="RipPipPip" lat="33.0000000" lon="35.2333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{73a592ee-9089-4902-995c-6ba7e4b923c0}" type="POI" name="Horbat Tevet" owner="RipPipPip" lat="32.6388890" lon="35.3333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{a4883983-c100-47c9-83f6-a913ebc371e7}" type="POI" name="Hanot Beshan" owner="RipPipPip" lat="32.5150505" lon="35.4981432" alt="500.0"/> 
+<LandmarkLocation instanceId="{486b2dd5-d4ba-49c4-8e2d-2c49ca1dc70b}" type="POI" name="Ni`ilya" owner="RipPipPip" lat="31.6469181" lon="34.5732587" alt="500.0"/> 
+<LandmarkLocation instanceId="{cf2df8c6-7dec-499a-84f7-5d34de186447}" type="POI" name="Tel Arad" owner="RipPipPip" lat="31.2799119" lon="35.1255017" alt="500.0"/> 
+<LandmarkLocation instanceId="{2aba6a55-a36b-42a3-b92b-17206ed07b19}" type="POI" name="giv'at hamesuryan" owner="RipPipPip" lat="33.0204253" lon="35.1793289" alt="500.0"/> 
+<LandmarkLocation instanceId="{93287005-38a8-4a5e-b244-763ec6cb1b74}" type="POI" name="Tel Ashdod" owner="RipPipPip" lat="31.7500000" lon="34.6500000" alt="500.0"/> 
+<LandmarkLocation instanceId="{3bad3bbf-e3e5-4ed3-8be7-96c01484e232}" type="POI" name="Es Sindiyana" owner="RipPipPip" lat="32.5500000" lon="35.0000000" alt="500.0"/> 
+<LandmarkLocation instanceId="{dea75eb6-64d7-4576-ae9b-73a694fde5f7}" type="POI" name="Sabalan" owner="RipPipPip" lat="33.0164897" lon="35.3343985" alt="500.0"/> 
+<LandmarkLocation instanceId="{27054352-5eec-46d3-ad45-51dd81bc3e93}" type="POI" name="Horbat Shuah" owner="RipPipPip" lat="33.0666670" lon="35.6333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{304d7689-6b72-430a-85ae-14bbc089a0de}" type="POI" name="Mezad Gozal" owner="RipPipPip" lat="31.1296515" lon="35.3876644" alt="500.0"/> 
+<LandmarkLocation instanceId="{24b020c4-8988-42b3-8df9-39c3a7c62ce7}" type="POI" name="Tel Malluah" owner="RipPipPip" lat="32.4333330" lon="35.5500000" alt="500.0"/> 
+<LandmarkLocation instanceId="{835adbd2-507b-45cd-bb83-3ddeb9e2db8a}" type="POI" name="Tel Miqne" owner="RipPipPip" lat="31.7804585" lon="34.8510160" alt="500.0"/> 
+<LandmarkLocation instanceId="{d3b9af88-c64b-4bca-a155-447785e1ec59}" type="POI" name="Tel Batash" owner="RipPipPip" lat="31.7853370" lon="34.9115833" alt="500.0"/> 
+<LandmarkLocation instanceId="{5a2efa7a-d0c3-487f-b733-01bca8707c49}" type="POI" name="Tel Gat Hefer" owner="RipPipPip" lat="32.7388890" lon="35.3208330" alt="500.0"/> 
+<LandmarkLocation instanceId="{787f7069-4630-4edc-af69-79d7769c4525}" type="POI" name="Tel Qeriyyot" owner="RipPipPip" lat="31.3500004" lon="35.1166687" alt="500.0"/> 
+<LandmarkLocation instanceId="{eac65da1-3a44-4e51-a66b-338d1a0f0093}" type="POI" name="Tel Hodim" owner="RipPipPip" lat="32.8620855" lon="35.5356800" alt="500.0"/> 
+<LandmarkLocation instanceId="{d096a725-8cba-4e0a-a7fd-72e721009e7c}" type="POI" name="Horbat Zunim" owner="RipPipPip" lat="32.6791670" lon="35.3916670" alt="500.0"/> 
+<LandmarkLocation instanceId="{752e64d2-c366-4736-beb4-ce82b7c94ba0}" type="POI" name="Horbat Gov Yosef" owner="RipPipPip" lat="32.9194494" lon="35.5390853" alt="500.0"/> 
+<LandmarkLocation instanceId="{487ef266-50d2-4a13-8235-bc1ddc3748bd}" type="POI" name="Tel Yin`am" owner="RipPipPip" lat="32.7166670" lon="35.5166670" alt="500.0"/> 
+<LandmarkLocation instanceId="{48cdd509-3b89-4b70-9fac-af96433d8d41}" type="POI" name="Tel Govel" owner="RipPipPip" lat="32.7277834" lon="35.3850841" alt="500.0"/> 
+<LandmarkLocation instanceId="{19942ef6-3872-407b-929b-356d32808de6}" type="POI" name="Horbat Raash" owner="RipPipPip" lat="32.2289598" lon="35.0073049" alt="500.0"/> 
+<LandmarkLocation instanceId="{275a37bc-9eba-4fc2-8e27-d21e88c1e241}" type="POI" name="Tel `Eton" owner="RipPipPip" lat="31.4896508" lon="34.9283882" alt="500.0"/> 
+<LandmarkLocation instanceId="{7382e5f4-f0e7-4261-bfe8-434396ff157c}" type="POI" name="El Khalisa" owner="RipPipPip" lat="33.2001243" lon="35.5664178" alt="500.0"/> 
+<LandmarkLocation instanceId="{f0b23bc7-a5d8-4a4c-ae62-04af6e3c77de}" type="POI" name="Horbat Siah" owner="RipPipPip" lat="33.0499667" lon="35.3000402" alt="500.0"/> 
+<LandmarkLocation instanceId="{d9fb63ac-3554-4970-bb21-2a69c7d06feb}" type="POI" name="Horbat Bor" owner="RipPipPip" lat="31.0499966" lon="34.9833277" alt="500.0"/> 
+<LandmarkLocation instanceId="{61a02f7d-ecfc-430c-a5b8-4fb37eed7eff}" type="POI" name="Horbat Menorim" owner="RipPipPip" lat="32.7666670" lon="35.5333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{165018a4-2b61-4ceb-afe7-cb9109186e90}" type="POI" name="Kfar Salma" owner="RipPipPip" lat="31.7609604" lon="35.1627313" alt="500.0"/> 
+<LandmarkLocation instanceId="{8ba04611-506b-4007-b639-e9da6b339029}" type="POI" name="Khirbat al-Adar" owner="RipPipPip" lat="31.4333330" lon="34.4358330" alt="500.0"/> 
+<LandmarkLocation instanceId="{14c6d7fd-992a-4534-887e-b87dbfcccdb1}" type="POI" name="Giv'at Shemesh" owner="RipPipPip" lat="31.7666606" lon="34.9500837" alt="500.0"/> 
+<LandmarkLocation instanceId="{3a6df7e9-10f7-4382-9ccb-4483b29407d0}" type="POI" name="El Ghabisiya" owner="RipPipPip" lat="33.0009214" lon="35.1506824" alt="500.0"/> 
+<LandmarkLocation instanceId="{70970734-23b9-4350-97b6-eda9f9b092b8}" type="POI" name="Horbat Eshhar" owner="RipPipPip" lat="33.0201140" lon="35.2087819" alt="500.0"/> 
+<LandmarkLocation instanceId="{4ef5235e-3dbf-4397-96d5-02cbb2ae6ec9}" type="POI" name="`Ir HaMifraz" owner="RipPipPip" lat="32.8377742" lon="35.1066598" alt="500.0"/> 
+<LandmarkLocation instanceId="{4f0772f1-3fc0-4ee3-afd8-1dc6e04ab357}" type="POI" name="Horbat Minnim" owner="RipPipPip" lat="32.8649512" lon="35.5364740" alt="500.0"/> 
+<LandmarkLocation instanceId="{84c79c41-ca38-47b2-aa73-a1e27e0b4624}" type="POI" name="Horbat Gefet" owner="RipPipPip" lat="32.4930560" lon="35.4333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{5d1a52e1-091f-4869-bc5a-8893bb0c9e60}" type="POI" name="Tel Poran" owner="RipPipPip" lat="31.7079458" lon="34.6120965" alt="500.0"/> 
+<LandmarkLocation instanceId="{680b816b-0750-48b6-84a8-3fb764d04525}" type="POI" name="Mezad Rahel" owner="RipPipPip" lat="30.6158325" lon="35.1883314" alt="500.0"/> 
+<LandmarkLocation instanceId="{9279cc02-5fe3-4a90-9e00-d1e290679286}" type="POI" name="Horbat Rahba" owner="RipPipPip" lat="31.0499992" lon="35.0333328" alt="500.0"/> 
+<LandmarkLocation instanceId="{ec174b3f-4690-4a2b-ac5d-de2f7f51a4d8}" type="POI" name="Horbat Ner" owner="RipPipPip" lat="32.4219058" lon="35.4295104" alt="500.0"/> 
+<LandmarkLocation instanceId="{f1456008-43c5-441a-94b4-dd666693cd7a}" type="POI" name="Tel Shikmona" owner="RipPipPip" lat="32.8246398" lon="34.9554726" alt="500.0"/> 
+<LandmarkLocation instanceId="{bcb431d4-19c6-46fa-9d85-3ed7aa5ef0b7}" type="POI" name="Horbat Tehavit" owner="RipPipPip" lat="32.6472220" lon="35.4499999" alt="500.0"/> 
+<LandmarkLocation instanceId="{22ab30d9-a3be-4486-8c2f-13372501e540}" type="POI" name="Horbat `Ein Koveshim" owner="RipPipPip" lat="33.0829735" lon="35.1668398" alt="500.0"/> 
+<LandmarkLocation instanceId="{bd94860d-3fa6-4410-b93a-d9f35ec2c98f}" type="POI" name="Horbat Kenesiyya" owner="RipPipPip" lat="33.0674864" lon="35.1327497" alt="500.0"/> 
+<LandmarkLocation instanceId="{0c6c7c8a-d69e-4774-971d-a7d93935ff9e}" type="POI" name="Sirin" owner="RipPipPip" lat="32.6500015" lon="35.5000000" alt="500.0"/> 
+<LandmarkLocation instanceId="{ccce06b0-ebf9-4ccd-ae40-ab7f9f2357b9}" type="POI" name="Horbat Shehoah" owner="RipPipPip" lat="32.5708330" lon="35.4930560" alt="500.0"/> 
+<LandmarkLocation instanceId="{038cb8ab-790e-477b-b3d9-7450824285f9}" type="POI" name="Horbat `Avot" owner="RipPipPip" lat="33.0846934" lon="35.4642717" alt="500.0"/> 
+<LandmarkLocation instanceId="{94cdd108-b05d-4b83-b1b7-045776639fa8}" type="POI" name="Horbat Tukkim" owner="RipPipPip" lat="32.0607958" lon="34.9867761" alt="500.0"/> 
+<LandmarkLocation instanceId="{de088b3f-7a4e-4df3-9996-ef5340b27994}" type="POI" name="Tel Beit Shean" owner="RipPipPip" lat="32.5043698" lon="35.5033129" alt="500.0"/> 
+<LandmarkLocation instanceId="{37bc85e3-6cb5-44aa-815b-14ba5b8405b7}" type="POI" name="Notera" owner="RipPipPip" lat="33.0992645" lon="35.6405995" alt="500.0"/> 
+<LandmarkLocation instanceId="{2b0f5555-039a-4738-97a4-249231bc5494}" type="POI" name="Khirbat Humsin" owner="RipPipPip" lat="33.0499883" lon="35.1500317" alt="500.0"/> 
+<LandmarkLocation instanceId="{8539aa7b-b514-46d9-a94b-062218f87299}" type="POI" name="Horbat Seraf" owner="RipPipPip" lat="33.0672042" lon="35.1983065" alt="500.0"/> 
+<LandmarkLocation instanceId="{656fb302-551c-4ede-9754-55750089cd1f}" type="POI" name="Mezad Saharonim" owner="RipPipPip" lat="30.6040679" lon="34.9384716" alt="500.0"/> 
+<LandmarkLocation instanceId="{8c275eef-0288-4e0f-ba21-4f441c8eb79c}" type="POI" name="Tel Gador" owner="RipPipPip" lat="32.4289786" lon="34.8752087" alt="500.0"/> 
+<LandmarkLocation instanceId="{9a008353-78bc-4826-bf08-88a1ff3539db}" type="POI" name="Tel Sheqef" owner="RipPipPip" lat="31.5591386" lon="34.7150249" alt="500.0"/> 
+<LandmarkLocation instanceId="{7099b727-bc67-4c58-a054-8af3596141ab}" type="POI" name="Horbat Pezelet" owner="RipPipPip" lat="33.0521798" lon="35.3079759" alt="500.0"/> 
+<LandmarkLocation instanceId="{3ecf02f0-9108-4deb-8acd-aefc1c26fd8e}" type="POI" name="Horbat Rehan" owner="RipPipPip" lat="32.5309591" lon="35.3896595" alt="500.0"/> 
+<LandmarkLocation instanceId="{381956bf-2334-4052-aadb-5d8576355902}" type="POI" name="Horbat Mayish" owner="RipPipPip" lat="31.5166955" lon="34.9329536" alt="500.0"/> 
+<LandmarkLocation instanceId="{d0ed2edf-d5cb-4680-ada1-a8a9b97151f2}" type="POI" name="Horbat Masiq" owner="RipPipPip" lat="32.6777763" lon="35.4375000" alt="500.0"/> 
+<LandmarkLocation instanceId="{9e0d9f22-136e-424c-b9fe-cb24fc0f452b}" type="POI" name="Tel `Eter" owner="RipPipPip" lat="31.6159361" lon="34.8785694" alt="500.0"/> 
+<LandmarkLocation instanceId="{e4b1d0db-913d-4b94-88f1-164696b1950e}" type="POI" name="Horbat Beit Uriyya" owner="RipPipPip" lat="33.0389674" lon="35.2080952" alt="500.0"/> 
+<LandmarkLocation instanceId="{1ccf4ff4-e81b-448e-a6c1-36e1233a7652}" type="POI" name="Es Salihiya" owner="RipPipPip" lat="33.1666670" lon="35.6166670" alt="500.0"/> 
+<LandmarkLocation instanceId="{a9e43397-ef8b-461f-95ad-5f204833319a}" type="POI" name="Ghuraba" owner="RipPipPip" lat="33.1166553" lon="35.6500317" alt="500.0"/> 
+<LandmarkLocation instanceId="{63d18daa-0108-4db8-9425-aad170ad41c4}" type="POI" name="Tel Asher" owner="RipPipPip" lat="32.2069435" lon="34.9147210" alt="500.0"/> 
+<LandmarkLocation instanceId="{0042366a-6d3b-491a-88bf-bb7babe8f531}" type="POI" name="Tel Yona" owner="RipPipPip" lat="31.9961260" lon="34.7325459" alt="500.0"/> 
+<LandmarkLocation instanceId="{ddcab257-16f6-4880-a453-ab1cff3ba69e}" type="POI" name="Horbat Yov" owner="RipPipPip" lat="32.5700000" lon="35.4922220" alt="500.0"/> 
+<LandmarkLocation instanceId="{3a70f915-d711-47ae-931e-220b92aba7b8}" type="POI" name="Tel Adullam" owner="RipPipPip" lat="31.6506233" lon="35.0020332" alt="500.0"/> 
+<LandmarkLocation instanceId="{16f507cb-6d66-4313-afdb-5d1e1751fba3}" type="POI" name="Horbat Zir" owner="RipPipPip" lat="32.6242851" lon="35.3830335" alt="500.0"/> 
+<LandmarkLocation instanceId="{a47b7d04-9bd4-429d-931b-b09ab4fce08b}" type="POI" name="Qusqus" owner="RipPipPip" lat="32.7166672" lon="35.1500015" alt="500.0"/> 
+<LandmarkLocation instanceId="{5480be93-c2e3-43d2-9da4-4c9572acffd3}" type="POI" name="Chirbat Tira" owner="RipPipPip" lat="32.6485708" lon="35.4577491" alt="500.0"/> 
+<LandmarkLocation instanceId="{0c951e8b-baa7-4517-88d3-bd989e7ed35a}" type="POI" name="Horbat Nevoraya" owner="RipPipPip" lat="33.0028839" lon="35.5085526" alt="500.0"/> 
+<LandmarkLocation instanceId="{1100d946-5cce-4ff6-80e1-af2c33769eef}" type="POI" name="Tel Esur" owner="RipPipPip" lat="32.4820770" lon="35.0194158" alt="500.0"/> 
+<LandmarkLocation instanceId="{6c1b1e22-ba83-45b6-8668-8b97ba3a8401}" type="POI" name="Havat Eshkolot" owner="RipPipPip" lat="31.7137856" lon="34.6488204" alt="500.0"/> 
+<LandmarkLocation instanceId="{15d492ba-783f-46aa-bac6-01568fe251c3}" type="POI" name="Horbat Gemila" owner="RipPipPip" lat="33.0334132" lon="35.3166918" alt="500.0"/> 
+<LandmarkLocation instanceId="{ea915065-a688-4016-ace7-d7b20f62f4de}" type="POI" name="Horbat `Emed" owner="RipPipPip" lat="33.0315946" lon="35.1336808" alt="500.0"/> 
+<LandmarkLocation instanceId="{9035225e-0099-4bf0-aed3-164eb0c6959e}" type="POI" name="Tel Mifsah" owner="RipPipPip" lat="31.4678691" lon="34.6489140" alt="500.0"/> 
+<LandmarkLocation instanceId="{ce9480f7-65c2-499b-9e29-7ae75fa3f26c}" type="POI" name="Mezad `Arugot" owner="RipPipPip" lat="31.4589292" lon="35.3842135" alt="500.0"/> 
+<LandmarkLocation instanceId="{a34360d7-3983-4751-a636-6ff6aaf2c952}" type="POI" name="Kfar Piram" owner="RipPipPip" lat="32.9833242" lon="35.5328818" alt="500.0"/> 
+<LandmarkLocation instanceId="{90928de9-65f4-4f45-b8a3-9c436b7ca39a}" type="POI" name="Horbat Hadran" owner="RipPipPip" lat="33.0333285" lon="35.3166300" alt="500.0"/> 
+<LandmarkLocation instanceId="{96fe31e9-7c76-4f96-a18e-b40dd06670e7}" type="POI" name="El `Ubeidiya" owner="RipPipPip" lat="32.6893021" lon="35.5567158" alt="500.0"/> 
+<LandmarkLocation instanceId="{d37998aa-8bf3-428d-8272-f1d08962c98b}" type="POI" name="Shimron" owner="RipPipPip" lat="32.7038969" lon="35.2141406" alt="500.0"/> 
+<LandmarkLocation instanceId="{4b0ca2c6-99a9-4daf-8026-fbfcd4a83e7a}" type="POI" name="Tel Yishma`el" owner="RipPipPip" lat="32.5500000" lon="35.5666670" alt="500.0"/> 
+<LandmarkLocation instanceId="{87433fd7-501d-4a4f-bee4-5a12fd8ab122}" type="POI" name="Horbat Mador" owner="RipPipPip" lat="31.4050000" lon="34.4719440" alt="500.0"/> 
+<LandmarkLocation instanceId="{87df2cde-b4b9-458a-86c3-d614b1adb110}" type="POI" name="Horbat Akudim" owner="RipPipPip" lat="33.0447960" lon="35.2133293" alt="500.0"/> 
+<LandmarkLocation instanceId="{b3736887-a97d-4a57-a526-59205b251605}" type="POI" name="Horbat Zafzafot" owner="RipPipPip" lat="32.6430561" lon="35.3916670" alt="500.0"/> 
+<LandmarkLocation instanceId="{9dc28a6a-8756-4aa2-a86b-909d722489f6}" type="POI" name="Horbat Tomer" owner="RipPipPip" lat="32.6297680" lon="35.4197491" alt="500.0"/> 
+<LandmarkLocation instanceId="{52566ae6-fbdc-423e-8366-0dd8824e3686}" type="POI" name="Horbat Nesibba" owner="RipPipPip" lat="33.0367244" lon="35.4678611" alt="500.0"/> 
+<LandmarkLocation instanceId="{d38af385-d2e7-4fb5-a889-a5e52114980f}" type="POI" name="Tel Kison" owner="RipPipPip" lat="32.8730545" lon="35.1505547" alt="500.0"/> 
+<LandmarkLocation instanceId="{b56bd9bc-b7af-43a1-a62b-355da38375b2}" type="POI" name="Er Ras el Ahmar" owner="RipPipPip" lat="33.0333573" lon="35.4665957" alt="500.0"/> 
+<LandmarkLocation instanceId="{8e14f2c7-eb70-4608-acb1-06919d9d543d}" type="POI" name="Horbat Galil" owner="RipPipPip" lat="33.0538284" lon="35.2443973" alt="500.0"/> 
+<LandmarkLocation instanceId="{8597026e-2902-4018-bcb4-bb5e96407803}" type="POI" name="Horbat Maog" owner="RipPipPip" lat="32.6555559" lon="35.4569439" alt="500.0"/> 
+<LandmarkLocation instanceId="{45e88b81-0cba-4eec-9f39-a60fcf085893}" type="POI" name="Me`arot Telimon" owner="RipPipPip" lat="32.6000000" lon="34.9666670" alt="500.0"/> 
+<LandmarkLocation instanceId="{26852fd5-61fc-4ed1-95bf-a6f42f200ce8}" type="POI" name="Tel Zippor" owner="RipPipPip" lat="31.6500000" lon="34.7333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{db9cb99f-50e6-456f-98cd-f49dc8f97904}" type="POI" name="Tel Shalem" owner="RipPipPip" lat="32.4000000" lon="35.5333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{76186b42-0c3e-4e96-9f0a-9f7a7412eaa9}" type="POI" name="Kfar Baram" owner="RipPipPip" lat="33.0432596" lon="35.4144952" alt="500.0"/> 
+<LandmarkLocation instanceId="{54f263ef-c947-4b9d-8765-e4a5010f339d}" type="POI" name="Es Sumeiriya" owner="RipPipPip" lat="32.9666670" lon="35.0833330" alt="500.0"/> 
+<LandmarkLocation instanceId="{426976fe-bd8d-4ad9-9e99-4da3bab246fb}" type="POI" name="Al Mansura" owner="RipPipPip" lat="33.0666337" lon="35.3333818" alt="500.0"/> 
+<LandmarkLocation instanceId="{653f2c3a-df38-45be-9e6c-9021fbbd185e}" type="POI" name="Bureir" owner="RipPipPip" lat="31.5639142" lon="34.6502732" alt="500.0"/> 
+<LandmarkLocation instanceId="{56dd03a2-9b8d-4bd1-a045-0c90578f9e18}" type="POI" name="Horbat Shaqof" owner="RipPipPip" lat="33.0333501" lon="35.1332788" alt="500.0"/> 
+<LandmarkLocation instanceId="{145f16b1-c298-4fe5-bb0b-eb88c0df8290}" type="POI" name="Khirbat al-Kutshan" owner="RipPipPip" lat="31.4047220" lon="34.4552780" alt="500.0"/> 
+<LandmarkLocation instanceId="{8d856e58-6ccb-4271-ae52-087d917848d3}" type="POI" name="Horbat Sa`adim" owner="RipPipPip" lat="31.7509996" lon="35.1293945" alt="500.0"/> 
+<LandmarkLocation instanceId="{5ebc4706-14db-43c3-b0b2-80503f80a070}" type="POI" name="Tel Malhata" owner="RipPipPip" lat="31.2166670" lon="35.0333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{b5ed5c73-28e1-41d6-8764-2855fa81f20b}" type="POI" name="Fardisiya" owner="RipPipPip" lat="32.2763890" lon="35.0133330" alt="500.0"/> 
+<LandmarkLocation instanceId="{827f1ec5-21a8-4ddc-b014-d7e33a7b45c7}" type="POI" name="Tel Mahoz" owner="RipPipPip" lat="31.9196636" lon="34.7433949" alt="500.0"/> 
+<LandmarkLocation instanceId="{f662540c-b132-4117-906d-e582626dbf89}" type="POI" name="Tel Iztabba" owner="RipPipPip" lat="32.5079995" lon="35.5046743" alt="500.0"/> 
+<LandmarkLocation instanceId="{aeb89f2f-da72-47b3-8f31-f0586de4d6cb}" type="POI" name="Horbat Haron" owner="RipPipPip" lat="33.0694906" lon="35.2860050" alt="500.0"/> 
+<LandmarkLocation instanceId="{a8474447-105e-4895-a294-4054cfd3d6eb}" type="POI" name="Tel Akhziv" owner="RipPipPip" lat="33.0480980" lon="35.1020580" alt="500.0"/> 
+<LandmarkLocation instanceId="{8639225d-a698-4a77-b6a1-e4ec105831bc}" type="POI" name="Horbat Timna`" owner="RipPipPip" lat="29.7666612" lon="34.9499996" alt="500.0"/> 
+<LandmarkLocation instanceId="{4161f3ac-e889-4158-b078-5790ed925886}" type="POI" name="Jahula" owner="RipPipPip" lat="33.1333330" lon="35.5666670" alt="500.0"/> 
+<LandmarkLocation instanceId="{33024208-a85e-4a9b-99fd-ffdc5aeb668c}" type="POI" name="Tel Re`ala" owner="RipPipPip" lat="32.6831902" lon="35.1739929" alt="500.0"/> 
+<LandmarkLocation instanceId="{dbe8f006-2942-4eee-a2a5-fec1a927b808}" type="POI" name="Beit She`arim" owner="RipPipPip" lat="32.7037666" lon="35.1292388" alt="500.0"/> 
+<LandmarkLocation instanceId="{7c4fdd75-4df1-48b1-8ccd-1c0cd78666c3}" type="POI" name="Me`arot Sahar" owner="RipPipPip" lat="32.6169844" lon="35.3754026" alt="500.0"/> 
+<LandmarkLocation instanceId="{6dacdc0b-9f64-432b-a599-2498502bac56}" type="POI" name="Tel Yarmut" owner="RipPipPip" lat="31.7086148" lon="34.9750593" alt="500.0"/> 
+<LandmarkLocation instanceId="{1ac907c5-7ac1-4050-a5ed-327d9406ff16}" type="POI" name="Kuweikat" owner="RipPipPip" lat="32.9666670" lon="35.1500000" alt="500.0"/> 
+<LandmarkLocation instanceId="{fec87e89-9975-4f08-a60f-81f1d6e3e097}" type="POI" name="Sedom" owner="RipPipPip" lat="31.0722222" lon="35.3999999" alt="500.0"/> 
+<LandmarkLocation instanceId="{63e2b71e-d834-451a-bf71-ff3c28546d21}" type="POI" name="Mezad Sorer" owner="RipPipPip" lat="31.0826372" lon="34.9866335" alt="500.0"/> 
+<LandmarkLocation instanceId="{c2778ac9-4d83-4089-800b-cb406c8319a5}" type="POI" name="Horbat Hazon" owner="RipPipPip" lat="32.9069440" lon="35.3986110" alt="500.0"/> 
+<LandmarkLocation instanceId="{23302cb1-298d-437d-96df-bf0000143ac9}" type="POI" name="Tel Haraz" owner="RipPipPip" lat="31.8713890" lon="34.6772220" alt="500.0"/> 
+<LandmarkLocation instanceId="{bb5d123f-7a62-478c-8d04-9807ab869100}" type="POI" name="Mezad Hatrurim" owner="RipPipPip" lat="31.2218304" lon="35.3038788" alt="500.0"/> 
+<LandmarkLocation instanceId="{3427bf1e-f8ca-4726-803c-105c3bc28a89}" type="POI" name="Horbat Hagal" owner="RipPipPip" lat="32.6500027" lon="35.5333818" alt="500.0"/> 
+<LandmarkLocation instanceId="{b6896154-277c-4f15-97b5-1a947cee3fdd}" type="POI" name="Horbat Bohu" owner="RipPipPip" lat="31.4305674" lon="34.5821721" alt="500.0"/> 
+<LandmarkLocation instanceId="{ff576570-0a8b-4608-a3b7-d78813731e18}" type="POI" name="El Mazar" owner="RipPipPip" lat="32.6833331" lon="34.9666669" alt="500.0"/> 
+<LandmarkLocation instanceId="{a5a74587-ab47-487f-9984-9b6e5c6c4ba8}" type="POI" name="Horbat Gov" owner="RipPipPip" lat="33.0473956" lon="35.2943288" alt="500.0"/> 
+<LandmarkLocation instanceId="{b368756c-4211-4146-8668-fb905a27e46d}" type="POI" name="Horbat Sugar" owner="RipPipPip" lat="33.0430685" lon="35.1602876" alt="500.0"/> 
+<LandmarkLocation instanceId="{afd8e164-2533-4126-a872-c8164127c9e6}" type="POI" name="Bureika" owner="RipPipPip" lat="32.5500000" lon="34.9833331" alt="500.0"/> 
+<LandmarkLocation instanceId="{b1dc957f-28b9-4a2e-a0e3-43118e63f029}" type="POI" name="Horbat Dayyar" owner="RipPipPip" lat="32.0988094" lon="34.9814769" alt="500.0"/> 
+<LandmarkLocation instanceId="{502f3e00-f303-4f87-91ab-4e95f4332147}" type="POI" name="En Na`ima" owner="RipPipPip" lat="33.1833330" lon="35.6000000" alt="500.0"/> 
+<LandmarkLocation instanceId="{c9cc38c7-0fde-4d9d-b200-e7c0e233e4b6}" type="POI" name="Horbat Shuna" owner="RipPipPip" lat="32.9083330" lon="35.4875000" alt="500.0"/> 
+<LandmarkLocation instanceId="{9827510a-f7d7-4681-acbb-6a9e97c9830a}" type="POI" name="Horbat Shevil" owner="RipPipPip" lat="32.9708330" lon="35.4000000" alt="500.0"/> 
+<LandmarkLocation instanceId="{7850569e-ec39-4298-afc5-1660ea4f0bd4}" type="POI" name="Horbot Gerarit" owner="RipPipPip" lat="31.4158330" lon="34.4402780" alt="500.0"/> 
+<LandmarkLocation instanceId="{53632480-22a7-400b-a33f-9cc5e0580a44}" type="POI" name="Horbat Ram" owner="RipPipPip" lat="33.0476834" lon="35.3064737" alt="500.0"/> 
+<LandmarkLocation instanceId="{306eaad7-aa02-44b8-a2ea-962d4f86e2be}" type="POI" name="Horbat `Ovesh" owner="RipPipPip" lat="33.0667735" lon="35.1499967" alt="500.0"/> 
+<LandmarkLocation instanceId="{32cd19d6-ad49-4ca3-8785-f4ab86efa1ed}" type="POI" name="Ashmura" owner="RipPipPip" lat="33.0520886" lon="35.6389493" alt="500.0"/> 
+<LandmarkLocation instanceId="{e050c42e-13e6-46fb-847b-671fa645ba7b}" type="POI" name="Mezudat Gadin" owner="RipPipPip" lat="32.9944440" lon="35.2211110" alt="500.0"/> 
+<LandmarkLocation instanceId="{e36081e2-ac3a-4564-be1d-57446ab83034}" type="POI" name="Shezaf" owner="RipPipPip" lat="30.9000548" lon="34.5472585" alt="500.0"/> 
+<LandmarkLocation instanceId="{77daa085-0733-42d0-8dd9-6697f72a0e0f}" type="POI" name="Modi`im" owner="RipPipPip" lat="31.9286050" lon="34.9963930" alt="500.0"/> 
+<LandmarkLocation instanceId="{215c0e95-a3e4-4091-b1c3-19f6c04f39cd}" type="POI" name="Chirbat Shifeiya" owner="RipPipPip" lat="33.0160382" lon="35.2357620" alt="500.0"/> 
+<LandmarkLocation instanceId="{fb314f5e-feef-4a59-92dc-71030e7960dd}" type="POI" name="Tel Te'omim" owner="RipPipPip" lat="32.4443985" lon="35.4942370" alt="500.0"/> 
+<LandmarkLocation instanceId="{97a7ade7-33a4-42bd-9ed2-5e13d173dfb9}" type="POI" name="Khirbat el Jammah" owner="RipPipPip" lat="31.6701392" lon="35.0273536" alt="500.0"/> 
+<LandmarkLocation instanceId="{d7caed6d-f3de-457f-86ad-33219b5f05e3}" type="POI" name="Samakh" owner="RipPipPip" lat="32.7000000" lon="35.5833330" alt="500.0"/> 
+<LandmarkLocation instanceId="{754d6008-c03f-4474-b296-dce7530704ac}" type="POI" name="Horbat Badid" owner="RipPipPip" lat="33.0517481" lon="35.3818628" alt="500.0"/> 
+<LandmarkLocation instanceId="{739fee57-daad-419e-85d5-402c7b15580d}" type="POI" name="Horbat Hanot Lavi" owner="RipPipPip" lat="32.7831931" lon="35.4501771" alt="500.0"/> 
+<LandmarkLocation instanceId="{ca1163e4-9478-4522-b550-5eaa629cbbcb}" type="POI" name="Horbat Nakar" owner="RipPipPip" lat="31.6587147" lon="35.0012754" alt="500.0"/> 
+<LandmarkLocation instanceId="{1d3e6fba-9035-4075-af20-2ad3ad867a01}" type="POI" name="Horbat Shammot" owner="RipPipPip" lat="32.5416670" lon="35.4388890" alt="500.0"/> 
+<LandmarkLocation instanceId="{e0e2b11f-7fb4-43b3-8a78-e4fb3b127e0b}" type="POI" name="`Ammuqa" owner="RipPipPip" lat="33.0030136" lon="35.5183912" alt="500.0"/> 
+<LandmarkLocation instanceId="{c21f699b-4eb5-4717-bbe9-136f83d508d0}" type="POI" name="Khirbat el Maq`ura" owner="RipPipPip" lat="31.6620076" lon="35.0200559" alt="500.0"/> 
+<LandmarkLocation instanceId="{dbce2eb5-39fa-40a2-9e75-99a1362271d5}" type="POI" name="Tel Shihan" owner="RipPipPip" lat="31.4500000" lon="34.5333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{120ed998-8456-4954-a8dd-dae3e0599a27}" type="POI" name="Horvat Kippodan" owner="RipPipPip" lat="32.5541672" lon="35.4541669" alt="500.0"/> 
+<LandmarkLocation instanceId="{de10eba0-644f-4478-9940-7c34f6878372}" type="POI" name="Horbat Qazra Diteverya" owner="RipPipPip" lat="32.7833330" lon="35.5333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{ce820d0c-9a02-4207-8785-a671b188717b}" type="POI" name="Marus" owner="RipPipPip" lat="33.0333520" lon="35.3666802" alt="500.0"/> 
+<LandmarkLocation instanceId="{56fe4e9b-52aa-4b23-afad-96febcfc895c}" type="POI" name="Shaanan" owner="RipPipPip" lat="31.5842182" lon="34.7558980" alt="500.0"/> 
+<LandmarkLocation instanceId="{cb922dbe-63b5-403c-8b6b-b5724e3b6c39}" type="POI" name="Horbat Ne`tar" owner="RipPipPip" lat="32.4402780" lon="35.4902780" alt="500.0"/> 
+<LandmarkLocation instanceId="{532bb618-8989-42cc-821f-68fd09919d24}" type="POI" name="Horbat Rashim" owner="RipPipPip" lat="33.0159117" lon="35.2672830" alt="500.0"/> 
+<LandmarkLocation instanceId="{9a5c7185-5cde-41ad-a11e-c04678a6c72c}" type="POI" name="Tel Kelekh" owner="RipPipPip" lat="31.4770728" lon="34.8284888" alt="500.0"/> 
+<LandmarkLocation instanceId="{c4303393-9f22-4c53-a8b7-79f3dea02fb0}" type="POI" name="Horbat Bilton" owner="RipPipPip" lat="33.0333716" lon="35.2166557" alt="500.0"/> 
+<LandmarkLocation instanceId="{da18d7b0-24de-45aa-8595-924298fc7083}" type="POI" name="Khirbat et Tawila" owner="RipPipPip" lat="32.4666670" lon="35.0500000" alt="500.0"/> 
+<LandmarkLocation instanceId="{a26de817-3a92-479e-9c88-7bf06a9a4f68}" type="POI" name="Tel Sokha" owner="RipPipPip" lat="32.4973367" lon="35.4587222" alt="500.0"/> 
+<LandmarkLocation instanceId="{2c30c1ab-1f17-40fa-9dcc-2b5db59fdb7d}" type="POI" name="Ahuzzat Naftali" owner="RipPipPip" lat="32.7964377" lon="35.4694538" alt="500.0"/> 
+<LandmarkLocation instanceId="{93ceb58b-594f-4a3d-ab10-80fe5bd69de0}" type="POI" name="Mezad Mohila" owner="RipPipPip" lat="30.6333330" lon="34.9166670" alt="500.0"/> 
+<LandmarkLocation instanceId="{74493de7-3972-46f3-aea9-3c3c7c1a7230}" type="POI" name="Tel Ein Hadda" owner="RipPipPip" lat="32.6843862" lon="35.4905046" alt="500.0"/> 
+<LandmarkLocation instanceId="{a6279152-9d2c-40fa-bda4-170aabc7a0c2}" type="POI" name="Tel Ya`oz" owner="RipPipPip" lat="31.9472220" lon="34.7247220" alt="500.0"/> 
+<LandmarkLocation instanceId="{f43f9623-3488-42f4-b5b4-c9f2ae0dd7f4}" type="POI" name="Tel Avel Beit Ma`akha" owner="RipPipPip" lat="33.2585425" lon="35.5803202" alt="500.0"/> 
+<LandmarkLocation instanceId="{42cfe00f-b00f-4736-a744-a2f5fa9aef06}" type="POI" name="Tel Zoran" owner="RipPipPip" lat="32.3039276" lon="34.9251482" alt="500.0"/> 
+<LandmarkLocation instanceId="{a84b0f2f-c0b8-4d7a-ad57-c7aba64f8ac6}" type="POI" name="Horbat Moraggot" owner="RipPipPip" lat="33.0270861" lon="35.3034884" alt="500.0"/> 
+<LandmarkLocation instanceId="{a2cc8d3d-f4f6-4b9e-b08c-591354116eb0}" type="POI" name="Et Tell" owner="RipPipPip" lat="33.0166670" lon="35.1333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{0e096e28-3740-469b-82cb-fc407348d4c6}" type="POI" name="Bitanya" owner="RipPipPip" lat="32.7000001" lon="35.5666670" alt="500.0"/> 
+<LandmarkLocation instanceId="{b93369ce-cbb7-4092-a9a7-fd36005c3e14}" type="POI" name="Horbat Sakhar" owner="RipPipPip" lat="32.9500000" lon="35.6000000" alt="500.0"/> 
+<LandmarkLocation instanceId="{f7b492be-b6f7-4dcf-a133-3cc61efa1e68}" type="POI" name="Horbat Qamal" owner="RipPipPip" lat="32.6594103" lon="35.4664988" alt="500.0"/> 
+<LandmarkLocation instanceId="{b675631c-9a6c-4397-b927-81f568ea634f}" type="POI" name="Tel Sheqafim" owner="RipPipPip" lat="32.4166670" lon="35.5166670" alt="500.0"/> 
+<LandmarkLocation instanceId="{e518a5ee-514a-4b78-a8a6-76e14cfe5cbe}" type="POI" name="Horbat Mamzi" owner="RipPipPip" lat="33.2333330" lon="35.6166670" alt="500.0"/> 
+<LandmarkLocation instanceId="{4a2f02f2-5da1-4769-b9c8-11906f7d87ca}" type="POI" name="Horbat Za`aq" owner="RipPipPip" lat="31.4142704" lon="34.8682861" alt="500.0"/> 
+<LandmarkLocation instanceId="{2c48356f-4632-45d2-b5ad-aa880ba5861c}" type="POI" name="Dallata" owner="RipPipPip" lat="33.0166670" lon="35.5000000" alt="500.0"/> 
+<LandmarkLocation instanceId="{41aea51f-74ea-410b-a10a-84b3c55653f7}" type="POI" name="Mezad Zurim" owner="RipPipPip" lat="31.0245828" lon="35.3128453" alt="500.0"/> 
+<LandmarkLocation instanceId="{9f2b0850-f944-4d86-a768-4c0ee3fbebad}" type="POI" name="Horbat Yavne Yam" owner="RipPipPip" lat="31.9227288" lon="34.6933177" alt="500.0"/> 
+<LandmarkLocation instanceId="{82660397-3638-45f4-968c-c19ecff0fb61}" type="POI" name="Tel Da`ok" owner="RipPipPip" lat="32.8666670" lon="35.1166670" alt="500.0"/> 
+<LandmarkLocation instanceId="{134b5b3f-6a31-4bba-8ef2-085db00811a7}" type="POI" name="Tel Mefallesim" owner="RipPipPip" lat="31.4999881" lon="34.5500317" alt="500.0"/> 
+<LandmarkLocation instanceId="{7b5b18d6-02f8-4277-8cfb-3bc7d47250cf}" type="POI" name="Khirbat Hittin" owner="RipPipPip" lat="32.7983857" lon="35.4597222" alt="500.0"/> 
+<LandmarkLocation instanceId="{31af74d4-38ac-45d0-bc9b-e77c2d4f26c7}" type="POI" name="Horbat Qesari" owner="RipPipPip" lat="32.4987775" lon="34.8912663" alt="500.0"/> 
+<LandmarkLocation instanceId="{bf296333-08dd-4458-b334-31a831708f5c}" type="POI" name="Tel Shoqet" owner="RipPipPip" lat="31.3094686" lon="34.9099533" alt="500.0"/> 
+<LandmarkLocation instanceId="{35dd6a9e-1b10-4c55-88ad-6f8cb5be9b80}" type="POI" name="Tel Marwa" owner="RipPipPip" lat="33.0180269" lon="35.2399384" alt="500.0"/> 
+<LandmarkLocation instanceId="{1a3056cb-dcbe-4690-b78f-a6a1e92d3222}" type="POI" name="Nahalaot" owner="RipPipPip" lat="32.6308596" lon="35.1313909" alt="500.0"/> 
+<LandmarkLocation instanceId="{a6010f17-3d1f-4106-806c-498e18e6887c}" type="POI" name="Tel Sha`ar" owner="RipPipPip" lat="33.0730476" lon="35.3318390" alt="500.0"/> 
+<LandmarkLocation instanceId="{a617bb1a-3d97-43e5-bcb4-f6d36ebf71c9}" type="POI" name="Tel Lakhish" owner="RipPipPip" lat="31.5655212" lon="34.8491898" alt="500.0"/> 
+<LandmarkLocation instanceId="{7d7033cc-c745-49d9-84a3-135ac218ff98}" type="POI" name="Tel Shem" owner="RipPipPip" lat="32.6666670" lon="35.1500000" alt="500.0"/> 
+<LandmarkLocation instanceId="{e983b47d-8053-4173-9338-a094dffefe08}" type="POI" name="Horbat Sehed" owner="RipPipPip" lat="32.5666670" lon="35.4902780" alt="500.0"/> 
+<LandmarkLocation instanceId="{f21e3f4c-adb7-4fe9-afe4-4a76c973236c}" type="POI" name="Horbat Qerumit" owner="RipPipPip" lat="31.6414870" lon="34.9797393" alt="500.0"/> 
+<LandmarkLocation instanceId="{8b229291-0217-4c8c-befa-4a20ed67fdae}" type="POI" name="Horbat Kfar Soreq" owner="RipPipPip" lat="31.7789453" lon="34.9521983" alt="500.0"/> 
+<LandmarkLocation instanceId="{a7d3b566-4990-4bcf-bd12-933440458d32}" type="POI" name="Tel Regev" owner="RipPipPip" lat="32.7583330" lon="35.0900000" alt="500.0"/> 
+<LandmarkLocation instanceId="{1b496724-bdcb-40f3-a924-14dc51a76e76}" type="POI" name="Khirbat Abu `Amud" owner="RipPipPip" lat="31.4166556" lon="34.8666777" alt="500.0"/> 
+<LandmarkLocation instanceId="{3395103e-2e62-4756-acaf-98654f1b359d}" type="POI" name="Horbat Te'ena" owner="RipPipPip" lat="32.0791177" lon="34.9835036" alt="500.0"/> 
+<LandmarkLocation instanceId="{da0a8f09-4ca0-4950-a68c-17a7d8622dbe}" type="POI" name="Hela" owner="RipPipPip" lat="32.7916670" lon="35.4763890" alt="500.0"/> 
+<LandmarkLocation instanceId="{7f8defa4-04c9-4eb7-b3ce-b9f0be96fc1b}" type="POI" name="El Waraqani" owner="RipPipPip" lat="32.6333330" lon="35.2000000" alt="500.0"/> 
+<LandmarkLocation instanceId="{d5ff3af9-389e-4cdc-8f0c-38d93f3fc373}" type="POI" name="Horbat Manot" owner="RipPipPip" lat="33.0399951" lon="35.1493098" alt="500.0"/> 
+<LandmarkLocation instanceId="{9a097d87-ba75-4550-a4b5-cc05afe6e1dd}" type="POI" name="Mezad Mishhor" owner="RipPipPip" lat="30.6212995" lon="34.9192543" alt="500.0"/> 
+<LandmarkLocation instanceId="{5334416a-a4bf-4ea2-8c88-949dd21abe2e}" type="POI" name="Tel Nufar" owner="RipPipPip" lat="32.4472220" lon="35.4916670" alt="500.0"/> 
+<LandmarkLocation instanceId="{b26c037e-d74f-4c2e-a2ee-6e9df3770e53}" type="POI" name="Har Qedumim" owner="RipPipPip" lat="32.6833083" lon="35.3000316" alt="500.0"/> 
+<LandmarkLocation instanceId="{bd7f1267-cbb8-41c1-8742-d97914dcb433}" type="POI" name="Tel Qana" owner="RipPipPip" lat="32.1297417" lon="34.8892174" alt="500.0"/> 
+<LandmarkLocation instanceId="{028f9225-8f6d-4ede-9531-2d2838de744c}" type="POI" name="Tel Qidda" owner="RipPipPip" lat="33.0218945" lon="35.2443988" alt="500.0"/> 
+<LandmarkLocation instanceId="{2d409e85-8845-416b-af73-d8180fde06af}" type="POI" name="Horbat Rosha" owner="RipPipPip" lat="33.0506331" lon="35.3056584" alt="500.0"/> 
+<LandmarkLocation instanceId="{b1477c3f-d118-46ca-bfc5-2670c67e8eec}" type="POI" name="Mezad Mahmal" owner="RipPipPip" lat="30.6885221" lon="34.9285054" alt="500.0"/> 
+<LandmarkLocation instanceId="{0f430f89-6568-40ee-812e-6cbb4d162f21}" type="POI" name="El Kafrin" owner="RipPipPip" lat="32.5737946" lon="35.1189724" alt="500.0"/> 
+<LandmarkLocation instanceId="{a8fc3497-4f71-4a3f-bdc1-ace61db5bb3c}" type="POI" name="Horbat Qantar" owner="RipPipPip" lat="32.5100201" lon="35.4863415" alt="500.0"/> 
+<LandmarkLocation instanceId="{f211cf79-5975-4bf8-a2f1-55ef4b3d283d}" type="POI" name="Horbat Riv" owner="RipPipPip" lat="32.6291671" lon="35.4666669" alt="500.0"/> 
+<LandmarkLocation instanceId="{537c69a8-92f3-4aed-ab68-84be93bdcacc}" type="POI" name="Avel Beit Ma`akha" owner="RipPipPip" lat="33.2567041" lon="35.5804152" alt="500.0"/> 
+<LandmarkLocation instanceId="{682d95d0-d16a-46c2-af70-f5345842c8e8}" type="POI" name="Mezad Qarha" owner="RipPipPip" lat="33.0207719" lon="35.2983880" alt="500.0"/> 
+<LandmarkLocation instanceId="{a37606cc-aec3-4099-b892-97501e8f02e1}" type="POI" name="Tel Arshaf" owner="RipPipPip" lat="32.1952100" lon="34.8066381" alt="500.0"/> 
+<LandmarkLocation instanceId="{e137810c-de61-4284-b694-d035bc959386}" type="POI" name="Tel Agra" owner="RipPipPip" lat="31.5015199" lon="34.8732588" alt="500.0"/> 
+<LandmarkLocation instanceId="{eaed4bf2-bbe7-4db7-b677-450fec29d827}" type="POI" name="Horbat Nahat" owner="RipPipPip" lat="33.0400467" lon="35.2328145" alt="500.0"/> 
+<LandmarkLocation instanceId="{4c14156b-afcd-4be1-b03b-6cd0f942176b}" type="POI" name="Horbat Sahar" owner="RipPipPip" lat="32.6171471" lon="35.3751343" alt="500.0"/> 
+<LandmarkLocation instanceId="{80a13611-1acd-4cd3-9467-b81a230581ab}" type="POI" name="Tel Chawara" owner="RipPipPip" lat="32.7666670" lon="35.6500000" alt="500.0"/> 
+<LandmarkLocation instanceId="{9e16bc41-4dfa-4c86-9381-502d00d749de}" type="POI" name="Horbat `Alwa" owner="RipPipPip" lat="33.0366664" lon="35.4521979" alt="500.0"/> 
+<LandmarkLocation instanceId="{19d7785d-4a66-444a-8239-f4806652834b}" type="POI" name="Horbat Qazyon" owner="RipPipPip" lat="33.0428502" lon="35.5295546" alt="500.0"/> 
+<LandmarkLocation instanceId="{3d2a4762-cbae-4d74-8c98-f0aa2093d68a}" type="POI" name="I`ribbin" owner="RipPipPip" lat="33.0832990" lon="35.2219226" alt="500.0"/> 
+<LandmarkLocation instanceId="{4a575fba-625a-4431-ac2d-36e2e4eed8dc}" type="POI" name="Horbat Ze'ev" owner="RipPipPip" lat="32.6416670" lon="35.4805559" alt="500.0"/> 
+<LandmarkLocation instanceId="{e6bd9814-c56c-4e28-b877-c37164dc3b81}" type="POI" name="Tel Nahal" owner="RipPipPip" lat="32.7999993" lon="35.0666714" alt="500.0"/> 
+<LandmarkLocation instanceId="{0011f6af-39e5-4be3-9631-c1918636ea86}" type="POI" name="Horbat Zawit" owner="RipPipPip" lat="33.0333330" lon="35.2833330" alt="500.0"/> 
+<LandmarkLocation instanceId="{640b75cc-0937-4a5e-b7ab-aa6b997c30b1}" type="POI" name="Tel Beror" owner="RipPipPip" lat="31.5662496" lon="34.6316793" alt="500.0"/> 
+<LandmarkLocation instanceId="{a8915ea8-4ec4-49b6-9a74-53e206ca2e54}" type="POI" name="Horbat Pundaq" owner="RipPipPip" lat="32.0344119" lon="34.9675243" alt="500.0"/> 
+<LandmarkLocation instanceId="{39f17f22-e35a-4d4d-801b-f865309ccfb6}" type="POI" name="Tel Zeton" owner="RipPipPip" lat="32.0995587" lon="34.8370119" alt="500.0"/> 
+<LandmarkLocation instanceId="{5f5ef1ed-3f64-45a9-bc01-c846b8511681}" type="POI" name="Abu Shusha" owner="RipPipPip" lat="32.6166671" lon="35.1333329" alt="500.0"/> 
+<LandmarkLocation instanceId="{17a9cc8f-4f26-40c0-8146-cc3fd76e5d15}" type="POI" name="Mezad Rahav" owner="RipPipPip" lat="33.0746307" lon="35.3182793" alt="500.0"/> 
+<LandmarkLocation instanceId="{7e83115a-19d4-4afb-94ae-6c325b786aaf}" type="POI" name="Horbat Gevul" owner="RipPipPip" lat="32.5671536" lon="35.5105287" alt="500.0"/> 
+<LandmarkLocation instanceId="{1c613317-bfb3-4b61-800c-19db2654b7cf}" type="POI" name="El Mujeidil" owner="RipPipPip" lat="32.6780560" lon="35.2447220" alt="500.0"/> 
+<LandmarkLocation instanceId="{fb426004-dd69-4866-a472-a1efc002c2f2}" type="POI" name="Tel Naharon" owner="RipPipPip" lat="32.5082649" lon="35.4943666" alt="500.0"/> 
+<LandmarkLocation instanceId="{41d62229-f6ba-4bc6-8215-73e664451464}" type="POI" name="Horbat Aqavya" owner="RipPipPip" lat="32.9333330" lon="35.4999999" alt="500.0"/> 
+<LandmarkLocation instanceId="{fe020a5e-daec-4170-b299-51a5a0f41c83}" type="POI" name="Tel Par" owner="RipPipPip" lat="32.7708330" lon="35.1044440" alt="500.0"/> 
+<LandmarkLocation instanceId="{772a52a7-7d56-4ca6-947b-d5616f75a179}" type="POI" name="Tel Yizre'el" owner="RipPipPip" lat="32.5576387" lon="35.3282848" alt="500.0"/> 
+<LandmarkLocation instanceId="{5e1e01b0-d3bd-4b1f-b0db-ded809c444a1}" type="POI" name="Horbat Parwa" owner="RipPipPip" lat="32.4625000" lon="35.4972220" alt="500.0"/> 
+<LandmarkLocation instanceId="{74721a7a-d4e5-4c33-868b-261561d1a8fc}" type="POI" name="Sarafand" owner="RipPipPip" lat="32.6458319" lon="34.9354618" alt="500.0"/> 
+<LandmarkLocation instanceId="{bea73688-0156-4d02-9395-e1b0bda2ab76}" type="POI" name="Montfort" owner="RipPipPip" lat="33.0443649" lon="35.2266006" alt="500.0"/> 
+<LandmarkLocation instanceId="{4f03be3e-7342-48af-a28e-88de16b0add3}" type="POI" name="Tel Azekah" owner="RipPipPip" lat="31.7002258" lon="34.9356956" alt="500.0"/> 
+<LandmarkLocation instanceId="{ae576e9c-4d1e-4766-a840-d90565b5528f}" type="POI" name="Horbat Shamrit" owner="RipPipPip" lat="32.4388890" lon="35.4888890" alt="500.0"/> 
+<LandmarkLocation instanceId="{79f44c2f-7021-4324-9ca9-138464f668a2}" type="POI" name="Migdal Afeq (Mirabel Fortress) Ruins" owner="RipPipPip" lat="32.0808063" lon="34.9571024" alt="500.0"/> 
+<LandmarkLocation instanceId="{afca8f82-ee70-4809-9dbe-cb6cc025872c}" type="POI" name="Tel `Irit" owner="RipPipPip" lat="31.5000027" lon="34.5499544" alt="500.0"/> 
+<LandmarkLocation instanceId="{ca53ed04-5c58-4cbc-bd19-c059e6675c64}" type="POI" name="Nuris" owner="RipPipPip" lat="32.5333330" lon="35.3666670" alt="500.0"/> 
+<LandmarkLocation instanceId="{5a23696e-8890-4a70-9be5-568e95325de8}" type="POI" name="Sheikh Bureik" owner="RipPipPip" lat="32.6739243" lon="34.9390275" alt="500.0"/> 
+<LandmarkLocation instanceId="{795c4899-957d-4405-a2a2-783865eb677c}" type="POI" name="Horbat Sahada" owner="RipPipPip" lat="32.5694440" lon="35.4916670" alt="500.0"/> 
+<LandmarkLocation instanceId="{2f675dbf-d014-4596-b7e6-ef8edf293fa1}" type="POI" name="Tel Salwim" owner="RipPipPip" lat="32.5402780" lon="35.4069441" alt="500.0"/> 
+<LandmarkLocation instanceId="{a37f5cd4-c98d-4c79-bba6-61610fc56597}" type="POI" name="Horbat Endor" owner="RipPipPip" lat="32.6375001" lon="35.3805559" alt="500.0"/> 
+<LandmarkLocation instanceId="{c0b98484-a03d-4e89-b770-c2a900d488b9}" type="POI" name="Tel Yosef HaYeshana" owner="RipPipPip" lat="32.5321321" lon="35.4044231" alt="500.0"/> 
+<LandmarkLocation instanceId="{aba948ba-b8d6-4b91-8455-e3815bf19c5d}" type="POI" name="Tel Narbeta" owner="RipPipPip" lat="32.4500001" lon="35.0333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{bba864c7-5764-4a8d-b8e7-d30e5c7167c3}" type="POI" name="Horbat Qedesh" owner="RipPipPip" lat="32.7333330" lon="35.5500000" alt="500.0"/> 
+<LandmarkLocation instanceId="{22651c86-c596-4113-acdc-7d9cc01abc3c}" type="POI" name="Tel Turmus" owner="RipPipPip" lat="33.2135243" lon="35.6481361" alt="500.0"/> 
+<LandmarkLocation instanceId="{d7fb7313-20f1-4123-be50-da90e2d5f885}" type="POI" name="Kawkaba" owner="RipPipPip" lat="31.6303425" lon="34.6620891" alt="500.0"/> 
+<LandmarkLocation instanceId="{e9619f6f-1b01-40d9-aadb-41f840b905b2}" type="POI" name="Tel Mor" owner="RipPipPip" lat="31.8230961" lon="34.6564616" alt="500.0"/> 
+<LandmarkLocation instanceId="{5c448468-e0c1-452d-a020-3f83595b7f52}" type="POI" name="Rosh Nizzana" owner="RipPipPip" lat="30.8763491" lon="34.4329133" alt="500.0"/> 
+<LandmarkLocation instanceId="{09a64f9d-426e-4155-a27f-739f16839210}" type="POI" name="Mazor" owner="RipPipPip" lat="32.0466080" lon="34.9461670" alt="500.0"/> 
+<LandmarkLocation instanceId="{be13d453-aada-46fb-b8ab-9337e94c2114}" type="POI" name="Tel Hamid" owner="RipPipPip" lat="31.8997220" lon="34.8922220" alt="500.0"/> 
+<LandmarkLocation instanceId="{24fe3b10-eab2-431e-826c-76875fa66b44}" type="POI" name="Horbat `Oreva" owner="RipPipPip" lat="31.6650942" lon="35.0232263" alt="500.0"/> 
+<LandmarkLocation instanceId="{c0ecb9fe-d36e-47b8-afd2-7de2615b4e96}" type="POI" name="Tel Bad" owner="RipPipPip" lat="33.0645248" lon="35.1761558" alt="500.0"/> 
+<LandmarkLocation instanceId="{e980fca0-eed8-4d7c-98fb-c1f3d04b5419}" type="POI" name="Tel Afeq" owner="RipPipPip" lat="32.1000000" lon="34.9333330" alt="500.0"/> 
+<LandmarkLocation instanceId="{e2855f07-81a2-477e-a172-e84064c33986}" type="POI" name="Banias" owner="RipPipPip" lat="33.2487821" lon="35.6946764" alt="500.0"/> 
+<LandmarkLocation instanceId="{d104fa35-f36f-4177-aeec-d49bd29a01ba}" type="POI" name="Bell Cave" owner="RipPipPip" lat="31.6033577" lon="34.9032981" alt="500.0"/> 
+<LandmarkLocation instanceId="{8f53c17f-dc7d-4165-8255-ff6d6ce85464}" type="POI" name="(empty)" owner="RipPipPip" lat="31.5931975" lon="34.8952506" alt="500.0"/> 
+<LandmarkLocation instanceId="{0f4aadd5-4b5f-4546-850f-ee4826ca551f}" type="POI" name="מצפור נגב כנרות" owner="RipPipPip" lat="32.6881218" lon="35.6497965" alt="500.0"/> 
+<LandmarkLocation instanceId="{ffdbfae0-2fd3-4190-a38b-3e44b37f3cc0}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0848342" lon="34.7916094" alt="500.0"/> 
+<LandmarkLocation instanceId="{6dd3b2c9-66f8-4025-802f-1e646d6caeae}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0937362" lon="34.7964250" alt="500.0"/> 
+<LandmarkLocation instanceId="{cfa32448-955b-45c8-9daf-a05dc73fbf81}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0943170" lon="34.7820290" alt="500.0"/> 
+<LandmarkLocation instanceId="{d782b7cf-cfcf-4a73-9dc2-4ede2ff5e709}" type="POI" name="Ugdat HaPlada" owner="RipPipPip" lat="31.2093080" lon="34.3079806" alt="500.0"/> 
+<LandmarkLocation instanceId="{d3e88382-6991-458a-9559-2798a9197a81}" type="POI" name="Yehi`am fortress" owner="RipPipPip" lat="32.9939790" lon="35.2223396" alt="500.0"/> 
+<LandmarkLocation instanceId="{487f4b76-3442-431a-a405-b20c5db2afee}" type="POI" name="Horbat Ta`mur" owner="RipPipPip" lat="32.0499235" lon="35.0000461" alt="500.0"/> 
+<LandmarkLocation instanceId="{f7a9fa8b-99cd-43a3-bd95-e6eaa66c7c58}" type="POI" name="Hagana" owner="RipPipPip" lat="32.2553858" lon="34.8374989" alt="500.0"/> 
+<LandmarkLocation instanceId="{090728d9-d413-4b13-b689-52ecf5a175e4}" type="POI" name="Bedouin warrior monument" owner="RipPipPip" lat="32.7660824" lon="35.2443359" alt="500.0"/> 
+<LandmarkLocation instanceId="{f92aaa30-db83-4ad5-bd8e-3fc4f626630d}" type="POI" name="Oz 77" owner="RipPipPip" lat="33.1773224" lon="35.7980156" alt="500.0"/> 
+<LandmarkLocation instanceId="{d63b3eb0-05cd-498c-acb8-b2dcb8dd51eb}" type="POI" name="Helicopters Disaster Site" owner="RipPipPip" lat="33.2226864" lon="35.6411382" alt="500.0"/> 
+<LandmarkLocation instanceId="{ec597aab-3a29-4c0b-8d1e-a3516b608d9b}" type="POI" name="(empty)" owner="RipPipPip" lat="31.4689827" lon="35.3908845" alt="500.0"/> 
+<LandmarkLocation instanceId="{19c87fc5-8f14-4261-b2a3-078a683e0ee0}" type="POI" name="Chalcolithic Temple" owner="RipPipPip" lat="31.4684486" lon="35.3883820" alt="500.0"/> 
+<LandmarkLocation instanceId="{28be2721-a5ec-4341-aaff-93f6d69a03bf}" type="POI" name="(empty)" owner="RipPipPip" lat="31.4711715" lon="35.3927127" alt="500.0"/> 
+<LandmarkLocation instanceId="{1520659a-00b3-427d-95fb-de2b95d08785}" type="POI" name="Yesha Junction" owner="RipPipPip" lat="33.1137123" lon="35.5553360" alt="500.0"/> 
+<LandmarkLocation instanceId="{15b78820-49cb-4401-80b4-a2d8866a813a}" type="POI" name="Canaanite Gate" owner="RipPipPip" lat="33.2478606" lon="35.6547785" alt="500.0"/> 
+<LandmarkLocation instanceId="{e1c5e5a6-a5df-4869-aa9f-748299fae0b3}" type="POI" name="Hurvat Abu Haf" owner="RipPipPip" lat="31.3812280" lon="34.8389539" alt="500.0"/> 
+<LandmarkLocation instanceId="{e81f0a62-4ac1-4f03-81de-a814a15ce770}" type="POI" name="Horbat Tela" owner="RipPipPip" lat="31.3821577" lon="34.8689271" alt="500.0"/> 
+<LandmarkLocation instanceId="{2b7ece91-bdff-4705-a404-494e4516e9bb}" type="POI" name="Tel Afek" owner="RipPipPip" lat="32.1051997" lon="34.9298034" alt="500.0"/> 
+<LandmarkLocation instanceId="{3cbd415c-402c-4f74-9afa-3ecc6e30d8e4}" type="POI" name="Mamilla Pool" owner="RipPipPip" lat="31.7780085" lon="35.2204908" alt="500.0"/> 
+<LandmarkLocation instanceId="{c90ed610-3e1a-4876-a484-1cdda3b2191d}" type="POI" name="Thalitakumi" owner="RipPipPip" lat="31.7815266" lon="35.2163620" alt="500.0"/> 
+<LandmarkLocation instanceId="{e5d6638a-2d9b-4866-a99b-e6d857ec0521}" type="POI" name="Cardo" owner="RipPipPip" lat="31.7750291" lon="35.2308996" alt="500.0"/> 
+<LandmarkLocation instanceId="{a46e78e8-fe9b-4722-8e70-745b42a5d4f8}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7895768" lon="35.2041717" alt="500.0"/> 
+<LandmarkLocation instanceId="{4c21ac18-ab7c-4099-b7a2-611a0dc49c8b}" type="POI" name="Al Mamsurah" owner="RipPipPip" lat="33.1412832" lon="35.7965403" alt="500.0"/> 
+<LandmarkLocation instanceId="{f5cec9da-e0c7-4405-818c-3a11d5c55223}" type="POI" name="Al Ghassaniyah" owner="RipPipPip" lat="33.0736111" lon="35.8166666" alt="500.0"/> 
+<LandmarkLocation instanceId="{7080f735-b070-425a-9b21-03f57142ea01}" type="POI" name="Kawas" owner="RipPipPip" lat="33.0416666" lon="35.8138888" alt="500.0"/> 
+<LandmarkLocation instanceId="{5b3132f4-1098-40ff-bcb2-15de6f9a620c}" type="POI" name="Khuwaykhah" owner="RipPipPip" lat="33.0659086" lon="35.7914536" alt="500.0"/> 
+<LandmarkLocation instanceId="{110fca14-6968-49e3-9992-1659bb6060f1}" type="POI" name="Mumisiyah" owner="RipPipPip" lat="33.0765536" lon="35.8317940" alt="500.0"/> 
+<LandmarkLocation instanceId="{351addc0-4e6c-48f8-a02a-5e72624009ce}" type="POI" name="`Ayn al Wardah" owner="RipPipPip" lat="33.0343977" lon="35.7842438" alt="500.0"/> 
+<LandmarkLocation instanceId="{6c4763da-738d-4f49-9a81-7994c881e55a}" type="POI" name="Pazra" owner="RipPipPip" lat="33.0174145" lon="35.8314507" alt="500.0"/> 
+<LandmarkLocation instanceId="{10243a80-218f-442f-8647-0132bfab4bfb}" type="POI" name="Al Fahham" owner="RipPipPip" lat="32.9688878" lon="35.8248278" alt="500.0"/> 
+<LandmarkLocation instanceId="{eac6a182-aef6-4cba-b97f-a7cbc4e61713}" type="POI" name="Al Jukhadar" owner="RipPipPip" lat="32.9166668" lon="35.8499999" alt="500.0"/> 
+<LandmarkLocation instanceId="{67463f2a-98a4-4084-96e4-958bfb217485}" type="POI" name="Beit HaBeton" owner="RipPipPip" lat="32.1186752" lon="34.9131660" alt="500.0"/> 
+<LandmarkLocation instanceId="{07949713-5155-40d3-9653-750252dbf903}" type="POI" name="Hurvat Saflul" owner="RipPipPip" lat="32.5558074" lon="35.1077173" alt="500.0"/> 
+<LandmarkLocation instanceId="{54d9df75-03ee-426a-8f5c-376bf5392876}" type="POI" name="Tel Burga" owner="RipPipPip" lat="32.5219441" lon="34.9655817" alt="500.0"/> 
+<LandmarkLocation instanceId="{bc1d201b-2272-4c6a-b59e-d5a22199c781}" type="POI" name="Dabbusiyah" owner="RipPipPip" lat="32.7500000" lon="35.7166668" alt="500.0"/> 
+<LandmarkLocation instanceId="{f506217d-4c35-4cbd-97e8-9d772b362975}" type="POI" name="Jibbin" owner="RipPipPip" lat="32.7883993" lon="35.7655327" alt="500.0"/> 
+<LandmarkLocation instanceId="{e467a11f-6abb-4a9e-ab71-c53bdae7cce5}" type="POI" name="Al Yaqoussa" owner="RipPipPip" lat="32.7713689" lon="35.7402985" alt="500.0"/> 
+<LandmarkLocation instanceId="{f5e85929-1311-4ed4-9331-c75f8d124978}" type="POI" name="Kafr Harib" owner="RipPipPip" lat="32.7596779" lon="35.6592291" alt="500.0"/> 
+<LandmarkLocation instanceId="{45c9c1cb-bcbd-4f41-8592-eee096559f1f}" type="POI" name="Rujm al Yaqoussa" owner="RipPipPip" lat="32.7710802" lon="35.7396119" alt="500.0"/> 
+<LandmarkLocation instanceId="{2241294f-c219-4117-9ec5-e031da71a19b}" type="POI" name="Kafr al Ma'" owner="RipPipPip" lat="32.8100001" lon="35.8202777" alt="500.0"/> 
+<LandmarkLocation instanceId="{c2f1ca2a-ff15-4200-b0f5-9f755fba9a7b}" type="POI" name="Mintaqat az Zawiyah" owner="RipPipPip" lat="32.7500000" lon="35.7499999" alt="500.0"/> 
+<LandmarkLocation instanceId="{a5c1091c-7652-46f0-b840-0f477d384438}" type="POI" name="`Ayn Kabritiyah" owner="RipPipPip" lat="32.7194445" lon="35.6888890" alt="500.0"/> 
+<LandmarkLocation instanceId="{d2ac7f76-2ef0-44dd-bc06-d30ecb0ecaf2}" type="POI" name="Mazra`at Nab" owner="RipPipPip" lat="32.8276434" lon="35.7883637" alt="500.0"/> 
+<LandmarkLocation instanceId="{365fe6a3-2832-4bfa-8450-6cba4d9da06f}" type="POI" name="Haytal" owner="RipPipPip" lat="32.7987891" lon="35.7794373" alt="500.0"/> 
+<LandmarkLocation instanceId="{c4bb010c-6d07-4a12-95a3-2b7e56e46f17}" type="POI" name="Khirbat `Uyun" owner="RipPipPip" lat="32.7192471" lon="35.6688874" alt="500.0"/> 
+<LandmarkLocation instanceId="{153c084c-e2f3-441c-9da3-4be7aaef4204}" type="POI" name="Khirbat el Hammam" owner="RipPipPip" lat="31.6239340" lon="34.9655466" alt="500.0"/> 
+<LandmarkLocation instanceId="{cc6470ad-1262-4099-8de7-601b4c0413c7}" type="POI" name="Khirbat Umm el Qutn" owner="RipPipPip" lat="31.6248838" lon="34.9564262" alt="500.0"/> 
+<LandmarkLocation instanceId="{b2612e5b-1dd0-43c9-92b9-a31cfc3ca0ef}" type="POI" name="Horbat Kfar Bish" owner="RipPipPip" lat="31.6132590" lon="34.9531496" alt="500.0"/> 
+<LandmarkLocation instanceId="{6d368cc9-d3e1-44e6-a80c-dbb077b41394}" type="POI" name="Horbat Gibor" owner="RipPipPip" lat="31.6128204" lon="34.9658525" alt="500.0"/> 
+<LandmarkLocation instanceId="{c8c465d5-d80d-41c5-9581-e8ae17cf7eeb}" type="POI" name="Avdat" owner="RipPipPip" lat="30.7940960" lon="34.7731819" alt="500.0"/> 
+<LandmarkLocation instanceId="{bbf876af-256e-49ed-9b70-da931c72d1ca}" type="POI" name="Ink Flag" owner="RipPipPip" lat="29.5490747" lon="34.9532767" alt="500.0"/> 
+<LandmarkLocation instanceId="{c0b0b4e4-c8b4-4b7c-b999-32bc8756b805}" type="POI" name="Nimrod Fortress" owner="RipPipPip" lat="33.2527280" lon="35.7148766" alt="500.0"/> 
+<LandmarkLocation instanceId="{40d028c8-e5b8-4188-8a12-7842232a9800}" type="POI" name="Ammunition Hill Memorial" owner="RipPipPip" lat="31.7981591" lon="35.2278400" alt="500.0"/> 
+<LandmarkLocation instanceId="{56ed0390-b6b8-409c-8867-6961e265a008}" type="POI" name="Tel Tzoba" owner="RipPipPip" lat="31.7848554" lon="35.1257839" alt="500.0"/> 
+<LandmarkLocation instanceId="{bb5e475a-cc6b-4a52-a394-9dc3e6c96d02}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7845367" lon="35.1304484" alt="500.0"/> 
+<LandmarkLocation instanceId="{c33afd4a-7b1d-4e14-a17f-8c445a25dd8a}" type="POI" name="Rujum el Hiri" owner="RipPipPip" lat="32.9086513" lon="35.8010370" alt="500.0"/> 
+<LandmarkLocation instanceId="{a25f20f2-3e98-4ee1-bdc0-feb0f364cf18}" type="POI" name="Holocaust Monument" owner="RipPipPip" lat="31.9081833" lon="34.8190529" alt="500.0"/> 
+<LandmarkLocation instanceId="{4cc50efb-efec-43db-9101-8fc3c57cccb3}" type="POI" name="Horvat Marot" owner="RipPipPip" lat="33.0310965" lon="35.5261703" alt="500.0"/> 
+<LandmarkLocation instanceId="{f2a5dff7-b971-4422-bd36-d7639ed7ce49}" type="POI" name="Bajuriya" owner="RipPipPip" lat="32.8654222" lon="35.7906674" alt="500.0"/> 
+<LandmarkLocation instanceId="{318f118e-61d3-484e-be65-13cd25f37009}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9258384" lon="34.7984103" alt="500.0"/> 
+<LandmarkLocation instanceId="{82f96163-af27-47f6-93a9-f0cfd1badbcb}" type="POI" name="Hativa 37" owner="RipPipPip" lat="32.9987906" lon="35.4698989" alt="500.0"/> 
+<LandmarkLocation instanceId="{a28a1560-3461-4666-8c20-5f4c0e1db10b}" type="POI" name="Horbat Amar" owner="RipPipPip" lat="32.0316651" lon="34.9640696" alt="500.0"/> 
+<LandmarkLocation instanceId="{309ce3e2-c926-40f7-90dd-d2e09110efc9}" type="POI" name="Benjamin's Tomb" owner="RipPipPip" lat="32.1789456" lon="34.9450788" alt="500.0"/> 
+<LandmarkLocation instanceId="{41b94eb5-e2ad-4ecd-afd2-442ea8df4b4f}" type="POI" name="Horvat Akav" owner="RipPipPip" lat="32.5437381" lon="34.9356421" alt="500.0"/> 
+<LandmarkLocation instanceId="{b3060ae7-110d-4ad7-9012-75e9e41e051d}" type="POI" name="Mishmar HaGvul" owner="RipPipPip" lat="32.4825096" lon="35.0257072" alt="500.0"/> 
+<LandmarkLocation instanceId="{47c49d64-40ee-414c-a02a-c2d98e475cef}" type="POI" name="Ashurian fortress" owner="RipPipPip" lat="31.9751993" lon="34.7648999" alt="500.0"/> 
+<LandmarkLocation instanceId="{417cc6e1-c4cc-404f-8b77-5bba6dab35d3}" type="POI" name="Tel Ze'evim" owner="RipPipPip" lat="32.4507872" lon="35.0454255" alt="500.0"/> 
+<LandmarkLocation instanceId="{f62db0af-4212-4126-9135-649d5963a47b}" type="POI" name="Horvat Esad" owner="RipPipPip" lat="32.8315694" lon="35.4247784" alt="500.0"/> 
+<LandmarkLocation instanceId="{339608bb-ed33-49d9-acc9-11c641315b17}" type="POI" name="Horvat Ruma" owner="RipPipPip" lat="32.7887193" lon="35.2925992" alt="500.0"/> 
+<LandmarkLocation instanceId="{aa13d4c2-28b1-43f3-8e08-fadbf856d579}" type="POI" name="Tel Hanaton" owner="RipPipPip" lat="32.7857024" lon="35.2563854" alt="500.0"/> 
+<LandmarkLocation instanceId="{16d6e266-62df-409c-bbda-093b9ec9d1c0}" type="POI" name="Nebi Yosha" owner="RipPipPip" lat="33.1128109" lon="35.5565989" alt="500.0"/> 
+<LandmarkLocation instanceId="{09419cf2-2270-4bfb-91c9-b6c7dc22a859}" type="POI" name="Lubya" owner="RipPipPip" lat="32.7728490" lon="35.4202021" alt="500.0"/> 
+<LandmarkLocation instanceId="{fc7ea7d7-abda-41ca-a0a6-07883782da83}" type="POI" name="September 11 Monument" owner="RipPipPip" lat="31.8065224" lon="35.1789360" alt="500.0"/> 
+<LandmarkLocation instanceId="{ac22f9ce-ad1b-41a1-b4c0-1d2a1155fdc0}" type="POI" name="Kakun" owner="RipPipPip" lat="32.3594093" lon="34.9952087" alt="500.0"/> 
+<LandmarkLocation instanceId="{ca20cf8f-38ab-4117-b269-1948f54103ba}" type="POI" name="Winepresses" owner="RipPipPip" lat="31.7506905" lon="35.1016211" alt="500.0"/> 
+<LandmarkLocation instanceId="{2f98c394-a213-48bc-a039-da7f0a246fd8}" type="POI" name="Horvat Tinshemet" owner="RipPipPip" lat="31.9979267" lon="34.9583054" alt="500.0"/> 
+<LandmarkLocation instanceId="{ff4047c3-105b-47f8-8096-6601e457bfb1}" type="POI" name="405" owner="RipPipPip" lat="31.8009512" lon="35.1020672" alt="500.0"/> 
+<LandmarkLocation instanceId="{db4d5627-1356-4b68-b682-6c8031668f22}" type="POI" name="כתובת גזר מס. 12" owner="RipPipPip" lat="31.8427620" lon="34.9354208" alt="500.0"/> 
+<LandmarkLocation instanceId="{d5fad43a-460b-4b20-8446-c422e9dcf75c}" type="POI" name="Church of Sandahana" owner="RipPipPip" lat="31.5955185" lon="34.9044974" alt="500.0"/> 
+<LandmarkLocation instanceId="{62de4c29-7412-4c0e-9963-35ee9b79fa57}" type="POI" name="Amphitheater" owner="RipPipPip" lat="31.6081446" lon="34.8939867" alt="500.0"/> 
+<LandmarkLocation instanceId="{92aa4f70-ff95-41f2-a415-de9d18a5a338}" type="POI" name="Jerusalem Road Brakethroughers" owner="RipPipPip" lat="31.8022414" lon="35.0786501" alt="500.0"/> 
+<LandmarkLocation instanceId="{feaff190-601b-40ee-bd9b-9ee99f9ec832}" type="POI" name="Horvat Matzad" owner="RipPipPip" lat="31.8164520" lon="35.0542297" alt="500.0"/> 
+<LandmarkLocation instanceId="{0bbc1f5e-7047-4682-8f77-9ae7a05986f3}" type="POI" name="lyme kiln" owner="RipPipPip" lat="31.7021817" lon="35.0711863" alt="500.0"/> 
+<LandmarkLocation instanceId="{4e0e9e66-bd67-435a-8361-4d7479825550}" type="POI" name="Columbarium" owner="RipPipPip" lat="31.6591721" lon="34.9735184" alt="500.0"/> 
+<LandmarkLocation instanceId="{78d32da9-b703-4f11-a693-5adc1b2dfbcc}" type="POI" name="Old beeri" owner="RipPipPip" lat="31.4306473" lon="34.4661234" alt="500.0"/> 
+<LandmarkLocation instanceId="{295cde88-5046-49ac-a752-3808fad47905}" type="POI" name="Roman Mile Stones" owner="RipPipPip" lat="31.8199883" lon="35.0382767" alt="500.0"/> 
+<LandmarkLocation instanceId="{83624a22-7b0a-4ee3-a49e-c27aeca90ccf}" type="POI" name="Hurvat Parag" owner="RipPipPip" lat="32.9578804" lon="35.8325897" alt="500.0"/> 
+<LandmarkLocation instanceId="{5c9d73b5-2492-4a6e-84f5-4b1f0122f326}" type="POI" name="Yeroham Stronghold" owner="RipPipPip" lat="30.9851307" lon="34.9046358" alt="500.0"/> 
+<LandmarkLocation instanceId="{231f2e0c-a71a-4539-9fb0-e396978e34e6}" type="POI" name="Bohen ruins" owner="RipPipPip" lat="31.7579845" lon="35.0523076" alt="500.0"/> 
+<LandmarkLocation instanceId="{ab07c69f-6fb0-4ea2-85eb-dc99e7cc7ab4}" type="POI" name="the 10 monuments" owner="RipPipPip" lat="31.8599815" lon="34.9209862" alt="500.0"/> 
+<LandmarkLocation instanceId="{c18400cf-2316-46b4-a07a-142d22e75d7e}" type="POI" name="Water Works" owner="RipPipPip" lat="31.8587742" lon="34.9198341" alt="500.0"/> 
+<LandmarkLocation instanceId="{84ada7e4-47d8-4c2d-895f-49230a062e07}" type="POI" name="Tel Hemer" owner="RipPipPip" lat="31.4488887" lon="34.4644447" alt="500.0"/> 
+<LandmarkLocation instanceId="{5b2713ae-7c3f-4740-8712-e7d16c8421d2}" type="POI" name="Khirbat al Mashrafa" owner="RipPipPip" lat="31.4297217" lon="34.4969436" alt="500.0"/> 
+<LandmarkLocation instanceId="{d36f7e0c-27af-49bd-9a99-552d70f83f9d}" type="POI" name="(empty)" owner="RipPipPip" lat="33.2250824" lon="35.6664810" alt="500.0"/> 
+<LandmarkLocation instanceId="{64a96b3f-935c-40c5-aac1-60ed835018c2}" type="POI" name="Hirbet Midras" owner="RipPipPip" lat="31.6559382" lon="34.9374688" alt="500.0"/> 
+<LandmarkLocation instanceId="{0484facc-1e2c-4883-874a-e36ce98dfd75}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9023824" lon="34.8084726" alt="500.0"/> 
+<LandmarkLocation instanceId="{b578d0f2-dd2f-440d-b030-fcaf51f7df11}" type="POI" name="Tel Michal" owner="RipPipPip" lat="32.1595828" lon="34.7971931" alt="500.0"/> 
+<LandmarkLocation instanceId="{fab66977-db33-449c-a014-684fb9a704c2}" type="POI" name="Bizantine Church" owner="RipPipPip" lat="31.6568127" lon="34.9368210" alt="500.0"/> 
+<LandmarkLocation instanceId="{ae79ad4d-ea72-48d6-b8f2-c5f8f8556e0c}" type="POI" name="Four room house" owner="RipPipPip" lat="32.1026413" lon="34.7979641" alt="500.0"/> 
+<LandmarkLocation instanceId="{16d037a1-7f80-45a0-af53-e27ed008ba98}" type="POI" name="Mamaluk minaret" owner="RipPipPip" lat="31.8655986" lon="34.7469374" alt="500.0"/> 
+<LandmarkLocation instanceId="{c857426b-621a-479b-8e77-28fb6c1126f3}" type="POI" name="Excavations" owner="RipPipPip" lat="31.7699119" lon="35.2296030" alt="500.0"/> 
+<LandmarkLocation instanceId="{6952ef2b-6441-4dc9-a188-adab2bdd83b2}" type="POI" name="Abu-Nabut Sabil" owner="RipPipPip" lat="31.9161183" lon="34.7716396" alt="500.0"/> 
+<LandmarkLocation instanceId="{29dd16ab-5f70-4d99-9516-5df665764bec}" type="POI" name="23 Seamen Monument" owner="RipPipPip" lat="32.1091405" lon="34.7913689" alt="500.0"/> 
+<LandmarkLocation instanceId="{0b3f7db6-d1ae-44a5-8369-8eede279fe74}" type="POI" name="Dan Ben Yakov Grave" owner="RipPipPip" lat="31.7855666" lon="34.9987936" alt="500.0"/> 
+<LandmarkLocation instanceId="{b72bbb20-ee5b-45d0-8aa9-273c914999f4}" type="POI" name="Crusarders' Outpost" owner="RipPipPip" lat="31.8311460" lon="34.9823750" alt="500.0"/> 
+<LandmarkLocation instanceId="{1fc8a455-7d9d-4384-b09f-87a96c54d53c}" type="POI" name="Horvat Kur" owner="RipPipPip" lat="32.8847052" lon="35.5368648" alt="500.0"/> 
+<LandmarkLocation instanceId="{3f01498c-38ea-4c04-a5ee-8f7a4c58bbf9}" type="POI" name="Ra'amsses II City Gate" owner="RipPipPip" lat="32.0537762" lon="34.7528719" alt="500.0"/> 
+<LandmarkLocation instanceId="{e192d3c7-3e6d-42f5-9d92-9a801dfb982c}" type="POI" name="Renewers of the Jewish setlement in Jaffa" owner="RipPipPip" lat="32.0549099" lon="34.7526315" alt="500.0"/> 
+<LandmarkLocation instanceId="{acd73c36-fd5d-4f28-9efa-386433ed7590}" type="POI" name="Akave ruins" owner="RipPipPip" lat="31.6730652" lon="34.9270744" alt="500.0"/> 
+<LandmarkLocation instanceId="{cc302bb4-f163-40ce-b1a9-e26daaa6b0ea}" type="POI" name="Saod ruins" owner="RipPipPip" lat="31.6974094" lon="34.9000873" alt="500.0"/> 
+<LandmarkLocation instanceId="{b6e5e1a6-b148-4b8f-8e78-cb4c7a579aa3}" type="POI" name="Adulam caves" owner="RipPipPip" lat="31.6509070" lon="35.0023867" alt="500.0"/> 
+<LandmarkLocation instanceId="{92b6e861-c5cd-4552-b10e-c8afc511f66c}" type="POI" name="Hurbat Ragav" owner="RipPipPip" lat="31.9117511" lon="34.9550186" alt="500.0"/> 
+<LandmarkLocation instanceId="{d5c6a1a2-b0d3-4b1e-8634-32a844fdf465}" type="POI" name="Nabi Rubin" owner="RipPipPip" lat="31.9291317" lon="34.7336383" alt="500.0"/> 
+<LandmarkLocation instanceId="{cc777284-47a9-40e9-a6b1-dc433ac78e1e}" type="POI" name="Mosaic Floor" owner="RipPipPip" lat="32.7531895" lon="35.2795881" alt="500.0"/> 
+<LandmarkLocation instanceId="{54accc7b-2d98-45fa-a275-125571829221}" type="POI" name="Tel Gimzu" owner="RipPipPip" lat="31.9298630" lon="34.9468880" alt="500.0"/> 
+<LandmarkLocation instanceId="{8f1f8a6d-93fb-4909-a35e-f708069a400b}" type="POI" name="The Khan (han)" owner="RipPipPip" lat="32.6452743" lon="35.1025611" alt="500.0"/> 
+<LandmarkLocation instanceId="{11e5964c-e9b2-442f-8ee9-ac8817a95a9c}" type="POI" name="Deir Aziz snagogue" owner="RipPipPip" lat="32.8641167" lon="35.7124329" alt="500.0"/> 
+<LandmarkLocation instanceId="{cbf02f8b-52eb-4cda-8187-2941d0902914}" type="POI" name="Old Meron Synagogue" owner="RipPipPip" lat="32.9826481" lon="35.4400070" alt="500.0"/> 
+<LandmarkLocation instanceId="{f40993db-8519-49f1-ac0f-6765e07e1296}" type="POI" name="Goded mound" owner="RipPipPip" lat="31.6333976" lon="34.9099784" alt="500.0"/> 
+<LandmarkLocation instanceId="{3f1eb4c2-c890-4720-9116-5f4a29cecc4d}" type="POI" name="HaMenora Caves" owner="RipPipPip" lat="32.7005263" lon="35.1250437" alt="500.0"/> 
+<LandmarkLocation instanceId="{ee9c480f-b7e1-4a67-8fab-c1eeddee379e}" type="POI" name="Canaanite city gate" owner="RipPipPip" lat="31.6676006" lon="34.5487442" alt="500.0"/> 
+<LandmarkLocation instanceId="{12b630b9-37bc-424b-96a4-28bf0d252c64}" type="POI" name="Shiklon ruins" owner="RipPipPip" lat="31.6856765" lon="34.9349659" alt="500.0"/> 
+<LandmarkLocation instanceId="{8848af3e-1023-4700-bd3a-07064a26cc43}" type="POI" name="בארות מים" owner="RipPipPip" lat="32.9130121" lon="35.2713722" alt="500.0"/> 
+<LandmarkLocation instanceId="{eaaf4bfd-2f41-4357-909d-4c19e646d70e}" type="POI" name="Metzad Abirim" owner="RipPipPip" lat="33.0454699" lon="35.2849323" alt="500.0"/> 
+<LandmarkLocation instanceId="{7c05bdc4-48a6-4786-b263-0d3f1c5280e8}" type="POI" name="עזבת צרתה (אבן העזר)" owner="RipPipPip" lat="32.1046706" lon="34.9644714" alt="500.0"/> 
+<LandmarkLocation instanceId="{1ed22357-ef55-42e9-b47f-9fb2f203cb40}" type="POI" name="Ancient Amphitheatre / Odeion" owner="RipPipPip" lat="32.7791977" lon="35.6588211" alt="500.0"/> 
+<LandmarkLocation instanceId="{83473d5f-2f9b-4cf5-a63b-9288e33e7363}" type="POI" name="Israelite Gate" owner="RipPipPip" lat="32.5860992" lon="35.1842031" alt="500.0"/> 
+<LandmarkLocation instanceId="{3d3e05fe-f55f-4b9d-a8a6-e18b89d2cc85}" type="POI" name="Canaanite temples" owner="RipPipPip" lat="32.5851694" lon="35.1855930" alt="500.0"/> 
+<LandmarkLocation instanceId="{3c4dd8cd-9a61-4f19-94a2-43863ce9a3bc}" type="POI" name="Later Canaanite gate" owner="RipPipPip" lat="32.5862077" lon="35.1841280" alt="500.0"/> 
+<LandmarkLocation instanceId="{c92a34d5-f247-4152-a8e0-cfce01fb2933}" type="POI" name="The Southern Stables" owner="RipPipPip" lat="32.5844460" lon="35.1835548" alt="500.0"/> 
+<LandmarkLocation instanceId="{f0ff53f5-2f30-42ee-8367-5dbcf677f107}" type="POI" name="Ancient Canaanite gate" owner="RipPipPip" lat="32.5860689" lon="35.1838495" alt="500.0"/> 
+<LandmarkLocation instanceId="{4e65f2cf-5238-427e-8836-b6f048a24e03}" type="POI" name="Granary" owner="RipPipPip" lat="32.5848124" lon="35.1843270" alt="500.0"/> 
+<LandmarkLocation instanceId="{a75aa60f-f4e5-47f1-8c8e-14fa6dc330bb}" type="POI" name="Southern Israeli palace" owner="RipPipPip" lat="32.5844686" lon="35.1844075" alt="500.0"/> 
+<LandmarkLocation instanceId="{8b8bdf39-c42e-4ce6-b444-55ac8cf0f492}" type="POI" name="Assyrian quarter" owner="RipPipPip" lat="32.5850560" lon="35.1839569" alt="500.0"/> 
+<LandmarkLocation instanceId="{a9e474fd-00a1-4308-a9e5-e00be49e4504}" type="POI" name="The gallery" owner="RipPipPip" lat="32.5848211" lon="35.1825677" alt="500.0"/> 
+<LandmarkLocation instanceId="{64eb9a30-240c-43fd-b7b3-41109eafe1f1}" type="POI" name="Assyrian Palace" owner="RipPipPip" lat="32.5856890" lon="35.1837372" alt="500.0"/> 
+<LandmarkLocation instanceId="{5b8e9224-7c45-4378-9c0b-50f15d042f8b}" type="POI" name="The Northern Stables" owner="RipPipPip" lat="32.5859125" lon="35.1850083" alt="500.0"/> 
+<LandmarkLocation instanceId="{77397ccf-cd38-47aa-9ba1-165eeca350a6}" type="POI" name="Canaanite palace" owner="RipPipPip" lat="32.5859735" lon="35.1839515" alt="500.0"/> 
+<LandmarkLocation instanceId="{5b8073cf-382b-4543-9b0d-da51ba8a201d}" type="POI" name="אל-אחוואט" owner="RipPipPip" lat="32.4867107" lon="35.0937327" alt="500.0"/> 
+<LandmarkLocation instanceId="{43edced9-e93f-4dc7-86ce-61d06655733b}" type="POI" name="השער הכנעני" owner="RipPipPip" lat="31.8587952" lon="34.9201469" alt="500.0"/> 
+<LandmarkLocation instanceId="{8ec4dd1c-a322-42c1-92cc-8adf181b6fd8}" type="POI" name="Pelegrin Fortress" owner="RipPipPip" lat="32.7055852" lon="34.9337448" alt="500.0"/> 
+<LandmarkLocation instanceId="{2909cb46-ba82-431e-8ab7-7a03bb2e2ff4}" type="POI" name="Le Destroit" owner="RipPipPip" lat="32.7077342" lon="34.9460990" alt="500.0"/> 
+<LandmarkLocation instanceId="{6f1e7bed-bf2f-412a-9303-0f868f1f7213}" type="POI" name="מצד צפיר" owner="RipPipPip" lat="30.9221687" lon="35.1089172" alt="500.0"/> 
+<LandmarkLocation instanceId="{ab2c3edd-8035-4664-a489-d3deb0a6f08f}" type="POI" name="Abandoned Muslim cemetery" owner="RipPipPip" lat="31.6703889" lon="34.5835595" alt="500.0"/> 
+<LandmarkLocation instanceId="{e7e36c9f-9a2a-4608-8544-d0f9a4fe6a53}" type="POI" name="Beit Alfa Ancient Synagogue" owner="RipPipPip" lat="32.5185966" lon="35.4273567" alt="500.0"/> 
+<LandmarkLocation instanceId="{6ed2d0f3-dd24-4a82-8d03-fa48c57218d3}" type="POI" name="גבעת הכתובות" owner="RipPipPip" lat="30.8059959" lon="34.4483643" alt="500.0"/> 
+<LandmarkLocation instanceId="{635b431b-04d8-4230-b3f6-575fd2b179e0}" type="POI" name="pillbox" owner="RipPipPip" lat="32.0619108" lon="34.8819586" alt="500.0"/> 
+<LandmarkLocation instanceId="{e69ae95d-a850-4e48-bbfc-2051ad4462ab}" type="POI" name="Hirbet Shua" owner="RipPipPip" lat="31.6550451" lon="34.9563920" alt="500.0"/> 
+<LandmarkLocation instanceId="{043c4a59-58c7-4e93-a4bf-456ca13e4c28}" type="POI" name="מצודת הונין" owner="RipPipPip" lat="33.2208193" lon="35.5443495" alt="500.0"/> 
+<LandmarkLocation instanceId="{795ff193-87c4-4a69-99cd-7bde914b56b6}" type="POI" name="טחונת אם רעי" owner="RipPipPip" lat="33.2431017" lon="35.6867161" alt="500.0"/> 
+<LandmarkLocation instanceId="{3f8c9217-a065-42f8-8dfe-0ef08beb60f3}" type="POI" name="(empty)" owner="RipPipPip" lat="33.1685801" lon="35.7061660" alt="500.0"/> 
+<LandmarkLocation instanceId="{747e126b-4eb3-4a49-99a4-47ae8fca38a5}" type="POI" name="(empty)" owner="RipPipPip" lat="33.1683645" lon="35.7103932" alt="500.0"/> 
+<LandmarkLocation instanceId="{1fc3a7cf-2606-482d-8090-e134bb33ae85}" type="POI" name="(empty)" owner="RipPipPip" lat="33.1672689" lon="35.7149959" alt="500.0"/> 
+<LandmarkLocation instanceId="{93aca3ee-98ee-4c3d-8dca-ec5b25e613cd}" type="POI" name="אל-מג'מה" owner="RipPipPip" lat="32.9710215" lon="35.6912592" alt="500.0"/> 
+<LandmarkLocation instanceId="{b845ae9e-aed2-46e4-b805-7525a520ee95}" type="POI" name="ח' זומיימרה" owner="RipPipPip" lat="32.9461260" lon="35.6801925" alt="500.0"/> 
+<LandmarkLocation instanceId="{62c86908-0cce-4704-b605-e8697e2b264f}" type="POI" name="אל-משתא" owner="RipPipPip" lat="32.9894895" lon="35.7821003" alt="500.0"/> 
+<LandmarkLocation instanceId="{6c7413f0-0bcc-44f2-a89c-424fe0e34165}" type="POI" name="סינדיאנה" owner="RipPipPip" lat="33.0464322" lon="35.7579377" alt="500.0"/> 
+<LandmarkLocation instanceId="{8f8be4a7-4f97-44c0-86d6-726102471f3f}" type="POI" name="(empty)" owner="RipPipPip" lat="33.0689888" lon="35.7811227" alt="500.0"/> 
+<LandmarkLocation instanceId="{2ba0b73b-b7bb-433b-843c-a06c01d0e5cd}" type="POI" name="(empty)" owner="RipPipPip" lat="33.0609191" lon="35.6837800" alt="500.0"/> 
+<LandmarkLocation instanceId="{c750cef1-ea0b-40a2-b2db-1d52bf2d494e}" type="POI" name="קרב עמק הבכא" owner="RipPipPip" lat="33.1711678" lon="35.8044598" alt="500.0"/> 
+<LandmarkLocation instanceId="{b7d2fa35-3e98-45ac-9b72-5fed9e7d263a}" type="POI" name="Giv'at Sher" owner="RipPipPip" lat="31.8817466" lon="34.9940383" alt="500.0"/> 
+<LandmarkLocation instanceId="{cfead39e-9839-4e73-912c-6e5529fe283b}" type="POI" name="חרבת מסעדה" owner="RipPipPip" lat="33.0797547" lon="35.6768712" alt="500.0"/> 
+<LandmarkLocation instanceId="{d487a8e4-2f7c-45f4-9e1b-ba4b4fe40c1f}" type="POI" name="חרבת חפר" owner="RipPipPip" lat="33.0941597" lon="35.6863072" alt="500.0"/> 
+<LandmarkLocation instanceId="{bece7baf-f5d0-4c20-84d2-7788f3f8d112}" type="POI" name="(empty)" owner="RipPipPip" lat="33.0149369" lon="35.8250264" alt="500.0"/> 
+<LandmarkLocation instanceId="{2337cdfe-af7c-4c94-8a1c-452859c3c0e7}" type="POI" name="(empty)" owner="RipPipPip" lat="33.0292424" lon="35.6889951" alt="500.0"/> 
+<LandmarkLocation instanceId="{62a170ee-6e39-4bce-9774-9814cba61957}" type="POI" name="(empty)" owner="RipPipPip" lat="33.1443262" lon="35.6959663" alt="500.0"/> 
+<LandmarkLocation instanceId="{f2380504-10d5-4f95-ae5f-03c8036d369b}" type="POI" name="(empty)" owner="RipPipPip" lat="33.1476275" lon="35.7050590" alt="500.0"/> 
+<LandmarkLocation instanceId="{04777d46-d40f-4904-8bab-d30408d04644}" type="POI" name="(empty)" owner="RipPipPip" lat="33.1237522" lon="35.7505749" alt="500.0"/> 
+<LandmarkLocation instanceId="{41d6c7b5-c246-43f3-be06-d8b0f5be9246}" type="POI" name="(empty)" owner="RipPipPip" lat="33.1320992" lon="35.7424209" alt="500.0"/> 
+<LandmarkLocation instanceId="{3e824d40-c9db-46e4-a435-b3d390396023}" type="POI" name="(empty)" owner="RipPipPip" lat="33.0773106" lon="35.7760841" alt="500.0"/> 
+<LandmarkLocation instanceId="{7bafb088-a19e-478d-a8fc-cee92cc874d3}" type="POI" name="(empty)" owner="RipPipPip" lat="33.0953761" lon="35.8170109" alt="500.0"/> 
+<LandmarkLocation instanceId="{0c8ec8e8-d793-4474-8c2d-f879ddbf00d5}" type="POI" name="Remalia water holes" owner="RipPipPip" lat="30.7952901" lon="34.7556624" alt="500.0"/> 
+<LandmarkLocation instanceId="{896fae39-12db-4428-ae13-7c52802a44bd}" type="POI" name="קיבוץ שבילים" owner="RipPipPip" lat="31.9133266" lon="34.7726815" alt="500.0"/> 
+<LandmarkLocation instanceId="{a011ea84-7602-4f1f-a2e0-45bce316a127}" type="POI" name="Roman Baths" owner="RipPipPip" lat="32.6820765" lon="35.6646101" alt="500.0"/> 
+<LandmarkLocation instanceId="{1fc19a44-6b8e-47de-8af9-55aa78940d21}" type="POI" name="Anim synagogue" owner="RipPipPip" lat="31.3527991" lon="35.0637700" alt="500.0"/> 
+<LandmarkLocation instanceId="{9ed4bbdb-dd81-4d15-a5a9-db53e0b2393b}" type="POI" name="Roman Theater" owner="RipPipPip" lat="32.6833761" lon="35.6656279" alt="500.0"/> 
+<LandmarkLocation instanceId="{b511d7da-0b6e-48b8-9e39-7ba816966fb0}" type="POI" name="Gamla" owner="RipPipPip" lat="32.9023982" lon="35.7405843" alt="500.0"/> 
+<LandmarkLocation instanceId="{059d6624-7c5a-4996-8fd0-4baa54c9efcd}" type="POI" name="(empty)" owner="RipPipPip" lat="31.8239563" lon="35.2275985" alt="500.0"/> 
+<LandmarkLocation instanceId="{6b61761b-f201-4c4c-bfd9-c7cf3a33d104}" type="POI" name="מערות כוכים" owner="RipPipPip" lat="31.5997016" lon="34.8941288" alt="500.0"/> 
+<LandmarkLocation instanceId="{3a7a2b6a-91ae-470b-ab69-70c412c62d97}" type="POI" name="Scroll of Fire" owner="RipPipPip" lat="31.7725163" lon="35.0440521" alt="500.0"/> 
+<LandmarkLocation instanceId="{a330ee76-c3b7-41f7-86bd-371feadaff94}" type="POI" name="Tel Dudaim" owner="RipPipPip" lat="32.5106636" lon="34.9632373" alt="500.0"/> 
+<LandmarkLocation instanceId="{c5e92c1b-65b2-423f-919f-8893c7a82ce2}" type="POI" name="Obelisk" owner="RipPipPip" lat="32.4985557" lon="34.8985522" alt="500.0"/> 
+<LandmarkLocation instanceId="{143849bd-d074-45a8-bf0d-e1cd8b8d061d}" type="POI" name="swida" owner="RipPipPip" lat="32.5633050" lon="34.9913066" alt="500.0"/> 
+<LandmarkLocation instanceId="{7bfc8c86-ceb3-45ad-9879-969385f30e77}" type="POI" name="Maccabi Tombs" owner="RipPipPip" lat="31.9285632" lon="34.9944162" alt="500.0"/> 
+<LandmarkLocation instanceId="{498f166d-fa95-4e48-9dd3-058d9752fd3d}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0758394" lon="34.8215137" alt="500.0"/> 
+<LandmarkLocation instanceId="{1980de9c-6536-443f-99ea-24fc04fe3eeb}" type="POI" name="بيوت قديمة Old houses" owner="RipPipPip" lat="31.7350039" lon="35.1619127" alt="500.0"/> 
+<LandmarkLocation instanceId="{13b28588-08f6-43d3-bb19-06dcf40227d3}" type="POI" name="קצר ברדוויל" owner="RipPipPip" lat="32.8214460" lon="35.7427495" alt="500.0"/> 
+<LandmarkLocation instanceId="{0996a3d5-f896-44f7-a55d-f30a8ea2f2c6}" type="POI" name="(empty)" owner="RipPipPip" lat="32.9369486" lon="35.6418899" alt="500.0"/> 
+<LandmarkLocation instanceId="{a97d1815-0781-43d1-b20f-b9f01b0e42a0}" type="POI" name="Um A-Sadra" owner="RipPipPip" lat="32.9599518" lon="35.6436709" alt="500.0"/> 
+<LandmarkLocation instanceId="{9ae87fb5-a49a-4404-9590-3a7da6ee9722}" type="POI" name="ציר אל-חרפ'ן" owner="RipPipPip" lat="32.9709525" lon="35.6502273" alt="500.0"/> 
+<LandmarkLocation instanceId="{50e4ae78-9afd-4bf5-b347-5e6e8a52c28f}" type="POI" name="Iqrit" owner="RipPipPip" lat="33.0756008" lon="35.2751632" alt="500.0"/> 
+<LandmarkLocation instanceId="{d87dfd27-8852-4ef3-a5d3-ce2807d780b9}" type="POI" name="Yarda" owner="RipPipPip" lat="33.0077362" lon="35.5939941" alt="500.0"/> 
+<LandmarkLocation instanceId="{cad40adb-1c4d-4d73-a899-90868beb69ed}" type="POI" name="Tel Yodfat" owner="RipPipPip" lat="32.8323135" lon="35.2777328" alt="500.0"/> 
+<LandmarkLocation instanceId="{079f873f-2250-4206-b088-a1e9ef6e75a1}" type="POI" name="Shami House" owner="RipPipPip" lat="32.7215502" lon="35.4422226" alt="500.0"/> 
+<LandmarkLocation instanceId="{98c58822-6c69-4eed-bff5-f96f2b9750a4}" type="POI" name="Shugan House" owner="RipPipPip" lat="32.7210700" lon="35.4424480" alt="500.0"/> 
+<LandmarkLocation instanceId="{70223944-42b9-4e7a-bd3d-17b135b61871}" type="POI" name="(empty)" owner="RipPipPip" lat="32.7083994" lon="34.9462448" alt="500.0"/> 
+<LandmarkLocation instanceId="{78600d6b-564e-4a4b-9068-3fc245dcd71a}" type="POI" name="Petroleum Explorers Camp" owner="RipPipPip" lat="30.9736262" lon="34.9752682" alt="500.0"/> 
+<LandmarkLocation instanceId="{0a7bd78c-6490-423c-875c-8a97b77881df}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9044378" lon="34.8145832" alt="500.0"/> 
+<LandmarkLocation instanceId="{141e0197-72c8-4c0e-853f-bb76bd8aae7b}" type="POI" name="חאן כפר אוריה" owner="RipPipPip" lat="31.7923770" lon="34.9475190" alt="500.0"/> 
+<LandmarkLocation instanceId="{49c5d24e-ef50-452f-908d-743301921011}" type="POI" name="Naffach" owner="RipPipPip" lat="33.0616646" lon="35.7394295" alt="500.0"/> 
+<LandmarkLocation instanceId="{a41b5038-ddc4-4fab-bac9-8c9edad43c98}" type="POI" name="חרבת סועה" owner="RipPipPip" lat="31.2716327" lon="34.9864746" alt="500.0"/> 
+<LandmarkLocation instanceId="{da8c92a1-aedd-4a68-9d93-1bc1a5c9e682}" type="POI" name="Samara Ruins" owner="RipPipPip" lat="32.3921242" lon="34.8777390" alt="500.0"/> 
+<LandmarkLocation instanceId="{9deb400f-b6ee-4455-b3aa-0e3352b94477}" type="POI" name="Mey Kedem" owner="RipPipPip" lat="32.5547154" lon="35.0060783" alt="500.0"/> 
+<LandmarkLocation instanceId="{37abb7af-e06c-4cb1-b3bc-0c768a71b677}" type="POI" name="Cathedral" owner="RipPipPip" lat="32.7779126" lon="35.6606712" alt="500.0"/> 
+<LandmarkLocation instanceId="{81cb8c32-cde8-43b0-9ba8-1570ffe3ec8b}" type="POI" name="חורבת תנור" owner="RipPipPip" lat="31.7162211" lon="35.0499429" alt="500.0"/> 
+<LandmarkLocation instanceId="{42c575ab-824e-418a-9a05-2dccd908beb5}" type="POI" name="תל שחף" owner="RipPipPip" lat="33.0618023" lon="35.6060235" alt="500.0"/> 
+<LandmarkLocation instanceId="{51748f3a-3f61-4b70-8dc1-2261440a1bd8}" type="POI" name="(empty)" owner="RipPipPip" lat="32.4348201" lon="34.9184426" alt="500.0"/> 
+<LandmarkLocation instanceId="{827ad491-939e-4be3-a97d-496bcf40466e}" type="POI" name="Savil Lod" owner="RipPipPip" lat="31.9502509" lon="34.8960335" alt="500.0"/> 
+<LandmarkLocation instanceId="{c3917d58-b69d-4a1a-92c4-11e340f6e53e}" type="POI" name="church" owner="RipPipPip" lat="31.3790980" lon="34.8420931" alt="500.0"/> 
+<LandmarkLocation instanceId="{f39e300e-471a-4a25-8c00-027210310581}" type="POI" name="Tzunam" owner="RipPipPip" lat="33.0638428" lon="35.2720718" alt="500.0"/> 
+<LandmarkLocation instanceId="{eda2f02d-997a-4f91-9d5a-bb79a4faa6c8}" type="POI" name="kaskas" owner="RipPipPip" lat="33.0642757" lon="35.2610076" alt="500.0"/> 
+<LandmarkLocation instanceId="{31a387b8-41c5-44cf-a8f2-285e7ca9ccab}" type="POI" name="mishmes" owner="RipPipPip" lat="33.0705514" lon="35.2538786" alt="500.0"/> 
+<LandmarkLocation instanceId="{111a6256-30ac-446b-bb45-0f614a68fbfe}" type="POI" name="Tower of Flies" owner="RipPipPip" lat="32.9185842" lon="35.0720895" alt="500.0"/> 
+<LandmarkLocation instanceId="{267dd7b3-1658-46b7-9aa8-cf02df2f79aa}" type="POI" name="Foundations of Crusader Templar Fortress" owner="RipPipPip" lat="32.9200727" lon="35.0659615" alt="500.0"/> 
+<LandmarkLocation instanceId="{5fc5cb30-39cd-40a1-a7a0-78e1fbf2656a}" type="POI" name="The Land Gate" owner="RipPipPip" lat="32.9218885" lon="35.0729673" alt="500.0"/> 
+<LandmarkLocation instanceId="{2cc2819c-0836-4ef6-a48a-bd2a50dcb6e1}" type="POI" name="Sebil Fountain" owner="RipPipPip" lat="32.9230707" lon="35.0704222" alt="500.0"/> 
+<LandmarkLocation instanceId="{0e8327cd-d285-4536-b7ed-6e77e56e8064}" type="POI" name="DC-4" owner="RipPipPip" lat="29.7215343" lon="35.0036069" alt="500.0"/> 
+<LandmarkLocation instanceId="{65ae573b-7632-44d1-b941-86820fa8a199}" type="POI" name="מצבת חיילי נפוליאון" owner="RipPipPip" lat="32.8274457" lon="34.9695485" alt="500.0"/> 
+<LandmarkLocation instanceId="{1ac62633-e73d-4e0c-80dc-8a916403e733}" type="POI" name="Virgin statue" owner="RipPipPip" lat="32.8279933" lon="34.9696005" alt="500.0"/> 
+<LandmarkLocation instanceId="{ca2c1605-234c-45d3-8209-f7727645ba41}" type="POI" name="ררר" owner="RipPipPip" lat="31.7624953" lon="35.2050612" alt="500.0"/> 
+<LandmarkLocation instanceId="{e163a6b5-097c-4fe8-a128-2f1ef2eeb184}" type="POI" name="Beit Guvrin" owner="RipPipPip" lat="31.5979099" lon="34.8976497" alt="500.0"/> 
+<LandmarkLocation instanceId="{b8a5737f-05c6-4292-9b8e-05f8890c3e99}" type="POI" name="Giv'at Even-Yitzhak" owner="RipPipPip" lat="32.5641041" lon="35.0877730" alt="500.0"/> 
+<LandmarkLocation instanceId="{799b419c-7b3d-4699-be07-e4aa9d617661}" type="POI" name="Roman Road Ruins" owner="RipPipPip" lat="31.7664655" lon="35.1442129" alt="500.0"/> 
+<LandmarkLocation instanceId="{4ee8819b-fb71-480a-a93f-d0492812b141}" type="POI" name="מקדש הנמרים" owner="RipPipPip" lat="29.9557552" lon="34.9698029" alt="500.0"/> 
+<LandmarkLocation instanceId="{47ec197e-483c-4cd5-93af-eebcfe0ba161}" type="POI" name="Archäologischer Park „Durch die Zeiten“" owner="RipPipPip" lat="31.7779387" lon="35.2306121" alt="500.0"/> 
+<LandmarkLocation instanceId="{4b2bd12d-a8ce-42cf-84cd-0af83c3b4c93}" type="POI" name="Old railway bridge" owner="RipPipPip" lat="31.3027000" lon="34.4847100" alt="500.0"/> 
+<LandmarkLocation instanceId="{9ce638cb-ce43-4c46-ad50-26092fcd16c0}" type="POI" name="חוות עברונה" owner="RipPipPip" lat="29.6342656" lon="34.9973008" alt="500.0"/> 
+<LandmarkLocation instanceId="{fe6f2f5e-4991-40d9-b94c-c993fc41ab90}" type="POI" name="Tel Qeshet" owner="RipPipPip" lat="31.5406880" lon="34.7628930" alt="500.0"/> 
+<LandmarkLocation instanceId="{2744b0e0-5bb0-405a-876b-b765e7014ee9}" type="POI" name="בית הבאר" owner="RipPipPip" lat="32.1115781" lon="34.9172598" alt="500.0"/> 
+<LandmarkLocation instanceId="{d1cb4437-2d75-47bd-8426-d88bd6afc701}" type="POI" name="בית הבאר" owner="RipPipPip" lat="32.1124778" lon="34.9170980" alt="500.0"/> 
+<LandmarkLocation instanceId="{016c14ac-a4e2-470b-b952-93174ceb89c3}" type="POI" name="Tzurman" owner="RipPipPip" lat="33.0986264" lon="35.8406209" alt="500.0"/> 
+<LandmarkLocation instanceId="{f71b022b-5692-4674-9512-3c069ff9adf3}" type="POI" name="(empty)" owner="RipPipPip" lat="33.1651345" lon="35.7941598" alt="500.0"/> 
+<LandmarkLocation instanceId="{0a1d8c89-e9b0-471b-a26a-bbaf2c320c08}" type="POI" name="קובקיה" owner="RipPipPip" lat="31.7780261" lon="35.2222644" alt="500.0"/> 
+<LandmarkLocation instanceId="{8b720ddc-3134-4509-8ae3-69b2d231c858}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7157563" lon="35.0487201" alt="500.0"/> 
+<LandmarkLocation instanceId="{7a0a55c3-d1dc-4239-b558-afb55e012e9c}" type="POI" name="The White Statue" owner="RipPipPip" lat="31.8001635" lon="35.2334012" alt="500.0"/> 
+<LandmarkLocation instanceId="{1ed701bd-18f8-4af8-b50a-4ad424534fc4}" type="POI" name="beit ras" owner="RipPipPip" lat="32.5867002" lon="35.1298559" alt="500.0"/> 
+<LandmarkLocation instanceId="{68499815-9f89-4d96-81e5-ecebbb11c608}" type="POI" name="חורבת סעדון" owner="RipPipPip" lat="31.0292268" lon="34.6083255" alt="500.0"/> 
+<LandmarkLocation instanceId="{c9aaea71-59ab-40a8-8a3f-02f872a14fe8}" type="POI" name="The olive trees" owner="RipPipPip" lat="31.7374687" lon="35.2231255" alt="500.0"/> 
+<LandmarkLocation instanceId="{a2cfe7a1-4796-4a35-a59c-a66763596976}" type="POI" name="Kathisma" owner="RipPipPip" lat="31.7392243" lon="35.2127829" alt="500.0"/> 
+<LandmarkLocation instanceId="{29dcaf6c-e4cb-469a-adb2-2a7957dfdf4b}" type="POI" name="קלעת אבו-מען" owner="RipPipPip" lat="32.8235838" lon="35.4963979" alt="500.0"/> 
+<LandmarkLocation instanceId="{43c49c4b-ba47-40d8-9929-c2a62e97aa63}" type="POI" name="תל שרע" owner="RipPipPip" lat="31.3910856" lon="34.6802292" alt="500.0"/> 
+<LandmarkLocation instanceId="{b180f466-2e9d-424d-a614-64f40654023b}" type="POI" name="חורבת רוגם" owner="RipPipPip" lat="31.0616043" lon="34.5889905" alt="500.0"/> 
+<LandmarkLocation instanceId="{a692ec78-f377-49a4-afc6-2ff9cb881c55}" type="POI" name="חורבת חשיף" owner="RipPipPip" lat="31.2613181" lon="34.6005163" alt="500.0"/> 
+<LandmarkLocation instanceId="{b47af0a8-2466-4836-87e8-9af0b142f35f}" type="POI" name="משלט מאחז" owner="RipPipPip" lat="31.5110035" lon="34.7988853" alt="500.0"/> 
+<LandmarkLocation instanceId="{be17c44f-8e81-4eeb-8a1e-7d8cf129fa95}" type="POI" name="חורבת צורה" owner="RipPipPip" lat="31.6471526" lon="34.9169111" alt="500.0"/> 
+<LandmarkLocation instanceId="{3d448234-30e8-4b44-863a-46d08986891a}" type="POI" name="Khirbat Tell el Beida" owner="RipPipPip" lat="31.6422278" lon="34.9522530" alt="500.0"/> 
+<LandmarkLocation instanceId="{736cfbf3-2be7-46cf-8c85-1745918d2900}" type="POI" name="חורבת חכליל" owner="RipPipPip" lat="31.6468330" lon="34.9457288" alt="500.0"/> 
+<LandmarkLocation instanceId="{55397806-390d-4257-a0e2-9c2f6b20526a}" type="POI" name="מערת קולומבריום" owner="RipPipPip" lat="31.6544317" lon="34.9463350" alt="500.0"/> 
+<LandmarkLocation instanceId="{f03678fe-52b3-429e-82b0-8fabb29cb105}" type="POI" name="חורבת עומדד" owner="RipPipPip" lat="31.6550684" lon="34.9677566" alt="500.0"/> 
+<LandmarkLocation instanceId="{604bf2dd-331d-4aec-8819-080b5a890235}" type="POI" name="חורבת פטום" owner="RipPipPip" lat="31.6417752" lon="34.9719899" alt="500.0"/> 
+<LandmarkLocation instanceId="{cd250661-e9ed-4ab6-b091-a19e6c95fd92}" type="POI" name="חורבת עדולם" owner="RipPipPip" lat="31.6550185" lon="35.0040905" alt="500.0"/> 
+<LandmarkLocation instanceId="{d9cfa8ab-403d-46da-9ce3-6f4d4c2d4979}" type="POI" name="Khirbat Sab" owner="RipPipPip" lat="31.6644803" lon="34.9827090" alt="500.0"/> 
+<LandmarkLocation instanceId="{dc862751-9e4b-4548-833b-1617d043ad61}" type="POI" name="Khirbat Umm el Basal" owner="RipPipPip" lat="31.6623489" lon="34.9786922" alt="500.0"/> 
+<LandmarkLocation instanceId="{00577a5f-6cef-44e5-badf-173b1c67bfc2}" type="POI" name="Khirbat Umm Tunis" owner="RipPipPip" lat="31.6647040" lon="34.9929175" alt="500.0"/> 
+<LandmarkLocation instanceId="{fabae7e4-d960-4c81-848f-4ef4e71b487a}" type="POI" name="Ruins of Sakia" owner="RipPipPip" lat="31.7436244" lon="35.0965333" alt="500.0"/> 
+<LandmarkLocation instanceId="{de57e1bc-084f-46be-845d-502df84c9a99}" type="POI" name="חורבת כפר צום" owner="RipPipPip" lat="31.7309055" lon="35.0925598" alt="500.0"/> 
+<LandmarkLocation instanceId="{1025e253-f59b-49b6-9d79-bf31e7e9b21b}" type="POI" name="Horvat Kobi" owner="RipPipPip" lat="31.7282411" lon="35.1200702" alt="500.0"/> 
+<LandmarkLocation instanceId="{8dcebc8e-0d94-4e76-b266-012abe1799a4}" type="POI" name="חורבת וואלג'ה" owner="RipPipPip" lat="31.7422927" lon="35.1498229" alt="500.0"/> 
+<LandmarkLocation instanceId="{97f9898b-49fd-4480-80e9-11d5481111c8}" type="POI" name="Hirbat Qaiyafa" owner="RipPipPip" lat="31.6964321" lon="34.9573593" alt="500.0"/> 
+<LandmarkLocation instanceId="{47036a0b-a0bf-4b75-83d3-5c3276fea155}" type="POI" name="The old well" owner="RipPipPip" lat="31.8529053" lon="34.8385239" alt="500.0"/> 
+<LandmarkLocation instanceId="{7568abd0-1f58-4efb-8c49-f8f553b4c5aa}" type="POI" name="תל קליל" owner="RipPipPip" lat="33.1932245" lon="35.6505087" alt="500.0"/> 
+<LandmarkLocation instanceId="{5a62ac3c-720d-4ca1-af90-4f8d2573e859}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9636510" lon="34.8032748" alt="500.0"/> 
+<LandmarkLocation instanceId="{c5ae06bd-2057-454a-adc0-07ef168880f8}" type="POI" name="יד לאשה הלוחמת" owner="RipPipPip" lat="31.7366313" lon="34.6279975" alt="500.0"/> 
+<LandmarkLocation instanceId="{65904965-b42d-40e2-8a71-f90132c30e1a}" type="POI" name="Pillar of Community" owner="RipPipPip" lat="32.0295220" lon="34.7733723" alt="500.0"/> 
+<LandmarkLocation instanceId="{dec89f09-f06a-4ef1-b775-d6f36315b616}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0240292" lon="34.7520994" alt="500.0"/> 
+<LandmarkLocation instanceId="{7efd7811-b81f-4be6-b38d-9579a5d48478}" type="POI" name="(empty)" owner="RipPipPip" lat="32.1296271" lon="34.7926413" alt="500.0"/> 
+<LandmarkLocation instanceId="{eb8c6b65-1ea0-4877-9f11-7e819574f066}" type="POI" name="Husham mound" owner="RipPipPip" lat="31.7284649" lon="34.9535439" alt="500.0"/> 
+<LandmarkLocation instanceId="{a33832de-829c-4688-a6f7-3004a329ac8a}" type="POI" name="Railway Bridge" owner="RipPipPip" lat="30.9010907" lon="34.5388956" alt="500.0"/> 
+<LandmarkLocation instanceId="{10105b4d-ba1a-48e7-a343-00f7ce83bcce}" type="POI" name="אנדרטת חטיבה 8" owner="RipPipPip" lat="31.9907417" lon="34.9027863" alt="500.0"/> 
+<LandmarkLocation instanceId="{fb6edf19-f112-4331-a477-5e29287d78d9}" type="POI" name="Tel Ashkaf" owner="RipPipPip" lat="32.3374126" lon="34.9586707" alt="500.0"/> 
+<LandmarkLocation instanceId="{43a64e10-33e4-4cc1-914c-b65dc0907a75}" type="POI" name="Olive press" owner="RipPipPip" lat="31.7047301" lon="35.0180379" alt="500.0"/> 
+<LandmarkLocation instanceId="{a3f1cd2c-7619-4fc3-a08a-84da5928d5d2}" type="POI" name="Carved stairs" owner="RipPipPip" lat="31.7086464" lon="35.0243426" alt="500.0"/> 
+<LandmarkLocation instanceId="{6d3d35f3-da41-487e-8a40-6e16e5ca4157}" type="POI" name="The Ancient Bath House" owner="RipPipPip" lat="32.7062078" lon="35.3015556" alt="500.0"/> 
+<LandmarkLocation instanceId="{80eba194-f4ae-42e0-bc99-bec0f75839e8}" type="POI" name="Nekarot bastion" owner="RipPipPip" lat="30.5752479" lon="35.0116528" alt="500.0"/> 
+<LandmarkLocation instanceId="{68bc2898-4c7f-49db-ae23-aae77a1c7017}" type="POI" name="palmach cave" owner="RipPipPip" lat="32.6089249" lon="35.1372757" alt="500.0"/> 
+<LandmarkLocation instanceId="{a497c12a-338b-4281-ad77-506968e7ada7}" type="POI" name="British monument" owner="RipPipPip" lat="31.8019810" lon="34.8766937" alt="500.0"/> 
+<LandmarkLocation instanceId="{a5057c21-8fe4-4d41-9f54-ef05aac18fc1}" type="POI" name="Atlit Yam" owner="RipPipPip" lat="32.7108857" lon="34.9341955" alt="500.0"/> 
+<LandmarkLocation instanceId="{d5ee0077-5434-4432-ab6d-45fdb653511d}" type="POI" name="Tel Milha" owner="RipPipPip" lat="31.4624461" lon="34.7764317" alt="500.0"/> 
+<LandmarkLocation instanceId="{d5917728-733e-4e67-acd2-f729b365bbef}" type="POI" name="Olei Hagardom Mounumet" owner="RipPipPip" lat="31.9608970" lon="34.8004816" alt="500.0"/> 
+<LandmarkLocation instanceId="{64a903d4-d570-412b-8b11-732feb8e1de0}" type="POI" name="(empty)" owner="RipPipPip" lat="32.6861257" lon="35.3923753" alt="500.0"/> 
+<LandmarkLocation instanceId="{62619dbe-a97a-42b8-8198-4c3faa99eb7e}" type="POI" name="(empty)" owner="RipPipPip" lat="32.6864800" lon="35.3921715" alt="500.0"/> 
+<LandmarkLocation instanceId="{9e8cad54-798f-4075-a23e-5eec33258f72}" type="POI" name="Ein Toot" owner="RipPipPip" lat="31.7863792" lon="35.1715666" alt="500.0"/> 
+<LandmarkLocation instanceId="{e7a5734c-37ed-4caa-8b28-113e821eadf3}" type="POI" name="Horbat `Uza" owner="RipPipPip" lat="31.2091680" lon="35.1655322" alt="500.0"/> 
+<LandmarkLocation instanceId="{b064a02c-cc4c-4f2f-b338-e8f7f2c90925}" type="POI" name="Acko prison liberators memorial" owner="RipPipPip" lat="32.5345556" lon="34.9476600" alt="500.0"/> 
+<LandmarkLocation instanceId="{4fa0f3d9-c6d8-4bae-bb83-d0e4c048ba5d}" type="POI" name="חורבת מגדלית" owner="RipPipPip" lat="31.4123631" lon="34.8424788" alt="500.0"/> 
+<LandmarkLocation instanceId="{9652c5b6-9a99-4032-a07c-2c173c22d3c8}" type="POI" name="מצודת פחר" owner="RipPipPip" lat="31.3378384" lon="34.8377745" alt="500.0"/> 
+<LandmarkLocation instanceId="{8a45cd8e-18c3-4496-8ed3-b50634606479}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7011149" lon="34.9972118" alt="500.0"/> 
+<LandmarkLocation instanceId="{3f89befa-628a-455a-9175-4854b31a3db3}" type="POI" name="Tall Al-Ful" owner="RipPipPip" lat="31.8234804" lon="35.2312011" alt="500.0"/> 
+<LandmarkLocation instanceId="{57c70c94-6537-4cde-b6d9-39b2ae306e84}" type="POI" name="Zarnuqa Mosque" owner="RipPipPip" lat="31.8793635" lon="34.7896047" alt="500.0"/> 
+<LandmarkLocation instanceId="{df85889f-d7b1-4450-9d26-c5f5f91461e0}" type="POI" name="Abandoned Structure" owner="RipPipPip" lat="31.8652590" lon="34.7887133" alt="500.0"/> 
+<LandmarkLocation instanceId="{1d27d20c-ec44-44a6-9c7b-2cd009672933}" type="POI" name="Fiq" owner="RipPipPip" lat="32.7752030" lon="35.7019534" alt="500.0"/> 
+<LandmarkLocation instanceId="{0b072228-997e-4499-b9d2-89f602c9cad5}" type="POI" name="الكنيسة البيزنطية" owner="RipPipPip" lat="31.2938100" lon="34.9235142" alt="500.0"/> 
+<LandmarkLocation instanceId="{d2f289db-4b5f-4b1b-9142-c31a7a0edd4e}" type="POI" name="(empty)" owner="RipPipPip" lat="31.2879594" lon="34.9650174" alt="500.0"/> 
+<LandmarkLocation instanceId="{05074730-7087-437b-94c4-7f32a202cd71}" type="POI" name="Beit Loya ruins" owner="RipPipPip" lat="31.5639305" lon="34.9284630" alt="500.0"/> 
+<LandmarkLocation instanceId="{9db0bf57-3a39-42ad-8a31-18e60f7b1a70}" type="POI" name="Byzantine Church" owner="RipPipPip" lat="31.5638561" lon="34.9267159" alt="500.0"/> 
+<LandmarkLocation instanceId="{1f52fa72-bde7-41b6-a17a-0a6f1ab60602}" type="POI" name="(empty)" owner="RipPipPip" lat="29.9732814" lon="34.9792003" alt="500.0"/> 
+<LandmarkLocation instanceId="{912de9ee-c65b-44e2-85ee-3e90e93d6a5f}" type="POI" name="Solomon's gate" owner="RipPipPip" lat="31.8594685" lon="34.9217949" alt="500.0"/> 
+<LandmarkLocation instanceId="{b06be9a5-4848-4f9e-9543-dfc12956ed02}" type="POI" name=""פינת ההנצחה לאיש השייטת מורן ורדי ז""ל"" owner="RipPipPip" lat="32.5352991" lon="34.9363560" alt="500.0"/> 
+<LandmarkLocation instanceId="{929883c6-251f-41bb-ae2d-5a7a3e3169db}" type="POI" name="Necropolis" owner="RipPipPip" lat="31.7776100" lon="35.2422118" alt="500.0"/> 
+<LandmarkLocation instanceId="{6027a16d-eaab-4fc3-8be8-bef368591b2f}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7781476" lon="35.2416947" alt="500.0"/> 
+<LandmarkLocation instanceId="{ebce6bbe-501d-45b4-b5b0-0ab7f9d812da}" type="POI" name="ha'esrim" owner="RipPipPip" lat="31.7794578" lon="35.1897735" alt="500.0"/> 
+<LandmarkLocation instanceId="{1a8e7f70-ae4b-4643-a38d-8c53749d7015}" type="POI" name="מקדש יטורי" owner="RipPipPip" lat="33.2711034" lon="35.7224134" alt="500.0"/> 
+<LandmarkLocation instanceId="{6cf3da8c-6fb7-40c7-b1bc-c35382b7dc7d}" type="POI" name="Umm el Kanatir" owner="RipPipPip" lat="32.8499641" lon="35.7377548" alt="500.0"/> 
+<LandmarkLocation instanceId="{6ab86038-f8f2-4a60-8e08-3cafd6f06822}" type="POI" name="Gezer-Ramla Aqueduct" owner="RipPipPip" lat="31.8861828" lon="34.8799896" alt="500.0"/> 
+<LandmarkLocation instanceId="{fdf8b5d5-4f46-4f9a-b233-4bf3b660a754}" type="POI" name="Tombs" owner="RipPipPip" lat="31.7749590" lon="35.2277459" alt="500.0"/> 
+<LandmarkLocation instanceId="{d4398f14-0c49-43ff-9db1-0bb486cac402}" type="POI" name="Herods Tombs" owner="RipPipPip" lat="31.7733015" lon="35.2237129" alt="500.0"/> 
+<LandmarkLocation instanceId="{d32dffa9-d47b-4809-bc68-f87cba795a57}" type="POI" name="עקבות של דינוזאור" owner="RipPipPip" lat="31.7818671" lon="35.1621372" alt="500.0"/> 
+<LandmarkLocation instanceId="{e6a1ef43-7075-44ab-8c30-ee9cb7e1a212}" type="POI" name="Khirbat Keroa" owner="RipPipPip" lat="31.5989448" lon="34.8371275" alt="500.0"/> 
+<LandmarkLocation instanceId="{e26d26be-c53b-4678-85b4-157b4acd81ce}" type="POI" name="כתובת תחום גזר מס. 5" owner="RipPipPip" lat="31.8421116" lon="34.9271164" alt="500.0"/> 
+<LandmarkLocation instanceId="{0d7e36d8-0ff9-47e5-90f6-39704126116b}" type="POI" name="Flower mill" owner="RipPipPip" lat="32.6209891" lon="35.0912788" alt="500.0"/> 
+<LandmarkLocation instanceId="{12539655-48b6-4eb2-bd3a-74efddcf3080}" type="POI" name="הפילבוקס" owner="RipPipPip" lat="32.0334456" lon="34.7688426" alt="500.0"/> 
+<LandmarkLocation instanceId="{24689f39-7f8e-4844-aa74-7343fce538b5}" type="POI" name="חרבת א-סוואנה" owner="RipPipPip" lat="31.8516808" lon="35.0519066" alt="500.0"/> 
+<LandmarkLocation instanceId="{8a2980af-03e3-4d4f-96c4-9b7ea0244844}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9172974" lon="34.7821312" alt="500.0"/> 
+<LandmarkLocation instanceId="{96c3d05b-d049-4ee2-ba2d-442c6f78d8f5}" type="POI" name="סביל" owner="RipPipPip" lat="32.0533637" lon="34.7580100" alt="500.0"/> 
+<LandmarkLocation instanceId="{01af3fa3-706b-4cb5-b509-a97c27bf356a}" type="POI" name="בית הכנסת נשוט" owner="RipPipPip" lat="33.0130319" lon="35.6920206" alt="500.0"/> 
+<LandmarkLocation instanceId="{f1137f40-4481-499d-bffe-619186b5b7a8}" type="POI" name="The sea gate" owner="RipPipPip" lat="32.9194432" lon="35.0689249" alt="500.0"/> 
+<LandmarkLocation instanceId="{048f95fd-5df2-4f7d-8f89-7478e9ac85e8}" type="POI" name="Mizpe Shivta" owner="RipPipPip" lat="30.9175581" lon="34.6111227" alt="500.0"/> 
+<LandmarkLocation instanceId="{3cc98e1b-31fb-4abc-84db-12ca06a4b28e}" type="POI" name="(empty)" owner="RipPipPip" lat="30.7711177" lon="34.5745753" alt="500.0"/> 
+<LandmarkLocation instanceId="{af79842f-74e1-4dd8-86ef-e8942246c6be}" type="POI" name=""סלע פלמ""ח טוביה"" owner="RipPipPip" lat="30.4534626" lon="34.7479039" alt="500.0"/> 
+<LandmarkLocation instanceId="{c6c2e96c-4985-41be-9d11-e1b19672095b}" type="POI" name="(empty)" owner="RipPipPip" lat="31.6981620" lon="34.9776937" alt="500.0"/> 
+<LandmarkLocation instanceId="{fa5b6b9d-cb49-49fc-87f6-584dde01c8b0}" type="POI" name="Odeon" owner="RipPipPip" lat="32.1028627" lon="34.9315083" alt="500.0"/> 
+<LandmarkLocation instanceId="{590bf09d-b3f5-4f6b-842f-a83974833d1a}" type="POI" name="מצודת נחל בוקר" owner="RipPipPip" lat="30.9143429" lon="34.7712440" alt="500.0"/> 
+<LandmarkLocation instanceId="{367b9fb0-9361-48ee-9f73-b4c635e954f2}" type="POI" name="(empty)" owner="RipPipPip" lat="31.3356635" lon="34.8797949" alt="500.0"/> 
+<LandmarkLocation instanceId="{607ce28c-dcb2-497e-8f61-e30484f4e09f}" type="POI" name="גבעת אוגר" owner="RipPipPip" lat="31.3338641" lon="34.8886877" alt="500.0"/> 
+<LandmarkLocation instanceId="{8458477f-abb7-4ec9-befa-ee7c9f78849c}" type="POI" name="חרבת סנסנה" owner="RipPipPip" lat="31.3447917" lon="34.9012512" alt="500.0"/> 
+<LandmarkLocation instanceId="{a4be9384-96fa-4809-bf5b-393a42b9b583}" type="POI" name="Flour mill" owner="RipPipPip" lat="31.4660835" lon="35.3878059" alt="500.0"/> 
+<LandmarkLocation instanceId="{d4a88e4a-f9e0-45ac-8ab9-b9b24fb72f5d}" type="POI" name="Olive press ruins" owner="RipPipPip" lat="31.6833867" lon="35.0216840" alt="500.0"/> 
+<LandmarkLocation instanceId="{a906301e-82f1-4bc4-9331-2b35a66a16a5}" type="POI" name="Horbat Khalif" owner="RipPipPip" lat="31.3870063" lon="34.8529979" alt="500.0"/> 
+<LandmarkLocation instanceId="{e95b01c3-ae20-4017-92f9-ee88871d5b5c}" type="POI" name="(empty)" owner="RipPipPip" lat="32.7945517" lon="35.0075226" alt="500.0"/> 
+<LandmarkLocation instanceId="{7cd834a8-05eb-4e52-8609-0d8963e90b85}" type="POI" name="Tel Faror" owner="RipPipPip" lat="32.6287866" lon="35.1033155" alt="500.0"/> 
+<LandmarkLocation instanceId="{607a48ed-1ba6-4fba-8b19-2ebfe2c5942e}" type="POI" name="(empty)" owner="RipPipPip" lat="31.3520370" lon="35.3381523" alt="500.0"/> 
+<LandmarkLocation instanceId="{e8993124-ead4-4b9b-bb58-a8c7a144d181}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7002036" lon="34.9737899" alt="500.0"/> 
+<LandmarkLocation instanceId="{dbae08b4-355f-4577-92c1-9ca7d141a624}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7777019" lon="35.1897497" alt="500.0"/> 
+<LandmarkLocation instanceId="{e1865dac-11dd-4cae-93fa-d6aaef2214b7}" type="POI" name="The lost city" owner="RipPipPip" lat="30.8817006" lon="34.7907966" alt="500.0"/> 
+<LandmarkLocation instanceId="{c0d84728-b804-402e-a98a-a3338cec9f8c}" type="POI" name="טומולי" owner="RipPipPip" lat="30.7880108" lon="34.7343901" alt="500.0"/> 
+<LandmarkLocation instanceId="{49ecb58e-0a4f-4bce-8ea1-8806fa4d1d90}" type="POI" name="ציורי סלע" owner="RipPipPip" lat="30.7911091" lon="34.7308502" alt="500.0"/> 
+<LandmarkLocation instanceId="{d7375d94-f3cd-46da-a88d-cd5545dc12e9}" type="POI" name="ציורי סלע" owner="RipPipPip" lat="30.7915758" lon="34.7300626" alt="500.0"/> 
+<LandmarkLocation instanceId="{c6b378f4-03e4-4a0e-bebf-de6621ba7c12}" type="POI" name="טומולי" owner="RipPipPip" lat="30.7925385" lon="34.7299960" alt="500.0"/> 
+<LandmarkLocation instanceId="{b9cef695-4ef6-4482-b9e0-b7b6f63d9bea}" type="POI" name="Coohim - Ruin" owner="RipPipPip" lat="33.0982157" lon="35.2972712" alt="500.0"/> 
+<LandmarkLocation instanceId="{f20c8a8b-6ebe-4882-b176-f85888c10991}" type="POI" name="Katzir - Ruin" owner="RipPipPip" lat="33.0913714" lon="35.2935193" alt="500.0"/> 
+<LandmarkLocation instanceId="{95654b5f-1a80-40db-a1bb-4c8b6d4d10fb}" type="POI" name="(empty)" owner="RipPipPip" lat="30.8238669" lon="34.7623418" alt="500.0"/> 
+<LandmarkLocation instanceId="{39827c8d-a255-40e1-8301-dc25a173146b}" type="POI" name="Darban ruins" owner="RipPipPip" lat="31.7251330" lon="35.0628368" alt="500.0"/> 
+<LandmarkLocation instanceId="{d1838a87-7ee1-4bc5-acf9-a5997432762d}" type="POI" name="Kabara cave" owner="RipPipPip" lat="32.5582186" lon="34.9369145" alt="500.0"/> 
+<LandmarkLocation instanceId="{89dbdb2f-747b-4d07-8c34-cc1cbef0e07d}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7253749" lon="35.0803355" alt="500.0"/> 
+<LandmarkLocation instanceId="{dc2a4f48-b8c8-4975-bd40-6da5121a4c07}" type="POI" name="אנדרטה לחללי העדה הדרוזית" owner="RipPipPip" lat="32.6975867" lon="35.0404333" alt="500.0"/> 
+<LandmarkLocation instanceId="{6dbf9b2b-3882-4270-ab4a-55163d3970fe}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7986200" lon="35.2185032" alt="500.0"/> 
+<LandmarkLocation instanceId="{97643e00-6060-48be-b6ef-34d742a1c6af}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7992796" lon="35.2189143" alt="500.0"/> 
+<LandmarkLocation instanceId="{2104c415-3e3f-459a-bd4b-261b601e1cdb}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7998967" lon="35.2192207" alt="500.0"/> 
+<LandmarkLocation instanceId="{4375ecf6-380d-475c-98bd-5562525e27a0}" type="POI" name="Tombs of the Sanhedrin" owner="RipPipPip" lat="31.8000076" lon="35.2184612" alt="500.0"/> 
+<LandmarkLocation instanceId="{4f95ce83-a546-4cc6-8298-9916ad6a7b7f}" type="POI" name="Hirbet Usha" owner="RipPipPip" lat="32.7940382" lon="35.1438741" alt="500.0"/> 
+<LandmarkLocation instanceId="{20a9953e-7a2f-4eb5-9aea-2c3e488d82bd}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7149506" lon="35.0512757" alt="500.0"/> 
+<LandmarkLocation instanceId="{f96be442-7efb-42fd-bbd8-b3beccea4fa1}" type="POI" name="The old synagogue in Motza" owner="RipPipPip" lat="31.7922656" lon="35.1642144" alt="500.0"/> 
+<LandmarkLocation instanceId="{a31cd439-1a67-42dc-9965-2bf6aa222820}" type="POI" name=""גן חטיבת פלמ""ח הראל"" owner="RipPipPip" lat="31.7811004" lon="35.2052763" alt="500.0"/> 
+<LandmarkLocation instanceId="{78418419-7515-480a-8186-16c803d108f6}" type="POI" name="חרבת כנף" owner="RipPipPip" lat="32.8710201" lon="35.6860167" alt="500.0"/> 
+<LandmarkLocation instanceId="{baed658e-c087-4394-8b2e-ff9755c1a0af}" type="POI" name="The Columbarium" owner="RipPipPip" lat="31.6570702" lon="34.9345207" alt="500.0"/> 
+<LandmarkLocation instanceId="{bd3479bc-90f1-406f-b016-295bc907bfb9}" type="POI" name="(empty)" owner="RipPipPip" lat="31.6035236" lon="34.8889574" alt="500.0"/> 
+<LandmarkLocation instanceId="{03696fc4-bef8-4fca-993c-3421fb324d33}" type="POI" name="בית הקשתות" owner="RipPipPip" lat="31.6048254" lon="34.8901779" alt="500.0"/> 
+<LandmarkLocation instanceId="{e806a9b7-e911-479d-9f95-da452d8b9773}" type="POI" name="The Pyramid" owner="RipPipPip" lat="31.6549644" lon="34.9363518" alt="500.0"/> 
+<LandmarkLocation instanceId="{24eff071-7fe7-4bdc-818f-0d218eccaee9}" type="POI" name="The Burial Cave" owner="RipPipPip" lat="31.6564178" lon="34.9337196" alt="500.0"/> 
+<LandmarkLocation instanceId="{0df96fc7-b8da-4e3f-abff-50eaa478b27e}" type="POI" name="מערת הפעמון" owner="RipPipPip" lat="31.6351299" lon="34.9678250" alt="500.0"/> 
+<LandmarkLocation instanceId="{2ce0413e-8a15-4d46-b53d-6ff594fb400a}" type="POI" name="Burial cave" owner="RipPipPip" lat="31.6547477" lon="34.9379416" alt="500.0"/> 
+<LandmarkLocation instanceId="{b30d6215-bbc2-4a54-95c3-5695af0c0cc7}" type="POI" name="Sabil of Suleiman" owner="RipPipPip" lat="31.7713387" lon="35.2262843" alt="500.0"/> 
+<LandmarkLocation instanceId="{44b0e774-0f20-4787-b964-eb93ebe5a01e}" type="POI" name="Taninim hill" owner="RipPipPip" lat="32.5388358" lon="34.9017836" alt="500.0"/> 
+<LandmarkLocation instanceId="{d3d4d7ee-bb93-41fb-ba16-e4a021a77958}" type="POI" name="מאגורה" owner="RipPipPip" lat="30.8685867" lon="34.8215926" alt="500.0"/> 
+<LandmarkLocation instanceId="{88af0fb0-6c19-44dc-9ce3-486cdddd5a63}" type="POI" name="חורבת שרב" owner="RipPipPip" lat="30.7347898" lon="34.9018595" alt="500.0"/> 
+<LandmarkLocation instanceId="{353bd6ab-bb85-4d62-be05-94f8253a796f}" type="POI" name="(empty)" owner="RipPipPip" lat="32.9936039" lon="35.6898344" alt="500.0"/> 
+<LandmarkLocation instanceId="{3f2cff65-3b1b-4324-a3b4-1d108845923a}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7435093" lon="35.1568410" alt="500.0"/> 
+<LandmarkLocation instanceId="{41b42007-2d99-45e4-b993-4852a0c38a27}" type="POI" name="Shabbat Rock" owner="RipPipPip" lat="32.7073288" lon="35.2299080" alt="500.0"/> 
+<LandmarkLocation instanceId="{633c2531-74bd-49f5-9047-b66421f9c8d9}" type="POI" name="(empty)" owner="RipPipPip" lat="31.5775831" lon="34.7356948" alt="500.0"/> 
+<LandmarkLocation instanceId="{3f382a82-6b8f-4faa-8a1e-828338285936}" type="POI" name="מצפה בית אשל" owner="RipPipPip" lat="31.2334919" lon="34.8131905" alt="500.0"/> 
+<LandmarkLocation instanceId="{82b65306-f818-404e-bbed-b41d2e0e831f}" type="POI" name="Flour mill" owner="RipPipPip" lat="32.6393091" lon="35.1143881" alt="500.0"/> 
+<LandmarkLocation instanceId="{cb0c7ff8-4fd6-427b-844e-b65b906f5bd5}" type="POI" name="(empty)" owner="RipPipPip" lat="32.8934170" lon="35.6185271" alt="500.0"/> 
+<LandmarkLocation instanceId="{95564f52-dc12-4bb8-a46c-8475a185c5e4}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7396992" lon="35.2165556" alt="500.0"/> 
+<LandmarkLocation instanceId="{2efbc093-7536-4c2a-8ef6-878ef65fdd89}" type="POI" name="פסיפס" owner="RipPipPip" lat="32.6071485" lon="35.1345036" alt="500.0"/> 
+<LandmarkLocation instanceId="{c448d642-6842-40c1-b610-a2dfdaa8ca17}" type="POI" name="Columbarium" owner="RipPipPip" lat="31.7359851" lon="35.0542135" alt="500.0"/> 
+<LandmarkLocation instanceId="{8016bd7e-87a8-495a-8abe-3d3c1de0117e}" type="POI" name="גת עתיקה" owner="RipPipPip" lat="32.7613783" lon="35.2533068" alt="500.0"/> 
+<LandmarkLocation instanceId="{067f32b6-ce7e-4906-b636-328b2a78077e}" type="POI" name="(empty)" owner="RipPipPip" lat="32.7684598" lon="35.2799296" alt="500.0"/> 
+<LandmarkLocation instanceId="{62cdd084-d78c-4713-90a8-0826811b9138}" type="POI" name="(empty)" owner="RipPipPip" lat="32.7663632" lon="35.2729182" alt="500.0"/> 
+<LandmarkLocation instanceId="{1980f48f-5d46-4f74-acea-63665ecefaf3}" type="POI" name="Byzantine Bathhouse" owner="RipPipPip" lat="32.5021369" lon="35.5008241" alt="500.0"/> 
+<LandmarkLocation instanceId="{e09adcbd-ad6f-4b24-a0ba-ceee7e01009d}" type="POI" name="Palladius Street" owner="RipPipPip" lat="32.5023729" lon="35.5018497" alt="500.0"/> 
+<LandmarkLocation instanceId="{924aeddb-a65d-467b-8e7b-76c7028ab9ce}" type="POI" name="Roman Temple" owner="RipPipPip" lat="32.5028909" lon="35.5023269" alt="500.0"/> 
+<LandmarkLocation instanceId="{b57d0735-33b5-4cc2-9960-e9e4c7b1ee64}" type="POI" name="Nymphaeum" owner="RipPipPip" lat="32.5027938" lon="35.5025792" alt="500.0"/> 
+<LandmarkLocation instanceId="{27839707-5275-442a-b5da-45f9029f76a4}" type="POI" name="Silvanus Street" owner="RipPipPip" lat="32.5026880" lon="35.5031421" alt="500.0"/> 
+<LandmarkLocation instanceId="{37979417-de43-4687-a29e-5ed23a252ebb}" type="POI" name="Truncated Bridge" owner="RipPipPip" lat="32.5042572" lon="35.5058250" alt="500.0"/> 
+<LandmarkLocation instanceId="{2f3288b0-ca4f-4e73-a4e9-9886b3f93529}" type="POI" name="Hatsipor Haptsua" owner="RipPipPip" lat="32.7306788" lon="35.0060318" alt="500.0"/> 
+<LandmarkLocation instanceId="{dc839497-ce09-4f87-be44-81da91fb3416}" type="POI" name="The Refugee Caves" owner="RipPipPip" lat="31.6553781" lon="34.9383720" alt="500.0"/> 
+<LandmarkLocation instanceId="{070fcca5-94dd-4a32-b5a5-b715c91582e9}" type="POI" name="The Synagogue" owner="RipPipPip" lat="31.6559620" lon="34.9346695" alt="500.0"/> 
+<LandmarkLocation instanceId="{326d0357-1adc-4c2a-843b-be1fb6f99311}" type="POI" name="Sheikh Ali" owner="RipPipPip" lat="31.5361595" lon="34.8870468" alt="500.0"/> 
+<LandmarkLocation instanceId="{3e6d3f36-35c3-40a5-b8e2-ecb785ac6d9a}" type="POI" name="רסם א־רסום" owner="RipPipPip" lat="31.5312216" lon="34.8731087" alt="500.0"/> 
+<LandmarkLocation instanceId="{46660d0c-76bd-48b5-a845-00949d3b84c0}" type="POI" name="Wine press" owner="RipPipPip" lat="31.5269888" lon="34.8758150" alt="500.0"/> 
+<LandmarkLocation instanceId="{fa780b02-faeb-4598-93f1-d8a32b3ade14}" type="POI" name="מצד מג'ריחי" owner="RipPipPip" lat="31.5265681" lon="34.8765303" alt="500.0"/> 
+<LandmarkLocation instanceId="{8fd1cc18-ec55-480b-9e82-2565a47613fa}" type="POI" name="Ancient Mines" owner="RipPipPip" lat="29.7911227" lon="34.9334875" alt="500.0"/> 
+<LandmarkLocation instanceId="{7d5005fe-8b41-40b9-a7c7-b1bb5727784c}" type="POI" name="Solomon's stables" owner="RipPipPip" lat="31.7766572" lon="35.2349215" alt="500.0"/> 
+<LandmarkLocation instanceId="{9581f60c-dc9a-4c93-93d0-4e8bc0bf89f0}" type="POI" name="מאגורה וסכר" owner="RipPipPip" lat="31.2924650" lon="34.8180886" alt="500.0"/> 
+<LandmarkLocation instanceId="{7afc22a9-084b-4fb9-82db-1277d7ea4227}" type="POI" name="חרבת חדת" owner="RipPipPip" lat="31.8797344" lon="35.0144041" alt="500.0"/> 
+<LandmarkLocation instanceId="{f359a115-65b0-4e8e-93e7-84f69b693f5f}" type="POI" name="(empty)" owner="RipPipPip" lat="31.8737153" lon="35.0157092" alt="500.0"/> 
+<LandmarkLocation instanceId="{ae625754-f7f4-4634-9230-623c3f45e3b8}" type="POI" name="Rabi Yehuda Nasi Tomb" owner="RipPipPip" lat="32.7559341" lon="35.2755510" alt="500.0"/> 
+<LandmarkLocation instanceId="{3707a3b6-abbe-4bdc-87f5-f7e2261b9891}" type="POI" name="Revival Monument" owner="RipPipPip" lat="31.9765189" lon="34.7836874" alt="500.0"/> 
+<LandmarkLocation instanceId="{0e8611f6-f063-4c66-ad0b-a5d8601cfabf}" type="POI" name="Holocaust Monument" owner="RipPipPip" lat="31.9773228" lon="34.7829416" alt="500.0"/> 
+<LandmarkLocation instanceId="{344715d3-0a33-45f6-b700-2d8214b833cf}" type="POI" name="A monument to Jewish fighters against the Nazis" owner="RipPipPip" lat="31.9772648" lon="34.7817497" alt="500.0"/> 
+<LandmarkLocation instanceId="{bbc1f7b3-9724-4f01-a39d-585b77e76046}" type="POI" name="בארות יצחק הישנה" owner="RipPipPip" lat="31.4608612" lon="34.5003395" alt="500.0"/> 
+<LandmarkLocation instanceId="{4bfd767a-9991-4d66-9fc0-fe4e0d316a95}" type="POI" name="British Railway Bridge" owner="RipPipPip" lat="31.2814655" lon="34.6498451" alt="500.0"/> 
+<LandmarkLocation instanceId="{827f9147-43a7-4bde-a2a0-894797f3abd3}" type="POI" name="Patish Fortress" owner="RipPipPip" lat="31.3083386" lon="34.6377761" alt="500.0"/> 
+<LandmarkLocation instanceId="{82da3ffe-c6f9-446d-ac8e-4ae47a35c93d}" type="POI" name="Hirbat Bolek" owner="RipPipPip" lat="32.5886099" lon="35.3845495" alt="500.0"/> 
+<LandmarkLocation instanceId="{092183b9-64af-437b-aa06-a15dc4bf0116}" type="POI" name="Hirbat Kara" owner="RipPipPip" lat="32.5933583" lon="35.3763719" alt="500.0"/> 
+<LandmarkLocation instanceId="{504b6be1-36a4-41e6-95b6-6c4e9dbf5b8b}" type="POI" name="Tel Zafit" owner="RipPipPip" lat="31.7019809" lon="34.8474001" alt="500.0"/> 
+<LandmarkLocation instanceId="{bc56e5bd-1783-4905-af1b-c8ef18dac0e9}" type="POI" name="Radum ruins" owner="RipPipPip" lat="31.1900711" lon="35.1674614" alt="500.0"/> 
+<LandmarkLocation instanceId="{b48008e5-a633-42f8-b845-76b846c28c92}" type="POI" name="Ancient ruins" owner="RipPipPip" lat="30.5058862" lon="34.7080300" alt="500.0"/> 
+<LandmarkLocation instanceId="{800bd463-0fe4-4fb1-a251-cdd59b790dbe}" type="POI" name="(empty)" owner="RipPipPip" lat="32.2712509" lon="34.9539157" alt="500.0"/> 
+<LandmarkLocation instanceId="{cbb2dc80-089d-42fa-854a-9d6162106bbb}" type="POI" name="Yad Labanim" owner="RipPipPip" lat="32.2819446" lon="34.9117173" alt="500.0"/> 
+<LandmarkLocation instanceId="{3185474a-79c3-4813-ba3b-e05ce74c5196}" type="POI" name="(empty)" owner="RipPipPip" lat="30.7159994" lon="34.5808157" alt="500.0"/> 
+<LandmarkLocation instanceId="{3fb2a272-0c76-4fad-a5eb-47a096c38759}" type="POI" name="מישלט 21" owner="RipPipPip" lat="31.8036881" lon="35.0350720" alt="500.0"/> 
+<LandmarkLocation instanceId="{80b4d792-eaad-442d-9fb8-d794a9f3a3f5}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9575773" lon="34.9371555" alt="500.0"/> 
+<LandmarkLocation instanceId="{1fb1202c-620b-40c0-bba4-47ff5731a44c}" type="POI" name="Mt. Kitron" owner="RipPipPip" lat="31.7153606" lon="35.0839729" alt="500.0"/> 
+<LandmarkLocation instanceId="{f23f36aa-ee6c-4a25-a8a8-fbcea5f94f68}" type="POI" name="Zeevik Eilon" owner="RipPipPip" lat="32.7508949" lon="34.9513972" alt="500.0"/> 
+<LandmarkLocation instanceId="{c48af89d-7421-4291-85bd-3c562320d2c0}" type="POI" name="بيت عمر Omar's house" owner="RipPipPip" lat="31.7367929" lon="35.1664918" alt="500.0"/> 
+<LandmarkLocation instanceId="{6f15d11a-1955-4610-b258-5c82721b59ee}" type="POI" name="منحوتات السلطان الأطرش ومال جنبلاط" owner="RipPipPip" lat="32.9767972" lon="35.3367226" alt="500.0"/> 
+<LandmarkLocation instanceId="{136c051a-ba2c-4c46-9996-abe905fe668f}" type="POI" name="Shimri Ruins" owner="RipPipPip" lat="32.6287372" lon="34.9598760" alt="500.0"/> 
+<LandmarkLocation instanceId="{b9199b40-a0de-4068-a72e-36f0fd8e4c2a}" type="POI" name="cistern" owner="RipPipPip" lat="31.2914502" lon="34.8041146" alt="500.0"/> 
+<LandmarkLocation instanceId="{c14aed7a-88dd-4eef-a48c-e545951e3bf1}" type="POI" name="חרבת עדשים" owner="RipPipPip" lat="32.6374238" lon="35.3094645" alt="500.0"/> 
+<LandmarkLocation instanceId="{d5a7dc54-7b91-48da-b373-84fad52c095c}" type="POI" name="Moah" owner="RipPipPip" lat="30.5412197" lon="35.1616364" alt="500.0"/> 
+<LandmarkLocation instanceId="{10c7e090-d0a3-4167-9141-46550af74a82}" type="POI" name="The paleolithic temple" owner="RipPipPip" lat="30.2880764" lon="34.7559662" alt="500.0"/> 
+<LandmarkLocation instanceId="{f353492c-2a68-4fd5-94a1-10971c7de7d0}" type="POI" name="(empty)" owner="RipPipPip" lat="32.9679008" lon="35.4952795" alt="500.0"/> 
+<LandmarkLocation instanceId="{84fa3950-6acc-49d1-946b-edbb805fbd8a}" type="POI" name="(empty)" owner="RipPipPip" lat="33.0236510" lon="35.5611847" alt="500.0"/> 
+<LandmarkLocation instanceId="{6995bbdd-1863-434e-9c83-674729775579}" type="POI" name="(empty)" owner="RipPipPip" lat="33.0209333" lon="35.5683450" alt="500.0"/> 
+<LandmarkLocation instanceId="{a6e5c031-4c70-490c-8317-aba8002b62ce}" type="POI" name="(empty)" owner="RipPipPip" lat="33.0228140" lon="35.5668045" alt="500.0"/> 
+<LandmarkLocation instanceId="{50450a32-df3a-42dc-bf04-750576e1ce79}" type="POI" name="בית הכנסת של מגדל" owner="RipPipPip" lat="32.8264691" lon="35.5148196" alt="500.0"/> 
+<LandmarkLocation instanceId="{c252b26e-0106-44fa-8ade-4e4e67f1d6f4}" type="POI" name="Lod Mosaic" owner="RipPipPip" lat="31.9556158" lon="34.9035025" alt="500.0"/> 
+<LandmarkLocation instanceId="{b98e160b-06f8-4c30-a331-dcea64f9b0b6}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7454387" lon="35.1873042" alt="500.0"/> 
+<LandmarkLocation instanceId="{d8fd77b3-bb5a-4a3d-ae06-7cd5301fc617}" type="POI" name="Peace Monument" owner="RipPipPip" lat="31.9532743" lon="34.9007916" alt="500.0"/> 
+<LandmarkLocation instanceId="{1194cafa-5495-4bc1-a4b1-9bd0971bc842}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9970599" lon="34.7319511" alt="500.0"/> 
+<LandmarkLocation instanceId="{f34aa534-25a4-4b9d-b0fc-9bb511652965}" type="POI" name="Tura ruins" owner="RipPipPip" lat="31.7554078" lon="35.0611486" alt="500.0"/> 
+<LandmarkLocation instanceId="{aee6270d-1e96-4518-952f-58b2b1697c01}" type="POI" name="(empty)" owner="RipPipPip" lat="31.8037261" lon="35.2065799" alt="500.0"/> 
+<LandmarkLocation instanceId="{9d59dda4-e6c5-4660-b4b1-3d82f4d655c0}" type="POI" name="גת" owner="RipPipPip" lat="31.7502789" lon="35.1026314" alt="500.0"/> 
+<LandmarkLocation instanceId="{62ebc2bd-f019-4431-898c-28c60408a2e4}" type="POI" name="Horbat Dan'yila" owner="RipPipPip" lat="33.0667152" lon="35.2471237" alt="500.0"/> 
+<LandmarkLocation instanceId="{2a438cba-21d3-4675-9778-4f8106b96905}" type="POI" name="Oil press" owner="RipPipPip" lat="33.0669092" lon="35.2468935" alt="500.0"/> 
+<LandmarkLocation instanceId="{de39ee0b-6b9a-4350-ad57-1b1e6685f488}" type="POI" name="Tel Sharuhen" owner="RipPipPip" lat="31.2819649" lon="34.4826603" alt="500.0"/> 
+<LandmarkLocation instanceId="{cf487a6f-cb36-4842-8659-f6f39a3d0385}" type="POI" name="Malkiya battle monument" owner="RipPipPip" lat="33.0979730" lon="35.5122540" alt="500.0"/> 
+<LandmarkLocation instanceId="{8c34ee09-f161-4645-a828-169c37cf42d7}" type="POI" name="Ramot Naftaly Fortress" owner="RipPipPip" lat="33.0957974" lon="35.5505293" alt="500.0"/> 
+<LandmarkLocation instanceId="{d61b497b-295e-4f03-a6dd-4a85a03621c6}" type="POI" name="Kline" owner="RipPipPip" lat="31.6800818" lon="34.9230261" alt="500.0"/> 
+<LandmarkLocation instanceId="{1d5db5c5-b948-4ff4-a09e-8ff8ab009345}" type="POI" name="Wine press" owner="RipPipPip" lat="31.6786574" lon="34.9272557" alt="500.0"/> 
+<LandmarkLocation instanceId="{9c33f9c0-db97-434f-b234-09291d7b8ef9}" type="POI" name="(empty)" owner="RipPipPip" lat="33.2291207" lon="35.7269123" alt="500.0"/> 
+<LandmarkLocation instanceId="{6c38f79b-7fc9-4800-b1fd-052303be48e7}" type="POI" name=""Byzantine church, mosaic"" owner="RipPipPip" lat="31.4182003" lon="34.4351722" alt="500.0"/> 
+<LandmarkLocation instanceId="{43504e26-2007-40e6-a069-f8a6cda0c076}" type="POI" name="חרוטות סלע" owner="RipPipPip" lat="30.9692326" lon="34.9404488" alt="500.0"/> 
+<LandmarkLocation instanceId="{19cbe614-4b7b-408b-a25d-309f61a24f8b}" type="POI" name="(empty)" owner="RipPipPip" lat="31.6544951" lon="34.9466263" alt="500.0"/> 
+<LandmarkLocation instanceId="{c52b94bf-1c94-4c5e-a7ce-7c9b5813bba3}" type="POI" name="(empty)" owner="RipPipPip" lat="32.5328206" lon="34.9955201" alt="500.0"/> 
+<LandmarkLocation instanceId="{2e1589fe-b61d-43b8-a0a8-16a06b6199ff}" type="POI" name="גת" owner="RipPipPip" lat="31.3506028" lon="34.9978467" alt="500.0"/> 
+<LandmarkLocation instanceId="{dd6f66cf-bc67-4c16-ac07-7a6e43a3e662}" type="POI" name="Jattir" owner="RipPipPip" lat="31.3534808" lon="35.0163853" alt="500.0"/> 
+<LandmarkLocation instanceId="{ed02e9a1-e682-4921-ab47-abc8789f53a4}" type="POI" name="(empty)" owner="RipPipPip" lat="30.8576817" lon="35.1688909" alt="500.0"/> 
+<LandmarkLocation instanceId="{a651d042-7eed-4009-8cfb-5fe225148492}" type="POI" name="ציורי סלע" owner="RipPipPip" lat="30.2917366" lon="34.7474594" alt="500.0"/> 
+<LandmarkLocation instanceId="{bc3bb54b-10f4-4845-a639-af6922146b44}" type="POI" name="חרותות" owner="RipPipPip" lat="30.3003124" lon="34.7473638" alt="500.0"/> 
+<LandmarkLocation instanceId="{04ceab82-9c79-4151-a067-7b8694ab0a1e}" type="POI" name="tumulus" owner="RipPipPip" lat="30.2990374" lon="34.7449388" alt="500.0"/> 
+<LandmarkLocation instanceId="{a95d7688-f0c7-4eaf-934f-841b1d823c9c}" type="POI" name="חרותות" owner="RipPipPip" lat="30.3003222" lon="34.7467332" alt="500.0"/> 
+<LandmarkLocation instanceId="{75e7a803-1acd-4cd7-8742-4496672c79b7}" type="POI" name="מבנה פולחני" owner="RipPipPip" lat="30.2978885" lon="34.7463613" alt="500.0"/> 
+<LandmarkLocation instanceId="{43e8e7d7-dc46-4949-bd33-1c904768741c}" type="POI" name=""ציורי סלע, לוחות הברית"" owner="RipPipPip" lat="30.3035069" lon="34.7406883" alt="500.0"/> 
+<LandmarkLocation instanceId="{687f51fd-70e2-41aa-9593-7b87563d0cf7}" type="POI" name="ציורי סלע" owner="RipPipPip" lat="30.2922532" lon="34.7463101" alt="500.0"/> 
+<LandmarkLocation instanceId="{b1424b71-bc9d-436f-b0e3-e1af8a613847}" type="POI" name="חרותות" owner="RipPipPip" lat="30.3000933" lon="34.7468113" alt="500.0"/> 
+<LandmarkLocation instanceId="{77747b4a-255e-408b-a283-36f63d5ddc8e}" type="POI" name="Monument for the fallen" owner="RipPipPip" lat="33.1964606" lon="35.5432424" alt="500.0"/> 
+<LandmarkLocation instanceId="{a5dd1336-64dc-41b0-ab05-b1c0d573af7f}" type="POI" name="Tel Hoshania" owner="RipPipPip" lat="32.9950853" lon="35.8099268" alt="500.0"/> 
+<LandmarkLocation instanceId="{d9b5b0eb-89b2-4222-addd-5c92d1ae85a4}" type="POI" name="students monument" owner="RipPipPip" lat="32.6208512" lon="35.2885128" alt="500.0"/> 
+<LandmarkLocation instanceId="{c7689c4e-668c-4be5-81f3-fb6fdcbb6853}" type="POI" name="חורבת מזרע'ה" owner="RipPipPip" lat="32.2326484" lon="34.9949495" alt="500.0"/> 
+<LandmarkLocation instanceId="{3e227778-eb5e-475b-8fac-a6008f87042a}" type="POI" name="Isdud Mosque" owner="RipPipPip" lat="31.7551891" lon="34.6608533" alt="500.0"/> 
+<LandmarkLocation instanceId="{a43de31e-f97d-4499-97c3-f331bf2c34d5}" type="POI" name="Isdud Town Cemetery" owner="RipPipPip" lat="31.7553233" lon="34.6580056" alt="500.0"/> 
+<LandmarkLocation instanceId="{79af00c0-5d47-4e6c-8623-607a8d97db07}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7554165" lon="35.1933511" alt="500.0"/> 
+<LandmarkLocation instanceId="{76587c20-ca1a-47a6-9895-37fc29751da3}" type="POI" name="Zaura" owner="RipPipPip" lat="33.2161980" lon="35.7112732" alt="500.0"/> 
+<LandmarkLocation instanceId="{5bdfd73b-7685-4e55-8a22-c8ffc988d719}" type="POI" name="חורבת עומרית" owner="RipPipPip" lat="33.2183530" lon="35.6630830" alt="500.0"/> 
+<LandmarkLocation instanceId="{f159784b-755c-4f16-95bc-a9b7c8603bbe}" type="POI" name="חורבת א' רפיד" owner="RipPipPip" lat="32.9564400" lon="35.6300926" alt="500.0"/> 
+<LandmarkLocation instanceId="{0c6b6d29-db28-40cb-989d-3061b5e1729f}" type="POI" name="Stables" owner="RipPipPip" lat="30.7941359" lon="34.7748750" alt="500.0"/> 
+<LandmarkLocation instanceId="{fbc67b80-f34b-4aa6-9597-4939143f1ab2}" type="POI" name="Byzantine quarter" owner="RipPipPip" lat="30.7938824" lon="34.7750601" alt="500.0"/> 
+<LandmarkLocation instanceId="{e4b7661a-c282-469e-95d6-035895652def}" type="POI" name="Vaulted room" owner="RipPipPip" lat="30.7937511" lon="34.7749407" alt="500.0"/> 
+<LandmarkLocation instanceId="{537e7922-da7c-4d56-a8b1-2c7577cc4092}" type="POI" name="Roman tower" owner="RipPipPip" lat="30.7936831" lon="34.7748737" alt="500.0"/> 
+<LandmarkLocation instanceId="{26821724-2e4f-4883-a2fc-45558a39c1da}" type="POI" name="Pottery workshop" owner="RipPipPip" lat="30.7968195" lon="34.7767854" alt="500.0"/> 
+<LandmarkLocation instanceId="{0c52ff36-c52b-4075-aa4b-300756902c02}" type="POI" name="Winepress" owner="RipPipPip" lat="30.7941726" lon="34.7737122" alt="500.0"/> 
+<LandmarkLocation instanceId="{b1d21513-359f-4234-9148-8b76c2da0570}" type="POI" name="Southern church" owner="RipPipPip" lat="30.7941819" lon="34.7734574" alt="500.0"/> 
+<LandmarkLocation instanceId="{5bf750be-a7fc-4a07-acbb-b70dc481caa1}" type="POI" name="Marble baptisery" owner="RipPipPip" lat="30.7942049" lon="34.7728096" alt="500.0"/> 
+<LandmarkLocation instanceId="{8535ab6c-765b-4621-9e53-5e0936d16b5f}" type="POI" name="Northern church" owner="RipPipPip" lat="30.7942752" lon="34.7729920" alt="500.0"/> 
+<LandmarkLocation instanceId="{b48b6a34-a810-4066-99fe-6068a2207f63}" type="POI" name="Store caves" owner="RipPipPip" lat="30.7941720" lon="34.7718572" alt="500.0"/> 
+<LandmarkLocation instanceId="{ef6d25b0-a930-4b3d-ab9e-6d468dcf3d92}" type="POI" name="Store caves" owner="RipPipPip" lat="30.7942818" lon="34.7718739" alt="500.0"/> 
+<LandmarkLocation instanceId="{49694e72-9221-4b80-a82b-6b7f5cad3489}" type="POI" name="Bathhouse" owner="RipPipPip" lat="30.7938061" lon="34.7686272" alt="500.0"/> 
+<LandmarkLocation instanceId="{ba8e987c-52af-4a71-b80d-c0134bc920af}" type="POI" name="Cisterns" owner="RipPipPip" lat="32.7470342" lon="35.2918476" alt="500.0"/> 
+<LandmarkLocation instanceId="{433a6890-1496-4108-8ca9-700005d69c0f}" type="POI" name="Theater" owner="RipPipPip" lat="32.5066477" lon="34.8973615" alt="500.0"/> 
+<LandmarkLocation instanceId="{6ac38c0a-efcd-4fd9-ae70-44aaebf9ddd6}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9705533" lon="34.7738904" alt="500.0"/> 
+<LandmarkLocation instanceId="{b8a1aefa-c676-4dc3-8f59-eec80ba097dc}" type="POI" name="ציורי סלע" owner="RipPipPip" lat="30.7914256" lon="34.7297055" alt="500.0"/> 
+<LandmarkLocation instanceId="{e0af6b59-c985-4af3-973e-f7e0d44b2361}" type="POI" name="ציורי סלע" owner="RipPipPip" lat="30.7918115" lon="34.7307561" alt="500.0"/> 
+<LandmarkLocation instanceId="{f103b22b-ff1e-4a15-8245-b56f4fd49bb5}" type="POI" name="טחנת הנזירים" owner="RipPipPip" lat="32.7648070" lon="35.1569097" alt="500.0"/> 
+<LandmarkLocation instanceId="{2579ca4c-d103-4058-939b-96c65bf74d87}" type="POI" name="פתח גיחה" owner="RipPipPip" lat="32.5022410" lon="34.8932165" alt="500.0"/> 
+<LandmarkLocation instanceId="{52a79a04-b528-4882-9473-7fa50fbd466b}" type="POI" name="גן לאומי קיסריה" owner="RipPipPip" lat="32.5070229" lon="34.8942604" alt="500.0"/> 
+<LandmarkLocation instanceId="{28487807-4f41-40eb-a649-b87848574f6b}" type="POI" name="(empty)" owner="RipPipPip" lat="32.5008476" lon="34.8947730" alt="500.0"/> 
+<LandmarkLocation instanceId="{67787514-2e6a-4a04-983e-3f5f8f0eb8b3}" type="POI" name="חרבת ראש זית" owner="RipPipPip" lat="32.8792044" lon="35.2285221" alt="500.0"/> 
+<LandmarkLocation instanceId="{17957e8b-7beb-4c3e-857b-760299867fb7}" type="POI" name="The Ancient Synagogue Caesaria" owner="RipPipPip" lat="32.5060111" lon="34.8925534" alt="500.0"/> 
+<LandmarkLocation instanceId="{a3fe4998-376c-41da-8ca2-4645cff08278}" type="POI" name="(empty)" owner="RipPipPip" lat="32.6545863" lon="34.9649749" alt="500.0"/> 
+<LandmarkLocation instanceId="{f8a249dd-d07f-4da4-81ac-8db191765071}" type="POI" name="Duba ruins" owner="RipPipPip" lat="32.6782986" lon="35.0865193" alt="500.0"/> 
+<LandmarkLocation instanceId="{11cbddcc-97ab-4c17-afd7-bec38146c578}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7078640" lon="35.0393460" alt="500.0"/> 
+<LandmarkLocation instanceId="{53e84363-1fd4-499a-a40d-f2982aafcba9}" type="POI" name="Baram old synagogue" owner="RipPipPip" lat="33.0442427" lon="35.4145855" alt="500.0"/> 
+<LandmarkLocation instanceId="{7145d485-746b-4385-a734-67d474c981b0}" type="POI" name="בית כנסת התחתון גוש חלב" owner="RipPipPip" lat="33.0277786" lon="35.4494247" alt="500.0"/> 
+<LandmarkLocation instanceId="{e056ef75-cfe4-4edd-a524-b34ba5d408a9}" type="POI" name="Tel Haror" owner="RipPipPip" lat="31.3819226" lon="34.6071273" alt="500.0"/> 
+<LandmarkLocation instanceId="{48397482-9155-4bb5-b9a8-f5d7122c8c37}" type="POI" name="Ma'on" owner="RipPipPip" lat="31.3289642" lon="34.4089165" alt="500.0"/> 
+<LandmarkLocation instanceId="{63284006-2348-4d29-81ec-d988c49f9c12}" type="POI" name="באר שמע" owner="RipPipPip" lat="31.2573191" lon="34.5443689" alt="500.0"/> 
+<LandmarkLocation instanceId="{87492259-0e1f-4bae-80e3-ba6463c7073c}" type="POI" name="(empty)" owner="RipPipPip" lat="32.5046692" lon="35.5070648" alt="500.0"/> 
+<LandmarkLocation instanceId="{ec5ec97a-01fd-437c-a00f-348a325483d7}" type="POI" name="מיכלי מים" owner="RipPipPip" lat="31.6478656" lon="34.6160952" alt="500.0"/> 
+<LandmarkLocation instanceId="{87dc495a-32d8-44d4-9505-456e4fc66059}" type="POI" name="Roman Temple" owner="RipPipPip" lat="33.1129504" lon="35.5337608" alt="500.0"/> 
+<LandmarkLocation instanceId="{f7b1dd13-5528-4df6-97f4-908f1e85a625}" type="POI" name="Tombs" owner="RipPipPip" lat="33.1128875" lon="35.5318726" alt="500.0"/> 
+<LandmarkLocation instanceId="{3beec03c-71df-4d1f-a073-2d1682a56486}" type="POI" name="Ha'Lamed-He Memorial" owner="RipPipPip" lat="31.6856384" lon="34.9858398" alt="500.0"/> 
+<LandmarkLocation instanceId="{b8651fa1-fbc3-4c83-a555-ca3908a80d80}" type="POI" name="מחצבות עתיקות" owner="RipPipPip" lat="31.8546467" lon="34.9331284" alt="500.0"/> 
+<LandmarkLocation instanceId="{8cc938aa-c63c-450a-b6f9-cfb76ff1e8b1}" type="POI" name="מצדית חרסיס" owner="RipPipPip" lat="31.8168131" lon="35.0243554" alt="500.0"/> 
+<LandmarkLocation instanceId="{362aa04b-620e-40e7-834c-2f4f09fc08f1}" type="POI" name="תל שלף" owner="RipPipPip" lat="31.8926369" lon="34.7687727" alt="500.0"/> 
+<LandmarkLocation instanceId="{4929328b-cf42-4748-88ed-c694a9d716f6}" type="POI" name="12 המצבות" owner="RipPipPip" lat="30.2978020" lon="34.7267265" alt="500.0"/> 
+<LandmarkLocation instanceId="{068e3645-f254-48d5-b28c-e83fa24c05b6}" type="POI" name="Kesem cave" owner="RipPipPip" lat="32.1020667" lon="34.9866175" alt="500.0"/> 
+<LandmarkLocation instanceId="{c1eeed16-d364-4113-953b-48d828d360d3}" type="POI" name="Pilot's memorial monument" owner="RipPipPip" lat="32.0695563" lon="34.8222488" alt="500.0"/> 
+<LandmarkLocation instanceId="{96d5642e-7f67-438f-99e3-54b612dc5f87}" type="POI" name="(empty)" owner="RipPipPip" lat="32.5403164" lon="35.0528319" alt="500.0"/> 
+<LandmarkLocation instanceId="{7340ca5b-8159-4e58-a933-5041cd7a3527}" type="POI" name="Gan HaBanim" owner="RipPipPip" lat="31.9015637" lon="34.8018291" alt="500.0"/> 
+<LandmarkLocation instanceId="{0f2a5152-6b23-4663-85dd-6db328262a5f}" type="POI" name="חרבת מסמר" owner="RipPipPip" lat="31.8140524" lon="35.0710094" alt="500.0"/> 
+<LandmarkLocation instanceId="{b3a8b143-f9d9-427e-a44b-ee26a74a120b}" type="POI" name="חרותות סלע" owner="RipPipPip" lat="30.8243484" lon="34.7458839" alt="500.0"/> 
+<LandmarkLocation instanceId="{1245c752-fd1b-4822-a405-01c461e7c1ed}" type="POI" name="(empty)" owner="RipPipPip" lat="32.7575763" lon="35.0273788" alt="500.0"/> 
+<LandmarkLocation instanceId="{cc439db5-ac94-464f-a377-00d5cde53826}" type="POI" name="Karach Ruins" owner="RipPipPip" lat="32.6773120" lon="35.0714278" alt="500.0"/> 
+<LandmarkLocation instanceId="{cf7ed6c3-7e07-4714-86f8-ece28f3cb42f}" type="POI" name="תל שלם" owner="RipPipPip" lat="32.3991508" lon="35.5270805" alt="500.0"/> 
+<LandmarkLocation instanceId="{eab01115-173c-40e5-853b-a5c778d054bd}" type="POI" name="מערת העמוד" owner="RipPipPip" lat="31.6336687" lon="34.9715366" alt="500.0"/> 
+<LandmarkLocation instanceId="{f5013ecc-174d-4cb7-9010-b4ae11fbd0a2}" type="POI" name="מערת בית המספד" owner="RipPipPip" lat="31.6337690" lon="34.9709577" alt="500.0"/> 
+<LandmarkLocation instanceId="{d2e05799-6de8-41cd-89ae-01da80722a82}" type="POI" name="מערת בבוקריום" owner="RipPipPip" lat="31.6338207" lon="34.9706703" alt="500.0"/> 
+<LandmarkLocation instanceId="{63c597c0-0f48-4ce5-9e49-97178166c289}" type="POI" name="טחנת קמח ליד נחל שלף" owner="RipPipPip" lat="32.5964790" lon="35.0709483" alt="500.0"/> 
+<LandmarkLocation instanceId="{1b758348-204f-41aa-a25c-96d9a017a8ce}" type="POI" name="חורבת זכרי" owner="RipPipPip" lat="31.6835327" lon="34.8765221" alt="500.0"/> 
+<LandmarkLocation instanceId="{756bfe1f-85fd-4d59-a3f3-3249f1cc4784}" type="POI" name="Shiech Kawas" owner="RipPipPip" lat="32.9515419" lon="35.4787292" alt="500.0"/> 
+<LandmarkLocation instanceId="{96d50230-f3ba-4d60-a03b-5a6dcfef836f}" type="POI" name="אנדרטת המחצבה" owner="RipPipPip" lat="30.6146052" lon="34.8875624" alt="500.0"/> 
+<LandmarkLocation instanceId="{bcf46ad1-f4c5-4449-8581-63b9e8aed72d}" type="POI" name="חרבת עלקת" owner="RipPipPip" lat="31.8122860" lon="35.0564893" alt="500.0"/> 
+<LandmarkLocation instanceId="{2ef5fbc8-fef5-46c8-b63a-8971d8cb7b8a}" type="POI" name="Byzantine Oil press" owner="RipPipPip" lat="32.0477114" lon="34.8136576" alt="500.0"/> 
+<LandmarkLocation instanceId="{64ed8702-a102-40a4-96ee-e8ea12939529}" type="POI" name="גשר עותמני" owner="RipPipPip" lat="29.5788505" lon="34.8888961" alt="500.0"/> 
+<LandmarkLocation instanceId="{5b55f2a0-7f4f-4f91-b7eb-5b2db312657f}" type="POI" name="גת כילודיא" owner="RipPipPip" lat="32.2712815" lon="34.9635118" alt="500.0"/> 
+<LandmarkLocation instanceId="{cf8cb2f5-dd12-42b2-adc0-b64112f098ee}" type="POI" name="Tombs from the Roman period" owner="RipPipPip" lat="31.6786659" lon="34.5576372" alt="500.0"/> 
+<LandmarkLocation instanceId="{48e88dc1-7d90-4728-af29-b4dd94c776ec}" type="POI" name="(empty)" owner="RipPipPip" lat="30.7759286" lon="34.7299089" alt="500.0"/> 
+<LandmarkLocation instanceId="{f8852bdf-0fb4-4f9f-9d8e-898a17ea6145}" type="POI" name="Menahem's house" owner="RipPipPip" lat="32.5889590" lon="35.0417984" alt="500.0"/> 
+<LandmarkLocation instanceId="{6e88987c-1442-4c9f-aaa4-7443509d15fd}" type="POI" name="בית בד" owner="RipPipPip" lat="32.7353542" lon="34.9706870" alt="500.0"/> 
+<LandmarkLocation instanceId="{4cce111c-f598-4ada-93e2-ab965a9ce343}" type="POI" name="ancient farm" owner="RipPipPip" lat="30.8703387" lon="34.4238754" alt="500.0"/> 
+<LandmarkLocation instanceId="{53ca6783-1c87-4fc0-984e-734670464598}" type="POI" name=""South Church ruins, 6th century AD"" owner="RipPipPip" lat="30.8753607" lon="34.4313986" alt="500.0"/> 
+<LandmarkLocation instanceId="{a99b17af-b4c2-4462-8e61-aae739fff7d4}" type="POI" name="Gesher" owner="RipPipPip" lat="32.6030486" lon="35.5557941" alt="500.0"/> 
+<LandmarkLocation instanceId="{62ebcbef-6d11-458e-96dc-ba77053d0960}" type="POI" name="Altalena memorial" owner="RipPipPip" lat="32.0787188" lon="34.7667565" alt="500.0"/> 
+<LandmarkLocation instanceId="{c6d0cb20-52d3-43e5-9b4e-1ec87d78feb2}" type="POI" name="Dovecote tower" owner="RipPipPip" lat="30.8857037" lon="34.6249652" alt="500.0"/> 
+<LandmarkLocation instanceId="{b3e4611f-7ba3-43c6-ad70-618065584b3d}" type="POI" name="ancient farm" owner="RipPipPip" lat="30.8549554" lon="34.6170508" alt="500.0"/> 
+<LandmarkLocation instanceId="{97a8ad36-39a9-4f5b-b872-a35c6e577fb6}" type="POI" name="oil press" owner="RipPipPip" lat="33.0798216" lon="35.1984424" alt="500.0"/> 
+<LandmarkLocation instanceId="{7cab7cb5-9487-4176-a153-5d4e0c1c86c5}" type="POI" name="(empty)" owner="RipPipPip" lat="31.0252190" lon="35.2377449" alt="500.0"/> 
+<LandmarkLocation instanceId="{10d62921-1ec8-4a64-be5f-bf18466b3e1b}" type="POI" name="בור קצינים" owner="RipPipPip" lat="30.6645578" lon="34.8104885" alt="500.0"/> 
+<LandmarkLocation instanceId="{46aa4513-9dd3-4588-b2ac-cea7a18f8f15}" type="POI" name="Deir Qeruh" owner="RipPipPip" lat="32.9061539" lon="35.7459160" alt="500.0"/> 
+<LandmarkLocation instanceId="{3498854a-d474-477a-bc9d-d41c9d783b22}" type="POI" name="חורבת כפר שעורה" owner="RipPipPip" lat="31.5498975" lon="34.6562546" alt="500.0"/> 
+<LandmarkLocation instanceId="{57ef31a9-f824-492d-954e-0286dbeb154e}" type="POI" name="חורבת מרשן" owner="RipPipPip" lat="31.5386076" lon="34.6618525" alt="500.0"/> 
+<LandmarkLocation instanceId="{d4713505-b6e1-41e4-baf4-bb8de4d0d981}" type="POI" name="מחנה מעצר לטרון" owner="RipPipPip" lat="31.8303661" lon="34.9645653" alt="500.0"/> 
+<LandmarkLocation instanceId="{dc6a5d17-1f2a-46d8-9f48-ba9e749dcbed}" type="POI" name="בית גתות" owner="RipPipPip" lat="31.7828924" lon="35.1167270" alt="500.0"/> 
+<LandmarkLocation instanceId="{6fc55dd0-5bf2-4350-8e2e-32ddd92aaa5b}" type="POI" name="קבר שייח" owner="RipPipPip" lat="32.3442917" lon="35.0236130" alt="500.0"/> 
+<LandmarkLocation instanceId="{5e0cb494-2b5f-4d51-b918-9fb877ec8601}" type="POI" name="חללי השואה" owner="RipPipPip" lat="31.8462115" lon="34.9398708" alt="500.0"/> 
+<LandmarkLocation instanceId="{1ec1ba5b-b6ea-4a76-8bf1-03bdce60caf5}" type="POI" name="בית באר" owner="RipPipPip" lat="32.1121330" lon="34.8961868" alt="500.0"/> 
+<LandmarkLocation instanceId="{434d9b00-3dd2-48b7-bd2d-df51abe13ca9}" type="POI" name="שרידי מסילת רכבת" owner="RipPipPip" lat="32.1634598" lon="34.9323311" alt="500.0"/> 
+<LandmarkLocation instanceId="{e7faeccc-a2b7-4f06-bf26-1dc3dec00126}" type="POI" name="אנדרטת הקרב על נירים" owner="RipPipPip" lat="31.2387466" lon="34.3372955" alt="500.0"/> 
+<LandmarkLocation instanceId="{3a317b9a-88a5-4796-8561-bbb19484a9bb}" type="POI" name="גת" owner="RipPipPip" lat="31.8486137" lon="34.9291687" alt="500.0"/> 
+<LandmarkLocation instanceId="{1ec147d2-a913-4b6a-b97e-4052d66e96ea}" type="POI" name="תחנת רכבת נחל שורק" owner="RipPipPip" lat="31.8063996" lon="34.8745924" alt="500.0"/> 
+<LandmarkLocation instanceId="{0244e094-448d-47c0-885b-285bafdf5fb3}" type="POI" name="(empty)" owner="RipPipPip" lat="31.5194130" lon="34.8073807" alt="500.0"/> 
+<LandmarkLocation instanceId="{37eec1e8-d0b5-481b-bd70-4c97dd23ddc5}" type="POI" name="מצדית" owner="RipPipPip" lat="31.8169060" lon="35.1050547" alt="500.0"/> 
+<LandmarkLocation instanceId="{b7719cea-5a65-46e4-8679-733e34ec68ec}" type="POI" name="Barqusya Cemetery" owner="RipPipPip" lat="31.6788541" lon="34.8244349" alt="500.0"/> 
+<LandmarkLocation instanceId="{840f4e88-74ec-4918-8732-3afa9cc95fd7}" type="POI" name="מצודת גזרון" owner="RipPipPip" lat="30.5920153" lon="34.6200436" alt="500.0"/> 
+<LandmarkLocation instanceId="{b6125809-6bbd-4fb7-b1c9-4253d5240913}" type="POI" name="תחנת נענע ההיסטורית" owner="RipPipPip" lat="31.8702577" lon="34.8698934" alt="500.0"/> 
+<LandmarkLocation instanceId="{a8c7f480-bb68-4c1a-8583-dd138944c17d}" type="POI" name="מנזר ביזנטי ובית חווה בריטי" owner="RipPipPip" lat="31.9167390" lon="34.7592831" alt="500.0"/> 
+<LandmarkLocation instanceId="{bd04be0e-78cf-4507-9542-a300e5f7c2d1}" type="POI" name="פסל גן השושנה" owner="RipPipPip" lat="31.8018747" lon="35.1651919" alt="500.0"/> 
+<LandmarkLocation instanceId="{d1698029-ee8e-4cb5-98dc-5342552a907e}" type="POI" name="(empty)" owner="RipPipPip" lat="32.6530718" lon="35.2578702" alt="500.0"/> 
+<LandmarkLocation instanceId="{01835528-7ce7-463f-9903-9000eba0f20d}" type="POI" name="Black Arrow" owner="RipPipPip" lat="31.5069523" lon="34.5530701" alt="500.0"/> 
+<LandmarkLocation instanceId="{11a3b205-1ff3-4f50-b216-1449d3cf1a1f}" type="POI" name="(empty)" owner="RipPipPip" lat="32.7756312" lon="35.5395179" alt="500.0"/> 
+<LandmarkLocation instanceId="{94ec3632-cef1-4a8c-9f0c-0be7ec9608b1}" type="POI" name="(empty)" owner="RipPipPip" lat="32.7744409" lon="35.5438111" alt="500.0"/> 
+<LandmarkLocation instanceId="{44068c93-338b-42d0-9153-8a63c0b971e3}" type="POI" name="(empty)" owner="RipPipPip" lat="32.7764828" lon="35.5445905" alt="500.0"/> 
+<LandmarkLocation instanceId="{f13cc3a2-a934-45cd-ac23-7b1904b210a1}" type="POI" name="(empty)" owner="RipPipPip" lat="32.7176712" lon="35.5722497" alt="500.0"/> 
+<LandmarkLocation instanceId="{c35fe747-07bf-443f-8417-e334b182ff40}" type="POI" name="Horbat Sakhar" owner="RipPipPip" lat="32.9447069" lon="35.5416709" alt="500.0"/> 
+<LandmarkLocation instanceId="{45a49697-e72f-4a60-be28-09996a7946f2}" type="POI" name="Rabin Grave" owner="RipPipPip" lat="31.7751884" lon="35.1789372" alt="500.0"/> 
+<LandmarkLocation instanceId="{973630e4-cf02-4492-a156-6e0530ecda30}" type="POI" name="(empty)" owner="RipPipPip" lat="31.4804123" lon="34.8341287" alt="500.0"/> 
+<LandmarkLocation instanceId="{778d1c35-4817-47f9-9273-8a061ad26a81}" type="POI" name="workshop" owner="RipPipPip" lat="29.7843019" lon="34.9481535" alt="500.0"/> 
+<LandmarkLocation instanceId="{b0450233-945a-498b-b1bf-f5bab2ea37af}" type="POI" name="smelting furnace" owner="RipPipPip" lat="29.7834961" lon="34.9482192" alt="500.0"/> 
+<LandmarkLocation instanceId="{3dbcb206-9b63-4f5d-bfa5-f5515e55fdfb}" type="POI" name="רוגמים" owner="RipPipPip" lat="31.0549652" lon="35.0994569" alt="500.0"/> 
+<LandmarkLocation instanceId="{fd42d461-906c-43dd-8439-233a825137db}" type="POI" name="(empty)" owner="RipPipPip" lat="32.9726099" lon="35.4724382" alt="500.0"/> 
+<LandmarkLocation instanceId="{7e3b1e5e-e851-4d45-a788-258da0eaba9a}" type="POI" name="(empty)" owner="RipPipPip" lat="32.9730560" lon="35.4707987" alt="500.0"/> 
+<LandmarkLocation instanceId="{e5556d36-52bf-413b-a527-ae5b938f7e76}" type="POI" name="Mamluk guard tower" owner="RipPipPip" lat="31.7763575" lon="35.2095012" alt="500.0"/> 
+<LandmarkLocation instanceId="{4c2594a2-9c6a-4601-9c27-be3a3114c36a}" type="POI" name="גת" owner="RipPipPip" lat="32.5097127" lon="35.4091458" alt="500.0"/> 
+<LandmarkLocation instanceId="{31dd5016-d013-4b9c-ad21-6398893f69bf}" type="POI" name="מערות עין תמר" owner="RipPipPip" lat="30.9911188" lon="35.3465907" alt="500.0"/> 
+<LandmarkLocation instanceId="{94b52c02-5a59-4e3c-a586-d7af0dee5785}" type="POI" name="Roaring Lion" owner="RipPipPip" lat="33.2385504" lon="35.5764822" alt="500.0"/> 
+<LandmarkLocation instanceId="{2c6bd59f-7205-4d6c-b007-9959eec1a3ee}" type="POI" name="חרוטות סלע" owner="RipPipPip" lat="30.8113560" lon="34.7648728" alt="500.0"/> 
+<LandmarkLocation instanceId="{6af79547-f4b1-4f46-a86e-e37e6dc4f7fe}" type="POI" name="חרוטות סלע" owner="RipPipPip" lat="30.8156827" lon="34.7678059" alt="500.0"/> 
+<LandmarkLocation instanceId="{4bcb2728-2e47-4522-8deb-930bdba1079a}" type="POI" name="Rug'um Zohar" owner="RipPipPip" lat="31.2353117" lon="35.2422164" alt="500.0"/> 
+<LandmarkLocation instanceId="{527a266e-710b-406b-871b-371f97d1a03a}" type="POI" name="Havat Habor" owner="RipPipPip" lat="30.7698852" lon="34.7683789" alt="500.0"/> 
+<LandmarkLocation instanceId="{53d6f8c2-785a-4ba1-80df-e65501c2048b}" type="POI" name="(empty)" owner="RipPipPip" lat="30.7668509" lon="34.7686300" alt="500.0"/> 
+<LandmarkLocation instanceId="{82f92836-b698-49ab-bdb3-a59b8085014e}" type="POI" name="(empty)" owner="RipPipPip" lat="30.7058633" lon="34.7695951" alt="500.0"/> 
+<LandmarkLocation instanceId="{68009c60-4f8e-4d82-9267-5cf4877d26b1}" type="POI" name="(empty)" owner="RipPipPip" lat="30.6959506" lon="34.7641473" alt="500.0"/> 
+<LandmarkLocation instanceId="{6fdda06b-c382-4ddb-815b-b78440476cd6}" type="POI" name="בית המוכתר" owner="RipPipPip" lat="32.4164314" lon="35.4250946" alt="500.0"/> 
+<LandmarkLocation instanceId="{f489d73d-92ce-4024-a26b-c2d000a814d6}" type="POI" name="בוסטר" owner="RipPipPip" lat="31.5141667" lon="34.6722222" alt="500.0"/> 
+<LandmarkLocation instanceId="{22425bc8-28d7-4d69-bc85-8c81e5b2812e}" type="POI" name="קבר הכבשים" owner="RipPipPip" lat="31.4189122" lon="34.8386463" alt="500.0"/> 
+<LandmarkLocation instanceId="{c0d548bf-94b3-4d8d-9f54-47922253240d}" type="POI" name="(empty)" owner="RipPipPip" lat="30.5704513" lon="34.8554844" alt="500.0"/> 
+<LandmarkLocation instanceId="{bfcb6dee-4257-479e-b934-850db93d0892}" type="POI" name="טחנת קמח" owner="RipPipPip" lat="32.9338934" lon="35.4257653" alt="500.0"/> 
+<LandmarkLocation instanceId="{3863137f-6028-41c7-ae2a-efe5af2d33cf}" type="POI" name="Pillar of Heroism" owner="RipPipPip" lat="31.7744953" lon="35.1758885" alt="500.0"/> 
+<LandmarkLocation instanceId="{f7a7d29c-40ab-408f-8172-1dd89dfff59f}" type="POI" name="(empty)" owner="RipPipPip" lat="32.1942036" lon="34.8065852" alt="500.0"/> 
+<LandmarkLocation instanceId="{12749d2a-c31d-4d11-b41b-15fa35de0ca6}" type="POI" name="בור פקועה" owner="RipPipPip" lat="30.9434719" lon="34.6801529" alt="500.0"/> 
+<LandmarkLocation instanceId="{2dfb99c1-7520-4b38-a4dc-ef54c8ccbbbc}" type="POI" name="גשר של רכבת העמק" owner="RipPipPip" lat="32.6044358" lon="35.5528694" alt="500.0"/> 
+<LandmarkLocation instanceId="{0e13be03-ea5e-422c-be86-a22c32e43732}" type="POI" name="טחנה" owner="RipPipPip" lat="33.0436040" lon="35.2205340" alt="500.0"/> 
+<LandmarkLocation instanceId="{3ef64b1b-5789-4ddf-bd55-fdb31f9a39e9}" type="POI" name="טחנה" owner="RipPipPip" lat="33.0488765" lon="35.2351178" alt="500.0"/> 
+<LandmarkLocation instanceId="{bb716406-b944-43ca-86c9-e1a53c7e7045}" type="POI" name="מחצבות קדומים" owner="RipPipPip" lat="32.7278669" lon="35.0149846" alt="500.0"/> 
+<LandmarkLocation instanceId="{4865b86f-bd6a-4b37-9b5f-6550ead271f4}" type="POI" name="Tel Rai" owner="RipPipPip" lat="31.5907485" lon="34.8194594" alt="500.0"/> 
+<LandmarkLocation instanceId="{db49e02a-fc00-44c8-9ac0-625903d5b217}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7687767" lon="35.1590760" alt="500.0"/> 
+<LandmarkLocation instanceId="{66728c5e-3310-40d2-8bd3-03b875c9816c}" type="POI" name="(empty)" owner="RipPipPip" lat="31.6610416" lon="34.5798568" alt="500.0"/> 
+<LandmarkLocation instanceId="{0e6a43c4-b416-417f-91ce-3f05cf67a9c4}" type="POI" name="Cat guardians" owner="RipPipPip" lat="31.7756770" lon="34.6426014" alt="500.0"/> 
+<LandmarkLocation instanceId="{84ee38df-cd8a-48e4-aea8-a4c96c7be39b}" type="POI" name="(empty)" owner="RipPipPip" lat="31.3520604" lon="34.4008748" alt="500.0"/> 
+<LandmarkLocation instanceId="{3dd3967c-2cfd-4d5e-b499-80eb615fb7ed}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0844478" lon="34.9527430" alt="500.0"/> 
+<LandmarkLocation instanceId="{75432af5-a8c9-4b06-bccf-0f01763ffe15}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0840089" lon="34.9410393" alt="500.0"/> 
+<LandmarkLocation instanceId="{a10135c7-6259-48f3-9903-98f86e9c9e5e}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0833404" lon="34.9406712" alt="500.0"/> 
+<LandmarkLocation instanceId="{46e3a493-b022-4bdf-9d93-958b4fab71e7}" type="POI" name="אנדרטת הניצחון במלחמת העולם השנייה" owner="RipPipPip" lat="32.0901685" lon="34.8884726" alt="500.0"/> 
+<LandmarkLocation instanceId="{5924fe62-42dc-42ff-946b-df60f4056ab4}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0275869" lon="34.7486313" alt="500.0"/> 
+<LandmarkLocation instanceId="{ee491bd3-7cd2-460b-a393-ecf4082c8dbd}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0251106" lon="34.7765555" alt="500.0"/> 
+<LandmarkLocation instanceId="{499a31f7-8580-481e-99a0-da8b9a1b923f}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0276460" lon="34.7729575" alt="500.0"/> 
+<LandmarkLocation instanceId="{990a2ee0-807e-4d7b-9b6e-d91cf7d94aa1}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0291714" lon="34.7741686" alt="500.0"/> 
+<LandmarkLocation instanceId="{2ba404b2-cf32-4491-98ae-9cbd6104f157}" type="POI" name="חורבת אגוז" owner="RipPipPip" lat="31.5525497" lon="34.9366514" alt="500.0"/> 
+<LandmarkLocation instanceId="{f0b5e58f-ebd0-42b2-ba17-8aab1bdbfc16}" type="POI" name="Assyrian Siege Ramp" owner="RipPipPip" lat="31.5637752" lon="34.8481420" alt="500.0"/> 
+<LandmarkLocation instanceId="{91c6068a-fbcf-4a1d-983d-83c628e137a0}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9772827" lon="34.7814498" alt="500.0"/> 
+<LandmarkLocation instanceId="{02215fe4-ba90-4e0e-93bc-a9c6f52563ba}" type="POI" name="(empty)" owner="RipPipPip" lat="32.5014325" lon="35.5003695" alt="500.0"/> 
+<LandmarkLocation instanceId="{e9877694-f8af-4c60-80d6-4a9687461bc7}" type="POI" name="Northern Palace" owner="RipPipPip" lat="32.5858969" lon="35.1852635" alt="500.0"/> 
+<LandmarkLocation instanceId="{22c41b88-8a0f-4394-81e5-95f058e65d30}" type="POI" name="Lesser Canaanite Palace" owner="RipPipPip" lat="32.5861319" lon="35.1846278" alt="500.0"/> 
+<LandmarkLocation instanceId="{8b419c43-72c3-4367-9270-911e511fec36}" type="POI" name="Reservoir" owner="RipPipPip" lat="32.5864212" lon="35.1845124" alt="500.0"/> 
+<LandmarkLocation instanceId="{4cf5023e-0ec5-49a9-b630-799bbac4b7ee}" type="POI" name="Octagonal Church" owner="RipPipPip" lat="32.8805130" lon="35.5753780" alt="500.0"/> 
+<LandmarkLocation instanceId="{f18817f4-4e15-4aef-9361-0f294943fdb9}" type="POI" name="Canaanite Temple" owner="RipPipPip" lat="33.0173183" lon="35.5684291" alt="500.0"/> 
+<LandmarkLocation instanceId="{660c353a-f779-4392-a5bc-6f1155b9b83d}" type="POI" name="(empty)" owner="RipPipPip" lat="32.9023182" lon="35.7404552" alt="500.0"/> 
+<LandmarkLocation instanceId="{0603f0d0-eb7e-4278-b4ba-5f9b2309030b}" type="POI" name=""""Solomonic Gate"""" owner="RipPipPip" lat="33.0175746" lon="35.5683292" alt="500.0"/> 
+<LandmarkLocation instanceId="{77f8a820-15c4-4994-a1cd-d3fe45e456db}" type="POI" name="Roman Bridge" owner="RipPipPip" lat="33.2481089" lon="35.6916510" alt="500.0"/> 
+<LandmarkLocation instanceId="{62c872c7-93a1-483a-9d7b-ad7448e9f92b}" type="POI" name="בסיס של אבן ריסוק" owner="RipPipPip" lat="31.7323630" lon="35.0106030" alt="500.0"/> 
+<LandmarkLocation instanceId="{9f424bac-3b95-4123-9232-db56e2628864}" type="POI" name="חרבת נייאתה" owner="RipPipPip" lat="31.7336840" lon="35.0097950" alt="500.0"/> 
+<LandmarkLocation instanceId="{879c3721-05d9-4f1e-adc6-cc0483e577df}" type="POI" name="The Byzantine Gate" owner="RipPipPip" lat="31.3161724" lon="35.3526869" alt="500.0"/> 
+<LandmarkLocation instanceId="{bde0ceef-6e60-4a20-9b93-bb72742be547}" type="POI" name="'Ein-Shadud" owner="RipPipPip" lat="32.6599924" lon="35.2383508" alt="500.0"/> 
+<LandmarkLocation instanceId="{dd81f223-1bec-4e56-8314-2cd6c17cd814}" type="POI" name="בזיליקה" owner="RipPipPip" lat="32.7016362" lon="35.1271780" alt="500.0"/> 
+<LandmarkLocation instanceId="{e35cff01-440f-4654-85ec-44ab65d6d05e}" type="POI" name="פסל הלטאה" owner="RipPipPip" lat="31.8229672" lon="35.2437236" alt="500.0"/> 
+<LandmarkLocation instanceId="{e0385a54-b9e0-450a-977e-22c0ebde91f2}" type="POI" name="הפסל האדום" owner="RipPipPip" lat="31.8199610" lon="35.2403983" alt="500.0"/> 
+<LandmarkLocation instanceId="{b87d16fa-d4fe-4c7c-9441-b5c2ffd387b9}" type="POI" name="ancient village of Nazareth" owner="RipPipPip" lat="32.7024133" lon="35.2976722" alt="500.0"/> 
+<LandmarkLocation instanceId="{43af0e5c-89eb-49f4-a5b6-18bdbb2d9df4}" type="POI" name="(empty)" owner="RipPipPip" lat="30.8868414" lon="34.7916530" alt="500.0"/> 
+<LandmarkLocation instanceId="{2386ad70-3370-4994-8c4b-8b21d0b998bb}" type="POI" name="עפיפון" owner="RipPipPip" lat="29.8310013" lon="35.0277748" alt="500.0"/> 
+<LandmarkLocation instanceId="{5d09426b-8bfb-4fd3-877f-1cc2eb71861c}" type="POI" name="עפיפון" owner="RipPipPip" lat="29.8305054" lon="35.0168266" alt="500.0"/> 
+<LandmarkLocation instanceId="{53162237-95ee-499e-a604-8b28af581c4d}" type="POI" name="עפיפון" owner="RipPipPip" lat="29.8305321" lon="35.0140533" alt="500.0"/> 
+<LandmarkLocation instanceId="{7ae01d2a-3858-46d9-a5a4-b207fb25c9a1}" type="POI" name="מתחם באר מים לקטרי הרכבת הטורקית" owner="RipPipPip" lat="32.1797218" lon="34.9469452" alt="500.0"/> 
+<LandmarkLocation instanceId="{c0b5ee3d-1535-4445-8434-b4112370de2e}" type="POI" name="מוצב ישן" owner="RipPipPip" lat="29.5896991" lon="34.8894032" alt="500.0"/> 
+<LandmarkLocation instanceId="{471a8c0a-dae8-4030-abfc-428ba85c73e5}" type="POI" name="הצלחות" owner="RipPipPip" lat="29.7905044" lon="34.9320440" alt="500.0"/> 
+<LandmarkLocation instanceId="{ec45d211-983a-4d1e-bbea-c139833c3dc7}" type="POI" name="פירי כריה" owner="RipPipPip" lat="29.7916667" lon="34.9305556" alt="500.0"/> 
+<LandmarkLocation instanceId="{0f0b4fbf-24b3-4b64-bcde-7b0ca95b5b00}" type="POI" name="Cultic Site" owner="RipPipPip" lat="33.2497699" lon="35.6518330" alt="500.0"/> 
+<LandmarkLocation instanceId="{042e2719-e636-45f6-85c2-55ef74d5f0c4}" type="POI" name="חאן צפיר" owner="RipPipPip" lat="30.8992946" lon="35.1305009" alt="500.0"/> 
+<LandmarkLocation instanceId="{bd32d403-b358-4d6c-806f-65d1476e2590}" type="POI" name="Meshek Haotzar" owner="RipPipPip" lat="32.1867614" lon="34.9465800" alt="500.0"/> 
+<LandmarkLocation instanceId="{1feb6928-2fa3-4a7d-9017-963b5d3cefce}" type="POI" name="אבן גבול" owner="RipPipPip" lat="31.8079920" lon="35.1818780" alt="500.0"/> 
+<LandmarkLocation instanceId="{7687c317-4833-47f9-b8bc-443873736bc4}" type="POI" name="אבן גבול" owner="RipPipPip" lat="31.8079600" lon="35.1750260" alt="500.0"/> 
+<LandmarkLocation instanceId="{8ebe5e65-d93a-468d-acf4-6662afc00604}" type="POI" name="מערת קבורה" owner="RipPipPip" lat="31.7854700" lon="35.1595380" alt="500.0"/> 
+<LandmarkLocation instanceId="{e572e168-8900-4c05-a8fb-4c80c2b03ebe}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9511231" lon="34.8866809" alt="500.0"/> 
+<LandmarkLocation instanceId="{70048775-be40-490a-ba2c-e585e8a9b21f}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9297279" lon="34.8315859" alt="500.0"/> 
+<LandmarkLocation instanceId="{b3bbfc9c-5fd5-4ff7-a35b-eeb87e0a9bc3}" type="POI" name="יד ושם" owner="RipPipPip" lat="32.3984710" lon="34.9131442" alt="500.0"/> 
+<LandmarkLocation instanceId="{25515ab1-30ae-4823-9e81-2f14ca35b416}" type="POI" name="חורבת דור" owner="RipPipPip" lat="33.0690317" lon="35.2724732" alt="500.0"/> 
+<LandmarkLocation instanceId="{0d9e5859-584a-4249-bf72-7c2f38f21f93}" type="POI" name="מצד חלוקים" owner="RipPipPip" lat="30.8883217" lon="34.8021483" alt="500.0"/> 
+<LandmarkLocation instanceId="{2b457617-ae05-41ea-8994-8642ed74199d}" type="POI" name="(empty)" owner="RipPipPip" lat="30.8890472" lon="34.8028810" alt="500.0"/> 
+<LandmarkLocation instanceId="{f1e0260a-7ced-402e-be07-4f0ed22d1136}" type="POI" name="חורבת חצצה" owner="RipPipPip" lat="30.8971620" lon="34.8272748" alt="500.0"/> 
+<LandmarkLocation instanceId="{6b956675-6f15-4f12-ad96-50b0c8415e41}" type="POI" name="חורבת הרועה" owner="RipPipPip" lat="30.9077011" lon="34.8533921" alt="500.0"/> 
+<LandmarkLocation instanceId="{8ffc0dd5-6342-4341-b27e-632afd937320}" type="POI" name="מצד משורה הישראלי" owner="RipPipPip" lat="30.9184720" lon="34.7098377" alt="500.0"/> 
+<LandmarkLocation instanceId="{652f96bc-1a18-45fb-8f49-2710c49b9db1}" type="POI" name="מצד משורה הפרסי" owner="RipPipPip" lat="30.9184699" lon="34.7103075" alt="500.0"/> 
+<LandmarkLocation instanceId="{cbb1e29f-f487-4ad4-b46a-cb3985e37a79}" type="POI" name="מגדל נבטי" owner="RipPipPip" lat="30.8897017" lon="34.8018423" alt="500.0"/> 
+<LandmarkLocation instanceId="{8c212499-4d59-4694-a5ad-b8a46a96cb64}" type="POI" name="(empty)" owner="RipPipPip" lat="30.9091165" lon="34.8578448" alt="500.0"/> 
+<LandmarkLocation instanceId="{fe4bf892-b1ef-4a80-a0e0-28b3ab59c8c9}" type="POI" name="באר אנטיליה" owner="RipPipPip" lat="31.4107760" lon="34.5037706" alt="500.0"/> 
+<LandmarkLocation instanceId="{444b710f-7e1e-4cc5-a3d3-375c5a3c456b}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7818475" lon="35.2046919" alt="500.0"/> 
+<LandmarkLocation instanceId="{9d4fa851-ede3-4d19-a273-0396b3c86105}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7707728" lon="35.2086786" alt="500.0"/> 
+<LandmarkLocation instanceId="{e07abb1c-4bbb-4905-b097-b508a7ec0b87}" type="POI" name="(empty)" owner="RipPipPip" lat="31.0701670" lon="35.0322523" alt="500.0"/> 
+<LandmarkLocation instanceId="{440038f2-93bb-4579-96f6-edf5e886def9}" type="POI" name="כנסיה ביזנטית" owner="RipPipPip" lat="31.6352910" lon="34.9695711" alt="500.0"/> 
+<LandmarkLocation instanceId="{5fc96cf3-4d99-40ef-ab9d-818662305167}" type="POI" name="גת עתיקה" owner="RipPipPip" lat="32.7093531" lon="35.2264962" alt="500.0"/> 
+<LandmarkLocation instanceId="{4f5ccc68-ba15-43bc-88ab-9de0cd16b8c0}" type="POI" name="Tel Soco" owner="RipPipPip" lat="31.6822295" lon="34.9737026" alt="500.0"/> 
+<LandmarkLocation instanceId="{3dbda6c2-d171-4155-af40-a9980b69591c}" type="POI" name="גשר טורקי" owner="RipPipPip" lat="31.5014790" lon="34.7642578" alt="500.0"/> 
+<LandmarkLocation instanceId="{792f9dba-1b00-4b17-bd21-f8173d8f5446}" type="POI" name="Tel Ein HaBesor" owner="RipPipPip" lat="31.3056563" lon="34.4889397" alt="500.0"/> 
+<LandmarkLocation instanceId="{a42836e2-5a8e-405e-9b83-5310dc0efbd5}" type="POI" name="בית הבאר" owner="RipPipPip" lat="32.1156628" lon="34.9239370" alt="500.0"/> 
+<LandmarkLocation instanceId="{1b41c45f-e41b-4aa9-b2ff-28850a3f4c43}" type="POI" name="בית הבאר" owner="RipPipPip" lat="32.1156628" lon="34.9239370" alt="500.0"/> 
+<LandmarkLocation instanceId="{d6b306ae-8ac2-4307-92bf-2257a587da49}" type="POI" name="אבן השבת" owner="RipPipPip" lat="32.7958199" lon="35.1510972" alt="500.0"/> 
+<LandmarkLocation instanceId="{1a156676-e564-468d-87d6-cb3a360f6153}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0737569" lon="34.9098957" alt="500.0"/> 
+<LandmarkLocation instanceId="{0104930e-c344-400c-b8e3-8bb2a1b7db17}" type="POI" name="בית הכנסת העתיק בארבל" owner="RipPipPip" lat="32.8151368" lon="35.4838078" alt="500.0"/> 
+<LandmarkLocation instanceId="{3943abfa-28d0-42cf-8ad5-334732d9fda4}" type="POI" name="פסיפס" owner="RipPipPip" lat="31.7912830" lon="35.1666120" alt="500.0"/> 
+<LandmarkLocation instanceId="{43f501cf-73c2-49d0-8755-ffa011f1d5d7}" type="POI" name="בית כנסת יודפת" owner="RipPipPip" lat="32.8340013" lon="35.2761657" alt="500.0"/> 
+<LandmarkLocation instanceId="{d3c1b068-a9aa-4643-888d-2dac70bf7a11}" type="POI" name="כתובת תחום גזר מס 8." owner="RipPipPip" lat="31.8433636" lon="34.9372031" alt="500.0"/> 
+<LandmarkLocation instanceId="{ac67f80c-771e-4975-bfe6-50a3f2dee924}" type="POI" name="תל אפק אנטיפטרוס" owner="RipPipPip" lat="32.1045247" lon="34.9298124" alt="500.0"/> 
+<LandmarkLocation instanceId="{da359570-7d05-4448-98e2-1017266a3db7}" type="POI" name="גת" owner="RipPipPip" lat="31.8081650" lon="35.1909220" alt="500.0"/> 
+<LandmarkLocation instanceId="{3f8c62e1-ad21-4b7a-92b0-de75f39f26ac}" type="POI" name="שרידי ישוב בתים מעוגלים" owner="RipPipPip" lat="30.7833064" lon="34.5912806" alt="500.0"/> 
+<LandmarkLocation instanceId="{7ebd0088-c56a-49cc-8559-0c1e582be36d}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7745586" lon="35.2320510" alt="500.0"/> 
+<LandmarkLocation instanceId="{2c22bc16-2358-4abf-ba05-0eabaa43e826}" type="POI" name="מחצבה עתיקה" owner="RipPipPip" lat="32.5553088" lon="34.9677647" alt="500.0"/> 
+<LandmarkLocation instanceId="{74cf34a6-1eae-4415-a82b-239b446584d9}" type="POI" name="כתובת תחום גזר מס. 6" owner="RipPipPip" lat="31.8427725" lon="34.9235017" alt="500.0"/> 
+<LandmarkLocation instanceId="{684e390e-3ad2-4d9c-b936-7d6806cdbc29}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7512402" lon="34.9752654" alt="500.0"/> 
+<LandmarkLocation instanceId="{524481c1-4440-47ed-ad2e-0a52c9dd88e7}" type="POI" name="סכר הרודיאני" owner="RipPipPip" lat="31.7647060" lon="35.1377880" alt="500.0"/> 
+<LandmarkLocation instanceId="{a27d1ae0-f4e9-4628-b8df-d5b9eae4651f}" type="POI" name="תל בורנה" owner="RipPipPip" lat="31.6297832" lon="34.8733445" alt="500.0"/> 
+<LandmarkLocation instanceId="{ac63e1a2-dc95-40df-ae78-f64014b13ac0}" type="POI" name="ספלולים" owner="RipPipPip" lat="32.8182355" lon="35.2991229" alt="500.0"/> 
+<LandmarkLocation instanceId="{fefa41e3-be72-40e1-ad97-2cdc02903ba4}" type="POI" name="חורבת קשרון" owner="RipPipPip" lat="32.7644886" lon="35.4078239" alt="500.0"/> 
+<LandmarkLocation instanceId="{9c696ac2-ed19-492b-8318-2c3fbad9f8be}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7777497" lon="35.1215657" alt="500.0"/> 
+<LandmarkLocation instanceId="{b301a7cd-d571-43a7-99c6-f5ca3a697453}" type="POI" name="קבר נבי יהודה" owner="RipPipPip" lat="33.2188968" lon="35.6597066" alt="500.0"/> 
+<LandmarkLocation instanceId="{de66ceb7-7d39-4168-97d0-f655b3b6ad80}" type="POI" name="גת" owner="RipPipPip" lat="31.8063580" lon="35.1856100" alt="500.0"/> 
+<LandmarkLocation instanceId="{ea6e6e96-07a4-47c5-b315-3e49025da7df}" type="POI" name="תל אבו הואם" owner="RipPipPip" lat="32.8008333" lon="35.0191667" alt="500.0"/> 
+<LandmarkLocation instanceId="{1cf72948-a381-4b34-97be-3788c60d9b0b}" type="POI" name="חורבת עירב" owner="RipPipPip" lat="33.0806774" lon="35.2278804" alt="500.0"/> 
+<LandmarkLocation instanceId="{32920d6c-40e6-4a0c-8fe0-441282e8ca22}" type="POI" name="Soldiers Memorial" owner="RipPipPip" lat="32.1677735" lon="34.8516024" alt="500.0"/> 
+<LandmarkLocation instanceId="{71483583-51a7-4006-ab85-454e4f2e1153}" type="POI" name="(empty)" owner="RipPipPip" lat="32.1651232" lon="34.8514750" alt="500.0"/> 
+<LandmarkLocation instanceId="{d26dd5b5-7508-4051-b217-8f4045d35fc4}" type="POI" name="(empty)" owner="RipPipPip" lat="31.2847785" lon="34.7895063" alt="500.0"/> 
+<LandmarkLocation instanceId="{bb349334-3993-417b-9b1f-fdf9cad2ca3c}" type="POI" name="Tel Dalit" owner="RipPipPip" lat="31.9768307" lon="34.9695410" alt="500.0"/> 
+<LandmarkLocation instanceId="{ec587cf8-da2d-49a2-bf17-ff478071b5a4}" type="POI" name="בורג' בביל" owner="RipPipPip" lat="33.2237704" lon="35.6784565" alt="500.0"/> 
+<LandmarkLocation instanceId="{8453986f-532d-411d-ac93-cea8e5fd371e}" type="POI" name="(empty)" owner="RipPipPip" lat="32.1716439" lon="34.8493978" alt="500.0"/> 
+<LandmarkLocation instanceId="{37c949d4-9444-4a29-9fa0-b9ef674a0019}" type="POI" name="באר לימון" owner="RipPipPip" lat="31.7475249" lon="34.9509801" alt="500.0"/> 
+<LandmarkLocation instanceId="{5c59e897-8ed4-4947-848a-4ddbee7d740e}" type="POI" name="An old ruined pillbox" owner="RipPipPip" lat="32.0103563" lon="34.9154899" alt="500.0"/> 
+<LandmarkLocation instanceId="{0413e2d3-dce9-4940-81f1-ef5730ce2fe6}" type="POI" name="אבן גבול" owner="RipPipPip" lat="31.8085743" lon="35.1921033" alt="500.0"/> 
+<LandmarkLocation instanceId="{b7ce5611-f6a6-4d25-b7e1-8abc1dc3352b}" type="POI" name="אמפיתאטרון דליה" owner="RipPipPip" lat="32.5860063" lon="35.0723673" alt="500.0"/> 
+<LandmarkLocation instanceId="{3afd91f9-f9a9-431b-baf4-d637dee01750}" type="POI" name="(empty)" owner="RipPipPip" lat="29.5787163" lon="34.9481843" alt="500.0"/> 
+<LandmarkLocation instanceId="{dc8a1ffd-321e-406f-aa1d-3d1f2ad7c35d}" type="POI" name="אנדרטת מבצע לולב" owner="RipPipPip" lat="31.7192831" lon="35.1059446" alt="500.0"/> 
+<LandmarkLocation instanceId="{3d431d12-671b-4fcd-85d4-7305b815af1b}" type="POI" name="קולומבריום" owner="RipPipPip" lat="31.3804624" lon="34.8374400" alt="500.0"/> 
+<LandmarkLocation instanceId="{87b42c3e-e104-4e1b-aca6-04df047a6a2d}" type="POI" name="The Virgin Shrine of the Arab Workers (Marian Shrine)" owner="RipPipPip" lat="32.6983890" lon="35.2890671" alt="500.0"/> 
+<LandmarkLocation instanceId="{9ff26f70-22f0-4b84-bd22-efc1bbb591a4}" type="POI" name="מיצד" owner="RipPipPip" lat="30.6654432" lon="34.8121387" alt="500.0"/> 
+<LandmarkLocation instanceId="{6b77e0f9-bfc7-42ec-b8a5-4147e9602410}" type="POI" name="גת עתיקה" owner="RipPipPip" lat="32.6428780" lon="35.0703568" alt="500.0"/> 
+<LandmarkLocation instanceId="{be33151c-5be8-4990-b2d8-878d384f8144}" type="POI" name="Bar-Kochva warriers' tomb" owner="RipPipPip" lat="31.4313240" lon="35.3488818" alt="500.0"/> 
+<LandmarkLocation instanceId="{c98b34e5-9d89-4f3c-a320-7be2732a648f}" type="POI" name="מבנה ומערות" owner="RipPipPip" lat="32.8256200" lon="35.5000617" alt="500.0"/> 
+<LandmarkLocation instanceId="{8a34c268-1b1b-44c2-8a7d-03d9a7b071b8}" type="POI" name="קבר שת" owner="RipPipPip" lat="32.8172050" lon="35.4814300" alt="500.0"/> 
+<LandmarkLocation instanceId="{e0ac485c-c527-4344-8278-127e5e9e192c}" type="POI" name="קברי ראובן שמעון לוי ודינה" owner="RipPipPip" lat="32.8173333" lon="35.4812800" alt="500.0"/> 
+<LandmarkLocation instanceId="{bb23476c-bd58-48e2-8d7f-2a86d5d1aa84}" type="POI" name="מצד רחל" owner="RipPipPip" lat="30.6318821" lon="35.1719087" alt="500.0"/> 
+<LandmarkLocation instanceId="{921e1fe5-ff8c-439a-be45-b2df2e7cc915}" type="POI" name="מצודת נחל אלה" owner="RipPipPip" lat="30.6629889" lon="34.6967316" alt="500.0"/> 
+<LandmarkLocation instanceId="{b9dfa614-a47a-4448-985c-52f1c2fe32c1}" type="POI" name="טחנת קמח" owner="RipPipPip" lat="33.0407093" lon="35.4427063" alt="500.0"/> 
+<LandmarkLocation instanceId="{a435f1be-60a2-4b0b-952a-e908e9548a17}" type="POI" name="מצודת נחל לענה" owner="RipPipPip" lat="30.7110826" lon="34.6108215" alt="500.0"/> 
+<LandmarkLocation instanceId="{887a88fe-9ad5-447e-8409-33664c00bf91}" type="POI" name="Old railway bridge" owner="RipPipPip" lat="31.3024842" lon="34.4862909" alt="500.0"/> 
+<LandmarkLocation instanceId="{e345965d-8078-4114-91d1-efb9ef1d0f6a}" type="POI" name="Lifta" owner="RipPipPip" lat="31.7964636" lon="35.1963109" alt="500.0"/> 
+<LandmarkLocation instanceId="{25a285b2-7a24-40e1-a7d1-7cb99c06ff38}" type="POI" name="(empty)" owner="RipPipPip" lat="30.6539603" lon="34.6238525" alt="500.0"/> 
+<LandmarkLocation instanceId="{d0acab83-55ec-4582-96e7-c2973ac18ac6}" type="POI" name="מצודת נחל עקרב" owner="RipPipPip" lat="30.6570611" lon="34.6364070" alt="500.0"/> 
+<LandmarkLocation instanceId="{4bbb13d5-a670-43f5-9118-6d50263f24de}" type="POI" name="Nawamis" owner="RipPipPip" lat="30.6564715" lon="34.6337120" alt="500.0"/> 
+<LandmarkLocation instanceId="{664595f0-3288-4472-bdaa-d79ed1968dfa}" type="POI" name="(empty)" owner="RipPipPip" lat="30.6598638" lon="34.6350155" alt="500.0"/> 
+<LandmarkLocation instanceId="{19322a0f-f6af-47da-b173-fc192ec55fbd}" type="POI" name="וואסמים - חרוטות סלע בדואיות" owner="RipPipPip" lat="30.6722953" lon="34.6534647" alt="500.0"/> 
+<LandmarkLocation instanceId="{af0ce156-2f84-42a9-b1ed-5a7744c27934}" type="POI" name="טחנת קמח" owner="RipPipPip" lat="33.0384396" lon="35.4469486" alt="500.0"/> 
+<LandmarkLocation instanceId="{29a11134-49f9-43a6-8264-2939d248a7d6}" type="POI" name="Tomb of Prophet Seth" owner="RipPipPip" lat="31.8245532" lon="34.7485502" alt="500.0"/> 
+<LandmarkLocation instanceId="{ebad5adc-66bd-4730-b0fb-ba3fa5e8f12e}" type="POI" name="Maqam sheikh Zeid" owner="RipPipPip" lat="31.8123886" lon="34.9526008" alt="500.0"/> 
+<LandmarkLocation instanceId="{9d7d7c97-0617-43dc-a3fa-11aad2b5a665}" type="POI" name="House of Abed Al-Rahman" owner="RipPipPip" lat="31.8129156" lon="34.9538847" alt="500.0"/> 
+<LandmarkLocation instanceId="{62faa6ed-d329-4cc0-8fd1-8c768b25ef3b}" type="POI" name="House of Mahmoud Saleh" owner="RipPipPip" lat="31.8130785" lon="34.9540363" alt="500.0"/> 
+<LandmarkLocation instanceId="{dce6b543-2817-44f2-9e72-8b2a0aeb572e}" type="POI" name="A remaining house from the village of Daniyal" owner="RipPipPip" lat="31.9318170" lon="34.9290621" alt="500.0"/> 
+<LandmarkLocation instanceId="{68011c94-d25e-414e-b971-ae04751abe72}" type="POI" name="A remaining house from the village of Daniyal" owner="RipPipPip" lat="31.9316933" lon="34.9303332" alt="500.0"/> 
+<LandmarkLocation instanceId="{5f178eb0-52d7-42fa-8acd-04e5ef9c1d5a}" type="POI" name="A remaining house from the village of Daniyal" owner="RipPipPip" lat="31.9322718" lon="34.9331127" alt="500.0"/> 
+<LandmarkLocation instanceId="{c3e0da5f-782d-4d9b-a2a6-ba23102b2286}" type="POI" name="Tomb of nabi Kifl" owner="RipPipPip" lat="32.0071384" lon="34.9266694" alt="500.0"/> 
+<LandmarkLocation instanceId="{222d84b3-6a8d-4fda-ac45-30995f5f5c9a}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9458845" lon="34.9337980" alt="500.0"/> 
+<LandmarkLocation instanceId="{99171623-e953-4ecd-a685-44eeb2840470}" type="POI" name="(empty)" owner="RipPipPip" lat="31.9463234" lon="34.9335905" alt="500.0"/> 
+<LandmarkLocation instanceId="{0c4f1c61-f20b-4b7a-b41f-bf575318045f}" type="POI" name="(empty)" owner="RipPipPip" lat="32.0795156" lon="34.9565453" alt="500.0"/> 
+<LandmarkLocation instanceId="{61132e43-bc3e-45bf-9a8a-bd9486b3d7e6}" type="POI" name="Tomb of Sheikh Baraz Ed-Din" owner="RipPipPip" lat="32.0838305" lon="34.9583992" alt="500.0"/> 
+<LandmarkLocation instanceId="{a1e1ea93-cf52-4738-ace0-30799efd5775}" type="POI" name="Qatra Police Station" owner="RipPipPip" lat="31.8221507" lon="34.7739626" alt="500.0"/> 
+<LandmarkLocation instanceId="{798ea4c1-379c-49ed-b24e-679363ef7562}" type="POI" name="House at Saydun Village" owner="RipPipPip" lat="31.8407706" lon="34.9042434" alt="500.0"/> 
+<LandmarkLocation instanceId="{b9999b53-177b-4575-83a6-8f403fd2b62c}" type="POI" name="House in Yibna" owner="RipPipPip" lat="31.8618193" lon="34.7454019" alt="500.0"/> 
+<LandmarkLocation instanceId="{6d2a7759-efd8-48b6-8c7d-fff819f5ffde}" type="POI" name="House in Yibna" owner="RipPipPip" lat="31.8635258" lon="34.7485009" alt="500.0"/> 
+<LandmarkLocation instanceId="{6de2dab3-7437-4f13-b126-1a65f35ed102}" type="POI" name="חרבת טאטא" owner="RipPipPip" lat="32.5742307" lon="34.9856183" alt="500.0"/> 
+<LandmarkLocation instanceId="{602902e2-35d0-4632-9739-14f85a74e40e}" type="POI" name="חרבת צברין" owner="RipPipPip" lat="32.5725013" lon="35.0228662" alt="500.0"/> 
+<LandmarkLocation instanceId="{12dc32ea-81d5-4e0a-9b25-c089f143be46}" type="POI" name="(empty)" owner="RipPipPip" lat="31.5363246" lon="34.9123819" alt="500.0"/> 
+<LandmarkLocation instanceId="{68653b1e-3692-4d73-8096-12e18971b5e4}" type="POI" name="Abu Kishk Village School for Bedouins" owner="RipPipPip" lat="32.1324336" lon="34.8871974" alt="500.0"/> 
+<LandmarkLocation instanceId="{bab4538f-eeb3-4f3d-9ff5-7ffe7bd6ec08}" type="POI" name="(empty)" owner="RipPipPip" lat="32.1196021" lon="34.9251393" alt="500.0"/> 
+<LandmarkLocation instanceId="{45260030-2836-4e0c-8ac4-0f1e8f6baba9}" type="POI" name="(empty)" owner="RipPipPip" lat="32.1214499" lon="34.9314549" alt="500.0"/> 
+<LandmarkLocation instanceId="{df771c71-5c1b-4591-a34e-d41140191ff4}" type="POI" name="גשר של רכבת העמק" owner="RipPipPip" lat="32.5490455" lon="35.5350441" alt="500.0"/> 
+<LandmarkLocation instanceId="{2bebedcd-a0aa-486b-8093-08bbec78c53d}" type="POI" name="Kawfakha Mosque" owner="RipPipPip" lat="31.4766267" lon="34.6603976" alt="500.0"/> 
+<LandmarkLocation instanceId="{359ab52c-66aa-4c21-8fdd-cc61990b3f4d}" type="POI" name="(empty)" owner="RipPipPip" lat="31.6101068" lon="34.5254491" alt="500.0"/> 
+<LandmarkLocation instanceId="{82cef668-29de-4223-896f-9077acad827d}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7574142" lon="34.7017049" alt="500.0"/> 
+<LandmarkLocation instanceId="{9c5f3ce3-a8bc-4f02-a6cd-1988713cd387}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7784749" lon="34.6967125" alt="500.0"/> 
+<LandmarkLocation instanceId="{873806d7-686d-4f30-97cc-8d178dba1f4f}" type="POI" name="Isdud Boy's Elementary School" owner="RipPipPip" lat="31.7550613" lon="34.6569152" alt="500.0"/> 
+<LandmarkLocation instanceId="{199f8ed2-9f98-4d0f-9ebd-af672c709f35}" type="POI" name="Sheikh Ahmad Abu Iqbal Tomb" owner="RipPipPip" lat="31.7531545" lon="34.6540723" alt="500.0"/> 
+<LandmarkLocation instanceId="{fefa1f22-2537-4132-adbe-3d9e075ef1d1}" type="POI" name="Isdud Roadside Café" owner="RipPipPip" lat="31.7539356" lon="34.6629252" alt="500.0"/> 
+<LandmarkLocation instanceId="{7e84c239-ecd1-416b-827f-d64011386337}" type="POI" name="באר ישנה" owner="RipPipPip" lat="32.1945447" lon="34.8093190" alt="500.0"/> 
+<LandmarkLocation instanceId="{5d64c1a8-b869-4792-9557-88b1a2aa8956}" type="POI" name="Zayta Village Cemetery" owner="RipPipPip" lat="31.6428234" lon="34.8231036" alt="500.0"/> 
+<LandmarkLocation instanceId="{fa3cd61b-c450-4059-98a2-496ec431f022}" type="POI" name="בית קשתות" owner="RipPipPip" lat="31.8522880" lon="34.7435372" alt="500.0"/> 
+<LandmarkLocation instanceId="{f3683394-fdbc-4f82-8409-5fb8c2c110f2}" type="POI" name="(empty)" owner="RipPipPip" lat="31.8569354" lon="34.7458741" alt="500.0"/> 
+<LandmarkLocation instanceId="{4f1cc721-285f-4a1c-aa95-a93807cb6835}" type="POI" name="טומולוס עם חדר קבורה פנימי" owner="RipPipPip" lat="30.3045888" lon="34.7364233" alt="500.0"/> 
+<LandmarkLocation instanceId="{41624d9b-7dc1-4a3d-a5ea-601ea2cf5e9d}" type="POI" name="חורבת פרווה" owner="RipPipPip" lat="32.4619616" lon="35.4925179" alt="500.0"/> 
+<LandmarkLocation instanceId="{45604751-7f6d-47df-b2d9-cf313bfe8747}" type="POI" name="Monument to the Fallen" owner="RipPipPip" lat="31.5713520" lon="34.5430309" alt="500.0"/> 
+<LandmarkLocation instanceId="{0081ea79-34c9-45c9-b5a2-fb2c380317fc}" type="POI" name="חורבת מגדלית" owner="RipPipPip" lat="31.4120320" lon="34.8371454" alt="500.0"/> 
+<LandmarkLocation instanceId="{2c8fd810-c709-42b7-99d7-51030fe898f4}" type="POI" name="Syrian Intelligence HQ" owner="RipPipPip" lat="33.1320999" lon="35.8102835" alt="500.0"/> 
+<LandmarkLocation instanceId="{c9dad32e-f655-4949-af49-0f6d3c143262}" type="POI" name="בונקר תחמושת" owner="RipPipPip" lat="32.7898367" lon="35.6802180" alt="500.0"/> 
+<LandmarkLocation instanceId="{5b5088b4-da8d-4a75-acff-41cd91bac9a3}" type="POI" name="קבר שמעון פרס" owner="RipPipPip" lat="31.7751655" lon="35.1789525" alt="500.0"/> 
+<LandmarkLocation instanceId="{1a1f33bb-dde8-4b58-b2d5-bd10103e0cdb}" type="POI" name="קבר יצחק שמיר" owner="RipPipPip" lat="31.7751467" lon="35.1789666" alt="500.0"/> 
+<LandmarkLocation instanceId="{44674625-7c1b-486d-92a9-ba3d35a3d20c}" type="POI" name="קבר ישראל שרעבי" owner="RipPipPip" lat="31.7752117" lon="35.1789250" alt="500.0"/> 
+<LandmarkLocation instanceId="{d846cabc-c8e5-4ce2-b638-f7e2bdf3066d}" type="POI" name="קבר שלמה הלל" owner="RipPipPip" lat="31.7751194" lon="35.1789901" alt="500.0"/> 
+<LandmarkLocation instanceId="{2b3fc0d2-57ba-48b7-bec2-a684597e1606}" type="POI" name="קבר גולדה מאיר" owner="RipPipPip" lat="31.7752379" lon="35.1789076" alt="500.0"/> 
+<LandmarkLocation instanceId="{3b197402-6586-45ca-b39e-34651b15746d}" type="POI" name="קבר לוי אשכול" owner="RipPipPip" lat="31.7752693" lon="35.1789029" alt="500.0"/> 
+<LandmarkLocation instanceId="{3e1e3bfb-a592-4497-87f3-b19e7166d3d0}" type="POI" name="קבר יוסף שפרינצק" owner="RipPipPip" lat="31.7753018" lon="35.1789002" alt="500.0"/> 
+<LandmarkLocation instanceId="{3b4a818c-738e-4427-aabc-621d78dc59f9}" type="POI" name="קבר אליעזר קפלן" owner="RipPipPip" lat="31.7753303" lon="35.1789062" alt="500.0"/> 
+<LandmarkLocation instanceId="{cdf7d9c5-9c83-47e3-86ac-0325578728ec}" type="POI" name="קבר טדי קולק" owner="RipPipPip" lat="31.7753525" lon="35.1789176" alt="500.0"/> 
+<LandmarkLocation instanceId="{43322747-d04f-4df1-8de3-879cc457efab}" type="POI" name="קבר מנחם סבידור" owner="RipPipPip" lat="31.7753628" lon="35.1789337" alt="500.0"/> 
+<LandmarkLocation instanceId="{608e43e8-9ae0-4ed0-8029-366cd192b48e}" type="POI" name="קבר יצחק ברמן" owner="RipPipPip" lat="31.7751214" lon="35.1790331" alt="500.0"/> 
+<LandmarkLocation instanceId="{ba8f9121-86f7-4982-b1af-daf0746658fb}" type="POI" name=""קבר שניאור זלמן שז""ר"" owner="RipPipPip" lat="31.7751458" lon="35.1790163" alt="500.0"/> 
+<LandmarkLocation instanceId="{8dd372e9-3adc-4753-81d2-76d1f987b218}" type="POI" name="קבר חיים הרצוג" owner="RipPipPip" lat="31.7751646" lon="35.1790535" alt="500.0"/> 
+<LandmarkLocation instanceId="{d30751f5-73d6-4240-8bb7-16b459a91ee4}" type="POI" name="קבר יצחק נבון" owner="RipPipPip" lat="31.7752192" lon="35.1791632" alt="500.0"/> 
+<LandmarkLocation instanceId="{0a4e867a-9d99-460f-ab4b-5dd2cfa70226}" type="POI" name="קבר נחמה רבלין" owner="RipPipPip" lat="31.7752041" lon="35.1791769" alt="500.0"/> 
+<LandmarkLocation instanceId="{b3e89a2b-899f-4e84-9d87-e635cbb590e4}" type="POI" name="Ketef Hinnom" owner="RipPipPip" lat="31.7688612" lon="35.2253690" alt="500.0"/> 
+<LandmarkLocation instanceId="{75ae26d8-3fe1-4602-961b-a83c198b8e33}" type="POI" name="Khirbet Judeida" owner="RipPipPip" lat="31.5803125" lon="34.7294932" alt="500.0"/> 
+<LandmarkLocation instanceId="{204cbcf5-3d38-4aca-a1e0-7f4e1964b56a}" type="POI" name="חורבת זכור מזרח" owner="RipPipPip" lat="32.1418444" lon="34.9865477" alt="500.0"/> 
+<LandmarkLocation instanceId="{8c47235e-ffd4-4dd6-80fc-7b6a194a5654}" type="POI" name="(empty)" owner="RipPipPip" lat="31.7728288" lon="35.0274452" alt="500.0"/> 
+<LandmarkLocation instanceId="{60864ffc-66b6-4f27-b16e-cc8a13ed26c8}" type="POI" name="Horbat Avimor" owner="RipPipPip" lat="31.8124892" lon="34.9711582" alt="500.0"/> 
+<LandmarkLocation instanceId="{9989ee30-6069-4fd3-8ba5-8e0a64e506ed}" type="POI" name="Khirbet Hasan" owner="RipPipPip" lat="31.7970895" lon="34.9624940" alt="500.0"/> 
+<LandmarkLocation instanceId="{f5eb4396-6a30-4a03-81d0-fd669d6f049a}" type="POI" name="Horbat HaTarsi" owner="RipPipPip" lat="31.9299847" lon="34.9894726" alt="500.0"/> 
+<LandmarkLocation instanceId="{ed2e6ced-588d-4fb1-99be-2bf33a5e5374}" type="POI" name="Khirbet Deir Abu Kabus" owner="RipPipPip" lat="31.7854959" lon="35.0103390" alt="500.0"/> 
+<LandmarkLocation instanceId="{1f2dda27-a6f0-413d-8fcb-3c21a2885c76}" type="POI" name="Khirbet esh Sheikh Ibrahim" owner="RipPipPip" lat="31.7760802" lon="35.0160146" alt="500.0"/> 
+<LandmarkLocation instanceId="{985ad5a2-5b42-4858-a642-742dd2c44d71}" type="POI" name="Khirbet Summeily" owner="RipPipPip" lat="31.5647343" lon="34.6880419" alt="500.0"/> 
+<LandmarkLocation instanceId="{decc20b9-b030-4dcd-8a5d-4fc4a816eb74}" type="POI" name="Tel Haraqim" owner="RipPipPip" lat="31.5240391" lon="34.8271107" alt="500.0"/> 
+<LandmarkLocation instanceId="{c9562927-2cc1-4e0f-b17e-19f546c5f318}" type="POI" name="Horbat Bet Elem" owner="RipPipPip" lat="31.5791479" lon="34.9464196" alt="500.0"/> 
+<LandmarkLocation instanceId="{1ad64206-4556-4a81-b6ee-939bc3f5dda8}" type="POI" name="Horbat Aroer" owner="RipPipPip" lat="31.1522285" lon="34.9789410" alt="500.0"/> 
+<LandmarkLocation instanceId="{b59ab1bd-8efb-41f8-ac38-04322a573855}" type="POI" name="Khirbet Hamideh" owner="RipPipPip" lat="31.8273658" lon="34.9905227" alt="500.0"/> 
+<LandmarkLocation instanceId="{a16537c4-0ee6-4038-a6d3-5248ac2931dd}" type="POI" name="Nili" owner="RipPipPip" lat="32.0862392" lon="34.8089353" alt="500.0"/> 
+<LandmarkLocation instanceId="{5b42c7b7-145f-47fc-9827-57e37f7ab6fb}" type="POI" name="אום א שוף" owner="RipPipPip" lat="32.5529894" lon="35.0483031" alt="500.0"/> 
+<LandmarkLocation instanceId="{8e4559f4-1907-4fba-9a86-c3288208b5ee}" type="POI" name="Khirbet Shumeila" owner="RipPipPip" lat="31.7049647" lon="34.9943416" alt="500.0"/> 
+<LandmarkLocation instanceId="{77fb0a3b-1925-4b4d-9fb0-39596cdaa4dc}" type="POI" name="גת" owner="RipPipPip" lat="31.7250065" lon="35.0622098" alt="500.0"/> 
+<LandmarkLocation instanceId="{f6dfc3e2-1338-4a19-b2c7-18412926919b}" type="POI" name="רכס הבוסטר" owner="RipPipPip" lat="33.1540253" lon="35.8092551" alt="500.0"/> 
+<LandmarkLocation instanceId="{f8575b2e-1009-4768-8996-13055aaf8c66}" type="POI" name="חורבת שר" owner="RipPipPip" lat="31.8807938" lon="34.9905645" alt="500.0"/> 
+<LandmarkLocation instanceId="{b48fd020-00d2-4eb5-b8aa-618f4c21ea59}" type="POI" name="(empty)" owner="RipPipPip" lat="31.8893403" lon="35.0000048" alt="500.0"/> 
+<LandmarkLocation instanceId="{c2b0486d-5cbb-4b26-a5ca-f2f7d7145330}" type="POI" name="(empty)" owner="RipPipPip" lat="31.8881346" lon="34.9963144" alt="500.0"/> 
+<LandmarkLocation instanceId="{f50616a9-2524-4d45-9253-94512b9e15e9}" type="POI" name="(empty)" owner="RipPipPip" lat="32.7784971" lon="35.0293682" alt="500.0"/> 
