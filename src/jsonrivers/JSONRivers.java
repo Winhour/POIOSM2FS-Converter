@@ -38,15 +38,15 @@ public class JSONRivers {
 
     public static void main(String[] args) throws IOException, JSAPException, FileNotFoundException, CsvException {
         
-        JSAP jsap = new JSAP();
+        JSAP jsap = new JSAP();             /*Used for command line inputs */
        
-        jsap = initializeJSAP(jsap);
+        jsap = initializeJSAP(jsap);        /*Function initializing input flags */
         
-        JSAPResult config = jsap.parse(args);
+        JSAPResult config = jsap.parse(args);  /* Encapsulates the results of JSAP's parse() methods. */
         
         if(!config.success()){
-            System.out.println("\nThere was an error found within command line arguments, try again\n");
-            helpInfo();
+            System.out.println("\nThere was an error found within command line arguments, try again\n");        /*Error printed when a wrong command line argument exists */
+            helpInfo();         /*Prints out help info*/
         } else {
         
             if(config.getBoolean("help")){
@@ -54,17 +54,17 @@ public class JSONRivers {
             }
             else {        
                 if(!config.getString("JSON").equals("none") && config.getString("CSV").equals("none")){
-                    modifyFromJSON(config);
+                    modifyFromJSON(config);          /* Case when user wants to use JSON */
                 }
                 else if(config.getString("JSON").equals("none") && !config.getString("CSV").equals("none")){
-                    parseCSV(config);
+                    parseCSV(config);               /* Case when user wants to use CSV */
                 } 
                 else if(!config.getString("JSON").equals("none") && !config.getString("CSV").equals("none")){
-                    System.out.println("\nPlease specify only one input file");
+                    System.out.println("\nPlease specify only one input file");         /*Both CSV and JSON were chosen */
                     helpInfo();
                 } 
                 else {
-                    System.out.println("\nPlease select an input file, either JSON (-j + filepath) or CSV (-c + filepath)");
+                    System.out.println("\nPlease select an input file, either JSON (-j + filepath) or CSV (-c + filepath)");    /*Neither JSON nor CSV were chosen */
                     helpInfo();
                 }
             }
@@ -72,8 +72,10 @@ public class JSONRivers {
     }
     
     private static JSAP initializeJSAP(JSAP jsap) throws JSAPException{
+        
+        /*Function initializes all the necessary flags for command line interaction*/
      
-        FlaggedOption opt1 = new FlaggedOption("STEP")
+        FlaggedOption opt1 = new FlaggedOption("STEP")         /* Interval between nodes for JSON */
                                 .setStringParser(JSAP.INTEGER_PARSER)
                                 .setDefault("10") 
                                 .setRequired(true) 
@@ -82,7 +84,7 @@ public class JSONRivers {
         
         jsap.registerParameter(opt1);
         
-        FlaggedOption opt2 = new FlaggedOption("JSON")
+        FlaggedOption opt2 = new FlaggedOption("JSON")              /* JSON input file name */
                                 .setStringParser(JSAP.STRING_PARSER)
                                 .setDefault("none") 
                                 .setRequired(true) 
@@ -91,7 +93,7 @@ public class JSONRivers {
         
         jsap.registerParameter(opt2);
         
-        FlaggedOption opt3 = new FlaggedOption("LABEL")
+        FlaggedOption opt3 = new FlaggedOption("LABEL")           /* Additional LABEL for elements ex. ruins, river */
                                 .setStringParser(JSAP.STRING_PARSER)
                                 .setDefault("none") 
                                 .setRequired(true) 
@@ -100,7 +102,7 @@ public class JSONRivers {
         
         jsap.registerParameter(opt3);
         
-        FlaggedOption opt4 = new FlaggedOption("OWNER")
+        FlaggedOption opt4 = new FlaggedOption("OWNER")         /* Owner of produced marker */
                                 .setStringParser(JSAP.STRING_PARSER)
                                 .setDefault("RipPipPip") 
                                 .setRequired(true) 
@@ -109,7 +111,7 @@ public class JSONRivers {
         
         jsap.registerParameter(opt4);
         
-        FlaggedOption opt5 = new FlaggedOption("ALT")
+        FlaggedOption opt5 = new FlaggedOption("ALT")           /* Altitude at which the note will appear */
                                 .setStringParser(JSAP.DOUBLE_PARSER)
                                 .setDefault("500.00") 
                                 .setRequired(true) 
@@ -118,7 +120,7 @@ public class JSONRivers {
         
         jsap.registerParameter(opt5);
         
-        FlaggedOption opt6 = new FlaggedOption("OUTPUT")
+        FlaggedOption opt6 = new FlaggedOption("OUTPUT")       /* Output file name */
                                 .setStringParser(JSAP.STRING_PARSER)
                                 .setDefault("output") 
                                 .setRequired(true) 
@@ -127,7 +129,7 @@ public class JSONRivers {
         
         jsap.registerParameter(opt6);
         
-        FlaggedOption opt7 = new FlaggedOption("CSV")
+        FlaggedOption opt7 = new FlaggedOption("CSV")           /* CSV input file name */
                                 .setStringParser(JSAP.STRING_PARSER)
                                 .setDefault("none") 
                                 .setRequired(true) 
@@ -136,19 +138,19 @@ public class JSONRivers {
         
         jsap.registerParameter(opt7);
         
-        Switch sw1 = new Switch("help")
+        Switch sw1 = new Switch("help")                     /* help flag */
                         .setShortFlag('h')
                         .setLongFlag("help");
 
         jsap.registerParameter(sw1);
         
-        Switch sw2 = new Switch("remove_empty")
+        Switch sw2 = new Switch("remove_empty")            /* flag used for removal of elements with empty names */
                         .setShortFlag(JSAP.NO_SHORTFLAG)
                         .setLongFlag("re");
 
         jsap.registerParameter(sw2);
         
-        Switch sw3 = new Switch("remove_nonlatin")
+        Switch sw3 = new Switch("remove_nonlatin")        /* flag used for removal of elements starting with nonlatin characters */
                         .setShortFlag(JSAP.NO_SHORTFLAG)
                         .setLongFlag("rn");
 
@@ -161,18 +163,21 @@ public class JSONRivers {
     
     private static void modifyFromJSON(JSAPResult config) throws IOException{
         
-        List <ElementData> listofElements = new ArrayList<ElementData>();
-        List <ModifiedData> finallist = new ArrayList<ModifiedData>();
+        /*function takes the chosen JSON file and turns it into POI xml file suitable for MSFS*/
+        
+        List <ElementData> listofElements = new ArrayList<ElementData>();       /* List of elements containing nodes lists */
+        List <ModifiedData> finallist = new ArrayList<ModifiedData>();          /* List of elemenets after modification, each with specific node with lat and lon */
         //int nodeinterval = 30; 
         //String json_name = "rzeki.json";
         
         //int nodeinterval = parseInt(args[0]);
+        
         int nodeinterval = config.getInt("STEP");
         
         //String json_name = args[1];
+        
         String json_name = config.getString("JSON");
-        
-        
+               
         String filepath = "./" + json_name;
         
         //System.out.println(filepath);
@@ -181,19 +186,21 @@ public class JSONRivers {
         
         //System.out.print(jsonstring); /* test jsona */
         
-        JSONObject obj = new JSONObject(jsonstring);
+        JSONObject obj = new JSONObject(jsonstring);                    /* Using the org.json library for JSON parsing */
         JSONArray arr = obj.getJSONArray("elements");
         
         String outputfile;
         
-        if (config.getString("OUTPUT").equals("output")){
+        if (config.getString("OUTPUT").equals("output")){               /* Setting the name of output file */
             String jsn = config.getString("JSON").substring(0,config.getString("JSON").indexOf(".")+".".length());
             jsn = jsn.substring(0, jsn.length() - 1);
             outputfile = jsn + ".txt";
         }
         else {outputfile = config.getString("OUTPUT") + ".txt";}
         
-        System.out.println("\nPOIOSM2FS JSON / CSV Converter\n");
+        System.out.println("\n***********************************");                /*Information for the user about selected parameters*/
+        System.out.println("* POIOSM2FS JSON / CSV Converter  *");
+        System.out.println("***********************************\n");
                     System.out.println("Chosen parameters:");
                     System.out.println("FILE: " + filepath);
                     System.out.println("STEP: " + nodeinterval);
@@ -206,9 +213,9 @@ public class JSONRivers {
         
         System.out.println("");
         
-        for (int i=0;i<arr.length();i++){
+        for (int i=0;i<arr.length();i++){               /*Looking for elements within JSON*/
             
-            if (!arr.getJSONObject(i).getString("type").equals("way")) break;
+            if (arr.getJSONObject(i).getString("type").equals("node")) break;           /*When we reach the section with nodes information, exit the loop*/
             
             String name, nameen, type;
             long midnode;
@@ -218,16 +225,16 @@ public class JSONRivers {
             //int test2 = arr.getJSONObject(i).getInt("id");
             //System.out.println(test2);
 
-            JSONArray arrnodes = arr.getJSONObject(i).getJSONArray("nodes");
+            JSONArray arrnodes = arr.getJSONObject(i).getJSONArray("nodes");            /* Get nodes for current element */
             //int[] numbers = new int[arrnodes.length()];
             
             //List <Integer> numbersl = new ArrayList<Integer>();
             
-            midnode = arrnodes.optLong(arrnodes.length()/2);
+            midnode = arrnodes.optLong(arrnodes.length()/2);                            /* Get the middle node, which might be used in case there aren't enough nodes for the interval */
             //System.out.println(midnode);
             
 
-            JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");
+            JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");               /* Contains information like name, english name etc.*/
             
             if(tags.has("name")){
                 name = tags.getString("name");
@@ -255,35 +262,37 @@ public class JSONRivers {
                 nameen = null;    
             }
             
-            ElementData tempElement = new ElementData(name, nameen, type);               
+            /* Creating an element */
+            
+            ElementData tempElement = new ElementData(name, nameen, type);           /* type currently not used, but might be in the future */    
             
             if (arrnodes.length() > nodeinterval+1){
                                
-                for (int j = 0; j < arrnodes.length(); j = j+nodeinterval) {
+                for (int j = 0; j < arrnodes.length(); j = j+nodeinterval) {         /* filling list of nodes */
                     //numbers[i] = arrnodes.optInt(i);
                     tempElement.addToNodesList(arrnodes.optLong(j));
                     //System.out.println(arrnodes.optLong(j));
                     if (j+nodeinterval > arrnodes.length()) break;
                 }
             } else {
-                tempElement.setMiddle(midnode);
+                tempElement.setMiddle(midnode);         /* set middle node */
             }
             
-            listofElements.add(tempElement);
+            listofElements.add(tempElement);            /* Add element to the list */
         
         }
         
         
-        for (ElementData x: listofElements){
+        for (ElementData x: listofElements){            /* Creating the list of modified elements */
             //System.out.println(x.getEnName());                    
             
-            if (x.getMiddleNode() != 0){
+            if (x.getMiddleNode() != 0){                /*Case when we need to use the middle node */
                 ModifiedData tempmod;
                 tempmod = modifyElements(x, arr, x.getMiddleNode());
                 finallist.add(tempmod);
             }
             else {
-                List<Long> listl = x.getNodeList();
+                List<Long> listl = x.getNodeList();      /* Case when we have a list of nodes */
                 for (int i=0;i<listl.size();i++){
                     ModifiedData tempmod;                
                     tempmod = modifyElements(x, arr, listl.get(i));
@@ -299,7 +308,7 @@ public class JSONRivers {
         }*/
         
         
-        try {
+        try {                                   /* Creating an output file */
             File myObj = new File(outputfile);
             if (myObj.createNewFile()) {
               System.out.println("File created: " + myObj.getName());
@@ -311,19 +320,19 @@ public class JSONRivers {
                 e.printStackTrace();
          }
         
-        int linecount = 0;
+        int linecount = 0;              /* Counter for lines in finished document */
         
             try {
-                FileWriter myWriter = new FileWriter(outputfile);
+                FileWriter myWriter = new FileWriter(outputfile);           /*Writing to the output file */
                 
                 for (ModifiedData y: finallist){
-                    UUID uuid = UUID.randomUUID();
-                    String fname;
+                    UUID uuid = UUID.randomUUID();                      /* Random UUID (universally unique identifier)*/
+                    String fname;                                       /* English name will be used if possible, if not the default name */
                     if (y.getEnName() != null){
                     fname = y.getEnName();
                     } else {fname = y.getName();}
                     
-                    if (fname == null) fname = "(empty)";
+                    if (fname == null) fname = "(empty)";               /* If neither name exists, use empty signifier */
                     //myWriter.write(y.getType() + "| " + y.getName() + "| " + y.getEnName() + "| lat:" + y.getLat() + " | lon:" + y.getLon() + "\n");
                     
                     if(!config.getString("LABEL").equals("none")){
@@ -352,8 +361,9 @@ public class JSONRivers {
     
     private static void parseCSV(JSAPResult config) throws FileNotFoundException, IOException, CsvException{
         
-        String csv_name = config.getString("CSV");
+        /*function takes the chosen CSV file and turns it into POI xml file suitable for MSFS*/
         
+        String csv_name = config.getString("CSV");
         
         String filepath = "./" + csv_name;  
         
@@ -372,7 +382,9 @@ public class JSONRivers {
         }
         else outputfile = config.getString("OUTPUT") + ".txt";
         
-        System.out.println("\nPOIOSM2FS JSON / CSV Converter\n");
+        System.out.println("\n***********************************");
+        System.out.println("* POIOSM2FS JSON / CSV Converter  *");
+        System.out.println("***********************************\n");
                     System.out.println("Chosen parameters:");
                     System.out.println("FILE: " + filepath);
                     System.out.println("LABEL: " + config.getString("LABEL"));
@@ -383,13 +395,13 @@ public class JSONRivers {
                     System.out.println("REMOVE_NONLATIN: " + config.getBoolean("remove_nonlatin"));
                     System.out.println("");
         
-        BufferedReader reader = new BufferedReader(new FileReader(filepath));
+        BufferedReader reader = new BufferedReader(new FileReader(filepath));       /* Get total number of lines from inputfile, used for the Percentage Bar */
         int lines = 0;
         while (reader.readLine() != null) lines++;
         reader.close();
         
         
-        String FINALSTRING = "";
+        String FINALSTRING = "";                    /* Storage for text that will be printed in the output file */
         
         String lat, lon, name, nameEn, eleValue;
         
@@ -399,7 +411,7 @@ public class JSONRivers {
         
         System.out.println("");
         
-        String eleFlag;
+        String eleFlag;             /*Check if elevation exists in the CSV file */
         
         try (Scanner sc = new Scanner(csvstring).useDelimiter("\\s*\\|\\s*"))
         {
@@ -414,7 +426,7 @@ public class JSONRivers {
             sc.close();
         }
         
-        if (!eleFlag.equals("ele")){
+        if (!eleFlag.equals("ele")){                    /* A slightly different usage depending whether elevation is included in the CSV file */
         
             try (Scanner sc = new Scanner(csvstring).useDelimiter("\\s*\\|\\s*"))
             {
@@ -468,7 +480,7 @@ public class JSONRivers {
 
                     currentline_in++;
 
-                    progressPercentage = currentline_in/lines;
+                    progressPercentage = currentline_in/lines;          /* Current percentage progress is equal to the line program is on divided by total lines in input file */
                     //System.out.println(progressPercentage);
 
                     updateProgress(progressPercentage);
@@ -611,14 +623,14 @@ public class JSONRivers {
     }
     
     
-    static String readFile(String path, Charset encoding)
+    static String readFile(String path, Charset encoding)           /*Simple filereader with charset encoding*/
     throws IOException
     {
         byte[] encoded = Files.readAllBytes(Paths.get(path));
         return new String(encoded, encoding);
     }
     
-    private static ModifiedData modifyElements(ElementData ed, JSONArray arr, long id){
+    private static ModifiedData modifyElements(ElementData ed, JSONArray arr, long id){     /* Turning ElementDatas into ModifiedData */
         
         double lat = 0, lon = 0;
         
@@ -642,7 +654,7 @@ public class JSONRivers {
     }
     
     
-    static void updateProgress(double progressPercentage) {
+    static void updateProgress(double progressPercentage) {     /* Percentage Progress Bar*/
         final int width = 50; // progress bar width in chars
 
         System.out.print("\r[");
@@ -660,6 +672,10 @@ public class JSONRivers {
     
     
     private static void helpInfo(){
+        
+        System.out.println("\n***********************************");
+        System.out.println("* POIOSM2FS JSON / CSV Converter  *");
+        System.out.println("***********************************\n");
         System.out.println("\nHow to use:\n");
         System.out.println("-j (json_file_path) selects a JSON file to use");
         System.out.println("-c (csv_file_path) selects a CSV file to use");
