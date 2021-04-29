@@ -46,7 +46,7 @@ public class JSONRivers {
         
         if(!config.success()){
             System.out.println("\nThere was an error found within command line arguments, try again\n");        /*Error printed when a wrong command line argument exists */
-            helpInfo();         /*Prints out help info*/
+            helpInfo();         /*Prints out information on how to use the program*/
         } else {
         
             if(config.getBoolean("help")){
@@ -165,8 +165,8 @@ public class JSONRivers {
         
         /*function takes the chosen JSON file and turns it into POI xml file suitable for MSFS*/
         
-        List <ElementData> listofElements = new ArrayList<ElementData>();       /* List of elements containing nodes lists */
-        List <ModifiedData> finallist = new ArrayList<ModifiedData>();          /* List of elemenets after modification, each with specific node with lat and lon */
+        List <ElementData> listofElements = new ArrayList<>();       /* List of elements containing nodes lists */
+        List <ModifiedData> finallist = new ArrayList<>();          /* List of elemenets after modification, each with specific node with lat and lon */
         //int nodeinterval = 30; 
         //String json_name = "rzeki.json";
         
@@ -208,6 +208,8 @@ public class JSONRivers {
                     System.out.println("OWNER: " + config.getString("OWNER"));
                     System.out.println("ALT: " + config.getDouble("ALT"));
                     System.out.println("OUTPUT FILE: " + outputfile);
+                    System.out.println("REMOVE_EMPTY: " + config.getBoolean("remove_empty"));
+                    System.out.println("REMOVE_NONLATIN: " + config.getBoolean("remove_nonlatin"));
                     System.out.println("");
         
         
@@ -282,9 +284,13 @@ public class JSONRivers {
         
         }
         
+        //int elementcount = 0;              /* Counter for elements */
+        //double progressPercentage = 0;
         
-        for (ElementData x: listofElements){            /* Creating the list of modified elements */
-            //System.out.println(x.getEnName());                    
+        
+        listofElements.forEach((ElementData x) -> {
+            /* Creating the list of modified elements */
+            //System.out.println(x.getEnName());
             
             if (x.getMiddleNode() != 0){                /*Case when we need to use the middle node */
                 ModifiedData tempmod;
@@ -294,15 +300,14 @@ public class JSONRivers {
             else {
                 List<Long> listl = x.getNodeList();      /* Case when we have a list of nodes */
                 for (int i=0;i<listl.size();i++){
-                    ModifiedData tempmod;                
+                    ModifiedData tempmod;
                     tempmod = modifyElements(x, arr, listl.get(i));
                     finallist.add(tempmod);
                 }
             }
-                
-        }
-        
+        });      
 
+        
         /*for (ModifiedData y: finallist){
             System.out.println(y.getType() + " " + y.getName() + " " + y.getEnName() + " lat:" + y.getLat() + " lon:" + y.getLon());
         }*/
@@ -317,41 +322,50 @@ public class JSONRivers {
          }
          } catch (IOException e) {
              System.out.println("An error occurred.");
-                e.printStackTrace();
+                //e.printStackTrace();
          }
         
-        int linecount = 0;              /* Counter for lines in finished document */
+        int linecount = 0;                 /* Counter for lines in finished document */
         
-            try {
-                FileWriter myWriter = new FileWriter(outputfile);           /*Writing to the output file */
-                
+        try {
+            try (FileWriter myWriter = new FileWriter(outputfile) /*Writing to the output file */ ) {
                 for (ModifiedData y: finallist){
                     UUID uuid = UUID.randomUUID();                      /* Random UUID (universally unique identifier)*/
                     String fname;                                       /* English name will be used if possible, if not the default name */
                     if (y.getEnName() != null){
-                    fname = y.getEnName();
-                    } else {fname = y.getName();}
+                        fname = y.getEnName();
+                    } else
+                    {fname = y.getName();}
                     
                     if (fname == null) fname = "(empty)";               /* If neither name exists, use empty signifier */
                     //myWriter.write(y.getType() + "| " + y.getName() + "| " + y.getEnName() + "| lat:" + y.getLat() + " | lon:" + y.getLon() + "\n");
                     
-                    if(!config.getString("LABEL").equals("none")){
-                        myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
-                                + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
-                                + config.getDouble("ALT") +"\"/> \n");
-                        linecount++;
-                    } else {
-                        myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" 
-                                + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
-                                + config.getDouble("ALT") +"\"/> \n");
-                        linecount++;
-                    }   
+                    String clean = Normalizer.normalize(fname, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+                    boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
+                                || clean.substring(0,1).matches("\\(") || clean.substring(0,1).matches("\\["));
+                    
+                    
+                    if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
+                        if(!(config.getBoolean("remove_nonlatin") && !valid)){
+                            if(!config.getString("LABEL").equals("none")){
+                                myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
+                                        + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
+                                        + config.getDouble("ALT") +"\"/> \n");
+                                linecount++;
+                            } else {
+                                myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\""
+                                        + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
+                                        + config.getDouble("ALT") +"\"/> \n");
+                                linecount++;
+                            }   
+                        }
+                    } 
                 }
-                myWriter.close();
+            }
                 System.out.println("Successfully wrote to the file.");
-                } catch (IOException e) {
+            } catch (IOException e) {
                     System.out.println("An error occurred.");
-                    e.printStackTrace();
+                    //e.printStackTrace();
                 }
             
             System.out.println("Number of lines: " + linecount);
@@ -395,10 +409,11 @@ public class JSONRivers {
                     System.out.println("REMOVE_NONLATIN: " + config.getBoolean("remove_nonlatin"));
                     System.out.println("");
         
-        BufferedReader reader = new BufferedReader(new FileReader(filepath));       /* Get total number of lines from inputfile, used for the Percentage Bar */
-        int lines = 0;
-        while (reader.readLine() != null) lines++;
-        reader.close();
+                    int lines;
+        try (BufferedReader reader = new BufferedReader(new FileReader(filepath)) /* Get total number of lines from inputfile, used for the Percentage Bar */ ) {
+            lines = 0;
+            while (reader.readLine() != null) lines++;
+        }
         
         
         String FINALSTRING = "";                    /* Storage for text that will be printed in the output file */
@@ -407,7 +422,7 @@ public class JSONRivers {
         
         int linecount = 0;
         double currentline_in = 0;
-        double progressPercentage = 0;
+        double progressPercentage;
         
         System.out.println("");
         
@@ -426,173 +441,175 @@ public class JSONRivers {
             sc.close();
         }
         
-        if (!eleFlag.equals("ele")){                    /* A slightly different usage depending whether elevation is included in the CSV file */
-        
-            try (Scanner sc = new Scanner(csvstring).useDelimiter("\\s*\\|\\s*"))
-            {
-                sc.nextLine();
-                while (sc.hasNext()) {
-                    //System.out.println(sc.next());
-                    sc.next();
-                    lat = sc.next();
-                    lon = sc.next();
-                    name = sc.next();
-                    nameEn = sc.next();
-                    sc.next();
-
-
-                    UUID uuid = UUID.randomUUID();
-
-                    String fname;
+        switch (eleFlag) {
+            case "description":
+                /* A slightly different usage depending whether elevation is included in the CSV file */
+                
+                try (Scanner sc = new Scanner(csvstring).useDelimiter("\\s*\\|\\s*"))
+                {
+                    sc.nextLine();
+                    while (sc.hasNext()) {
+                        //System.out.println(sc.next());
+                        sc.next();
+                        lat = sc.next();
+                        lon = sc.next();
+                        name = sc.next();
+                        nameEn = sc.next();
+                        sc.next();
+                        
+                        
+                        UUID uuid = UUID.randomUUID();
+                        
+                        String fname;
                         if (!nameEn.replaceAll("\\s","").equals("")){
-                        fname = nameEn;
+                            fname = nameEn;
                         } else {fname = name;}
 
                         if (fname.replaceAll("\\s","").equals("")) fname = "(empty)";
-
-                    String clean = Normalizer.normalize(fname, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
-                    boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
-                            || clean.substring(0,1).matches("\\(") || clean.substring(0,1).matches("\\["));
-                    
-                    
-
-                    //System.out.println(fname + " " + clean.substring(0,1) + " " + valid);
-
-                    //System.out.println(config.getBoolean("remove_empty") + " " + fname.equals("(empty)") + " " + config.getBoolean("remove_nonlatin") + " " + valid);
-
-
-                    if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
-                        if(!(config.getBoolean("remove_nonlatin") && !valid)){
-                            if (!config.getString("LABEL").equals("none")) {   
-                                FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
-                                                + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\"" 
-                                                + config.getDouble("ALT") +"\"/> \n");
-                                linecount++;
-                            }
-                            else{
-                                FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" 
-                                                + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\"" 
-                                                + config.getDouble("ALT") +"\"/> \n");
-                                linecount++;
+                        
+                        String clean = Normalizer.normalize(fname, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+                        boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
+                                || clean.substring(0,1).matches("\\(") || clean.substring(0,1).matches("\\["));
+                        
+                        
+                        
+                        //System.out.println(fname + " " + clean.substring(0,1) + " " + valid);
+                        
+                        //System.out.println(config.getBoolean("remove_empty") + " " + fname.equals("(empty)") + " " + config.getBoolean("remove_nonlatin") + " " + valid);
+                        
+                        
+                        if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
+                            if(!(config.getBoolean("remove_nonlatin") && !valid)){
+                                if (!config.getString("LABEL").equals("none")) {   
+                                    FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
+                                            + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
+                                            + config.getDouble("ALT") +"\"/> \n");
+                                    linecount++;
+                                }
+                                else{
+                                    FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\""
+                                            + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
+                                            + config.getDouble("ALT") +"\"/> \n");
+                                    linecount++;
+                                }
                             }
                         }
+                        
+                        currentline_in++;
+                        
+                        progressPercentage = currentline_in/lines;          /* Current percentage progress is equal to the line program is on divided by total lines in input file */
+                        //System.out.println(progressPercentage);
+                        
+                        updateProgress(progressPercentage);
+                        
+                        if(sc.hasNextLine())
+                            sc.nextLine();
+                        
                     }
-
-                    currentline_in++;
-
-                    progressPercentage = currentline_in/lines;          /* Current percentage progress is equal to the line program is on divided by total lines in input file */
-                    //System.out.println(progressPercentage);
-
-                    updateProgress(progressPercentage);
-
-                    if(sc.hasNextLine())
-                        sc.nextLine();
-
-                }
-                sc.close();
-                System.out.print("\r");
-                System.out.print("[..................................................] 100%");
-                System.out.println("");
-                System.out.println("");
-            }
-            
-        } else {
-            
-            try (Scanner sc = new Scanner(csvstring).useDelimiter("\\s*\\|\\s*"))
-            {
-                sc.nextLine();
-                while (sc.hasNext()) {
-                    //System.out.println(sc.next());
-                    sc.next();
-                    lat = sc.next();
-                    lon = sc.next();
-                    name = sc.next();
-                    nameEn = sc.next();
-                    eleValue = sc.next();
-                    sc.next();
-
-
-                    UUID uuid = UUID.randomUUID();
-
-                    String fname;
+                    sc.close();
+                    System.out.print("\r");
+                    System.out.print("[..................................................] 100%");
+                    System.out.println("");
+                    System.out.println("");
+                }   break;
+            case "ele":
+                try (Scanner sc = new Scanner(csvstring).useDelimiter("\\s*\\|\\s*"))
+                {
+                    sc.nextLine();
+                    while (sc.hasNext()) {
+                        //System.out.println(sc.next());
+                        sc.next();
+                        lat = sc.next();
+                        lon = sc.next();
+                        name = sc.next();
+                        nameEn = sc.next();
+                        eleValue = sc.next();
+                        sc.next();
+                        
+                        
+                        UUID uuid = UUID.randomUUID();
+                        
+                        String fname;
                         if (!nameEn.replaceAll("\\s","").equals("")){
-                        fname = nameEn;
+                            fname = nameEn;
                         } else {fname = name;}
-
+                        
                         if (fname.replaceAll("\\s","").equals("")) fname = "(empty)";
-
-                    String clean = Normalizer.normalize(fname, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
-                    boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
-                            || clean.substring(0,1).matches("\\(") || clean.substring(0,1).matches("\\["));
-
-                    //System.out.println(fname + " " + clean.substring(0,1) + " " + valid);
-
-                    //System.out.println(config.getBoolean("remove_empty") + " " + fname.equals("(empty)") + " " + config.getBoolean("remove_nonlatin") + " " + valid);
-
-                    if (!eleValue.replaceAll("\\s","").equals("")){
+                        
+                        String clean = Normalizer.normalize(fname, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+                        boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
+                                || clean.substring(0,1).matches("\\(") || clean.substring(0,1).matches("\\["));
+                        
+                        //System.out.println(fname + " " + clean.substring(0,1) + " " + valid);
+                        
+                        //System.out.println(config.getBoolean("remove_empty") + " " + fname.equals("(empty)") + " " + config.getBoolean("remove_nonlatin") + " " + valid);
+                        
+                        if (!eleValue.replaceAll("\\s","").equals("")){
                             
-
-                        if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
-                            if(!(config.getBoolean("remove_nonlatin") && !valid)){
-                                if (!config.getString("LABEL").equals("none")) {   
-                                    FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
-                                                    + fname + " " + eleValue + "m"
-                                            + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\"" 
-                                                    + config.getDouble("ALT") +"\"/> \n");
-                                    linecount++;
+                            
+                            if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){
+                                if(!(config.getBoolean("remove_nonlatin") && !valid)){
+                                    if (!config.getString("LABEL").equals("none")) {
+                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
+                                                + fname + " " + eleValue + "m"
+                                                + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
+                                                + config.getDouble("ALT") +"\"/> \n");
+                                        linecount++;
+                                    }
+                                    else{
+                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\""
+                                                + fname + " " + eleValue + "m"
+                                                + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
+                                                + config.getDouble("ALT") +"\"/> \n");
+                                        linecount++;
+                                    }
                                 }
-                                else{
-                                    FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" 
-                                                    + fname + " " + eleValue + "m"
-                                            + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\"" 
-                                                    + config.getDouble("ALT") +"\"/> \n");
-                                    linecount++;
+                            }
+                        } else {
+                            if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){
+                                if(!(config.getBoolean("remove_nonlatin") && !valid)){
+                                    if (!config.getString("LABEL").equals("none")) {
+                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
+                                                + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
+                                                + config.getDouble("ALT") +"\"/> \n");
+                                        linecount++;
+                                    }
+                                    else{
+                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\""
+                                                + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
+                                                + config.getDouble("ALT") +"\"/> \n");
+                                        linecount++;
+                                    }
                                 }
                             }
                         }
-                    } else {
-                        if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
-                            if(!(config.getBoolean("remove_nonlatin") && !valid)){
-                                if (!config.getString("LABEL").equals("none")) {   
-                                    FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
-                                                    + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\"" 
-                                                    + config.getDouble("ALT") +"\"/> \n");
-                                    linecount++;
-                                }
-                                else{
-                                    FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" 
-                                                    + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\"" 
-                                                    + config.getDouble("ALT") +"\"/> \n");
-                                    linecount++;
-                                }
-                            }
-                        }
+                        
+                        currentline_in++;
+                        
+                        progressPercentage = currentline_in/lines;
+                        //System.out.println(progressPercentage);
+                        
+                        updateProgress(progressPercentage);
+                        
+                        if(sc.hasNextLine())
+                            sc.nextLine();
+                        
                     }
-
-                    currentline_in++;
-
-                    progressPercentage = currentline_in/lines;
-                    //System.out.println(progressPercentage);
-
-                    updateProgress(progressPercentage);
-
-                    if(sc.hasNextLine())
-                        sc.nextLine();
-
-                }
-                sc.close();
-                System.out.print("\r");
-                System.out.print("[..................................................] 100%");
-                System.out.println("");
-                System.out.println("");
-            
-            }
-            
-        }
-        
+                    sc.close();
+                    System.out.print("\r");
+                    System.out.print("[..................................................] 100%");
+                    System.out.println("");
+                    System.out.println("");
+                    
+                }   break;
+            default:
+                System.out.println("The parameters in the CSV file are not supported, check if they contain values other than id, lat, lon, "
+                        + "name, nameEN, ele, description and wikipedia");
+                return;
+        }     
         
         //System.out.println(FINALSTRING);
-             
+        
         try {
             File myObj = new File(outputfile);
             if (myObj.createNewFile()) {
@@ -602,19 +619,17 @@ public class JSONRivers {
          }
          } catch (IOException e) {
              System.out.println("An error occurred.");
-                e.printStackTrace();
+                //e.printStackTrace();
          }
         
             try {
-                FileWriter myWriter = new FileWriter(outputfile);
-                
+            try (FileWriter myWriter = new FileWriter(outputfile)) {
                 myWriter.write(FINALSTRING);
-                
-                myWriter.close();
+            }
                 System.out.println("Successfully wrote to the file.");
                 } catch (IOException e) {
                     System.out.println("An error occurred.");
-                    e.printStackTrace();
+                   // e.printStackTrace();
                 }
             
             System.out.println("Number of lines: " + linecount + "\n");
@@ -670,8 +685,7 @@ public class JSONRivers {
     
     
     
-    
-    private static void helpInfo(){
+    private static void helpInfo(){                     /*Prints out information on how to use the program*/
         
         System.out.println("\n***********************************");
         System.out.println("* POIOSM2FS JSON / CSV Converter  *");
@@ -679,8 +693,8 @@ public class JSONRivers {
         System.out.println("\nHow to use:\n");
         System.out.println("-j (json_file_path) selects a JSON file to use");
         System.out.println("-c (csv_file_path) selects a CSV file to use");
-        System.out.println("-s (Integer) selects the interval between chosen nodes");
-        System.out.println("-l (String) alows to add a label in front of element's name");
+        System.out.println("-s (Integer) selects the interval between chosen nodes, applies only to Json (default is 10)");
+        System.out.println("-l (String) alows to add a label in front of element's name ex. Ruins: ruinsname");
         System.out.println("-w (String) specifies the owner");
         System.out.println("-a (Double) specifies the altitude");
         System.out.println("-o (filename) allows the user to choose the output file");

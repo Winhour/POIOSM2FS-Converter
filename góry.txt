@@ -1,84 +1,84 @@
-<LandmarkLocation instanceId="{7592be74-67e4-414d-91b7-3a237684df9a}" type="POI" name="Gerlachovský štít 2655m" owner="RipPipPip" lat="49.1640357" lon="20.1340340" alt="500.0"/> 
-<LandmarkLocation instanceId="{fd493dff-a85c-4131-8d50-78089a9bb24d}" type="POI" name="Cubryna / Čubrina 2376m" owner="RipPipPip" lat="49.1878013" lon="20.0536809" alt="500.0"/> 
-<LandmarkLocation instanceId="{86362047-a51d-4b2a-95fb-bc0f00897fe6}" type="POI" name="Satan (N) 2421m" owner="RipPipPip" lat="49.1636370" lon="20.0522186" alt="500.0"/> 
-<LandmarkLocation instanceId="{86afb76e-3018-41c0-8c63-f4eccbb1d2a1}" type="POI" name="Litvorový štít 2423m" owner="RipPipPip" lat="49.1710813" lon="20.1299323" alt="500.0"/> 
-<LandmarkLocation instanceId="{c39f75d6-77bc-4eaf-9151-8cbbc9731030}" type="POI" name="Vysoká 2547m" owner="RipPipPip" lat="49.1730750" lon="20.0935591" alt="500.0"/> 
-<LandmarkLocation instanceId="{8858099d-0646-4a97-a5bd-8a4aaaa374e2}" type="POI" name="Zadný Gerlach 2616m" owner="RipPipPip" lat="49.1662301" lon="20.1314792" alt="500.0"/> 
-<LandmarkLocation instanceId="{5f706fb6-cf31-414b-bb7a-6845715401b8}" type="POI" name="Mengusovský Volovec 2227m" owner="RipPipPip" lat="49.1759435" lon="20.0675358" alt="500.0"/> 
-<LandmarkLocation instanceId="{b4edfe17-71cd-4381-967c-a453a7b74f68}" type="POI" name="Kôpky 2354m" owner="RipPipPip" lat="49.1677780" lon="20.0838890" alt="500.0"/> 
-<LandmarkLocation instanceId="{01aa90e5-68a7-43ce-802d-f3506470dc0e}" type="POI" name="Gánok 2462m" owner="RipPipPip" lat="49.1743120" lon="20.1038444" alt="500.0"/> 
-<LandmarkLocation instanceId="{d1f3b198-4e9f-488e-a5af-916071409d97}" type="POI" name="Mięguszowiecki Szczyt Czarny / Východný Mengusovský štít 2410m" owner="RipPipPip" lat="49.1830560" lon="20.0675000" alt="500.0"/> 
-<LandmarkLocation instanceId="{97ce0632-d6a7-495a-98e6-9f65e828e872}" type="POI" name="Volia veža / Wołowa Turnia 2373m" owner="RipPipPip" lat="49.1789015" lon="20.0751157" alt="500.0"/> 
-<LandmarkLocation instanceId="{5b9308e0-4f68-4a26-b4a6-e71b4464060e}" type="POI" name="Veľký Žabí štít / Żabi Szczyt Wyżni 2263m" owner="RipPipPip" lat="49.1878465" lon="20.0892494" alt="500.0"/> 
-<LandmarkLocation instanceId="{1b0cf7a1-da19-47a3-a305-ef8f99af564d}" type="POI" name="Mięguszowiecki Szczyt Pośredni / Prostredný Mengusovský štít 2393m" owner="RipPipPip" lat="49.1845389" lon="20.0627490" alt="500.0"/> 
-<LandmarkLocation instanceId="{4841f30f-bbcf-410c-a41b-c1d7495d1833}" type="POI" name="Malé Rysy / Niżnie Rysy 2430m" owner="RipPipPip" lat="49.1833905" lon="20.0880078" alt="500.0"/> 
-<LandmarkLocation instanceId="{0fd63c8a-6dc0-4487-907b-d2bffd4ef95c}" type="POI" name="Kotlový štít 2601m" owner="RipPipPip" lat="49.1619981" lon="20.1363213" alt="500.0"/> 
-<LandmarkLocation instanceId="{bc268c2e-bf7d-467c-96ab-3a128360df1c}" type="POI" name="Končistá 2537.5m" owner="RipPipPip" lat="49.1573111" lon="20.1140729" alt="500.0"/> 
-<LandmarkLocation instanceId="{9484dfd3-5139-4b00-ba59-8ef993ae2f8e}" type="POI" name="Popradský Ľadový štít 2396m" owner="RipPipPip" lat="49.1659124" lon="20.1157920" alt="500.0"/> 
-<LandmarkLocation instanceId="{6374939a-5335-44d5-8329-570eaeccf1b0}" type="POI" name="Hrubá veža 2086m" owner="RipPipPip" lat="49.1813259" lon="20.1301403" alt="500.0"/> 
-<LandmarkLocation instanceId="{5d56a281-8510-403a-97bb-6c077995ba76}" type="POI" name="Batizovský štít 2448m" owner="RipPipPip" lat="49.1653667" lon="20.1241414" alt="500.0"/> 
-<LandmarkLocation instanceId="{b250e9db-31cd-4670-8bb4-2e82e48d74f6}" type="POI" name="Velický štít 2319m" owner="RipPipPip" lat="49.1739411" lon="20.1345904" alt="500.0"/> 
-<LandmarkLocation instanceId="{27fb7194-ec4e-4fa8-916d-c78fa55d9faa}" type="POI" name="Zlobivá 2426m" owner="RipPipPip" lat="49.1701370" lon="20.1077554" alt="500.0"/> 
-<LandmarkLocation instanceId="{a296441f-814f-4ec4-93c7-9630992a7c16}" type="POI" name="Snežná kopa 2327m" owner="RipPipPip" lat="49.1684975" lon="20.1117713" alt="500.0"/> 
-<LandmarkLocation instanceId="{74085f9f-d7d2-4b9b-aa99-fbdb604dbca6}" type="POI" name="Malá Bašta 2288m" owner="RipPipPip" lat="49.1557957" lon="20.0575666" alt="500.0"/> 
-<LandmarkLocation instanceId="{a7441936-4945-464e-82fd-8f1f16d2ab1a}" type="POI" name="Predná Bašta 2374m" owner="RipPipPip" lat="49.1603668" lon="20.0550023" alt="500.0"/> 
-<LandmarkLocation instanceId="{a9b33996-1ea0-4ec1-88e3-3d6c075e910f}" type="POI" name="Veľká Capia veža 2364m" owner="RipPipPip" lat="49.1668186" lon="20.0508431" alt="500.0"/> 
-<LandmarkLocation instanceId="{f4a03e97-31d9-42ae-9cad-30525fa0b11d}" type="POI" name="Tupá 2284m" owner="RipPipPip" lat="49.1535074" lon="20.1017938" alt="500.0"/> 
-<LandmarkLocation instanceId="{5c8dcf1a-1cec-4bf9-ac5e-7314e431001c}" type="POI" name="Veľká dračia hlava 2254m" owner="RipPipPip" lat="49.1680901" lon="20.0937140" alt="500.0"/> 
-<LandmarkLocation instanceId="{f5fb0238-cc68-4c7b-8b34-449d8ae4a6b7}" type="POI" name="Ťažký štít 2500m" owner="RipPipPip" lat="49.1737045" lon="20.0915347" alt="500.0"/> 
-<LandmarkLocation instanceId="{b5cc684f-647a-4f44-8b31-16276a4cccd2}" type="POI" name="Zlomisková veža 2147m" owner="RipPipPip" lat="49.1651568" lon="20.0942520" alt="500.0"/> 
-<LandmarkLocation instanceId="{53f1d521-0c92-4301-9be4-17f4d0b08e20}" type="POI" name="Malá Končistá 2466m" owner="RipPipPip" lat="49.1628881" lon="20.1145238" alt="500.0"/> 
-<LandmarkLocation instanceId="{3d9ce22a-0588-4ac1-a1df-78463d947929}" type="POI" name="Rumanov štít 2428m" owner="RipPipPip" lat="49.1728175" lon="20.1056479" alt="500.0"/> 
-<LandmarkLocation instanceId="{0b9dcc1f-9ad1-4ea3-8ec3-cc9c929e9802}" type="POI" name="Veža železnej brány" owner="RipPipPip" lat="49.1705887" lon="20.1143906" alt="500.0"/> 
-<LandmarkLocation instanceId="{7cba8506-6f83-41f9-8fd7-d5a148192b08}" type="POI" name="Mnich 2067m" owner="RipPipPip" lat="49.1926757" lon="20.0549059" alt="500.0"/> 
-<LandmarkLocation instanceId="{2ff340e8-36ae-499e-94db-798bbde85f8d}" type="POI" name="Ťažká veža 2254m" owner="RipPipPip" lat="49.1832970" lon="20.0939127" alt="500.0"/> 
-<LandmarkLocation instanceId="{1a4a0287-dcb1-46cc-9a6c-ff2e023684a9}" type="POI" name="Kačacia veža 2197m" owner="RipPipPip" lat="49.1773280" lon="20.1051543" alt="500.0"/> 
-<LandmarkLocation instanceId="{dd274b48-4630-4924-a705-79fbaad993a6}" type="POI" name="Malý Mlynár 1973m" owner="RipPipPip" lat="49.1991126" lon="20.1018938" alt="500.0"/> 
-<LandmarkLocation instanceId="{0c536872-3184-4d55-bd5a-24337565faf8}" type="POI" name="Dromedárov chrbát 2227m" owner="RipPipPip" lat="49.1572696" lon="20.1354169" alt="500.0"/> 
-<LandmarkLocation instanceId="{691f5418-dc4a-446d-afd9-1fd2cea0e760}" type="POI" name="Lavínový štít 2606m" owner="RipPipPip" lat="49.1685033" lon="20.1306475" alt="500.0"/> 
-<LandmarkLocation instanceId="{524676e2-712b-47d9-b164-c395a449cede}" type="POI" name="štít Nad Zeleným 2130m" owner="RipPipPip" lat="49.2037994" lon="20.1357662" alt="500.0"/> 
-<LandmarkLocation instanceId="{bb882dc3-121d-417d-8193-a3c0e302d820}" type="POI" name="Rysy 2503m" owner="RipPipPip" lat="49.1793175" lon="20.0884343" alt="500.0"/> 
-<LandmarkLocation instanceId="{2e09cdb9-9c69-43ec-864f-d643a2a7d5d4}" type="POI" name="Mlynár 2170m" owner="RipPipPip" lat="49.1934157" lon="20.1026067" alt="500.0"/> 
-<LandmarkLocation instanceId="{e2f1e089-7ba1-48c2-ae65-78ab6fde39d9}" type="POI" name="Štôlska veža 2140m" owner="RipPipPip" lat="49.1611124" lon="20.1140589" alt="500.0"/> 
-<LandmarkLocation instanceId="{6ed69720-2925-4723-9fc4-15aa38d81677}" type="POI" name="Gerlachovská veža 2642m" owner="RipPipPip" lat="49.1631541" lon="20.1330908" alt="500.0"/> 
-<LandmarkLocation instanceId="{2bec864d-c700-4a90-a8df-45ff232cddf8}" type="POI" name="Mnichowa Kopa 2090m" owner="RipPipPip" lat="49.1906428" lon="20.0522976" alt="500.0"/> 
-<LandmarkLocation instanceId="{340fd355-e5fa-493b-a00e-9b89e471af16}" type="POI" name="Spadowa Kopa 2252m" owner="RipPipPip" lat="49.1855554" lon="20.0872398" alt="500.0"/> 
-<LandmarkLocation instanceId="{c168c593-5ca0-4485-8a44-d231cc1d3a89}" type="POI" name="Żabi Mnich 2146m" owner="RipPipPip" lat="49.1891326" lon="20.0857161" alt="500.0"/> 
-<LandmarkLocation instanceId="{a434c1f3-3542-49d1-8048-5c737e3a3417}" type="POI" name="Tomkowa Igła 2106m" owner="RipPipPip" lat="49.1840996" lon="20.0835777" alt="500.0"/> 
-<LandmarkLocation instanceId="{a0b7468b-490a-48ee-b6ce-721d0372ad73}" type="POI" name="Żabi Koń 2291m" owner="RipPipPip" lat="49.1786869" lon="20.0796578" alt="500.0"/> 
-<LandmarkLocation instanceId="{c485852b-adfa-4187-b064-232d80bebed9}" type="POI" name="Żabia Turnia Mięguszowiecka 2336m" owner="RipPipPip" lat="49.1786039" lon="20.0771327" alt="500.0"/> 
-<LandmarkLocation instanceId="{a0b726d5-a62e-45bb-825e-ea79ce049aa2}" type="POI" name="Bula pod Rysami 2054m" owner="RipPipPip" lat="49.1819195" lon="20.0807907" alt="500.0"/> 
-<LandmarkLocation instanceId="{9969340d-01c5-4e75-a133-5faf4094dffb}" type="POI" name="Kazalnica Mięguszowiecka 2159m" owner="RipPipPip" lat="49.1851463" lon="20.0702796" alt="500.0"/> 
-<LandmarkLocation instanceId="{38b46e8d-f8de-43af-abc9-dd25c9d5fa5e}" type="POI" name="Rogata Turniczka 2365m" owner="RipPipPip" lat="49.1789015" lon="20.0751157" alt="500.0"/> 
-<LandmarkLocation instanceId="{0cb0f8ac-1ec0-4366-90c7-c2f3c36ba7b3}" type="POI" name="Hińczowa Turnia 2377m" owner="RipPipPip" lat="49.1809173" lon="20.0689511" alt="500.0"/> 
-<LandmarkLocation instanceId="{7f0c7c1f-7106-48c3-bbd2-a0ecd85c142f}" type="POI" name="Hińczowa Turniczka 2360m" owner="RipPipPip" lat="49.1807513" lon="20.0690814" alt="500.0"/> 
-<LandmarkLocation instanceId="{fd270bcd-5bbc-48ce-a6d2-df5fb79fd129}" type="POI" name="Chłopek 2340m" owner="RipPipPip" lat="49.1835393" lon="20.0657533" alt="500.0"/> 
-<LandmarkLocation instanceId="{fb3a996e-e36c-44b2-ae76-026d8bf72537}" type="POI" name="Żabia Czuba 2079m" owner="RipPipPip" lat="49.1985009" lon="20.0862719" alt="500.0"/> 
-<LandmarkLocation instanceId="{9baae8f3-c569-4c93-90ad-e6931357fd65}" type="POI" name="Niżni Żabi Szczyt 2098m" owner="RipPipPip" lat="49.1960159" lon="20.0842199" alt="500.0"/> 
-<LandmarkLocation instanceId="{0db42c27-a01d-48d2-9eba-5feff4161877}" type="POI" name="Marusarzowa Turnia 2075m" owner="RipPipPip" lat="49.1948693" lon="20.0842957" alt="500.0"/> 
-<LandmarkLocation instanceId="{d62b9fb5-2476-4147-9494-09882b2f9534}" type="POI" name="Owcze Turniczki 2040m" owner="RipPipPip" lat="49.1936235" lon="20.0845988" alt="500.0"/> 
-<LandmarkLocation instanceId="{8b85ce3d-d037-45d8-9b7a-02deae6efa6b}" type="POI" name="Apostoły 1953m" owner="RipPipPip" lat="49.1954140" lon="20.0816315" alt="500.0"/> 
-<LandmarkLocation instanceId="{d7ad085f-f9ff-4a77-b74f-2a88fe621814}" type="POI" name="Żabia Lalka 2095m" owner="RipPipPip" lat="49.1883472" lon="20.0844990" alt="500.0"/> 
-<LandmarkLocation instanceId="{5dbda2d3-67ab-4677-9bc3-cd5d98baf9bf}" type="POI" name="Hincova veža 2370m" owner="RipPipPip" lat="49.1809698" lon="20.0688872" alt="500.0"/> 
-<LandmarkLocation instanceId="{951617c8-8d34-4ef2-9609-4c59d5032075}" type="POI" name="Rysy 2499m" owner="RipPipPip" lat="49.1795862" lon="20.0880476" alt="500.0"/> 
-<LandmarkLocation instanceId="{9c3565c1-71f3-4a68-a0c6-cadc5a305dab}" type="POI" name="Mięguszowiecki Szczyt Wielki / Veľký Mengusovský štít 2438m" owner="RipPipPip" lat="49.1870424" lon="20.0601811" alt="500.0"/> 
-<LandmarkLocation instanceId="{1574752c-1dad-41f5-bb43-1b0b3f95a0d1}" type="POI" name="Satan 2422m" owner="RipPipPip" lat="49.1631527" lon="20.0528304" alt="500.0"/> 
-<LandmarkLocation instanceId="{f408cd88-c4dd-4ef4-9081-9176785267c1}" type="POI" name="Kostolík 2262m" owner="RipPipPip" lat="49.1616247" lon="20.1242864" alt="500.0"/> 
-<LandmarkLocation instanceId="{dea557a4-d77e-44d4-a4d2-39818e6ea349}" type="POI" name="Hincova kopka 2000m" owner="RipPipPip" lat="49.1711076" lon="20.0596544" alt="500.0"/> 
-<LandmarkLocation instanceId="{4b965b72-db1e-46d8-a809-35c0277566c4}" type="POI" name="Predná Pustá veža" owner="RipPipPip" lat="49.1814930" lon="20.1028776" alt="500.0"/> 
-<LandmarkLocation instanceId="{fa07f87e-d299-4528-bfa7-5ac4219e1171}" type="POI" name="Pustá stráž 1875m" owner="RipPipPip" lat="49.1808899" lon="20.1088107" alt="500.0"/> 
-<LandmarkLocation instanceId="{01d53f10-5f64-493e-86e0-c3b75d321509}" type="POI" name="Veľká Kôpka 2354m" owner="RipPipPip" lat="49.1701520" lon="20.0834888" alt="500.0"/> 
-<LandmarkLocation instanceId="{c33983ee-fb7b-42ee-991a-74d47062cfc5}" type="POI" name="Dračie pazúry" owner="RipPipPip" lat="49.1701305" lon="20.0835389" alt="500.0"/> 
-<LandmarkLocation instanceId="{9b2005ff-8584-46ba-9d29-a228f6398173}" type="POI" name="Kačací štít 2401m" owner="RipPipPip" lat="49.1659777" lon="20.1202341" alt="500.0"/> 
-<LandmarkLocation instanceId="{a51fae59-3937-4710-9866-fd3a3fdeb21d}" type="POI" name="Kačací mních" owner="RipPipPip" lat="49.1711406" lon="20.1161063" alt="500.0"/> 
-<LandmarkLocation instanceId="{4b7bf764-eef8-4fb3-9325-6deac1d2ba05}" type="POI" name="Kozia stráž" owner="RipPipPip" lat="49.1666161" lon="20.1079738" alt="500.0"/> 
-<LandmarkLocation instanceId="{3ff3d869-bf44-4723-939f-c65ba7d87070}" type="POI" name="Čubrinka 2310m" owner="RipPipPip" lat="49.1864332" lon="20.0532745" alt="500.0"/> 
-<LandmarkLocation instanceId="{0cb5e0fd-6809-4668-b1cc-523c9a55c91e}" type="POI" name="Tylkova veža" owner="RipPipPip" lat="49.1773757" lon="20.0777355" alt="500.0"/> 
-<LandmarkLocation instanceId="{d6f4fd10-99a8-422d-a9a9-70d14713bd51}" type="POI" name="Veža nad kolibou" owner="RipPipPip" lat="49.1899244" lon="20.1281312" alt="500.0"/> 
-<LandmarkLocation instanceId="{138b329b-265c-488a-9dde-e87ea0fa70af}" type="POI" name="Drúk 2395m" owner="RipPipPip" lat="49.1638650" lon="20.1145696" alt="500.0"/> 
-<LandmarkLocation instanceId="{114bc5dd-b807-41ce-a8c2-9c5aec3ea98a}" type="POI" name="Bielovodská veža" owner="RipPipPip" lat="49.1929336" lon="20.1100813" alt="500.0"/> 
-<LandmarkLocation instanceId="{bc36216a-9c56-4217-85e7-2be5d06200f7}" type="POI" name="veža nad Poľanou 1804m" owner="RipPipPip" lat="49.1894056" lon="20.1304615" alt="500.0"/> 
-<LandmarkLocation instanceId="{efd97406-01e8-48eb-90ba-a1b155133eb7}" type="POI" name="Żabi Kapucyn 2138m" owner="RipPipPip" lat="49.1888897" lon="20.0853802" alt="500.0"/> 
-<LandmarkLocation instanceId="{fe5bd1a6-fd7b-414d-8254-ea46af3c9fea}" type="POI" name="Dračí štít 2523m" owner="RipPipPip" lat="49.1709904" lon="20.0962854" alt="500.0"/> 
-<LandmarkLocation instanceId="{0c97968e-ed63-418a-ba8c-88f1d6eee3dc}" type="POI" name="Ošarpance 2348m" owner="RipPipPip" lat="49.1676923" lon="20.0994534" alt="500.0"/> 
-<LandmarkLocation instanceId="{0a56f266-ad0b-44e5-bf91-1ab6487d1b63}" type="POI" name="Čertova veža" owner="RipPipPip" lat="49.1614965" lon="20.1392537" alt="500.0"/> 
+<LandmarkLocation instanceId="{d158eaf6-9645-47ac-bcf1-b0cc9a7687b5}" type="POI" name="Gerlachovský štít 2655m" owner="RipPipPip" lat="49.1640357" lon="20.1340340" alt="500.0"/> 
+<LandmarkLocation instanceId="{879d5e8d-9a2b-4116-a0e9-71ad883dce34}" type="POI" name="Cubryna / Čubrina 2376m" owner="RipPipPip" lat="49.1878013" lon="20.0536809" alt="500.0"/> 
+<LandmarkLocation instanceId="{bc1d504c-2ceb-4f78-ab23-1564802a6185}" type="POI" name="Satan (N) 2421m" owner="RipPipPip" lat="49.1636370" lon="20.0522186" alt="500.0"/> 
+<LandmarkLocation instanceId="{b6194513-caca-49c1-b13d-74779ef1e22b}" type="POI" name="Litvorový štít 2423m" owner="RipPipPip" lat="49.1710813" lon="20.1299323" alt="500.0"/> 
+<LandmarkLocation instanceId="{19bdd9f6-b4f6-4b57-8747-1c7d862b1adb}" type="POI" name="Vysoká 2547m" owner="RipPipPip" lat="49.1730750" lon="20.0935591" alt="500.0"/> 
+<LandmarkLocation instanceId="{96e55be1-2f37-4072-a27a-10e0ffdde421}" type="POI" name="Zadný Gerlach 2616m" owner="RipPipPip" lat="49.1662301" lon="20.1314792" alt="500.0"/> 
+<LandmarkLocation instanceId="{c1116438-3ccb-41df-9fcd-e1c4c8336ea4}" type="POI" name="Mengusovský Volovec 2227m" owner="RipPipPip" lat="49.1759435" lon="20.0675358" alt="500.0"/> 
+<LandmarkLocation instanceId="{0ae5080b-07a1-432d-a521-72fbe80e5a97}" type="POI" name="Kôpky 2354m" owner="RipPipPip" lat="49.1677780" lon="20.0838890" alt="500.0"/> 
+<LandmarkLocation instanceId="{c1c83433-d0b8-48da-b5a7-ad9e069e98f2}" type="POI" name="Gánok 2462m" owner="RipPipPip" lat="49.1743120" lon="20.1038444" alt="500.0"/> 
+<LandmarkLocation instanceId="{b3f8cf30-6831-4fff-83a0-e1b1c465ad1d}" type="POI" name="Mięguszowiecki Szczyt Czarny / Východný Mengusovský štít 2410m" owner="RipPipPip" lat="49.1830560" lon="20.0675000" alt="500.0"/> 
+<LandmarkLocation instanceId="{dd221806-0dae-48f8-b5d9-1d50aa172235}" type="POI" name="Volia veža / Wołowa Turnia 2373m" owner="RipPipPip" lat="49.1789015" lon="20.0751157" alt="500.0"/> 
+<LandmarkLocation instanceId="{60d19cd6-29e1-45fa-89e2-26321981f372}" type="POI" name="Veľký Žabí štít / Żabi Szczyt Wyżni 2263m" owner="RipPipPip" lat="49.1878465" lon="20.0892494" alt="500.0"/> 
+<LandmarkLocation instanceId="{d60e0df5-6c7f-4d70-9266-6c316f4c0af7}" type="POI" name="Mięguszowiecki Szczyt Pośredni / Prostredný Mengusovský štít 2393m" owner="RipPipPip" lat="49.1845389" lon="20.0627490" alt="500.0"/> 
+<LandmarkLocation instanceId="{05384dfa-fc7c-4344-a508-a55a427aa77b}" type="POI" name="Malé Rysy / Niżnie Rysy 2430m" owner="RipPipPip" lat="49.1833905" lon="20.0880078" alt="500.0"/> 
+<LandmarkLocation instanceId="{cedd3b00-f068-41b2-bd3e-f0cdeb42a71d}" type="POI" name="Kotlový štít 2601m" owner="RipPipPip" lat="49.1619981" lon="20.1363213" alt="500.0"/> 
+<LandmarkLocation instanceId="{883f2e78-9cea-415b-8a0f-d2be094f83e7}" type="POI" name="Končistá 2537.5m" owner="RipPipPip" lat="49.1573111" lon="20.1140729" alt="500.0"/> 
+<LandmarkLocation instanceId="{b3d13d75-17fc-4deb-aac4-5a2253d979af}" type="POI" name="Popradský Ľadový štít 2396m" owner="RipPipPip" lat="49.1659124" lon="20.1157920" alt="500.0"/> 
+<LandmarkLocation instanceId="{caba9b82-309b-4151-9b4a-e58b93bc4461}" type="POI" name="Hrubá veža 2086m" owner="RipPipPip" lat="49.1813259" lon="20.1301403" alt="500.0"/> 
+<LandmarkLocation instanceId="{72ee193c-6dff-4b7e-96ab-e4b1d790a1c0}" type="POI" name="Batizovský štít 2448m" owner="RipPipPip" lat="49.1653667" lon="20.1241414" alt="500.0"/> 
+<LandmarkLocation instanceId="{d3c5fd5e-1407-4ceb-99e4-b59c0cb11273}" type="POI" name="Velický štít 2319m" owner="RipPipPip" lat="49.1739411" lon="20.1345904" alt="500.0"/> 
+<LandmarkLocation instanceId="{45645f78-6684-4922-a961-dc973198cf9a}" type="POI" name="Zlobivá 2426m" owner="RipPipPip" lat="49.1701370" lon="20.1077554" alt="500.0"/> 
+<LandmarkLocation instanceId="{84a141ad-c2ae-4b18-9f85-28813997e2ce}" type="POI" name="Snežná kopa 2327m" owner="RipPipPip" lat="49.1684975" lon="20.1117713" alt="500.0"/> 
+<LandmarkLocation instanceId="{6fa2c2d4-fc95-466c-8ea9-5e913807d70e}" type="POI" name="Malá Bašta 2288m" owner="RipPipPip" lat="49.1557957" lon="20.0575666" alt="500.0"/> 
+<LandmarkLocation instanceId="{f84fbe6e-5241-4f5d-8789-4a8dad79f688}" type="POI" name="Predná Bašta 2374m" owner="RipPipPip" lat="49.1603668" lon="20.0550023" alt="500.0"/> 
+<LandmarkLocation instanceId="{908bc6c1-d233-41ad-a823-cfc75ccbf3c0}" type="POI" name="Veľká Capia veža 2364m" owner="RipPipPip" lat="49.1668186" lon="20.0508431" alt="500.0"/> 
+<LandmarkLocation instanceId="{83299196-9a24-48e3-8651-48b8708d6ee1}" type="POI" name="Tupá 2284m" owner="RipPipPip" lat="49.1535074" lon="20.1017938" alt="500.0"/> 
+<LandmarkLocation instanceId="{855d01ac-148e-4299-83d5-e0fa0221946f}" type="POI" name="Veľká dračia hlava 2254m" owner="RipPipPip" lat="49.1680901" lon="20.0937140" alt="500.0"/> 
+<LandmarkLocation instanceId="{375d6c71-6e42-4f01-9fb4-10c2985b3198}" type="POI" name="Ťažký štít 2500m" owner="RipPipPip" lat="49.1737045" lon="20.0915347" alt="500.0"/> 
+<LandmarkLocation instanceId="{400fdb29-0217-487f-84dc-b654e446b95c}" type="POI" name="Zlomisková veža 2147m" owner="RipPipPip" lat="49.1651568" lon="20.0942520" alt="500.0"/> 
+<LandmarkLocation instanceId="{428cbe54-1eee-495e-8250-bff18090a1c7}" type="POI" name="Malá Končistá 2466m" owner="RipPipPip" lat="49.1628881" lon="20.1145238" alt="500.0"/> 
+<LandmarkLocation instanceId="{facfaca0-50ca-4364-b55d-a0a7028415d4}" type="POI" name="Rumanov štít 2428m" owner="RipPipPip" lat="49.1728175" lon="20.1056479" alt="500.0"/> 
+<LandmarkLocation instanceId="{0a834adc-9f3f-4cd3-ab2f-6753ae32c6f1}" type="POI" name="Veža železnej brány" owner="RipPipPip" lat="49.1705887" lon="20.1143906" alt="500.0"/> 
+<LandmarkLocation instanceId="{42b215d4-f6e2-4eef-8d78-5e0a62d61352}" type="POI" name="Mnich 2067m" owner="RipPipPip" lat="49.1926757" lon="20.0549059" alt="500.0"/> 
+<LandmarkLocation instanceId="{c5552675-641f-4dc2-98f5-2935803666e8}" type="POI" name="Ťažká veža 2254m" owner="RipPipPip" lat="49.1832970" lon="20.0939127" alt="500.0"/> 
+<LandmarkLocation instanceId="{4ecd7dce-294e-4700-8b78-7b34fca6345c}" type="POI" name="Kačacia veža 2197m" owner="RipPipPip" lat="49.1773280" lon="20.1051543" alt="500.0"/> 
+<LandmarkLocation instanceId="{cc40be48-60fb-4a1d-b97a-36e11284ce3f}" type="POI" name="Malý Mlynár 1973m" owner="RipPipPip" lat="49.1991126" lon="20.1018938" alt="500.0"/> 
+<LandmarkLocation instanceId="{83358fb4-d51d-401c-9dc0-bf9b4c625bb3}" type="POI" name="Dromedárov chrbát 2227m" owner="RipPipPip" lat="49.1572696" lon="20.1354169" alt="500.0"/> 
+<LandmarkLocation instanceId="{c42ecc5b-473a-4177-a7d3-2b46068de016}" type="POI" name="Lavínový štít 2606m" owner="RipPipPip" lat="49.1685033" lon="20.1306475" alt="500.0"/> 
+<LandmarkLocation instanceId="{1ef7a5c6-bc38-46ba-a417-fa9eca363ab1}" type="POI" name="štít Nad Zeleným 2130m" owner="RipPipPip" lat="49.2037994" lon="20.1357662" alt="500.0"/> 
+<LandmarkLocation instanceId="{d9c5e007-f846-400c-a77e-57d13b1c6dde}" type="POI" name="Rysy 2503m" owner="RipPipPip" lat="49.1793175" lon="20.0884343" alt="500.0"/> 
+<LandmarkLocation instanceId="{f4d23d32-530e-4265-8947-be8d3a1ac260}" type="POI" name="Mlynár 2170m" owner="RipPipPip" lat="49.1934157" lon="20.1026067" alt="500.0"/> 
+<LandmarkLocation instanceId="{e9bfa027-c9f1-4437-bf90-7557759e9f24}" type="POI" name="Štôlska veža 2140m" owner="RipPipPip" lat="49.1611124" lon="20.1140589" alt="500.0"/> 
+<LandmarkLocation instanceId="{df8dbc64-98f0-4556-a59f-9c0383f1f3a3}" type="POI" name="Gerlachovská veža 2642m" owner="RipPipPip" lat="49.1631541" lon="20.1330908" alt="500.0"/> 
+<LandmarkLocation instanceId="{7a80ba68-6563-4c68-b694-505390d84ce0}" type="POI" name="Mnichowa Kopa 2090m" owner="RipPipPip" lat="49.1906428" lon="20.0522976" alt="500.0"/> 
+<LandmarkLocation instanceId="{e5973be9-261a-49ea-b93a-c572e0cb7f98}" type="POI" name="Spadowa Kopa 2252m" owner="RipPipPip" lat="49.1855554" lon="20.0872398" alt="500.0"/> 
+<LandmarkLocation instanceId="{ece65f13-d18d-4026-a498-f7976e573986}" type="POI" name="Żabi Mnich 2146m" owner="RipPipPip" lat="49.1891326" lon="20.0857161" alt="500.0"/> 
+<LandmarkLocation instanceId="{4556b2dd-cf22-4149-9272-42a7fa032ce5}" type="POI" name="Tomkowa Igła 2106m" owner="RipPipPip" lat="49.1840996" lon="20.0835777" alt="500.0"/> 
+<LandmarkLocation instanceId="{52bc6050-07cf-43ed-9ff4-104907f1d2b2}" type="POI" name="Żabi Koń 2291m" owner="RipPipPip" lat="49.1786869" lon="20.0796578" alt="500.0"/> 
+<LandmarkLocation instanceId="{3e256c71-a351-4471-8590-cccaf36bc7f0}" type="POI" name="Żabia Turnia Mięguszowiecka 2336m" owner="RipPipPip" lat="49.1786039" lon="20.0771327" alt="500.0"/> 
+<LandmarkLocation instanceId="{64fb0029-8c1a-43d6-8f70-037b74269e4b}" type="POI" name="Bula pod Rysami 2054m" owner="RipPipPip" lat="49.1819195" lon="20.0807907" alt="500.0"/> 
+<LandmarkLocation instanceId="{8a177ddb-0d9a-4168-b3fc-8fe93a4b6f34}" type="POI" name="Kazalnica Mięguszowiecka 2159m" owner="RipPipPip" lat="49.1851463" lon="20.0702796" alt="500.0"/> 
+<LandmarkLocation instanceId="{4a0b0919-54d1-4491-b403-8aa7e3791f19}" type="POI" name="Rogata Turniczka 2365m" owner="RipPipPip" lat="49.1789015" lon="20.0751157" alt="500.0"/> 
+<LandmarkLocation instanceId="{a53bb5b6-6459-4f7b-89d0-e1384dac0f51}" type="POI" name="Hińczowa Turnia 2377m" owner="RipPipPip" lat="49.1809173" lon="20.0689511" alt="500.0"/> 
+<LandmarkLocation instanceId="{a4b432de-d7d8-451e-8a84-0afb09539a8e}" type="POI" name="Hińczowa Turniczka 2360m" owner="RipPipPip" lat="49.1807513" lon="20.0690814" alt="500.0"/> 
+<LandmarkLocation instanceId="{e796369c-c740-4456-af45-58bbfab83a3f}" type="POI" name="Chłopek 2340m" owner="RipPipPip" lat="49.1835393" lon="20.0657533" alt="500.0"/> 
+<LandmarkLocation instanceId="{8234b238-b110-4030-8d6c-0e7557cebad3}" type="POI" name="Żabia Czuba 2079m" owner="RipPipPip" lat="49.1985009" lon="20.0862719" alt="500.0"/> 
+<LandmarkLocation instanceId="{3d9b2be2-bbf1-49c3-8147-3dc70757a133}" type="POI" name="Niżni Żabi Szczyt 2098m" owner="RipPipPip" lat="49.1960159" lon="20.0842199" alt="500.0"/> 
+<LandmarkLocation instanceId="{874158e7-07c4-4273-ad6d-50f7d41e7907}" type="POI" name="Marusarzowa Turnia 2075m" owner="RipPipPip" lat="49.1948693" lon="20.0842957" alt="500.0"/> 
+<LandmarkLocation instanceId="{f20b264b-24f6-4cd1-9a0f-c033e21c7d33}" type="POI" name="Owcze Turniczki 2040m" owner="RipPipPip" lat="49.1936235" lon="20.0845988" alt="500.0"/> 
+<LandmarkLocation instanceId="{f290ade9-0331-4de9-92be-764d149b07c1}" type="POI" name="Apostoły 1953m" owner="RipPipPip" lat="49.1954140" lon="20.0816315" alt="500.0"/> 
+<LandmarkLocation instanceId="{2b36c4aa-12ea-4040-9481-4d1b5263cd9b}" type="POI" name="Żabia Lalka 2095m" owner="RipPipPip" lat="49.1883472" lon="20.0844990" alt="500.0"/> 
+<LandmarkLocation instanceId="{3889fc09-bbfc-4645-aec8-6d3273127466}" type="POI" name="Hincova veža 2370m" owner="RipPipPip" lat="49.1809698" lon="20.0688872" alt="500.0"/> 
+<LandmarkLocation instanceId="{9ce6709b-eb4d-4fc6-80c5-7b88e563602e}" type="POI" name="Rysy 2499m" owner="RipPipPip" lat="49.1795862" lon="20.0880476" alt="500.0"/> 
+<LandmarkLocation instanceId="{5e1311a2-ac78-4397-8b96-e443cc475e89}" type="POI" name="Mięguszowiecki Szczyt Wielki / Veľký Mengusovský štít 2438m" owner="RipPipPip" lat="49.1870424" lon="20.0601811" alt="500.0"/> 
+<LandmarkLocation instanceId="{9458f22d-b45c-4448-af5e-140be66e1ee6}" type="POI" name="Satan 2422m" owner="RipPipPip" lat="49.1631527" lon="20.0528304" alt="500.0"/> 
+<LandmarkLocation instanceId="{b154ea83-1229-4804-8636-85b15218c714}" type="POI" name="Kostolík 2262m" owner="RipPipPip" lat="49.1616247" lon="20.1242864" alt="500.0"/> 
+<LandmarkLocation instanceId="{55835af4-fcbc-469a-b941-306e434b982a}" type="POI" name="Hincova kopka 2000m" owner="RipPipPip" lat="49.1711076" lon="20.0596544" alt="500.0"/> 
+<LandmarkLocation instanceId="{6cea199c-79a8-4e34-bc75-9ebf84777c1e}" type="POI" name="Predná Pustá veža" owner="RipPipPip" lat="49.1814930" lon="20.1028776" alt="500.0"/> 
+<LandmarkLocation instanceId="{d45b0adf-6782-407c-b1ea-507235ba8511}" type="POI" name="Pustá stráž 1875m" owner="RipPipPip" lat="49.1808899" lon="20.1088107" alt="500.0"/> 
+<LandmarkLocation instanceId="{cc5348e9-4ca4-4817-855c-3553e130af92}" type="POI" name="Veľká Kôpka 2354m" owner="RipPipPip" lat="49.1701520" lon="20.0834888" alt="500.0"/> 
+<LandmarkLocation instanceId="{18f6ec4b-a5eb-4f63-abd4-6ea3259b417e}" type="POI" name="Dračie pazúry" owner="RipPipPip" lat="49.1701305" lon="20.0835389" alt="500.0"/> 
+<LandmarkLocation instanceId="{fa6cc1ac-97a2-4402-951f-a3e2af597ba6}" type="POI" name="Kačací štít 2401m" owner="RipPipPip" lat="49.1659777" lon="20.1202341" alt="500.0"/> 
+<LandmarkLocation instanceId="{929b4ae6-4536-435b-840f-5acc20040c1f}" type="POI" name="Kačací mních" owner="RipPipPip" lat="49.1711406" lon="20.1161063" alt="500.0"/> 
+<LandmarkLocation instanceId="{d1f56ff7-ca82-497c-b761-b3c090a71c77}" type="POI" name="Kozia stráž" owner="RipPipPip" lat="49.1666161" lon="20.1079738" alt="500.0"/> 
+<LandmarkLocation instanceId="{5155862c-b32a-4a41-85a5-a4fdb181f4a2}" type="POI" name="Čubrinka 2310m" owner="RipPipPip" lat="49.1864332" lon="20.0532745" alt="500.0"/> 
+<LandmarkLocation instanceId="{e848dedd-5df7-4927-9e3f-973d06c62dc7}" type="POI" name="Tylkova veža" owner="RipPipPip" lat="49.1773757" lon="20.0777355" alt="500.0"/> 
+<LandmarkLocation instanceId="{42bfd740-2447-4312-95f8-550c90a60204}" type="POI" name="Veža nad kolibou" owner="RipPipPip" lat="49.1899244" lon="20.1281312" alt="500.0"/> 
+<LandmarkLocation instanceId="{da966023-e4f9-4dbd-856c-7dce3573f780}" type="POI" name="Drúk 2395m" owner="RipPipPip" lat="49.1638650" lon="20.1145696" alt="500.0"/> 
+<LandmarkLocation instanceId="{ac5cf662-113c-474b-9f9d-82ce25cdcd4a}" type="POI" name="Bielovodská veža" owner="RipPipPip" lat="49.1929336" lon="20.1100813" alt="500.0"/> 
+<LandmarkLocation instanceId="{318d73c1-e4b4-41fd-869f-3aceb0621ed3}" type="POI" name="veža nad Poľanou 1804m" owner="RipPipPip" lat="49.1894056" lon="20.1304615" alt="500.0"/> 
+<LandmarkLocation instanceId="{b6be21ab-e3fc-4c25-801a-381f42c7fb03}" type="POI" name="Żabi Kapucyn 2138m" owner="RipPipPip" lat="49.1888897" lon="20.0853802" alt="500.0"/> 
+<LandmarkLocation instanceId="{df6f7df5-994e-48bf-bfb6-59d9645c58cf}" type="POI" name="Dračí štít 2523m" owner="RipPipPip" lat="49.1709904" lon="20.0962854" alt="500.0"/> 
+<LandmarkLocation instanceId="{8d1c0ddc-e3ff-4046-9771-f80ad4046197}" type="POI" name="Ošarpance 2348m" owner="RipPipPip" lat="49.1676923" lon="20.0994534" alt="500.0"/> 
+<LandmarkLocation instanceId="{92d7a697-f110-4b16-90e4-e4448bdc82bc}" type="POI" name="Čertova veža" owner="RipPipPip" lat="49.1614965" lon="20.1392537" alt="500.0"/> 
