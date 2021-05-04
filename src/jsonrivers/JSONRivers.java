@@ -44,7 +44,7 @@ public class JSONRivers {
         
         JSAPResult config = jsap.parse(args);  /* Encapsulates the results of JSAP's parse() methods. */
         
-        chooseWhatToDo(config);
+        chooseWhatToDo(config);               /*Based on the command line input, choose which function to run*/
     }
     
     /**********************************************************************************************************************************************/
@@ -167,7 +167,7 @@ public class JSONRivers {
     
     /**********************************************************************************************************************************************/
     
-    private static void chooseWhatToDo(JSAPResult config) throws IOException, FileNotFoundException, CsvException {
+    private static void chooseWhatToDo(JSAPResult config) throws IOException, FileNotFoundException, CsvException {     /*Based on the command line input, choose which function to run*/
         
         if(!config.success()){
             System.out.println("\nThere was an error found within command line arguments, try again\n");        /*Error printed when a wrong command line argument exists */
@@ -482,7 +482,7 @@ public class JSONRivers {
         
         try (Scanner sc = new Scanner(csvstring).useDelimiter("\\s*\\|\\s*"))
         {
-            sc.next();
+            sc.next();                                                              /* Check if CSV file contains elevation using Scanner*/
             sc.next();
             sc.next();
             sc.next();
@@ -591,13 +591,7 @@ public class JSONRivers {
                             fname = nameEn;
                         } else {fname = name;}
                         
-                        if (fname != null) {
-                            fname = fname.substring(0, 1).toUpperCase() + fname.substring(1);
-                            fname = fname.replace("\"","'");
-                            fname = fname.replace("„","'");
-                        }
-                        
-                        if (fname == null || fname.replaceAll("\\s","").equals("")) fname = "(empty)";
+                        fname = checkFname(fname);
                         
                         String clean = Normalizer.normalize(fname, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
                         boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
@@ -674,7 +668,7 @@ public class JSONRivers {
         //System.out.println(FINALSTRING);
         
         try {
-            File myObj = new File(outputfile);
+            File myObj = new File(outputfile);                              /* Writing the content of FINALSTRING into the output file */
             if (myObj.createNewFile()) {
               System.out.println("File created: " + myObj.getName());
          } else {
@@ -959,14 +953,7 @@ public class JSONRivers {
                     } else
                     {fname = y.getName();}
                     
-                    if (fname != null) {
-                        fname = fname.substring(0, 1).toUpperCase() + fname.substring(1);
-                        fname = fname.replace("\"","'");
-                        fname = fname.replace("„","'");
-                        fname = fname.replace("&","and");
-                    }
-                    
-                    if (fname == null) fname = "(empty)";               /* If neither name exists, use empty signifier */
+                    fname = checkFname(fname);                      /* Making sure that fname doesn't contain unnecessary characters and isn't null */
                     
                     String clean = Normalizer.normalize(fname, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
                     boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
@@ -1025,7 +1012,7 @@ public class JSONRivers {
     
     /**********************************************************************************************************************************************/
     
-    static String readFile(String path, Charset encoding)           /*Simple filereader with charset encoding*/
+    static String readFile(String path, Charset encoding)           /*Simple filereader with charset encoding, need UTF-8*/
     throws IOException
     {
         byte[] encoded = Files.readAllBytes(Paths.get(path));
@@ -1060,18 +1047,18 @@ public class JSONRivers {
     
     /**********************************************************************************************************************************************/
     
-    static String checkTags(String type, JSONObject tags){
+    static String checkTags(String type, JSONObject tags){            /* Checking tags for elements, mostly in an order that makes sense, but might need slight fixes later if necessary */
 
                     if(tags.has("waterway")){
                         type = tags.getString("waterway");
                     }
-                    else if (tags.has("icao")){
+                    else if (tags.has("icao")){                         /*icao (International Civil Aviation Organization) refers to special code assigned to airports*/
                         type = tags.getString("icao");
                     }
                     else if(tags.has("water")){
                         type = tags.getString("water");
                     }
-                    else if (tags.has("building") && !tags.getString("building").equals("yes")){
+                    else if (tags.has("building") && !tags.getString("building").equals("yes")){                /* If tag says "yes", there's usually a better tag */
                         type = tags.getString("building");
                     }
                     else if(tags.has("military") && !tags.getString("military").equals("yes")){
@@ -1102,13 +1089,13 @@ public class JSONRivers {
                         type = tags.getString("landuse");
                     }
                     else if (tags.has("railway")){
-                        type = "Railway_station";
+                        type = "Railway_station";                                                   /* If railway elements that aren't stations are found, should modify */
                     }
                     else {
                         type = null;    
                     }
                     
-                    if (type != null && type.equals("intermittent")) type = "Natural";
+                    if (type != null && type.equals("intermittent")) type = "Natural";              /* Special cases */
                     if (type != null && type.equals("yes")) type = null;
         
         return type;
@@ -1116,7 +1103,23 @@ public class JSONRivers {
     
     /**********************************************************************************************************************************************/
     
-    static Double modifyAlt(Double Alt, String type) {
+    static String checkFname(String fname){                 /* Making sure that fname doesn't contain unnecessary characters and isn't null */
+        
+        if (fname != null) {                                                
+            fname = fname.substring(0, 1).toUpperCase() + fname.substring(1);   /* Capitalize first letter of the name */
+            fname = fname.replace("\"","'");            /* Characters which might cause problems in the final XML: ", „, & */
+            fname = fname.replace("„","'");                     
+            fname = fname.replace("&","and");
+        }
+                        
+        if (fname == null || fname.replaceAll("\\s","").equals("")) fname = "(empty)";     /* When name is null use (empty) signifier */
+        
+        return fname;
+    }
+    
+    /**********************************************************************************************************************************************/
+    
+    static Double modifyAlt(Double Alt, String type) {                /* Setting different altitudes for Villages, Cities and Towns */
         
         if (type != null && type.equals("village")) Alt += 100;
         if (type != null && type.equals("city")) Alt += 200;
@@ -1165,7 +1168,7 @@ public class JSONRivers {
         System.out.println("\nExample:\n");
         System.out.println("java -jar \"POIOSM2FS.jar\" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re");
         System.out.println("java -jar \"POIOSM2FS.jar\" -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki\n");
-        System.out.println("java -jar POIOSM2FS.jar --ja all.json\n");
+        System.out.println("java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10\n");
     }
     
     /**********************************************************************************************************************************************/
