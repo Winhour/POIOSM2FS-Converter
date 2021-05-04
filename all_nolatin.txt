@@ -1,0 +1,336 @@
+<LandmarkLocation instanceId="{e8803ace-0768-4e80-a244-fd3e034c8126}" type="POI" name="Peak: Dikaios 846 m" owner="RipPipPip" lat="36.8343565" lon="27.2070099" alt="500.0"/> 
+<LandmarkLocation instanceId="{260738e8-9711-4846-b33c-7b00190af4c3}" type="POI" name="City: Kos" owner="RipPipPip" lat="36.8940286" lon="27.2866636" alt="500.0"/> 
+<LandmarkLocation instanceId="{33384e56-0edd-4fda-a820-ff6732eb2f31}" type="POI" name="Suburb: Akyarlar" owner="RipPipPip" lat="36.9682263" lon="27.2910264" alt="500.0"/> 
+<LandmarkLocation instanceId="{7e0104f3-a52f-4dcb-a3e8-44bf8b041bea}" type="POI" name="Town: Bodrum" owner="RipPipPip" lat="37.0395208" lon="27.4333947" alt="500.0"/> 
+<LandmarkLocation instanceId="{484b4363-4cd5-4bad-bf2b-29df62500903}" type="POI" name="Suburb: İslamhaneleri" owner="RipPipPip" lat="37.0298486" lon="27.2963995" alt="500.0"/> 
+<LandmarkLocation instanceId="{95a91494-1056-48dd-ac81-d046118487a6}" type="POI" name="Suburb: Gürece" owner="RipPipPip" lat="37.0390573" lon="27.3213427" alt="500.0"/> 
+<LandmarkLocation instanceId="{25aa601c-9570-4828-9f75-6ccd1dec7b50}" type="POI" name="Suburb: Yahşi" owner="RipPipPip" lat="37.0429292" lon="27.3309933" alt="500.0"/> 
+<LandmarkLocation instanceId="{f9d4fa22-55de-46f8-8c85-508616cdc976}" type="POI" name="Ruins: Myndos" owner="RipPipPip" lat="37.0531492" lon="27.2335586" alt="500.0"/> 
+<LandmarkLocation instanceId="{741315af-2c5d-4018-842b-aa6176e2a9c9}" type="POI" name="Suburb: Türkbükü" owner="RipPipPip" lat="37.1274925" lon="27.3775897" alt="500.0"/> 
+<LandmarkLocation instanceId="{e465df97-d088-499a-a78b-fc214f61679d}" type="POI" name="Village: Kardamena" owner="RipPipPip" lat="36.7823944" lon="27.1432793" alt="500.0"/> 
+<LandmarkLocation instanceId="{53f332a2-f701-4a01-b6e0-53de8091e19a}" type="POI" name="Town: Antimachia" owner="RipPipPip" lat="36.8112916" lon="27.0974999" alt="500.0"/> 
+<LandmarkLocation instanceId="{8f8c3490-dce9-4603-91ac-5487a767190d}" type="POI" name="Town: Pyli" owner="RipPipPip" lat="36.8460617" lon="27.1603596" alt="500.0"/> 
+<LandmarkLocation instanceId="{0c904b65-ee90-4605-8033-0845fafc9c80}" type="POI" name="Village: Lambi" owner="RipPipPip" lat="36.9092273" lon="27.2797512" alt="500.0"/> 
+<LandmarkLocation instanceId="{27bcccdc-9ab5-4e24-a6f9-3eae240523f4}" type="POI" name="Village: Tigaki" owner="RipPipPip" lat="36.8885738" lon="27.1831601" alt="500.0"/> 
+<LandmarkLocation instanceId="{2d011ae1-1b79-4fc2-b8be-337368602078}" type="POI" name="Village: Mastichari" owner="RipPipPip" lat="36.8493151" lon="27.076418" alt="500.0"/> 
+<LandmarkLocation instanceId="{56c9fc72-8e0d-4a35-88ae-9f4e3bc3d581}" type="POI" name="Village: Marmari" owner="RipPipPip" lat="36.8749748" lon="27.1475591" alt="500.0"/> 
+<LandmarkLocation instanceId="{0972c8e1-fdf7-4ec5-aa3d-333ff5297f63}" type="POI" name="Town: Kefalos" owner="RipPipPip" lat="36.7450362" lon="26.959407" alt="500.0"/> 
+<LandmarkLocation instanceId="{5c754a97-c9d2-4f3e-a942-484c8feee892}" type="POI" name="Ruins: Temple of Mars" owner="RipPipPip" lat="37.0400289" lon="27.4273766" alt="500.0"/> 
+<LandmarkLocation instanceId="{b88198d3-804e-4620-9bbf-e537d1055ae0}" type="POI" name="Town: Agia Marina" owner="RipPipPip" lat="37.1565812" lon="26.8517541" alt="500.0"/> 
+<LandmarkLocation instanceId="{9999fb08-5a04-4516-b93c-1f1b59b76373}" type="POI" name="Village: Lakki" owner="RipPipPip" lat="37.13318" lon="26.8532146" alt="500.0"/> 
+<LandmarkLocation instanceId="{6c6e4407-5647-4a02-80d7-b770704afb99}" type="POI" name="Village: Myrties" owner="RipPipPip" lat="36.9913489" lon="26.9330764" alt="500.0"/> 
+<LandmarkLocation instanceId="{0ea763b4-f108-49e5-bad2-5931cbd686b2}" type="POI" name="Village: Masouri" owner="RipPipPip" lat="36.9957856" lon="26.9360564" alt="500.0"/> 
+<LandmarkLocation instanceId="{d71a4231-b415-4313-9cbc-3fe4454e2c8d}" type="POI" name="Village: Arginonta" owner="RipPipPip" lat="37.015072" lon="26.9692137" alt="500.0"/> 
+<LandmarkLocation instanceId="{6e44a55f-f729-4b3a-a2dd-7d54480c2bc7}" type="POI" name="Village: Emporios" owner="RipPipPip" lat="37.0470431" lon="26.9295755" alt="500.0"/> 
+<LandmarkLocation instanceId="{cf49e8be-5d78-4740-b5a2-8713c684246e}" type="POI" name="Village: Vromolithos" owner="RipPipPip" lat="37.1455384" lon="26.8572598" alt="500.0"/> 
+<LandmarkLocation instanceId="{dc6396fc-7157-4d74-b182-50ca9841d6fb}" type="POI" name="Temple: Peksimet Kadıkale Cami" owner="RipPipPip" lat="37.032903" lon="27.2499439" alt="500.0"/> 
+<LandmarkLocation instanceId="{6012af21-43bd-4f88-83e4-b6e6b799c19b}" type="POI" name="Attraction: Amphitheatre" owner="RipPipPip" lat="37.0340153" lon="27.2509421" alt="500.0"/> 
+<LandmarkLocation instanceId="{ebe2bd5f-c55d-4fc9-a190-6e20b3bd9227}" type="POI" name="Suburb: Gölköy" owner="RipPipPip" lat="37.1162307" lon="27.3838343" alt="500.0"/> 
+<LandmarkLocation instanceId="{593babe3-5458-4790-99ef-0baa4eafca1b}" type="POI" name="Spring: Empros Thermi" owner="RipPipPip" lat="36.8448332" lon="27.3165645" alt="500.0"/> 
+<LandmarkLocation instanceId="{bcf41724-7443-4310-a6f4-431079533ffd}" type="POI" name="Town: Chorio" owner="RipPipPip" lat="36.9639291" lon="26.9592627" alt="500.0"/> 
+<LandmarkLocation instanceId="{ca74151f-d865-43e2-97f5-e6c4f61ae3ab}" type="POI" name="Village: Argos" owner="RipPipPip" lat="36.9576594" lon="26.9448587" alt="500.0"/> 
+<LandmarkLocation instanceId="{fcdc0dce-87be-424f-9116-d05f00346145}" type="POI" name="Castle: Chrysocheria Castle" owner="RipPipPip" lat="36.9548608" lon="26.9699945" alt="500.0"/> 
+<LandmarkLocation instanceId="{009e54a5-5d78-4776-89bf-ebe49bd08785}" type="POI" name="Village: Vothyni" owner="RipPipPip" lat="36.9410489" lon="26.9675216" alt="500.0"/> 
+<LandmarkLocation instanceId="{5b46aae1-52ad-4cde-8cb5-5c987d5760e1}" type="POI" name="Temple: Agios Petros" owner="RipPipPip" lat="37.0431309" lon="26.9690093" alt="500.0"/> 
+<LandmarkLocation instanceId="{b440e841-cada-4cd4-a124-fa5341c40cb5}" type="POI" name="Temple: st. constantinos 200 m" owner="RipPipPip" lat="37.0117046" lon="26.9126953" alt="500.0"/> 
+<LandmarkLocation instanceId="{d8c116f0-688f-4c4f-82ad-5697a42f907c}" type="POI" name="Ruins: old Byzantine settlement" owner="RipPipPip" lat="37.0123674" lon="26.912061" alt="500.0"/> 
+<LandmarkLocation instanceId="{ca5c1df8-2857-4c4e-8409-318b8966c8b2}" type="POI" name="Ruins: basilika of palaiopanayia" owner="RipPipPip" lat="36.999244" lon="26.9219217" alt="500.0"/> 
+<LandmarkLocation instanceId="{812a46ab-1aee-4a97-bad7-802c3b230b74}" type="POI" name="Ruins: St. Haralambos" owner="RipPipPip" lat="37.0011607" lon="26.9235084" alt="500.0"/> 
+<LandmarkLocation instanceId="{840230bb-5238-4b3e-ab8c-3f4b79d1e121}" type="POI" name="Temple: Agios Mamas" owner="RipPipPip" lat="36.6782245" lon="26.9675559" alt="500.0"/> 
+<LandmarkLocation instanceId="{9f83bccc-a242-404c-86ae-78bbbf0135b5}" type="POI" name="Fountain: Pili Fountain" owner="RipPipPip" lat="36.8420379" lon="27.1554993" alt="500.0"/> 
+<LandmarkLocation instanceId="{c01b8cde-f7f9-4e03-a02b-92998524e691}" type="POI" name="Temple: Agia Marina" owner="RipPipPip" lat="36.7800804" lon="27.0898115" alt="500.0"/> 
+<LandmarkLocation instanceId="{0ec4782c-ef6c-437f-837a-b1e36dc680fe}" type="POI" name="Attraction: Geological Excavation" owner="RipPipPip" lat="36.7842439" lon="27.1296548" alt="500.0"/> 
+<LandmarkLocation instanceId="{e55a88fb-33ad-40f7-9fd6-46c65ad3578b}" type="POI" name="Temple: Agios Georgios" owner="RipPipPip" lat="36.7809875" lon="27.0582716" alt="500.0"/> 
+<LandmarkLocation instanceId="{10a8060d-76f2-4b13-bfce-0f4534078650}" type="POI" name="Temple: Agios Ioannes Monasthery" owner="RipPipPip" lat="36.7030489" lon="26.9468725" alt="500.0"/> 
+<LandmarkLocation instanceId="{30963fb3-6a9a-4717-8e5d-d733ebb9a427}" type="POI" name="Temple: Agios Vasilis" owner="RipPipPip" lat="36.8410301" lon="27.1848259" alt="500.0"/> 
+<LandmarkLocation instanceId="{63fc75f4-ba13-44f8-acc2-b62dd02aefe0}" type="POI" name="Temple: Agios Ioannis" owner="RipPipPip" lat="36.7878026" lon="27.073861" alt="500.0"/> 
+<LandmarkLocation instanceId="{ee881c50-bde1-40c5-a650-f276d0489a7e}" type="POI" name="Temple: Agia Anastasia" owner="RipPipPip" lat="36.7942436" lon="27.0774836" alt="500.0"/> 
+<LandmarkLocation instanceId="{401afe9c-80d2-43af-9287-88435b754548}" type="POI" name="Tree: Plane tree of Hippocrates" owner="RipPipPip" lat="36.8947582" lon="27.2909514" alt="500.0"/> 
+<LandmarkLocation instanceId="{064ccbf4-ee61-4de3-ac53-03ceda5f7115}" type="POI" name="Village: Zia" owner="RipPipPip" lat="36.8458412" lon="27.2046716" alt="500.0"/> 
+<LandmarkLocation instanceId="{f7c909e8-5f66-4768-8073-d11d5c700754}" type="POI" name="Archaeological_site: Grave of Charmylos" owner="RipPipPip" lat="36.8424165" lon="27.1620073" alt="500.0"/> 
+<LandmarkLocation instanceId="{5a0d46aa-b446-427f-b571-4209e325579d}" type="POI" name="Temple: Agios Georgios" owner="RipPipPip" lat="36.8303799" lon="27.1664958" alt="500.0"/> 
+<LandmarkLocation instanceId="{50ace515-c3b8-40e4-b1ba-0f740166b9f6}" type="POI" name="Temple: Ag. Stefanos" owner="RipPipPip" lat="36.8492935" lon="27.1727166" alt="500.0"/> 
+<LandmarkLocation instanceId="{3ffea332-f154-4749-8c2d-2a7d25a044c8}" type="POI" name="Village: Lagoudi" owner="RipPipPip" lat="36.8493237" lon="27.2000769" alt="500.0"/> 
+<LandmarkLocation instanceId="{c88c359b-6b5b-492f-8ffc-521241330813}" type="POI" name="Village: Amaniou" owner="RipPipPip" lat="36.8458984" lon="27.1745119" alt="500.0"/> 
+<LandmarkLocation instanceId="{85a37b17-11eb-4987-b1c5-4667f4ebe4ec}" type="POI" name="Suburb: Ampavris" owner="RipPipPip" lat="36.884872" lon="27.2846402" alt="500.0"/> 
+<LandmarkLocation instanceId="{47c8aabe-7c9b-40ca-a6ba-8d418e01bdc9}" type="POI" name="Temple: Agios Dimitrios" owner="RipPipPip" lat="36.8539416" lon="27.2283096" alt="500.0"/> 
+<LandmarkLocation instanceId="{392530a3-a74b-45c7-83f3-08e43efa471e}" type="POI" name="Town: Zipari" owner="RipPipPip" lat="36.876298" lon="27.2051213" alt="500.0"/> 
+<LandmarkLocation instanceId="{a6141c1a-b207-4039-b49a-e90518165c38}" type="POI" name="Ruins: Early Christian Basilica" owner="RipPipPip" lat="36.8719213" lon="27.2058869" alt="500.0"/> 
+<LandmarkLocation instanceId="{4fbc9a4f-0d78-4b5b-b950-33ddd22e869d}" type="POI" name="Village: Dereköy" owner="RipPipPip" lat="37.0430595" lon="27.2835775" alt="500.0"/> 
+<LandmarkLocation instanceId="{ba8fbb43-cd6c-4da9-a63e-755546a33833}" type="POI" name="Ferry_terminal: Kos - Santorini - Symi" owner="RipPipPip" lat="37.0320986" lon="27.4267305" alt="500.0"/> 
+<LandmarkLocation instanceId="{32b21452-e25e-400b-88f4-ad3330f60153}" type="POI" name="Ruins: Myndos" owner="RipPipPip" lat="37.0586179" lon="27.2288193" alt="500.0"/> 
+<LandmarkLocation instanceId="{4ecfbc56-316f-4ca5-b6d0-372b30719d1c}" type="POI" name="Temple: Panghia Ziniotissa" owner="RipPipPip" lat="36.7294935" lon="26.9725433" alt="500.0"/> 
+<LandmarkLocation instanceId="{bf4d0b65-37dc-40d2-ae5f-5105d23f7424}" type="POI" name="Temple: Dikeos Christos" owner="RipPipPip" lat="36.8344188" lon="27.2073087" alt="500.0"/> 
+<LandmarkLocation instanceId="{e9278ee0-6179-415a-aaa1-1682c7d84aa0}" type="POI" name="Peak: Kefala 662 m" owner="RipPipPip" lat="36.8434033" lon="27.2424959" alt="500.0"/> 
+<LandmarkLocation instanceId="{2d5d2d45-a6ed-4da8-aca6-d1df7533380c}" type="POI" name="Beach: Movenpick Plaj" owner="RipPipPip" lat="37.0227537" lon="27.3718357" alt="500.0"/> 
+<LandmarkLocation instanceId="{399c55c2-8e37-4f62-9ee9-5886055272ae}" type="POI" name="Beach: D Plaji" owner="RipPipPip" lat="37.0224453" lon="27.3714066" alt="500.0"/> 
+<LandmarkLocation instanceId="{6ac94c81-94a1-4354-8d38-e50f297c2b61}" type="POI" name="Temple: Ag Nikolias" owner="RipPipPip" lat="36.8038993" lon="27.0510443" alt="500.0"/> 
+<LandmarkLocation instanceId="{f44e7a2a-60f4-4100-93d1-3250137433bf}" type="POI" name="Temple: Akyarlar Cami" owner="RipPipPip" lat="36.9678504" lon="27.2910125" alt="500.0"/> 
+<LandmarkLocation instanceId="{6d385c6b-feb3-41cb-b890-943ad30221ac}" type="POI" name="Ruins: Pedasa Castle" owner="RipPipPip" lat="37.0663607" lon="27.4222616" alt="500.0"/> 
+<LandmarkLocation instanceId="{548ca7ec-de6d-406d-ae3e-173b344302ec}" type="POI" name="Ruins: Akropolis" owner="RipPipPip" lat="37.0679007" lon="27.4219277" alt="500.0"/> 
+<LandmarkLocation instanceId="{18eb73d9-0562-45d0-99f0-aacd374bf7da}" type="POI" name="Ruins: Tower" owner="RipPipPip" lat="37.0680276" lon="27.4225615" alt="500.0"/> 
+<LandmarkLocation instanceId="{5b89a2ad-cf1a-4d5d-9372-fc8f65907db9}" type="POI" name="Archaeological_site: Pedasa Visitor Center" owner="RipPipPip" lat="37.0662978" lon="27.4225501" alt="500.0"/> 
+<LandmarkLocation instanceId="{e9f09d3c-41b4-49c4-abb1-6e9341e8a974}" type="POI" name="Ruins: Pedasa Castle" owner="RipPipPip" lat="37.0662157" lon="27.4186136" alt="500.0"/> 
+<LandmarkLocation instanceId="{d9c5ffcf-5ad3-4730-96f2-853c364edd61}" type="POI" name="Ruins: Kastelli" owner="RipPipPip" lat="36.7112923" lon="26.966104" alt="500.0"/> 
+<LandmarkLocation instanceId="{03768301-8bf8-4236-80af-6abb1416c0f4}" type="POI" name="LGKY: Kalymnos Island National Airport 235 m" owner="RipPipPip" lat="36.9634406" lon="26.9407219" alt="500.0"/> 
+<LandmarkLocation instanceId="{6a253041-5bcb-44b5-9794-81aed4bb12fa}" type="POI" name="Temple: Panagia Syntriani Kapelle" owner="RipPipPip" lat="36.878327" lon="27.2967241" alt="500.0"/> 
+<LandmarkLocation instanceId="{8ec060a4-5905-4391-b3e9-5e26abdbed7b}" type="POI" name="Peak: Mt. Zini 362 m" owner="RipPipPip" lat="36.7235025" lon="26.9739771" alt="500.0"/> 
+<LandmarkLocation instanceId="{6d7bfc40-a299-40bd-aee5-4531bb69a922}" type="POI" name="Temple: Aghios Loannis" owner="RipPipPip" lat="36.7364365" lon="26.9323282" alt="500.0"/> 
+<LandmarkLocation instanceId="{738d470f-4f79-4c39-addb-8256b537d94a}" type="POI" name="Peak: Latra 426 m" owner="RipPipPip" lat="36.7029358" lon="26.955554" alt="500.0"/> 
+<LandmarkLocation instanceId="{64521bee-cd39-4405-a358-97740e0acf48}" type="POI" name="Village: Yaka" owner="RipPipPip" lat="36.6984602" lon="27.4911766" alt="500.0"/> 
+<LandmarkLocation instanceId="{ba65925c-d98c-4c24-85f7-32ef336017c6}" type="POI" name="Village: Sındı" owner="RipPipPip" lat="36.7112972" lon="27.512195" alt="500.0"/> 
+<LandmarkLocation instanceId="{3b5cbfac-83bf-4504-9f3b-91d0574edb61}" type="POI" name="Village: Yazı" owner="RipPipPip" lat="36.6948672" lon="27.4475489" alt="500.0"/> 
+<LandmarkLocation instanceId="{487386aa-1961-42cc-923b-caea641bb218}" type="POI" name="Village: Cumalı" owner="RipPipPip" lat="36.6988187" lon="27.4578983" alt="500.0"/> 
+<LandmarkLocation instanceId="{a97d907b-52a3-46ee-8116-4ba4c5a65637}" type="POI" name="Temple: Agnus Dei Catholic Church" owner="RipPipPip" lat="36.8882948" lon="27.2856744" alt="500.0"/> 
+<LandmarkLocation instanceId="{fbde853a-37f8-45dd-b632-51b90e60881a}" type="POI" name="Village: Çamlık" owner="RipPipPip" lat="37.068954" lon="27.537233" alt="500.0"/> 
+<LandmarkLocation instanceId="{8f973347-13c0-47df-a1a4-e7180377dcf3}" type="POI" name="Temple: Ag. Kyra & Psili" owner="RipPipPip" lat="36.9933601" lon="27.0251294" alt="500.0"/> 
+<LandmarkLocation instanceId="{7cc51ffc-6d45-4e0d-8e9d-60d81c602c21}" type="POI" name="Village: Asfendiou" owner="RipPipPip" lat="36.8528887" lon="27.2112808" alt="500.0"/> 
+<LandmarkLocation instanceId="{4754f100-cd6d-41f7-80ac-05be9f51f6b6}" type="POI" name="Village: Kamari" owner="RipPipPip" lat="36.7395355" lon="26.9691568" alt="500.0"/> 
+<LandmarkLocation instanceId="{39670030-043d-4f85-b642-69722726da46}" type="POI" name="Village: Pserimos" owner="RipPipPip" lat="36.93235" lon="27.1344889" alt="500.0"/> 
+<LandmarkLocation instanceId="{0a5f7067-a55f-4ec6-8992-33d12ac1b52d}" type="POI" name="Village: Vathys" owner="RipPipPip" lat="36.9754861" lon="27.0256852" alt="500.0"/> 
+<LandmarkLocation instanceId="{96301305-2132-4cb3-8124-8b107f97421c}" type="POI" name="Village: Vlychadia" owner="RipPipPip" lat="36.9325701" lon="26.9653138" alt="500.0"/> 
+<LandmarkLocation instanceId="{cc6e2fe9-7a4b-4541-8b11-4f905032e051}" type="POI" name="Town: Kalymnos" owner="RipPipPip" lat="36.9515787" lon="26.9820732" alt="500.0"/> 
+<LandmarkLocation instanceId="{3cce6943-f1b0-4fb8-9193-6123e981d3ab}" type="POI" name="Village: Telendos" owner="RipPipPip" lat="36.9984265" lon="26.9211898" alt="500.0"/> 
+<LandmarkLocation instanceId="{a8c0d750-dfaf-4104-9362-aa75dd01940c}" type="POI" name="Village: Alinda" owner="RipPipPip" lat="37.1635294" lon="26.8345615" alt="500.0"/> 
+<LandmarkLocation instanceId="{7d7943d9-0c65-466f-ad46-01405b8fdbe6}" type="POI" name="Village: Gourna" owner="RipPipPip" lat="37.1529103" lon="26.8330172" alt="500.0"/> 
+<LandmarkLocation instanceId="{0e0b6c96-0bd0-40c4-b2a1-387e02b7bc9b}" type="POI" name="Village: Drymonas" owner="RipPipPip" lat="37.1430083" lon="26.8269136" alt="500.0"/> 
+<LandmarkLocation instanceId="{4378c904-a746-4b4d-98b6-0ff395fb176c}" type="POI" name="Village: Kamara" owner="RipPipPip" lat="37.1616081" lon="26.8212038" alt="500.0"/> 
+<LandmarkLocation instanceId="{97d5e9e2-4da2-4ab9-884b-7123849523a8}" type="POI" name="Village: Xirokampos" owner="RipPipPip" lat="37.1103882" lon="26.8681794" alt="500.0"/> 
+<LandmarkLocation instanceId="{c19ea79c-91f5-4a48-96ce-d99713e4bdb7}" type="POI" name="Village: Temenia" owner="RipPipPip" lat="37.1277026" lon="26.8623383" alt="500.0"/> 
+<LandmarkLocation instanceId="{b12e6bd6-a3c0-4ce1-bc58-ce9619e21d52}" type="POI" name="Peak: Flag Hill 180 m" owner="RipPipPip" lat="36.9916278" lon="27.2648467" alt="500.0"/> 
+<LandmarkLocation instanceId="{9ef22a0f-aac5-4b2e-bcf2-3b2eb8ed279c}" type="POI" name="Village: Yakaköy" owner="RipPipPip" lat="37.065655" lon="27.320084" alt="500.0"/> 
+<LandmarkLocation instanceId="{f381997e-0e3d-4e8e-8dd6-4bd9ea31f024}" type="POI" name="Peak: Çilekdağı 379 m" owner="RipPipPip" lat="37.0614085" lon="27.3095376" alt="500.0"/> 
+<LandmarkLocation instanceId="{f5f2bca9-28d9-4b68-9e9c-d5f73b1f44df}" type="POI" name="Temple: Ag. Zaharias" owner="RipPipPip" lat="36.8417077" lon="27.2850782" alt="500.0"/> 
+<LandmarkLocation instanceId="{df5d71c2-067e-451d-a994-26cf4137ea2c}" type="POI" name="Village: Platani" owner="RipPipPip" lat="36.8825518" lon="27.26984" alt="500.0"/> 
+<LandmarkLocation instanceId="{53eb3bae-5fdb-4207-bd19-9317f62927c5}" type="POI" name="Village: Giapili" owner="RipPipPip" lat="36.8722927" lon="27.2968077" alt="500.0"/> 
+<LandmarkLocation instanceId="{b4a7c0b5-3cd1-49ab-939f-f2cea4ca22ba}" type="POI" name="Village: Paradisi" owner="RipPipPip" lat="36.8791042" lon="27.3142229" alt="500.0"/> 
+<LandmarkLocation instanceId="{c4c126d8-80e2-43aa-986e-bf69de17a9c7}" type="POI" name="Ruins: Old Greek Church" owner="RipPipPip" lat="37.0323414" lon="27.3744542" alt="500.0"/> 
+<LandmarkLocation instanceId="{98fa305d-f37b-44c5-ad79-1b95bc35e19d}" type="POI" name="Peak: Koca Dağı 474 m" owner="RipPipPip" lat="37.0150805" lon="27.5297844" alt="500.0"/> 
+<LandmarkLocation instanceId="{ca566004-0095-4b41-a10e-1a37b1fe558e}" type="POI" name="Peak: Yalı Dağı 308 m" owner="RipPipPip" lat="36.9925736" lon="27.5538196" alt="500.0"/> 
+<LandmarkLocation instanceId="{0ce703fa-6761-4bff-99fa-40b81a9fb568}" type="POI" name="Peak: Bayrak Tepesi 61 m" owner="RipPipPip" lat="37.0547545" lon="27.2300486" alt="500.0"/> 
+<LandmarkLocation instanceId="{945195ee-35a1-4c67-93dd-44eb04754eb5}" type="POI" name="Temple: Stavros" owner="RipPipPip" lat="37.043366" lon="26.952611" alt="500.0"/> 
+<LandmarkLocation instanceId="{5198b3e7-2078-472f-aba8-c8634fa11c2c}" type="POI" name="Village: Dağbelen" owner="RipPipPip" lat="37.086887" lon="27.3420897" alt="500.0"/> 
+<LandmarkLocation instanceId="{581e4789-c852-428f-8267-a156910f5cff}" type="POI" name="Temple: AGIOS GEORGIOS" owner="RipPipPip" lat="36.9108539" lon="27.2807075" alt="500.0"/> 
+<LandmarkLocation instanceId="{03eea903-19c3-4dd5-83ed-9210b1756553}" type="POI" name="Archaeological_site: Ancient Stadium" owner="RipPipPip" lat="36.8935185" lon="27.2853841" alt="500.0"/> 
+<LandmarkLocation instanceId="{d72a6e2c-7e32-4044-89bf-092aeedc007d}" type="POI" name="Archaeological_site: Altar of Dionisus" owner="RipPipPip" lat="36.8908352" lon="27.2896896" alt="500.0"/> 
+<LandmarkLocation instanceId="{23aee47e-2432-4fb5-b6fd-6a5d9e8c90c6}" type="POI" name="Temple: Agios Nikolaos" owner="RipPipPip" lat="37.0356778" lon="26.9532579" alt="500.0"/> 
+<LandmarkLocation instanceId="{b8b1e35a-632a-43d4-90f1-94750c232165}" type="POI" name="Temple: Ágios Isídoros" owner="RipPipPip" lat="37.1535663" lon="26.8142252" alt="500.0"/> 
+<LandmarkLocation instanceId="{a3a662c2-1ce0-4ee7-8290-c44a212b7453}" type="POI" name="Ferry_terminal: Kos" owner="RipPipPip" lat="36.8979356" lon="27.2883859" alt="500.0"/> 
+<LandmarkLocation instanceId="{8e6b979b-ecee-4517-85af-93d9f19b4e50}" type="POI" name="Ferry_terminal: Leros" owner="RipPipPip" lat="37.1278106" lon="26.8495505" alt="500.0"/> 
+<LandmarkLocation instanceId="{01fca3d6-688f-49ce-8337-1b64a98a0d9e}" type="POI" name="Temple: Panaghia Eleousa" owner="RipPipPip" lat="37.1638853" lon="26.8115781" alt="500.0"/> 
+<LandmarkLocation instanceId="{cce100ec-0715-408a-885f-eedc11af7c20}" type="POI" name="Temple: Aghios Nikolaos" owner="RipPipPip" lat="37.1635878" lon="26.797575" alt="500.0"/> 
+<LandmarkLocation instanceId="{789babbe-cae0-4480-a998-bf97d0982feb}" type="POI" name="Temple: Aghios Minas" owner="RipPipPip" lat="37.1497862" lon="26.8522313" alt="500.0"/> 
+<LandmarkLocation instanceId="{87170755-bdb6-448e-a501-f90698d002bf}" type="POI" name="Temple: Aghia Marina" owner="RipPipPip" lat="37.156922" lon="26.8532606" alt="500.0"/> 
+<LandmarkLocation instanceId="{a165d909-feef-40f8-ba06-43843a6b4b5d}" type="POI" name="Temple: Aghios Petros" owner="RipPipPip" lat="37.1371193" lon="26.8229353" alt="500.0"/> 
+<LandmarkLocation instanceId="{309de50a-c42b-4871-9595-9e614a421be3}" type="POI" name="Temple: Prophitis Ilias" owner="RipPipPip" lat="37.1346287" lon="26.8285308" alt="500.0"/> 
+<LandmarkLocation instanceId="{a47075f5-659a-4c1f-be3e-dab0daca0bd6}" type="POI" name="Temple: Aghios Raphael" owner="RipPipPip" lat="37.1346413" lon="26.8304024" alt="500.0"/> 
+<LandmarkLocation instanceId="{83bda8dc-e21c-4224-b992-28b11c85c426}" type="POI" name="Temple: Aghios Gerghios" owner="RipPipPip" lat="37.1421731" lon="26.8216358" alt="500.0"/> 
+<LandmarkLocation instanceId="{e8e8d3c1-12c8-4d87-87c8-f9c238415dd8}" type="POI" name="Temple: Aghios Spyiridhonas" owner="RipPipPip" lat="37.1247631" lon="26.8323155" alt="500.0"/> 
+<LandmarkLocation instanceId="{ae9f8587-313c-4ea8-97bd-4ba380acdf57}" type="POI" name="Archaeological_site: Old Hellenic theatre" owner="RipPipPip" lat="36.7306311" lon="26.9564178" alt="500.0"/> 
+<LandmarkLocation instanceId="{b7d6022d-8c92-49ae-8725-1d4dd53eb99c}" type="POI" name="Ruins: Rock Tombs" owner="RipPipPip" lat="37.1277063" lon="27.2815195" alt="500.0"/> 
+<LandmarkLocation instanceId="{5e48c540-d437-4910-bb37-ca0f3d9e05a1}" type="POI" name="Temple: Emporios Church" owner="RipPipPip" lat="37.0464625" lon="26.9278134" alt="500.0"/> 
+<LandmarkLocation instanceId="{39a874de-5e95-4f12-9fe1-07b8c786bd31}" type="POI" name="Ruins: Ruinen - Geisterstadt" owner="RipPipPip" lat="36.8536762" lon="27.2282242" alt="500.0"/> 
+<LandmarkLocation instanceId="{7e34156b-b92c-49c6-a0f2-b0411285d7b3}" type="POI" name="Castle: Castle of Kefalos" owner="RipPipPip" lat="36.7444561" lon="26.9625864" alt="500.0"/> 
+<LandmarkLocation instanceId="{d876d7d1-2141-4376-8a9c-04a05bbe6c10}" type="POI" name="Ruins: Old Agios Mamas" owner="RipPipPip" lat="36.6782625" lon="26.9672146" alt="500.0"/> 
+<LandmarkLocation instanceId="{5ffad758-be5f-4a1a-aec9-3fbb1a93c0fd}" type="POI" name="Castle: Palio Pyli Castle" owner="RipPipPip" lat="36.8391428" lon="27.1866745" alt="500.0"/> 
+<LandmarkLocation instanceId="{63afff45-40a2-41b8-b649-9de0bdd0e63a}" type="POI" name="Attraction: Kasteli Climbing Sector" owner="RipPipPip" lat="37.0171715" lon="26.9391001" alt="500.0"/> 
+<LandmarkLocation instanceId="{f6accdda-b3c8-49ce-8b73-8545836ceb3c}" type="POI" name="Attraction: Kos Natural Park of Zia" owner="RipPipPip" lat="36.847172" lon="27.2071876" alt="500.0"/> 
+<LandmarkLocation instanceId="{90a9bdf9-6ad5-490f-80c1-5c8a6c64fb36}" type="POI" name="Temple: AGIOI PANTES" owner="RipPipPip" lat="36.8811541" lon="27.314801" alt="500.0"/> 
+<LandmarkLocation instanceId="{4e1a4c30-06ea-4f1a-87f5-98191fd237d3}" type="POI" name="Monument: Monument of "Poseidon"" owner="RipPipPip" lat="36.8503569" lon="27.0761109" alt="500.0"/> 
+<LandmarkLocation instanceId="{b355fd2c-6d55-4484-a655-8530024932af}" type="POI" name="Attraction: War Museum" owner="RipPipPip" lat="37.1273443" lon="26.8396302" alt="500.0"/> 
+<LandmarkLocation instanceId="{2ed05e2b-9b3b-4b53-b2fa-a8b4b31d646b}" type="POI" name="Castle: Bunker" owner="RipPipPip" lat="36.8761905" lon="27.1396054" alt="500.0"/> 
+<LandmarkLocation instanceId="{9131d7ca-0402-435f-8028-c2b8b2ea9fbc}" type="POI" name="Castle: Bunker" owner="RipPipPip" lat="36.8759572" lon="27.1392969" alt="500.0"/> 
+<LandmarkLocation instanceId="{db9a7320-661f-48a5-8741-875c3ff5158f}" type="POI" name="Castle: Bunker" owner="RipPipPip" lat="36.8790558" lon="27.1431683" alt="500.0"/> 
+<LandmarkLocation instanceId="{e0a8428c-2dec-4f7d-af42-fa8849d3e887}" type="POI" name="Castle: Bunker Reste?" owner="RipPipPip" lat="36.8745757" lon="27.1370592" alt="500.0"/> 
+<LandmarkLocation instanceId="{430bd8fb-bec3-4991-9609-6670b74e5f92}" type="POI" name="Castle: Bunker (Unterstand)" owner="RipPipPip" lat="36.8741049" lon="27.1365708" alt="500.0"/> 
+<LandmarkLocation instanceId="{989f75c3-f5fe-4eb0-a783-a716b16a05ce}" type="POI" name="Ruins: Agios Ioannis - Early Christian Basilica" owner="RipPipPip" lat="36.9860751" lon="26.9312044" alt="500.0"/> 
+<LandmarkLocation instanceId="{3a6be4b7-4ee4-404f-bf76-a9a87f668b35}" type="POI" name="Ruins: Christos tis Ierusalem (Early Christian Basilika)" owner="RipPipPip" lat="36.9654482" lon="26.9502826" alt="500.0"/> 
+<LandmarkLocation instanceId="{923ae74f-7a64-4096-90ac-9e4b2dadd55d}" type="POI" name="Attraction: ŞEVKET SABACI  CULTUR CENTER" owner="RipPipPip" lat="37.0008761" lon="27.2600334" alt="500.0"/> 
+<LandmarkLocation instanceId="{33a3aba5-b60c-4212-9fcf-d1e80d7b6264}" type="POI" name="Attraction: D - MARİN  TURGUTREİS  MARİNA" owner="RipPipPip" lat="37.0009779" lon="27.2586459" alt="500.0"/> 
+<LandmarkLocation instanceId="{a67d62dc-f595-453b-a28a-9fd883b9bf1e}" type="POI" name="Attraction: ŞEVKET SABANCI PARKI" owner="RipPipPip" lat="36.9954292" lon="27.25821" alt="500.0"/> 
+<LandmarkLocation instanceId="{118de69d-4e49-4f18-b9f9-246e65bebc85}" type="POI" name="Ruins: Kastelli" owner="RipPipPip" lat="37.0167252" lon="26.9390478" alt="500.0"/> 
+<LandmarkLocation instanceId="{d6e2e7a7-3f41-4d02-8b4a-8af0f1064feb}" type="POI" name="Temple: Agia Paraskevi" owner="RipPipPip" lat="36.9505919" lon="26.9755002" alt="500.0"/> 
+<LandmarkLocation instanceId="{af9f4581-9042-4644-91d7-77b9da6085f3}" type="POI" name="Temple: Agia Anna" owner="RipPipPip" lat="36.950285" lon="26.9752264" alt="500.0"/> 
+<LandmarkLocation instanceId="{cd4257b7-b00c-4114-a131-4a4ac2f3d91f}" type="POI" name="Temple: Agios Paisios" owner="RipPipPip" lat="36.9572112" lon="26.9478209" alt="500.0"/> 
+<LandmarkLocation instanceId="{20ecaaf5-2762-48e9-9fe1-d9fc402f5a30}" type="POI" name="Attraction: Gebe Kilise" owner="RipPipPip" lat="37.0806166" lon="27.4467813" alt="500.0"/> 
+<LandmarkLocation instanceId="{1f9cccfd-bb4e-4cfa-8694-f73ac05c4d53}" type="POI" name="Temple: Agia Triada" owner="RipPipPip" lat="36.9781619" lon="27.0128913" alt="500.0"/> 
+<LandmarkLocation instanceId="{1b0c2d62-5ead-4f0a-bbf2-27bbc37ce585}" type="POI" name="Temple: Agios Panteleimonas" owner="RipPipPip" lat="36.9815215" lon="27.0150384" alt="500.0"/> 
+<LandmarkLocation instanceId="{53970d44-e550-4636-9742-60893b1b3a91}" type="POI" name="Peak: 106m" owner="RipPipPip" lat="37.0618747" lon="27.0923361" alt="500.0"/> 
+<LandmarkLocation instanceId="{162b7dc7-61af-4fb3-99e9-c60f99a7e63b}" type="POI" name="Temple: Agia kaliopi" owner="RipPipPip" lat="36.9679104" lon="26.9488885" alt="500.0"/> 
+<LandmarkLocation instanceId="{e7b44345-ed80-47b1-b6fe-5b9f7c5fbe73}" type="POI" name="Attraction: Turquoise Diving Centre" owner="RipPipPip" lat="37.0289828" lon="27.4386" alt="500.0"/> 
+<LandmarkLocation instanceId="{2836182e-6a32-4625-b18b-7ab76c54cc26}" type="POI" name="Archaeological_site: Early Christian Tomb" owner="RipPipPip" lat="36.9291911" lon="26.9835269" alt="500.0"/> 
+<LandmarkLocation instanceId="{5f9dca1a-02a2-4f66-a6ca-f4a0d9254f64}" type="POI" name="Ferry_terminal: Bodrum - Datça" owner="RipPipPip" lat="37.0362075" lon="27.4269396" alt="500.0"/> 
+<LandmarkLocation instanceId="{baea2f2a-118e-4c9b-b555-d8fab2a289cd}" type="POI" name="Attraction: AeroPhone - Listening Wall 2nd World War built by the Italians" owner="RipPipPip" lat="37.1261899" lon="26.8197863" alt="500.0"/> 
+<LandmarkLocation instanceId="{02be3418-1238-4783-9f0c-997b3e2d10a8}" type="POI" name="Attraction: Old Bunker" owner="RipPipPip" lat="36.8992215" lon="27.2474878" alt="500.0"/> 
+<LandmarkLocation instanceId="{9e0bda2f-1bc9-4134-ad9e-ab4b882c775f}" type="POI" name="Peak: 122 113 m" owner="RipPipPip" lat="36.9625825" lon="27.3020939" alt="500.0"/> 
+<LandmarkLocation instanceId="{11bd09e6-e7ba-4dc8-84d4-1c1121c6c9cd}" type="POI" name="Peak: 125 128 m" owner="RipPipPip" lat="36.9653693" lon="27.3016543" alt="500.0"/> 
+<LandmarkLocation instanceId="{5fb3bc04-e1c2-4c05-b255-1bcfc7ea95ee}" type="POI" name="Peak: 179 182 m" owner="RipPipPip" lat="37.0296441" lon="27.2616826" alt="500.0"/> 
+<LandmarkLocation instanceId="{15a59e1f-fb96-4b80-bc4f-55c4043e09b6}" type="POI" name="Peak: 207 204 m" owner="RipPipPip" lat="37.0344993" lon="27.2589152" alt="500.0"/> 
+<LandmarkLocation instanceId="{4831e3c6-1402-4960-b2d2-e59a343561b4}" type="POI" name="Peak: 215 218 m" owner="RipPipPip" lat="37.0364779" lon="27.2594494" alt="500.0"/> 
+<LandmarkLocation instanceId="{6099cb37-9fc6-4ada-9f4f-0df145590b54}" type="POI" name="Peak: 182 177 m" owner="RipPipPip" lat="36.9804661" lon="27.3173959" alt="500.0"/> 
+<LandmarkLocation instanceId="{2b4d0fca-1a53-46a5-8d36-1d37dc69a930}" type="POI" name="Temple: Sit" owner="RipPipPip" lat="37.0827909" lon="27.3891536" alt="500.0"/> 
+<LandmarkLocation instanceId="{dcbea2a3-29fc-4007-ab24-2000afd015c6}" type="POI" name="Monument: Traditional House of Kefalos" owner="RipPipPip" lat="36.7692768" lon="27.0198958" alt="500.0"/> 
+<LandmarkLocation instanceId="{f91e185f-db1a-4863-b5e9-adbcde2c03fc}" type="POI" name="Suburb: Kızılağaç" owner="RipPipPip" lat="37.0338542" lon="27.4947955" alt="500.0"/> 
+<LandmarkLocation instanceId="{909f669f-026d-4b6c-b7c1-1f5982e545e1}" type="POI" name="Suburb: Bitez" owner="RipPipPip" lat="37.0437876" lon="27.3793754" alt="500.0"/> 
+<LandmarkLocation instanceId="{f6395445-71d2-490d-97e3-90e0b1d25809}" type="POI" name="Suburb: Torba Mah." owner="RipPipPip" lat="37.0739845" lon="27.4592747" alt="500.0"/> 
+<LandmarkLocation instanceId="{44bdd14b-971d-4a99-85ef-64d65a89d82c}" type="POI" name="Suburb: Kumbahçe Mah." owner="RipPipPip" lat="37.0301666" lon="27.4405851" alt="500.0"/> 
+<LandmarkLocation instanceId="{d02bafde-88f2-45aa-a87d-5ae20e617ad7}" type="POI" name="Suburb: Umurca Mah." owner="RipPipPip" lat="37.0348756" lon="27.442592" alt="500.0"/> 
+<LandmarkLocation instanceId="{4dd44854-92be-4451-b18d-8ca6f5051637}" type="POI" name="Suburb: Yokuşbaşı Mah." owner="RipPipPip" lat="37.0407513" lon="27.4362464" alt="500.0"/> 
+<LandmarkLocation instanceId="{702fa589-b00a-49e0-a9af-9e1792b6e07c}" type="POI" name="Suburb: Çarşı Mah." owner="RipPipPip" lat="37.0364747" lon="27.433118" alt="500.0"/> 
+<LandmarkLocation instanceId="{35510b87-b436-49d0-815b-45b5cc850424}" type="POI" name="Suburb: Tepecik Mah." owner="RipPipPip" lat="37.0375215" lon="27.4261147" alt="500.0"/> 
+<LandmarkLocation instanceId="{90582b4b-6df0-4c48-8432-b652084e2f12}" type="POI" name="Suburb: Türkkuyusu Mah." owner="RipPipPip" lat="37.0399486" lon="27.428648" alt="500.0"/> 
+<LandmarkLocation instanceId="{c20640ec-09f4-488c-8a73-2c45f05c1244}" type="POI" name="Suburb: Eskiçeşme Mah." owner="RipPipPip" lat="37.0349638" lon="27.4201588" alt="500.0"/> 
+<LandmarkLocation instanceId="{97a8f5c5-6895-481b-8738-4ece8037fad0}" type="POI" name="Suburb: Yeniköy Mah." owner="RipPipPip" lat="37.0386542" lon="27.4198953" alt="500.0"/> 
+<LandmarkLocation instanceId="{c63b1e25-4203-4289-8933-31935518371f}" type="POI" name="Suburb: Cevat Şakir Mah." owner="RipPipPip" lat="37.0400963" lon="27.4079566" alt="500.0"/> 
+<LandmarkLocation instanceId="{acb9234a-a5f3-4062-9155-0758748990c7}" type="POI" name="Suburb: Gümbet Mah." owner="RipPipPip" lat="37.0331908" lon="27.4049706" alt="500.0"/> 
+<LandmarkLocation instanceId="{5fe7be2b-8251-4d9d-ba10-ccaf5779560a}" type="POI" name="Suburb: Cumhuriyet Mah." owner="RipPipPip" lat="37.0445867" lon="27.4090256" alt="500.0"/> 
+<LandmarkLocation instanceId="{39a06e61-cb61-4281-8761-cac45b23823e}" type="POI" name="Suburb: Çırkan" owner="RipPipPip" lat="37.0482335" lon="27.4036422" alt="500.0"/> 
+<LandmarkLocation instanceId="{5b79ab4b-da1c-4010-9e84-3c24f23d8e83}" type="POI" name="Suburb: Konacık" owner="RipPipPip" lat="37.0497485" lon="27.3983348" alt="500.0"/> 
+<LandmarkLocation instanceId="{3fb2280f-57d9-41d4-9fbb-0d028e081a37}" type="POI" name="Suburb: Müskebi" owner="RipPipPip" lat="37.0476678" lon="27.3494172" alt="500.0"/> 
+<LandmarkLocation instanceId="{85867078-5875-4dcd-851b-51907168f7ca}" type="POI" name="Suburb: Peksimet" owner="RipPipPip" lat="37.0409377" lon="27.271902" alt="500.0"/> 
+<LandmarkLocation instanceId="{88403775-a872-4058-8173-7b8cabe67baa}" type="POI" name="Suburb: Bahçelievler" owner="RipPipPip" lat="37.0125804" lon="27.2610014" alt="500.0"/> 
+<LandmarkLocation instanceId="{b0baf856-e182-4f55-b927-0bbc368e0ee4}" type="POI" name="Suburb: Turgutreis" owner="RipPipPip" lat="37.0077807" lon="27.2569224" alt="500.0"/> 
+<LandmarkLocation instanceId="{b689746e-ce74-4d84-aeeb-614a47542652}" type="POI" name="Suburb: Karabağ" owner="RipPipPip" lat="37.0000805" lon="27.2762236" alt="500.0"/> 
+<LandmarkLocation instanceId="{e8c019f4-b473-4933-9ce6-0bd8316e809d}" type="POI" name="Suburb: Akçaalan" owner="RipPipPip" lat="37.0137823" lon="27.2771064" alt="500.0"/> 
+<LandmarkLocation instanceId="{f40eb055-3176-410f-8f46-ac7191ecf6fe}" type="POI" name="Suburb: Gümüşlük" owner="RipPipPip" lat="37.0529305" lon="27.2502465" alt="500.0"/> 
+<LandmarkLocation instanceId="{44b8489b-c963-4e40-8053-1cbfd170263c}" type="POI" name="Suburb: Koyunbaba" owner="RipPipPip" lat="37.0739741" lon="27.2451251" alt="500.0"/> 
+<LandmarkLocation instanceId="{eb4ddfa7-80ae-4349-afe9-dd0b0a48c7c2}" type="POI" name="Suburb: Geriş" owner="RipPipPip" lat="37.0853482" lon="27.2781254" alt="500.0"/> 
+<LandmarkLocation instanceId="{88bac55e-d1cf-4610-ac68-1e8272355ca4}" type="POI" name="Suburb: Yalıkavak" owner="RipPipPip" lat="37.1056168" lon="27.293058" alt="500.0"/> 
+<LandmarkLocation instanceId="{5749e085-c4ef-43d0-97ad-38c021815ac6}" type="POI" name="Suburb: Dirmil" owner="RipPipPip" lat="37.1059591" lon="27.3244289" alt="500.0"/> 
+<LandmarkLocation instanceId="{31a2da51-d2cb-4559-8c79-dbe6230f057e}" type="POI" name="Suburb: Küçükbük" owner="RipPipPip" lat="37.1382277" lon="27.3540506" alt="500.0"/> 
+<LandmarkLocation instanceId="{c5d5bb09-5068-422e-8f49-3110b39ecb82}" type="POI" name="Suburb: Farilya" owner="RipPipPip" lat="37.1159926" lon="27.3472467" alt="500.0"/> 
+<LandmarkLocation instanceId="{54613669-d8c1-4313-98b8-1aa0e110be23}" type="POI" name="Suburb: Gündoğan" owner="RipPipPip" lat="37.1294427" lon="27.3429924" alt="500.0"/> 
+<LandmarkLocation instanceId="{44424259-63c3-4de8-9fc6-1a069312498f}" type="POI" name="Coastline: Çatal Ada" owner="RipPipPip" lat="37.0050995" lon="27.2156333" alt="500.0"/> 
+<LandmarkLocation instanceId="{6c2f6dec-8168-4f17-ad2d-61d0ca52839c}" type="POI" name="Coastline: Sarıot Ada" owner="RipPipPip" lat="36.9915151" lon="27.2243237" alt="500.0"/> 
+<LandmarkLocation instanceId="{fea001be-3da8-4248-b730-468b5fb243ed}" type="POI" name="Coastline: Tüllüce Adası" owner="RipPipPip" lat="36.9847919" lon="27.2312055" alt="500.0"/> 
+<LandmarkLocation instanceId="{938cf991-ffdc-435e-9fa6-39d4a188d532}" type="POI" name="Coastline: Black Island" owner="RipPipPip" lat="36.9773712" lon="27.4583736" alt="500.0"/> 
+<LandmarkLocation instanceId="{7859f3e4-9b81-46d6-8bcf-dd64c7c3515a}" type="POI" name="Coastline: Giali" owner="RipPipPip" lat="36.66069" lon="27.1241035" alt="500.0"/> 
+<LandmarkLocation instanceId="{6e0f9418-af5d-477f-bdac-610ffd36c84a}" type="POI" name="Coastline: Küçük Tavşan Adası" owner="RipPipPip" lat="37.1680892" lon="27.3701837" alt="500.0"/> 
+<LandmarkLocation instanceId="{73e2e064-ea01-4c8e-9044-5f998148bcdc}" type="POI" name="Coastline: Salih Adası" owner="RipPipPip" lat="37.1529935" lon="27.5132809" alt="500.0"/> 
+<LandmarkLocation instanceId="{7a1b0506-0ae0-493f-a5cb-c61578e1465d}" type="POI" name="Coastline: Büyük Ada" owner="RipPipPip" lat="37.1384993" lon="27.3900448" alt="500.0"/> 
+<LandmarkLocation instanceId="{50f2970f-5514-4eac-a721-09881f530687}" type="POI" name="Coastline: İkiz Adaları" owner="RipPipPip" lat="37.1211041" lon="27.4720746" alt="500.0"/> 
+<LandmarkLocation instanceId="{6813c8fd-4e62-46e9-bede-f2686ec44e29}" type="POI" name="Coastline: Küçükkiremit Adası" owner="RipPipPip" lat="37.0884729" lon="27.2367657" alt="500.0"/> 
+<LandmarkLocation instanceId="{2a081a70-669d-45dc-b67b-4881c13c691b}" type="POI" name="Coastline: Büyükkiremit Adası" owner="RipPipPip" lat="37.085023" lon="27.2097255" alt="500.0"/> 
+<LandmarkLocation instanceId="{fd5fbd59-3883-4123-be0f-794d740e4916}" type="POI" name="Coastline: Çavuş Adası" owner="RipPipPip" lat="37.0486092" lon="27.2015987" alt="500.0"/> 
+<LandmarkLocation instanceId="{d3d9e8bf-8e90-4c1d-9948-25cd813a9bc3}" type="POI" name="Coastline: Topan Adası" owner="RipPipPip" lat="37.0052479" lon="27.1815594" alt="500.0"/> 
+<LandmarkLocation instanceId="{3eaf0d85-2d6e-423b-acad-2af9a8a5b5e4}" type="POI" name="Attraction: Anfi Tiyatro" owner="RipPipPip" lat="36.9958476" lon="27.25819" alt="500.0"/> 
+<LandmarkLocation instanceId="{491b1fdc-23aa-4596-a183-8ba87720d4de}" type="POI" name="Coastline: Rabbit Island" owner="RipPipPip" lat="37.0529433" lon="27.2332446" alt="500.0"/> 
+<LandmarkLocation instanceId="{cff0b73c-eb2a-40c7-b566-6b071e1f78d4}" type="POI" name="Lake: Linopotti Lake" owner="RipPipPip" lat="36.8644911" lon="27.1595773" alt="500.0"/> 
+<LandmarkLocation instanceId="{5f69ea16-733a-4ab8-b33f-5f261e5fc789}" type="POI" name="Attraction: Paleo Pili" owner="RipPipPip" lat="36.8381634" lon="27.1868034" alt="500.0"/> 
+<LandmarkLocation instanceId="{5ee31cea-d3d8-44e5-bc7f-3ec7bc07078a}" type="POI" name="Castle: Bodrum Castle" owner="RipPipPip" lat="37.0318147" lon="27.4292652" alt="500.0"/> 
+<LandmarkLocation instanceId="{013b6300-c5b1-46d8-8659-92c6b189e7be}" type="POI" name="Lake: Alykes" owner="RipPipPip" lat="36.884918" lon="27.1713422" alt="500.0"/> 
+<LandmarkLocation instanceId="{037dfd3c-4dbe-40d5-9cac-2384a6a918ef}" type="POI" name="Archaeological_site: Gymnasion" owner="RipPipPip" lat="36.8912165" lon="27.2851472" alt="500.0"/> 
+<LandmarkLocation instanceId="{aea69b4d-5571-424a-91e0-d49b33a8f4cf}" type="POI" name="Archaeological_site: Ancient Agora" owner="RipPipPip" lat="36.8936897" lon="27.2908841" alt="500.0"/> 
+<LandmarkLocation instanceId="{1f112088-6057-4a73-8753-36abad8702b7}" type="POI" name="Castle: Castle of Antimachia" owner="RipPipPip" lat="36.8028374" lon="27.1287939" alt="500.0"/> 
+<LandmarkLocation instanceId="{7e7f4da4-dba0-463e-9975-4184ea603b89}" type="POI" name="Archaeological_site: Roman Odeon" owner="RipPipPip" lat="36.8896562" lon="27.2847772" alt="500.0"/> 
+<LandmarkLocation instanceId="{5ba65faf-01a5-4c5d-9c6a-d46c7f4de439}" type="POI" name="Temple: Turgutreis Merkez Camii" owner="RipPipPip" lat="37.0068821" lon="27.2570367" alt="500.0"/> 
+<LandmarkLocation instanceId="{ee91fef5-b486-4496-b912-d676e26e67e6}" type="POI" name="Beach: Yeşil Plaj" owner="RipPipPip" lat="37.0225071" lon="27.3653876" alt="500.0"/> 
+<LandmarkLocation instanceId="{22f2385b-014a-4d2e-b7eb-c6ba4fec77d8}" type="POI" name="Archaeological_site: Casa Romana" owner="RipPipPip" lat="36.8899425" lon="27.2885847" alt="500.0"/> 
+<LandmarkLocation instanceId="{a65aa439-c7d6-43e6-8056-634c76be249d}" type="POI" name="Ruins: theatre" owner="RipPipPip" lat="36.6859998" lon="27.3752444" alt="500.0"/> 
+<LandmarkLocation instanceId="{b66d0832-36e0-4d33-9afe-847f15d3b2a1}" type="POI" name="Archaeological_site: Kos Asklepieion" owner="RipPipPip" lat="36.8756851" lon="27.2573838" alt="500.0"/> 
+<LandmarkLocation instanceId="{8da9cdfe-9bc9-4854-a99c-b2f651e74fe8}" type="POI" name="Archaeological_site: Knidos" owner="RipPipPip" lat="36.6863015" lon="27.3739514" alt="500.0"/> 
+<LandmarkLocation instanceId="{6c2339f2-df1e-4460-8d50-cb6e982e1d7e}" type="POI" name="Temple: Bitez Merkez Cami" owner="RipPipPip" lat="37.0428103" lon="27.3798355" alt="500.0"/> 
+<LandmarkLocation instanceId="{1815d260-db2a-4130-aafa-7e36b69deafc}" type="POI" name="Ruins: Alazeytin Kalesi / Syangela" owner="RipPipPip" lat="37.0196895" lon="27.5409842" alt="500.0"/> 
+<LandmarkLocation instanceId="{a2304715-28fe-430f-8f4a-6dab5d697685}" type="POI" name="Archaeological_site: Kavakopoulou" owner="RipPipPip" lat="36.8909091" lon="27.2896002" alt="500.0"/> 
+<LandmarkLocation instanceId="{99e25f79-f9dd-4fd8-b8d6-284dda3b9e8a}" type="POI" name="Castle: Chora Castle" owner="RipPipPip" lat="36.9678256" lon="26.9608485" alt="500.0"/> 
+<LandmarkLocation instanceId="{0de551bd-bd5d-46eb-9793-7f010f13502f}" type="POI" name="Archaeological_site: Myndos Gate" owner="RipPipPip" lat="37.0376335" lon="27.4135636" alt="500.0"/> 
+<LandmarkLocation instanceId="{f9cb66fd-08b3-4adc-b534-cc1e4712fc97}" type="POI" name="Archaeological_site: Basilica of Ayios Stefanos" owner="RipPipPip" lat="36.7526214" lon="26.9891387" alt="500.0"/> 
+<LandmarkLocation instanceId="{baacb1fe-f57e-4204-92bc-41dbf5d552b0}" type="POI" name="Temple: Agios Ioannis" owner="RipPipPip" lat="36.9974469" lon="26.9368064" alt="500.0"/> 
+<LandmarkLocation instanceId="{75f09589-9d4d-4b4e-b67b-464dcde3a9db}" type="POI" name="Temple: Eklisia" owner="RipPipPip" lat="37.0539141" lon="27.2368377" alt="500.0"/> 
+<LandmarkLocation instanceId="{00305633-207b-4060-a709-56752a202d60}" type="POI" name="Temple: Merkez Adliye Camii" owner="RipPipPip" lat="37.0343331" lon="27.4303598" alt="500.0"/> 
+<LandmarkLocation instanceId="{284a7e15-3223-4409-bfee-65b0dcc52b58}" type="POI" name="Temple: Tepecik Cami" owner="RipPipPip" lat="37.0361678" lon="27.4255796" alt="500.0"/> 
+<LandmarkLocation instanceId="{ebfab934-889f-42ad-9085-6b750871a37d}" type="POI" name="Temple: Yalıkavak Merkez Camii" owner="RipPipPip" lat="37.105212" lon="27.2936359" alt="500.0"/> 
+<LandmarkLocation instanceId="{6619b07a-9c70-4198-952c-0d382be3e99e}" type="POI" name="Archaeological_site: Nympheon" owner="RipPipPip" lat="36.8908892" lon="27.2870519" alt="500.0"/> 
+<LandmarkLocation instanceId="{ad1a30a9-b02b-4f7b-9538-141e99f7e63f}" type="POI" name="Ruins: Temple of Apollion" owner="RipPipPip" lat="36.8757232" lon="27.2572488" alt="500.0"/> 
+<LandmarkLocation instanceId="{1402bd78-d452-44a6-bd03-4563c91d70e1}" type="POI" name="Ruins: Big temple of Asklepieion" owner="RipPipPip" lat="36.875288" lon="27.256733" alt="500.0"/> 
+<LandmarkLocation instanceId="{ee6d2ac9-d072-46a4-bac5-fe5d1fb7f6c0}" type="POI" name="Coastline: İkiz Adaları" owner="RipPipPip" lat="37.1278103" lon="27.4793342" alt="500.0"/> 
+<LandmarkLocation instanceId="{eaeee22c-bffb-4b4c-ac2b-e53a4fecaff2}" type="POI" name="Temple: Timiou Stavrou" owner="RipPipPip" lat="36.9677222" lon="26.9603277" alt="500.0"/> 
+<LandmarkLocation instanceId="{37a4f8fc-4445-407f-8a73-d9a65769c6b2}" type="POI" name="Temple: Agia Paraskevi" owner="RipPipPip" lat="36.967842" lon="26.9604139" alt="500.0"/> 
+<LandmarkLocation instanceId="{369b76a8-4d76-4bac-a7bd-1778c1ea8dd1}" type="POI" name="Temple: Metamorfoseos tou Sotiros" owner="RipPipPip" lat="36.9675701" lon="26.9605828" alt="500.0"/> 
+<LandmarkLocation instanceId="{dc35cf57-312c-4c37-ad21-e3282fb1e3d3}" type="POI" name="Temple: Agios Ioannis Prodromos" owner="RipPipPip" lat="36.9682474" lon="26.9615123" alt="500.0"/> 
+<LandmarkLocation instanceId="{48534ad1-527e-4789-8acf-e788ead8d17c}" type="POI" name="Temple: Agia Sofia" owner="RipPipPip" lat="36.9653499" lon="26.9504111" alt="500.0"/> 
+<LandmarkLocation instanceId="{2885ccca-4833-4f60-aef3-00e06b76bd94}" type="POI" name="Archaeological_site: Bodrum Antique Theatre" owner="RipPipPip" lat="37.0401376" lon="27.4215905" alt="500.0"/> 
+<LandmarkLocation instanceId="{16162b1c-6fbf-4265-8ce9-9160727ab6be}" type="POI" name="Water: Flatolitis Pool" owner="RipPipPip" lat="36.9991236" lon="26.9369321" alt="500.0"/> 
+<LandmarkLocation instanceId="{6ed5eaa9-6e39-450a-b3fa-cc99397fe7d3}" type="POI" name="Temple: Agia Irini" owner="RipPipPip" lat="36.9748383" lon="27.0284762" alt="500.0"/> 
+<LandmarkLocation instanceId="{70002c28-e22f-4064-a466-5eb7077fab85}" type="POI" name="Castle: Pantelio Castle" owner="RipPipPip" lat="37.1561626" lon="26.859387" alt="500.0"/> 
+<LandmarkLocation instanceId="{ad6d4714-8f5d-4d7c-9ffc-c69f5b0c765a}" type="POI" name="Temple: Ekklisia Evaggelismos" owner="RipPipPip" lat="37.1542189" lon="26.8559762" alt="500.0"/> 
+<LandmarkLocation instanceId="{f04e12fc-3f30-43c5-ba0d-a54f937766c6}" type="POI" name="Ruins: Temple of Aphrodite, Knidos" owner="RipPipPip" lat="36.6889176" lon="27.3733237" alt="500.0"/> 
+<LandmarkLocation instanceId="{b602e1d4-8e8c-49e7-b068-98afbd7d5bbc}" type="POI" name="Temple: Ag Ioannis" owner="RipPipPip" lat="36.8344079" lon="27.0581179" alt="500.0"/> 
+<LandmarkLocation instanceId="{66c03995-da28-4bf7-926e-52547a73aa3b}" type="POI" name="Temple: AGIOS PAULOS" owner="RipPipPip" lat="36.8990158" lon="27.2853613" alt="500.0"/> 
+<LandmarkLocation instanceId="{ca96c923-0587-404f-9621-fcda5772ffc6}" type="POI" name="Temple: Chapel Panagia Ziniotissa" owner="RipPipPip" lat="36.7289024" lon="26.9721776" alt="500.0"/> 
+<LandmarkLocation instanceId="{cc6d3c9b-15d7-4830-882c-095c675cafeb}" type="POI" name="Ruins: Bodrum Windmills" owner="RipPipPip" lat="37.0257782" lon="27.4137327" alt="500.0"/> 
+<LandmarkLocation instanceId="{081a9b2f-441d-4012-b152-1a7424802a72}" type="POI" name="Temple: Agios Georgios & Agios Eustachios" owner="RipPipPip" lat="36.9962254" lon="26.9386677" alt="500.0"/> 
+<LandmarkLocation instanceId="{19c0708c-ce13-4ebe-a6df-239870017dac}" type="POI" name="Temple: Agios Jorgos" owner="RipPipPip" lat="36.9289888" lon="26.9836802" alt="500.0"/> 
+<LandmarkLocation instanceId="{c99f2abc-84ca-496b-a87b-492654ed8942}" type="POI" name="Temple: Agia Paraskevi" owner="RipPipPip" lat="36.9589375" lon="26.9506398" alt="500.0"/> 
+<LandmarkLocation instanceId="{0236b4d6-efb9-4524-99e7-daf96614f2d6}" type="POI" name="Temple: Agios Theodoros" owner="RipPipPip" lat="36.9834561" lon="26.997807" alt="500.0"/> 
+<LandmarkLocation instanceId="{6205eb62-7252-43b1-b723-8db9d7bda709}" type="POI" name="Temple: Agia paraskeuè" owner="RipPipPip" lat="36.8926679" lon="27.2882419" alt="500.0"/> 
+<LandmarkLocation instanceId="{6fba90e5-6221-4c03-8830-2cbeb6408505}" type="POI" name="Ruins: Kadıkalesi" owner="RipPipPip" lat="37.0344975" lon="27.2453864" alt="500.0"/> 
+<LandmarkLocation instanceId="{eecdd694-c23f-4fa8-875d-a55256870e91}" type="POI" name="Archaeological_site: Northern Baths" owner="RipPipPip" lat="36.8938115" lon="27.2869622" alt="500.0"/> 
+<LandmarkLocation instanceId="{ec9f940c-b8b7-4241-88e3-f668db0ff791}" type="POI" name="Playground: Kids Racers" owner="RipPipPip" lat="36.9095515" lon="27.2800006" alt="500.0"/> 
+<LandmarkLocation instanceId="{164ff619-e1ff-4edb-9fe8-f3292c29142a}" type="POI" name="Temple: Defterdar Mosque" owner="RipPipPip" lat="36.8933259" lon="27.2888113" alt="500.0"/> 
+<LandmarkLocation instanceId="{bca87206-b84c-414d-ae1e-37dc16077e06}" type="POI" name="Temple: AGIOS NIKOLAOS" owner="RipPipPip" lat="36.8916461" lon="27.2919621" alt="500.0"/> 
+<LandmarkLocation instanceId="{1a275d6e-581a-462e-8862-a7906b8e59a2}" type="POI" name="Temple: Agios Nicolaos" owner="RipPipPip" lat="36.7502372" lon="26.9878646" alt="500.0"/> 
+<LandmarkLocation instanceId="{8a57f858-238c-4b81-8972-59286d0976a5}" type="POI" name="Temple: Agios Theologos" owner="RipPipPip" lat="36.7089174" lon="26.9231806" alt="500.0"/> 
+<LandmarkLocation instanceId="{29ef61ac-537a-4918-a386-7bf389f1ccc8}" type="POI" name="Forest: Olive" owner="RipPipPip" lat="36.7476379" lon="27.4813325" alt="500.0"/> 
+<LandmarkLocation instanceId="{c813479e-a310-4458-81aa-ad40c9fd2501}" type="POI" name="LGKO: Kos island international airport" owner="RipPipPip" lat="36.7951488" lon="27.0910947" alt="500.0"/> 
+<LandmarkLocation instanceId="{92a9e735-75d8-45fe-ab1e-529f6f88a178}" type="POI" name="Temple: İslamhaneleri Köyü Cami" owner="RipPipPip" lat="37.0295529" lon="27.2946543" alt="500.0"/> 
+<LandmarkLocation instanceId="{932d1657-91e2-4a0c-95d5-64d37546a40c}" type="POI" name="Industrial: İSD Construction" owner="RipPipPip" lat="37.0333463" lon="27.3029297" alt="500.0"/> 
+<LandmarkLocation instanceId="{01c401d4-ab49-4ba3-b40f-89e7f8076ee3}" type="POI" name="Industrial: Pollat Galle SU" owner="RipPipPip" lat="37.0329904" lon="27.3023727" alt="500.0"/> 
+<LandmarkLocation instanceId="{d1bf41c1-c315-4e71-8d6a-09cc0467b8d1}" type="POI" name="Industrial: Karadeniz Mermer" owner="RipPipPip" lat="37.0304986" lon="27.3001616" alt="500.0"/> 
+<LandmarkLocation instanceId="{39db6403-4ad2-449a-ae94-d0f4c0ed0201}" type="POI" name="Industrial: Arda Kireç" owner="RipPipPip" lat="37.0305108" lon="27.3007432" alt="500.0"/> 
+<LandmarkLocation instanceId="{096dd613-c735-4808-9799-53408e59220d}" type="POI" name="Industrial: Öntaş Mermer" owner="RipPipPip" lat="37.0317297" lon="27.3012948" alt="500.0"/> 
+<LandmarkLocation instanceId="{c188d7b0-1e3b-4b85-a446-e6f96510167a}" type="POI" name="Village: Çilek" owner="RipPipPip" lat="37.0436954" lon="27.5088411" alt="500.0"/> 
+<LandmarkLocation instanceId="{5815670a-312f-4940-8f68-5a2aa4ce35c9}" type="POI" name="Pond: Kocala" owner="RipPipPip" lat="37.0421894" lon="27.5168799" alt="500.0"/> 
+<LandmarkLocation instanceId="{4c98a6a4-40f2-44da-b51a-1b0a2309a97b}" type="POI" name="Temple: Agios Andreas" owner="RipPipPip" lat="36.934423" lon="26.9408471" alt="500.0"/> 
+<LandmarkLocation instanceId="{e9858eaf-0540-4be8-b80e-cf84ddc20f7f}" type="POI" name="Temple: Panagia Rikion" owner="RipPipPip" lat="36.9880599" lon="26.9937456" alt="500.0"/> 
+<LandmarkLocation instanceId="{0b767811-8089-4935-8bfc-3947df84cc9c}" type="POI" name="Temple: Agii Apostoli" owner="RipPipPip" lat="36.9608282" lon="26.9476538" alt="500.0"/> 
+<LandmarkLocation instanceId="{b4631645-5f27-4688-be04-59941055dfba}" type="POI" name="Temple: Agios Ioannis" owner="RipPipPip" lat="36.9859853" lon="26.9311665" alt="500.0"/> 
+<LandmarkLocation instanceId="{9a9742bf-a7a7-4656-987c-7021f07506f1}" type="POI" name="Temple: Agios Cristoforos" owner="RipPipPip" lat="36.9536172" lon="26.9467597" alt="500.0"/> 
+<LandmarkLocation instanceId="{498c2265-07b6-469c-8d8e-f038a88ed500}" type="POI" name="Temple: Agios Ioannis Theologos" owner="RipPipPip" lat="36.950217" lon="26.9562469" alt="500.0"/> 
+<LandmarkLocation instanceId="{00f447f3-6bdc-4956-838e-ac1222071d4e}" type="POI" name="Water_park: Aquapark Bodrum" owner="RipPipPip" lat="37.0550765" lon="27.3620551" alt="500.0"/> 
+<LandmarkLocation instanceId="{9db40ff9-244c-4838-a0a3-dd8330741a1c}" type="POI" name="Temple: Kızılhisarlı Mustafa Paşa Mosque" owner="RipPipPip" lat="37.0329195" lon="27.4296855" alt="500.0"/> 
+<LandmarkLocation instanceId="{2c7bc771-68f6-485a-8643-c7d467f9b047}" type="POI" name="Temple: Panaghia" owner="RipPipPip" lat="37.156365" lon="26.8591209" alt="500.0"/> 
+<LandmarkLocation instanceId="{c346ea94-6fb8-4283-ad78-34c91930f68c}" type="POI" name="Temple: Stavros-Agios Kirykos" owner="RipPipPip" lat="36.9741515" lon="27.0173259" alt="500.0"/> 
+<LandmarkLocation instanceId="{57e7f573-0005-48a4-aeff-c95f4c87f425}" type="POI" name="Temple: Agia Rina" owner="RipPipPip" lat="36.9568585" lon="26.9715859" alt="500.0"/> 
+<LandmarkLocation instanceId="{16d7c5d6-c506-4335-bd05-c0391395a8fe}" type="POI" name="Temple: Agios Athanasios" owner="RipPipPip" lat="36.9564142" lon="26.9676847" alt="500.0"/> 
+<LandmarkLocation instanceId="{e17325d5-7c9c-4dc3-84e6-8d3cea693688}" type="POI" name="Industrial: Yalıkavak Sanayi Sitesi" owner="RipPipPip" lat="37.1160364" lon="27.3306007" alt="500.0"/> 
+<LandmarkLocation instanceId="{a6bc1a82-7466-4d43-8d11-0a054251be1e}" type="POI" name="Industrial: Bodrum Sanayi" owner="RipPipPip" lat="37.0404923" lon="27.4325092" alt="500.0"/> 
+<LandmarkLocation instanceId="{52585d44-2ce9-461e-9dba-ec2cf1c32637}" type="POI" name="Temple: Cami" owner="RipPipPip" lat="37.127938" lon="27.3462536" alt="500.0"/> 
+<LandmarkLocation instanceId="{0f158654-a392-4c8c-90a8-737491555c6b}" type="POI" name="Temple: Torba Cami" owner="RipPipPip" lat="37.0725886" lon="27.4589177" alt="500.0"/> 
+<LandmarkLocation instanceId="{8518b0aa-79b4-4ede-ac5b-4e98bf6e3382}" type="POI" name="Temple: Sülüklü Camii" owner="RipPipPip" lat="37.0996546" lon="27.3052717" alt="500.0"/> 
+<LandmarkLocation instanceId="{f401f1ed-ea4a-47b2-aef5-72f66d0654bb}" type="POI" name="Temple: Cami" owner="RipPipPip" lat="37.0377716" lon="27.3225562" alt="500.0"/> 
+<LandmarkLocation instanceId="{b0dacb98-353c-4c23-9817-cb4edbb58dcd}" type="POI" name="Archaeological_site: Bodrum Antik Tiyatro" owner="RipPipPip" lat="37.0401682" lon="27.4216066" alt="500.0"/> 
+<LandmarkLocation instanceId="{b7089792-76cf-4683-b1ad-5e98dc70ae9f}" type="POI" name="Temple: Cami" owner="RipPipPip" lat="37.0862538" lon="27.3431207" alt="500.0"/> 
+<LandmarkLocation instanceId="{131f1724-fd8e-44d0-8d51-d78a4cec2dee}" type="POI" name="Temple: Yukarı İslamhaneleri Köyü Cami" owner="RipPipPip" lat="37.0273344" lon="27.3127519" alt="500.0"/> 
+<LandmarkLocation instanceId="{86c22849-174d-44ab-beb7-22c8f9a82e53}" type="POI" name="Temple: Cami" owner="RipPipPip" lat="36.6887849" lon="27.5552678" alt="500.0"/> 
+<LandmarkLocation instanceId="{19062f64-cd11-4193-b08e-5efeb8473741}" type="POI" name="Temple: Cami" owner="RipPipPip" lat="36.6977868" lon="27.4911085" alt="500.0"/> 
+<LandmarkLocation instanceId="{7aca1a92-1f72-4518-8ea7-8fee150834e3}" type="POI" name="Temple: Cristos Sotinos" owner="RipPipPip" lat="36.9501978" lon="26.9837158" alt="500.0"/> 
+<LandmarkLocation instanceId="{5eaf28e5-74d2-43c3-a246-df453e0a4eef}" type="POI" name="Temple: Agios Georgios" owner="RipPipPip" lat="37.0463154" lon="26.927596" alt="500.0"/> 
+<LandmarkLocation instanceId="{0af9e667-b336-4025-bfd0-540390406269}" type="POI" name="Temple: Tachiarchis Michael" owner="RipPipPip" lat="36.9843045" lon="27.0039499" alt="500.0"/> 
+<LandmarkLocation instanceId="{6c88b57f-3845-4ab6-a26c-7fe6d5161e39}" type="POI" name="Archaeological_site: Damos" owner="RipPipPip" lat="36.9706666" lon="26.9474307" alt="500.0"/> 
+<LandmarkLocation instanceId="{05243cdf-57a9-4c28-98b6-2f581f4b79e4}" type="POI" name="Temple: Panagia Ton Arginondon" owner="RipPipPip" lat="37.0154125" lon="26.9697046" alt="500.0"/> 
+<LandmarkLocation instanceId="{2e35e246-4d9a-4c94-9409-00d8e26ea443}" type="POI" name="Temple: Ag. Annis" owner="RipPipPip" lat="36.9682004" lon="26.9611858" alt="500.0"/> 
+<LandmarkLocation instanceId="{49c8714f-23e9-42cd-8b5f-a7e3e322b9c6}" type="POI" name="Retail: Platanos" owner="RipPipPip" lat="37.1534488" lon="26.8566944" alt="500.0"/> 
+<LandmarkLocation instanceId="{6df1edae-853a-4a7d-aafe-8d127108c3cc}" type="POI" name="Temple: St. George" owner="RipPipPip" lat="36.9950626" lon="26.9173211" alt="500.0"/> 
+<LandmarkLocation instanceId="{654cea0a-bfea-4d76-9f9d-13a84293d678}" type="POI" name="Archaeological_site: Mausoleum at Halicarnassus" owner="RipPipPip" lat="37.0378008" lon="27.4241447" alt="500.0"/> 
+<LandmarkLocation instanceId="{81e3e63b-3c51-4c5c-aaa6-f43bb5a7f626}" type="POI" name="Industrial: Konacık Sanayi Sitesi" owner="RipPipPip" lat="37.0583097" lon="27.3838468" alt="500.0"/> 
+<LandmarkLocation instanceId="{40f665a1-f4ee-4043-a91a-4c8471545693}" type="POI" name="Castle: D.S LUXURIOUS VILLA 66" owner="RipPipPip" lat="36.8103776" lon="27.1568904" alt="500.0"/> 
+<LandmarkLocation instanceId="{43f92431-70c0-4bdc-be12-f3dee5b8c7de}" type="POI" name="Temple: Aya nikola Kilisesi" owner="RipPipPip" lat="37.0333869" lon="27.4315621" alt="500.0"/> 
+<LandmarkLocation instanceId="{e580d526-0e4b-406d-87e5-97415ba4b578}" type="POI" name="Island: Strongyli" owner="RipPipPip" lat="36.6807072" lon="27.1796005" alt="500.0"/> 
+<LandmarkLocation instanceId="{2163b637-33fd-4dce-b38a-e59743863c35}" type="POI" name="Island: Gyali" owner="RipPipPip" lat="36.66069" lon="27.1241035" alt="500.0"/> 
+<LandmarkLocation instanceId="{a12dd8e4-c41d-421a-ba8a-6ec189b62b01}" type="POI" name="Island: Leros" owner="RipPipPip" lat="37.1493666" lon="26.8282469" alt="500.0"/> 
+<LandmarkLocation instanceId="{3b45db76-89d9-49eb-8622-de924e2248c3}" type="POI" name="Island: Pserimos" owner="RipPipPip" lat="36.9396133" lon="27.1430596" alt="500.0"/> 
+<LandmarkLocation instanceId="{7e6d5ed4-262d-4bdb-8225-042e80bfa2a2}" type="POI" name="Island: Kos" owner="RipPipPip" lat="36.793677" lon="27.1365924" alt="500.0"/> 
+<LandmarkLocation instanceId="{757a2e37-3cfb-4336-a7ed-c1230e80cf58}" type="POI" name="Island: Telendos" owner="RipPipPip" lat="37.0038938" lon="26.9043566" alt="500.0"/> 
+<LandmarkLocation instanceId="{cc696323-f85e-45e9-b802-cb89b7a879e9}" type="POI" name="Island: Kalymnos" owner="RipPipPip" lat="37.002678" lon="26.9684984" alt="500.0"/> 
+<LandmarkLocation instanceId="{f3e5602f-172c-4255-b545-8cbdd5fe81f5}" type="POI" name="Scree: Kalolimnos" owner="RipPipPip" lat="37.0611782" lon="27.0890471" alt="500.0"/> 
+<LandmarkLocation instanceId="{e078a31b-70ec-46e8-a59d-5665bf1de821}" type="POI" name="Island: Safonidi" owner="RipPipPip" lat="36.8867915" lon="26.9212301" alt="500.0"/> 
+<LandmarkLocation instanceId="{f9e4f109-a2d8-4c8c-8b2d-1f73955a32d1}" type="POI" name="Island: Nera" owner="RipPipPip" lat="36.914363" lon="26.9385812" alt="500.0"/> 
+<LandmarkLocation instanceId="{843d2bdc-8138-4f42-a92b-e744db001094}" type="POI" name="Island: Kalavros" owner="RipPipPip" lat="37.0328992" lon="26.9294168" alt="500.0"/> 
+<LandmarkLocation instanceId="{0b9c859e-f62e-48eb-ad8e-7ed2efc60de3}" type="POI" name="Island: Plati" owner="RipPipPip" lat="36.9421937" lon="27.0942864" alt="500.0"/> 
+<LandmarkLocation instanceId="{b6b2b9c8-4636-430e-aecd-d6d02d3e9a1a}" type="POI" name="Island: Sari" owner="RipPipPip" lat="36.9549664" lon="27.057267" alt="500.0"/> 
+<LandmarkLocation instanceId="{24480d7c-8448-4d64-b8e1-d077b2d8dd9b}" type="POI" name="Island: Epano" owner="RipPipPip" lat="37.0048814" lon="26.8850706" alt="500.0"/> 
+<LandmarkLocation instanceId="{f8edbfcc-bc11-40b0-8000-1c2f8be56452}" type="POI" name="Rock: Gialo" owner="RipPipPip" lat="36.921653" lon="27.1481436" alt="500.0"/> 
+<LandmarkLocation instanceId="{7f96f652-e85c-4254-b0ce-5985bf8dfd72}" type="POI" name="Island: Nekrothiki" owner="RipPipPip" lat="36.9533881" lon="27.0960937" alt="500.0"/> 
+<LandmarkLocation instanceId="{fdc5639a-07f6-4854-a09a-01e1b808d8f9}" type="POI" name="Nature_reserve: Mount Sırtlan Nature Reserve" owner="RipPipPip" lat="37.1613439" lon="27.5634428" alt="500.0"/> 
+<LandmarkLocation instanceId="{c23ce4b1-33e0-4096-bb86-fd2363c75c82}" type="POI" name="Castle: Fortress of Neratzia" owner="RipPipPip" lat="36.8962971" lon="27.290157" alt="500.0"/> 

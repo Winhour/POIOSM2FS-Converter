@@ -44,32 +44,10 @@ public class JSONRivers {
         
         JSAPResult config = jsap.parse(args);  /* Encapsulates the results of JSAP's parse() methods. */
         
-        if(!config.success()){
-            System.out.println("\nThere was an error found within command line arguments, try again\n");        /*Error printed when a wrong command line argument exists */
-            helpInfo();         /*Prints out information on how to use the program*/
-        } else {
-        
-            if(config.getBoolean("help")){
-                helpInfo();
-            }
-            else {        
-                if(!config.getString("JSON").equals("none") && config.getString("CSV").equals("none")){
-                    modifyFromJSON(config);          /* Case when user wants to use JSON */
-                }
-                else if(config.getString("JSON").equals("none") && !config.getString("CSV").equals("none")){
-                    parseCSV(config);               /* Case when user wants to use CSV */
-                } 
-                else if(!config.getString("JSON").equals("none") && !config.getString("CSV").equals("none")){
-                    System.out.println("\nPlease specify only one input file");         /*Both CSV and JSON were chosen */
-                    helpInfo();
-                } 
-                else {
-                    System.out.println("\nPlease select an input file, either JSON (-j + filepath) or CSV (-c + filepath)");    /*Neither JSON nor CSV were chosen */
-                    helpInfo();
-                }
-            }
-        }
+        chooseWhatToDo(config);
     }
+    
+    /**********************************************************************************************************************************************/
     
     private static JSAP initializeJSAP(JSAP jsap) throws JSAPException{
         
@@ -84,12 +62,12 @@ public class JSONRivers {
         
         jsap.registerParameter(opt1);
         
-        FlaggedOption opt2 = new FlaggedOption("JSON")              /* JSON input file name */
+        FlaggedOption opt2 = new FlaggedOption("JSON")              /* JSON (short/rivers) input file name */
                                 .setStringParser(JSAP.STRING_PARSER)
                                 .setDefault("none") 
                                 .setRequired(true) 
                                 .setShortFlag('j') 
-                                .setLongFlag(JSAP.NO_LONGFLAG);
+                                .setLongFlag("jr");
         
         jsap.registerParameter(opt2);
         
@@ -138,6 +116,33 @@ public class JSONRivers {
         
         jsap.registerParameter(opt7);
         
+        FlaggedOption opt8 = new FlaggedOption("JSON_ALL")           /* JSON (long/all) input file name */
+                                .setStringParser(JSAP.STRING_PARSER)
+                                .setDefault("none") 
+                                .setRequired(true) 
+                                .setShortFlag(JSAP.NO_SHORTFLAG) 
+                                .setLongFlag("ja");
+        
+        jsap.registerParameter(opt8);
+        
+        FlaggedOption opt9 = new FlaggedOption("REMOVE_SENSITIVITY_THRESHOLD")           /* Sensitivity threshold for Temples */
+                                .setStringParser(JSAP.INTEGER_PARSER)
+                                .setDefault("0") 
+                                .setRequired(true) 
+                                .setShortFlag(JSAP.NO_SHORTFLAG) 
+                                .setLongFlag("rst");
+        
+        jsap.registerParameter(opt9);
+        
+        FlaggedOption opt10 = new FlaggedOption("REMOVE_SENSITIVITY_THRESHOLD_VL")           /* JSON (long/all) input file name */
+                                .setStringParser(JSAP.INTEGER_PARSER)
+                                .setDefault("0") 
+                                .setRequired(true) 
+                                .setShortFlag(JSAP.NO_SHORTFLAG) 
+                                .setLongFlag("rsv");
+        
+        jsap.registerParameter(opt10);
+        
         Switch sw1 = new Switch("help")                     /* help flag */
                         .setShortFlag('h')
                         .setLongFlag("help");
@@ -160,10 +165,51 @@ public class JSONRivers {
         
     }
     
+    /**********************************************************************************************************************************************/
+    
+    private static void chooseWhatToDo(JSAPResult config) throws IOException, FileNotFoundException, CsvException {
+        
+        if(!config.success()){
+            System.out.println("\nThere was an error found within command line arguments, try again\n");        /*Error printed when a wrong command line argument exists */
+            helpInfo();         /*Prints out information on how to use the program*/
+        } else {
+        
+            if(config.getBoolean("help")){
+                helpInfo();
+            }
+            else {        
+                if(!config.getString("JSON").equals("none") && config.getString("CSV").equals("none") && config.getString("JSON_ALL").equals("none")){
+                    modifyFromJSON(config);          /* Case when user wants to use short JSON */
+                }
+                else if(config.getString("JSON").equals("none") && config.getString("CSV").equals("none") && !config.getString("JSON_ALL").equals("none")){
+                    parseJSONAll(config);               /* Case when user wants to use long JSON */
+                }                
+                else if(config.getString("JSON").equals("none") && !config.getString("CSV").equals("none") && config.getString("JSON_ALL").equals("none")){
+                    parseCSV(config);               /* Case when user wants to use CSV */
+                } 
+                else if(!config.getString("JSON").equals("none") && !config.getString("JSON_ALL").equals("none")
+                        || !config.getString("JSON").equals("none") && !config.getString("CSV").equals("none")
+                        || !config.getString("CSV").equals("none") && !config.getString("JSON_ALL").equals("none")){
+                    System.out.println("\nPlease specify only one input file");         /*Two or more files were chosen at the same time*/
+                    helpInfo();
+                } 
+                else {
+                    System.out.println("\nPlease select an input file, either JSON (-j + filepath), "
+                            + "long JSON (--ja + filepath) or CSV (-c + filepath)");    /*Neither JSON nor CSV were chosen */
+                    helpInfo();
+                }
+            }
+        }
+        
+    }
+    
+    
+    
+    /**********************************************************************************************************************************************/
     
     private static void modifyFromJSON(JSAPResult config) throws IOException{
         
-        /*function takes the chosen JSON file and turns it into POI xml file suitable for MSFS*/
+        /*function takes the chosen short JSON file and turns it into POI xml file suitable for MSFS*/
         
         List <ElementData> listofElements = new ArrayList<>();       /* List of elements containing nodes lists */
         List <ModifiedData> finallist = new ArrayList<>();          /* List of elemenets after modification, each with specific node with lat and lon */
@@ -337,6 +383,11 @@ public class JSONRivers {
                     } else
                     {fname = y.getName();}
                     
+                    if (fname != null) {
+                        fname = fname.substring(0, 1).toUpperCase() + fname.substring(1);
+                        fname = fname.replace("\"","'");
+                    }
+                    
                     if (fname == null) fname = "(empty)";               /* If neither name exists, use empty signifier */
                     //myWriter.write(y.getType() + "| " + y.getName() + "| " + y.getEnName() + "| lat:" + y.getLat() + " | lon:" + y.getLon() + "\n");
                     
@@ -372,6 +423,7 @@ public class JSONRivers {
         
     }
     
+    /**********************************************************************************************************************************************/
     
     private static void parseCSV(JSAPResult config) throws FileNotFoundException, IOException, CsvException{
         
@@ -465,7 +517,12 @@ public class JSONRivers {
                             fname = nameEn;
                         } else {fname = name;}
 
-                        if (fname.replaceAll("\\s","").equals("")) fname = "(empty)";
+                        if (fname != null) {
+                        fname = fname.substring(0, 1).toUpperCase() + fname.substring(1);
+                        fname = fname.replace("\"","'");
+                        }
+                        
+                        if (fname == null || fname.replaceAll("\\s","").equals("")) fname = "(empty)";
                         
                         String clean = Normalizer.normalize(fname, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
                         boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
@@ -534,7 +591,13 @@ public class JSONRivers {
                             fname = nameEn;
                         } else {fname = name;}
                         
-                        if (fname.replaceAll("\\s","").equals("")) fname = "(empty)";
+                        if (fname != null) {
+                            fname = fname.substring(0, 1).toUpperCase() + fname.substring(1);
+                            fname = fname.replace("\"","'");
+                            fname = fname.replace("„","'");
+                        }
+                        
+                        if (fname == null || fname.replaceAll("\\s","").equals("")) fname = "(empty)";
                         
                         String clean = Normalizer.normalize(fname, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
                         boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
@@ -637,6 +700,330 @@ public class JSONRivers {
         
     }
     
+    /**********************************************************************************************************************************************/
+    
+    private static void parseJSONAll (JSAPResult config) throws IOException{
+        
+        /*function takes the chosen long JSON file and turns it into POI xml file suitable for MSFS*/
+        
+        List <ModifiedData> JSONAll_list = new ArrayList<>();          /* In this case elements won't be modified, since the picked node will be center, so ElementData can be skipped */
+        
+        String json_name = config.getString("JSON_ALL");
+        
+        String filepath = "./" + json_name;
+               
+        String jsonstring = readFile(filepath, StandardCharsets.UTF_8);
+        
+        JSONObject obj = new JSONObject(jsonstring);                    /* Using the org.json library for JSON parsing */
+        JSONArray arr = obj.getJSONArray("elements");
+        
+        String outputfile;
+        
+        if (config.getString("OUTPUT").equals("output")){               /* Setting the name of output file */
+            String jsn = config.getString("JSON_ALL").substring(0,config.getString("JSON_ALL").indexOf(".")+".".length());
+            jsn = jsn.substring(0, jsn.length() - 1);
+            outputfile = jsn + ".txt";
+        }
+        else {outputfile = config.getString("OUTPUT") + ".txt";}
+        
+        System.out.println("\n***********************************");                /*Information for the user about selected parameters*/
+        System.out.println("* POIOSM2FS JSON / CSV Converter  *");
+        System.out.println("***********************************\n");
+                    System.out.println("Chosen parameters:");
+                    System.out.println("FILE: " + filepath);
+                    System.out.println("LABEL: " + config.getString("LABEL"));
+                    System.out.println("OWNER: " + config.getString("OWNER"));
+                    System.out.println("ALT: " + config.getDouble("ALT"));
+                    System.out.println("OUTPUT FILE: " + outputfile);
+                    System.out.println("REMOVE_EMPTY: " + config.getBoolean("remove_empty"));
+                    System.out.println("REMOVE_NONLATIN: " + config.getBoolean("remove_nonlatin"));
+                    System.out.println("");
+        
+        
+        System.out.println("");
+        
+        Double progressPercentage;
+        
+        Double elementcounter = 0.0;
+        
+        for (int i=0;i<arr.length();i++){
+            if (arr.getJSONObject(i).has("tags"))
+                elementcounter++;
+        }
+        
+        for (int i=0;i<arr.length();i++){               /*Looking for elements within JSON*/
+            
+            if (arr.getJSONObject(i).getString("type").equals("way") || arr.getJSONObject(i).getString("type").equals("relation")){              /* Element contains multiple nodes */
+            
+                String name, nameen, type = null, ele;
+                
+                Double lat, lon;
+
+                if (arr.getJSONObject(i).has("center")){
+                    JSONObject center = arr.getJSONObject(i).getJSONObject("center");            /* Get center node for current element */
+                    
+                    if(center.has("lat")){
+                        lat = center.getDouble("lat");
+                    } else {
+                        lat = 0.0;
+                    }
+                
+                    if(center.has("lon")){
+                        lon = center.getDouble("lon");
+                    } else {
+                        lon = 0.0;
+                    }
+                } else {
+                    lat = 0.0;
+                    lon = 0.0;
+                }
+                
+                //System.out.println(lat);
+                //System.out.println(lon);
+                
+                
+                if (arr.getJSONObject(i).has("tags")){
+                    
+                    JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");               /* Contains information like name, english name etc.*/
+
+                    if(tags.has("name")){
+                        name = tags.getString("name");
+                    }
+                    else {
+                        name = null;
+                    }
+
+                    type = checkTags(type, tags);
+
+                    if(tags.has("name:en")){
+                        nameen = tags.getString("name:en");
+                    }
+                    else{
+                        nameen = null;    
+                    }
+                    
+                    if(tags.has("ele")){
+                        ele = tags.getString("ele");
+                    }
+                    else{
+                        ele = null;    
+                    }
+                    
+                } else {
+                    name = null;
+                    type = null;
+                    nameen = null;  
+                    ele = null;
+                }
+
+                /* Creating an element */
+
+                ModifiedData tempElement = new ModifiedData(name, nameen, type, lat, lon);           /* type used here */  
+                
+                if (type != null && type.equals("place_of_worship")) {
+                    type = "Temple";
+                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
+                    tempElement.setType(type);
+                    tempElement.setNT(NT);
+                    //System.out.println(NT);
+                }
+                
+                if (type != null && type.equals("village")){
+                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
+                    tempElement.setNT2(NT);
+                }
+
+                tempElement.setEle(ele);
+                
+                JSONAll_list.add(tempElement);            /* Add element to the list */
+                
+                Double d = new Double(i);
+                
+                progressPercentage = d/elementcounter;   
+                        
+                updateProgress(progressPercentage*0.99);
+                
+            }
+            
+            else if (arr.getJSONObject(i).getString("type").equals("node")){                        /*Element is a singular node */
+                
+                String name, nameen, type = null, ele;
+                
+                Double lat, lon;
+                
+                if (arr.getJSONObject(i).has("lat")){
+                    lat = arr.getJSONObject(i).getDouble("lat");
+                } else {
+                    lat = 0.0;
+                }
+                
+                if (arr.getJSONObject(i).has("lon")){
+                    lon = arr.getJSONObject(i).getDouble("lon");
+                } else {
+                    lon = 0.0;
+                }
+                
+                if (arr.getJSONObject(i).has("tags")){
+                    
+                    JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");               /* Contains information like name, english name etc.*/
+
+                    if(tags.has("name")){
+                        name = tags.getString("name");
+                    }
+                    else {
+                        name = null;
+                    }
+
+                    type = checkTags(type, tags);
+
+                    if(tags.has("name:en")){
+                        nameen = tags.getString("name:en");
+                    }
+                    else{
+                        nameen = null;    
+                    }
+                    
+                    if(tags.has("ele")){
+                        ele = tags.getString("ele");
+                    }
+                    else{
+                        ele = null;    
+                    }
+                    
+                } else {
+                    break;              /* If no tags exist, than it's just a singular node referenced somewhere else and can be ignored */
+                }
+                
+
+                
+                ModifiedData tempElement = new ModifiedData(name, nameen, type, lat, lon);           /* type used here */  
+                
+                if (type != null && type.equals("place_of_worship")) {
+                    type = "Temple";
+                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
+                    tempElement.setType(type);
+                    tempElement.setNT(NT);
+                    //System.out.println(NT);
+                }
+                
+                if (type != null && type.equals("village")){
+                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
+                    tempElement.setNT2(NT);
+                }
+                
+                tempElement.setEle(ele);
+                
+                JSONAll_list.add(tempElement);            /* Add element to the list */
+                
+                Double d = new Double(i);
+                
+                progressPercentage = d/elementcounter;   
+                        
+                updateProgress(progressPercentage*0.99);
+                
+            }
+                
+        
+        }
+        
+        System.out.print("\r");
+        System.out.print("[..................................................] 100%");
+        System.out.println("");
+        System.out.println("");
+        
+        
+        try {                                   /* Creating an output file */
+            File myObj = new File(outputfile);
+            if (myObj.createNewFile()) {
+              System.out.println("File created: " + myObj.getName());
+         } else {
+                System.out.println("File already exists.");
+         }
+         } catch (IOException e) {
+             System.out.println("An error occurred.");
+                //e.printStackTrace();
+         }
+        
+        int linecount = 0;                 /* Counter for lines in finished document */
+        String capitalTag;
+        Double modifiedAlt;
+        
+        
+        try {
+            try (FileWriter myWriter = new FileWriter(outputfile) /*Writing to the output file */ ) {
+                for (ModifiedData y: JSONAll_list){
+                    UUID uuid = UUID.randomUUID();                      /* Random UUID (universally unique identifier)*/
+                    String fname;                                       /* English name will be used if possible, if not the default name */
+                    if (y.getEnName() != null){
+                        fname = y.getEnName();
+                    } else
+                    {fname = y.getName();}
+                    
+                    if (fname != null) {
+                        fname = fname.substring(0, 1).toUpperCase() + fname.substring(1);
+                        fname = fname.replace("\"","'");
+                        fname = fname.replace("„","'");
+                        fname = fname.replace("&","and");
+                    }
+                    
+                    if (fname == null) fname = "(empty)";               /* If neither name exists, use empty signifier */
+                    
+                    String clean = Normalizer.normalize(fname, Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+                    boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
+                                || clean.substring(0,1).matches("\\(") || clean.substring(0,1).matches("\\["));
+                    
+                    if(y.getNT()>=config.getInt("REMOVE_SENSITIVITY_THRESHOLD") && y.getNT2()>=config.getInt("REMOVE_SENSITIVITY_THRESHOLD_VL")){
+                        if(y.getLat() != 0.0 || y.getLon() != 0.0){
+                            if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
+                                if(!(config.getBoolean("remove_nonlatin") && !valid)){
+                                    modifiedAlt = modifyAlt(config.getDouble("ALT"), y.getType());
+                                    if (y.getEle() == null){
+                                        if(y.getType() != null){
+                                            capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);      /*Capitalize first letter of tag*/
+                                            myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
+                                                    + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
+                                                    + modifiedAlt +"\"/> \n");
+                                            linecount++;
+                                        } else {
+                                            myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" 
+                                                    + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
+                                                    + modifiedAlt +"\"/> \n");
+                                            linecount++;
+                                        }
+                                    } else {     
+                                        if(y.getType() != null){
+                                            capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);
+                                            myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
+                                                    + fname + " " + y.getEle() + " m"
+                                                    + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
+                                                    + modifiedAlt +"\"/> \n");
+                                            linecount++;
+                                        } else {
+                                            myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" 
+                                                    + fname + " " + y.getEle() + " m"
+                                                    + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
+                                                    + modifiedAlt +"\"/> \n");
+                                            linecount++;
+                                        }
+                                    }
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+                System.out.println("Successfully wrote to the file.");
+            } catch (IOException e) {
+                    System.out.println("An error occurred.");
+                    //e.printStackTrace();
+                }
+            
+            System.out.println("Number of lines: " + linecount);
+        
+    }
+    
+    
+    /**********************************************************************************************************************************************/
     
     static String readFile(String path, Charset encoding)           /*Simple filereader with charset encoding*/
     throws IOException
@@ -644,6 +1031,9 @@ public class JSONRivers {
         byte[] encoded = Files.readAllBytes(Paths.get(path));
         return new String(encoded, encoding);
     }
+    
+   /**********************************************************************************************************************************************/
+    
     
     private static ModifiedData modifyElements(ElementData ed, JSONArray arr, long id){     /* Turning ElementDatas into ModifiedData */
         
@@ -668,6 +1058,75 @@ public class JSONRivers {
         return modifiedElement;
     }
     
+    /**********************************************************************************************************************************************/
+    
+    static String checkTags(String type, JSONObject tags){
+
+                    if(tags.has("waterway")){
+                        type = tags.getString("waterway");
+                    }
+                    else if (tags.has("icao")){
+                        type = tags.getString("icao");
+                    }
+                    else if(tags.has("water")){
+                        type = tags.getString("water");
+                    }
+                    else if (tags.has("building") && !tags.getString("building").equals("yes")){
+                        type = tags.getString("building");
+                    }
+                    else if(tags.has("military") && !tags.getString("military").equals("yes")){
+                        type = tags.getString("military");
+                    }
+                    else if (tags.has("amenity")){
+                        type = tags.getString("amenity");
+                    }
+                    else if (tags.has("historic")){
+                        type = tags.getString("historic");
+                    }
+                    else if (tags.has("place")){
+                        type = tags.getString("place");
+                    }
+                    else if(tags.has("leisure")){
+                        type = tags.getString("leisure");
+                    }
+                    else if(tags.has("natural")){
+                        type = tags.getString("natural");
+                    }
+                    else if (tags.has("information")){
+                        type = tags.getString("information");
+                    }
+                    else if (tags.has("tourism")){
+                        type = tags.getString("tourism");
+                    }
+                    else if (tags.has("landuse")){
+                        type = tags.getString("landuse");
+                    }
+                    else if (tags.has("railway")){
+                        type = "Railway_station";
+                    }
+                    else {
+                        type = null;    
+                    }
+                    
+                    if (type != null && type.equals("intermittent")) type = "Natural";
+                    if (type != null && type.equals("yes")) type = null;
+        
+        return type;
+    }
+    
+    /**********************************************************************************************************************************************/
+    
+    static Double modifyAlt(Double Alt, String type) {
+        
+        if (type != null && type.equals("village")) Alt += 100;
+        if (type != null && type.equals("city")) Alt += 200;
+        if (type != null && type.equals("town")) Alt += 200;
+        
+        return Alt;
+    }
+    
+    
+    /**********************************************************************************************************************************************/
     
     static void updateProgress(double progressPercentage) {     /* Percentage Progress Bar*/
         final int width = 50; // progress bar width in chars
@@ -681,9 +1140,9 @@ public class JSONRivers {
           System.out.print(" ");
         }
         System.out.print("] " + (int)(progressPercentage*102) + "%");
-  }
+    }
     
-    
+    /**********************************************************************************************************************************************/
     
     private static void helpInfo(){                     /*Prints out information on how to use the program*/
         
@@ -691,7 +1150,8 @@ public class JSONRivers {
         System.out.println("* POIOSM2FS JSON / CSV Converter  *");
         System.out.println("***********************************\n");
         System.out.println("\nHow to use:\n");
-        System.out.println("-j (json_file_path) selects a JSON file to use");
+        System.out.println("-j or --jr (json_file_path) selects a short JSON file to use (prepared for rivers)");
+        System.out.println("--ja (json_file_path) selects a long JSON file to use (containing various elements such as: rivers, ruins, peaks etc.)");
         System.out.println("-c (csv_file_path) selects a CSV file to use");
         System.out.println("-s (Integer) selects the interval between chosen nodes, applies only to Json (default is 10)");
         System.out.println("-l (String) alows to add a label in front of element's name ex. Ruins: ruinsname");
@@ -700,11 +1160,14 @@ public class JSONRivers {
         System.out.println("-o (filename) allows the user to choose the output file");
         System.out.println("--rn removes lines with names made up of nonlatin characters");
         System.out.println("--re removes lines with empty names");
+        System.out.println("--rst (Integer) removes elements with type 'Temple' which have number of tags greater than or equal to chosen threshold");
+        System.out.println("--rsv (Integer) removes elements with type 'Village' which have number of tags greater than or equal to chosen threshold");
         System.out.println("\nExample:\n");
         System.out.println("java -jar \"POIOSM2FS.jar\" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re");
         System.out.println("java -jar \"POIOSM2FS.jar\" -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki\n");
+        System.out.println("java -jar POIOSM2FS.jar --ja all.json\n");
     }
     
+    /**********************************************************************************************************************************************/
     
-    
-    }
+}

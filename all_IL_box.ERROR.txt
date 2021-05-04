@@ -1,0 +1,20 @@
+$ java -jar POIOSM2FS.jar --ja all_IL_box.json --re
+
+***********************************
+* POIOSM2FS JSON / CSV Converter  *
+***********************************
+
+Chosen parameters:
+FILE: ./all_IL_box.json
+LABEL: none
+OWNER: RipPipPip
+ALT: 500.0
+OUTPUT FILE: all_IL_box.txt
+REMOVE_EMPTY: true
+REMOVE_NONLATIN: false
+
+
+[.........                                         ] 16%Exception in thread "main" java.lang.NullPointerException
+	at jsonrivers.JSONRivers.parseJSONAll(JSONRivers.java:934)
+	at jsonrivers.JSONRivers.chooseWhatToDo(JSONRivers.java:167)
+	at jsonrivers.JSONRivers.main(JSONRivers.java:47)

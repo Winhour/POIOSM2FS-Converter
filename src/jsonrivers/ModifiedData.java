@@ -13,6 +13,9 @@ public class ModifiedData {
     
     private String name, name_en, type;
     private double lat, lon;
+    private String elevation = null;
+    private int noofTags = 100;             /* Tags for Temples */
+    private int noofTags2 = 100;            /* Tags for Villages */
     
     public ModifiedData (String name, String name_en, String type, double lat, double lon){
         this.name = name;
@@ -34,6 +37,12 @@ public class ModifiedData {
         return type;
     }
     
+    public void setType(String type){
+        
+        this.type = type;
+        
+    }
+    
     public double getLat(){
         return lat;
     }
@@ -41,6 +50,37 @@ public class ModifiedData {
     public double getLon(){
         return lon;
     }
-
+    
+    public String getEle(){
+        return elevation;
+    }
+    
+    public void setEle(String elevation){
+        
+        this.elevation = elevation;
+        
+    }
+    
+    public int getNT(){
+        return noofTags;
+    }
+    
+    public void setNT(int NT){
+        
+        this.noofTags = NT;
+        
+    }
+    
+    
+    public int getNT2(){
+        return noofTags;
+    }
+    
+    public void setNT2(int NT){
+        
+        this.noofTags = NT;
+        
+    }
+    
     
 }
