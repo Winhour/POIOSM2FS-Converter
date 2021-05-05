@@ -569,7 +569,8 @@ public class JSONRivers {
                     System.out.println("");
                     System.out.println("");
                 }   break;
-            case "ele":
+            case "ele":                     
+                /* Case when elevation is included is the CSV file */
                 try (Scanner sc = new Scanner(csvstring).useDelimiter("\\s*\\|\\s*"))
                 {
                     sc.nextLine();
@@ -659,7 +660,7 @@ public class JSONRivers {
                     System.out.println("");
                     
                 }   break;
-            default:
+            default:            /* Case if the CSV file doesn't match required structure */
                 System.out.println("The parameters in the CSV file are not supported, check if they contain values other than id, lat, lon, "
                         + "name, nameEN, ele, description and wikipedia");
                 return;
