@@ -113,6 +113,7 @@ public class ParseCSV {
                         
                         
                         UUID uuid = UUID.randomUUID();
+                        String fuuid = uuid.toString().toUpperCase();
                         
                         String fname;
                         if (!nameEn.replaceAll("\\s","").equals("")){
@@ -140,13 +141,13 @@ public class ParseCSV {
                         if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
                             if(!(config.getBoolean("remove_nonlatin") && !valid)){
                                 if (!config.getString("LABEL").equals("none")) {   
-                                    FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
+                                    FINALSTRING += ("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
                                             + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
                                             + config.getDouble("ALT") +"\"/> \n");
                                     linecount++;
                                 }
                                 else{
-                                    FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\""
+                                    FINALSTRING += ("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\""
                                             + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
                                             + config.getDouble("ALT") +"\"/> \n");
                                     linecount++;
@@ -188,6 +189,7 @@ public class ParseCSV {
                         
                         
                         UUID uuid = UUID.randomUUID();
+                        String fuuid = uuid.toString().toUpperCase();
                         
                         String fname;
                         if (!nameEn.replaceAll("\\s","").equals("")){
@@ -210,14 +212,14 @@ public class ParseCSV {
                             if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){
                                 if(!(config.getBoolean("remove_nonlatin") && !valid)){
                                     if (!config.getString("LABEL").equals("none")) {
-                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
+                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
                                                 + fname + " " + eleValue + "m"
                                                 + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
                                                 + config.getDouble("ALT") +"\"/> \n");
                                         linecount++;
                                     }
                                     else{
-                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\""
+                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\""
                                                 + fname + " " + eleValue + "m"
                                                 + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
                                                 + config.getDouble("ALT") +"\"/> \n");
@@ -229,13 +231,13 @@ public class ParseCSV {
                             if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){
                                 if(!(config.getBoolean("remove_nonlatin") && !valid)){
                                     if (!config.getString("LABEL").equals("none")) {
-                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
+                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
                                                 + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
                                                 + config.getDouble("ALT") +"\"/> \n");
                                         linecount++;
                                     }
                                     else{
-                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\""
+                                        FINALSTRING += ("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\""
                                                 + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + lat + "\" lon=\"" + lon + "\" alt=\""
                                                 + config.getDouble("ALT") +"\"/> \n");
                                         linecount++;

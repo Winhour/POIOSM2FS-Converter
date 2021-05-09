@@ -194,6 +194,7 @@ public class ModifyFromJSON {
             try (FileWriter myWriter = new FileWriter(outputfile) /*Writing to the output file */ ) {
                 for (ModifiedData y: finallist){
                     UUID uuid = UUID.randomUUID();                      /* Random UUID (universally unique identifier)*/
+                    String fuuid = uuid.toString().toUpperCase();       /* UUID to uppercase */
                     String fname;                                       /* English name will be used if possible, if not the default name */
                     if (y.getEnName() != null){
                         fname = y.getEnName();
@@ -216,12 +217,12 @@ public class ModifyFromJSON {
                     if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
                         if(!(config.getBoolean("remove_nonlatin") && !valid)){
                             if(!config.getString("LABEL").equals("none")){
-                                myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
+                                myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + config.getString("LABEL") + ": "
                                         + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
                                         + config.getDouble("ALT") +"\"/> \n");
                                 linecount++;
                             } else {
-                                myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\""
+                                myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\""
                                         + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
                                         + config.getDouble("ALT") +"\"/> \n");
                                 linecount++;

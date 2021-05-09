@@ -6,6 +6,14 @@
 package poiosm2fs;
 
 import com.martiansoftware.jsap.JSAPResult;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Rectangle;
+import java.awt.RenderingHints;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -14,11 +22,13 @@ import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+import javax.imageio.ImageIO;
 import static poiosm2fs.Main_POIOSM2FS.checkFname;
 import static poiosm2fs.Main_POIOSM2FS.checkTags;
 import static poiosm2fs.Main_POIOSM2FS.modifyAlt;
 import static poiosm2fs.Main_POIOSM2FS.readFile;
 import static poiosm2fs.Main_POIOSM2FS.updateProgress;
+import static poiosm2fs.GraphicsInteraction.texttoGraphics;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -63,6 +73,12 @@ public class ParseJSONAll {
                     System.out.println("OUTPUT FILE: " + outputfile);
                     System.out.println("REMOVE_EMPTY: " + config.getBoolean("remove_empty"));
                     System.out.println("REMOVE_NONLATIN: " + config.getBoolean("remove_nonlatin"));
+                    if (config.getBoolean("textures")){
+                        String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());
+                        jsn = jsn.substring(0, jsn.length() - 1);
+                        System.out.println("TEXTURES: ./texture_" + jsn);
+                        System.out.println("TEXTURE_WIDTH: " + config.getInt("TEXTURE_WIDTH"));
+                    }
                     System.out.println("");
         
         
@@ -271,7 +287,7 @@ public class ParseJSONAll {
          }
         
         int linecount = 0;                 /* Counter for lines in finished document */
-        String capitalTag;
+        String capitalTag = "";
         Double modifiedAlt;
         
         
@@ -279,6 +295,7 @@ public class ParseJSONAll {
             try (FileWriter myWriter = new FileWriter(outputfile) /*Writing to the output file */ ) {
                 for (ModifiedData y: JSONAll_list){
                     UUID uuid = UUID.randomUUID();                      /* Random UUID (universally unique identifier)*/
+                    String fuuid = uuid.toString().toUpperCase();       /* UUID changed to upper-case */
                     String fname;                                       /* English name will be used if possible, if not the default name */
                     if (y.getEnName() != null){
                         fname = y.getEnName();
@@ -299,33 +316,39 @@ public class ParseJSONAll {
                                     if (y.getEle() == null){
                                         if(y.getType() != null){
                                             capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);      /*Capitalize first letter of tag*/
-                                            myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
+                                            myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
                                                     + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
                                                     + modifiedAlt +"\"/> \n");
-                                            linecount++;
                                         } else {
-                                            myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" 
+                                            myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" 
                                                     + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
                                                     + modifiedAlt +"\"/> \n");
-                                            linecount++;
                                         }
                                     } else {     
                                         if(y.getType() != null){
                                             capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);
-                                            myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
+                                            myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
                                                     + fname + " " + y.getEle() + " m"
                                                     + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
                                                     + modifiedAlt +"\"/> \n");
-                                            linecount++;
                                         } else {
-                                            myWriter.write("<LandmarkLocation instanceId=\"{" + uuid + "}\" type=\"POI\" name=\"" 
+                                            myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" 
                                                     + fname + " " + y.getEle() + " m"
                                                     + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
                                                     + modifiedAlt +"\"/> \n");
-                                            linecount++;
                                         }
                                     }
+                                        linecount++;
+                                        if(config.getBoolean("textures")){
+                                            String formatted = String.format("%05d", linecount);
+                                            String jsn = config.getString("JSON_ALL").substring(0,config.getString("JSON_ALL").indexOf(".")+".".length());
+                                            jsn = jsn.substring(0, jsn.length() - 1);
+                                            new File(System.getProperty("user.dir") + "/texture_" + jsn  + "/POI_" + formatted).mkdirs();
+                                            texttoGraphics(capitalTag + ": " + fname, config, formatted, config.getInt("TEXTURE_WIDTH"));
+                                            capitalTag = "";
+                                        }
                                 }
+                                //Files.createDirectories(Paths.get("/test/test" + linecount));   
                             } 
                         }
                     }

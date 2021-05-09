@@ -135,6 +135,15 @@ public class Main_POIOSM2FS {
         
         jsap.registerParameter(opt10);
         
+        FlaggedOption opt11 = new FlaggedOption("TEXTURE_WIDTH")           /* Texture width */
+                                .setStringParser(JSAP.INTEGER_PARSER)
+                                .setDefault("350") 
+                                .setRequired(true) 
+                                .setShortFlag(JSAP.NO_SHORTFLAG) 
+                                .setLongFlag("txw");
+        
+        jsap.registerParameter(opt11);
+        
         Switch sw1 = new Switch("help")                     /* help flag */
                         .setShortFlag('h')
                         .setLongFlag("help");
@@ -150,8 +159,15 @@ public class Main_POIOSM2FS {
         Switch sw3 = new Switch("remove_nonlatin")        /* flag used for removal of elements starting with nonlatin characters */
                         .setShortFlag(JSAP.NO_SHORTFLAG)
                         .setLongFlag("rn");
-
+        
         jsap.registerParameter(sw3);
+        
+        Switch sw4 = new Switch("textures")                     /* make texture folders */
+                        .setShortFlag('t')
+                        .setLongFlag("textures");
+
+        jsap.registerParameter(sw4);
+
         
         return jsap;
         
@@ -165,7 +181,7 @@ public class Main_POIOSM2FS {
             System.out.println("\nThere was an error found within command line arguments, try again\n");        /*Error printed when a wrong command line argument exists */
             helpInfo();         /*Prints out information on how to use the program*/
         } else {
-        
+            
             if(config.getBoolean("help")){
                 helpInfo();
             }
@@ -324,10 +340,12 @@ public class Main_POIOSM2FS {
         System.out.println("--re removes lines with empty names");
         System.out.println("--rst (Integer) removes elements with type 'Temple' which have number of tags greater than or equal to chosen threshold");
         System.out.println("--rsv (Integer) removes elements with type 'Village' which have number of tags greater than or equal to chosen threshold");
+        System.out.println("-t makes folder with .png files for textures");
+        System.out.println("--txw (Integer) sets width for the textures (default = 350)");
         System.out.println("\nExample:\n");
         System.out.println("java -jar \"POIOSM2FS.jar\" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re");
-        System.out.println("java -jar \"POIOSM2FS.jar\" -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki\n");
-        System.out.println("java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10\n");
+        System.out.println("java -jar \"POIOSM2FS.jar\" -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki");
+        System.out.println("java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10 -t\n");
     }
     
     /**********************************************************************************************************************************************/
