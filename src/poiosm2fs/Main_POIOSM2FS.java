@@ -224,7 +224,7 @@ public class Main_POIOSM2FS {
     
     static String checkTags(String type, JSONObject tags){            /* Checking tags for elements, mostly in an order that makes sense, but might need slight fixes later if necessary */
 
-                    if(tags.has("waterway")){
+                    if(tags.has("waterway") && !tags.getString("waterway").equals("yes")){
                         type = tags.getString("waterway");
                     }
                     else if (tags.has("icao")){                         /*icao (International Civil Aviation Organization) refers to special code assigned to airports*/
@@ -239,10 +239,10 @@ public class Main_POIOSM2FS {
                     else if(tags.has("military") && !tags.getString("military").equals("yes")){
                         type = tags.getString("military");
                     }
-                    else if (tags.has("amenity")){
+                    else if (tags.has("amenity") && !tags.getString("amenity").equals("yes")){
                         type = tags.getString("amenity");
                     }
-                    else if (tags.has("historic")){
+                    else if (tags.has("historic") && !tags.getString("historic").equals("yes")){
                         type = tags.getString("historic");
                     }
                     else if (tags.has("place")){
@@ -338,8 +338,8 @@ public class Main_POIOSM2FS {
         System.out.println("-o (filename) allows the user to choose the output file");
         System.out.println("--rn removes lines with names made up of nonlatin characters");
         System.out.println("--re removes lines with empty names");
-        System.out.println("--rst (Integer) removes elements with type 'Temple' which have number of tags greater than or equal to chosen threshold");
-        System.out.println("--rsv (Integer) removes elements with type 'Village' which have number of tags greater than or equal to chosen threshold");
+        System.out.println("--rst (Integer) removes elements with type 'Temple' which have number of tags less than or equal to the chosen threshold");
+        System.out.println("--rsv (Integer) removes elements with type 'Village' which have number of tags less than or equal to the chosen threshold");
         System.out.println("-t makes folder with .png files for textures");
         System.out.println("--txw (Integer) sets width for the textures (default = 350)");
         System.out.println("\nExample:\n");

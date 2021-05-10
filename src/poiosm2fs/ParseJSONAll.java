@@ -6,14 +6,6 @@
 package poiosm2fs;
 
 import com.martiansoftware.jsap.JSAPResult;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -22,7 +14,6 @@ import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-import javax.imageio.ImageIO;
 import static poiosm2fs.Main_POIOSM2FS.checkFname;
 import static poiosm2fs.Main_POIOSM2FS.checkTags;
 import static poiosm2fs.Main_POIOSM2FS.modifyAlt;
@@ -279,7 +270,7 @@ public class ParseJSONAll {
             if (myObj.createNewFile()) {
               System.out.println("File created: " + myObj.getName());
          } else {
-                System.out.println("File already exists.");
+                System.out.println("File " + myObj.getName() + " already exists.");
          }
          } catch (IOException e) {
              System.out.println("An error occurred.");
@@ -290,6 +281,17 @@ public class ParseJSONAll {
         String capitalTag = "";
         Double modifiedAlt;
         
+        if(config.getBoolean("textures")){
+            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
+            jsn = jsn.substring(0, jsn.length() - 1);
+            File dirfile = new File(System.getProperty("user.dir") + "/texture_" + jsn);
+            System.out.println("");
+            if (dirfile.exists()){
+                deleteDirectory(dirfile);
+                System.out.println("Deleted directory: " + dirfile + "\n");
+            }
+            System.out.println("Created directory: " + dirfile + "\n");
+        }
         
         try {
             try (FileWriter myWriter = new FileWriter(outputfile) /*Writing to the output file */ ) {
@@ -341,9 +343,12 @@ public class ParseJSONAll {
                                         linecount++;
                                         if(config.getBoolean("textures")){
                                             String formatted = String.format("%05d", linecount);
-                                            String jsn = config.getString("JSON_ALL").substring(0,config.getString("JSON_ALL").indexOf(".")+".".length());
+                                            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
                                             jsn = jsn.substring(0, jsn.length() - 1);
-                                            new File(System.getProperty("user.dir") + "/texture_" + jsn  + "/POI_" + formatted).mkdirs();
+                                            /* Each POI requires a subdirectory for model and texture */
+                                            new File(System.getProperty("user.dir") + "/texture_" + jsn + "/POI_" + formatted + "/model").mkdirs(); 
+                                            new File(System.getProperty("user.dir") + "/texture_" + jsn + "/POI_" + formatted + "/texture").mkdirs();
+                                            /* Function creating texture for a POI (from GraphicsInteraction) */
                                             texttoGraphics(capitalTag + ": " + fname, config, formatted, config.getInt("TEXTURE_WIDTH"));
                                             capitalTag = "";
                                         }
@@ -354,14 +359,24 @@ public class ParseJSONAll {
                     }
                 }
             }
-                System.out.println("Successfully wrote to the file.");
+                System.out.println("Successfully wrote to the file: " + outputfile);
             } catch (IOException e) {
                     System.out.println("An error occurred.");
                     //e.printStackTrace();
                 }
             
-            System.out.println("Number of lines: " + linecount);
+            System.out.println("\nNumber of lines: " + linecount + "\n");
         
+    }
+    
+    static boolean deleteDirectory(File directoryToBeDeleted) {                /* Recursive function to delete a directory and all subdirectories */
+        File[] allContents = directoryToBeDeleted.listFiles();
+        if (allContents != null) {
+            for (File file : allContents) {
+                deleteDirectory(file);
+            }
+        }
+        return directoryToBeDeleted.delete();
     }
     
 }

@@ -10,9 +10,12 @@ package poiosm2fs;
  * @author Marcin
  */
 public class ModifiedData {
-    
-    private String name, name_en, type;
-    private double lat, lon;
+
+    private final String name;
+    private final String name_en;
+    private String type;
+    private final double lat;
+    private final double lon;
     private String elevation = null;
     private int noofTags = 100;             /* Tags for Temples */
     private int noofTags2 = 100;            /* Tags for Villages */
@@ -73,12 +76,12 @@ public class ModifiedData {
     
     
     public int getNT2(){
-        return noofTags;
+        return noofTags2;
     }
     
     public void setNT2(int NT){
         
-        this.noofTags = NT;
+        this.noofTags2 = NT;
         
     }
     

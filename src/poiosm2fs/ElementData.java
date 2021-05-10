@@ -13,10 +13,11 @@ import java.util.List;
  * @author Marcin
  */
 public class ElementData {
-    
-    
-    private String name, name_en, type;
-    private List <Long> nodes_list;
+
+    private final String name;
+    private final String name_en;
+    private final String type;
+    private final List <Long> nodes_list;
     private long middle_node;
     
     public ElementData(String name, String name_en, String type){
@@ -24,7 +25,7 @@ public class ElementData {
         this.name_en = name_en;
         this.type = type;
         this.middle_node = 0;
-        this.nodes_list = new ArrayList<Long>();
+        this.nodes_list = new ArrayList<>();
     }
     
     public void setMiddle(long newMiddle){
