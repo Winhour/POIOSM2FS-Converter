@@ -27,4 +27,4 @@ Example:  <br />
 
 java -jar "JSONRivers.jar" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re  <br />
 java -jar JSONRivers.jar -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki  <br />
-java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10 -t\n  <br />
+java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10 -t  <br />
