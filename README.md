@@ -6,25 +6,25 @@ Program converting JSON/CSV files, which contain information about interesting l
 ***********************************
 
 
-How to use:
+How to use:  <br />
 
 -j (json_file_path) selects a JSON file to use <br />
 -c (csv_file_path) selects a CSV file to use <br />
 -s (Integer) selects the interval between chosen nodes <br />
 -l (String) alows to add a label in front of element's name <br />
--w (String) specifies the owner
--a (Double) specifies the altitude
--o (filename) allows the user to choose the output file
---rn removes lines with names made up of nonlatin characters
---re removes lines with empty names
---rst (Integer) removes elements with type 'Temple' which have number of tags less than or equal to the chosen threshold
---rsv (Integer) removes elements with type 'Village' which have number of tags less than or equal to the chosen threshold
--t makes folder containing subfolders [texture] with .png files for textures and [model] for future models
---txw (Integer) sets width for the textures (default = 350)
+-w (String) specifies the owner  <br />
+-a (Double) specifies the altitude  <br />
+-o (filename) allows the user to choose the output file  <br />
+--rn removes lines with names made up of nonlatin characters  <br />
+--re removes lines with empty names  <br />
+--rst (Integer) removes elements with type 'Temple' which have number of tags less than or equal to the chosen threshold  <br />
+--rsv (Integer) removes elements with type 'Village' which have number of tags less than or equal to the chosen threshold  <br />
+-t makes folder containing subfolders [texture] with .png files for textures and [model] for future models  <br />
+--txw (Integer) sets width for the textures (default = 350)  <br />
 
 
-Example:
+Example:  <br />
 
-java -jar "JSONRivers.jar" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re
-java -jar JSONRivers.jar -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki
-java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10 -t\n
+java -jar "JSONRivers.jar" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re  <br />
+java -jar JSONRivers.jar -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki  <br />
+java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10 -t\n  <br />
