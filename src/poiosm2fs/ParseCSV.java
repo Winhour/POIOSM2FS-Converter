@@ -37,10 +37,6 @@ public class ParseCSV {
         
         String csvstring = readFile(filepath, StandardCharsets.UTF_8);
         
-        //System.out.println(filepath);
-        
-        //File file = new File(filepath);
-        
         String outputfile;
         
         if (config.getString("OUTPUT").equals("output")){
@@ -131,13 +127,7 @@ public class ParseCSV {
                         boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
                                 || clean.substring(0,1).matches("\\(") || clean.substring(0,1).matches("\\["));
                         
-                        
-                        
-                        //System.out.println(fname + " " + clean.substring(0,1) + " " + valid);
-                        
-                        //System.out.println(config.getBoolean("remove_empty") + " " + fname.equals("(empty)") + " " + config.getBoolean("remove_nonlatin") + " " + valid);
-                        
-                        
+
                         if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
                             if(!(config.getBoolean("remove_nonlatin") && !valid)){
                                 if (!config.getString("LABEL").equals("none")) {   
@@ -172,6 +162,7 @@ public class ParseCSV {
                     System.out.println("");
                     System.out.println("");
                 }   break;
+                
             case "ele":                     
                 /* Case when elevation is included is the CSV file */
                 try (Scanner sc = new Scanner(csvstring).useDelimiter("\\s*\\|\\s*"))
@@ -201,10 +192,6 @@ public class ParseCSV {
                         String clean = Normalizer.normalize(fname, Normalizer.Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
                         boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
                                 || clean.substring(0,1).matches("\\(") || clean.substring(0,1).matches("\\["));
-                        
-                        //System.out.println(fname + " " + clean.substring(0,1) + " " + valid);
-                        
-                        //System.out.println(config.getBoolean("remove_empty") + " " + fname.equals("(empty)") + " " + config.getBoolean("remove_nonlatin") + " " + valid);
                         
                         if (!eleValue.replaceAll("\\s","").equals("")){
                             

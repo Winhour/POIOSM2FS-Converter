@@ -111,10 +111,6 @@ public class ParseJSONAll {
                     lon = 0.0;
                 }
                 
-                //System.out.println(lat);
-                //System.out.println(lon);
-                
-                
                 if (arr.getJSONObject(i).has("tags")){
                     
                     JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");               /* Contains information like name, english name etc.*/
