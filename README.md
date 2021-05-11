@@ -8,10 +8,10 @@ Program converting JSON/CSV files, which contain information about interesting l
 
 How to use:
 
--j (json_file_path) selects a JSON file to use
--c (csv_file_path) selects a CSV file to use
--s (Integer) selects the interval between chosen nodes
--l (String) alows to add a label in front of element's name
+-j (json_file_path) selects a JSON file to use <br />
+-c (csv_file_path) selects a CSV file to use <br />
+-s (Integer) selects the interval between chosen nodes <br />
+-l (String) alows to add a label in front of element's name <br />
 -w (String) specifies the owner
 -a (Double) specifies the altitude
 -o (filename) allows the user to choose the output file
