@@ -14,11 +14,11 @@ import java.util.List;
  */
 public class ElementData {
 
-    private final String name;
-    private final String name_en;
-    private final String type;
-    private final List <Long> nodes_list;
-    private long middle_node;
+    private final String name;          /* Default name */
+    private final String name_en;       /* English name */
+    private final String type;          /* Type of element */
+    private final List <Long> nodes_list;   /* List of nodes */
+    private long middle_node;               /* Central node */
     
     public ElementData(String name, String name_en, String type){
         this.name = name;

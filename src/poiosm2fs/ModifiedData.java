@@ -11,12 +11,12 @@ package poiosm2fs;
  */
 public class ModifiedData {
 
-    private final String name;
-    private final String name_en;
-    private String type;
-    private final double lat;
-    private final double lon;
-    private String elevation = null;
+    private final String name;             /* Default name */
+    private final String name_en;          /* English name */
+    private String type;                   /* Type of element */
+    private final double lat;               /* Latitude */
+    private final double lon;               /* Longitude */
+    private String elevation = null;        /* Elevation */
     private int noofTags = 100;             /* Tags for Temples */
     private int noofTags2 = 100;            /* Tags for Villages */
     

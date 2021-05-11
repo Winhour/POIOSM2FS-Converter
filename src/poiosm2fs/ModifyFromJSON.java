@@ -30,24 +30,15 @@ public class ModifyFromJSON {
         
         List <ElementData> listofElements = new ArrayList<>();       /* List of elements containing nodes lists */
         List <ModifiedData> finallist = new ArrayList<>();          /* List of elemenets after modification, each with specific node with lat and lon */
-        //int nodeinterval = 30; 
-        //String json_name = "rzeki.json";
-        
-        //int nodeinterval = parseInt(args[0]);
+
         
         int nodeinterval = config.getInt("STEP");
-        
-        //String json_name = args[1];
         
         String json_name = config.getString("JSON");
                
         String filepath = "./" + json_name;
         
-        //System.out.println(filepath);
-        
         String jsonstring = readFile(filepath, StandardCharsets.UTF_8);
-        
-        //System.out.print(jsonstring); /* test jsona */
         
         JSONObject obj = new JSONObject(jsonstring);                    /* Using the org.json library for JSON parsing */
         JSONArray arr = obj.getJSONArray("elements");
@@ -85,35 +76,21 @@ public class ModifyFromJSON {
             String name, nameen, type;
             long midnode;
             
-            //String test1 = arr.getJSONObject(i).getString("type");
-            //System.out.println(test1);
-            //int test2 = arr.getJSONObject(i).getInt("id");
-            //System.out.println(test2);
-
             JSONArray arrnodes = arr.getJSONObject(i).getJSONArray("nodes");            /* Get nodes for current element */
-            //int[] numbers = new int[arrnodes.length()];
-            
-            //List <Integer> numbersl = new ArrayList<Integer>();
             
             midnode = arrnodes.optLong(arrnodes.length()/2);                            /* Get the middle node, which might be used in case there aren't enough nodes for the interval */
-            //System.out.println(midnode);
             
-
             JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");               /* Contains information like name, english name etc.*/
             
             if(tags.has("name")){
-                name = tags.getString("name");
-            //System.out.println(test4);
+                name = tags.getString("name");;
             }
             else {
                 name = null;
             }
 
-            //String test5 = tags.getString("waterway");
-            //System.out.println(test5);
             if(tags.has("waterway")){
                 type = tags.getString("waterway");
-            //System.out.println(test6);
             }
             else{
                 type = null;    
@@ -121,7 +98,6 @@ public class ModifyFromJSON {
 
             if(tags.has("name:en")){
                 nameen = tags.getString("name:en");
-            //System.out.println(test6);
             }
             else{
                 nameen = null;    
@@ -134,7 +110,6 @@ public class ModifyFromJSON {
             if (arrnodes.length() > nodeinterval+1){
                                
                 for (int j = 0; j < arrnodes.length(); j = j+nodeinterval) {         /* filling list of nodes */
-                    //numbers[i] = arrnodes.optInt(i);
                     tempElement.addToNodesList(arrnodes.optLong(j));
                     //System.out.println(arrnodes.optLong(j));
                     if (j+nodeinterval > arrnodes.length()) break;
@@ -146,14 +121,10 @@ public class ModifyFromJSON {
             listofElements.add(tempElement);            /* Add element to the list */
         
         }
-        
-        //int elementcount = 0;              /* Counter for elements */
-        //double progressPercentage = 0;
-        
+
         
         listofElements.forEach((ElementData x) -> {
             /* Creating the list of modified elements */
-            //System.out.println(x.getEnName());
             
             if (x.getMiddleNode() != 0){                /*Case when we need to use the middle node */
                 ModifiedData tempmod;
@@ -170,12 +141,7 @@ public class ModifyFromJSON {
             }
         });      
 
-        
-        /*for (ModifiedData y: finallist){
-            System.out.println(y.getType() + " " + y.getName() + " " + y.getEnName() + " lat:" + y.getLat() + " lon:" + y.getLon());
-        }*/
-        
-        
+
         try {                                   /* Creating an output file */
             File myObj = new File(outputfile);
             if (myObj.createNewFile()) {
@@ -207,7 +173,6 @@ public class ModifyFromJSON {
                     }
                     
                     if (fname == null) fname = "(empty)";               /* If neither name exists, use empty signifier */
-                    //myWriter.write(y.getType() + "| " + y.getName() + "| " + y.getEnName() + "| lat:" + y.getLat() + " | lon:" + y.getLon() + "\n");
                     
                     String clean = Normalizer.normalize(fname, Normalizer.Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
                     boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
@@ -256,10 +221,7 @@ public class ModifyFromJSON {
             
         }
         
-        
         ModifiedData modifiedElement = new ModifiedData(ed.getName(), ed.getEnName(), ed.getType(), lat, lon);
-        
-        //System.out.println(modifiedElement.getType() + " " + modifiedElement.getName() + " " + modifiedElement.getEnName() + " lat:" + modifiedElement.getLat() + " lon:" + modifiedElement.getLon());
         
         return modifiedElement;
     }
