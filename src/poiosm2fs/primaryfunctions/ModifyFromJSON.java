@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poiosm2fs;
+package poiosm2fs.primaryfunctions;
 
 import com.martiansoftware.jsap.JSAPResult;
 import java.io.File;
@@ -14,9 +14,11 @@ import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-import static poiosm2fs.Main_POIOSM2FS.readFile;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import poiosm2fs.models.ElementData;
+import poiosm2fs.MiscFunctions;
+import poiosm2fs.models.ModifiedData;
 
 /**
  *
@@ -24,13 +26,14 @@ import org.json.JSONObject;
  */
 public class ModifyFromJSON {
     
-    protected static void modifyFromJSON(JSAPResult config) throws IOException{
+    public void modifyFromJSON(JSAPResult config) throws IOException{
         
         /*function takes the chosen short JSON file and turns it into POI xml file suitable for MSFS*/
         
         List <ElementData> listofElements = new ArrayList<>();       /* List of elements containing nodes lists */
         List <ModifiedData> finallist = new ArrayList<>();          /* List of elemenets after modification, each with specific node with lat and lon */
 
+        MiscFunctions mFunc = new MiscFunctions();
         
         int nodeinterval = config.getInt("STEP");
         
@@ -38,7 +41,7 @@ public class ModifyFromJSON {
                
         String filepath = "./" + json_name;
         
-        String jsonstring = readFile(filepath, StandardCharsets.UTF_8);
+        String jsonstring = mFunc.readFile(filepath, StandardCharsets.UTF_8);
         
         JSONObject obj = new JSONObject(jsonstring);                    /* Using the org.json library for JSON parsing */
         JSONArray arr = obj.getJSONArray("elements");

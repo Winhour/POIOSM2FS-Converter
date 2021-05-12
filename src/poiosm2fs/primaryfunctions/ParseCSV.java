@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poiosm2fs;
+package poiosm2fs.primaryfunctions;
 
 import com.martiansoftware.jsap.JSAPResult;
 import com.opencsv.exceptions.CsvException;
@@ -17,9 +17,7 @@ import java.nio.charset.StandardCharsets;
 import java.text.Normalizer;
 import java.util.Scanner;
 import java.util.UUID;
-import static poiosm2fs.Main_POIOSM2FS.checkFname;
-import static poiosm2fs.Main_POIOSM2FS.readFile;
-import static poiosm2fs.Main_POIOSM2FS.updateProgress;
+import poiosm2fs.MiscFunctions;
 
 /**
  *
@@ -27,7 +25,7 @@ import static poiosm2fs.Main_POIOSM2FS.updateProgress;
  */
 public class ParseCSV {
     
-    protected static void parseCSV(JSAPResult config) throws FileNotFoundException, IOException, CsvException{
+    public void parseCSV(JSAPResult config) throws FileNotFoundException, IOException, CsvException{
         
         /*function takes the chosen CSV file and turns it into POI xml file suitable for MSFS*/
         
@@ -35,7 +33,9 @@ public class ParseCSV {
         
         String filepath = "./" + csv_name;  
         
-        String csvstring = readFile(filepath, StandardCharsets.UTF_8);
+        MiscFunctions mFunc = new MiscFunctions();
+        
+        String csvstring = mFunc.readFile(filepath, StandardCharsets.UTF_8);
         
         String outputfile;
         
@@ -150,7 +150,7 @@ public class ParseCSV {
                         progressPercentage = currentline_in/lines;          /* Current percentage progress is equal to the line program is on divided by total lines in input file */
                         //System.out.println(progressPercentage);
                         
-                        updateProgress(progressPercentage);
+                        mFunc.updateProgress(progressPercentage);
                         
                         if(sc.hasNextLine())
                             sc.nextLine();
@@ -187,7 +187,7 @@ public class ParseCSV {
                             fname = nameEn;
                         } else {fname = name;}
                         
-                        fname = checkFname(fname);
+                        fname = mFunc.checkFname(fname);
                         
                         String clean = Normalizer.normalize(fname, Normalizer.Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
                         boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
@@ -238,7 +238,7 @@ public class ParseCSV {
                         progressPercentage = currentline_in/lines;
                         //System.out.println(progressPercentage);
                         
-                        updateProgress(progressPercentage);
+                        mFunc.updateProgress(progressPercentage);
                         
                         if(sc.hasNextLine())
                             sc.nextLine();

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poiosm2fs;
+package poiosm2fs.models;
 
 /**
  *

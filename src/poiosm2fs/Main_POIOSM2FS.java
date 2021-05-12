@@ -13,13 +13,10 @@ import com.martiansoftware.jsap.Switch;
 import com.opencsv.exceptions.CsvException;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import org.json.*;
-import static poiosm2fs.ParseJSONAll.parseJSONAll;
-import static poiosm2fs.ParseCSV.parseCSV;
-import static poiosm2fs.ModifyFromJSON.modifyFromJSON;
+import poiosm2fs.models.ConfigX;
+import poiosm2fs.primaryfunctions.ModifyFromJSON;
+import poiosm2fs.primaryfunctions.ParseCSV;
+import poiosm2fs.primaryfunctions.ParseJSONAll;
 
 /**
  *
@@ -30,6 +27,10 @@ public class Main_POIOSM2FS {
 
     public static void main(String[] args) throws IOException, JSAPException, FileNotFoundException, CsvException {
         
+        /*XStreamInteraction xsi = new XStreamInteraction();                    //Will work on it later
+        ConfigX loadedConfig = xsi.getConfigFromXML();
+        System.out.println(loadedConfig.getOwner() + " " + loadedConfig.getLabel()+ " " + loadedConfig.getAltitude() + " " + loadedConfig.getStep() + " " + loadedConfig.getTexture_width());*/
+
         JSAP jsap = new JSAP();             /*Used for command line inputs */
        
         jsap = initializeJSAP(jsap);        /*Function initializing input flags */
@@ -37,6 +38,7 @@ public class Main_POIOSM2FS {
         JSAPResult config = jsap.parse(args);  /* Encapsulates the results of JSAP's parse() methods. */
         
         chooseWhatToDo(config);               /*Based on the command line input, choose which function to run*/
+        
     }
     
     /**********************************************************************************************************************************************/
@@ -187,13 +189,16 @@ public class Main_POIOSM2FS {
             }
             else {        
                 if(!config.getString("JSON").equals("none") && config.getString("CSV").equals("none") && config.getString("JSON_ALL").equals("none")){
-                    modifyFromJSON(config);          /* Case when user wants to use short JSON */
+                    ModifyFromJSON mfj = new ModifyFromJSON();
+                    mfj.modifyFromJSON(config);          /* Case when user wants to use short JSON */
                 }
                 else if(config.getString("JSON").equals("none") && config.getString("CSV").equals("none") && !config.getString("JSON_ALL").equals("none")){
-                    parseJSONAll(config);               /* Case when user wants to use long JSON */
+                    ParseJSONAll pja = new ParseJSONAll();
+                    pja.parseJSONAll(config);               /* Case when user wants to use long JSON */
                 }                
                 else if(config.getString("JSON").equals("none") && !config.getString("CSV").equals("none") && config.getString("JSON_ALL").equals("none")){
-                    parseCSV(config);               /* Case when user wants to use CSV */
+                    ParseCSV pc = new ParseCSV();
+                    pc.parseCSV(config);               /* Case when user wants to use CSV */
                 } 
                 else if(!config.getString("JSON").equals("none") && !config.getString("JSON_ALL").equals("none")
                         || !config.getString("JSON").equals("none") && !config.getString("CSV").equals("none")
@@ -209,115 +214,6 @@ public class Main_POIOSM2FS {
             }
         }
         
-    }
-
-    /**********************************************************************************************************************************************/
-    
-    static String readFile(String path, Charset encoding)           /*Simple filereader with charset encoding, need UTF-8*/
-    throws IOException
-    {
-        byte[] encoded = Files.readAllBytes(Paths.get(path));
-        return new String(encoded, encoding);
-    }
-    
-   /**********************************************************************************************************************************************/
-    
-    static String checkTags(String type, JSONObject tags){            /* Checking tags for elements, mostly in an order that makes sense, but might need slight fixes later if necessary */
-
-                    if(tags.has("waterway") && !tags.getString("waterway").equals("yes")){
-                        type = tags.getString("waterway");
-                    }
-                    else if (tags.has("icao")){                         /*icao (International Civil Aviation Organization) refers to special code assigned to airports*/
-                        type = tags.getString("icao");
-                    }
-                    else if(tags.has("water")){
-                        type = tags.getString("water");
-                    }
-                    else if (tags.has("building") && !tags.getString("building").equals("yes")){                /* If tag says "yes", there's usually a better tag */
-                        type = tags.getString("building");
-                    }
-                    else if(tags.has("military") && !tags.getString("military").equals("yes")){
-                        type = tags.getString("military");
-                    }
-                    else if (tags.has("amenity") && !tags.getString("amenity").equals("yes")){
-                        type = tags.getString("amenity");
-                    }
-                    else if (tags.has("historic") && !tags.getString("historic").equals("yes")){
-                        type = tags.getString("historic");
-                    }
-                    else if (tags.has("place")){
-                        type = tags.getString("place");
-                    }
-                    else if(tags.has("leisure")){
-                        type = tags.getString("leisure");
-                    }
-                    else if(tags.has("natural")){
-                        type = tags.getString("natural");
-                    }
-                    else if (tags.has("information")){
-                        type = tags.getString("information");
-                    }
-                    else if (tags.has("tourism")){
-                        type = tags.getString("tourism");
-                    }
-                    else if (tags.has("landuse")){
-                        type = tags.getString("landuse");
-                    }
-                    else if (tags.has("railway")){
-                        type = "Railway_station";                                                   /* If railway elements that aren't stations are found, should modify */
-                    }
-                    else {
-                        type = null;    
-                    }
-                    
-                    if (type != null && type.equals("intermittent")) type = "Natural";              /* Special cases */
-                    if (type != null && type.equals("yes")) type = null;
-        
-        return type;
-    }
-    
-    /**********************************************************************************************************************************************/
-    
-    static String checkFname(String fname){                 /* Making sure that fname doesn't contain unnecessary characters and isn't null */
-        
-        if (fname != null) {                                                
-            fname = fname.substring(0, 1).toUpperCase() + fname.substring(1);   /* Capitalize first letter of the name */
-            fname = fname.replace("\"","'");            /* Characters which might cause problems in the final XML: ", „, & */
-            fname = fname.replace("„","'");                     
-            fname = fname.replace("&","and");
-        }
-                        
-        if (fname == null || fname.replaceAll("\\s","").equals("")) fname = "(empty)";     /* When name is null use (empty) signifier */
-        
-        return fname;
-    }
-    
-    /**********************************************************************************************************************************************/
-    
-    static Double modifyAlt(Double Alt, String type) {                /* Setting different altitudes for Villages, Cities and Towns */
-        
-        if (type != null && type.equals("village")) Alt += 100;
-        if (type != null && type.equals("city")) Alt += 200;
-        if (type != null && type.equals("town")) Alt += 200;
-        
-        return Alt;
-    }
-    
-    
-    /**********************************************************************************************************************************************/
-    
-    static void updateProgress(double progressPercentage) {     /* Percentage Progress Bar*/
-        final int width = 50; // progress bar width in chars
-
-        System.out.print("\r[");
-        int i = 0;
-        for (; i <= (int)(progressPercentage*width); i++) {
-          System.out.print(".");
-        }
-        for (; i < width; i++) {
-          System.out.print(" ");
-        }
-        System.out.print("] " + (int)(progressPercentage*102) + "%");
     }
     
     /**********************************************************************************************************************************************/
@@ -340,7 +236,7 @@ public class Main_POIOSM2FS {
         System.out.println("--re removes lines with empty names");
         System.out.println("--rst (Integer) removes elements with type 'Temple' which have number of tags less than or equal to the chosen threshold");
         System.out.println("--rsv (Integer) removes elements with type 'Village' which have number of tags less than or equal to the chosen threshold");
-        System.out.println("-t makes folder with .png files for textures");
+        System.out.println("-t makes folder containing subfolders [texture] with .png files for textures and [model] for future models");
         System.out.println("--txw (Integer) sets width for the textures (default = 350)");
         System.out.println("\nExample:\n");
         System.out.println("java -jar \"POIOSM2FS.jar\" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re");

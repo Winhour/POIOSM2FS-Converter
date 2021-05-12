@@ -24,7 +24,7 @@ import javax.imageio.ImageIO;
  */
 public class GraphicsInteraction {
     
-    protected static void texttoGraphics(String text, JSAPResult config, String formatted, int width) {         /* Makes .png files containing tags+names which can be used as textures */
+    public void texttoGraphics(String text, JSAPResult config, String formatted, int width) {         /* Makes .png files containing tags+names which can be used as textures */
         
         BufferedImage img = new BufferedImage(1, 1, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g2d = img.createGraphics();
@@ -65,7 +65,10 @@ public class GraphicsInteraction {
         try {
             String jsn = config.getString("JSON_ALL").substring(0,config.getString("JSON_ALL").indexOf(".")+".".length());
             jsn = jsn.substring(0, jsn.length() - 1);
-            ImageIO.write(img, "png", new File(System.getProperty("user.dir") + "/texture_" + jsn + "/POI_" + formatted + "/texture/poi_texture.png"));
+            jsn = jsn.replace("target","");                             /* For testing purposes json strings start with target, so let's get rid of it */
+            jsn = jsn.replace("Target","");
+            jsn = jsn.replace("_","-");
+            ImageIO.write(img, "png", new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/Texture/poi_" + formatted + ".png"));
         } catch (IOException ex) {
             
         }
