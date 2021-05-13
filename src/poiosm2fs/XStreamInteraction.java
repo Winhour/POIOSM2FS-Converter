@@ -39,10 +39,14 @@ public class XStreamInteraction {
         return loadedConfig;
     }
     
+    /**********************************************************************************************************************************************/
+    
     public int writeConfigToXML(){
         
         return 0;
     }
+    
+    /**********************************************************************************************************************************************/
     
     public String generateMainXML(Project project){
         
@@ -55,6 +59,8 @@ public class XStreamInteraction {
         
     }
     
+    /**********************************************************************************************************************************************/
+    
     public String generatePackageDefinitionsXML(AssetPackage assetPackage){
         
         XStream xstream = new XStream();     // init XStream
@@ -65,6 +71,8 @@ public class XStreamInteraction {
         return dataXml;
         
     }
+    
+    /**********************************************************************************************************************************************/
     
     public String generatePackageSourcesDataXML (FSData fsdata){
         
@@ -79,6 +87,8 @@ public class XStreamInteraction {
         return dataXml;
         
     }
+    
+    /**********************************************************************************************************************************************/
     
     public String generateModelInfoXML(ModelInfo modelInfo){
         

@@ -55,10 +55,15 @@ public class ModifyFromJSON {
         }
         else {outputfile = config.getString("OUTPUT") + ".txt";}
         
-        System.out.println("\n***********************************");                /*Information for the user about selected parameters*/
-        System.out.println("* POIOSM2FS JSON / CSV Converter  *");
-        System.out.println("***********************************\n");
-                    System.out.println("Chosen parameters:");
+        System.setProperty("org.jline.terminal.dumb", "true");          /*Supressing a warning for dumb terminal, since it's always there when using IDE*/
+        
+        int terminalWidth = org.jline.terminal.TerminalBuilder.terminal().getWidth();           /* Getting the width of a terminal using the jline library */
+        
+        if(terminalWidth >= 100)
+            mFunc.makeAsciiArt();          /* ASCII Header */
+        else
+            mFunc.makeSimpleHeader();        /* Simple Header */
+                    System.out.println("Chosen parameters:");                       /*Information for the user about selected parameters*/
                     System.out.println("FILE: " + filepath);
                     System.out.println("STEP: " + nodeinterval);
                     System.out.println("LABEL: " + config.getString("LABEL"));

@@ -5,17 +5,21 @@
  */
 package poiosm2fs.models.xmlmodels;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 /**
  *
  * @author Marcin
  */
 public class FlagsAG {
     
-    String FSXCompatibility;
+    
+    @XStreamAlias("FSXCompatibility")
+    String fsxCompatibility;
 
     public FlagsAG() {
         
-        this.FSXCompatibility = "false";
+        this.fsxCompatibility = "false";
         
     }
     

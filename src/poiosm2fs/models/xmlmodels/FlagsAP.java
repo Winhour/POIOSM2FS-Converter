@@ -5,18 +5,23 @@
  */
 package poiosm2fs.models.xmlmodels;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 /**
  *
  * @author Marcin
  */
 public class FlagsAP {
     
-    String VisibleInStore;
-    String CanBeReferenced;
+    @XStreamAlias("VisibleInStore")
+    String visibleInStore;
+    
+    @XStreamAlias("CanBeReferenced")
+    String canBeReferenced;
 
     public FlagsAP() {
-        this.VisibleInStore = "false";
-        this.CanBeReferenced = "false";
+        this.visibleInStore = "false";
+        this.canBeReferenced = "false";
     }
     
     

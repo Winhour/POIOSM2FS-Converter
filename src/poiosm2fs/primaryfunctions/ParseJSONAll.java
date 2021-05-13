@@ -14,6 +14,7 @@ import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+import org.apache.commons.io.FileUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import poiosm2fs.GLTFWriter;
@@ -76,10 +77,16 @@ public class ParseJSONAll {
         }
         else {outputfile = config.getString("OUTPUT") + ".txt";}
         
-        System.out.println("\n***********************************");                /*Information for the user about selected parameters*/
-        System.out.println("* POIOSM2FS JSON / CSV Converter  *");
-        System.out.println("***********************************\n");
-                    System.out.println("Chosen parameters:");
+        System.setProperty("org.jline.terminal.dumb", "true");                          /*Supressing a warning for dumb terminal, since it's always there when using IDE*/
+        
+        int terminalWidth = org.jline.terminal.TerminalBuilder.terminal().getWidth();   /* Getting the width of a terminal using the jline library */
+        
+        if(terminalWidth >= 100)
+            mFunc.makeAsciiArt();                 /* ASCII Header */
+        else
+            mFunc.makeSimpleHeader();              /* Simple Header */
+        
+                    System.out.println("Chosen parameters:");                           /*Information for the user about selected parameters*/
                     System.out.println("FILE: " + filepath);
                     System.out.println("LABEL: " + config.getString("LABEL"));
                     System.out.println("OWNER: " + config.getString("OWNER"));
@@ -101,51 +108,10 @@ public class ParseJSONAll {
         /* Creating directories for textures and models, initializing some elements */
         
         if(config.getBoolean("textures")){
-            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
-            jsn = jsn.substring(0, jsn.length() - 1);
-            jsn = jsn.replace("_","-");
-            File dirfile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn);
-            System.out.println("");
-            if (dirfile.exists()){
-                deleteDirectory(dirfile);
-                System.out.println("Deleted directory: " + dirfile + "\n");
-            }
-            System.out.println("Created directory: " + dirfile + "\n");
-        }
-        
-        if(config.getBoolean("textures")){
-            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
-            jsn = jsn.substring(0, jsn.length() - 1);
-            jsn = jsn.replace("_","-");
-            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageDefinitions").mkdirs(); 
-            String jsnl = jsn.toLowerCase();
-            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageDefinitions/3dsp-scenery-poiosmtofs-" + jsnl + "/ContentInfo").mkdirs(); 
-            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/data").mkdirs(); 
-            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/docs").mkdirs(); 
-            
-            try {
-                try (FileWriter myWriter = new FileWriter(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/3DSp-POIOSM2FS-" + jsn + ".xml")) {
-                    String xmlData = makeMainXML(jsn);
-                    myWriter.write(xmlData);
-                }
-                System.out.println("File Created: " + System.getProperty("user.dir") + "\\3DSp-POIOSM2FS-" + jsn + "\\3DSp-POIOSM2FS-" + jsn + ".xml\n" );
-            } catch (IOException e) {
-                System.out.println("An error occurred.");
-                //e.printStackTrace();
-            }
-            
-            AssetGroup ag1 = new AssetGroup("ContentInfo", "ContentInfo", new FlagsAG(), "PackageDefinitions\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + "\\ContentInfo\\", "ContentInfo\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + "\\" );
-            AssetGroup ag2 = new AssetGroup("poiosmtofs-" + jsn.toLowerCase() + "-docs", "Copy", new FlagsAG(), "PackageSources\\docs\\", ".\\" );
-            AssetGroup ag3 = new AssetGroup("poiosmtofs-" + jsn.toLowerCase() + "-scene", "BGL", new FlagsAG(), "PackageSources\\data\\", "scenery\\3dsp\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + "\\" );
 
-
-            assetGroups.add(ag1);
-            assetGroups.add(ag2);
-            assetGroups.add(ag3);
+            initializeTextureFolders(outputfile, assetGroups);
             
         }
-        
-
         
         Double progressPercentage;
         
@@ -422,9 +388,11 @@ public class ParseJSONAll {
                                             
                                             modifiedAlt = modifiedAlt + modifiedAlt*(altRandomizer/100);
                                             
-                                            LibraryObject lo = new LibraryObject(fuuid.toString(), 10.00000);
+                                            LibraryObject lo = new LibraryObject(fuuid, 1.00000);
                                             SceneryObject so = new SceneryObject(y.getLat(), y.getLon(), modifiedAlt, 0.0, 0.0, randomHeading, lo);
                                             sceneryObjects.add(so);
+                                            
+                                            /* Creating an xml file for a single POI */
                                             
                                             try {
                                                 try (FileWriter myWriter2 = new FileWriter(System.getProperty("user.dir") + 
@@ -439,6 +407,8 @@ public class ParseJSONAll {
                                                 //e.printStackTrace();
                                             }
                                             
+                                            /* Creating an gltf file for a single POI */
+                                            
                                             try {
                                                 try (FileWriter myWriter2 = new FileWriter(System.getProperty("user.dir") + 
                                                         "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
@@ -450,6 +420,18 @@ public class ParseJSONAll {
                                             } catch (IOException e) {
                                                 System.out.println("An error occurred.");
                                                 //e.printStackTrace();
+                                            }
+                                            
+                                            /* Creating an bin file for a single POI using model from /data*/
+                                            
+                                            if(new File(System.getProperty("user.dir") + "/data").exists()){
+                                            
+                                                File srcFile = new File(System.getProperty("user.dir") + "/data/model.bin");
+                                                File destFile = new File(System.getProperty("user.dir") + 
+                                                            "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
+                                                                    "poi_" + formatted + "/poi_" + formatted + ".bin");
+
+                                                FileUtils.copyFile(srcFile, destFile);
                                             }
                                             
                                             
@@ -476,6 +458,8 @@ public class ParseJSONAll {
                 jsn = jsn.substring(0, jsn.length() - 1);
                 jsn = jsn.replace("_","-");
                 
+                /* Creating an xml file for Package Definitions */
+                
                 try {
                     try (FileWriter myWriter = new FileWriter(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageDefinitions/3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + ".xml")) {
                         String xmlData = makePackageDefinitionsXML(jsn, assetGroups);
@@ -486,6 +470,8 @@ public class ParseJSONAll {
                     System.out.println("An error occurred.");
                     //e.printStackTrace();
                 }
+                
+                /* Creating an xml file for Data */
                 
                 try {
                     try (FileWriter myWriter = new FileWriter(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/data/poiosmtofs-" + jsn.toLowerCase() + "-scene.xml")) {
@@ -565,5 +551,78 @@ public class ParseJSONAll {
         String xmlData = xsi.generateModelInfoXML(modelInfo);
         return xmlData;
     }
+    
+    /**********************************************************************************************************************************************/
+    
+    static void initializeTextureFolders(String outputfile, List<AssetGroup> assetGroups) throws IOException{
+        
+        
+            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
+            jsn = jsn.substring(0, jsn.length() - 1);
+            jsn = jsn.replace("_","-");
+            File dirfile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn);
+            System.out.println("");
+            if (dirfile.exists()){
+                deleteDirectory(dirfile);
+                System.out.println("Deleted directory: " + dirfile + "\n");
+            }
+            System.out.println("Created directory: " + dirfile + "\n");
+        
+            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageDefinitions").mkdirs(); 
+            String jsnl = jsn.toLowerCase();
+            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageDefinitions/3dsp-scenery-poiosmtofs-" + jsnl + "/ContentInfo").mkdirs(); 
+            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/data").mkdirs(); 
+            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/docs").mkdirs(); 
+            
+            try {
+                try (FileWriter myWriter = new FileWriter(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/3DSp-POIOSM2FS-" + jsn + ".xml")) {
+                    String xmlData = makeMainXML(jsn);
+                    myWriter.write(xmlData);
+                }
+                System.out.println("File Created: " + System.getProperty("user.dir") + "\\3DSp-POIOSM2FS-" + jsn + "\\3DSp-POIOSM2FS-" + jsn + ".xml\n" );
+            } catch (IOException e) {
+                System.out.println("An error occurred.");
+                //e.printStackTrace();
+            }
+            
+            /* Initial Asset Groups for the Package Definitions xml */
+            
+            AssetGroup ag1 = new AssetGroup("ContentInfo", "ContentInfo", new FlagsAG(), "PackageDefinitions\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + "\\ContentInfo\\", "ContentInfo\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + "\\" );
+            AssetGroup ag2 = new AssetGroup("poiosmtofs-" + jsn.toLowerCase() + "-docs", "Copy", new FlagsAG(), "PackageSources\\docs\\", ".\\" );
+            AssetGroup ag3 = new AssetGroup("poiosmtofs-" + jsn.toLowerCase() + "-scene", "BGL", new FlagsAG(), "PackageSources\\data\\", "scenery\\3dsp\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + "\\" );
+
+
+            assetGroups.add(ag1);
+            assetGroups.add(ag2);
+            assetGroups.add(ag3);
+            
+            /* Getting files from /data to their respective destination folders */
+            
+            if(new File(System.getProperty("user.dir") + "/data").exists()){
+            
+                File srcFile = new File(System.getProperty("user.dir") + "/data/ContentInfo/Thumbnail.jpg");
+                File destFile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageDefinitions/3dsp-scenery-poiosmtofs-" + jsnl + "/ContentInfo/Thumbnail.jpg");
+
+                FileUtils.copyFile(srcFile, destFile);
+
+                srcFile = new File(System.getProperty("user.dir") + "/data/docs/3dsp_logo.png");
+                destFile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/docs/3dsp_logo.png");
+
+                FileUtils.copyFile(srcFile, destFile);
+
+                srcFile = new File(System.getProperty("user.dir") + "/data/docs/LICENSE.txt");
+                destFile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/docs/LICENSE.txt");
+
+                FileUtils.copyFile(srcFile, destFile);
+
+                srcFile = new File(System.getProperty("user.dir") + "/data/docs/README.md");
+                destFile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/docs/README.md");
+
+                FileUtils.copyFile(srcFile, destFile);
+                
+            }
+            
+        }
+        
     
 }
