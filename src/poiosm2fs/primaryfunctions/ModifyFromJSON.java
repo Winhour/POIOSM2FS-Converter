@@ -26,6 +26,7 @@ import poiosm2fs.models.ModifiedData;
  */
 public class ModifyFromJSON {
     
+    @SuppressWarnings("empty-statement")
     public void modifyFromJSON(JSAPResult config) throws IOException{
         
         /*function takes the chosen short JSON file and turns it into POI xml file suitable for MSFS*/
@@ -91,7 +92,7 @@ public class ModifyFromJSON {
             JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");               /* Contains information like name, english name etc.*/
             
             if(tags.has("name")){
-                name = tags.getString("name");;
+                name = tags.getString("name");
             }
             else {
                 name = null;

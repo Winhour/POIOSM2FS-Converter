@@ -43,9 +43,12 @@ public class GraphicsInteraction {
             g2d = handleRenderingHints(g2d);
             g2d.setFont(font);
             fm = g2d.getFontMetrics();
-            g2d.setColor(Color.LIGHT_GRAY);                                             /* Background color */
+            //Color c=new Color(0f,0f,0f,0f );
+            Color c=new Color(208,208,208,120);                                        /* Setting background color and transparency */
+            //g2d.setColor(Color.LIGHT_GRAY);
+            g2d.setColor(c);                                            
             g2d.fillRect(0, 0, width, height);
-            g2d.setColor(Color.BLACK);                                                  /* Text color */
+            g2d.setColor(Color.WHITE);                                                  /* Text color */
             Rectangle rect = new Rectangle(0,0,width,height);
             drawCenteredString(g2d, text, rect, font);
         }
@@ -56,9 +59,11 @@ public class GraphicsInteraction {
             g2d = handleRenderingHints(g2d);
             g2d.setFont(font);
             fm = g2d.getFontMetrics();
-            g2d.setColor(Color.LIGHT_GRAY);
+            Color c=new Color(208,208,208,120);
+            //g2d.setColor(Color.LIGHT_GRAY);
+            g2d.setColor(c);
             g2d.fillRect(0, 0, width, height);
-            g2d.setColor(Color.BLACK);
+            g2d.setColor(Color.WHITE);
             drawStringMultiLine(g2d, text, width, 2, 15);
         }
         g2d.dispose();

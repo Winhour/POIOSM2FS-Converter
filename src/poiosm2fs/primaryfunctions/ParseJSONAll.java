@@ -10,6 +10,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
@@ -218,13 +220,13 @@ public class ParseJSONAll {
                 
                 Double lat, lon;
                 
-                if (arr.getJSONObject(i).has("lat")){
+                if (arr.getJSONObject(i).has("lat")){                                               /* Latitude */
                     lat = arr.getJSONObject(i).getDouble("lat");
                 } else {
                     lat = 0.0;
                 }
                 
-                if (arr.getJSONObject(i).has("lon")){
+                if (arr.getJSONObject(i).has("lon")){                                               /* Longitude */
                     lon = arr.getJSONObject(i).getDouble("lon");
                 } else {
                     lon = 0.0;
@@ -365,11 +367,11 @@ public class ParseJSONAll {
                                         linecount++;
                                         if(config.getBoolean("textures")){
                                             
+                                            /* Making XML's and Textures for each single POI */
                                             createSinglePOIXMLsandTextures(linecount, outputfile, fname, config, capitalTag, assetGroups, sceneryObjects, uuid, fuuid, modifiedAlt, y);
                                             
                                         }
                                 }
-                                //Files.createDirectories(Paths.get("/test/test" + linecount));   
                             } 
                         }
                     }
@@ -386,7 +388,7 @@ public class ParseJSONAll {
             
             if(config.getBoolean("textures")){
                 
-                createOverarchingXMLs(outputfile, assetGroups, sceneryObjects);
+                createOverarchingXMLs(outputfile, assetGroups, sceneryObjects);     /* Data XML and Package Definitions XML */
                 
             }
         
@@ -456,14 +458,15 @@ public class ParseJSONAll {
         return xmlData;
     }
     
-    /**********************************************************************************************************************************************/
+    /**
+     * @param outputfile*
+     * @param assetGroups*
+     * @throws java.io.IOException******************************************************************************************************************************************/
     
-    static void initializeTextureFolders(String outputfile, List<AssetGroup> assetGroups) throws IOException{
+    public void initializeTextureFolders(String outputfile, List<AssetGroup> assetGroups) throws IOException{
         
         
-            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
-            jsn = jsn.substring(0, jsn.length() - 1);
-            jsn = jsn.replace("_","-");
+            String jsn = formatOutString(outputfile);
             File dirfile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn);
             System.out.println("");
             if (dirfile.exists()){
@@ -504,23 +507,68 @@ public class ParseJSONAll {
             
             if(new File(System.getProperty("user.dir") + "/data").exists()){
             
+                /* data/ContentInfo/Thumbnail */
+                
                 File srcFile = new File(System.getProperty("user.dir") + "/data/ContentInfo/Thumbnail.jpg");
                 File destFile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageDefinitions/3dsp-scenery-poiosmtofs-" + jsnl + "/ContentInfo/Thumbnail.jpg");
 
                 FileUtils.copyFile(srcFile, destFile);
+                
+                /* data/docs/3dsp_logo.png */
 
                 srcFile = new File(System.getProperty("user.dir") + "/data/docs/3dsp_logo.png");
                 destFile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/docs/3dsp_logo.png");
 
                 FileUtils.copyFile(srcFile, destFile);
+                
+                /* data/docs/LICENSE.txt */
 
                 srcFile = new File(System.getProperty("user.dir") + "/data/docs/LICENSE.txt");
                 destFile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/docs/LICENSE.txt");
 
                 FileUtils.copyFile(srcFile, destFile);
+                
+                /* data/docs/README.md */
 
                 srcFile = new File(System.getProperty("user.dir") + "/data/docs/README.md");
-                destFile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/docs/README.md");
+                
+                String readmestring = new String(Files.readAllBytes(Paths.get(System.getProperty("user.dir") + "/data/docs/README.md")));
+                
+                String replacementString = "# 3DSp-POISM2FS-" + jsn;
+                
+                readmestring = readmestring.replaceFirst("# LEAVE_THIS_HEADER_UNCHANGED", replacementString);
+                
+                try {
+                    try (FileWriter myWriter2 = new FileWriter(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/docs/README.md")) {
+                        myWriter2.write(readmestring);
+                    }
+                } catch (IOException e) {
+                    System.out.println("An error occurred.");
+                    //e.printStackTrace();
+                }
+                
+                 /* data/README.md */
+                
+                srcFile = new File(System.getProperty("user.dir") + "/data/README.md");
+                
+                readmestring = new String(Files.readAllBytes(Paths.get(System.getProperty("user.dir") + "/data/README.md")));
+                
+                readmestring = readmestring.replaceFirst("# LEAVE_THIS_HEADER_UNCHANGED", replacementString);
+                
+                try {
+                    try (FileWriter myWriter2 = new FileWriter(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/README.md")) {
+                        myWriter2.write(readmestring);
+                    }
+                } catch (IOException e) {
+                    System.out.println("An error occurred.");
+                    //e.printStackTrace();
+                }
+                
+                
+                /* data/data/ReleaseNotes.xml */
+                
+                srcFile = new File(System.getProperty("user.dir") + "/data/ReleaseNotes.xml");
+                destFile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageDefinitions/3dsp-scenery-poiosmtofs-" + jsnl + "/ReleaseNotes.xml");
 
                 FileUtils.copyFile(srcFile, destFile);
                 
@@ -528,13 +576,14 @@ public class ParseJSONAll {
             
         }
         
-    /**********************************************************************************************************************************************/
+    /**
+     * @param outputfile*
+     * @param assetGroups
+     * @param sceneryObjects*******************************************************************************************************************************************/
     
         public void createOverarchingXMLs (String outputfile, List<AssetGroup> assetGroups, List<SceneryObject> sceneryObjects){
             
-            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
-                jsn = jsn.substring(0, jsn.length() - 1);
-                jsn = jsn.replace("_","-");
+            String jsn = formatOutString(outputfile);
                 
                 /* Creating an xml file for Package Definitions */
                 
@@ -565,17 +614,27 @@ public class ParseJSONAll {
         }
 
     
-    /**********************************************************************************************************************************************/
+    /**
+     * @param linecount*
+     * @param outputfile
+     * @param config*
+     * @param fname*
+     * @param capitalTag*
+     * @param assetGroups*
+     * @param sceneryObjects*
+     * @param uuid*
+     * @param fuuid*
+     * @param modifiedAlt*
+     * @param y*
+     * @throws java.io.IOException**********************************************************************************************************************************/
     
         public void createSinglePOIXMLsandTextures (int linecount, String outputfile, String fname, JSAPResult config, String capitalTag, 
                 List<AssetGroup> assetGroups, List<SceneryObject> sceneryObjects, UUID uuid, String fuuid, double modifiedAlt,
                 ModifiedData y) throws IOException{
             
             String formatted = String.format("%05d", linecount);
-            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
-            jsn = jsn.substring(0, jsn.length() - 1);
+            String jsn = formatOutString(outputfile);
             /* Each POI requires a subdirectory for model and texture */ 
-            jsn = jsn.replace("_","-");
             new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/Texture").mkdirs();
             new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + "poi_" + formatted).mkdirs();
             /* Function creating texture for a POI (from GraphicsInteraction) */
@@ -645,10 +704,19 @@ public class ParseJSONAll {
             
             
         }
+        
+    /**********************************************************************************************************************************************/ 
     
+        static String formatOutString(String outputfile){
+            
+            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
+            jsn = jsn.substring(0, jsn.length() - 1);
+            jsn = jsn.replace("_","-");
+            
+            return jsn;
+        }
     
-    
-    
+    /**********************************************************************************************************************************************/ 
     
     
     

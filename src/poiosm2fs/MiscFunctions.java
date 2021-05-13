@@ -37,54 +37,54 @@ public class MiscFunctions {
     
     public String checkTags(String type, JSONObject tags){            /* Checking tags for elements, mostly in an order that makes sense, but might need slight fixes later if necessary */
 
-                    if(tags.has("waterway") && !tags.getString("waterway").equals("yes")){
-                        type = tags.getString("waterway");
-                    }
-                    else if (tags.has("icao")){                         /*icao (International Civil Aviation Organization) refers to special code assigned to airports*/
-                        type = tags.getString("icao");
-                    }
-                    else if(tags.has("water")){
-                        type = tags.getString("water");
-                    }
-                    else if (tags.has("building") && !tags.getString("building").equals("yes")){                /* If tag says "yes", there's usually a better tag */
-                        type = tags.getString("building");
-                    }
-                    else if(tags.has("military") && !tags.getString("military").equals("yes")){
-                        type = tags.getString("military");
-                    }
-                    else if (tags.has("amenity") && !tags.getString("amenity").equals("yes")){
-                        type = tags.getString("amenity");
-                    }
-                    else if (tags.has("historic") && !tags.getString("historic").equals("yes")){
-                        type = tags.getString("historic");
-                    }
-                    else if (tags.has("place")){
-                        type = tags.getString("place");
-                    }
-                    else if(tags.has("leisure")){
-                        type = tags.getString("leisure");
-                    }
-                    else if(tags.has("natural")){
-                        type = tags.getString("natural");
-                    }
-                    else if (tags.has("information")){
-                        type = tags.getString("information");
-                    }
-                    else if (tags.has("tourism")){
-                        type = tags.getString("tourism");
-                    }
-                    else if (tags.has("landuse")){
-                        type = tags.getString("landuse");
-                    }
-                    else if (tags.has("railway")){
-                        type = "Railway_station";                                                   /* If railway elements that aren't stations are found, should modify */
-                    }
-                    else {
-                        type = null;    
-                    }
-                    
-                    if (type != null && type.equals("intermittent")) type = "Natural";              /* Special cases */
-                    if (type != null && type.equals("yes")) type = null;
+            if(tags.has("waterway") && !tags.getString("waterway").equals("yes")){
+                type = tags.getString("waterway");
+            }
+            else if (tags.has("icao")){                         /*icao (International Civil Aviation Organization) refers to special code assigned to airports*/
+                type = tags.getString("icao");
+            }
+            else if(tags.has("water")){
+                type = tags.getString("water");
+            }
+            else if (tags.has("building") && !tags.getString("building").equals("yes")){                /* If tag says "yes", there's usually a better tag */
+                type = tags.getString("building");
+            }
+            else if(tags.has("military") && !tags.getString("military").equals("yes")){
+                type = tags.getString("military");
+            }
+            else if (tags.has("amenity") && !tags.getString("amenity").equals("yes")){
+                type = tags.getString("amenity");
+            }
+            else if (tags.has("historic") && !tags.getString("historic").equals("yes")){
+                type = tags.getString("historic");
+            }
+            else if (tags.has("place")){
+                type = tags.getString("place");
+            }
+            else if(tags.has("leisure")){
+                type = tags.getString("leisure");
+            }
+            else if(tags.has("natural")){
+                type = tags.getString("natural");
+            }
+            else if (tags.has("information")){
+                type = tags.getString("information");
+            }
+            else if (tags.has("tourism")){
+                type = tags.getString("tourism");
+            }
+            else if (tags.has("landuse")){
+                type = tags.getString("landuse");
+            }
+            else if (tags.has("railway")){
+                type = "Railway_station";                                                   /* If railway elements that aren't stations are found, should modify */
+            }
+            else {
+                type = null;    
+            }
+
+            if (type != null && type.equals("intermittent")) type = "Natural";              /* Special cases */
+            if (type != null && type.equals("yes")) type = null;
         
         return type;
     }

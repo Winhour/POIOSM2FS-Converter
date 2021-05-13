@@ -1,4 +1,4 @@
-# 3DSp-POISM2FS-GR-Kos-TEST
+# LEAVE_THIS_HEADER_UNCHANGED
 
 This is a scenery adding POIs as FS static scenery objects for Microsoft Flight Simulator 2020, for a given area.
 

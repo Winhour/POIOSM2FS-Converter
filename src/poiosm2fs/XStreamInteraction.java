@@ -8,9 +8,6 @@ package poiosm2fs;
 import com.thoughtworks.xstream.XStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
-import java.io.StringWriter;
-import java.io.Writer;
 import poiosm2fs.models.ConfigX;
 import poiosm2fs.models.xmlmodels.AssetPackage;
 import poiosm2fs.models.xmlmodels.FSData;
@@ -39,14 +36,17 @@ public class XStreamInteraction {
         return loadedConfig;
     }
     
-    /**********************************************************************************************************************************************/
+    /**
+     * @return ********************************************************************************************************************************************/
     
     public int writeConfigToXML(){
         
         return 0;
     }
     
-    /**********************************************************************************************************************************************/
+    /**
+     * @param project*
+     * @return *******************************************************************************************************************************************/
     
     public String generateMainXML(Project project){
         
@@ -59,7 +59,9 @@ public class XStreamInteraction {
         
     }
     
-    /**********************************************************************************************************************************************/
+    /**
+     * @param assetPackage*
+     * @return *******************************************************************************************************************************************/
     
     public String generatePackageDefinitionsXML(AssetPackage assetPackage){
         
@@ -72,7 +74,9 @@ public class XStreamInteraction {
         
     }
     
-    /**********************************************************************************************************************************************/
+    /**
+     * @param fsdata*
+     * @return *******************************************************************************************************************************************/
     
     public String generatePackageSourcesDataXML (FSData fsdata){
         
@@ -88,7 +92,9 @@ public class XStreamInteraction {
         
     }
     
-    /**********************************************************************************************************************************************/
+    /**
+     * @param modelInfo*
+     * @return *******************************************************************************************************************************************/
     
     public String generateModelInfoXML(ModelInfo modelInfo){
         
