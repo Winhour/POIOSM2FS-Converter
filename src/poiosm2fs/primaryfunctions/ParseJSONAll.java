@@ -364,76 +364,8 @@ public class ParseJSONAll {
                                     }
                                         linecount++;
                                         if(config.getBoolean("textures")){
-                                            String formatted = String.format("%05d", linecount);
-                                            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
-                                            jsn = jsn.substring(0, jsn.length() - 1);
-                                            /* Each POI requires a subdirectory for model and texture */ 
-                                            jsn = jsn.replace("_","-");
-                                            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/Texture").mkdirs();
-                                            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + "poi_" + formatted).mkdirs();
-                                            /* Function creating texture for a POI (from GraphicsInteraction) */
-                                            GraphicsInteraction gi = new GraphicsInteraction();
-                                            gi.texttoGraphics(capitalTag + ": " + fname, config, formatted, config.getInt("TEXTURE_WIDTH"));
-                                            capitalTag = "";
-
-                                            AssetGroup ag = new AssetGroup("poiosmtofs-" + jsn.toLowerCase() + linecount + "-models", "ArtProj", new FlagsAG(), 
-                                                    "PackageSources\\poi_" + formatted + "-modellib\\", 
-                                                    "scenery\\3dsp\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + "\\" );
-                                            assetGroups.add(ag);
                                             
-                                            
-                                            
-                                            double randomHeading = (double)Math.floor(Math.random()*(180.00-(-179.999)+1)+(-179.999));
-                                            double altRandomizer = (double)Math.floor(Math.random()*(20.00-(-20.00)+1)+(-20.00));
-                                            
-                                            modifiedAlt = modifiedAlt + modifiedAlt*(altRandomizer/100);
-                                            
-                                            LibraryObject lo = new LibraryObject(fuuid, 1.00000);
-                                            SceneryObject so = new SceneryObject(y.getLat(), y.getLon(), modifiedAlt, 0.0, 0.0, randomHeading, lo);
-                                            sceneryObjects.add(so);
-                                            
-                                            /* Creating an xml file for a single POI */
-                                            
-                                            try {
-                                                try (FileWriter myWriter2 = new FileWriter(System.getProperty("user.dir") + 
-                                                        "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
-                                                                "poi_" + formatted + "/poi_" + formatted + ".xml")) {
-                                                    ModelInfo modelInfo = new ModelInfo(uuid.toString(), 1.1);
-                                                    String xmlData = makeModelInfoXML(modelInfo);
-                                                    myWriter2.write(xmlData);
-                                                }
-                                            } catch (IOException e) {
-                                                System.out.println("An error occurred.");
-                                                //e.printStackTrace();
-                                            }
-                                            
-                                            /* Creating an gltf file for a single POI */
-                                            
-                                            try {
-                                                try (FileWriter myWriter2 = new FileWriter(System.getProperty("user.dir") + 
-                                                        "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
-                                                                "poi_" + formatted + "/poi_" + formatted + ".gltf")) {
-                                                    GLTFWriter glw = new GLTFWriter();
-                                                    String gltfData = glw.writeGLTF("poi_" + formatted);
-                                                    myWriter2.write(gltfData);
-                                                }
-                                            } catch (IOException e) {
-                                                System.out.println("An error occurred.");
-                                                //e.printStackTrace();
-                                            }
-                                            
-                                            /* Creating an bin file for a single POI using model from /data*/
-                                            
-                                            if(new File(System.getProperty("user.dir") + "/data").exists()){
-                                            
-                                                File srcFile = new File(System.getProperty("user.dir") + "/data/model.bin");
-                                                File destFile = new File(System.getProperty("user.dir") + 
-                                                            "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
-                                                                    "poi_" + formatted + "/poi_" + formatted + ".bin");
-
-                                                FileUtils.copyFile(srcFile, destFile);
-                                            }
-                                            
+                                            createSinglePOIXMLsandTextures(linecount, outputfile, fname, config, capitalTag, assetGroups, sceneryObjects, uuid, fuuid, modifiedAlt, y);
                                             
                                         }
                                 }
@@ -454,35 +386,7 @@ public class ParseJSONAll {
             
             if(config.getBoolean("textures")){
                 
-                String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
-                jsn = jsn.substring(0, jsn.length() - 1);
-                jsn = jsn.replace("_","-");
-                
-                /* Creating an xml file for Package Definitions */
-                
-                try {
-                    try (FileWriter myWriter = new FileWriter(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageDefinitions/3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + ".xml")) {
-                        String xmlData = makePackageDefinitionsXML(jsn, assetGroups);
-                        myWriter.write(xmlData);
-                    }
-                    System.out.println("File Created: " + System.getProperty("user.dir") + "\\3DSp-POIOSM2FS-" + jsn + "\\PackageDefinitions\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + ".xml\n" );
-                } catch (IOException e) {
-                    System.out.println("An error occurred.");
-                    //e.printStackTrace();
-                }
-                
-                /* Creating an xml file for Data */
-                
-                try {
-                    try (FileWriter myWriter = new FileWriter(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/data/poiosmtofs-" + jsn.toLowerCase() + "-scene.xml")) {
-                        String xmlData = makePackageSourcesDataXML(sceneryObjects);
-                        myWriter.write(xmlData);
-                    }
-                    System.out.println("File Created: " + System.getProperty("user.dir") + "\\3DSp-POIOSM2FS-" + jsn + "\\PackageSources\\data\\poiosmtofs-" + jsn.toLowerCase() + "-scene.xml\n" );
-                } catch (IOException e) {
-                    System.out.println("An error occurred.");
-                    //e.printStackTrace();
-                }
+                createOverarchingXMLs(outputfile, assetGroups, sceneryObjects);
                 
             }
         
@@ -624,5 +528,129 @@ public class ParseJSONAll {
             
         }
         
+    /**********************************************************************************************************************************************/
+    
+        public void createOverarchingXMLs (String outputfile, List<AssetGroup> assetGroups, List<SceneryObject> sceneryObjects){
+            
+            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
+                jsn = jsn.substring(0, jsn.length() - 1);
+                jsn = jsn.replace("_","-");
+                
+                /* Creating an xml file for Package Definitions */
+                
+                try {
+                    try (FileWriter myWriter = new FileWriter(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageDefinitions/3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + ".xml")) {
+                        String xmlData = makePackageDefinitionsXML(jsn, assetGroups);
+                        myWriter.write(xmlData);
+                    }
+                    System.out.println("File Created: " + System.getProperty("user.dir") + "\\3DSp-POIOSM2FS-" + jsn + "\\PackageDefinitions\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + ".xml\n" );
+                } catch (IOException e) {
+                    System.out.println("An error occurred.");
+                    //e.printStackTrace();
+                }
+                
+                /* Creating an xml file for Data */
+                
+                try {
+                    try (FileWriter myWriter = new FileWriter(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/data/poiosmtofs-" + jsn.toLowerCase() + "-scene.xml")) {
+                        String xmlData = makePackageSourcesDataXML(sceneryObjects);
+                        myWriter.write(xmlData);
+                    }
+                    System.out.println("File Created: " + System.getProperty("user.dir") + "\\3DSp-POIOSM2FS-" + jsn + "\\PackageSources\\data\\poiosmtofs-" + jsn.toLowerCase() + "-scene.xml\n" );
+                } catch (IOException e) {
+                    System.out.println("An error occurred.");
+                    //e.printStackTrace();
+                }
+            
+        }
+
+    
+    /**********************************************************************************************************************************************/
+    
+        public void createSinglePOIXMLsandTextures (int linecount, String outputfile, String fname, JSAPResult config, String capitalTag, 
+                List<AssetGroup> assetGroups, List<SceneryObject> sceneryObjects, UUID uuid, String fuuid, double modifiedAlt,
+                ModifiedData y) throws IOException{
+            
+            String formatted = String.format("%05d", linecount);
+            String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
+            jsn = jsn.substring(0, jsn.length() - 1);
+            /* Each POI requires a subdirectory for model and texture */ 
+            jsn = jsn.replace("_","-");
+            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/Texture").mkdirs();
+            new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + "poi_" + formatted).mkdirs();
+            /* Function creating texture for a POI (from GraphicsInteraction) */
+            GraphicsInteraction gi = new GraphicsInteraction();
+            gi.texttoGraphics(capitalTag + ": " + fname, config, formatted, config.getInt("TEXTURE_WIDTH"));
+            capitalTag = "";
+
+            AssetGroup ag = new AssetGroup("poiosmtofs-" + jsn.toLowerCase() + linecount + "-models", "ArtProj", new FlagsAG(), 
+                    "PackageSources\\poi_" + formatted + "-modellib\\", 
+                    "scenery\\3dsp\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + "\\" );
+            assetGroups.add(ag);
+
+
+
+            double randomHeading = (double)Math.floor(Math.random()*(180.00-(-179.999)+1)+(-179.999));
+            double altRandomizer = (double)Math.floor(Math.random()*(20.00-(-20.00)+1)+(-20.00));
+
+            modifiedAlt = modifiedAlt + modifiedAlt*(altRandomizer/100);
+
+            LibraryObject lo = new LibraryObject(fuuid, 1.00000);
+            SceneryObject so = new SceneryObject(y.getLat(), y.getLon(), modifiedAlt, 0.0, 0.0, randomHeading, lo);
+            sceneryObjects.add(so);
+
+            /* Creating an xml file for a single POI */
+
+            try {
+                try (FileWriter myWriter2 = new FileWriter(System.getProperty("user.dir") + 
+                        "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
+                                "poi_" + formatted + "/poi_" + formatted + ".xml")) {
+                    ModelInfo modelInfo = new ModelInfo(uuid.toString(), 1.1);
+                    String xmlData = makeModelInfoXML(modelInfo);
+                    myWriter2.write(xmlData);
+                }
+            } catch (IOException e) {
+                System.out.println("An error occurred.");
+                //e.printStackTrace();
+            }
+
+            /* Creating an gltf file for a single POI */
+
+            try {
+                try (FileWriter myWriter2 = new FileWriter(System.getProperty("user.dir") + 
+                        "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
+                                "poi_" + formatted + "/poi_" + formatted + ".gltf")) {
+                    GLTFWriter glw = new GLTFWriter();
+                    String gltfData = glw.writeGLTF("poi_" + formatted);
+                    myWriter2.write(gltfData);
+                }
+            } catch (IOException e) {
+                System.out.println("An error occurred.");
+                //e.printStackTrace();
+            }
+
+            /* Creating an bin file for a single POI using model from /data*/
+
+            if(new File(System.getProperty("user.dir") + "/data").exists()){
+
+                File srcFile = new File(System.getProperty("user.dir") + "/data/model.bin");
+                File destFile = new File(System.getProperty("user.dir") + 
+                            "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
+                                    "poi_" + formatted + "/poi_" + formatted + ".bin");
+
+                FileUtils.copyFile(srcFile, destFile);
+            }
+            
+            
+            
+            
+        }
+    
+    
+    
+    
+    
+    
+    
     
 }

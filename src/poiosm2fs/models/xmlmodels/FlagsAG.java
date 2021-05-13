@@ -22,6 +22,14 @@ public class FlagsAG {
         this.fsxCompatibility = "false";
         
     }
+
+    public String getFsxCompatibility() {
+        return fsxCompatibility;
+    }
+
+    public void setFsxCompatibility(String fsxCompatibility) {
+        this.fsxCompatibility = fsxCompatibility;
+    }
     
     
     

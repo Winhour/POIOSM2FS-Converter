@@ -6,7 +6,6 @@
 package poiosm2fs.primaryfunctions;
 
 import com.martiansoftware.jsap.JSAPResult;
-import com.opencsv.exceptions.CsvException;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -25,7 +24,7 @@ import poiosm2fs.MiscFunctions;
  */
 public class ParseCSV {
     
-    public void parseCSV(JSAPResult config) throws FileNotFoundException, IOException, CsvException{
+    public void parseCSV(JSAPResult config) throws FileNotFoundException, IOException{
         
         /*function takes the chosen CSV file and turns it into POI xml file suitable for MSFS*/
         

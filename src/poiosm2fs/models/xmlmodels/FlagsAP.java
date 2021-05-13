@@ -23,6 +23,22 @@ public class FlagsAP {
         this.visibleInStore = "false";
         this.canBeReferenced = "false";
     }
+
+    public String getVisibleInStore() {
+        return visibleInStore;
+    }
+
+    public void setVisibleInStore(String visibleInStore) {
+        this.visibleInStore = visibleInStore;
+    }
+
+    public String getCanBeReferenced() {
+        return canBeReferenced;
+    }
+
+    public void setCanBeReferenced(String canBeReferenced) {
+        this.canBeReferenced = canBeReferenced;
+    }
     
     
     

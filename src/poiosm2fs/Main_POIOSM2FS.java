@@ -10,10 +10,8 @@ import com.martiansoftware.jsap.JSAP;
 import com.martiansoftware.jsap.JSAPException;
 import com.martiansoftware.jsap.JSAPResult;
 import com.martiansoftware.jsap.Switch;
-import com.opencsv.exceptions.CsvException;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import poiosm2fs.models.ConfigX;
 import poiosm2fs.primaryfunctions.ModifyFromJSON;
 import poiosm2fs.primaryfunctions.ParseCSV;
 import poiosm2fs.primaryfunctions.ParseJSONAll;
@@ -25,7 +23,7 @@ import poiosm2fs.primaryfunctions.ParseJSONAll;
 public class Main_POIOSM2FS {
 
 
-    public static void main(String[] args) throws IOException, JSAPException, FileNotFoundException, CsvException {
+    public static void main(String[] args) throws IOException, JSAPException, FileNotFoundException{
         
         /*XStreamInteraction xsi = new XStreamInteraction();                    //Will work on it later
         ConfigX loadedConfig = xsi.getConfigFromXML();
@@ -177,7 +175,7 @@ public class Main_POIOSM2FS {
     
     /**********************************************************************************************************************************************/
     
-    private static void chooseWhatToDo(JSAPResult config) throws IOException, FileNotFoundException, CsvException {     /*Based on the command line input, choose which function to run*/
+    private static void chooseWhatToDo(JSAPResult config) throws IOException, FileNotFoundException{     /*Based on the command line input, choose which function to run*/
         
         if(!config.success()){
             System.out.println("\nThere was an error found within command line arguments, try again\n");        /*Error printed when a wrong command line argument exists */
@@ -218,11 +216,18 @@ public class Main_POIOSM2FS {
     
     /**********************************************************************************************************************************************/
     
-    private static void helpInfo(){                     /*Prints out information on how to use the program*/
+    private static void helpInfo() throws IOException{                     /*Prints out information on how to use the program*/
         
-        System.out.println("\n***********************************");
-        System.out.println("* POIOSM2FS JSON / CSV Converter  *");
-        System.out.println("***********************************\n");
+        MiscFunctions mFunc = new MiscFunctions();                      /* Object to use miscellanous functions */
+        
+        System.setProperty("org.jline.terminal.dumb", "true");                          /*Supressing a warning for dumb terminal, since it's always there when using IDE*/
+        
+        int terminalWidth = org.jline.terminal.TerminalBuilder.terminal().getWidth();   /* Getting the width of a terminal using the jline library */
+        
+        if(terminalWidth >= 100)
+            mFunc.makeAsciiArt();                 /* ASCII Header */
+        else
+            mFunc.makeSimpleHeader();              /* Simple Header */
         System.out.println("\nHow to use:\n");
         System.out.println("-j or --jr (json_file_path) selects a short JSON file to use (prepared for rivers)");
         System.out.println("--ja (json_file_path) selects a long JSON file to use (containing various elements such as: rivers, ruins, peaks etc.)");
