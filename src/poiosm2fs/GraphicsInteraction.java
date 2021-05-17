@@ -26,11 +26,11 @@ public class GraphicsInteraction {
     
     /* Interacting with Graphics2D Library to create Textures */
     
-    public void texttoGraphics(String text, JSAPResult config, String formatted, int width) {         /* Makes .png files containing tags+names which can be used as textures */
+    public void texttoGraphics(String text, JSAPResult config, String formatted, int width, String type) throws IOException {         /* Makes .png files containing tags+names which can be used as textures */
         
         BufferedImage img = new BufferedImage(1, 1, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g2d = img.createGraphics();
-        Font font = new Font("Arial", Font.PLAIN, 90);                                          /* Set font and font size here */
+        Font font = new Font("Arial Bold", Font.PLAIN, 90);                                          /* Set font and font size here */
         g2d.setFont(font);
         FontMetrics fm = g2d.getFontMetrics();
         //int width = fm.stringWidth(text)+20;
@@ -39,35 +39,42 @@ public class GraphicsInteraction {
 
         
         //g2d.drawString(text, 0, fm.getAscent());
-        if(fm.stringWidth(text)<=width){                                                    /* Case for single lines */
+        if(fm.stringWidth(text)<=width-30){                                                    /* Case for single lines */
+            
             img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
             g2d = img.createGraphics();
             g2d = handleRenderingHints(g2d);
             g2d.setFont(font);
             fm = g2d.getFontMetrics();
-            Color c=new Color(255,255,255,100);                                        /* Setting background color and transparency */
+            Color c=new Color(255,255,255,255);                                        /* Setting background color and transparency */
             g2d.setColor(c);                                            
             g2d.fillRect(0, 0, width, height);
             g2d.setColor(Color.BLACK);                                                  /* Text color */
-            Rectangle rect = new Rectangle(0,0,width,height);
-            //g2d.drawRect(0,0,37,37);                                                  /* Might use in the future to make a spot for icon image */
-            //Rectangle rect = new Rectangle(37,0,width,height);
-            drawCenteredString(g2d, text, rect, font);
+            //Rectangle rect = new Rectangle(0,0,width,height);                     /* Texture without icon, comment the createTextnIcon */
+            createTextnIcon(g2d, width, height, font, text, type);                  /* Texture with Icon */
+            //drawCenteredString(g2d, text, rect, font);
+            
         }
         else {                                                                             /* Case for multiple lines */
             //height = height*((fm.stringWidth(text)/width));
-            Font font2 = new Font("Arial", Font.PLAIN, 54);                                          
+            Font font2 = new Font("Arial Bold", Font.PLAIN, 52);                                          
             img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
             g2d = img.createGraphics();
             g2d = handleRenderingHints(g2d);
             g2d.setFont(font2);
             fm = g2d.getFontMetrics();
-            Color c=new Color(255,255,255,100);
+            Color c=new Color(255,255,255,255);
             g2d.setColor(c);
-            g2d.fillRect(0, 0, width, height);
-            g2d.setColor(Color.BLACK);
-            drawStringMultiLine(g2d, text, width, 2, 44);
+            g2d.fillRect(128, 0, width, height);
+            g2d.setColor(Color.WHITE); 
+            g2d.drawRect(0,0,128,128);                                                  
+            g2d.setColor(Color.BLACK); 
+            BufferedImage bi;
+            bi = chooseIcon(type);
+            g2d.drawImage(bi, 0, 0, 128, 128, null);
+            drawStringMultiLine(g2d, text, width, 140, 54);
         }
+        
         g2d.dispose();
         try {
             String jsn = config.getString("JSON_ALL").substring(0,config.getString("JSON_ALL").indexOf(".")+".".length());
@@ -138,15 +145,97 @@ public class GraphicsInteraction {
     }
     
     /**********************************************************************************************************************************************/
-    /*
-    static Font fontDecider (int){
+   
+    static void createTextnIcon(Graphics g2d, int width, int height, Font font, String text, String type) throws IOException{            /* Work in progress */
         
-        Font font;
+        BufferedImage bi;
+        
+        bi = chooseIcon(type);
+       
+        
+        if (g2d.getFontMetrics().stringWidth(text) > ((width*6)/7)){    
+            
+            g2d.setColor(Color.WHITE); 
+            g2d.drawRect(0,0,128,128);                                                  
+            g2d.setColor(Color.BLACK); 
+            g2d.drawImage(bi, 0, 0, 128, 128, null);
+            Rectangle rect = new Rectangle(128,0,width-128,height);
+            drawCenteredString(g2d, text, rect, font);
+        
+        }
+        
+        else {
+            
+            g2d.setColor(Color.WHITE); 
+            int x = (width/2)-(g2d.getFontMetrics().stringWidth(text)/2) - 144;
+            int y = 0;
+            g2d.drawRect(x,y,128,128); 
+            g2d.setColor(Color.BLACK); 
+            g2d.drawImage(bi, x, y+10, 108, 118, null);
+            Rectangle rect = new Rectangle(0,0,width,height);
+            drawCenteredString(g2d, text, rect, font);
+            
+        }
         
         
-        
-        return font;
     }
-    */
+    
+    /**********************************************************************************************************************************************/
+    
+    static BufferedImage chooseIcon(String type) throws IOException{
+        
+        BufferedImage bi;
+        
+        switch (type) {                     /* Icons for tags */
+            case "Peak":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/peak.png"));
+                break;
+            case "City":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/city.png"));
+                break;
+            case "Ruins":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/ruins.png"));
+                break;
+            case "Temple":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/temple.png"));
+                break;
+            case "Church":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/temple.png"));
+                break;    
+            case "Village":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/village.png"));
+                break;
+            case "Suburb":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/suburb.png"));
+                break;    
+            case "Town":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/town.png"));
+                break;
+            case "Attraction":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/attraction.png"));
+                break;    
+            case "Castle":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/Castle.png"));
+                break;       
+            case "Island":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/island.png"));
+                break;      
+            case "Chapel":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/chapel.png"));
+                break;      
+            case "Nature_reserve":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/nature_reserve.png"));
+                break;      
+            case "Archaeological_site":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/archaeological_site.png"));
+                break;       
+            default:
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));
+                break;
+        }
+        
+        return bi;
+    }
+    
     
 }

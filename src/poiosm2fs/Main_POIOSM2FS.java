@@ -84,7 +84,7 @@ public class Main_POIOSM2FS {
         
         FlaggedOption opt5 = new FlaggedOption("ALT")           /* Altitude at which the note will appear */
                                 .setStringParser(JSAP.DOUBLE_PARSER)
-                                .setDefault("500.00") 
+                                .setDefault("70.00") 
                                 .setRequired(true) 
                                 .setShortFlag('a') 
                                 .setLongFlag(JSAP.NO_LONGFLAG);
@@ -244,7 +244,7 @@ public class Main_POIOSM2FS {
         System.out.println("--rsv (Integer) removes elements with type 'Village' which have number of tags less than or equal to the chosen threshold");
         System.out.println("-t makes folders that contain all the necessary xmls, textures etc. for model creation");
         System.out.println("(NOTE needs the /data folder to get models)");
-        System.out.println("--txw (Integer) sets width for the textures (default = 350)");
+        System.out.println("--txw (Integer) sets width for the textures (default = 2048)");
         System.out.println("\nExample:\n");
         System.out.println("java -jar \"POIOSM2FS.jar\" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re");
         System.out.println("java -jar \"POIOSM2FS.jar\" -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki");
