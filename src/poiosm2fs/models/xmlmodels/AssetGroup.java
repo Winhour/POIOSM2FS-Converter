@@ -13,6 +13,8 @@ import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
  * @author Marcin
  */
 
+/* Asset Group object for Package Definitions XML */
+
 @XStreamAlias("AssetGroup")
 public class AssetGroup {
     

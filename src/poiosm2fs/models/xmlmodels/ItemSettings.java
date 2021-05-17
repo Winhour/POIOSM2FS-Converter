@@ -12,6 +12,8 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
  * @author Marcin
  */
 
+/* Item Settings object for Package Definitions XML */
+
 @XStreamAlias("ItemSettings")
 public class ItemSettings {
     

@@ -12,6 +12,9 @@ import java.util.List;
  *
  * @author Marcin
  */
+
+/* Data from a JSON for a single element */
+
 public class ElementData {
 
     private final String name;          /* Default name */

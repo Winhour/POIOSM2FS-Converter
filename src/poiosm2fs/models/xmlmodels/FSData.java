@@ -16,6 +16,8 @@ import java.util.List;
  * @author Marcin
  */
 
+/* FS Data object for Data XML */
+
 @XStreamAlias("FSData")
 @XStreamConverter(value=ToAttributedValueConverter.class, strings={"sceneryObjects"})
 public class FSData {

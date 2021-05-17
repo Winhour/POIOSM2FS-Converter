@@ -11,6 +11,8 @@ package poiosm2fs.models;
  */
 public class ConfigX {
     
+    /* Work in progress, Object contains configuration data as another option from command line input */
+    
     private String owner;
     private String label;
     private Double altitude;

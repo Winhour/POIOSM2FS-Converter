@@ -12,6 +12,8 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
  * @author Marcin
  */
 
+/* Packages object for Main XML */
+
 @XStreamAlias("Packages")
 public class Packages {
     

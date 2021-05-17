@@ -11,6 +11,9 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
  *
  * @author Marcin
  */
+
+/* Flags (Asset Group) object for Package Definitions XML */
+
 public class FlagsAG {
     
     

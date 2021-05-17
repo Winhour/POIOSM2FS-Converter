@@ -13,6 +13,8 @@ import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
  * @author Marcin
  */
 
+/* Scenery Object object for Data XML */
+
 @XStreamAlias("SceneryObject")
 public class SceneryObject {
     

@@ -13,6 +13,8 @@ import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
  * @author Marcin
  */
 
+/* Library Object object for Data XML */
+
 @XStreamAlias("LibraryObject")
 public class LibraryObject {
     

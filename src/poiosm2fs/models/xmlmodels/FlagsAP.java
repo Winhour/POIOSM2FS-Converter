@@ -11,6 +11,9 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
  *
  * @author Marcin
  */
+
+/* Flags (Asset Package) object for Package Definitions XML */
+
 public class FlagsAP {
     
     @XStreamAlias("VisibleInStore")

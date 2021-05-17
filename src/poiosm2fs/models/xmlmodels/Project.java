@@ -13,6 +13,8 @@ import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
  * @author Marcin
  */
 
+/* Project object for Main XML */
+
 @XStreamAlias("Project")
 public class Project {
     

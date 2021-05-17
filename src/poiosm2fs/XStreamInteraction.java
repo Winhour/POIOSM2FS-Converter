@@ -20,6 +20,8 @@ import poiosm2fs.models.xmlmodels.Project;
  */
 public class XStreamInteraction {
     
+    /* Interaction with XStream library for XML handling */
+    
     public ConfigX getConfigFromXML() throws FileNotFoundException{
            
         FileReader fileReader = new FileReader(System.getProperty("user.dir") + "/config.xml");  // load our xml file  

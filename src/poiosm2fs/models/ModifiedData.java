@@ -9,6 +9,9 @@ package poiosm2fs.models;
  *
  * @author Marcin
  */
+
+/* Modified data for a POI */
+
 public class ModifiedData {
 
     private final String name;             /* Default name */

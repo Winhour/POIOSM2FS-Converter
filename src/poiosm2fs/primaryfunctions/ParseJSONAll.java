@@ -465,11 +465,14 @@ public class ParseJSONAll {
     
     public void initializeTextureFolders(String outputfile, List<AssetGroup> assetGroups) throws IOException{
         
+            /* Setting up the initial files and folders for textures, including copying readmes etc. from /data */
         
             String jsn = formatOutString(outputfile);
             File dirfile = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn);
+            File dirfile2 = new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/docs");
             System.out.println("");
             if (dirfile.exists()){
+                deleteDirectory(dirfile2);      /* Doing it this way to handle an error that sometimes appears with this directory */
                 deleteDirectory(dirfile);
                 System.out.println("Deleted directory: " + dirfile + "\n");
             }
@@ -632,6 +635,8 @@ public class ParseJSONAll {
                 List<AssetGroup> assetGroups, List<SceneryObject> sceneryObjects, UUID uuid, String fuuid, double modifiedAlt,
                 ModifiedData y) throws IOException{
             
+            /* Creating XML and Textures for a single POI */
+            
             String formatted = String.format("%05d", linecount);
             String jsn = formatOutString(outputfile);
             /* Each POI requires a subdirectory for model and texture */ 
@@ -707,7 +712,7 @@ public class ParseJSONAll {
         
     /**********************************************************************************************************************************************/ 
     
-        static String formatOutString(String outputfile){
+        static String formatOutString(String outputfile){                           /* Making an useful string thet can be put in names etc. */
             
             String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Getting directory name without .txt */
             jsn = jsn.substring(0, jsn.length() - 1);

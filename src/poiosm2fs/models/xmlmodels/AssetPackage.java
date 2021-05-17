@@ -14,6 +14,8 @@ import java.util.List;
  * @author Marcin
  */
 
+/* Asset Package object for Package Definitions XML */
+
 @XStreamAlias("AssetPackage")
 public class AssetPackage {
     

@@ -24,15 +24,17 @@ import javax.imageio.ImageIO;
  */
 public class GraphicsInteraction {
     
+    /* Interacting with Graphics2D Library to create Textures */
+    
     public void texttoGraphics(String text, JSAPResult config, String formatted, int width) {         /* Makes .png files containing tags+names which can be used as textures */
         
         BufferedImage img = new BufferedImage(1, 1, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g2d = img.createGraphics();
-        Font font = new Font("Arial", Font.PLAIN, 16);                                          /* Set font and font size here */
+        Font font = new Font("Arial", Font.PLAIN, 90);                                          /* Set font and font size here */
         g2d.setFont(font);
         FontMetrics fm = g2d.getFontMetrics();
         //int width = fm.stringWidth(text)+20;
-        int height = 37;                                                                    /* Might need changing later, was set to mostly fit well with output */
+        int height = 128;                                                                    /* Might need changing later, was set to mostly fit well with output */
         g2d.dispose();
 
         
@@ -43,28 +45,28 @@ public class GraphicsInteraction {
             g2d = handleRenderingHints(g2d);
             g2d.setFont(font);
             fm = g2d.getFontMetrics();
-            //Color c=new Color(0f,0f,0f,0f );
-            Color c=new Color(208,208,208,120);                                        /* Setting background color and transparency */
-            //g2d.setColor(Color.LIGHT_GRAY);
+            Color c=new Color(255,255,255,100);                                        /* Setting background color and transparency */
             g2d.setColor(c);                                            
             g2d.fillRect(0, 0, width, height);
-            g2d.setColor(Color.WHITE);                                                  /* Text color */
+            g2d.setColor(Color.BLACK);                                                  /* Text color */
             Rectangle rect = new Rectangle(0,0,width,height);
+            //g2d.drawRect(0,0,37,37);                                                  /* Might use in the future to make a spot for icon image */
+            //Rectangle rect = new Rectangle(37,0,width,height);
             drawCenteredString(g2d, text, rect, font);
         }
         else {                                                                             /* Case for multiple lines */
-            height = height*((fm.stringWidth(text)/width));
+            //height = height*((fm.stringWidth(text)/width));
+            Font font2 = new Font("Arial", Font.PLAIN, 54);                                          
             img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
             g2d = img.createGraphics();
             g2d = handleRenderingHints(g2d);
-            g2d.setFont(font);
+            g2d.setFont(font2);
             fm = g2d.getFontMetrics();
-            Color c=new Color(208,208,208,120);
-            //g2d.setColor(Color.LIGHT_GRAY);
+            Color c=new Color(255,255,255,100);
             g2d.setColor(c);
             g2d.fillRect(0, 0, width, height);
-            g2d.setColor(Color.WHITE);
-            drawStringMultiLine(g2d, text, width, 2, 15);
+            g2d.setColor(Color.BLACK);
+            drawStringMultiLine(g2d, text, width, 2, 44);
         }
         g2d.dispose();
         try {
@@ -134,5 +136,17 @@ public class GraphicsInteraction {
         
         return g2d;   
     }
+    
+    /**********************************************************************************************************************************************/
+    /*
+    static Font fontDecider (int){
+        
+        Font font;
+        
+        
+        
+        return font;
+    }
+    */
     
 }

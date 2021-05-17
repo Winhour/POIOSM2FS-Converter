@@ -13,6 +13,8 @@ import com.thoughtworks.xstream.annotations.XStreamAsAttribute;
  * @author Marcin
  */
 
+/* Model Info object for POI xml */
+
 @XStreamAlias("ModelInfo")
 public class ModelInfo {
     

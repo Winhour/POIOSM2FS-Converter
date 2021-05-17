@@ -22,6 +22,7 @@ import poiosm2fs.primaryfunctions.ParseJSONAll;
  */
 public class Main_POIOSM2FS {
 
+    /* Main function */
 
     public static void main(String[] args) throws IOException, JSAPException, FileNotFoundException{
         
@@ -74,7 +75,7 @@ public class Main_POIOSM2FS {
         
         FlaggedOption opt4 = new FlaggedOption("OWNER")         /* Owner of produced marker */
                                 .setStringParser(JSAP.STRING_PARSER)
-                                .setDefault("RipPipPip") 
+                                .setDefault("3DSpotters") 
                                 .setRequired(true) 
                                 .setShortFlag('w') 
                                 .setLongFlag(JSAP.NO_LONGFLAG);
@@ -137,7 +138,7 @@ public class Main_POIOSM2FS {
         
         FlaggedOption opt11 = new FlaggedOption("TEXTURE_WIDTH")           /* Texture width */
                                 .setStringParser(JSAP.INTEGER_PARSER)
-                                .setDefault("350") 
+                                .setDefault("2048") 
                                 .setRequired(true) 
                                 .setShortFlag(JSAP.NO_SHORTFLAG) 
                                 .setLongFlag("txw");

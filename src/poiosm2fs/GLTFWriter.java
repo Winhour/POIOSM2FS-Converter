@@ -13,6 +13,8 @@ public class GLTFWriter {
     
     public String writeGLTF(String poi){
         
+        /* String to write into gltf files, simplest solution */
+        
         String output = "";
         
         output += "{\n" +

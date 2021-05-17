@@ -17,6 +17,8 @@ import org.json.JSONObject;
  */
 public class MiscFunctions {
     
+    /* Miscellaneous small functions that don't really belong anywhere else */
+    
      /**
      * @param path*
      * @param encoding
