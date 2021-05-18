@@ -48,7 +48,7 @@ public class SceneryObject {
     String snapToGround = "TRUE";
     
     @XStreamAsAttribute
-    String snapToNormal = "False";
+    String snapToNormal = "FALSE";
     
     @XStreamAlias("LibraryObject")
     LibraryObject libraryObject;

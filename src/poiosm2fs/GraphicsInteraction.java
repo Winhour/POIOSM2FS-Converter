@@ -39,7 +39,7 @@ public class GraphicsInteraction {
 
         
         //g2d.drawString(text, 0, fm.getAscent());
-        if(fm.stringWidth(text)<=width-30){                                                    /* Case for single lines */
+        if(fm.stringWidth(text)<=width-100){                                                    /* Case for single lines */
             
             img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
             g2d = img.createGraphics();
@@ -63,16 +63,30 @@ public class GraphicsInteraction {
             g2d = handleRenderingHints(g2d);
             g2d.setFont(font2);
             fm = g2d.getFontMetrics();
-            Color c=new Color(255,255,255,255);
-            g2d.setColor(c);
-            g2d.fillRect(128, 0, width, height);
-            g2d.setColor(Color.WHITE); 
-            g2d.drawRect(0,0,128,128);                                                  
-            g2d.setColor(Color.BLACK); 
             BufferedImage bi;
             bi = chooseIcon(type);
-            g2d.drawImage(bi, 0, 0, 128, 128, null);
-            drawStringMultiLine(g2d, text, width, 140, 54);
+            if(fm.stringWidth(text)<=width-145){
+                Color c=new Color(255,255,255,255);
+                g2d.setColor(c);
+                g2d.fillRect(0, 0, width, height);
+                g2d.setColor(Color.WHITE); 
+                int x = (width/2)-(g2d.getFontMetrics().stringWidth(text)/2) - 144;
+                int y = 0;
+                g2d.drawRect(x,y,128,128); 
+                g2d.setColor(Color.BLACK); 
+                g2d.drawImage(bi, x, y+10, 108, 118, null);
+                Rectangle rect = new Rectangle(0,0,width,height);
+                drawCenteredString(g2d, text, rect, font2);
+            } else {
+                Color c=new Color(255,255,255,255);
+                g2d.setColor(c);
+                g2d.fillRect(0, 0, width, height);
+                g2d.setColor(Color.WHITE); 
+                g2d.drawRect(0,0,128,128);                                                  
+                g2d.setColor(Color.BLACK); 
+                g2d.drawImage(bi, 0, 0, 128, 128, null);
+                drawStringMultiLine(g2d, text, width-148, 140, 54);
+            }
         }
         
         g2d.dispose();
@@ -215,7 +229,7 @@ public class GraphicsInteraction {
                 bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/attraction.png"));
                 break;    
             case "Castle":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/Castle.png"));
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/castle.png"));
                 break;       
             case "Island":
                 bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/island.png"));
@@ -226,9 +240,33 @@ public class GraphicsInteraction {
             case "Nature_reserve":
                 bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/nature_reserve.png"));
                 break;      
-            case "Archaeological_site":
+            case "Arch.":
                 bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/archaeological_site.png"));
-                break;       
+                break;    
+            case "Reservoir":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/reservoir.png"));
+                break;      
+            case "Industrial":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/industrial.png"));
+                break;  
+            case "Forest":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/forest.png"));
+                break;  
+            case "River":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
+                break;  
+            case "Lake":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/lake.png"));
+                break;  
+            case "Monument":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/monument.png"));
+                break;    
+            case "Military":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/military.png"));
+                break;  
+            case "Stadium":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/stadium.png"));
+                break;          
             default:
                 bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));
                 break;

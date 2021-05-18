@@ -490,6 +490,24 @@ public class GLTFWriter {
                 "                0,\n" +
                 "                0\n" +
                 "            ],\n" +
+                "            \"name\" : \"base_MSFS_mat\",\n" +
+                "            \"pbrMetallicRoughness\" : {\n" +
+                "                \"baseColorFactor\" : [\n" +
+                "                    0.15232576429843903,\n" +
+                "                    0.09750441461801529,\n" +
+                "                    0.0005894238129258156,\n" +
+                "                    1\n" +
+                "                ],\n" +
+                "                \"metallicFactor\" : 0,\n" +
+                "                \"roughnessFactor\" : 0.5\n" +
+                "            }\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"emissiveFactor\" : [\n" +
+                "                0,\n" +
+                "                0,\n" +
+                "                0\n" +
+                "            ],\n" +
                 "            \"extensions\" : {\n" +
                 "                \"ASOBO_material_day_night_switch\" : {\n" +
                 "                    \"enabled\" : true\n" +
@@ -534,7 +552,7 @@ public class GLTFWriter {
                 "                        \"TEXCOORD_0\" : 6\n" +
                 "                    },\n" +
                 "                    \"indices\" : 7,\n" +
-                "                    \"material\" : 0\n" +
+                "                    \"material\" : 1\n" +
                 "                }\n" +
                 "            ]\n" +
                 "        },\n" +
@@ -548,7 +566,7 @@ public class GLTFWriter {
                 "                        \"TEXCOORD_0\" : 10\n" +
                 "                    },\n" +
                 "                    \"indices\" : 11,\n" +
-                "                    \"material\" : 1\n" +
+                "                    \"material\" : 2\n" +
                 "                }\n" +
                 "            ]\n" +
                 "        },\n" +
@@ -562,7 +580,7 @@ public class GLTFWriter {
                 "                        \"TEXCOORD_0\" : 14\n" +
                 "                    },\n" +
                 "                    \"indices\" : 11,\n" +
-                "                    \"material\" : 1\n" +
+                "                    \"material\" : 2\n" +
                 "                }\n" +
                 "            ]\n" +
                 "        },\n" +
@@ -576,7 +594,7 @@ public class GLTFWriter {
                 "                        \"TEXCOORD_0\" : 17\n" +
                 "                    },\n" +
                 "                    \"indices\" : 11,\n" +
-                "                    \"material\" : 1\n" +
+                "                    \"material\" : 2\n" +
                 "                }\n" +
                 "            ]\n" +
                 "        },\n" +
@@ -590,7 +608,7 @@ public class GLTFWriter {
                 "                        \"TEXCOORD_0\" : 20\n" +
                 "                    },\n" +
                 "                    \"indices\" : 11,\n" +
-                "                    \"material\" : 1\n" +
+                "                    \"material\" : 2\n" +
                 "                }\n" +
                 "            ]\n" +
                 "        }\n" +
@@ -905,7 +923,7 @@ public class GLTFWriter {
                 "    \"buffers\" : [\n" +
                 "        {\n" +
                 "            \"byteLength\" : 1136,\n" +
-                "            \"uri\" : \"" + poi + ".bin\"\n" +
+                "            \"uri\" : \"" + poi + "_LOD00.bin\"\n" +
                 "        }\n" +
                 "    ]\n" +
                 "}";

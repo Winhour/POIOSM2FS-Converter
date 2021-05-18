@@ -30,6 +30,7 @@ import poiosm2fs.models.xmlmodels.FSData;
 import poiosm2fs.models.xmlmodels.FlagsAG;
 import poiosm2fs.models.xmlmodels.FlagsAP;
 import poiosm2fs.models.xmlmodels.ItemSettings;
+import poiosm2fs.models.xmlmodels.LOD;
 import poiosm2fs.models.xmlmodels.LibraryObject;
 import poiosm2fs.models.xmlmodels.ModelInfo;
 import poiosm2fs.models.xmlmodels.Packages;
@@ -415,7 +416,7 @@ public class ParseJSONAll {
         ItemSettings itemSettings = new ItemSettings("SCENERY","POIOSM2FS " + jsn1,"","3DSpotters");
         FlagsAP flags = new FlagsAP();
 
-        AssetPackage assetPackage = new AssetPackage("3dsp-scenery-poiosmtofs-" + jsn.toLowerCase(), "PackageDefinitions\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() , "1.0.0", itemSettings, flags, assetGroups);
+        AssetPackage assetPackage = new AssetPackage("3dsp-scenery-poiosmtofs-" + jsn.toLowerCase(), "PackageDefinitions\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + "\\ReleaseNotes.xml" , "1.0.0", itemSettings, flags, assetGroups);
         
         XStreamInteraction xsi = new XStreamInteraction();
         String xmlData = xsi.generatePackageDefinitionsXML(assetPackage);
@@ -537,7 +538,7 @@ public class ParseJSONAll {
                 
                 String readmestring = new String(Files.readAllBytes(Paths.get(System.getProperty("user.dir") + "/data/docs/README.md")));
                 
-                String replacementString = "# 3DSp-POISM2FS-" + jsn;
+                String replacementString = "# 3DSp-POIOSM2FS-" + jsn;
                 
                 readmestring = readmestring.replaceFirst("# LEAVE_THIS_HEADER_UNCHANGED", replacementString);
                 
@@ -659,7 +660,7 @@ public class ParseJSONAll {
 
             modifiedAlt = modifiedAlt + modifiedAlt*(altRandomizer/100);
 
-            LibraryObject lo = new LibraryObject(fuuid, 1.00000);
+            LibraryObject lo = new LibraryObject("{"+fuuid+"}", 1.00000);
             SceneryObject so = new SceneryObject(y.getLat(), y.getLon(), modifiedAlt, 0.0, 0.0, randomHeading, lo);
             sceneryObjects.add(so);
 
@@ -669,7 +670,12 @@ public class ParseJSONAll {
                 try (FileWriter myWriter2 = new FileWriter(System.getProperty("user.dir") + 
                         "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
                                 "poi_" + formatted + "/poi_" + formatted + ".xml")) {
-                    ModelInfo modelInfo = new ModelInfo(uuid.toString(), 1.1);
+                    
+                    List<LOD> lods = new ArrayList<>();
+                    LOD lod = new LOD ("poi_" + formatted + "_LOD00.gltf");
+                    lods.add(lod);
+                    
+                    ModelInfo modelInfo = new ModelInfo("{"+uuid.toString()+"}", 1.1, lods);
                     String xmlData = makeModelInfoXML(modelInfo);
                     myWriter2.write(xmlData);
                 }
@@ -683,7 +689,7 @@ public class ParseJSONAll {
             try {
                 try (FileWriter myWriter2 = new FileWriter(System.getProperty("user.dir") + 
                         "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
-                                "poi_" + formatted + "/poi_" + formatted + ".gltf")) {
+                                "poi_" + formatted + "/poi_" + formatted + "_LOD00.gltf")) {
                     GLTFWriter glw = new GLTFWriter();
                     String gltfData = glw.writeGLTF("poi_" + formatted);
                     myWriter2.write(gltfData);
@@ -700,7 +706,7 @@ public class ParseJSONAll {
                 File srcFile = new File(System.getProperty("user.dir") + "/data/model.bin");
                 File destFile = new File(System.getProperty("user.dir") + 
                             "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + 
-                                    "poi_" + formatted + "/poi_" + formatted + ".bin");
+                                    "poi_" + formatted + "/poi_" + formatted + "_LOD00.bin");
 
                 FileUtils.copyFile(srcFile, destFile);
             }

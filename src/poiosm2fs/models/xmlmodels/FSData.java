@@ -23,7 +23,7 @@ import java.util.List;
 public class FSData {
     
     @XStreamAsAttribute
-    @XStreamAlias("Version")
+    @XStreamAlias("version")
     String version;
     
     List<SceneryObject> sceneryObjects;

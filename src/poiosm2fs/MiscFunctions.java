@@ -86,6 +86,7 @@ public class MiscFunctions {
             }
 
             if (type != null && type.equals("intermittent")) type = "Natural";              /* Special cases */
+            if (type != null && type.equals("archaeological_site")) type = "Arch.";
             if (type != null && type.equals("yes")) type = null;
         
         return type;
