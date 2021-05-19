@@ -9,6 +9,7 @@ import com.martiansoftware.jsap.FlaggedOption;
 import com.martiansoftware.jsap.JSAP;
 import com.martiansoftware.jsap.JSAPException;
 import com.martiansoftware.jsap.JSAPResult;
+import com.martiansoftware.jsap.QualifiedSwitch;
 import com.martiansoftware.jsap.Switch;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -24,7 +25,7 @@ public class Main_POIOSM2FS {
 
     /* Main function */
 
-    public static void main(String[] args) throws IOException, JSAPException, FileNotFoundException{
+    public static void main(String[] args) throws IOException, JSAPException, FileNotFoundException {
         
         /*XStreamInteraction xsi = new XStreamInteraction();                    //Will work on it later
         ConfigX loadedConfig = xsi.getConfigFromXML();
@@ -37,6 +38,8 @@ public class Main_POIOSM2FS {
         JSAPResult config = jsap.parse(args);  /* Encapsulates the results of JSAP's parse() methods. */
         
         chooseWhatToDo(config);               /*Based on the command line input, choose which function to run*/
+        
+        System.out.println("*** FINISHED ALL TASKS ***\n");    /* Testing if end of program was reached */
         
     }
     
@@ -84,7 +87,7 @@ public class Main_POIOSM2FS {
         
         FlaggedOption opt5 = new FlaggedOption("ALT")           /* Altitude at which the note will appear */
                                 .setStringParser(JSAP.DOUBLE_PARSER)
-                                .setDefault("70.00") 
+                                .setDefault("100.00") 
                                 .setRequired(true) 
                                 .setShortFlag('a') 
                                 .setLongFlag(JSAP.NO_LONGFLAG);
@@ -144,6 +147,30 @@ public class Main_POIOSM2FS {
                                 .setLongFlag("txw");
         
         jsap.registerParameter(opt11);
+        
+
+        
+         /* Text color in texture */
+        QualifiedSwitch qs1 = (QualifiedSwitch)
+                                (new QualifiedSwitch("COLOR_TEXT")
+                                .setStringParser(JSAP.INTEGER_PARSER)
+                                .setShortFlag(JSAP.NO_SHORTFLAG)
+                                .setLongFlag("ct")
+                                .setList(true)
+                                .setListSeparator(','));
+        
+        jsap.registerParameter(qs1);
+        
+        /* Background color in texture */
+        QualifiedSwitch qs2 = (QualifiedSwitch)
+                                (new QualifiedSwitch("COLOR_BACKGROUND")
+                                .setStringParser(JSAP.INTEGER_PARSER)
+                                .setShortFlag(JSAP.NO_SHORTFLAG)
+                                .setLongFlag("cb")
+                                .setList(true)
+                                .setListSeparator(','));
+        
+        jsap.registerParameter(qs2);
         
         Switch sw1 = new Switch("help")                     /* help flag */
                         .setShortFlag('h')
@@ -243,8 +270,10 @@ public class Main_POIOSM2FS {
         System.out.println("--rst (Integer) removes elements with type 'Temple' which have number of tags less than or equal to the chosen threshold");
         System.out.println("--rsv (Integer) removes elements with type 'Village' which have number of tags less than or equal to the chosen threshold");
         System.out.println("-t makes folders that contain all the necessary xmls, textures etc. for model creation");
-        System.out.println("(NOTE needs the /data folder to get models)");
+        System.out.println("(NOTE needs the /data and /asset folders to get models)");
         System.out.println("--txw (Integer) sets width for the textures (default = 2048)");
+        System.out.println("--cb:r,g,b sets texture background color example: --cb:100,0,0");
+        System.out.println("--ct:r,g,b sets texture text color example: --ct:100,0,0");
         System.out.println("\nExample:\n");
         System.out.println("java -jar \"POIOSM2FS.jar\" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re");
         System.out.println("java -jar \"POIOSM2FS.jar\" -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki");

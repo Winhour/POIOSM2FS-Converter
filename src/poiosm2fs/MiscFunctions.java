@@ -42,7 +42,10 @@ public class MiscFunctions {
             if(tags.has("waterway") && !tags.getString("waterway").equals("yes")){
                 type = tags.getString("waterway");
             }
-            else if (tags.has("icao")){                         /*icao (International Civil Aviation Organization) refers to special code assigned to airports*/
+            else if (tags.has("aeroway") && !tags.getString("aeroway").equals("yes")){                         
+                type = tags.getString("aeroway");
+            }
+            else if (tags.has("icao")){                         
                 type = tags.getString("icao");
             }
             else if(tags.has("water")){
@@ -115,11 +118,12 @@ public class MiscFunctions {
      * @param type*
      * @return ******************************************************************************************************************************************/
     
-    public Double modifyAlt(Double Alt, String type) {                /* Setting different altitudes for Villages, Cities and Towns */
+    public Double modifyAlt(Double Alt, String type) {                /* Setting different altitudes for Villages, Suburbs, Cities and Towns */
         
-        if (type != null && type.equals("village")) Alt += 100;
-        if (type != null && type.equals("city")) Alt += 200;
-        if (type != null && type.equals("town")) Alt += 200;
+        if (type != null && type.equals("village")) Alt *= 1.3;
+        if (type != null && type.equals("suburb")) Alt *= 1.3;
+        if (type != null && type.equals("city")) Alt *= 1.6;
+        if (type != null && type.equals("town")) Alt *= 1.6;
         
         return Alt;
     }
@@ -139,7 +143,7 @@ public class MiscFunctions {
         for (; i < width; i++) {
           System.out.print(" ");
         }
-        System.out.print("] " + (int)(progressPercentage*102) + "%");
+        System.out.print("] " + (int)(progressPercentage*102) + "%");         /* Fiddling with the ouput a little, bacuse it keeps stopping before 100% */
     }
     
     /**********************************************************************************************************************************************/
@@ -155,24 +159,24 @@ public class MiscFunctions {
     /**********************************************************************************************************************************************/
     
     
-    public void makeAsciiArt(){
+    public void makeAsciiArt(){                             /* ASCII made in patorjk.com/software/taag */
         
         System.out.println("                      ______ _____ _____ _____ ________  ___ _____ ______ _____                        \n" +
-"                      | ___ \\  _  |_   _|  _  /  ___|  \\/  |/ __  \\|  ___/  ___|                       \n" +
-"                      | |_/ / | | | | | | | | \\ `--.| .  . |`' / /'| |_  \\ `--.                        \n" +
-"                      |  __/| | | | | | | | | |`--. \\ |\\/| |  / /  |  _|  `--. \\                       \n" +
-"                      | |   \\ \\_/ /_| |_\\ \\_/ /\\__/ / |  | |./ /___| |   /\\__/ /                       \n" +
-"                      \\_|    \\___/ \\___/ \\___/\\____/\\_|  |_/\\_____/\\_|   \\____/                        \n" +
-"                                                                                                       \n" +
-"                                                                                                       \n" +
-"   ___ _____  _____ _   _       __  _____  _____  _   _   _____                           _            \n" +
-"  |_  /  ___||  _  | \\ | |     / / /  __ \\/  ___|| | | | /  __ \\                         | |           \n" +
-"    | \\ `--. | | | |  \\| |    / /  | /  \\/\\ `--. | | | | | /  \\/ ___  _ ____   _____ _ __| |_ ___ _ __ \n" +
-"    | |`--. \\| | | | . ` |   / /   | |     `--. \\| | | | | |    / _ \\| '_ \\ \\ / / _ \\ '__| __/ _ \\ '__|\n" +
-"/\\__/ /\\__/ /\\ \\_/ / |\\  |  / /    | \\__/\\/\\__/ /\\ \\_/ / | \\__/\\ (_) | | | \\ V /  __/ |  | ||  __/ |   \n" +
-"\\____/\\____/  \\___/\\_| \\_/ /_/      \\____/\\____/  \\___/   \\____/\\___/|_| |_|\\_/ \\___|_|   \\__\\___|_|   \n" +
-"                                                                                                       \n");
-        
+            "                      | ___ \\  _  |_   _|  _  /  ___|  \\/  |/ __  \\|  ___/  ___|                       \n" +
+            "                      | |_/ / | | | | | | | | \\ `--.| .  . |`' / /'| |_  \\ `--.                        \n" +
+            "                      |  __/| | | | | | | | | |`--. \\ |\\/| |  / /  |  _|  `--. \\                       \n" +
+            "                      | |   \\ \\_/ /_| |_\\ \\_/ /\\__/ / |  | |./ /___| |   /\\__/ /                       \n" +
+            "                      \\_|    \\___/ \\___/ \\___/\\____/\\_|  |_/\\_____/\\_|   \\____/                        \n" +
+            "                                                                                                       \n" +
+            "                                                                                                       \n" +
+            "   ___ _____  _____ _   _       __  _____  _____  _   _   _____                           _            \n" +
+            "  |_  /  ___||  _  | \\ | |     / / /  __ \\/  ___|| | | | /  __ \\                         | |           \n" +
+            "    | \\ `--. | | | |  \\| |    / /  | /  \\/\\ `--. | | | | | /  \\/ ___  _ ____   _____ _ __| |_ ___ _ __ \n" +
+            "    | |`--. \\| | | | . ` |   / /   | |     `--. \\| | | | | |    / _ \\| '_ \\ \\ / / _ \\ '__| __/ _ \\ '__|\n" +
+            "/\\__/ /\\__/ /\\ \\_/ / |\\  |  / /    | \\__/\\/\\__/ /\\ \\_/ / | \\__/\\ (_) | | | \\ V /  __/ |  | ||  __/ |   \n" +
+            "\\____/\\____/  \\___/\\_| \\_/ /_/      \\____/\\____/  \\___/   \\____/\\___/|_| |_|\\_/ \\___|_|   \\__\\___|_|   \n" +
+            "                                                                                                       \n");
+
     }
     
     /**********************************************************************************************************************************************/

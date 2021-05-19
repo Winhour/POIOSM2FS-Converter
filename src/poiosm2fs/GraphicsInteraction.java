@@ -38,6 +38,35 @@ public class GraphicsInteraction {
         g2d.dispose();
 
         
+        int ac, bc, cc, dc, ec, fc;                             /* RGB Values for Texture text and background */
+            
+            if(config.getBoolean("COLOR_TEXT")){
+                ac = config.getIntArray("COLOR_TEXT")[0]; 
+                bc = config.getIntArray("COLOR_TEXT")[1];
+                cc = config.getIntArray("COLOR_TEXT")[2];
+            }
+            
+            else {
+                ac = 0; 
+                bc = 0;
+                cc = 0;
+            }
+            
+            if(config.getBoolean("COLOR_BACKGROUND")){
+                dc = config.getIntArray("COLOR_BACKGROUND")[0];
+                ec = config.getIntArray("COLOR_BACKGROUND")[1];
+                fc = config.getIntArray("COLOR_BACKGROUND")[2];
+            }
+            
+            else {
+                dc = 255;
+                ec = 255;
+                fc = 255;
+            }
+            
+        Color c=new Color(dc,ec,fc,255);                                        /* Setting background color and transparency */    
+        Color c2=new Color(ac,bc,cc,255);                                       /* Text color */
+        
         //g2d.drawString(text, 0, fm.getAscent());
         if(fm.stringWidth(text)<=width-100){                                                    /* Case for single lines */
             
@@ -46,15 +75,14 @@ public class GraphicsInteraction {
             g2d = handleRenderingHints(g2d);
             g2d.setFont(font);
             fm = g2d.getFontMetrics();
-            Color c=new Color(255,255,255,255);                                        /* Setting background color and transparency */
             g2d.setColor(c);                                            
             g2d.fillRect(0, 0, width, height);
-            g2d.setColor(Color.BLACK);                                                  /* Text color */
+            g2d.setColor(c2);                                                  /* Text color */
             //Rectangle rect = new Rectangle(0,0,width,height);                     /* Texture without icon, comment the createTextnIcon */
-            createTextnIcon(g2d, width, height, font, text, type);                  /* Texture with Icon */
+            createTextnIcon(g2d, width, height, font, text, type, config);                  /* Texture with Icon */
             //drawCenteredString(g2d, text, rect, font);
-            
         }
+        
         else {                                                                             /* Case for multiple lines */
             //height = height*((fm.stringWidth(text)/width));
             Font font2 = new Font("Arial Bold", Font.PLAIN, 52);                                          
@@ -66,25 +94,23 @@ public class GraphicsInteraction {
             BufferedImage bi;
             bi = chooseIcon(type);
             if(fm.stringWidth(text)<=width-145){
-                Color c=new Color(255,255,255,255);
                 g2d.setColor(c);
                 g2d.fillRect(0, 0, width, height);
-                g2d.setColor(Color.WHITE); 
+                g2d.setColor(c); 
                 int x = (width/2)-(g2d.getFontMetrics().stringWidth(text)/2) - 144;
                 int y = 0;
                 g2d.drawRect(x,y,128,128); 
-                g2d.setColor(Color.BLACK); 
-                g2d.drawImage(bi, x, y+10, 108, 118, null);
+                g2d.setColor(c2); 
+                g2d.drawImage(bi, x, y+14, 108, 108, null);
                 Rectangle rect = new Rectangle(0,0,width,height);
                 drawCenteredString(g2d, text, rect, font2);
             } else {
-                Color c=new Color(255,255,255,255);
                 g2d.setColor(c);
                 g2d.fillRect(0, 0, width, height);
-                g2d.setColor(Color.WHITE); 
+                g2d.setColor(c); 
                 g2d.drawRect(0,0,128,128);                                                  
-                g2d.setColor(Color.BLACK); 
-                g2d.drawImage(bi, 0, 0, 128, 128, null);
+                g2d.setColor(c2); 
+                g2d.drawImage(bi, 0, 14, 108, 108, null);
                 drawStringMultiLine(g2d, text, width-148, 140, 54);
             }
         }
@@ -160,19 +186,48 @@ public class GraphicsInteraction {
     
     /**********************************************************************************************************************************************/
    
-    static void createTextnIcon(Graphics g2d, int width, int height, Font font, String text, String type) throws IOException{            /* Work in progress */
+    static void createTextnIcon(Graphics g2d, int width, int height, Font font, String text, String type, JSAPResult config) throws IOException{            /* Work in progress */
         
         BufferedImage bi;
         
         bi = chooseIcon(type);
+        
+        int ac, bc, cc, dc, ec, fc;
+            
+            if(config.getBoolean("COLOR_TEXT")){
+                ac = config.getIntArray("COLOR_TEXT")[0]; 
+                bc = config.getIntArray("COLOR_TEXT")[1];
+                cc = config.getIntArray("COLOR_TEXT")[2];
+            }
+            
+            else {
+                ac = 0; 
+                bc = 0;
+                cc = 0;
+            }
+            
+            if(config.getBoolean("COLOR_BACKGROUND")){
+                dc = config.getIntArray("COLOR_BACKGROUND")[0];
+                ec = config.getIntArray("COLOR_BACKGROUND")[1];
+                fc = config.getIntArray("COLOR_BACKGROUND")[2];
+            }
+            
+            else {
+                dc = 255;
+                ec = 255;
+                fc = 255;
+            }
+            
+            Color c = new Color(dc,ec,fc,255);                                        
+            Color c2 = new Color(ac,bc,cc,255);
        
         
         if (g2d.getFontMetrics().stringWidth(text) > ((width*6)/7)){    
             
-            g2d.setColor(Color.WHITE); 
+            g2d.setColor(c); 
             g2d.drawRect(0,0,128,128);                                                  
-            g2d.setColor(Color.BLACK); 
-            g2d.drawImage(bi, 0, 0, 128, 128, null);
+            g2d.setColor(c2); 
+            g2d.drawImage(bi, 0, 14, 108, 108, null);
             Rectangle rect = new Rectangle(128,0,width-128,height);
             drawCenteredString(g2d, text, rect, font);
         
@@ -180,12 +235,12 @@ public class GraphicsInteraction {
         
         else {
             
-            g2d.setColor(Color.WHITE); 
+            g2d.setColor(c); 
             int x = (width/2)-(g2d.getFontMetrics().stringWidth(text)/2) - 144;
             int y = 0;
             g2d.drawRect(x,y,128,128); 
-            g2d.setColor(Color.BLACK); 
-            g2d.drawImage(bi, x, y+10, 108, 118, null);
+            g2d.setColor(c2); 
+            g2d.drawImage(bi, x, y+14, 108, 108, null);
             Rectangle rect = new Rectangle(0,0,width,height);
             drawCenteredString(g2d, text, rect, font);
             
@@ -266,7 +321,37 @@ public class GraphicsInteraction {
                 break;  
             case "Stadium":
                 bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/stadium.png"));
-                break;          
+                break;    
+            case "Pond":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/pond.png"));
+                break; 
+            case "Canal":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/canal.png"));
+                break; 
+            case "Cemetery":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/cemetery.png"));
+                break; 
+            case "Railway_station":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/railway_station.png"));
+                break;  
+            case "Airfield":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/airport.png"));
+                break; 
+            case "Aerodrome":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/airport.png"));
+                break;     
+            case "Mosque":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/mosque.png"));
+                break;   
+            case "Aircraft":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/aircraft.png"));
+                break;   
+            case "Bus_Station":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/bus_station.png"));
+                break;      
+            case "Battlefield":
+                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/battlefield.png"));
+                break;      
             default:
                 bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));
                 break;

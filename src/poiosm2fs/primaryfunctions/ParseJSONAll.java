@@ -74,13 +74,13 @@ public class ParseJSONAll {
         if (config.getString("OUTPUT").equals("output")){               /* Setting the name of output file */
             String jsn = config.getString("JSON_ALL").substring(0,config.getString("JSON_ALL").indexOf(".")+".".length());
             jsn = jsn.substring(0, jsn.length() - 1);
-            jsn = jsn.replace("target","");                             /* For testing purposes json strings start with target, so let's get rid of it */
-            jsn = jsn.replace("Target","");
+            //jsn = jsn.replace("target","");                             /* For testing purposes json strings start with target, so let's get rid of it */
+            //jsn = jsn.replace("Target","");
             outputfile = jsn + ".txt";
         }
         else {outputfile = config.getString("OUTPUT") + ".txt";}
         
-        System.setProperty("org.jline.terminal.dumb", "true");                          /*Supressing a warning for dumb terminal, since it's always there when using IDE*/
+        System.setProperty("org.jline.terminal.dumb", "true");                          /*Supressing a warning for 'dumb' terminal from jline, since it's always there when using IDE*/
         
         int terminalWidth = org.jline.terminal.TerminalBuilder.terminal().getWidth();   /* Getting the width of a terminal using the jline library */
         
@@ -98,15 +98,19 @@ public class ParseJSONAll {
                     System.out.println("REMOVE_EMPTY: " + config.getBoolean("remove_empty"));
                     System.out.println("REMOVE_NONLATIN: " + config.getBoolean("remove_nonlatin"));
                     if (config.getBoolean("textures")){
-                        String jsn = outputfile.substring(0,outputfile.indexOf(".")+".".length());
-                        jsn = jsn.substring(0, jsn.length() - 1);
-                        System.out.println("TEXTURES: ./texture_" + jsn);
+                        String jsn=config.getString("JSON_ALL");
+                        jsn = formatOutString(jsn);
+                        jsn = jsn.replace("target","");                             /* For testing purposes json strings start with target, so let's get rid of it */
+                        jsn = jsn.replace("Target","");
+                        System.out.println("TEXTURES: ./3DSP-POIOSM2fS-" + jsn);
                         System.out.println("TEXTURE_WIDTH: " + config.getInt("TEXTURE_WIDTH"));
                     }
                     System.out.println("");
         
         
-        System.out.println("");
+        String outputfileT = outputfile;                    /* To handle the silly target nonsense */
+        outputfile = outputfile.replace("target","");
+        outputfile = outputfile.replace("Target","");
         
         /* Creating directories for textures and models, initializing some elements */
         
@@ -119,6 +123,8 @@ public class ParseJSONAll {
         Double progressPercentage;
         
         Double elementcounter = 0.0;
+        
+        System.out.println("Reading input file:");
         
         for (int i=0;i<arr.length();i++){
             if (arr.getJSONObject(i).has("tags"))
@@ -303,25 +309,30 @@ public class ParseJSONAll {
         
         
         try {                                   /* Creating an output file */
-            File myObj = new File(outputfile);
+            File myObj = new File(outputfileT);
             if (myObj.createNewFile()) {
               System.out.println("File created: " + myObj.getName());
          } else {
                 System.out.println("File " + myObj.getName() + " already exists.");
          }
          } catch (IOException e) {
-             System.out.println("An error occurred.");
+             System.out.println("An error occurred while creating " + outputfileT);
                 //e.printStackTrace();
          }
         
         int linecount = 0;                 /* Counter for lines in finished document */
         String capitalTag = "";
         Double modifiedAlt;
+        int j = 0;
+        double jsize = JSONAll_list.size();
+        
+        System.out.println("\nCreating output:");
         
         try {
-            try (FileWriter myWriter = new FileWriter(outputfile) /*Writing to the output file */ ) {
+            try (FileWriter myWriter = new FileWriter(outputfileT) /*Writing to the output file */ ) {
                 for (ModifiedData y: JSONAll_list){
                     UUID uuid = UUID.randomUUID();                      /* Random UUID (universally unique identifier)*/
+                    j++;
                     String fuuid = uuid.toString().toUpperCase();       /* UUID changed to upper-case */
                     String fname;                                       /* English name will be used if possible, if not the default name */
                     if (y.getEnName() != null){
@@ -376,11 +387,22 @@ public class ParseJSONAll {
                             } 
                         }
                     }
+                    
+                    Double d = new Double(j);
+                
+                    progressPercentage = d/jsize;   
+                        
+                    mFunc.updateProgress(progressPercentage*0.99);
+                    
                 }
             }
-                System.out.println("\nSuccessfully wrote to the file: " + outputfile);
+                System.out.print("\r");
+                System.out.print("[..................................................] 100%");
+                System.out.println("");
+            
+                System.out.println("\nSuccessfully wrote to the file: " + outputfileT);
             } catch (IOException e) {
-                    System.out.println("An error occurred.");
+                    System.out.println("An error occurred while writing to the file: " + outputfileT);
                     //e.printStackTrace();
                 }
             
@@ -492,7 +514,7 @@ public class ParseJSONAll {
                 }
                 System.out.println("File Created: " + System.getProperty("user.dir") + "\\3DSp-POIOSM2FS-" + jsn + "\\3DSp-POIOSM2FS-" + jsn + ".xml\n" );
             } catch (IOException e) {
-                System.out.println("An error occurred.");
+                System.out.println("An error occurred wth xml data in main directory");
                 //e.printStackTrace();
             }
             
@@ -547,7 +569,7 @@ public class ParseJSONAll {
                         myWriter2.write(readmestring);
                     }
                 } catch (IOException e) {
-                    System.out.println("An error occurred.");
+                    System.out.println("An error occurred with readme in docs");
                     //e.printStackTrace();
                 }
                 
@@ -564,7 +586,7 @@ public class ParseJSONAll {
                         myWriter2.write(readmestring);
                     }
                 } catch (IOException e) {
-                    System.out.println("An error occurred.");
+                    System.out.println("An error occurred with readme in main");
                     //e.printStackTrace();
                 }
                 
@@ -598,7 +620,7 @@ public class ParseJSONAll {
                     }
                     System.out.println("File Created: " + System.getProperty("user.dir") + "\\3DSp-POIOSM2FS-" + jsn + "\\PackageDefinitions\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + ".xml\n" );
                 } catch (IOException e) {
-                    System.out.println("An error occurred.");
+                    System.out.println("An error occurred with package definitions xml");
                     //e.printStackTrace();
                 }
                 
@@ -611,7 +633,7 @@ public class ParseJSONAll {
                     }
                     System.out.println("File Created: " + System.getProperty("user.dir") + "\\3DSp-POIOSM2FS-" + jsn + "\\PackageSources\\data\\poiosmtofs-" + jsn.toLowerCase() + "-scene.xml\n" );
                 } catch (IOException e) {
-                    System.out.println("An error occurred.");
+                    System.out.println("An error occurred with data xml");
                     //e.printStackTrace();
                 }
             
@@ -680,7 +702,7 @@ public class ParseJSONAll {
                     myWriter2.write(xmlData);
                 }
             } catch (IOException e) {
-                System.out.println("An error occurred.");
+                System.out.println("An error occurred with poi xml");
                 //e.printStackTrace();
             }
 
@@ -695,7 +717,7 @@ public class ParseJSONAll {
                     myWriter2.write(gltfData);
                 }
             } catch (IOException e) {
-                System.out.println("An error occurred.");
+                System.out.println("An error occurred with poi gltf");
                 //e.printStackTrace();
             }
 
