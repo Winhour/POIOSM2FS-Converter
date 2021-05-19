@@ -26,7 +26,7 @@ public class GraphicsInteraction {
     
     /* Interacting with Graphics2D Library to create Textures */
     
-    public void texttoGraphics(String text, JSAPResult config, String formatted, int width, String type) throws IOException {         /* Makes .png files containing tags+names which can be used as textures */
+    public void texttoGraphics(String text, JSAPResult config, String formatted, int width, String type, boolean isIcao) throws IOException {         /* Makes .png files containing tags+names which can be used as textures */
         
         BufferedImage img = new BufferedImage(1, 1, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g2d = img.createGraphics();
@@ -38,34 +38,12 @@ public class GraphicsInteraction {
         g2d.dispose();
 
         
-        int ac, bc, cc, dc, ec, fc;                             /* RGB Values for Texture text and background */
+        //int ac, bc, cc, dc, ec, fc;                             /* RGB Values for Texture text and background */
+        int[] rgbvalues = {0, 0, 0, 255, 255, 255};              /* RGB Values for Texture text and background */
+        rgbvalues = setRGBValues(rgbvalues, config, type);
             
-            if(config.getBoolean("COLOR_TEXT")){
-                ac = config.getIntArray("COLOR_TEXT")[0]; 
-                bc = config.getIntArray("COLOR_TEXT")[1];
-                cc = config.getIntArray("COLOR_TEXT")[2];
-            }
-            
-            else {
-                ac = 0; 
-                bc = 0;
-                cc = 0;
-            }
-            
-            if(config.getBoolean("COLOR_BACKGROUND")){
-                dc = config.getIntArray("COLOR_BACKGROUND")[0];
-                ec = config.getIntArray("COLOR_BACKGROUND")[1];
-                fc = config.getIntArray("COLOR_BACKGROUND")[2];
-            }
-            
-            else {
-                dc = 255;
-                ec = 255;
-                fc = 255;
-            }
-            
-        Color c=new Color(dc,ec,fc,255);                                        /* Setting background color and transparency */    
-        Color c2=new Color(ac,bc,cc,255);                                       /* Text color */
+        Color c=new Color(rgbvalues[3],rgbvalues[4],rgbvalues[5],255);                                        /* Setting background color and transparency */    
+        Color c2=new Color(rgbvalues[0],rgbvalues[1],rgbvalues[2],255);                                       /* Text color */
         
         //g2d.drawString(text, 0, fm.getAscent());
         if(fm.stringWidth(text)<=width-100){                                                    /* Case for single lines */
@@ -79,7 +57,7 @@ public class GraphicsInteraction {
             g2d.fillRect(0, 0, width, height);
             g2d.setColor(c2);                                                  /* Text color */
             //Rectangle rect = new Rectangle(0,0,width,height);                     /* Texture without icon, comment the createTextnIcon */
-            createTextnIcon(g2d, width, height, font, text, type, config);                  /* Texture with Icon */
+            createTextnIcon(g2d, width, height, font, text, type, config, isIcao, rgbvalues);                  /* Texture with Icon */
             //drawCenteredString(g2d, text, rect, font);
         }
         
@@ -92,7 +70,7 @@ public class GraphicsInteraction {
             g2d.setFont(font2);
             fm = g2d.getFontMetrics();
             BufferedImage bi;
-            bi = chooseIcon(type);
+            bi = chooseIcon(type, isIcao);
             if(fm.stringWidth(text)<=width-145){
                 g2d.setColor(c);
                 g2d.fillRect(0, 0, width, height);
@@ -186,40 +164,14 @@ public class GraphicsInteraction {
     
     /**********************************************************************************************************************************************/
    
-    static void createTextnIcon(Graphics g2d, int width, int height, Font font, String text, String type, JSAPResult config) throws IOException{            /* Work in progress */
+    static void createTextnIcon(Graphics g2d, int width, int height, Font font, String text, String type, JSAPResult config, boolean isIcao, int[] rgbvalues) throws IOException{            /* Work in progress */
         
         BufferedImage bi;
         
-        bi = chooseIcon(type);
-        
-        int ac, bc, cc, dc, ec, fc;
-            
-            if(config.getBoolean("COLOR_TEXT")){
-                ac = config.getIntArray("COLOR_TEXT")[0]; 
-                bc = config.getIntArray("COLOR_TEXT")[1];
-                cc = config.getIntArray("COLOR_TEXT")[2];
-            }
-            
-            else {
-                ac = 0; 
-                bc = 0;
-                cc = 0;
-            }
-            
-            if(config.getBoolean("COLOR_BACKGROUND")){
-                dc = config.getIntArray("COLOR_BACKGROUND")[0];
-                ec = config.getIntArray("COLOR_BACKGROUND")[1];
-                fc = config.getIntArray("COLOR_BACKGROUND")[2];
-            }
-            
-            else {
-                dc = 255;
-                ec = 255;
-                fc = 255;
-            }
-            
-            Color c = new Color(dc,ec,fc,255);                                        
-            Color c2 = new Color(ac,bc,cc,255);
+        bi = chooseIcon(type, isIcao);
+                   
+            Color c=new Color(rgbvalues[3],rgbvalues[4],rgbvalues[5],255);                                        /* Setting background color and transparency */    
+            Color c2=new Color(rgbvalues[0],rgbvalues[1],rgbvalues[2],255);                                       /* Text color */
        
         
         if (g2d.getFontMetrics().stringWidth(text) > ((width*6)/7)){    
@@ -251,114 +203,179 @@ public class GraphicsInteraction {
     
     /**********************************************************************************************************************************************/
     
-    static BufferedImage chooseIcon(String type) throws IOException{
+    static BufferedImage chooseIcon(String type, boolean isIcao) throws IOException{
         
         BufferedImage bi;
+
+        if (new File(System.getProperty("user.dir") + "/asset").exists()){
         
-        switch (type) {                     /* Icons for tags */
-            case "Peak":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/peak.png"));
-                break;
-            case "City":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/city.png"));
-                break;
-            case "Ruins":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/ruins.png"));
-                break;
-            case "Temple":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/temple.png"));
-                break;
-            case "Church":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/temple.png"));
-                break;    
-            case "Village":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/village.png"));
-                break;
-            case "Suburb":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/suburb.png"));
-                break;    
-            case "Town":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/town.png"));
-                break;
-            case "Attraction":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/attraction.png"));
-                break;    
-            case "Castle":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/castle.png"));
-                break;       
-            case "Island":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/island.png"));
-                break;      
-            case "Chapel":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/chapel.png"));
-                break;      
-            case "Nature_reserve":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/nature_reserve.png"));
-                break;      
-            case "Arch.":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/archaeological_site.png"));
-                break;    
-            case "Reservoir":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/reservoir.png"));
-                break;      
-            case "Industrial":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/industrial.png"));
-                break;  
-            case "Forest":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/forest.png"));
-                break;  
-            case "River":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
-                break;  
-            case "Lake":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/lake.png"));
-                break;  
-            case "Monument":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/monument.png"));
-                break;    
-            case "Military":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/military.png"));
-                break;  
-            case "Stadium":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/stadium.png"));
-                break;    
-            case "Pond":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/pond.png"));
-                break; 
-            case "Canal":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/canal.png"));
-                break; 
-            case "Cemetery":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/cemetery.png"));
-                break; 
-            case "Railway_station":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/railway_station.png"));
-                break;  
-            case "Airfield":
+            if (isIcao){                        /* This icao flag is very annoying, but that's how the client wanted it */
                 bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/airport.png"));
-                break; 
-            case "Aerodrome":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/airport.png"));
-                break;     
-            case "Mosque":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/mosque.png"));
-                break;   
-            case "Aircraft":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/aircraft.png"));
-                break;   
-            case "Bus_Station":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/bus_station.png"));
-                break;      
-            case "Battlefield":
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/battlefield.png"));
-                break;      
-            default:
-                bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));
-                break;
+            }
+            else {
+
+                switch (type) {                     /* Icons for tags */
+                    case "Peak":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/peak.png"));
+                        break;
+                    case "City":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/city.png"));
+                        break;
+                    case "Ruins":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/ruins.png"));
+                        break;
+                    case "Temple":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/temple.png"));
+                        break;
+                    case "Church":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/temple.png"));
+                        break;    
+                    case "Village":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/village.png"));
+                        break;
+                    case "Suburb":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/suburb.png"));
+                        break;    
+                    case "Town":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/town.png"));
+                        break;
+                    case "Attraction":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/attraction.png"));
+                        break;    
+                    case "Castle":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/castle.png"));
+                        break;       
+                    case "Island":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/island.png"));
+                        break;      
+                    case "Chapel":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/chapel.png"));
+                        break;      
+                    case "Nature_reserve":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/nature_reserve.png"));
+                        break;      
+                    case "Arch.":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/archaeological_site.png"));
+                        break;    
+                    case "Reservoir":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/reservoir.png"));
+                        break;      
+                    case "Industrial":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/industrial.png"));
+                        break;  
+                    case "Forest":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/forest.png"));
+                        break;  
+                    case "River":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
+                        break;  
+                    case "Lake":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/lake.png"));
+                        break;  
+                    case "Monument":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/monument.png"));
+                        break;    
+                    case "Military":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/military.png"));
+                        break;  
+                    case "Stadium":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/stadium.png"));
+                        break;    
+                    case "Pond":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/pond.png"));
+                        break; 
+                    case "Canal":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/canal.png"));
+                        break; 
+                    case "Cemetery":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/cemetery.png"));
+                        break; 
+                    case "Railway_station":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/railway_station.png"));
+                        break;      
+                    case "Airfield":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/airport.png"));
+                        break; 
+                    case "Aerodrome":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/airport.png"));
+                        break;  
+                    case "Airport":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/airport.png"));
+                        break;    
+                    case "Mosque":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/mosque.png"));
+                        break;   
+                    case "Aircraft":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/aircraft.png"));
+                        break;   
+                    case "Bus_station":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/bus_station.png"));
+                        break;      
+                    case "Battlefield":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/battlefield.png"));
+                        break;      
+                    default:
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));
+                        break;
+                }
+            }
+        } else {
+            System.out.println("/asset folder does not exist, make sure to add it to the same directory as the program");
+            return null;
         }
-        
         return bi;
     }
     
+    /**********************************************************************************************************************************************/
     
+    static int[] setRGBValues(int[] rgbvalues, JSAPResult config, String type){                   /* Setting RGB Values for Texture text and background */ switch (type) {
+            
+            case "City":
+            case "Town":
+                rgbvalues[0] = 255;                                                                 /* For cities and towns dark blue background / white text */
+                rgbvalues[1] = 255;
+                rgbvalues[2] = 255;
+                rgbvalues[3] = 0;
+                rgbvalues[4] = 0;
+                rgbvalues[5] = 128;
+                break;
+            case "Village":
+                rgbvalues[0] = 255;                                                                /* For villages slightly dark green background / white text */
+                rgbvalues[1] = 255;
+                rgbvalues[2] = 255;
+                rgbvalues[3] = 0;
+                rgbvalues[4] = 77;
+                rgbvalues[5] = 0;
+                break;
+            default:
+                /* Use either white on black, or chosen by the user */
+                if(config.getBoolean("COLOR_TEXT")){
+                    rgbvalues[0] = config.getIntArray("COLOR_TEXT")[0]; 
+                    rgbvalues[1] = config.getIntArray("COLOR_TEXT")[1];
+                    rgbvalues[2] = config.getIntArray("COLOR_TEXT")[2];
+                }
+
+                else {
+                    rgbvalues[0] = 255; 
+                    rgbvalues[1] = 255;
+                    rgbvalues[2] = 255;
+                }
+                if(config.getBoolean("COLOR_BACKGROUND")){
+                    rgbvalues[3] = config.getIntArray("COLOR_BACKGROUND")[0];
+                    rgbvalues[4] = config.getIntArray("COLOR_BACKGROUND")[1];
+                    rgbvalues[5] = config.getIntArray("COLOR_BACKGROUND")[2];
+                }
+
+                else {
+                    rgbvalues[3] = 0;
+                    rgbvalues[4] = 0;
+                    rgbvalues[5] = 0;
+                }
+                break;
+        }
+        
+        return rgbvalues;
+    }
+    
+    /**********************************************************************************************************************************************/
 }

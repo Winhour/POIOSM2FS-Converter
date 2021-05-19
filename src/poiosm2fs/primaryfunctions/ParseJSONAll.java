@@ -124,6 +124,8 @@ public class ParseJSONAll {
         
         Double elementcounter = 0.0;
         
+        boolean isIcao = false;
+        
         System.out.println("Reading input file:");
         
         for (int i=0;i<arr.length();i++){
@@ -170,6 +172,8 @@ public class ParseJSONAll {
                     }
 
                     type = mFunc.checkTags(type, tags);
+                    
+                    if (tags.has("icao")) isIcao = true;
 
                     if(tags.has("name:en")){
                         nameen = tags.getString("name:en");
@@ -211,6 +215,8 @@ public class ParseJSONAll {
 
                 tempElement.setEle(ele);
                 
+                if (isIcao) tempElement.setIsIcao(isIcao);
+                
                 JSONAll_list.add(tempElement);            /* Add element to the list */
                 
                 Double d = new Double(i);
@@ -218,6 +224,8 @@ public class ParseJSONAll {
                 progressPercentage = d/elementcounter;   
                         
                 mFunc.updateProgress(progressPercentage*0.99);
+                
+                isIcao = false;
                 
             }
             
@@ -250,7 +258,9 @@ public class ParseJSONAll {
                         name = null;
                     }
 
-                    type = mFunc.checkTags(type, tags);
+                    type = mFunc.checkTags(type, tags); 
+                    
+                    if (tags.has("icao")) isIcao = true;
 
                     if(tags.has("name:en")){
                         nameen = tags.getString("name:en");
@@ -287,15 +297,19 @@ public class ParseJSONAll {
                     tempElement.setNT2(NT);
                 }
                 
+                if (isIcao) tempElement.setIsIcao(isIcao);
+                
                 tempElement.setEle(ele);
                 
                 JSONAll_list.add(tempElement);            /* Add element to the list */
                 
                 Double d = new Double(i);
                 
-                progressPercentage = d/elementcounter;   
+                progressPercentage = d/elementcounter;          /* Progress bar stuff */
                         
                 mFunc.updateProgress(progressPercentage*0.99);
+                
+                isIcao = false;                         /* Setting the flag back to false */
                 
             }
                 
@@ -350,7 +364,11 @@ public class ParseJSONAll {
                         if(y.getLat() != 0.0 || y.getLon() != 0.0){
                             if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
                                 if(!(config.getBoolean("remove_nonlatin") && !valid)){
+                                    
                                     modifiedAlt = mFunc.modifyAlt(config.getDouble("ALT"), y.getType());
+                                    double altRandomizer = (double)Math.floor(Math.random()*(20.00-(-20.00)+1)+(-20.00));   /*Randomizing alt +/- 20%*/
+                                    modifiedAlt = modifiedAlt + modifiedAlt*(altRandomizer/100);
+                                    
                                     if (y.getEle() == null){
                                         if(y.getType() != null){
                                             capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);      /*Capitalize first letter of tag*/
@@ -381,7 +399,8 @@ public class ParseJSONAll {
                                             
                                             /* Making XML's and Textures for each single POI */
                                             createSinglePOIXMLsandTextures(linecount, outputfile, fname, config, capitalTag, assetGroups, sceneryObjects, uuid, fuuid, modifiedAlt, y);
-                                            
+                                            capitalTag = "";
+                                            //isIcao = false;
                                         }
                                 }
                             } 
@@ -667,22 +686,38 @@ public class ParseJSONAll {
             new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + "poi_" + formatted).mkdirs();
             /* Function creating texture for a POI (from GraphicsInteraction) */
             GraphicsInteraction gi = new GraphicsInteraction();
-            gi.texttoGraphics(capitalTag + ": " + fname, config, formatted, config.getInt("TEXTURE_WIDTH"), capitalTag);
-            capitalTag = "";
+            boolean isIcao = y.isIsIcao();
+            gi.texttoGraphics(capitalTag + ": " + fname, config, formatted, config.getInt("TEXTURE_WIDTH"), capitalTag, isIcao);
+            
 
             AssetGroup ag = new AssetGroup("poiosmtofs-" + jsn.toLowerCase() + linecount + "-models", "ArtProj", new FlagsAG(), 
                     "PackageSources\\poi_" + formatted + "-modellib\\", 
                     "scenery\\3dsp\\3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + "\\" );
             assetGroups.add(ag);
 
-
+            isIcao = false;
 
             double randomHeading = (double)Math.floor(Math.random()*(180.00-(-179.999)+1)+(-179.999));
-            double altRandomizer = (double)Math.floor(Math.random()*(20.00-(-20.00)+1)+(-20.00));
-
-            modifiedAlt = modifiedAlt + modifiedAlt*(altRandomizer/100);
-
-            LibraryObject lo = new LibraryObject("{"+fuuid+"}", 1.00000);
+            
+            
+            LibraryObject lo;
+            
+            
+            switch (capitalTag) {                                           /* Different scale for special cases */
+                case "City":
+                    lo = new LibraryObject("{"+fuuid+"}", 1.50000);
+                    break;
+                case "Town":
+                    lo = new LibraryObject("{"+fuuid+"}", 1.40000);
+                    break;
+                case "Village":
+                    lo = new LibraryObject("{"+fuuid+"}", 1.20000);
+                    break;
+                default:
+                    lo = new LibraryObject("{"+fuuid+"}", 1.00000);
+                    break;
+            }
+            
             SceneryObject so = new SceneryObject(y.getLat(), y.getLon(), modifiedAlt, 0.0, 0.0, randomHeading, lo);
             sceneryObjects.add(so);
 

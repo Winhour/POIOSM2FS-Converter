@@ -55,26 +55,6 @@ public class GLTFWriter {
                 "    \"nodes\" : [\n" +
                 "        {\n" +
                 "            \"mesh\" : 0,\n" +
-                "            \"name\" : \"arrow_down\",\n" +
-                "            \"rotation\" : [\n" +
-                "                -1,\n" +
-                "                0,\n" +
-                "                0,\n" +
-                "                1.910685676922942e-15\n" +
-                "            ],\n" +
-                "            \"scale\" : [\n" +
-                "                0.3876168131828308,\n" +
-                "                1,\n" +
-                "                0.3876168131828308\n" +
-                "            ],\n" +
-                "            \"translation\" : [\n" +
-                "                0,\n" +
-                "                -27,\n" +
-                "                0\n" +
-                "            ]\n" +
-                "        },\n" +
-                "        {\n" +
-                "            \"mesh\" : 1,\n" +
                 "            \"name\" : \"base\",\n" +
                 "            \"rotation\" : [\n" +
                 "                0,\n" +
@@ -90,6 +70,26 @@ public class GLTFWriter {
                 "            \"translation\" : [\n" +
                 "                0,\n" +
                 "                -500,\n" +
+                "                0\n" +
+                "            ]\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"mesh\" : 1,\n" +
+                "            \"name\" : \"arrow_down\",\n" +
+                "            \"rotation\" : [\n" +
+                "                -1,\n" +
+                "                0,\n" +
+                "                0,\n" +
+                "                1.910685676922942e-15\n" +
+                "            ],\n" +
+                "            \"scale\" : [\n" +
+                "                0.800000011920929,\n" +
+                "                1.9233323335647583,\n" +
+                "                0.800000011920929\n" +
+                "            ],\n" +
+                "            \"translation\" : [\n" +
+                "                0,\n" +
+                "                -50.851295471191406,\n" +
                 "                0\n" +
                 "            ]\n" +
                 "        },\n" +
@@ -121,7 +121,7 @@ public class GLTFWriter {
                 "                        0.7722502946853638,\n" +
                 "                        0.3688167929649353\n" +
                 "                    ],\n" +
-                "                    \"intensity\" : 100,\n" +
+                "                    \"intensity\" : 200,\n" +
                 "                    \"cone_angle\" : 360,\n" +
                 "                    \"has_simmetry\" : false,\n" +
                 "                    \"flash_frequency\" : 0,\n" +
@@ -133,10 +133,10 @@ public class GLTFWriter {
                 "            },\n" +
                 "            \"name\" : \"light_a.001\",\n" +
                 "            \"rotation\" : [\n" +
-                "                0.7051095962524414,\n" +
-                "                0.7051095962524414,\n" +
-                "                0.053108006715774536,\n" +
-                "                -0.05310794711112976\n" +
+                "                0.7049270868301392,\n" +
+                "                0.7049270868301392,\n" +
+                "                -0.05547890067100525,\n" +
+                "                0.0554790198802948\n" +
                 "            ],\n" +
                 "            \"scale\" : [\n" +
                 "                1,\n" +
@@ -144,9 +144,9 @@ public class GLTFWriter {
                 "                28.32537078857422\n" +
                 "            ],\n" +
                 "            \"translation\" : [\n" +
-                "                -25,\n" +
-                "                -3.6689376831054688,\n" +
-                "                70\n" +
+                "                -23.753936767578125,\n" +
+                "                9,\n" +
+                "                69.94385528564453\n" +
                 "            ]\n" +
                 "        },\n" +
                 "        {\n" +
@@ -157,7 +157,7 @@ public class GLTFWriter {
                 "                        0.7722502946853638,\n" +
                 "                        0.3688167929649353\n" +
                 "                    ],\n" +
-                "                    \"intensity\" : 100,\n" +
+                "                    \"intensity\" : 200,\n" +
                 "                    \"cone_angle\" : 360,\n" +
                 "                    \"has_simmetry\" : false,\n" +
                 "                    \"flash_frequency\" : 0,\n" +
@@ -169,10 +169,10 @@ public class GLTFWriter {
                 "            },\n" +
                 "            \"name\" : \"light_b.001\",\n" +
                 "            \"rotation\" : [\n" +
-                "                0.7051095962524414,\n" +
-                "                0.7051095962524414,\n" +
-                "                0.053108006715774536,\n" +
-                "                -0.05310794711112976\n" +
+                "                0.7049270868301392,\n" +
+                "                0.7049270868301392,\n" +
+                "                -0.05547890067100525,\n" +
+                "                0.0554790198802948\n" +
                 "            ],\n" +
                 "            \"scale\" : [\n" +
                 "                1,\n" +
@@ -181,7 +181,7 @@ public class GLTFWriter {
                 "            ],\n" +
                 "            \"translation\" : [\n" +
                 "                25,\n" +
-                "                -3.6689400672912598,\n" +
+                "                9,\n" +
                 "                70\n" +
                 "            ]\n" +
                 "        },\n" +
@@ -213,7 +213,7 @@ public class GLTFWriter {
                 "                        0.7722502946853638,\n" +
                 "                        0.3688167929649353\n" +
                 "                    ],\n" +
-                "                    \"intensity\" : 100,\n" +
+                "                    \"intensity\" : 200,\n" +
                 "                    \"cone_angle\" : 360,\n" +
                 "                    \"has_simmetry\" : false,\n" +
                 "                    \"flash_frequency\" : 0,\n" +
@@ -225,10 +225,10 @@ public class GLTFWriter {
                 "            },\n" +
                 "            \"name\" : \"light_b.002\",\n" +
                 "            \"rotation\" : [\n" +
-                "                0.3985477089881897,\n" +
-                "                0.30656200647354126,\n" +
-                "                -0.5840888023376465,\n" +
-                "                -0.6371967792510986\n" +
+                "                0.33711645007133484,\n" +
+                "                0.37305915355682373,\n" +
+                "                -0.6888810992240906,\n" +
+                "                -0.5221322774887085\n" +
                 "            ],\n" +
                 "            \"scale\" : [\n" +
                 "                1,\n" +
@@ -237,7 +237,7 @@ public class GLTFWriter {
                 "            ],\n" +
                 "            \"translation\" : [\n" +
                 "                76.54889678955078,\n" +
-                "                -3.6689400672912598,\n" +
+                "                9,\n" +
                 "                -16.92221450805664\n" +
                 "            ]\n" +
                 "        },\n" +
@@ -249,7 +249,7 @@ public class GLTFWriter {
                 "                        0.7722502946853638,\n" +
                 "                        0.3688167929649353\n" +
                 "                    ],\n" +
-                "                    \"intensity\" : 100,\n" +
+                "                    \"intensity\" : 200,\n" +
                 "                    \"cone_angle\" : 360,\n" +
                 "                    \"has_simmetry\" : false,\n" +
                 "                    \"flash_frequency\" : 0,\n" +
@@ -261,10 +261,10 @@ public class GLTFWriter {
                 "            },\n" +
                 "            \"name\" : \"light_a.002\",\n" +
                 "            \"rotation\" : [\n" +
-                "                0.3985477089881897,\n" +
-                "                0.30656200647354126,\n" +
-                "                -0.5840888023376465,\n" +
-                "                -0.6371967792510986\n" +
+                "                0.3477298617362976,\n" +
+                "                0.3694729506969452,\n" +
+                "                -0.7031799554824829,\n" +
+                "                -0.4981082081794739\n" +
                 "            ],\n" +
                 "            \"scale\" : [\n" +
                 "                1,\n" +
@@ -273,7 +273,7 @@ public class GLTFWriter {
                 "            ],\n" +
                 "            \"translation\" : [\n" +
                 "                50.254920959472656,\n" +
-                "                -3.6689400672912598,\n" +
+                "                9,\n" +
                 "                -61.36131286621094\n" +
                 "            ]\n" +
                 "        },\n" +
@@ -305,7 +305,7 @@ public class GLTFWriter {
                 "                        0.7722502946853638,\n" +
                 "                        0.3688167929649353\n" +
                 "                    ],\n" +
-                "                    \"intensity\" : 100,\n" +
+                "                    \"intensity\" : 200,\n" +
                 "                    \"cone_angle\" : 360,\n" +
                 "                    \"has_simmetry\" : false,\n" +
                 "                    \"flash_frequency\" : 0,\n" +
@@ -317,10 +317,10 @@ public class GLTFWriter {
                 "            },\n" +
                 "            \"name\" : \"light_a.003\",\n" +
                 "            \"rotation\" : [\n" +
-                "                0.3065618872642517,\n" +
-                "                0.39854758977890015,\n" +
-                "                0.6371968984603882,\n" +
-                "                0.5840888619422913\n" +
+                "                0.45131075382232666,\n" +
+                "                0.19041132926940918,\n" +
+                "                0.7227853536605835,\n" +
+                "                0.48748698830604553\n" +
                 "            ],\n" +
                 "            \"scale\" : [\n" +
                 "                1,\n" +
@@ -329,7 +329,7 @@ public class GLTFWriter {
                 "            ],\n" +
                 "            \"translation\" : [\n" +
                 "                -50.25490188598633,\n" +
-                "                -3.6689400672912598,\n" +
+                "                9,\n" +
                 "                -61.36131286621094\n" +
                 "            ]\n" +
                 "        },\n" +
@@ -341,7 +341,7 @@ public class GLTFWriter {
                 "                        0.7722502946853638,\n" +
                 "                        0.3688167929649353\n" +
                 "                    ],\n" +
-                "                    \"intensity\" : 100,\n" +
+                "                    \"intensity\" : 200,\n" +
                 "                    \"cone_angle\" : 360,\n" +
                 "                    \"has_simmetry\" : false,\n" +
                 "                    \"flash_frequency\" : 0,\n" +
@@ -353,10 +353,10 @@ public class GLTFWriter {
                 "            },\n" +
                 "            \"name\" : \"light_b.003\",\n" +
                 "            \"rotation\" : [\n" +
-                "                0.3065618872642517,\n" +
-                "                0.39854758977890015,\n" +
-                "                0.6371968984603882,\n" +
-                "                0.5840888619422913\n" +
+                "                0.3655388355255127,\n" +
+                "                0.3397868275642395,\n" +
+                "                0.534143328666687,\n" +
+                "                0.6823614835739136\n" +
                 "            ],\n" +
                 "            \"scale\" : [\n" +
                 "                1,\n" +
@@ -365,30 +365,12 @@ public class GLTFWriter {
                 "            ],\n" +
                 "            \"translation\" : [\n" +
                 "                -76.54889678955078,\n" +
-                "                -3.6689400672912598,\n" +
+                "                9,\n" +
                 "                -16.92221450805664\n" +
                 "            ]\n" +
                 "        }\n" +
                 "    ],\n" +
                 "    \"materials\" : [\n" +
-                "        {\n" +
-                "            \"emissiveFactor\" : [\n" +
-                "                3,\n" +
-                "                2.8514654636383057,\n" +
-                "                1.6179780960083008\n" +
-                "            ],\n" +
-                "            \"name\" : \"arrow_MSFS_mat\",\n" +
-                "            \"pbrMetallicRoughness\" : {\n" +
-                "                \"baseColorFactor\" : [\n" +
-                "                    1,\n" +
-                "                    1,\n" +
-                "                    1,\n" +
-                "                    1\n" +
-                "                ],\n" +
-                "                \"metallicFactor\" : 0,\n" +
-                "                \"roughnessFactor\" : 0.5\n" +
-                "            }\n" +
-                "        },\n" +
                 "        {\n" +
                 "            \"emissiveFactor\" : [\n" +
                 "                0,\n" +
@@ -409,9 +391,27 @@ public class GLTFWriter {
                 "        },\n" +
                 "        {\n" +
                 "            \"emissiveFactor\" : [\n" +
-                "                0,\n" +
-                "                0,\n" +
-                "                0\n" +
+                "                0.800000011920929,\n" +
+                "                0.7603908181190491,\n" +
+                "                0.4314608573913574\n" +
+                "            ],\n" +
+                "            \"name\" : \"arrow_MSFS_mat\",\n" +
+                "            \"pbrMetallicRoughness\" : {\n" +
+                "                \"baseColorFactor\" : [\n" +
+                "                    1,\n" +
+                "                    1,\n" +
+                "                    1,\n" +
+                "                    1\n" +
+                "                ],\n" +
+                "                \"metallicFactor\" : 0,\n" +
+                "                \"roughnessFactor\" : 0.5\n" +
+                "            }\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"emissiveFactor\" : [\n" +
+                "                0.30000001192092896,\n" +
+                "                0.30000001192092896,\n" +
+                "                0.30000001192092896\n" +
                 "            ],\n" +
                 "            \"extensions\" : {\n" +
                 "                \"ASOBO_material_day_night_switch\" : {\n" +
@@ -434,7 +434,7 @@ public class GLTFWriter {
                 "    ],\n" +
                 "    \"meshes\" : [\n" +
                 "        {\n" +
-                "            \"name\" : \"arrow_down\",\n" +
+                "            \"name\" : \"base\",\n" +
                 "            \"primitives\" : [\n" +
                 "                {\n" +
                 "                    \"attributes\" : {\n" +
@@ -448,7 +448,7 @@ public class GLTFWriter {
                 "            ]\n" +
                 "        },\n" +
                 "        {\n" +
-                "            \"name\" : \"base\",\n" +
+                "            \"name\" : \"arrow_down.001\",\n" +
                 "            \"primitives\" : [\n" +
                 "                {\n" +
                 "                    \"attributes\" : {\n" +
@@ -520,40 +520,6 @@ public class GLTFWriter {
                 "        {\n" +
                 "            \"bufferView\" : 0,\n" +
                 "            \"componentType\" : 5126,\n" +
-                "            \"count\" : 12,\n" +
-                "            \"max\" : [\n" +
-                "                0.8660253882408142,\n" +
-                "                75,\n" +
-                "                0.5000000596046448\n" +
-                "            ],\n" +
-                "            \"min\" : [\n" +
-                "                -0.866025447845459,\n" +
-                "                -25,\n" +
-                "                -1\n" +
-                "            ],\n" +
-                "            \"type\" : \"VEC3\"\n" +
-                "        },\n" +
-                "        {\n" +
-                "            \"bufferView\" : 1,\n" +
-                "            \"componentType\" : 5126,\n" +
-                "            \"count\" : 12,\n" +
-                "            \"type\" : \"VEC3\"\n" +
-                "        },\n" +
-                "        {\n" +
-                "            \"bufferView\" : 2,\n" +
-                "            \"componentType\" : 5126,\n" +
-                "            \"count\" : 12,\n" +
-                "            \"type\" : \"VEC2\"\n" +
-                "        },\n" +
-                "        {\n" +
-                "            \"bufferView\" : 3,\n" +
-                "            \"componentType\" : 5123,\n" +
-                "            \"count\" : 12,\n" +
-                "            \"type\" : \"SCALAR\"\n" +
-                "        },\n" +
-                "        {\n" +
-                "            \"bufferView\" : 4,\n" +
-                "            \"componentType\" : 5126,\n" +
                 "            \"count\" : 6,\n" +
                 "            \"max\" : [\n" +
                 "                0.8660253882408142,\n" +
@@ -568,21 +534,55 @@ public class GLTFWriter {
                 "            \"type\" : \"VEC3\"\n" +
                 "        },\n" +
                 "        {\n" +
-                "            \"bufferView\" : 5,\n" +
+                "            \"bufferView\" : 1,\n" +
                 "            \"componentType\" : 5126,\n" +
                 "            \"count\" : 6,\n" +
                 "            \"type\" : \"VEC3\"\n" +
                 "        },\n" +
                 "        {\n" +
-                "            \"bufferView\" : 6,\n" +
+                "            \"bufferView\" : 2,\n" +
                 "            \"componentType\" : 5126,\n" +
                 "            \"count\" : 6,\n" +
                 "            \"type\" : \"VEC2\"\n" +
                 "        },\n" +
                 "        {\n" +
-                "            \"bufferView\" : 7,\n" +
+                "            \"bufferView\" : 3,\n" +
                 "            \"componentType\" : 5123,\n" +
                 "            \"count\" : 6,\n" +
+                "            \"type\" : \"SCALAR\"\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"bufferView\" : 4,\n" +
+                "            \"componentType\" : 5126,\n" +
+                "            \"count\" : 12,\n" +
+                "            \"max\" : [\n" +
+                "                0.8660253882408142,\n" +
+                "                75,\n" +
+                "                0.5000000596046448\n" +
+                "            ],\n" +
+                "            \"min\" : [\n" +
+                "                -0.866025447845459,\n" +
+                "                -25,\n" +
+                "                -1\n" +
+                "            ],\n" +
+                "            \"type\" : \"VEC3\"\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"bufferView\" : 5,\n" +
+                "            \"componentType\" : 5126,\n" +
+                "            \"count\" : 12,\n" +
+                "            \"type\" : \"VEC3\"\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"bufferView\" : 6,\n" +
+                "            \"componentType\" : 5126,\n" +
+                "            \"count\" : 12,\n" +
+                "            \"type\" : \"VEC2\"\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"bufferView\" : 7,\n" +
+                "            \"componentType\" : 5123,\n" +
+                "            \"count\" : 12,\n" +
                 "            \"type\" : \"SCALAR\"\n" +
                 "        },\n" +
                 "        {\n" +
@@ -679,43 +679,43 @@ public class GLTFWriter {
                 "    \"bufferViews\" : [\n" +
                 "        {\n" +
                 "            \"buffer\" : 0,\n" +
-                "            \"byteLength\" : 144,\n" +
+                "            \"byteLength\" : 72,\n" +
                 "            \"byteOffset\" : 0\n" +
                 "        },\n" +
                 "        {\n" +
                 "            \"buffer\" : 0,\n" +
-                "            \"byteLength\" : 144,\n" +
-                "            \"byteOffset\" : 144\n" +
-                "        },\n" +
-                "        {\n" +
-                "            \"buffer\" : 0,\n" +
-                "            \"byteLength\" : 96,\n" +
-                "            \"byteOffset\" : 288\n" +
-                "        },\n" +
-                "        {\n" +
-                "            \"buffer\" : 0,\n" +
-                "            \"byteLength\" : 24,\n" +
-                "            \"byteOffset\" : 384\n" +
-                "        },\n" +
-                "        {\n" +
-                "            \"buffer\" : 0,\n" +
                 "            \"byteLength\" : 72,\n" +
-                "            \"byteOffset\" : 408\n" +
-                "        },\n" +
-                "        {\n" +
-                "            \"buffer\" : 0,\n" +
-                "            \"byteLength\" : 72,\n" +
-                "            \"byteOffset\" : 480\n" +
+                "            \"byteOffset\" : 72\n" +
                 "        },\n" +
                 "        {\n" +
                 "            \"buffer\" : 0,\n" +
                 "            \"byteLength\" : 48,\n" +
-                "            \"byteOffset\" : 552\n" +
+                "            \"byteOffset\" : 144\n" +
                 "        },\n" +
                 "        {\n" +
                 "            \"buffer\" : 0,\n" +
                 "            \"byteLength\" : 12,\n" +
-                "            \"byteOffset\" : 600\n" +
+                "            \"byteOffset\" : 192\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"buffer\" : 0,\n" +
+                "            \"byteLength\" : 144,\n" +
+                "            \"byteOffset\" : 204\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"buffer\" : 0,\n" +
+                "            \"byteLength\" : 144,\n" +
+                "            \"byteOffset\" : 348\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"buffer\" : 0,\n" +
+                "            \"byteLength\" : 96,\n" +
+                "            \"byteOffset\" : 492\n" +
+                "        },\n" +
+                "        {\n" +
+                "            \"buffer\" : 0,\n" +
+                "            \"byteLength\" : 24,\n" +
+                "            \"byteOffset\" : 588\n" +
                 "        },\n" +
                 "        {\n" +
                 "            \"buffer\" : 0,\n" +

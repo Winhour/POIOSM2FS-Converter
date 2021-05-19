@@ -22,6 +22,7 @@ public class ModifiedData {
     private String elevation = null;        /* Elevation */
     private int noofTags = 100;             /* Tags for Temples */
     private int noofTags2 = 100;            /* Tags for Villages */
+    private boolean isIcao = false;         /* Flag for special case with icao */
     
     public ModifiedData (String name, String name_en, String type, double lat, double lon){
         this.name = name;
@@ -87,6 +88,16 @@ public class ModifiedData {
         this.noofTags2 = NT;
         
     }
+
+    public boolean isIsIcao() {
+        return isIcao;
+    }
+
+    public void setIsIcao(boolean isIcao) {
+        this.isIcao = isIcao;
+    }
+    
+    
     
     
 }

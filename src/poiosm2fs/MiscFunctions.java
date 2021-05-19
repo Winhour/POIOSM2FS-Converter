@@ -42,11 +42,12 @@ public class MiscFunctions {
             if(tags.has("waterway") && !tags.getString("waterway").equals("yes")){
                 type = tags.getString("waterway");
             }
+            else if (tags.has("icao")){  
+                //type = "Airport";
+                type = tags.getString("icao");
+            }
             else if (tags.has("aeroway") && !tags.getString("aeroway").equals("yes")){                         
                 type = tags.getString("aeroway");
-            }
-            else if (tags.has("icao")){                         
-                type = tags.getString("icao");
             }
             else if(tags.has("water")){
                 type = tags.getString("water");
