@@ -58,12 +58,7 @@ public class ParseJSONAll {
         List<AssetGroup> assetGroups = new ArrayList<>();               /* List for collection of asset groups for package definition xml */
         
         List<SceneryObject> sceneryObjects = new ArrayList<>();         /* List for collection of scenery obejects for data xml */
-        
-        //makePackageDefinitionsXML(config);                            /* Testing XML functions */
-        //makeMainXML();
-        //makePackageSourcesDataXML();
-        //makeModelInfoXML();
-               
+
         String jsonstring = mFunc.readFile(filepath, StandardCharsets.UTF_8);
         
         JSONObject obj = new JSONObject(jsonstring);                    /* Using the org.json library for JSON parsing */
@@ -89,25 +84,8 @@ public class ParseJSONAll {
         else
             mFunc.makeSimpleHeader();              /* Simple Header */
         
-                    System.out.println("Chosen parameters:");                           /*Information for the user about selected parameters*/
-                    System.out.println("FILE: " + filepath);
-                    System.out.println("LABEL: " + config.getString("LABEL"));
-                    System.out.println("OWNER: " + config.getString("OWNER"));
-                    System.out.println("ALT: " + config.getDouble("ALT"));
-                    System.out.println("OUTPUT FILE: " + outputfile);
-                    System.out.println("REMOVE_EMPTY: " + config.getBoolean("remove_empty"));
-                    System.out.println("REMOVE_NONLATIN: " + config.getBoolean("remove_nonlatin"));
-                    if (config.getBoolean("textures")){
-                        String jsn=config.getString("JSON_ALL");
-                        jsn = formatOutString(jsn);
-                        jsn = jsn.replace("target","");                             /* For testing purposes json strings start with target, so let's get rid of it */
-                        jsn = jsn.replace("Target","");
-                        System.out.println("TEXTURES: ./3DSP-POIOSM2fS-" + jsn);
-                        System.out.println("TEXTURE_WIDTH: " + config.getInt("TEXTURE_WIDTH"));
-                    }
-                    System.out.println("");
-        
-        
+        printInfoJSONALL(config, outputfile, filepath);     /* Prints out information abouth chosen parameters */
+
         String outputfileT = outputfile;                    /* To handle the silly target nonsense */
         outputfile = outputfile.replace("target","");
         outputfile = outputfile.replace("Target","");
@@ -120,7 +98,7 @@ public class ParseJSONAll {
             
         }
         
-        Double progressPercentage;
+        Double progressPercentage = 0.0;
         
         Double elementcounter = 0.0;
         
@@ -133,192 +111,9 @@ public class ParseJSONAll {
                 elementcounter++;
         }
         
-        for (int i=0;i<arr.length();i++){               /*Looking for elements within JSON*/
-            
-            if (arr.getJSONObject(i).getString("type").equals("way") || arr.getJSONObject(i).getString("type").equals("relation")){              /* Element contains multiple nodes */
-            
-                String name, nameen, type = null, ele;
-                
-                Double lat, lon;
-
-                if (arr.getJSONObject(i).has("center")){
-                    JSONObject center = arr.getJSONObject(i).getJSONObject("center");            /* Get center node for current element */
-                    
-                    if(center.has("lat")){
-                        lat = center.getDouble("lat");
-                    } else {
-                        lat = 0.0;
-                    }
-                
-                    if(center.has("lon")){
-                        lon = center.getDouble("lon");
-                    } else {
-                        lon = 0.0;
-                    }
-                } else {
-                    lat = 0.0;
-                    lon = 0.0;
-                }
-                
-                if (arr.getJSONObject(i).has("tags")){
-                    
-                    JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");               /* Contains information like name, english name etc.*/
-
-                    if(tags.has("name")){
-                        name = tags.getString("name");
-                    }
-                    else {
-                        name = null;
-                    }
-
-                    type = mFunc.checkTags(type, tags);
-                    
-                    if (tags.has("icao")) isIcao = true;
-
-                    if(tags.has("name:en")){
-                        nameen = tags.getString("name:en");
-                    }
-                    else{
-                        nameen = null;    
-                    }
-                    
-                    if(tags.has("ele")){
-                        ele = tags.getString("ele");
-                    }
-                    else{
-                        ele = null;    
-                    }
-                    
-                } else {
-                    name = null;
-                    type = null;
-                    nameen = null;  
-                    ele = null;
-                }
-
-                /* Creating an element */
-
-                ModifiedData tempElement = new ModifiedData(name, nameen, type, lat, lon);           /* type used here */  
-                
-                if (type != null && type.equals("place_of_worship")) {
-                    type = "Temple";
-                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
-                    tempElement.setType(type);
-                    tempElement.setNT(NT);
-                    //System.out.println(NT);
-                }
-                
-                if (type != null && type.equals("village")){
-                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
-                    tempElement.setNT2(NT);
-                }
-
-                tempElement.setEle(ele);
-                
-                if (isIcao) tempElement.setIsIcao(isIcao);
-                
-                JSONAll_list.add(tempElement);            /* Add element to the list */
-                
-                Double d = new Double(i);
-                
-                progressPercentage = d/elementcounter;   
-                        
-                mFunc.updateProgress(progressPercentage*0.99);
-                
-                isIcao = false;
-                
-            }
-            
-            else if (arr.getJSONObject(i).getString("type").equals("node")){                        /*Element is a singular node */
-                
-                String name, nameen, type = null, ele;
-                
-                Double lat, lon;
-                
-                if (arr.getJSONObject(i).has("lat")){                                               /* Latitude */
-                    lat = arr.getJSONObject(i).getDouble("lat");
-                } else {
-                    lat = 0.0;
-                }
-                
-                if (arr.getJSONObject(i).has("lon")){                                               /* Longitude */
-                    lon = arr.getJSONObject(i).getDouble("lon");
-                } else {
-                    lon = 0.0;
-                }
-                
-                if (arr.getJSONObject(i).has("tags")){
-                    
-                    JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");               /* Contains information like name, english name etc.*/
-
-                    if(tags.has("name")){
-                        name = tags.getString("name");
-                    }
-                    else {
-                        name = null;
-                    }
-
-                    type = mFunc.checkTags(type, tags); 
-                    
-                    if (tags.has("icao")) isIcao = true;
-
-                    if(tags.has("name:en")){
-                        nameen = tags.getString("name:en");
-                    }
-                    else{
-                        nameen = null;    
-                    }
-                    
-                    if(tags.has("ele")){
-                        ele = tags.getString("ele");
-                    }
-                    else{
-                        ele = null;    
-                    }
-                    
-                } else {
-                    break;              /* If no tags exist, than it's just a singular node referenced somewhere else and can be ignored */
-                }
-                
-
-                
-                ModifiedData tempElement = new ModifiedData(name, nameen, type, lat, lon);           /* type used here */  
-                
-                if (type != null && type.equals("place_of_worship")) {
-                    type = "Temple";
-                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
-                    tempElement.setType(type);
-                    tempElement.setNT(NT);
-                    //System.out.println(NT);
-                }
-                
-                if (type != null && type.equals("village")){
-                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
-                    tempElement.setNT2(NT);
-                }
-                
-                if (isIcao) tempElement.setIsIcao(isIcao);
-                
-                tempElement.setEle(ele);
-                
-                JSONAll_list.add(tempElement);            /* Add element to the list */
-                
-                Double d = new Double(i);
-                
-                progressPercentage = d/elementcounter;          /* Progress bar stuff */
-                        
-                mFunc.updateProgress(progressPercentage*0.99);
-                
-                isIcao = false;                         /* Setting the flag back to false */
-                
-            }
-                
+        readJSONALL(arr, mFunc, isIcao, JSONAll_list, progressPercentage, elementcounter);  /* Reading in the contents of the JSON file */
         
-        }
-        
-        System.out.print("\r");
-        System.out.print("[..................................................] 100%");
-        System.out.println("");
+        mFunc.finishedProgressBar();                                                        /* Drawing the finished progree bar, so it stays and because the progress bar is still a little buggy */
         System.out.println("");
         
         
@@ -336,7 +131,7 @@ public class ParseJSONAll {
         
         int linecount = 0;                 /* Counter for lines in finished document */
         String capitalTag = "";
-        Double modifiedAlt;
+        Double modifiedAlt = 0.0;
         int j = 0;
         double jsize = JSONAll_list.size();
         
@@ -344,80 +139,14 @@ public class ParseJSONAll {
         
         try {
             try (FileWriter myWriter = new FileWriter(outputfileT) /*Writing to the output file */ ) {
-                for (ModifiedData y: JSONAll_list){
-                    UUID uuid = UUID.randomUUID();                      /* Random UUID (universally unique identifier)*/
-                    j++;
-                    String fuuid = uuid.toString().toUpperCase();       /* UUID changed to upper-case */
-                    String fname;                                       /* English name will be used if possible, if not the default name */
-                    if (y.getEnName() != null){
-                        fname = y.getEnName();
-                    } else
-                    {fname = y.getName();}
-                    
-                    fname = mFunc.checkFname(fname);                      /* Making sure that fname doesn't contain unnecessary characters and isn't null */
-                    
-                    String clean = Normalizer.normalize(fname, Normalizer.Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
-                    boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
-                                || clean.substring(0,1).matches("\\(") || clean.substring(0,1).matches("\\["));
-                    
-                    if(y.getNT()>=config.getInt("REMOVE_SENSITIVITY_THRESHOLD") && y.getNT2()>=config.getInt("REMOVE_SENSITIVITY_THRESHOLD_VL")){
-                        if(y.getLat() != 0.0 || y.getLon() != 0.0){
-                            if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
-                                if(!(config.getBoolean("remove_nonlatin") && !valid)){
-                                    
-                                    modifiedAlt = mFunc.modifyAlt(config.getDouble("ALT"), y.getType());
-                                    double altRandomizer = (double)Math.floor(Math.random()*(20.00-(-20.00)+1)+(-20.00));   /*Randomizing alt +/- 20%*/
-                                    modifiedAlt = modifiedAlt + modifiedAlt*(altRandomizer/100);
-                                    
-                                    if (y.getEle() == null){
-                                        if(y.getType() != null){
-                                            capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);      /*Capitalize first letter of tag*/
-                                            myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
-                                                    + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
-                                                    + modifiedAlt +"\"/> \n");
-                                        } else {
-                                            myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" 
-                                                    + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
-                                                    + modifiedAlt +"\"/> \n");
-                                        }
-                                    } else {     
-                                        if(y.getType() != null){
-                                            capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);
-                                            myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
-                                                    + fname + " " + y.getEle() + " m"
-                                                    + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
-                                                    + modifiedAlt +"\"/> \n");
-                                        } else {
-                                            myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" 
-                                                    + fname + " " + y.getEle() + " m"
-                                                    + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
-                                                    + modifiedAlt +"\"/> \n");
-                                        }
-                                    }
-                                        linecount++;
-                                        if(config.getBoolean("textures")){
-                                            
-                                            /* Making XML's and Textures for each single POI */
-                                            createSinglePOIXMLsandTextures(linecount, outputfile, fname, config, capitalTag, assetGroups, sceneryObjects, uuid, fuuid, modifiedAlt, y);
-                                            capitalTag = "";
-                                            //isIcao = false;
-                                        }
-                                }
-                            } 
-                        }
-                    }
-                    
-                    Double d = new Double(j);
                 
-                    progressPercentage = d/jsize;   
-                        
-                    mFunc.updateProgress(progressPercentage*0.99);
-                    
-                }
+                /* Main functionality creating the output text file and possibly textures and everything related to that */
+                
+                linecount = doMainJSONAll(JSONAll_list, mFunc, j, modifiedAlt, config, capitalTag, myWriter, linecount, outputfile, assetGroups, sceneryObjects, progressPercentage, jsize);
+                
             }
-                System.out.print("\r");
-                System.out.print("[..................................................] 100%");
-                System.out.println("");
+                
+            mFunc.finishedProgressBar();
             
                 System.out.println("\nSuccessfully wrote to the file: " + outputfileT);
             } catch (IOException e) {
@@ -785,8 +514,307 @@ public class ParseJSONAll {
         }
     
     /**********************************************************************************************************************************************/ 
+        
+        static void printInfoJSONALL(JSAPResult config, String outputfile, String filepath){
+            
+            System.out.println("Chosen parameters:");                           /*Information for the user about selected parameters*/
+                System.out.println("FILE: " + filepath);
+                System.out.println("LABEL: " + config.getString("LABEL"));
+                System.out.println("OWNER: " + config.getString("OWNER"));
+                System.out.println("ALT: " + config.getDouble("ALT"));
+                System.out.println("OUTPUT FILE: " + outputfile);
+                System.out.println("REMOVE_EMPTY: " + config.getBoolean("remove_empty"));
+                System.out.println("REMOVE_NONLATIN: " + config.getBoolean("remove_nonlatin"));
+                if (config.getBoolean("textures")){
+                    String jsn=config.getString("JSON_ALL");
+                    jsn = formatOutString(jsn);
+                    jsn = jsn.replace("target","");                             /* For testing purposes json strings start with target, so let's get rid of it */
+                    jsn = jsn.replace("Target","");
+                    System.out.println("TEXTURES: ./3DSP-POIOSM2fS-" + jsn);
+                    System.out.println("TEXTURE_WIDTH: " + config.getInt("TEXTURE_WIDTH"));
+                }
+                System.out.println("");
+            
+        }
+        
+    /**********************************************************************************************************************************************/   
+        
+    private void readJSONALL(JSONArray arr, MiscFunctions mFunc, boolean isIcao, List <ModifiedData> JSONAll_list, Double progressPercentage,
+    Double elementcounter){
+
+            /* Reading in the contents of the JSON file */
+
+            for (int i=0;i<arr.length();i++){               /*Looking for elements within JSON*/
+
+            if (arr.getJSONObject(i).getString("type").equals("way") || arr.getJSONObject(i).getString("type").equals("relation")){              /* Element contains multiple nodes */
+
+                String name, nameen, type = null, ele;
+
+                Double lat, lon;
+
+                if (arr.getJSONObject(i).has("center")){
+                    JSONObject center = arr.getJSONObject(i).getJSONObject("center");            /* Get center node for current element */
+
+                    if(center.has("lat")){
+                        lat = center.getDouble("lat");
+                    } else {
+                        lat = 0.0;
+                    }
+
+                    if(center.has("lon")){
+                        lon = center.getDouble("lon");
+                    } else {
+                        lon = 0.0;
+                    }
+                } else {
+                    lat = 0.0;
+                    lon = 0.0;
+                }
+
+                if (arr.getJSONObject(i).has("tags")){
+
+                    JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");               /* Contains information like name, english name etc.*/
+
+                    if(tags.has("name")){
+                        name = tags.getString("name");
+                    }
+                    else {
+                        name = null;
+                    }
+
+                    type = mFunc.checkTags(type, tags);
+
+                    if (tags.has("icao")) isIcao = true;
+
+                    if(tags.has("name:en")){
+                        nameen = tags.getString("name:en");
+                    }
+                    else{
+                        nameen = null;    
+                    }
+
+                    if(tags.has("ele")){
+                        ele = tags.getString("ele");
+                    }
+                    else{
+                        ele = null;    
+                    }
+
+                } else {
+                    name = null;
+                    type = null;
+                    nameen = null;  
+                    ele = null;
+                }
+
+                /* Creating an element */
+
+                ModifiedData tempElement = new ModifiedData(name, nameen, type, lat, lon);           /* type used here */  
+
+                if (type != null && type.equals("place_of_worship")) {
+                    type = "Temple";
+                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
+                    tempElement.setType(type);
+                    tempElement.setNT(NT);
+                    //System.out.println(NT);
+                }
+
+                if (type != null && type.equals("village")){
+                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
+                    tempElement.setNT2(NT);
+                }
+
+                tempElement.setEle(ele);
+
+                if (isIcao) tempElement.setIsIcao(isIcao);
+
+                JSONAll_list.add(tempElement);            /* Add element to the list */
+
+                Double d = new Double(i);
+
+                progressPercentage = d/elementcounter;   
+
+                mFunc.updateProgress(progressPercentage*0.99);
+
+                isIcao = false;
+
+            }
+
+            else if (arr.getJSONObject(i).getString("type").equals("node")){                        /*Element is a singular node */
+
+                String name, nameen, type = null, ele;
+
+                Double lat, lon;
+
+                if (arr.getJSONObject(i).has("lat")){                                               /* Latitude */
+                    lat = arr.getJSONObject(i).getDouble("lat");
+                } else {
+                    lat = 0.0;
+                }
+
+                if (arr.getJSONObject(i).has("lon")){                                               /* Longitude */
+                    lon = arr.getJSONObject(i).getDouble("lon");
+                } else {
+                    lon = 0.0;
+                }
+
+                if (arr.getJSONObject(i).has("tags")){
+
+                    JSONObject tags = arr.getJSONObject(i).getJSONObject("tags");               /* Contains information like name, english name etc.*/
+
+                    if(tags.has("name")){
+                        name = tags.getString("name");
+                    }
+                    else {
+                        name = null;
+                    }
+
+                    type = mFunc.checkTags(type, tags); 
+
+                    if (tags.has("icao")) isIcao = true;
+
+                    if(tags.has("name:en")){
+                        nameen = tags.getString("name:en");
+                    }
+                    else{
+                        nameen = null;    
+                    }
+
+                    if(tags.has("ele")){
+                        ele = tags.getString("ele");
+                    }
+                    else{
+                        ele = null;    
+                    }
+
+                } else {
+                    break;              /* If no tags exist, than it's just a singular node referenced somewhere else and can be ignored */
+                }
+
+
+
+                ModifiedData tempElement = new ModifiedData(name, nameen, type, lat, lon);           /* type used here */  
+
+                if (type != null && type.equals("place_of_worship")) {
+                    type = "Temple";
+                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
+                    tempElement.setType(type);
+                    tempElement.setNT(NT);
+                    //System.out.println(NT);
+                }
+
+                if (type != null && type.equals("village")){
+                    int NT = arr.getJSONObject(i).getJSONObject("tags").length();
+                    tempElement.setNT2(NT);
+                }
+
+                if (isIcao) tempElement.setIsIcao(isIcao);
+
+                tempElement.setEle(ele);
+
+                JSONAll_list.add(tempElement);            /* Add element to the list */
+
+                Double d = new Double(i);
+
+                progressPercentage = d/elementcounter;          /* Progress bar stuff */
+
+                mFunc.updateProgress(progressPercentage*0.99);
+
+                isIcao = false;                         /* Setting the flag back to false */
+
+            }
+
+
+        }
+              
+    }
+    
+    /**********************************************************************************************************************************************/  
+    
+    private int doMainJSONAll(List <ModifiedData> JSONAll_list, MiscFunctions mFunc, int j, Double modifiedAlt, JSAPResult config, String capitalTag,
+            FileWriter myWriter, int linecount, String outputfile, List<AssetGroup> assetGroups, List<SceneryObject> sceneryObjects,
+            Double progressPercentage, double jsize) throws IOException{
+        
+        /* Main functionality creating the output text file and possibly textures and everything related to that */
+        
+        for (ModifiedData y: JSONAll_list){
+            UUID uuid = UUID.randomUUID();                      /* Random UUID (universally unique identifier)*/
+            j++;
+            String fuuid = uuid.toString().toUpperCase();       /* UUID changed to upper-case */
+            String fname;                                       /* English name will be used if possible, if not the default name */
+            if (y.getEnName() != null){
+                fname = y.getEnName();
+            } else
+            {fname = y.getName();}
+
+            fname = mFunc.checkFname(fname);                      /* Making sure that fname doesn't contain unnecessary characters and isn't null */
+
+            String clean = Normalizer.normalize(fname, Normalizer.Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
+            boolean valid = (clean.substring(0,1).matches("\\w+") || clean.substring(0,1).matches("[0-9]") || clean.substring(0,1).matches("\"")
+                        || clean.substring(0,1).matches("\\(") || clean.substring(0,1).matches("\\["));
+
+            if(y.getNT()>=config.getInt("REMOVE_SENSITIVITY_THRESHOLD") && y.getNT2()>=config.getInt("REMOVE_SENSITIVITY_THRESHOLD_VL")){
+                if(y.getLat() != 0.0 || y.getLon() != 0.0){
+                    if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
+                        if(!(config.getBoolean("remove_nonlatin") && !valid)){
+
+                            modifiedAlt = mFunc.modifyAlt(config.getDouble("ALT"), y.getType());
+                            double altRandomizer = (double)Math.floor(Math.random()*(30.00-(-30.00)+1)+(-30.00));   /*Randomizing alt +/- 30%*/
+                            modifiedAlt = modifiedAlt + modifiedAlt*(altRandomizer/100);
+
+                            if (y.getEle() == null){
+                                if(y.getType() != null){
+                                    capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);      /*Capitalize first letter of tag*/
+                                    myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
+                                            + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
+                                            + modifiedAlt +"\"/> \n");
+                                } else {
+                                    myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" 
+                                            + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
+                                            + modifiedAlt +"\"/> \n");
+                                }
+                            } else {     
+                                if(y.getType() != null){
+                                    capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);
+                                    myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
+                                            + fname + " " + y.getEle() + " m"
+                                            + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
+                                            + modifiedAlt +"\"/> \n");
+                                } else {
+                                    myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" 
+                                            + fname + " " + y.getEle() + " m"
+                                            + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
+                                            + modifiedAlt +"\"/> \n");
+                                }
+                            }
+                                linecount++;
+                                if(config.getBoolean("textures")){
+
+                                    /* Making XML's and Textures for each single POI */
+                                    createSinglePOIXMLsandTextures(linecount, outputfile, fname, config, capitalTag, assetGroups, sceneryObjects, uuid, fuuid, modifiedAlt, y);
+                                    capitalTag = "";
+                                    //isIcao = false;
+                                }
+                        }
+                    } 
+                }
+            }
+
+            Double d = new Double(j);
+
+            progressPercentage = d/jsize;   
+
+            mFunc.updateProgress(progressPercentage*0.99);
+            //System.out.println(d + " " + jsize + " " + progressPercentage);
+
+        }
+        
+        return linecount;
+        
+    }
     
     
     
     
+    /**********************************************************************************************************************************************/
 }

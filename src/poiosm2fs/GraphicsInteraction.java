@@ -254,7 +254,7 @@ public class GraphicsInteraction {
                     case "Nature_reserve":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/nature_reserve.png"));
                         break;      
-                    case "Arch.":
+                    case "Archeo":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/archaeological_site.png"));
                         break;    
                     case "Reservoir":
@@ -313,7 +313,19 @@ public class GraphicsInteraction {
                         break;      
                     case "Battlefield":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/battlefield.png"));
-                        break;      
+                        break;    
+                    case "Museum":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/museum.png"));
+                        break;   
+                    case "Zoo":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/zoo.png"));
+                        break;   
+                    case "University":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/university.png"));
+                        break;   
+                    case "Barracks":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/military.png"));
+                        break;       
                     default:
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));
                         break;
@@ -347,6 +359,22 @@ public class GraphicsInteraction {
                 rgbvalues[4] = 77;
                 rgbvalues[5] = 0;
                 break;
+            case "Island":
+                rgbvalues[0] = 255;                                                                /* For islands orange background / white text */
+                rgbvalues[1] = 255;
+                rgbvalues[2] = 255;
+                rgbvalues[3] = 137;
+                rgbvalues[4] = 67;
+                rgbvalues[5] = 0;
+                break;  
+            case "Peak":
+                rgbvalues[0] = 255;                                                                /* For peaks khaki background / white text */
+                rgbvalues[1] = 255;
+                rgbvalues[2] = 255;
+                rgbvalues[3] = 66;
+                rgbvalues[4] = 66;
+                rgbvalues[5] = 31;
+                break;    
             default:
                 /* Use either white on black, or chosen by the user */
                 if(config.getBoolean("COLOR_TEXT")){

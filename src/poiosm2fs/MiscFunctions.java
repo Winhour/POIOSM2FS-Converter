@@ -90,7 +90,9 @@ public class MiscFunctions {
             }
 
             if (type != null && type.equals("intermittent")) type = "Natural";              /* Special cases */
-            if (type != null && type.equals("archaeological_site")) type = "Arch.";
+            if (type != null && type.equals("archaeological_site")) type = "Archeo";
+            if (type != null && type.equals("hamlet")) type = "village";
+            if (type != null && type.equals("neighbourhood")) type = "suburb";
             if (type != null && type.equals("yes")) type = null;
         
         return type;
@@ -119,12 +121,14 @@ public class MiscFunctions {
      * @param type*
      * @return ******************************************************************************************************************************************/
     
-    public Double modifyAlt(Double Alt, String type) {                /* Setting different altitudes for Villages, Suburbs, Cities and Towns */
+    public Double modifyAlt(Double Alt, String type) {                /* Setting different altitudes for Villages, Suburbs, Cities and Towns etc. */
         
-        if (type != null && type.equals("village")) Alt *= 1.3;
-        if (type != null && type.equals("suburb")) Alt *= 1.3;
-        if (type != null && type.equals("city")) Alt *= 1.6;
-        if (type != null && type.equals("town")) Alt *= 1.6;
+        if (type != null && type.equals("village")) Alt *= 1.5;
+        if (type != null && type.equals("suburb")) Alt *= 1.5;
+        if (type != null && type.equals("peak")) Alt *= 1.5;
+        if (type != null && type.equals("city")) Alt *= 1.8;
+        if (type != null && type.equals("town")) Alt *= 1.8;
+        if (type != null && type.equals("island")) Alt *= 1.8;
         
         return Alt;
     }
@@ -158,6 +162,16 @@ public class MiscFunctions {
     }
     
     /**********************************************************************************************************************************************/
+    
+    public void finishedProgressBar(){
+        
+        System.out.print("\r");
+        System.out.print("[..................................................] 100%");
+        System.out.println("");
+        
+    }
+    
+     /**********************************************************************************************************************************************/
     
     
     public void makeAsciiArt(){                             /* ASCII made in patorjk.com/software/taag */

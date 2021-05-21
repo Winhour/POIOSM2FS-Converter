@@ -87,7 +87,7 @@ public class Main_POIOSM2FS {
         
         FlaggedOption opt5 = new FlaggedOption("ALT")           /* Altitude at which the note will appear */
                                 .setStringParser(JSAP.DOUBLE_PARSER)
-                                .setDefault("80.00") 
+                                .setDefault("70.00") 
                                 .setRequired(true) 
                                 .setShortFlag('a') 
                                 .setLongFlag(JSAP.NO_LONGFLAG);
