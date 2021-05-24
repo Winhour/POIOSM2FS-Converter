@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poiosm2fs;
+package poiosm2fs.texturesxml;
 
 import com.martiansoftware.jsap.JSAPResult;
 import java.awt.Color;
@@ -62,7 +62,7 @@ public class GraphicsInteraction {
         
         else {                                                                             /* Case for multiple lines */
             //height = height*((fm.stringWidth(text)/width));
-            Font font2 = new Font("Arial Bold", Font.PLAIN, ((52*width)/2048));                                          
+            Font font2 = new Font("Arial Bold", Font.PLAIN, ((52*width)/2048));                 /* Smaller font for multiple lines */                         
             img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
             g2d = img.createGraphics();
             g2d = handleRenderingHints(g2d);
