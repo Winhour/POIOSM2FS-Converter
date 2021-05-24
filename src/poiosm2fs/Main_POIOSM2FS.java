@@ -141,7 +141,7 @@ public class Main_POIOSM2FS {
         
         FlaggedOption opt11 = new FlaggedOption("TEXTURE_WIDTH")           /* Texture width */
                                 .setStringParser(JSAP.INTEGER_PARSER)
-                                .setDefault("2048") 
+                                .setDefault("1024") 
                                 .setRequired(true) 
                                 .setShortFlag(JSAP.NO_SHORTFLAG) 
                                 .setLongFlag("txw");
@@ -263,14 +263,14 @@ public class Main_POIOSM2FS {
         System.out.println("-s (Integer) selects the interval between chosen nodes, applies only to Json (default is 10)");
         System.out.println("-l (String) alows to add a label in front of element's name ex. Ruins: ruinsname");
         System.out.println("-w (String) specifies the owner");
-        System.out.println("-a (Double) specifies the altitude");
+        System.out.println("-a (Double) specifies the altitude (default = 70.00)");
         System.out.println("-o (filename) allows the user to choose the output file");
         System.out.println("--rn removes lines with names made up of nonlatin characters");
         System.out.println("--re removes lines with empty names");
         System.out.println("--rst (Integer) removes elements with type 'Temple' which have number of tags less than or equal to the chosen threshold");
         System.out.println("--rsv (Integer) removes elements with type 'Village' which have number of tags less than or equal to the chosen threshold");
         System.out.println("-t makes folders that contain all the necessary xmls, textures etc. for model creation");
-        System.out.println("(NOTE needs the /data and /asset folders to get models)");
+        System.out.println("(NOTE needs the /data and /asset folders to create models)");
         System.out.println("--txw (Integer) sets width for the textures (default = 2048)");
         System.out.println("--cb:r,g,b sets texture background color example: --cb:100,0,0");
         System.out.println("--ct:r,g,b sets texture text color example: --ct:100,0,0");

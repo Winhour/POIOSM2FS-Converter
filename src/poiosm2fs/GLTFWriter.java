@@ -13,7 +13,7 @@ public class GLTFWriter {
     
     public String writeGLTF(String poi){
         
-        /* String to write into gltf files, simplest solution */
+        /* String to write into gltf files, simplest solution, need to insert poi in three places */
         
         String output = "";
         

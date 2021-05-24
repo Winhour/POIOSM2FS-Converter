@@ -98,11 +98,11 @@ public class ParseJSONAll {
             
         }
         
-        Double progressPercentage = 0.0;
+        Double progressPercentage = 0.0;                /* Progress bar percentage */
         
-        Double elementcounter = 0.0;
+        Double elementcounter = 0.0;                    /* Total number of elements in JSON */
         
-        boolean isIcao = false;
+        boolean isIcao = false;                         /* Flag whether element should have icao */
         
         System.out.println("Reading input file:");
         
@@ -179,7 +179,7 @@ public class ParseJSONAll {
     
      /**********************************************************************************************************************************************/
     
-    static String makePackageDefinitionsXML(String jsn, List<AssetGroup> assetGroups){
+    static String makePackageDefinitionsXML(String jsn, List<AssetGroup> assetGroups){          /* Create the Package Definitions XML */
         
         String jsn1 = jsn.replace("-","/");
         
@@ -195,7 +195,7 @@ public class ParseJSONAll {
     
      /**********************************************************************************************************************************************/
     
-    static String makeMainXML(String jsn){
+    static String makeMainXML(String jsn){                                                      /* Create the Main XML */
         
         Packages packagesx = new Packages("PackageDefinitions\\" + "3dsp-scenery-poiosmtofs-" + jsn.toLowerCase() + ".xml");
         
@@ -211,7 +211,7 @@ public class ParseJSONAll {
     
      /**********************************************************************************************************************************************/
     
-    static String makePackageSourcesDataXML(List<SceneryObject> sceneryObjects){
+    static String makePackageSourcesDataXML(List<SceneryObject> sceneryObjects){            /* Create the PackageSources/data XML */
 
         FSData fsdata = new FSData("9.0", sceneryObjects);
         
@@ -222,7 +222,7 @@ public class ParseJSONAll {
     
      /**********************************************************************************************************************************************/
     
-    static String makeModelInfoXML(ModelInfo modelInfo){
+    static String makeModelInfoXML(ModelInfo modelInfo){                                    /* Create the Model Info XML */
      
         XStreamInteraction xsi = new XStreamInteraction();
         String xmlData = xsi.generateModelInfoXML(modelInfo);
@@ -436,6 +436,9 @@ public class ParseJSONAll {
                 case "City":
                     lo = new LibraryObject("{"+fuuid+"}", 1.50000);
                     break;
+                case "Island":
+                    lo = new LibraryObject("{"+fuuid+"}", 1.50000);
+                    break;    
                 case "Town":
                     lo = new LibraryObject("{"+fuuid+"}", 1.40000);
                     break;

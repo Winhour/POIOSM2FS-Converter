@@ -22,7 +22,7 @@ public class XStreamInteraction {
     
     /* Interaction with XStream library for XML handling */
     
-    public ConfigX getConfigFromXML() throws FileNotFoundException{
+    public ConfigX getConfigFromXML() throws FileNotFoundException{             /* Potential future implementation */
            
         FileReader fileReader = new FileReader(System.getProperty("user.dir") + "/config.xml");  // load our xml file  
         
@@ -41,7 +41,7 @@ public class XStreamInteraction {
     /**
      * @return ********************************************************************************************************************************************/
     
-    public int writeConfigToXML(){
+    public int writeConfigToXML(){                      /* Potential future implementation */
         
         return 0;
     }
@@ -50,7 +50,7 @@ public class XStreamInteraction {
      * @param project*
      * @return *******************************************************************************************************************************************/
     
-    public String generateMainXML(Project project){
+    public String generateMainXML(Project project){                 /* Generate Main XML */
         
         XStream xstream = new XStream();     // init XStream
         xstream.processAnnotations(Project.class);
@@ -65,7 +65,7 @@ public class XStreamInteraction {
      * @param assetPackage*
      * @return *******************************************************************************************************************************************/
     
-    public String generatePackageDefinitionsXML(AssetPackage assetPackage){
+    public String generatePackageDefinitionsXML(AssetPackage assetPackage){         /* Generate Package Definitions XML */
         
         XStream xstream = new XStream();     // init XStream
         xstream.processAnnotations(AssetPackage.class);
@@ -80,7 +80,7 @@ public class XStreamInteraction {
      * @param fsdata*
      * @return *******************************************************************************************************************************************/
     
-    public String generatePackageSourcesDataXML (FSData fsdata){
+    public String generatePackageSourcesDataXML (FSData fsdata){                /* Generate PackageSources/data XML */
         
         XStream xstream = new XStream();
         
@@ -98,7 +98,7 @@ public class XStreamInteraction {
      * @param modelInfo*
      * @return *******************************************************************************************************************************************/
     
-    public String generateModelInfoXML(ModelInfo modelInfo){
+    public String generateModelInfoXML(ModelInfo modelInfo){                /* Generate Model Info XML */
         
         XStream xstream = new XStream();
         

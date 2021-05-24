@@ -30,15 +30,14 @@ public class GraphicsInteraction {
         
         BufferedImage img = new BufferedImage(1, 1, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g2d = img.createGraphics();
-        Font font = new Font("Arial Bold", Font.PLAIN, 90);                                          /* Set font and font size here */
+        Font font = new Font("Arial Bold", Font.PLAIN, ((90*width)/2048));                                          /* Set font and font size here */
         g2d.setFont(font);
         FontMetrics fm = g2d.getFontMetrics();
         //int width = fm.stringWidth(text)+20;
-        int height = 128;                                                                    /* Might need changing later, was set to mostly fit well with output */
+        int height = width/16;                                                                    /* Height is width/16 so for example 2048x128 or 1024x64 */
         g2d.dispose();
 
         
-        //int ac, bc, cc, dc, ec, fc;                             /* RGB Values for Texture text and background */
         int[] rgbvalues = {0, 0, 0, 255, 255, 255};              /* RGB Values for Texture text and background */
         rgbvalues = setRGBValues(rgbvalues, config, type);
             
@@ -46,11 +45,11 @@ public class GraphicsInteraction {
         Color c2=new Color(rgbvalues[0],rgbvalues[1],rgbvalues[2],255);                                       /* Text color */
         
         //g2d.drawString(text, 0, fm.getAscent());
-        if(fm.stringWidth(text)<=width-100){                                                    /* Case for single lines */
+        if(fm.stringWidth(text)<=(width-((height*5)/2))){                                                    /* Case for single lines */
             
             img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
             g2d = img.createGraphics();
-            g2d = handleRenderingHints(g2d);
+            g2d = handleRenderingHints(g2d);                                                                /* Controlling the quality of rendering */
             g2d.setFont(font);
             fm = g2d.getFontMetrics();
             g2d.setColor(c);                                            
@@ -63,7 +62,7 @@ public class GraphicsInteraction {
         
         else {                                                                             /* Case for multiple lines */
             //height = height*((fm.stringWidth(text)/width));
-            Font font2 = new Font("Arial Bold", Font.PLAIN, 52);                                          
+            Font font2 = new Font("Arial Bold", Font.PLAIN, ((52*width)/2048));                                          
             img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
             g2d = img.createGraphics();
             g2d = handleRenderingHints(g2d);
@@ -71,25 +70,25 @@ public class GraphicsInteraction {
             fm = g2d.getFontMetrics();
             BufferedImage bi;
             bi = chooseIcon(type, isIcao);
-            if(fm.stringWidth(text)<=width-145){
+            if(fm.stringWidth(text)<=width-(width/14)){
                 g2d.setColor(c);
                 g2d.fillRect(0, 0, width, height);
                 g2d.setColor(c); 
-                int x = (width/2)-(g2d.getFontMetrics().stringWidth(text)/2) - 144;
+                int x = (width/2)-(g2d.getFontMetrics().stringWidth(text)/2) - ((height*11)/10);
                 int y = 0;
-                g2d.drawRect(x,y,128,128); 
+                g2d.drawRect(x,y,height,height); 
                 g2d.setColor(c2); 
-                g2d.drawImage(bi, x, y+14, 108, 108, null);
+                g2d.drawImage(bi, x, y+(height/12), ((height*7)/8), ((height*7)/8), null);
                 Rectangle rect = new Rectangle(0,0,width,height);
                 drawCenteredString(g2d, text, rect, font2);
             } else {
                 g2d.setColor(c);
                 g2d.fillRect(0, 0, width, height);
                 g2d.setColor(c); 
-                g2d.drawRect(0,0,128,128);                                                  
+                g2d.drawRect(0,0,height,height);                                                  
                 g2d.setColor(c2); 
-                g2d.drawImage(bi, 0, 14, 108, 108, null);
-                drawStringMultiLine(g2d, text, width-148, 140, 54);
+                g2d.drawImage(bi, 0, (height/8), ((height*7)/8), ((height*7)/8), null);
+                drawStringMultiLine(g2d, text, width-((height*9)/8), ((height*9)/8), ((54*width)/2048));
             }
         }
         
@@ -166,6 +165,8 @@ public class GraphicsInteraction {
    
     static void createTextnIcon(Graphics g2d, int width, int height, Font font, String text, String type, JSAPResult config, boolean isIcao, int[] rgbvalues) throws IOException{            /* Work in progress */
         
+        /* Create text and icon for a single line case */
+        
         BufferedImage bi;
         
         bi = chooseIcon(type, isIcao);
@@ -177,10 +178,10 @@ public class GraphicsInteraction {
         if (g2d.getFontMetrics().stringWidth(text) > ((width*6)/7)){    
             
             g2d.setColor(c); 
-            g2d.drawRect(0,0,128,128);                                                  
+            g2d.drawRect(0,0,height,height);                                                  
             g2d.setColor(c2); 
-            g2d.drawImage(bi, 0, 14, 108, 108, null);
-            Rectangle rect = new Rectangle(128,0,width-128,height);
+            g2d.drawImage(bi, 0, (height/8), ((height*7)/8), ((height*7)/8), null);
+            Rectangle rect = new Rectangle(height,0,(width-height),height);
             drawCenteredString(g2d, text, rect, font);
         
         }
@@ -188,11 +189,11 @@ public class GraphicsInteraction {
         else {
             
             g2d.setColor(c); 
-            int x = (width/2)-(g2d.getFontMetrics().stringWidth(text)/2) - 144;
+            int x = (width/2)-(g2d.getFontMetrics().stringWidth(text)/2) - ((height*11)/10);
             int y = 0;
-            g2d.drawRect(x,y,128,128); 
+            g2d.drawRect(x,y,height,height); 
             g2d.setColor(c2); 
-            g2d.drawImage(bi, x, y+14, 108, 108, null);
+            g2d.drawImage(bi, x, y+(height/12), ((height*7)/8), ((height*7)/8), null);
             Rectangle rect = new Rectangle(0,0,width,height);
             drawCenteredString(g2d, text, rect, font);
             
@@ -203,7 +204,7 @@ public class GraphicsInteraction {
     
     /**********************************************************************************************************************************************/
     
-    static BufferedImage chooseIcon(String type, boolean isIcao) throws IOException{
+    static BufferedImage chooseIcon(String type, boolean isIcao) throws IOException{            /* Chooses which icon to add to the texture */
         
         BufferedImage bi;
 
@@ -236,6 +237,9 @@ public class GraphicsInteraction {
                     case "Suburb":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/suburb.png"));
                         break;    
+                    case "Residential":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/suburb.png"));
+                        break;        
                     case "Town":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/town.png"));
                         break;
@@ -269,6 +273,9 @@ public class GraphicsInteraction {
                     case "River":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
                         break;  
+                    case "Water":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
+                        break;   
                     case "Lake":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/lake.png"));
                         break;  
@@ -290,6 +297,9 @@ public class GraphicsInteraction {
                     case "Cemetery":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/cemetery.png"));
                         break; 
+                    case "Tomb":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/cemetery.png"));
+                        break;     
                     case "Railway_station":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/railway_station.png"));
                         break;      
@@ -325,6 +335,33 @@ public class GraphicsInteraction {
                         break;   
                     case "Barracks":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/military.png"));
+                        break;      
+                    case "Retail":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/retail.png"));
+                        break;   
+                    case "Office":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/office.png"));
+                        break;   
+                    case "Park":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/park.png"));
+                        break;   
+                    case "Glacier":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/glacier.png"));
+                        break;   
+                    case "Synagogue":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/synagogue.png"));
+                        break;   
+                    case "Ferry_terminal":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/ferry.png"));
+                        break;   
+                    case "Manor":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/manor.png"));
+                        break;   
+                    case "Lagoon":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/lagoon.png"));
+                        break;   
+                    case "Wetland":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/wetland.png"));
                         break;       
                     default:
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));
@@ -377,29 +414,35 @@ public class GraphicsInteraction {
                 break;    
             default:
                 /* Use either white on black, or chosen by the user */
-                if(config.getBoolean("COLOR_TEXT")){
-                    rgbvalues[0] = config.getIntArray("COLOR_TEXT")[0]; 
-                    rgbvalues[1] = config.getIntArray("COLOR_TEXT")[1];
-                    rgbvalues[2] = config.getIntArray("COLOR_TEXT")[2];
-                }
+                try {
+                    if(config.getBoolean("COLOR_TEXT")){
+                        rgbvalues[0] = config.getIntArray("COLOR_TEXT")[0]; 
+                        rgbvalues[1] = config.getIntArray("COLOR_TEXT")[1];
+                        rgbvalues[2] = config.getIntArray("COLOR_TEXT")[2];
+                    }
 
-                else {
-                    rgbvalues[0] = 255; 
-                    rgbvalues[1] = 255;
-                    rgbvalues[2] = 255;
-                }
-                if(config.getBoolean("COLOR_BACKGROUND")){
-                    rgbvalues[3] = config.getIntArray("COLOR_BACKGROUND")[0];
-                    rgbvalues[4] = config.getIntArray("COLOR_BACKGROUND")[1];
-                    rgbvalues[5] = config.getIntArray("COLOR_BACKGROUND")[2];
-                }
+                    else {
+                        rgbvalues[0] = 255; 
+                        rgbvalues[1] = 255;
+                        rgbvalues[2] = 255;
+                    }
+                    if(config.getBoolean("COLOR_BACKGROUND")){
+                        rgbvalues[3] = config.getIntArray("COLOR_BACKGROUND")[0];
+                        rgbvalues[4] = config.getIntArray("COLOR_BACKGROUND")[1];
+                        rgbvalues[5] = config.getIntArray("COLOR_BACKGROUND")[2];
+                    }
 
-                else {
-                    rgbvalues[3] = 0;
-                    rgbvalues[4] = 0;
-                    rgbvalues[5] = 0;
+                    else {
+                        rgbvalues[3] = 0;
+                        rgbvalues[4] = 0;
+                        rgbvalues[5] = 0;
+                    }
+                    break;
                 }
-                break;
+                catch (ArrayIndexOutOfBoundsException ar){
+                    System.out.println("\n\nText color and background color require three arguments, check if they are added the right way (--ct:100,100,100)\n");
+                    System.exit(1);
+                }
         }
         
         return rgbvalues;
