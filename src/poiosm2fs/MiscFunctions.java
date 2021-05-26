@@ -164,7 +164,7 @@ public class MiscFunctions {
     
     /**********************************************************************************************************************************************/
     
-    public void finishedProgressBar(){
+    public void finishedProgressBar(){                          /* Finished progress bar */
         
         System.out.print("\r");
         System.out.print("[..................................................] 100%");

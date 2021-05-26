@@ -39,7 +39,7 @@ public class Main_POIOSM2FS {
         
         chooseWhatToDo(config);               /*Based on the command line input, choose which function to run*/
         
-        System.out.println("*** FINISHED ALL TASKS ***\n");    /* Testing if end of program was reached */
+        System.out.println("*** FINISHED ALL TASKS ***\n");    /* Message if end of program was reached */
         
     }
     
@@ -257,12 +257,12 @@ public class Main_POIOSM2FS {
         else
             mFunc.makeSimpleHeader();              /* Simple Header */
         System.out.println("\nHow to use:\n");
-        System.out.println("-j or --jr (json_file_path) selects a short JSON file to use (prepared for rivers)");
+        System.out.println("-j or --jr (json_file_path) selects a short JSON file to use (used mostly for rivers)");
         System.out.println("--ja (json_file_path) selects a long JSON file to use (containing various elements such as: rivers, ruins, peaks etc.)");
         System.out.println("-c (csv_file_path) selects a CSV file to use");
-        System.out.println("-s (Integer) selects the interval between chosen nodes, applies only to Json (default is 10)");
-        System.out.println("-l (String) alows to add a label in front of element's name ex. Ruins: ruinsname");
-        System.out.println("-w (String) specifies the owner");
+        System.out.println("-s (Integer) selects the interval between chosen nodes, applies only to the small JSON (default is 10)");
+        System.out.println("-l (String) alows to add a label in front of element's name ex. Ruins: ruinsname (for small JSONs)");
+        System.out.println("-w (String) specifies the owner (default = 3DSpotters)");
         System.out.println("-a (Double) specifies the altitude (default = 70.00)");
         System.out.println("-o (filename) allows the user to choose the output file");
         System.out.println("--rn removes lines with names made up of nonlatin characters");
@@ -277,7 +277,8 @@ public class Main_POIOSM2FS {
         System.out.println("\nExample:\n");
         System.out.println("java -jar \"POIOSM2FS.jar\" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re");
         System.out.println("java -jar \"POIOSM2FS.jar\" -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki");
-        System.out.println("java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10 -t\n");
+        System.out.println("java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10 -t");
+        System.out.println("java -jar POIOSM2FS.jar --ja targetGR_Kos_TEST2.json --re --rst 6 --rsv 4 -t --cb:100,100,100 --ct:0,150,0\n");
     }
     
     /**********************************************************************************************************************************************/

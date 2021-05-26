@@ -66,14 +66,7 @@ public class ParseJSONAll {
         
         String outputfile;
         
-        if (config.getString("OUTPUT").equals("output")){               /* Setting the name of output file */
-            String jsn = config.getString("JSON_ALL").substring(0,config.getString("JSON_ALL").indexOf(".")+".".length());
-            jsn = jsn.substring(0, jsn.length() - 1);
-            //jsn = jsn.replace("target","");                             /* For testing purposes json strings start with target, so let's get rid of it */
-            //jsn = jsn.replace("Target","");
-            outputfile = jsn + ".txt";
-        }
-        else {outputfile = config.getString("OUTPUT") + ".txt";}
+        outputfile = createStringOutputfile(config);
         
         System.setProperty("org.jline.terminal.dumb", "true");                          /*Supressing a warning for 'dumb' terminal from jline, since it's always there when using IDE*/
         
@@ -117,17 +110,7 @@ public class ParseJSONAll {
         System.out.println("");
         
         
-        try {                                   /* Creating an output file */
-            File myObj = new File(outputfileT);
-            if (myObj.createNewFile()) {
-              System.out.println("File created: " + myObj.getName());
-         } else {
-                System.out.println("File " + myObj.getName() + " already exists.");
-         }
-         } catch (IOException e) {
-             System.out.println("An error occurred while creating " + outputfileT);
-                //e.printStackTrace();
-         }
+        makeOutputFile(outputfileT);
         
         int linecount = 0;                 /* Counter for lines in finished document */
         String capitalTag = "";
@@ -149,19 +132,19 @@ public class ParseJSONAll {
             mFunc.finishedProgressBar();
             
                 System.out.println("\nSuccessfully wrote to the file: " + outputfileT);
-            } catch (IOException e) {
-                    System.out.println("An error occurred while writing to the file: " + outputfileT);
-                    //e.printStackTrace();
-                }
+        } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file: " + outputfileT);
+                //e.printStackTrace();
+        }
             
-            System.out.println("\nNumber of lines: " + linecount + "\n");
+        System.out.println("\nNumber of lines: " + linecount + "\n");
             
             
-            if(config.getBoolean("textures")){
-                
-                createOverarchingXMLs(outputfile, assetGroups, sceneryObjects);     /* Data XML and Package Definitions XML */
-                
-            }
+        if(config.getBoolean("textures")){
+
+            createOverarchingXMLs(outputfile, assetGroups, sceneryObjects);     /* Data XML and Package Definitions XML */
+
+        }
         
     }
     
@@ -816,8 +799,47 @@ public class ParseJSONAll {
         
     }
     
+    /**********************************************************************************************************************************************/
     
+        void makeOutputFile(String outputfileT){
+            
+            
+            try {                                   /* Creating an output file */
+                
+                File myObj = new File(outputfileT);
+                
+                if (myObj.createNewFile()) {
+                  System.out.println("File created: " + myObj.getName());
+                } else {
+                    System.out.println("File " + myObj.getName() + " already exists.");
+                }
+             } catch (IOException e) {
+                 System.out.println("An error occurred while creating " + outputfileT);
+                    //e.printStackTrace();
+             }
+
+            }  
+
     
-    
+    /**********************************************************************************************************************************************/
+        
+        String createStringOutputfile (JSAPResult config){
+            
+            String outputfile="";
+            
+            if (config.getString("OUTPUT").equals("output")){               /* Setting the name of output file */
+                String jsn = config.getString("JSON_ALL").substring(0,config.getString("JSON_ALL").indexOf(".")+".".length());
+                jsn = jsn.substring(0, jsn.length() - 1);
+                //jsn = jsn.replace("target","");                             /* For testing purposes json strings start with target, so let's get rid of it */
+                //jsn = jsn.replace("Target","");
+                outputfile = jsn + ".txt";
+            }
+            else {outputfile = config.getString("OUTPUT") + ".txt";}
+            
+            return outputfile;
+            
+        }
+        
+        
     /**********************************************************************************************************************************************/
 }

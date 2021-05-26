@@ -175,7 +175,7 @@ public class GraphicsInteraction {
             Color c2=new Color(rgbvalues[0],rgbvalues[1],rgbvalues[2],255);                                       /* Text color */
        
         
-        if (g2d.getFontMetrics().stringWidth(text) > ((width*6)/7)){    
+        if (g2d.getFontMetrics().stringWidth(text) > ((width*6)/7)){                                /* If text takes too much space, icon in front */
             
             g2d.setColor(c); 
             g2d.drawRect(0,0,height,height);                                                  
@@ -186,7 +186,7 @@ public class GraphicsInteraction {
         
         }
         
-        else {
+        else {                                                                                      /* Most common case */
             
             g2d.setColor(c); 
             int x = (width/2)-(g2d.getFontMetrics().stringWidth(text)/2) - ((height*11)/10);
@@ -375,6 +375,8 @@ public class GraphicsInteraction {
         return bi;
     }
     
+    /* Icons primarily from https://www.flaticon.com */
+    
     /**********************************************************************************************************************************************/
     
     static int[] setRGBValues(int[] rgbvalues, JSAPResult config, String type){                   /* Setting RGB Values for Texture text and background */ switch (type) {
@@ -440,6 +442,7 @@ public class GraphicsInteraction {
                     break;
                 }
                 catch (ArrayIndexOutOfBoundsException ar){
+                    /* In case there aren't enough arguments for --ct or --cb */
                     System.out.println("\n\nText color and background color require three arguments, check if they are added the right way (--ct:100,100,100)\n");
                     System.exit(1);
                 }
