@@ -518,6 +518,7 @@ public class ParseJSONAll {
                     jsn = jsn.replace("Target","");
                     System.out.println("TEXTURES: ./3DSP-POIOSM2fS-" + jsn);
                     System.out.println("TEXTURE_WIDTH: " + config.getInt("TEXTURE_WIDTH"));
+                    System.out.println("TEXTURE_FONT: " + config.getString("TEXTURE_FONT"));
                 }
                 System.out.println("");
             

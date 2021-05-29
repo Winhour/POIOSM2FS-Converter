@@ -1,359 +1,359 @@
-<LandmarkLocation instanceId="{EB50A912-927A-406A-9309-55CAD20729FF}" type="POI" name="Peak: Kocadağ 1011 m" owner="3DSpotters" lat="36.7308333" lon="27.5816667" alt="119.7"/> 
-<LandmarkLocation instanceId="{4204EBF7-7B7A-4F74-9CF1-CBBF7230864F}" type="POI" name="Peak: Προφήτης Ηλίας 676 m" owner="3DSpotters" lat="36.9803001" lon="26.9734579" alt="114.45"/> 
-<LandmarkLocation instanceId="{41A87B56-FBDD-4291-A621-A03941240AAF}" type="POI" name="Peak: Dikaios 846 m" owner="3DSpotters" lat="36.8343565" lon="27.2070099" alt="87.15"/> 
-<LandmarkLocation instanceId="{FF4BF401-F450-4E82-8A51-79FC07D0AAE2}" type="POI" name="City: Kos" owner="3DSpotters" lat="36.8940286" lon="27.2866636" alt="149.94"/> 
-<LandmarkLocation instanceId="{F9895F16-D27C-42CA-AA2B-B26E95E30A44}" type="POI" name="Suburb: Akyarlar" owner="3DSpotters" lat="36.9682263" lon="27.2910264" alt="75.6"/> 
-<LandmarkLocation instanceId="{20A5C12F-30C9-473F-9302-F1E2C1D1F233}" type="POI" name="Town: Bodrum" owner="3DSpotters" lat="37.0395208" lon="27.4333947" alt="119.7"/> 
-<LandmarkLocation instanceId="{212DB15C-540F-4364-9E2B-96D3D84BED7B}" type="POI" name="Suburb: İslamhaneleri" owner="3DSpotters" lat="37.0298486" lon="27.2963995" alt="82.95"/> 
-<LandmarkLocation instanceId="{1F4738C7-41A6-47C4-A06E-5B1EDCA24D10}" type="POI" name="Suburb: Gürece" owner="3DSpotters" lat="37.0390573" lon="27.3213427" alt="113.4"/> 
-<LandmarkLocation instanceId="{276578F2-634D-4EBF-9116-74D01EB6C4AD}" type="POI" name="Suburb: Yahşi" owner="3DSpotters" lat="37.0429292" lon="27.3309933" alt="120.75"/> 
-<LandmarkLocation instanceId="{5427FF28-6A70-4BCD-A33A-3F849529DBD3}" type="POI" name="Ruins: Myndos" owner="3DSpotters" lat="37.0531492" lon="27.2335586" alt="77.0"/> 
-<LandmarkLocation instanceId="{D732ED63-C1E7-413D-94A7-4AA11C8FBAEB}" type="POI" name="Suburb: Türkbükü" owner="3DSpotters" lat="37.1274925" lon="27.3775897" alt="117.6"/> 
-<LandmarkLocation instanceId="{5BED33CA-D74F-4614-AEFB-31B7BFDE0F48}" type="POI" name="Village: Kardamena" owner="3DSpotters" lat="36.7823944" lon="27.1432793" alt="126.0"/> 
-<LandmarkLocation instanceId="{D51A0120-64BA-4523-9492-8A21E65D2600}" type="POI" name="Town: Antimachia" owner="3DSpotters" lat="36.8112916" lon="27.0974999" alt="158.76"/> 
-<LandmarkLocation instanceId="{9BDD8687-6C49-4B65-8873-E33C2562884A}" type="POI" name="Town: Pyli" owner="3DSpotters" lat="36.8460617" lon="27.1603596" alt="112.14"/> 
-<LandmarkLocation instanceId="{95E58EA9-0649-4228-BF32-D8E303148B25}" type="POI" name="Village: Lambi" owner="3DSpotters" lat="36.9092273" lon="27.2797512" alt="107.1"/> 
-<LandmarkLocation instanceId="{D22AFCE6-D633-4109-A736-1E1AA6232804}" type="POI" name="Village: Tigaki" owner="3DSpotters" lat="36.8885738" lon="27.1831601" alt="118.65"/> 
-<LandmarkLocation instanceId="{F5F0593A-5F61-4616-8F8B-CD7697A670F5}" type="POI" name="Village: Mastichari" owner="3DSpotters" lat="36.8493151" lon="27.076418" alt="126.0"/> 
-<LandmarkLocation instanceId="{91740C50-0FFB-42D9-9987-E13B827C4986}" type="POI" name="Village: Marmari" owner="3DSpotters" lat="36.8749748" lon="27.1475591" alt="116.55"/> 
-<LandmarkLocation instanceId="{4E7431B2-B509-4158-BFDF-014F0B83B3D8}" type="POI" name="Town: Kefalos" owner="3DSpotters" lat="36.7450362" lon="26.959407" alt="90.72"/> 
-<LandmarkLocation instanceId="{FD1C50DB-5524-4E25-B175-A7B44D7FAF0D}" type="POI" name="Ruins: Temple of Mars" owner="3DSpotters" lat="37.0400289" lon="27.4273766" alt="64.4"/> 
-<LandmarkLocation instanceId="{786D64D8-F279-4A9A-886E-D19798FCDAFE}" type="POI" name="Town: Agia Marina" owner="3DSpotters" lat="37.1565812" lon="26.8517541" alt="93.24000000000001"/> 
-<LandmarkLocation instanceId="{366AB65A-514A-47AF-ADAE-DF0EB0DECE79}" type="POI" name="Village: Lakki" owner="3DSpotters" lat="37.13318" lon="26.8532146" alt="99.75"/> 
-<LandmarkLocation instanceId="{526C9911-E5B1-4EA6-9108-6B3F5E116C49}" type="POI" name="Village: Myrties" owner="3DSpotters" lat="36.9913489" lon="26.9330764" alt="114.45"/> 
-<LandmarkLocation instanceId="{83AA49C9-45FA-4EEF-961E-F9C2B1467131}" type="POI" name="Village: Masouri" owner="3DSpotters" lat="36.9957856" lon="26.9360564" alt="82.95"/> 
-<LandmarkLocation instanceId="{4899D22F-8CA0-4673-A013-25771E0D274C}" type="POI" name="Village: Arginonta" owner="3DSpotters" lat="37.015072" lon="26.9692137" alt="136.5"/> 
-<LandmarkLocation instanceId="{E49B21F8-917B-4472-98A0-5A4E76A977FC}" type="POI" name="Village: Emporios" owner="3DSpotters" lat="37.0470431" lon="26.9295755" alt="122.85"/> 
-<LandmarkLocation instanceId="{34DAAC86-0BF6-4237-9120-831261D867E1}" type="POI" name="Village: Vromolithos" owner="3DSpotters" lat="37.1455384" lon="26.8572598" alt="123.9"/> 
-<LandmarkLocation instanceId="{299715AF-2387-4ED2-ADB1-5034D1AC6BB3}" type="POI" name="Attraction: Amphitheatre" owner="3DSpotters" lat="37.0340153" lon="27.2509421" alt="72.8"/> 
-<LandmarkLocation instanceId="{E92D6294-0609-4CF8-852C-5890238EF341}" type="POI" name="Suburb: Gölköy" owner="3DSpotters" lat="37.1162307" lon="27.3838343" alt="133.35"/> 
-<LandmarkLocation instanceId="{29B05EDC-8784-40A0-9743-BB235D44AE49}" type="POI" name="Spring: Empros Thermi" owner="3DSpotters" lat="36.8448332" lon="27.3165645" alt="55.3"/> 
-<LandmarkLocation instanceId="{E03A0BD6-D6CA-4F74-94FF-E54F9DCC9972}" type="POI" name="Village: Πάνορμος" owner="3DSpotters" lat="36.9762741" lon="26.9369239" alt="111.3"/> 
-<LandmarkLocation instanceId="{D9ABB4A2-5625-42EF-8D19-EB638280214E}" type="POI" name="Town: Chorio" owner="3DSpotters" lat="36.9639291" lon="26.9592627" alt="97.02"/> 
-<LandmarkLocation instanceId="{B1920D00-98E9-4816-89D9-1DC485C9620B}" type="POI" name="Village: Argos" owner="3DSpotters" lat="36.9576594" lon="26.9448587" alt="81.9"/> 
-<LandmarkLocation instanceId="{8A300511-B6D4-4206-B4F0-B29E3869A171}" type="POI" name="Castle: Chrysocheria Castle" owner="3DSpotters" lat="36.9548608" lon="26.9699945" alt="73.5"/> 
-<LandmarkLocation instanceId="{5C6D0CEB-7DE5-4EB5-A42E-5A74C7F1F86A}" type="POI" name="Village: Vothyni" owner="3DSpotters" lat="36.9410489" lon="26.9675216" alt="110.25"/> 
-<LandmarkLocation instanceId="{9469DE37-2903-4EF4-A6E5-B56C5C3E6A86}" type="POI" name="Peak: Ράχη 457 m" owner="3DSpotters" lat="37.0077615" lon="26.9103677" alt="86.1"/> 
-<LandmarkLocation instanceId="{23BB09A3-65AA-4CD0-867D-F1D3155A806E}" type="POI" name="Ruins: Old Byzantine settlement" owner="3DSpotters" lat="37.0123674" lon="26.912061" alt="63.7"/> 
-<LandmarkLocation instanceId="{44EC858A-1BD5-4BD5-89B1-9183D4933572}" type="POI" name="Ruins: Basilika of palaiopanayia" owner="3DSpotters" lat="36.999244" lon="26.9219217" alt="60.2"/> 
-<LandmarkLocation instanceId="{D3855170-5E60-4D1A-A104-D32BD8222FA0}" type="POI" name="Temple: Κοίμηση της Θεοτόκου" owner="3DSpotters" lat="36.995683" lon="26.9195404" alt="58.8"/> 
-<LandmarkLocation instanceId="{3D0BE0CB-966E-4BB9-B76C-24C0336FB30F}" type="POI" name="Temple: Agios Mamas" owner="3DSpotters" lat="36.6782245" lon="26.9675559" alt="59.5"/> 
-<LandmarkLocation instanceId="{6171C5F0-CA29-4BE1-89F0-55DA747A5F82}" type="POI" name="Fountain: Pili Fountain" owner="3DSpotters" lat="36.8420379" lon="27.1554993" alt="58.1"/> 
-<LandmarkLocation instanceId="{BA376C55-747C-47CA-A2EE-563C0A2E8F4B}" type="POI" name="Attraction: Geological Excavation" owner="3DSpotters" lat="36.7842439" lon="27.1296548" alt="79.1"/> 
-<LandmarkLocation instanceId="{2B5AE4AE-6C4C-4E78-8438-8C6EC2884085}" type="POI" name="Tree: Plane tree of Hippocrates" owner="3DSpotters" lat="36.8947582" lon="27.2909514" alt="61.6"/> 
-<LandmarkLocation instanceId="{F5BA509A-7773-4A6C-ADA1-321DAAD00BA5}" type="POI" name="Village: Zia" owner="3DSpotters" lat="36.8458412" lon="27.2046716" alt="105.0"/> 
-<LandmarkLocation instanceId="{828636CC-486C-45B4-A40D-FA6E93AE6C00}" type="POI" name="Archeo: Grave of Charmylos" owner="3DSpotters" lat="36.8424165" lon="27.1620073" alt="68.6"/> 
-<LandmarkLocation instanceId="{3DBF6CCC-6856-4FDB-B9E4-8BF174848DFE}" type="POI" name="Village: Lagoudi" owner="3DSpotters" lat="36.8493237" lon="27.2000769" alt="116.55"/> 
-<LandmarkLocation instanceId="{DAA63565-7DC7-4415-9E9E-D6D9D56A2EBF}" type="POI" name="Village: Amaniou" owner="3DSpotters" lat="36.8458984" lon="27.1745119" alt="127.05"/> 
-<LandmarkLocation instanceId="{7F8904F6-FF72-4875-B20D-B42EA9B77BB6}" type="POI" name="Suburb: Ampavris" owner="3DSpotters" lat="36.884872" lon="27.2846402" alt="91.35"/> 
-<LandmarkLocation instanceId="{25C19774-43A6-4FCC-BC78-A1083F83611B}" type="POI" name="Town: Zipari" owner="3DSpotters" lat="36.876298" lon="27.2051213" alt="163.8"/> 
-<LandmarkLocation instanceId="{C1A73685-8187-4E60-A62A-82655CA6D340}" type="POI" name="Ruins: Early Christian Basilica" owner="3DSpotters" lat="36.8719213" lon="27.2058869" alt="56.7"/> 
-<LandmarkLocation instanceId="{B56FF68D-A2A7-4E1B-A42B-00F8910C8DCB}" type="POI" name="Town: Datça" owner="3DSpotters" lat="36.7263403" lon="27.6873855" alt="128.52"/> 
-<LandmarkLocation instanceId="{8D266F3F-1CC0-492F-A59F-0BACDE7A1A74}" type="POI" name="Ferry_terminal: Kos - Santorini - Symi" owner="3DSpotters" lat="37.0320986" lon="27.4267305" alt="80.5"/> 
-<LandmarkLocation instanceId="{084AA7FA-4B4F-4E2B-988D-C649B6C6AA88}" type="POI" name="Ferry_terminal: Κως" owner="3DSpotters" lat="36.8985594" lon="27.2904502" alt="75.6"/> 
-<LandmarkLocation instanceId="{FFA2C9F1-426F-4CD3-9A35-FA01B4BDC766}" type="POI" name="Archeo: Παλιό Πύλι" owner="3DSpotters" lat="36.8382871" lon="27.1873546" alt="65.8"/> 
-<LandmarkLocation instanceId="{63AE44AD-EAD2-4ABA-8284-C6705161CD22}" type="POI" name="Ruins: Myndos" owner="3DSpotters" lat="37.0586179" lon="27.2288193" alt="50.4"/> 
-<LandmarkLocation instanceId="{13062117-7D29-420F-BE3F-53417456C240}" type="POI" name="Peak: Kefala 662 m" owner="3DSpotters" lat="36.8434033" lon="27.2424959" alt="136.5"/> 
-<LandmarkLocation instanceId="{0FD424B4-8357-4830-8B6A-EA0FE2440A3A}" type="POI" name="Beach: Movenpick Plaj" owner="3DSpotters" lat="37.0227537" lon="27.3718357" alt="55.3"/> 
-<LandmarkLocation instanceId="{70EDE01E-C2D7-49B1-A61A-1A8A35EE7C71}" type="POI" name="Beach: D Plaji" owner="3DSpotters" lat="37.0224453" lon="27.3714066" alt="88.2"/> 
-<LandmarkLocation instanceId="{0422D766-D573-4679-9A66-EE2ECEF37219}" type="POI" name="Ruins: Pedasa Castle" owner="3DSpotters" lat="37.0663607" lon="27.4222616" alt="49.7"/> 
-<LandmarkLocation instanceId="{731302A2-6F1F-4264-BE19-B1A3EBBA7118}" type="POI" name="Ruins: Akropolis" owner="3DSpotters" lat="37.0679007" lon="27.4219277" alt="74.2"/> 
-<LandmarkLocation instanceId="{2994E3E2-60E1-479A-AF2F-0196AE763D29}" type="POI" name="Ruins: Tower" owner="3DSpotters" lat="37.0680276" lon="27.4225615" alt="81.9"/> 
-<LandmarkLocation instanceId="{E99AEA4C-9ACD-4277-B0B5-06A35781CBF9}" type="POI" name="Archeo: Pedasa Visitor Center" owner="3DSpotters" lat="37.0662978" lon="27.4225501" alt="89.6"/> 
-<LandmarkLocation instanceId="{E024BA79-E360-461C-AFC0-DF423ED64500}" type="POI" name="Ruins: Pedasa Castle" owner="3DSpotters" lat="37.0662157" lon="27.4186136" alt="60.9"/> 
-<LandmarkLocation instanceId="{DFE187A1-B0E5-4200-B201-27DD05C89650}" type="POI" name="Ruins: Kastelli" owner="3DSpotters" lat="36.7112923" lon="26.966104" alt="78.4"/> 
-<LandmarkLocation instanceId="{5512123E-E85A-4C6C-9B22-FAC64C2B52EF}" type="POI" name="LGKY: Kalymnos Island National Airport 235 m" owner="3DSpotters" lat="36.9634406" lon="26.9407219" alt="56.7"/> 
-<LandmarkLocation instanceId="{400F7FB4-7567-4C6E-8CF7-1ADCBAD8C82C}" type="POI" name="Peak: Mt. Zini 362 m" owner="3DSpotters" lat="36.7235025" lon="26.9739771" alt="90.3"/> 
-<LandmarkLocation instanceId="{5B486C4B-BFE7-4A60-84A8-F7387D619943}" type="POI" name="Peak: Latra 426 m" owner="3DSpotters" lat="36.7029358" lon="26.955554" alt="87.15"/> 
-<LandmarkLocation instanceId="{E6408AD2-B581-4563-B19A-956348820778}" type="POI" name="Peak: Σύμπετρο 482 m" owner="3DSpotters" lat="36.8580121" lon="27.3180448" alt="75.6"/> 
-<LandmarkLocation instanceId="{2D1C552E-C400-4D0B-A5B1-BC4A39EFFF5B}" type="POI" name="Suburb: Datça Mahallesi" owner="3DSpotters" lat="36.7391152" lon="27.6649668" alt="130.2"/> 
-<LandmarkLocation instanceId="{A0D7C98F-ADFB-4F6B-9362-E46FECDC0506}" type="POI" name="Village: Sındı" owner="3DSpotters" lat="36.7112972" lon="27.512195" alt="74.55"/> 
-<LandmarkLocation instanceId="{B05FA307-ADF9-4444-B834-45D6173CECAA}" type="POI" name="Village: Yazı" owner="3DSpotters" lat="36.6948672" lon="27.4475489" alt="99.75"/> 
-<LandmarkLocation instanceId="{831CB1FA-7E92-4674-97CD-F1E68F9D9214}" type="POI" name="Village: Hızırşah" owner="3DSpotters" lat="36.7394712" lon="27.6497775" alt="74.55"/> 
-<LandmarkLocation instanceId="{4FAF8681-EDB4-4B09-8696-00795D7846EE}" type="POI" name="Village: Gökpınar" owner="3DSpotters" lat="37.095623" lon="27.730011" alt="102.9"/> 
-<LandmarkLocation instanceId="{851AF47E-0F81-42F4-8EF7-5AA6378D66D0}" type="POI" name="Village: Meşelik" owner="3DSpotters" lat="37.148491" lon="27.595636" alt="122.85"/> 
-<LandmarkLocation instanceId="{25D27783-1A5E-4B71-8A32-3C7B192B5FF7}" type="POI" name="Village: Sazköy" owner="3DSpotters" lat="37.098144" lon="27.609587" alt="81.9"/> 
-<LandmarkLocation instanceId="{98AF94A9-AF29-48F6-95A1-90A39952C69A}" type="POI" name="Village: Çamlık" owner="3DSpotters" lat="37.068954" lon="27.537233" alt="76.65"/> 
-<LandmarkLocation instanceId="{0B55F9B2-B41F-41EC-B3A6-745E398466D4}" type="POI" name="Village: Asfendiou" owner="3DSpotters" lat="36.8528887" lon="27.2112808" alt="128.1"/> 
-<LandmarkLocation instanceId="{FCBAAD53-DEF5-46F3-B62A-00630C1571DB}" type="POI" name="Village: Kamari" owner="3DSpotters" lat="36.7395355" lon="26.9691568" alt="100.8"/> 
-<LandmarkLocation instanceId="{4A512B0C-CDDF-4D38-AB29-89CB977ACD03}" type="POI" name="Village: Pserimos" owner="3DSpotters" lat="36.93235" lon="27.1344889" alt="73.5"/> 
-<LandmarkLocation instanceId="{DA93B543-F2D7-4099-B039-A6E487185A15}" type="POI" name="Village: Vathys" owner="3DSpotters" lat="36.9754861" lon="27.0256852" alt="99.75"/> 
-<LandmarkLocation instanceId="{397EACAD-FE51-4242-8744-DB29A9867EC8}" type="POI" name="Village: Vlychadia" owner="3DSpotters" lat="36.9325701" lon="26.9653138" alt="75.6"/> 
-<LandmarkLocation instanceId="{CE190E38-9173-493D-9B06-950079D3DE7A}" type="POI" name="Town: Kalymnos" owner="3DSpotters" lat="36.9515787" lon="26.9820732" alt="141.12"/> 
-<LandmarkLocation instanceId="{CB0EC220-D19B-4546-8D69-54AB976B4CBC}" type="POI" name="Village: Telendos" owner="3DSpotters" lat="36.9984265" lon="26.9211898" alt="80.85"/> 
-<LandmarkLocation instanceId="{13B74395-BA75-4C28-A5EE-E7FB0CE49464}" type="POI" name="Village: Alinda" owner="3DSpotters" lat="37.1635294" lon="26.8345615" alt="73.5"/> 
-<LandmarkLocation instanceId="{EFB447BF-0639-4B07-BA2F-B1DCB2C3D250}" type="POI" name="Village: Gourna" owner="3DSpotters" lat="37.1529103" lon="26.8330172" alt="98.7"/> 
-<LandmarkLocation instanceId="{FAB87F4D-526C-4DBF-AB21-97FDBC0A3E3E}" type="POI" name="Village: Drymonas" owner="3DSpotters" lat="37.1430083" lon="26.8269136" alt="99.75"/> 
-<LandmarkLocation instanceId="{86396EE9-8A4D-461E-BD44-0C7AB1A72305}" type="POI" name="Village: Kamara" owner="3DSpotters" lat="37.1616081" lon="26.8212038" alt="111.3"/> 
-<LandmarkLocation instanceId="{BD832D47-C689-4737-9B21-B269C136B78A}" type="POI" name="Village: Xirokampos" owner="3DSpotters" lat="37.1103882" lon="26.8681794" alt="119.7"/> 
-<LandmarkLocation instanceId="{6DEE2B79-A16D-4BF3-83F7-4FEFAC10E50B}" type="POI" name="Village: Temenia" owner="3DSpotters" lat="37.1277026" lon="26.8623383" alt="128.1"/> 
-<LandmarkLocation instanceId="{60874F41-5A1D-48BE-AE3D-96CC10562DB1}" type="POI" name="Peak: Kara Dağ 712 m" owner="3DSpotters" lat="36.7136527" lon="27.6368319" alt="134.4"/> 
-<LandmarkLocation instanceId="{B313676B-C05C-413E-96E5-95C741FBE9DB}" type="POI" name="Peak: Flag Hill 180 m" owner="3DSpotters" lat="36.9916278" lon="27.2648467" alt="133.35"/> 
-<LandmarkLocation instanceId="{C5845340-FACB-427E-84B8-E10C447E38E5}" type="POI" name="Peak: Çilekdağı 379 m" owner="3DSpotters" lat="37.0614085" lon="27.3095376" alt="112.35"/> 
-<LandmarkLocation instanceId="{3E50EDBB-2B1B-4FCB-8252-F123E72DAECB}" type="POI" name="Village: Pınarlıbelen" owner="3DSpotters" lat="37.077473" lon="27.599711" alt="109.2"/> 
-<LandmarkLocation instanceId="{94F4920A-A00B-4960-BAB9-16BCA387530E}" type="POI" name="Village: Platani" owner="3DSpotters" lat="36.8825518" lon="27.26984" alt="94.5"/> 
-<LandmarkLocation instanceId="{11C35027-0370-4359-8E6A-7110E49ED751}" type="POI" name="Village: Giapili" owner="3DSpotters" lat="36.8722927" lon="27.2968077" alt="128.1"/> 
-<LandmarkLocation instanceId="{A412A8A5-EBC0-4CDD-A6E9-D700099B2314}" type="POI" name="Village: Paradisi" owner="3DSpotters" lat="36.8791042" lon="27.3142229" alt="110.25"/> 
-<LandmarkLocation instanceId="{4F295107-AC3E-45DC-A028-2F0229576D8F}" type="POI" name="Ruins: Old Greek Church" owner="3DSpotters" lat="37.0323414" lon="27.3744542" alt="73.5"/> 
-<LandmarkLocation instanceId="{CF8177BE-7AD4-42E0-8F96-8034869E73A9}" type="POI" name="Peak: Koca Dağı 474 m" owner="3DSpotters" lat="37.0150805" lon="27.5297844" alt="126.0"/> 
-<LandmarkLocation instanceId="{A499ED7B-120B-4F55-A8B8-C2CE3F4F284A}" type="POI" name="Peak: Bulgar Dağı 608 m" owner="3DSpotters" lat="37.0640238" lon="27.7137495" alt="122.85"/> 
-<LandmarkLocation instanceId="{1DC90601-B993-4EA1-8D79-229CEB2378EB}" type="POI" name="Peak: Gavur Dağı 585 m" owner="3DSpotters" lat="37.0484429" lon="27.6429213" alt="124.95"/> 
-<LandmarkLocation instanceId="{ED828823-61E2-4AB4-A152-7A3C347040EC}" type="POI" name="Peak: Kuşça Dağı 522 m" owner="3DSpotters" lat="37.0412576" lon="27.6033495" alt="75.6"/> 
-<LandmarkLocation instanceId="{021F3E9B-80E8-4AB1-8265-2564FA12BEDA}" type="POI" name="Peak: Yalı Dağı 308 m" owner="3DSpotters" lat="36.9925736" lon="27.5538196" alt="98.7"/> 
-<LandmarkLocation instanceId="{4CCD4C97-0D7E-46DE-AB2C-7C1877B67785}" type="POI" name="Peak: Bayrak Tepesi 61 m" owner="3DSpotters" lat="37.0547545" lon="27.2300486" alt="110.25"/> 
-<LandmarkLocation instanceId="{5E03C9B1-87C1-4030-B14D-AB6EDCE27D56}" type="POI" name="Village: Dağbelen" owner="3DSpotters" lat="37.086887" lon="27.3420897" alt="128.1"/> 
-<LandmarkLocation instanceId="{6CACE99E-ACFC-45E5-9ED8-F0B4104C847E}" type="POI" name="Archeo: Knidos" owner="3DSpotters" lat="36.7355973" lon="27.6993785" alt="75.6"/> 
-<LandmarkLocation instanceId="{C0194944-6353-4C99-8074-0C6F26835D2E}" type="POI" name="Archeo: Ancient Stadium" owner="3DSpotters" lat="36.8935185" lon="27.2853841" alt="88.9"/> 
-<LandmarkLocation instanceId="{ACBC18A9-0014-44EF-8BCF-1375FEFF2979}" type="POI" name="Archeo: Altar of Dionisus" owner="3DSpotters" lat="36.8908352" lon="27.2896896" alt="77.0"/> 
-<LandmarkLocation instanceId="{03E76163-99E1-4BC3-9962-9EDBD7D26360}" type="POI" name="Ferry_terminal: Κάλυμνος" owner="3DSpotters" lat="36.9486956" lon="26.9872845" alt="51.8"/> 
-<LandmarkLocation instanceId="{B8E13294-7949-4007-8445-185FE7B95083}" type="POI" name="Chapel: Ágios Isídoros" owner="3DSpotters" lat="37.1535663" lon="26.8142252" alt="56.7"/> 
-<LandmarkLocation instanceId="{D4668FA3-5347-457F-AED3-164496D70CAB}" type="POI" name="Ferry_terminal: Kos" owner="3DSpotters" lat="36.8979356" lon="27.2883859" alt="56.7"/> 
-<LandmarkLocation instanceId="{3A1B337B-3CB8-48CB-AED2-99E1EF10ACEB}" type="POI" name="Ferry_terminal: Leros" owner="3DSpotters" lat="37.1278106" lon="26.8495505" alt="69.3"/> 
-<LandmarkLocation instanceId="{2EC5953F-6BD9-4BD4-BF97-8ED9C5095180}" type="POI" name="Chapel: Panaghia Eleousa" owner="3DSpotters" lat="37.1638853" lon="26.8115781" alt="90.3"/> 
-<LandmarkLocation instanceId="{045F3FF2-126D-4BE6-969E-51C7ADE7CD8E}" type="POI" name="Chapel: Aghios Petros" owner="3DSpotters" lat="37.1371193" lon="26.8229353" alt="55.3"/> 
-<LandmarkLocation instanceId="{82213A98-188B-4617-920C-EB8C0D8E401B}" type="POI" name="Chapel: Prophitis Ilias" owner="3DSpotters" lat="37.1346287" lon="26.8285308" alt="55.3"/> 
-<LandmarkLocation instanceId="{535AFB7B-0C29-4501-B6C9-220A94501E44}" type="POI" name="Chapel: Aghios Raphael" owner="3DSpotters" lat="37.1346413" lon="26.8304024" alt="79.8"/> 
-<LandmarkLocation instanceId="{39D109B2-8CBF-48BE-BEAB-3345138FDF53}" type="POI" name="Chapel: Aghios Gerghios" owner="3DSpotters" lat="37.1421731" lon="26.8216358" alt="75.6"/> 
-<LandmarkLocation instanceId="{1559E027-11BF-4ED9-A2A0-A70575996B9E}" type="POI" name="Chapel: Aghios Spyiridhonas" owner="3DSpotters" lat="37.1247631" lon="26.8323155" alt="86.8"/> 
-<LandmarkLocation instanceId="{F73F3307-E6E3-4328-A1E9-DCE777FD571D}" type="POI" name="Archeo: Old Hellenic theatre" owner="3DSpotters" lat="36.7306311" lon="26.9564178" alt="90.3"/> 
-<LandmarkLocation instanceId="{C5D3902E-C9FC-457F-9D6D-B6F80B4EBA4B}" type="POI" name="Ruins: Rock Tombs" owner="3DSpotters" lat="37.1277063" lon="27.2815195" alt="55.3"/> 
-<LandmarkLocation instanceId="{DF0B0166-72FE-4FB2-854C-9820B94B7BE8}" type="POI" name="Ruins: Ruinen - Geisterstadt" owner="3DSpotters" lat="36.8536762" lon="27.2282242" alt="58.1"/> 
-<LandmarkLocation instanceId="{A8D3BE75-E615-4CB2-B436-5F3A81266FC6}" type="POI" name="Castle: Castle of Kefalos" owner="3DSpotters" lat="36.7444561" lon="26.9625864" alt="53.9"/> 
-<LandmarkLocation instanceId="{3DD01717-FF2E-48DD-8379-0CC5E9DB1078}" type="POI" name="Ruins: Old Agios Mamas" owner="3DSpotters" lat="36.6782625" lon="26.9672146" alt="80.5"/> 
-<LandmarkLocation instanceId="{45EF48D9-7FBD-4DD7-A614-D1C4CD03FF0F}" type="POI" name="Castle: Palio Pyli Castle" owner="3DSpotters" lat="36.8391428" lon="27.1866745" alt="81.9"/> 
-<LandmarkLocation instanceId="{BEAB34B8-1F49-4AF8-B21E-1402DA080BDB}" type="POI" name="Attraction: Kasteli Climbing Sector" owner="3DSpotters" lat="37.0171715" lon="26.9391001" alt="56.7"/> 
-<LandmarkLocation instanceId="{6BDF95D2-2941-447B-8E4C-435C4F6D53F2}" type="POI" name="Attraction: Kos Natural Park of Zia" owner="3DSpotters" lat="36.847172" lon="27.2071876" alt="52.5"/> 
-<LandmarkLocation instanceId="{3483A3D9-FCF7-4F09-82CE-18E82D8F6BFD}" type="POI" name="Ruins: Chapel" owner="3DSpotters" lat="36.7008418" lon="27.6730075" alt="81.9"/> 
-<LandmarkLocation instanceId="{7E3C6AC5-9C5B-476C-80F0-D6DD04FEC90F}" type="POI" name="Monument: Yener" owner="3DSpotters" lat="36.7286168" lon="27.6868516" alt="70.7"/> 
-<LandmarkLocation instanceId="{C5AE3EB9-7BDD-4246-BD25-4F29C1B816E2}" type="POI" name="Temple: AGIOI PANTES" owner="3DSpotters" lat="36.8811541" lon="27.314801" alt="87.5"/> 
-<LandmarkLocation instanceId="{93C2B5FB-5C98-41F0-BADC-8522D19D829E}" type="POI" name="Monument: Monument of 'Poseidon'" owner="3DSpotters" lat="36.8503569" lon="27.0761109" alt="56.0"/> 
-<LandmarkLocation instanceId="{D49DE571-4414-48E2-AC6C-3B152CF31CF4}" type="POI" name="Ruins: Alakilise" owner="3DSpotters" lat="36.9989699" lon="27.6493869" alt="61.6"/> 
-<LandmarkLocation instanceId="{12904F16-FA29-4ECD-8DD6-CFCBE14573D7}" type="POI" name="Attraction: War Museum" owner="3DSpotters" lat="37.1273443" lon="26.8396302" alt="87.5"/> 
-<LandmarkLocation instanceId="{46D9818E-F7B7-4276-8904-BC894201CA36}" type="POI" name="Castle: Bunker" owner="3DSpotters" lat="36.8761905" lon="27.1396054" alt="72.8"/> 
-<LandmarkLocation instanceId="{B5FDAAD4-94A1-46A2-91EC-EC5D5B26EACE}" type="POI" name="Castle: Bunker" owner="3DSpotters" lat="36.8759572" lon="27.1392969" alt="52.5"/> 
-<LandmarkLocation instanceId="{28BF93C4-F7F9-4348-86DB-701D1F4B8FD1}" type="POI" name="Castle: Bunker" owner="3DSpotters" lat="36.8790558" lon="27.1431683" alt="66.5"/> 
-<LandmarkLocation instanceId="{0272735F-B240-4855-815F-7B5C362DF15E}" type="POI" name="Castle: Bunker Reste?" owner="3DSpotters" lat="36.8745757" lon="27.1370592" alt="67.2"/> 
-<LandmarkLocation instanceId="{4270036F-E0DC-43E1-B65A-CC73DB5476ED}" type="POI" name="Castle: Bunker (Unterstand)" owner="3DSpotters" lat="36.8741049" lon="27.1365708" alt="77.7"/> 
-<LandmarkLocation instanceId="{4B74EEF7-293B-441D-889B-19799131719E}" type="POI" name="Ruins: Agios Ioannis - Early Christian Basilica" owner="3DSpotters" lat="36.9860751" lon="26.9312044" alt="81.9"/> 
-<LandmarkLocation instanceId="{86683A19-39D4-48BD-A815-7FCBB176AA8F}" type="POI" name="Ruins: Christos tis Ierusalem (Early Christian Basilika)" owner="3DSpotters" lat="36.9654482" lon="26.9502826" alt="51.8"/> 
-<LandmarkLocation instanceId="{0EA90A18-0716-42BC-BF9C-680EB5086239}" type="POI" name="Island: Πράσο" owner="3DSpotters" lat="36.7747543" lon="26.9649503" alt="112.14"/> 
-<LandmarkLocation instanceId="{0B4CC86A-C71B-476B-9DA8-B5049FA1523E}" type="POI" name="Attraction: ŞEVKET SABACI  CULTUR CENTER" owner="3DSpotters" lat="37.0008761" lon="27.2600334" alt="79.1"/> 
-<LandmarkLocation instanceId="{8E26A0C3-13B5-4DA8-A2D5-458CA88FCC4E}" type="POI" name="Attraction: D - MARİN  TURGUTREİS  MARİNA" owner="3DSpotters" lat="37.0009779" lon="27.2586459" alt="77.0"/> 
-<LandmarkLocation instanceId="{BABADDEC-BE10-4D98-8A6A-E457AEE6F5C8}" type="POI" name="Attraction: Świnna beach" owner="3DSpotters" lat="36.7329986" lon="27.6985779" alt="56.0"/> 
-<LandmarkLocation instanceId="{EC581874-FFDC-47FE-9A96-FAD0F304A0FD}" type="POI" name="Attraction: ŞEVKET SABANCI PARKI" owner="3DSpotters" lat="36.9954292" lon="27.25821" alt="51.8"/> 
-<LandmarkLocation instanceId="{464DF744-C665-4ABC-BD6F-42C676D3E92A}" type="POI" name="Ruins: Kastelli" owner="3DSpotters" lat="37.0167252" lon="26.9390478" alt="66.5"/> 
-<LandmarkLocation instanceId="{AA9B52A2-1137-460A-B594-5E30919FC3E1}" type="POI" name="Chapel: Agia Paraskevi" owner="3DSpotters" lat="36.9505919" lon="26.9755002" alt="53.2"/> 
-<LandmarkLocation instanceId="{392A22B5-3962-490C-8521-D8E14B4B9021}" type="POI" name="Chapel: Agia Anna" owner="3DSpotters" lat="36.950285" lon="26.9752264" alt="51.8"/> 
-<LandmarkLocation instanceId="{F7B16BDD-D9A4-46A4-8E0C-9E36C503914D}" type="POI" name="Chapel: Agios Paisios" owner="3DSpotters" lat="36.9572112" lon="26.9478209" alt="55.3"/> 
-<LandmarkLocation instanceId="{1A48F0F8-2510-4755-A7DE-5B74D4A8FE59}" type="POI" name="Attraction: Gebe Kilise" owner="3DSpotters" lat="37.0806166" lon="27.4467813" alt="84.0"/> 
-<LandmarkLocation instanceId="{542A4FEE-7F09-44AA-A82E-7A90CE22E2C2}" type="POI" name="Peak: 106m" owner="3DSpotters" lat="37.0618747" lon="27.0923361" alt="130.2"/> 
-<LandmarkLocation instanceId="{1E34FE57-67CD-4141-B0FF-6AFD37468E00}" type="POI" name="Attraction: Aquarium bay" owner="3DSpotters" lat="36.6893399" lon="27.6762416" alt="67.2"/> 
-<LandmarkLocation instanceId="{A36905A9-94BE-42DC-B8BF-0A782AFBF44D}" type="POI" name="Bus_station: Datça Otogarı" owner="3DSpotters" lat="36.7323957" lon="27.6819654" alt="60.9"/> 
-<LandmarkLocation instanceId="{8FBCBB50-2DD3-4E57-91F9-2D65807C3999}" type="POI" name="Attraction: Turquoise Diving Centre" owner="3DSpotters" lat="37.0289828" lon="27.4386" alt="68.6"/> 
-<LandmarkLocation instanceId="{F5445DCB-2471-456A-98C8-5559DDE3E581}" type="POI" name="Archeo: Early Christian Tomb" owner="3DSpotters" lat="36.9291911" lon="26.9835269" alt="57.4"/> 
-<LandmarkLocation instanceId="{B05465DF-5D30-4E43-9089-ABA2A981D20A}" type="POI" name="Ferry_terminal: Bodrum - Datça" owner="3DSpotters" lat="37.0362075" lon="27.4269396" alt="70.7"/> 
-<LandmarkLocation instanceId="{8626A515-6AD3-4C94-84A5-41161780734B}" type="POI" name="Attraction: AeroPhone - Listening Wall 2nd World War built by the Italians" owner="3DSpotters" lat="37.1261899" lon="26.8197863" alt="75.6"/> 
-<LandmarkLocation instanceId="{1BF1922E-CDE1-4FCF-96C0-1A152ED3BF12}" type="POI" name="Attraction: Old Bunker" owner="3DSpotters" lat="36.8992215" lon="27.2474878" alt="79.1"/> 
-<LandmarkLocation instanceId="{51F4CC29-8B62-4DD7-81B4-485F347030D2}" type="POI" name="Peak: 122 113 m" owner="3DSpotters" lat="36.9625825" lon="27.3020939" alt="113.4"/> 
-<LandmarkLocation instanceId="{78AFEAF1-936C-4614-B432-23E290CE3573}" type="POI" name="Peak: 125 128 m" owner="3DSpotters" lat="36.9653693" lon="27.3016543" alt="76.65"/> 
-<LandmarkLocation instanceId="{2DD17CEC-F2E5-438E-96CA-FF023303D011}" type="POI" name="Peak: 179 182 m" owner="3DSpotters" lat="37.0296441" lon="27.2616826" alt="110.25"/> 
-<LandmarkLocation instanceId="{B74515D0-7A0A-424A-AACE-D28302D284AC}" type="POI" name="Peak: 207 204 m" owner="3DSpotters" lat="37.0344993" lon="27.2589152" alt="107.1"/> 
-<LandmarkLocation instanceId="{01FCEBFF-71F9-426C-8196-AF9C46392FAE}" type="POI" name="Peak: 215 218 m" owner="3DSpotters" lat="37.0364779" lon="27.2594494" alt="124.95"/> 
-<LandmarkLocation instanceId="{0079D570-1F2B-4042-830E-60C7E5FA6A9F}" type="POI" name="Peak: 182 177 m" owner="3DSpotters" lat="36.9804661" lon="27.3173959" alt="73.5"/> 
-<LandmarkLocation instanceId="{462B2F48-4DF5-42FC-BDCD-C81CD6B676B1}" type="POI" name="Monument: Traditional House of Kefalos" owner="3DSpotters" lat="36.7692768" lon="27.0198958" alt="51.099999999999994"/> 
-<LandmarkLocation instanceId="{6935774E-0BA2-448D-9038-AD8576155536}" type="POI" name="Suburb: İskele Mahallesi" owner="3DSpotters" lat="36.7317539" lon="27.6848182" alt="87.15"/> 
-<LandmarkLocation instanceId="{ADE148F7-0ACB-432E-979C-B26DF463062C}" type="POI" name="Suburb: Çiftlik" owner="3DSpotters" lat="37.0122626" lon="27.5585315" alt="74.55"/> 
-<LandmarkLocation instanceId="{4D77514C-E9BE-4EB7-AF64-DD751C1C3A11}" type="POI" name="Suburb: Kızılağaç" owner="3DSpotters" lat="37.0338542" lon="27.4947955" alt="113.4"/> 
-<LandmarkLocation instanceId="{E65A59F5-68C8-4B5F-967C-EAB11D1012E6}" type="POI" name="Suburb: Gölbaşı" owner="3DSpotters" lat="37.1220668" lon="27.6564142" alt="96.6"/> 
-<LandmarkLocation instanceId="{976BB580-1FC1-4BCA-8D6E-35103EF5F3A2}" type="POI" name="Suburb: Karaova" owner="3DSpotters" lat="37.106779" lon="27.663798" alt="114.45"/> 
-<LandmarkLocation instanceId="{4FB965FF-817D-49F2-9870-0DC67EFF8DF9}" type="POI" name="Suburb: Mumcular" owner="3DSpotters" lat="37.1031894" lon="27.6665636" alt="112.35"/> 
-<LandmarkLocation instanceId="{5581AEBC-9583-4CD5-AD94-733D9262FCE1}" type="POI" name="Suburb: Bitez" owner="3DSpotters" lat="37.0437876" lon="27.3793754" alt="81.9"/> 
-<LandmarkLocation instanceId="{7213605F-6004-4404-AEBC-E700195B6557}" type="POI" name="Suburb: Torba Mah." owner="3DSpotters" lat="37.0739845" lon="27.4592747" alt="90.3"/> 
-<LandmarkLocation instanceId="{486FD8CE-3295-4E16-84E5-77CB4C1D0BF9}" type="POI" name="Suburb: Kumbahçe Mah." owner="3DSpotters" lat="37.0301666" lon="27.4405851" alt="80.85"/> 
-<LandmarkLocation instanceId="{94900EB5-CFD6-4922-B4B1-8640A30CB71B}" type="POI" name="Suburb: Umurca Mah." owner="3DSpotters" lat="37.0348756" lon="27.442592" alt="97.65"/> 
-<LandmarkLocation instanceId="{22652344-A908-4097-AF38-1047DA8F0EB5}" type="POI" name="Suburb: Yokuşbaşı Mah." owner="3DSpotters" lat="37.0407513" lon="27.4362464" alt="100.8"/> 
-<LandmarkLocation instanceId="{A4C3161F-6B82-4146-B925-5E8F4FF08632}" type="POI" name="Suburb: Çarşı Mah." owner="3DSpotters" lat="37.0364747" lon="27.433118" alt="115.5"/> 
-<LandmarkLocation instanceId="{0C2A6493-79AE-4927-85E5-91A8815C71CE}" type="POI" name="Suburb: Tepecik Mah." owner="3DSpotters" lat="37.0375215" lon="27.4261147" alt="74.55"/> 
-<LandmarkLocation instanceId="{FC1C97DB-2776-4AE7-8602-93492BC98900}" type="POI" name="Suburb: Türkkuyusu Mah." owner="3DSpotters" lat="37.0399486" lon="27.428648" alt="74.55"/> 
-<LandmarkLocation instanceId="{5AEEB58F-3213-455A-9137-AE758AF2C19E}" type="POI" name="Suburb: Eskiçeşme Mah." owner="3DSpotters" lat="37.0349638" lon="27.4201588" alt="130.2"/> 
-<LandmarkLocation instanceId="{F6213E85-8DD1-4CA0-BEFC-A433CE023312}" type="POI" name="Suburb: Yeniköy Mah." owner="3DSpotters" lat="37.0386542" lon="27.4198953" alt="133.35"/> 
-<LandmarkLocation instanceId="{D45EEA20-D4D3-45DA-B564-E3931A26D352}" type="POI" name="Suburb: Cevat Şakir Mah." owner="3DSpotters" lat="37.0400963" lon="27.4079566" alt="124.95"/> 
-<LandmarkLocation instanceId="{310AC86C-3F2F-4B83-A34D-1C87EB639AD7}" type="POI" name="Suburb: Gümbet Mah." owner="3DSpotters" lat="37.0331908" lon="27.4049706" alt="89.25"/> 
-<LandmarkLocation instanceId="{9F4BE0EC-F210-4BDE-A0CC-DF46DD9125C6}" type="POI" name="Suburb: Cumhuriyet Mah." owner="3DSpotters" lat="37.0445867" lon="27.4090256" alt="93.45"/> 
-<LandmarkLocation instanceId="{CE4DBF16-3959-493D-986F-F9C999B67138}" type="POI" name="Suburb: Çırkan" owner="3DSpotters" lat="37.0482335" lon="27.4036422" alt="80.85"/> 
-<LandmarkLocation instanceId="{36F8D43B-4139-4CA4-89BF-73BF096A5B68}" type="POI" name="Suburb: Konacık" owner="3DSpotters" lat="37.0497485" lon="27.3983348" alt="130.2"/> 
-<LandmarkLocation instanceId="{9E9BED47-EA3F-4AB0-9A4F-0F173A78E8CA}" type="POI" name="Suburb: Müskebi" owner="3DSpotters" lat="37.0476678" lon="27.3494172" alt="101.85"/> 
-<LandmarkLocation instanceId="{1E9CEDDB-DBCD-4C18-B1FC-5C49A1B04BC0}" type="POI" name="Suburb: Peksimet" owner="3DSpotters" lat="37.0409377" lon="27.271902" alt="89.25"/> 
-<LandmarkLocation instanceId="{02E88CA2-059C-421A-AC54-584B494B174C}" type="POI" name="Suburb: Bahçelievler" owner="3DSpotters" lat="37.0125804" lon="27.2610014" alt="86.1"/> 
-<LandmarkLocation instanceId="{3E2579DB-843D-4546-A9B4-470E366F4724}" type="POI" name="Suburb: Turgutreis" owner="3DSpotters" lat="37.0077807" lon="27.2569224" alt="112.35"/> 
-<LandmarkLocation instanceId="{89049E7C-B898-42BB-8917-C2BE1237B8C2}" type="POI" name="Suburb: Karabağ" owner="3DSpotters" lat="37.0000805" lon="27.2762236" alt="122.85"/> 
-<LandmarkLocation instanceId="{CE494647-4A3D-4F77-9567-187A303C7DBF}" type="POI" name="Suburb: Akçaalan" owner="3DSpotters" lat="37.0137823" lon="27.2771064" alt="96.6"/> 
-<LandmarkLocation instanceId="{3560084C-5037-46A3-8A93-E928A0E9CC6A}" type="POI" name="Suburb: Gümüşlük" owner="3DSpotters" lat="37.0529305" lon="27.2502465" alt="101.85"/> 
-<LandmarkLocation instanceId="{17FEFD93-33E6-4D99-822D-8A43139F47C4}" type="POI" name="Suburb: Koyunbaba" owner="3DSpotters" lat="37.0739741" lon="27.2451251" alt="88.2"/> 
-<LandmarkLocation instanceId="{BC6957CF-EF14-4D5F-96C2-D1F9ADFAF548}" type="POI" name="Suburb: Geriş" owner="3DSpotters" lat="37.0853482" lon="27.2781254" alt="80.85"/> 
-<LandmarkLocation instanceId="{FDAF1C50-4DF3-41AD-BD47-804B8A4A6FA1}" type="POI" name="Suburb: Yalıkavak" owner="3DSpotters" lat="37.1056168" lon="27.293058" alt="123.9"/> 
-<LandmarkLocation instanceId="{81220CAF-E2BD-4DF8-9247-420BE134740F}" type="POI" name="Suburb: Dirmil" owner="3DSpotters" lat="37.1059591" lon="27.3244289" alt="89.25"/> 
-<LandmarkLocation instanceId="{57DB56A1-106A-4A34-B286-54DCC517A6D7}" type="POI" name="Suburb: Küçükbük" owner="3DSpotters" lat="37.1382277" lon="27.3540506" alt="129.15"/> 
-<LandmarkLocation instanceId="{86634399-5B2A-4F4E-879F-EC78FF93C75F}" type="POI" name="Suburb: Farilya" owner="3DSpotters" lat="37.1159926" lon="27.3472467" alt="90.3"/> 
-<LandmarkLocation instanceId="{1E9618CC-1833-455F-9E8E-4B0D1692A33D}" type="POI" name="Suburb: Gündoğan" owner="3DSpotters" lat="37.1294427" lon="27.3429924" alt="98.7"/> 
-<LandmarkLocation instanceId="{D00183F5-0F90-4B76-8CA8-D07B156D41BB}" type="POI" name="Island: Çatal Ada" owner="3DSpotters" lat="37.0050995" lon="27.2156333" alt="102.06"/> 
-<LandmarkLocation instanceId="{1FD98FB6-5811-40EC-9992-67FD3F13340B}" type="POI" name="Island: Sarıot Ada" owner="3DSpotters" lat="36.9915151" lon="27.2243237" alt="126.0"/> 
-<LandmarkLocation instanceId="{7E4AD8D4-F6CD-4146-BCF1-9E2D3F1DA56F}" type="POI" name="Island: Tüllüce Adası" owner="3DSpotters" lat="36.9847919" lon="27.2312055" alt="110.88"/> 
-<LandmarkLocation instanceId="{8CD58762-55C6-4981-8F76-B8E20FCBEFCD}" type="POI" name="Island: Orak Adası" owner="3DSpotters" lat="36.9734398" lon="27.5949324" alt="122.22"/> 
-<LandmarkLocation instanceId="{98F74496-85B1-4874-BC20-90983B2AD38A}" type="POI" name="Island: Black Island" owner="3DSpotters" lat="36.9773712" lon="27.4583736" alt="104.58"/> 
-<LandmarkLocation instanceId="{A5316A71-36E7-479B-B66A-08A0990CD649}" type="POI" name="Island: Giali" owner="3DSpotters" lat="36.66069" lon="27.1241035" alt="134.82"/> 
-<LandmarkLocation instanceId="{507ADDE3-1FAE-4FC1-8DC0-F3F828AF34B1}" type="POI" name="Island: Küçük Tavşan Adası" owner="3DSpotters" lat="37.1680892" lon="27.3701837" alt="94.5"/> 
-<LandmarkLocation instanceId="{2C77B435-583A-4479-AD6D-0AE3ECBBCCBE}" type="POI" name="Island: Salih Adası" owner="3DSpotters" lat="37.1529935" lon="27.5132809" alt="102.06"/> 
-<LandmarkLocation instanceId="{F533707B-FC49-4B61-A4B5-C2F7807079F4}" type="POI" name="Island: Büyük Ada" owner="3DSpotters" lat="37.1384993" lon="27.3900448" alt="88.2"/> 
-<LandmarkLocation instanceId="{A8D7F7B6-B610-425D-99BC-78839FCCF30A}" type="POI" name="Island: İkiz Adaları" owner="3DSpotters" lat="37.1211041" lon="27.4720746" alt="104.58"/> 
-<LandmarkLocation instanceId="{DA1E52C7-B1B1-4C25-A109-58E745706569}" type="POI" name="Island: Küçükkiremit Adası" owner="3DSpotters" lat="37.0884729" lon="27.2367657" alt="102.06"/> 
-<LandmarkLocation instanceId="{4ED83565-67E9-4070-8A62-DBB0A19C2CF9}" type="POI" name="Island: Büyükkiremit Adası" owner="3DSpotters" lat="37.085023" lon="27.2097255" alt="102.06"/> 
-<LandmarkLocation instanceId="{2CFF9DC9-4654-4FD7-AE1A-8BFE912D934B}" type="POI" name="Island: Çavuş Adası" owner="3DSpotters" lat="37.0486092" lon="27.2015987" alt="91.97999999999999"/> 
-<LandmarkLocation instanceId="{6DBF5329-4A32-4144-9955-8C531325A59C}" type="POI" name="Island: Topan Adası" owner="3DSpotters" lat="37.0052479" lon="27.1815594" alt="94.5"/> 
-<LandmarkLocation instanceId="{F605867F-07B8-4383-8D52-5D40E2A82E01}" type="POI" name="Attraction: Anfi Tiyatro" owner="3DSpotters" lat="36.9958476" lon="27.25819" alt="79.1"/> 
-<LandmarkLocation instanceId="{1E037FF5-5EB4-4664-A034-4B430709AE6B}" type="POI" name="Island: Rabbit Island" owner="3DSpotters" lat="37.0529433" lon="27.2332446" alt="137.34"/> 
-<LandmarkLocation instanceId="{8AE314A7-7305-46CE-A004-8BDD94E5EF74}" type="POI" name="Lake: Linopotti Lake" owner="3DSpotters" lat="36.8644911" lon="27.1595773" alt="51.8"/> 
-<LandmarkLocation instanceId="{1A74187B-4F7D-4A5C-8EA9-E85958C4536C}" type="POI" name="Attraction: Paleo Pili" owner="3DSpotters" lat="36.8381634" lon="27.1868034" alt="75.6"/> 
-<LandmarkLocation instanceId="{7364126F-488A-4699-A7AB-7A92B5602535}" type="POI" name="Castle: Bodrum Castle" owner="3DSpotters" lat="37.0318147" lon="27.4292652" alt="50.4"/> 
-<LandmarkLocation instanceId="{29E500DE-C12A-4049-99E1-C97A9BCFE8F5}" type="POI" name="Lake: Alykes" owner="3DSpotters" lat="36.884918" lon="27.1713422" alt="87.5"/> 
-<LandmarkLocation instanceId="{ED980DCC-B691-4F9F-B0C9-785BEC04D799}" type="POI" name="Archeo: Gymnasion" owner="3DSpotters" lat="36.8912165" lon="27.2851472" alt="76.3"/> 
-<LandmarkLocation instanceId="{E915089C-3FCB-434B-91F9-F7DE7C81FD25}" type="POI" name="Archeo: Ancient Agora" owner="3DSpotters" lat="36.8936897" lon="27.2908841" alt="78.4"/> 
-<LandmarkLocation instanceId="{99907A12-0F1B-4243-97B0-7CD97CA09C7F}" type="POI" name="Castle: Castle of Antimachia" owner="3DSpotters" lat="36.8028374" lon="27.1287939" alt="56.0"/> 
-<LandmarkLocation instanceId="{95F3F6D2-5806-47DE-86F9-EBC8299A501B}" type="POI" name="Archeo: Roman Odeon" owner="3DSpotters" lat="36.8896562" lon="27.2847772" alt="79.8"/> 
-<LandmarkLocation instanceId="{4F568619-95FD-4E81-9906-E41A2BF847E7}" type="POI" name="River: Kocadere" owner="3DSpotters" lat="37.1140806" lon="27.6746082" alt="56.7"/> 
-<LandmarkLocation instanceId="{2EF911D7-A20F-4768-9F1E-EECF36CEEECD}" type="POI" name="Temple: Turgutreis Merkez Camii" owner="3DSpotters" lat="37.0068821" lon="27.2570367" alt="53.9"/> 
-<LandmarkLocation instanceId="{79E8E2E3-90BF-4B5F-97E6-84FFF6DA8754}" type="POI" name="Island: Καστρί" owner="3DSpotters" lat="36.7496906" lon="26.9880124" alt="104.58"/> 
-<LandmarkLocation instanceId="{79A2B273-5FCB-4274-98A3-9876D877881B}" type="POI" name="Beach: Yeşil Plaj" owner="3DSpotters" lat="37.0225071" lon="27.3653876" alt="63.0"/> 
-<LandmarkLocation instanceId="{FB650B88-C349-40E7-8818-1E311B32B0EE}" type="POI" name="Archeo: Casa Romana" owner="3DSpotters" lat="36.8899425" lon="27.2885847" alt="86.8"/> 
-<LandmarkLocation instanceId="{D014D5AF-38BD-4C2D-84BD-884C32215AC1}" type="POI" name="Reservoir: ΛΙΜΝΟΔΕΞΑΜΕΝΗ ΑΓΙΟΥ ΝΕΚΤΑΡΙΟΥ" owner="3DSpotters" lat="36.8681546" lon="27.2931729" alt="49.0"/> 
-<LandmarkLocation instanceId="{C87F42A5-88E7-46CD-913A-DCFF3CD004CE}" type="POI" name="Theatre: Theatre" owner="3DSpotters" lat="36.6859998" lon="27.3752444" alt="72.8"/> 
-<LandmarkLocation instanceId="{44196F75-CD88-4E69-8EDE-3C62822738A5}" type="POI" name="Military: NIKE launch site" owner="3DSpotters" lat="36.7331507" lon="27.5659217" alt="56.7"/> 
-<LandmarkLocation instanceId="{D78B1557-22D8-42D9-8521-DB1BC0FF360F}" type="POI" name="Military: NIKE launch site" owner="3DSpotters" lat="36.7353477" lon="27.5665114" alt="88.9"/> 
-<LandmarkLocation instanceId="{7560E2AA-FE0D-4750-B529-851FEA5E50B1}" type="POI" name="Military: NIKE" owner="3DSpotters" lat="36.7303038" lon="27.5787681" alt="84.0"/> 
-<LandmarkLocation instanceId="{1347A5B4-A116-4F9D-8612-980000F53316}" type="POI" name="Nature_reserve: Άγ. Πάντες (Καλύμνου)" owner="3DSpotters" lat="36.9503844" lon="26.966533" alt="59.5"/> 
-<LandmarkLocation instanceId="{FD1C9C4E-5E21-4114-9098-A21079642D3A}" type="POI" name="Nature_reserve: Αγ. Θεολόγος - Χαλί Νήσου Καλύμνου" owner="3DSpotters" lat="36.959525" lon="27.0408617" alt="88.9"/> 
-<LandmarkLocation instanceId="{B6A7C811-213E-4769-949B-7775773B41D9}" type="POI" name="Nature_reserve: Βίγλες-Αγριελιά-Θυμιανός-Ρίχτης-Παναγιά Στυλώτη (Κέφαλου Κω)" owner="3DSpotters" lat="36.709603" lon="26.9427824" alt="57.4"/> 
-<LandmarkLocation instanceId="{8E6496E5-3C01-48DD-ABF9-1DB0F50BF87D}" type="POI" name="Nature_reserve: Ασφενδιού - Πυλίου Δήμου Δικαίου Νήσου Κω" owner="3DSpotters" lat="36.8584306" lon="27.1745556" alt="51.099999999999994"/> 
-<LandmarkLocation instanceId="{7919622F-C3D5-4D41-B967-FD53BEA003C9}" type="POI" name="Nature_reserve: Διαπόρι Δήμου Λέρου Νήσου Λέρου" owner="3DSpotters" lat="37.1188001" lon="26.8831095" alt="91.0"/> 
-<LandmarkLocation instanceId="{13AA6D2F-67A7-4E76-A3D8-E784CB91EDC1}" type="POI" name="River: Kocadere" owner="3DSpotters" lat="37.1205413" lon="27.6459277" alt="51.099999999999994"/> 
-<LandmarkLocation instanceId="{F2904956-C46C-46E5-B1E3-8632DC10AED4}" type="POI" name="River: Kocadere" owner="3DSpotters" lat="37.1149534" lon="27.6582591" alt="70.7"/> 
-<LandmarkLocation instanceId="{18097630-00C7-42E0-A8A4-932A5C5AB7D9}" type="POI" name="Water: Mumcular Reservoir" owner="3DSpotters" lat="37.1179449" lon="27.6685256" alt="84.7"/> 
-<LandmarkLocation instanceId="{FD2899D4-AA07-48F9-A17B-330173399577}" type="POI" name="Nature_reserve: Κουλούκι - Μερικιά - Φυτώριο Δήμου Λέρου Νήσου Λέρου" owner="3DSpotters" lat="37.1296379" lon="26.8368701" alt="81.9"/> 
-<LandmarkLocation instanceId="{946A2A3B-76E9-49B4-AD7A-08E7918C4BAD}" type="POI" name="Nature_reserve: Προφ. Ηλίας-Κατσουνδριά-Μεσόβουνο-Άμπελλα (Κω)" owner="3DSpotters" lat="36.7951034" lon="27.0607706" alt="49.0"/> 
-<LandmarkLocation instanceId="{CF780767-6ACE-4E08-AF82-6AC18C881FA3}" type="POI" name="Nature_reserve: Σκουμπάρδος περιοχή Ξηροκάμπου Δήμου Λέρου" owner="3DSpotters" lat="37.1023809" lon="26.8635775" alt="81.9"/> 
-<LandmarkLocation instanceId="{06FA59B2-F002-468C-B6E2-5893493F5819}" type="POI" name="Nature_reserve: Τέλενδος (Καλυμνίων)" owner="3DSpotters" lat="37.0039544" lon="26.9042772" alt="79.8"/> 
-<LandmarkLocation instanceId="{D9CB3B68-44D5-4369-BCED-B0978CD95483}" type="POI" name="Nature_reserve: Τσίγκουνα περιοχής Ξηροκάμπου Δήμου Λέρου" owner="3DSpotters" lat="37.1217755" lon="26.8701337" alt="77.0"/> 
-<LandmarkLocation instanceId="{4C7C5201-4EEB-48B8-B252-B69955307320}" type="POI" name="Nature_reserve: Υγροβιότοπος Αλυκής περιοχής Βάι Αλυκής Δήμου Δικαίου Νήσου Κω - Από Κοινοτήτων Πυλίου και Ασφενδίου Νήσου Κω" owner="3DSpotters" lat="36.8827497" lon="27.1701581" alt="56.7"/> 
-<LandmarkLocation instanceId="{D4DB8614-0CF2-4430-B61F-895E746B0EA1}" type="POI" name="Archeo: Kos Asklepieion" owner="3DSpotters" lat="36.8756851" lon="27.2573838" alt="79.8"/> 
-<LandmarkLocation instanceId="{4209020D-D187-4305-A231-0C6BE436772A}" type="POI" name="Archeo: Knidos" owner="3DSpotters" lat="36.6863015" lon="27.3739514" alt="81.2"/> 
-<LandmarkLocation instanceId="{47213118-640D-4FA6-AD21-0D83E24E5FF7}" type="POI" name="Temple: Bitez Merkez Cami" owner="3DSpotters" lat="37.0428103" lon="27.3798355" alt="82.6"/> 
-<LandmarkLocation instanceId="{C9EAEBEE-41D6-4D56-B596-82F702E304F6}" type="POI" name="Ruins: Alazeytin Kalesi / Syangela" owner="3DSpotters" lat="37.0196895" lon="27.5409842" alt="81.2"/> 
-<LandmarkLocation instanceId="{92F5A34C-911F-46E6-A30C-C70E207D5FB0}" type="POI" name="Archeo: Kavakopoulou" owner="3DSpotters" lat="36.8909091" lon="27.2896002" alt="61.6"/> 
-<LandmarkLocation instanceId="{ECCCF013-38FF-4194-93A3-C5D215B0275C}" type="POI" name="Town: Ζηπάρι" owner="3DSpotters" lat="36.8766178" lon="27.2044452" alt="119.7"/> 
-<LandmarkLocation instanceId="{61D89966-DF4D-47DA-BB8B-D92F9DBA9485}" type="POI" name="Castle: Chora Castle" owner="3DSpotters" lat="36.9678256" lon="26.9608485" alt="60.9"/> 
-<LandmarkLocation instanceId="{874E439A-C3F6-4DF5-8902-E7F6C582B3F0}" type="POI" name="Archeo: Myndos Gate" owner="3DSpotters" lat="37.0376335" lon="27.4135636" alt="58.1"/> 
-<LandmarkLocation instanceId="{770CDA5C-B3A8-4C87-B4AD-0FFCAEB22C33}" type="POI" name="Archeo: Basilica of Ayios Stefanos" owner="3DSpotters" lat="36.7526214" lon="26.9891387" alt="70.0"/> 
-<LandmarkLocation instanceId="{C78D5139-B001-4A11-846F-FF17165B25C3}" type="POI" name="Nature_reserve: Ενοποίηση Κέφαλος-Καμήλα and Λιμνιώνα-Σφακιά (Κέφαλου Κω)" owner="3DSpotters" lat="36.7627364" lon="26.9687712" alt="84.7"/> 
-<LandmarkLocation instanceId="{240C27E3-C445-4B11-867B-D26CAAD1A313}" type="POI" name="Temple: Merkez Adliye Camii" owner="3DSpotters" lat="37.0343331" lon="27.4303598" alt="73.5"/> 
-<LandmarkLocation instanceId="{11970E18-938A-429A-80D4-CF9B4AEA0D0D}" type="POI" name="Temple: Tepecik Cami" owner="3DSpotters" lat="37.0361678" lon="27.4255796" alt="65.1"/> 
-<LandmarkLocation instanceId="{D1217887-91CF-41E8-B26A-004AAC3ABF57}" type="POI" name="Archeo: Nympheon" owner="3DSpotters" lat="36.8908892" lon="27.2870519" alt="71.4"/> 
-<LandmarkLocation instanceId="{4CE37469-FCB2-4AE9-A829-37EF6A326F0B}" type="POI" name="Ruins: Temple of Apollion" owner="3DSpotters" lat="36.8757232" lon="27.2572488" alt="84.0"/> 
-<LandmarkLocation instanceId="{6B930BFE-8E1C-436D-8CDA-9A041FC726FF}" type="POI" name="Ruins: Big temple of Asklepieion" owner="3DSpotters" lat="36.875288" lon="27.256733" alt="76.3"/> 
-<LandmarkLocation instanceId="{9F9400C2-B0B4-4CF8-B549-57B857A86A16}" type="POI" name="Island: İkiz Adaları" owner="3DSpotters" lat="37.1278103" lon="27.4793342" alt="153.72"/> 
-<LandmarkLocation instanceId="{47CF498B-BDFD-4ED6-88AF-6F5AE235146E}" type="POI" name="Temple: Agios Ioannis Prodromos" owner="3DSpotters" lat="36.9682474" lon="26.9615123" alt="74.9"/> 
-<LandmarkLocation instanceId="{8CE99BAB-11E5-4274-8965-0C7A885F88A8}" type="POI" name="Archeo: Bodrum Antique Theatre" owner="3DSpotters" lat="37.0401376" lon="27.4215905" alt="61.6"/> 
-<LandmarkLocation instanceId="{CA40C658-9AE9-4ADF-862B-A56E2C23D87D}" type="POI" name="Water: Flatolitis Pool" owner="3DSpotters" lat="36.9991236" lon="26.9369321" alt="84.7"/> 
-<LandmarkLocation instanceId="{DA8141B0-3CF8-43B3-9654-CCC2E1A08216}" type="POI" name="Chapel: Agia Irini" owner="3DSpotters" lat="36.9748383" lon="27.0284762" alt="70.0"/> 
-<LandmarkLocation instanceId="{67562556-CC9D-40B1-8045-E0E490104590}" type="POI" name="Chapel: Άγιος Γεώργιος" owner="3DSpotters" lat="36.9739875" lon="27.0272352" alt="63.0"/> 
-<LandmarkLocation instanceId="{4CDFF5E2-E235-4E42-A003-444D703152F7}" type="POI" name="Castle: Pantelio Castle" owner="3DSpotters" lat="37.1561626" lon="26.859387" alt="51.099999999999994"/> 
-<LandmarkLocation instanceId="{F830614C-CE85-4B41-88B9-7DF9A56CFBAA}" type="POI" name="Ruins: Temple of Aphrodite, Knidos" owner="3DSpotters" lat="36.6889176" lon="27.3733237" alt="72.1"/> 
-<LandmarkLocation instanceId="{F74180C6-A0C2-4189-875D-8BA25D90B554}" type="POI" name="Temple: ΠΑΝΑΓΙΑ Η ΦΑΝΑΙΡΩΜΕΝΗ" owner="3DSpotters" lat="36.8957214" lon="27.2825243" alt="65.8"/> 
-<LandmarkLocation instanceId="{64D4DE30-855C-4586-B915-8751348E0E9C}" type="POI" name="Temple: AGIOS PAULOS" owner="3DSpotters" lat="36.8990158" lon="27.2853613" alt="51.099999999999994"/> 
-<LandmarkLocation instanceId="{ECD49631-1632-4222-A037-20BD9489E137}" type="POI" name="Ruins: Bodrum Windmills" owner="3DSpotters" lat="37.0257782" lon="27.4137327" alt="65.8"/> 
-<LandmarkLocation instanceId="{CFAEACA8-9175-497D-8E1A-CBF7B560F2AC}" type="POI" name="Church: Αγία Παναγιά" owner="3DSpotters" lat="36.9976867" lon="26.9204152" alt="79.1"/> 
-<LandmarkLocation instanceId="{6EBE6AE6-1D2E-4D32-A903-4E998561F63A}" type="POI" name="Chapel: Agios Georgios and Agios Eustachios" owner="3DSpotters" lat="36.9962254" lon="26.9386677" alt="56.7"/> 
-<LandmarkLocation instanceId="{7FAC04BF-C9C7-4E63-8321-DF7D290AA638}" type="POI" name="Temple: Σωτήρος Χριστού" owner="3DSpotters" lat="36.9500902" lon="26.9839246" alt="64.4"/> 
-<LandmarkLocation instanceId="{5DE5F809-B593-4C8D-9AC1-CB6BC463BAE2}" type="POI" name="Temple: 'Αγιος Παύλος" owner="3DSpotters" lat="36.9403444" lon="26.9742502" alt="75.6"/> 
-<LandmarkLocation instanceId="{F540F0A2-5386-4888-8A12-7C6B4479DC46}" type="POI" name="Church: Ι. Μ. Αγίας Αικατερίνης" owner="3DSpotters" lat="36.9366608" lon="26.9526471" alt="88.2"/> 
-<LandmarkLocation instanceId="{FB585773-AC9E-455F-84FD-83C46661E681}" type="POI" name="Church: Agia paraskeuè" owner="3DSpotters" lat="36.8926679" lon="27.2882419" alt="77.7"/> 
-<LandmarkLocation instanceId="{660A3001-FD40-4243-8D51-0B83B2F14780}" type="POI" name="Ruins: Kadıkalesi" owner="3DSpotters" lat="37.0344975" lon="27.2453864" alt="70.0"/> 
-<LandmarkLocation instanceId="{5BBFC3C2-C404-4981-B1B4-0BD71F213613}" type="POI" name="Reservoir: ΛΙΜΝΟΔΕΞΑΜΕΝΗ ΜΕΣΣΑΡΙΑΣ" owner="3DSpotters" lat="36.8696705" lon="27.2247023" alt="77.0"/> 
-<LandmarkLocation instanceId="{CE40167D-6FE3-44C3-A531-161F8A839DBE}" type="POI" name="Archeo: Northern Baths" owner="3DSpotters" lat="36.8938115" lon="27.2869622" alt="87.5"/> 
-<LandmarkLocation instanceId="{7553BA89-46AB-47C2-8D7B-F970A178C25B}" type="POI" name="Playground: Kids Racers" owner="3DSpotters" lat="36.9095515" lon="27.2800006" alt="72.8"/> 
-<LandmarkLocation instanceId="{0721FD64-08BF-446A-86AC-64269088BAFF}" type="POI" name="Temple: Defterdar Mosque" owner="3DSpotters" lat="36.8933259" lon="27.2888113" alt="69.3"/> 
-<LandmarkLocation instanceId="{99936A23-C1D9-48CA-A86A-8BEC94BCA745}" type="POI" name="Temple: AGIOS NIKOLAOS" owner="3DSpotters" lat="36.8916461" lon="27.2919621" alt="54.6"/> 
-<LandmarkLocation instanceId="{6AA2CF24-C488-4CEF-A9B6-A13EF5FB4D26}" type="POI" name="Temple: Τζαμί Πλατάνι" owner="3DSpotters" lat="36.8819259" lon="27.2728016" alt="58.8"/> 
-<LandmarkLocation instanceId="{A29413F7-9E74-4248-960C-DC168116F5CA}" type="POI" name="Church: Agios Nicolaos" owner="3DSpotters" lat="36.7502372" lon="26.9878646" alt="59.5"/> 
-<LandmarkLocation instanceId="{8A94C047-E70E-4343-9456-886B94F75CB6}" type="POI" name="Church: ΑΝΑΛΗΨΗ" owner="3DSpotters" lat="36.8761056" lon="27.2031559" alt="63.7"/> 
-<LandmarkLocation instanceId="{B34E9BBC-F78F-4674-A769-18F4543F03F9}" type="POI" name="Forest: Olive" owner="3DSpotters" lat="36.7476379" lon="27.4813325" alt="85.4"/> 
-<LandmarkLocation instanceId="{A8B5AAB3-3408-48DC-B475-181B931FE302}" type="POI" name="LGKO: Kos island international airport" owner="3DSpotters" lat="36.7951488" lon="27.0910947" alt="80.5"/> 
-<LandmarkLocation instanceId="{DA621E6F-0276-41F6-AAEA-0915F8634E44}" type="POI" name="Temple: ΑΓΙΟΣ ΚΩΣΤΑΝΤΙΝΟΣ" owner="3DSpotters" lat="36.8825428" lon="27.3207493" alt="53.2"/> 
-<LandmarkLocation instanceId="{55A7BEA1-4BDF-49E4-971C-70E9AF609548}" type="POI" name="Industrial: İSD Construction" owner="3DSpotters" lat="37.0333463" lon="27.3029297" alt="76.3"/> 
-<LandmarkLocation instanceId="{A840A4D3-AA1F-4B53-A2DE-676C4BC31BAC}" type="POI" name="Industrial: Pollat Galle SU" owner="3DSpotters" lat="37.0329904" lon="27.3023727" alt="72.1"/> 
-<LandmarkLocation instanceId="{99DD81F6-EB36-4228-9766-743F28ACBC21}" type="POI" name="Industrial: Karadeniz Mermer" owner="3DSpotters" lat="37.0304986" lon="27.3001616" alt="52.5"/> 
-<LandmarkLocation instanceId="{7C83F3FE-DB1B-4F0D-99EC-90C2FD66EB65}" type="POI" name="Industrial: Arda Kireç" owner="3DSpotters" lat="37.0305108" lon="27.3007432" alt="87.5"/> 
-<LandmarkLocation instanceId="{BF6CC2F0-754D-47AE-AD26-F0C560B271E7}" type="POI" name="Industrial: Öntaş Mermer" owner="3DSpotters" lat="37.0317297" lon="27.3012948" alt="91.0"/> 
-<LandmarkLocation instanceId="{EFB02F90-99A8-4EA0-9F0F-284FB4215F60}" type="POI" name="Ruins: Cistern" owner="3DSpotters" lat="36.9991605" lon="27.6505684" alt="49.7"/> 
-<LandmarkLocation instanceId="{295F7291-FB46-431B-876E-F46C1A2AAA35}" type="POI" name="Pond: Kocala" owner="3DSpotters" lat="37.0421894" lon="27.5168799" alt="61.6"/> 
-<LandmarkLocation instanceId="{08738539-6641-4D84-A2E3-74C39987B9FA}" type="POI" name="Church: Agios Ioannis" owner="3DSpotters" lat="36.9859853" lon="26.9311665" alt="55.3"/> 
-<LandmarkLocation instanceId="{44C1C2EB-7A24-41A0-9CEC-99792BBF2F1D}" type="POI" name="Temple: Agios Ioannis Theologos" owner="3DSpotters" lat="36.950217" lon="26.9562469" alt="72.8"/> 
-<LandmarkLocation instanceId="{4725547E-06EE-4356-B916-3209067F5C2B}" type="POI" name="LTBV: Bodrum-Imsık Airport 62 m" owner="3DSpotters" lat="37.1392611" lon="27.6709025" alt="60.9"/> 
-<LandmarkLocation instanceId="{6A86E53D-AEF6-46D2-92BC-8893834648E7}" type="POI" name="Water_park: Aquapark Bodrum" owner="3DSpotters" lat="37.0550765" lon="27.3620551" alt="58.1"/> 
-<LandmarkLocation instanceId="{B20F6D9A-D558-4DB0-B9B3-E1339150895F}" type="POI" name="Temple: Kızılhisarlı Mustafa Paşa Mosque" owner="3DSpotters" lat="37.0329195" lon="27.4296855" alt="71.4"/> 
-<LandmarkLocation instanceId="{52362BD6-B2C7-42C4-A798-6D872C78D101}" type="POI" name="Temple: Παναγιά" owner="3DSpotters" lat="36.9516745" lon="26.9817037" alt="78.4"/> 
-<LandmarkLocation instanceId="{77D17E57-0467-4EC5-9B15-75B53A8BC003}" type="POI" name="Industrial: Yalıkavak Sanayi Sitesi" owner="3DSpotters" lat="37.1160364" lon="27.3306007" alt="64.4"/> 
-<LandmarkLocation instanceId="{6C70D0FA-FDE4-48FD-8113-5C8DAD366F71}" type="POI" name="Industrial: Bodrum Sanayi" owner="3DSpotters" lat="37.0404923" lon="27.4325092" alt="65.1"/> 
-<LandmarkLocation instanceId="{24D29114-CDC5-4319-8956-A8FF76C64C0D}" type="POI" name="Temple: Güvercinlik Camii" owner="3DSpotters" lat="37.1389631" lon="27.5829034" alt="70.0"/> 
-<LandmarkLocation instanceId="{06DE20C3-3761-4210-8E47-ECFF8B4EE390}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.1375686" lon="27.6336861" alt="89.6"/> 
-<LandmarkLocation instanceId="{0EB8CCF6-D838-4866-9792-4753BEBE54F7}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.1222156" lon="27.656847" alt="86.1"/> 
-<LandmarkLocation instanceId="{F6D1FD4E-ED25-4FF1-A405-783C0D859A2C}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.127938" lon="27.3462536" alt="70.0"/> 
-<LandmarkLocation instanceId="{6A714D61-CC92-4239-9D90-899315CAF2E4}" type="POI" name="Temple: Torba Cami" owner="3DSpotters" lat="37.0725886" lon="27.4589177" alt="58.8"/> 
-<LandmarkLocation instanceId="{86CF9F32-5EED-4978-8357-3817E997638C}" type="POI" name="Temple: Sülüklü Camii" owner="3DSpotters" lat="37.0996546" lon="27.3052717" alt="69.3"/> 
-<LandmarkLocation instanceId="{AD1BC575-9BD7-426B-A60E-EDF1DF3D43E9}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.0377716" lon="27.3225562" alt="58.1"/> 
-<LandmarkLocation instanceId="{95BF3C15-6F2E-4827-B0C0-D7D22ACEE956}" type="POI" name="Archeo: Bodrum Antik Tiyatro" owner="3DSpotters" lat="37.0401682" lon="27.4216066" alt="81.2"/> 
-<LandmarkLocation instanceId="{1BB2EDF3-4140-473D-B2DC-B76AB80D6FCB}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.0862538" lon="27.3431207" alt="49.0"/> 
-<LandmarkLocation instanceId="{42B54418-D90A-45AB-ADF4-5F2FD3B4D6C2}" type="POI" name="Temple: Yukarı İslamhaneleri Köyü Cami" owner="3DSpotters" lat="37.0273344" lon="27.3127519" alt="60.2"/> 
-<LandmarkLocation instanceId="{6156F390-728B-4103-B8A8-AC17B24B4B5D}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.0303433" lon="27.5728635" alt="65.8"/> 
-<LandmarkLocation instanceId="{7007A7B5-8CCA-4314-B157-51B085A6FE40}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.0870371" lon="27.6792112" alt="70.7"/> 
-<LandmarkLocation instanceId="{362BF3FD-9D73-4F07-A016-AB8951B51D03}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="36.6887849" lon="27.5552678" alt="86.1"/> 
-<LandmarkLocation instanceId="{9C77243D-C587-4E2B-BCF7-12266D463B16}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="36.6977868" lon="27.4911085" alt="84.7"/> 
-<LandmarkLocation instanceId="{35A85EA8-22E3-44AD-8D2D-523790969A18}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="36.7741539" lon="27.6919625" alt="79.8"/> 
-<LandmarkLocation instanceId="{3353E64D-298C-4923-B587-6892E983C5A2}" type="POI" name="Chapel: Cristos Sotinos" owner="3DSpotters" lat="36.9501978" lon="26.9837158" alt="54.6"/> 
-<LandmarkLocation instanceId="{D74D751F-420A-4313-84D8-3FF676883716}" type="POI" name="Archeo: Damos" owner="3DSpotters" lat="36.9706666" lon="26.9474307" alt="60.9"/> 
-<LandmarkLocation instanceId="{C594650A-7FFE-4444-AA11-A2CABFBEF233}" type="POI" name="Retail: Platanos" owner="3DSpotters" lat="37.1534488" lon="26.8566944" alt="65.8"/> 
-<LandmarkLocation instanceId="{C2E2B304-86E0-4B31-9F80-9CB0B1306FE3}" type="POI" name="Ruins: Αγία Τριάδα" owner="3DSpotters" lat="36.9981389" lon="26.9190172" alt="76.3"/> 
-<LandmarkLocation instanceId="{974FABC5-B296-4D1A-B13C-5DD05A3E086E}" type="POI" name="Archeo: Θολάρια" owner="3DSpotters" lat="36.9941101" lon="26.9194403" alt="51.8"/> 
-<LandmarkLocation instanceId="{FC86B775-45E0-4CC7-85B6-1DE40B642B0D}" type="POI" name="Ruins: Άγιος Βασίλειος" owner="3DSpotters" lat="36.9996015" lon="26.9223884" alt="83.3"/> 
-<LandmarkLocation instanceId="{428456EF-DCB1-448F-8DBC-A09705AFF371}" type="POI" name="Chapel: St. George" owner="3DSpotters" lat="36.9950626" lon="26.9173211" alt="67.9"/> 
-<LandmarkLocation instanceId="{1871F241-3816-4BD7-8CE9-294339B50DBB}" type="POI" name="Archeo: Mausoleum at Halicarnassus" owner="3DSpotters" lat="37.0378008" lon="27.4241447" alt="81.9"/> 
-<LandmarkLocation instanceId="{C42002C4-4972-47AA-AE59-52BE874C22E8}" type="POI" name="Industrial: Konacık Sanayi Sitesi" owner="3DSpotters" lat="37.0583097" lon="27.3838468" alt="64.4"/> 
-<LandmarkLocation instanceId="{7E14B3AE-0B63-4BAA-95D5-9185BDFDD559}" type="POI" name="Castle: D.S LUXURIOUS VILLA 66" owner="3DSpotters" lat="36.8103776" lon="27.1568904" alt="69.3"/> 
-<LandmarkLocation instanceId="{FB3FD6C1-627E-4967-845D-7D2177CB3F9D}" type="POI" name="Temple: Aya nikola Kilisesi" owner="3DSpotters" lat="37.0333869" lon="27.4315621" alt="72.1"/> 
-<LandmarkLocation instanceId="{E793BE00-2377-491E-BD69-FBB5895064A6}" type="POI" name="Industrial: Σφαγεία Κω" owner="3DSpotters" lat="36.8729617" lon="27.2466123" alt="81.2"/> 
-<LandmarkLocation instanceId="{8F8E63C0-9D1C-4C09-B202-3E4B59840EB4}" type="POI" name="Island: Strongyli" owner="3DSpotters" lat="36.6807072" lon="27.1796005" alt="107.1"/> 
-<LandmarkLocation instanceId="{94BE24BD-B86D-4862-9156-BF1977E657AB}" type="POI" name="Island: Gyali" owner="3DSpotters" lat="36.66069" lon="27.1241035" alt="89.46000000000001"/> 
-<LandmarkLocation instanceId="{B147ED92-955B-42DC-85BB-9BAE8FC28237}" type="POI" name="Island: Leros" owner="3DSpotters" lat="37.1493666" lon="26.8282469" alt="126.0"/> 
-<LandmarkLocation instanceId="{68F2C0D8-95FE-4EB7-9407-675021C07282}" type="POI" name="Island: Pserimos" owner="3DSpotters" lat="36.9396133" lon="27.1430596" alt="127.26"/> 
-<LandmarkLocation instanceId="{F4256533-9A13-47DA-ACBD-9954374E608F}" type="POI" name="Island: Kos" owner="3DSpotters" lat="36.793677" lon="27.1365924" alt="120.96"/> 
-<LandmarkLocation instanceId="{B6ADC916-A0DE-4D1F-BA5F-44768C77838E}" type="POI" name="Island: Telendos" owner="3DSpotters" lat="37.0038938" lon="26.9043566" alt="93.24000000000001"/> 
-<LandmarkLocation instanceId="{5486CCFA-E3D3-409E-97B0-A51DC3659918}" type="POI" name="Island: Kalymnos" owner="3DSpotters" lat="37.002678" lon="26.9684984" alt="103.32"/> 
-<LandmarkLocation instanceId="{4FCAD5F7-030D-435D-9E10-CC62B688678E}" type="POI" name="Island: Kalolimnos" owner="3DSpotters" lat="37.0611782" lon="27.0890471" alt="157.5"/> 
-<LandmarkLocation instanceId="{C130B700-C776-482C-8B88-80B566650D03}" type="POI" name="Island: Safonidi" owner="3DSpotters" lat="36.8867915" lon="26.9212301" alt="119.7"/> 
-<LandmarkLocation instanceId="{A41715BD-A812-497F-9B74-B6D4EB4CEB97}" type="POI" name="Island: Nera" owner="3DSpotters" lat="36.914363" lon="26.9385812" alt="124.74"/> 
-<LandmarkLocation instanceId="{5EF1C10D-A52A-40B0-B7C8-D303DC55A569}" type="POI" name="Island: Kalavros" owner="3DSpotters" lat="37.0328992" lon="26.9294168" alt="103.32"/> 
-<LandmarkLocation instanceId="{0EF8EE52-E328-4906-BEB4-909815393F19}" type="POI" name="Island: Plati" owner="3DSpotters" lat="36.9421937" lon="27.0942864" alt="99.54"/> 
-<LandmarkLocation instanceId="{B8A1BEF8-95F0-4740-A9AB-C03689FC7CCA}" type="POI" name="Island: Sari" owner="3DSpotters" lat="36.9549664" lon="27.057267" alt="141.12"/> 
-<LandmarkLocation instanceId="{99CB8499-EFBC-425D-9B11-EF5CA4061054}" type="POI" name="Island: Epano" owner="3DSpotters" lat="37.0048814" lon="26.8850706" alt="152.46"/> 
-<LandmarkLocation instanceId="{3A281549-2828-4988-BE00-2EA136361C61}" type="POI" name="Island: Κρεβάτι" owner="3DSpotters" lat="36.9187098" lon="27.1580729" alt="112.14"/> 
-<LandmarkLocation instanceId="{2B86AEB1-FD61-4C0C-85D4-A8444A8FB490}" type="POI" name="Island: Βασιλική" owner="3DSpotters" lat="36.9551781" lon="27.1655564" alt="109.62"/> 
-<LandmarkLocation instanceId="{D13B231E-A41A-459F-A3A6-82053D42BEAE}" type="POI" name="Island: Λιγκιό" owner="3DSpotters" lat="36.9446194" lon="27.1737977" alt="152.46"/> 
-<LandmarkLocation instanceId="{CF03AF8F-8854-4F51-8E97-84BA596CB841}" type="POI" name="Island: Gialo" owner="3DSpotters" lat="36.921653" lon="27.1481436" alt="90.72"/> 
-<LandmarkLocation instanceId="{A655287F-5D5F-412A-8CB6-CB1E5517EB7F}" type="POI" name="Island: Εξώπετρα" owner="3DSpotters" lat="36.9330508" lon="27.0945911" alt="163.8"/> 
-<LandmarkLocation instanceId="{95B4C3E6-9EB2-4E5E-BDC2-E1DC73C0A73A}" type="POI" name="Island: Ασπροπνίχτης" owner="3DSpotters" lat="36.9252946" lon="26.9608419" alt="122.22"/> 
-<LandmarkLocation instanceId="{43D128FB-0054-49F9-BBC7-08A78AD5471E}" type="POI" name="Island: Αλέξης" owner="3DSpotters" lat="37.0473029" lon="26.912135" alt="152.46"/> 
-<LandmarkLocation instanceId="{3ACB3DDF-1BAE-477F-87E5-BE59155951B0}" type="POI" name="Island: Καστρί" owner="3DSpotters" lat="36.7496906" lon="26.9880124" alt="138.6"/> 
-<LandmarkLocation instanceId="{A5DA9DBC-2B3F-4D9A-BFD5-70713D156BD5}" type="POI" name="Island: Nekrothiki" owner="3DSpotters" lat="36.9533881" lon="27.0960937" alt="123.48"/> 
-<LandmarkLocation instanceId="{5D9BCFDD-9119-4D6F-8B6E-49BE65B6BCAC}" type="POI" name="Nature_reserve: Mount Sırtlan Nature Reserve" owner="3DSpotters" lat="37.1613439" lon="27.5634428" alt="53.9"/> 
-<LandmarkLocation instanceId="{C5F08DC2-EBE3-46F8-A4A5-66EE12BFFB03}" type="POI" name="Nature_reserve: Αγ. Φωκάς - Ψαλίδι - Καστέλο - Ηρακλής Νήσου Κω" owner="3DSpotters" lat="36.8724391" lon="27.2894673" alt="55.3"/> 
-<LandmarkLocation instanceId="{04FF0EF8-690B-4578-BDC5-F2F5A77C034E}" type="POI" name="Castle: Fortress of Neratzia" owner="3DSpotters" lat="36.8962971" lon="27.290157" alt="59.5"/> 
-<LandmarkLocation instanceId="{E65AA30B-E738-4B99-AA56-139263485A46}" type="POI" name="Industrial: Datça Rüzgar Enerji Santrali" owner="3DSpotters" lat="36.7812119" lon="27.7323595" alt="76.3"/> 
+<LandmarkLocation instanceId="{FDD385B2-A587-4F7C-82A6-B44445302CD9}" type="POI" name="Peak: Kocadağ 1011 m" owner="3DSpotters" lat="36.7308333" lon="27.5816667" alt="106.05"/> 
+<LandmarkLocation instanceId="{B8A2B95F-BC95-4BC1-846C-03AC1EE5136D}" type="POI" name="Peak: Προφήτης Ηλίας 676 m" owner="3DSpotters" lat="36.9803001" lon="26.9734579" alt="85.05"/> 
+<LandmarkLocation instanceId="{E3DC9EA3-E102-471C-A964-AB4EBE6A5CF5}" type="POI" name="Peak: Dikaios 846 m" owner="3DSpotters" lat="36.8343565" lon="27.2070099" alt="91.35"/> 
+<LandmarkLocation instanceId="{7A6520CB-DE8C-4B62-8057-DB1B8235B1DA}" type="POI" name="City: Kos" owner="3DSpotters" lat="36.8940286" lon="27.2866636" alt="157.5"/> 
+<LandmarkLocation instanceId="{AC7F9AD8-F2CA-47B7-987B-B5CBAC1580CF}" type="POI" name="Suburb: Akyarlar" owner="3DSpotters" lat="36.9682263" lon="27.2910264" alt="85.05"/> 
+<LandmarkLocation instanceId="{9B8922D8-EE5D-419C-92D3-327172709A4A}" type="POI" name="Town: Bodrum" owner="3DSpotters" lat="37.0395208" lon="27.4333947" alt="154.98"/> 
+<LandmarkLocation instanceId="{13362E19-FBFB-4EC2-9036-A7E7E2B4B24B}" type="POI" name="Suburb: İslamhaneleri" owner="3DSpotters" lat="37.0298486" lon="27.2963995" alt="129.15"/> 
+<LandmarkLocation instanceId="{9A1068A0-B537-490A-866A-A2B48812BBB4}" type="POI" name="Suburb: Gürece" owner="3DSpotters" lat="37.0390573" lon="27.3213427" alt="79.8"/> 
+<LandmarkLocation instanceId="{5F94471B-7D2D-4645-A967-557FB25AEF0E}" type="POI" name="Suburb: Yahşi" owner="3DSpotters" lat="37.0429292" lon="27.3309933" alt="131.25"/> 
+<LandmarkLocation instanceId="{F3328FCC-F426-4E67-BA8A-08CD5A2A1153}" type="POI" name="Ruins: Myndos" owner="3DSpotters" lat="37.0531492" lon="27.2335586" alt="77.7"/> 
+<LandmarkLocation instanceId="{4C6DE3AB-9119-476D-8A29-9EA22A0DB0A6}" type="POI" name="Suburb: Türkbükü" owner="3DSpotters" lat="37.1274925" lon="27.3775897" alt="94.5"/> 
+<LandmarkLocation instanceId="{61D4BD1D-12F5-4AA6-A326-940375374FD8}" type="POI" name="Village: Kardamena" owner="3DSpotters" lat="36.7823944" lon="27.1432793" alt="116.55"/> 
+<LandmarkLocation instanceId="{A419C741-46E5-4A8F-BB0D-3AFDED8C1FBC}" type="POI" name="Town: Antimachia" owner="3DSpotters" lat="36.8112916" lon="27.0974999" alt="107.1"/> 
+<LandmarkLocation instanceId="{EE5D4468-051A-4809-BB8D-414A0DE6E53B}" type="POI" name="Town: Pyli" owner="3DSpotters" lat="36.8460617" lon="27.1603596" alt="137.34"/> 
+<LandmarkLocation instanceId="{EA33FE0F-C3B1-4002-8F48-91ED81CE4C23}" type="POI" name="Village: Lambi" owner="3DSpotters" lat="36.9092273" lon="27.2797512" alt="74.55"/> 
+<LandmarkLocation instanceId="{3653BCC5-4B0D-43A7-A0E0-8A26ABC40E49}" type="POI" name="Village: Tigaki" owner="3DSpotters" lat="36.8885738" lon="27.1831601" alt="91.35"/> 
+<LandmarkLocation instanceId="{0EF0E4EA-4735-47A2-8EF2-BEFDDA05AC13}" type="POI" name="Village: Mastichari" owner="3DSpotters" lat="36.8493151" lon="27.076418" alt="80.85"/> 
+<LandmarkLocation instanceId="{BD4D851F-B5A0-44AC-A389-792C0EEE1715}" type="POI" name="Village: Marmari" owner="3DSpotters" lat="36.8749748" lon="27.1475591" alt="107.1"/> 
+<LandmarkLocation instanceId="{A38237CD-C2AF-49B2-8374-CBEFD2ADA4C2}" type="POI" name="Town: Kefalos" owner="3DSpotters" lat="36.7450362" lon="26.959407" alt="113.4"/> 
+<LandmarkLocation instanceId="{D7015E06-853C-4BAB-983D-747E257A467A}" type="POI" name="Ruins: Temple of Mars" owner="3DSpotters" lat="37.0400289" lon="27.4273766" alt="89.6"/> 
+<LandmarkLocation instanceId="{DF728A48-DC52-4408-8AAD-CC4A018397EC}" type="POI" name="Town: Agia Marina" owner="3DSpotters" lat="37.1565812" lon="26.8517541" alt="139.86"/> 
+<LandmarkLocation instanceId="{81AFE7A8-604D-4C0F-A69E-A9227B34BB29}" type="POI" name="Village: Lakki" owner="3DSpotters" lat="37.13318" lon="26.8532146" alt="82.95"/> 
+<LandmarkLocation instanceId="{7B44CE05-FB1E-4951-9409-FC1926A0ADF2}" type="POI" name="Village: Myrties" owner="3DSpotters" lat="36.9913489" lon="26.9330764" alt="88.2"/> 
+<LandmarkLocation instanceId="{9DF57F2A-3B04-48D6-86EC-920A69632966}" type="POI" name="Village: Masouri" owner="3DSpotters" lat="36.9957856" lon="26.9360564" alt="110.25"/> 
+<LandmarkLocation instanceId="{7B931784-D41C-4C8D-BD6C-8D6DD1BDD7D6}" type="POI" name="Village: Arginonta" owner="3DSpotters" lat="37.015072" lon="26.9692137" alt="117.6"/> 
+<LandmarkLocation instanceId="{B44047C0-DD9F-49B5-8473-ECFBE3B1F8E6}" type="POI" name="Village: Emporios" owner="3DSpotters" lat="37.0470431" lon="26.9295755" alt="79.8"/> 
+<LandmarkLocation instanceId="{DF436C30-2AB7-4CD1-A3DA-03BBC65A3BD9}" type="POI" name="Village: Vromolithos" owner="3DSpotters" lat="37.1455384" lon="26.8572598" alt="110.25"/> 
+<LandmarkLocation instanceId="{AB16A0B1-A21A-4031-BB9A-77A84A275C97}" type="POI" name="Attraction: Amphitheatre" owner="3DSpotters" lat="37.0340153" lon="27.2509421" alt="85.4"/> 
+<LandmarkLocation instanceId="{10DDFA68-0255-433A-BD03-4E3ED8C281C8}" type="POI" name="Suburb: Gölköy" owner="3DSpotters" lat="37.1162307" lon="27.3838343" alt="127.05"/> 
+<LandmarkLocation instanceId="{F2F1592E-FE38-4EBF-A72C-50945E1A085C}" type="POI" name="Spring: Empros Thermi" owner="3DSpotters" lat="36.8448332" lon="27.3165645" alt="72.8"/> 
+<LandmarkLocation instanceId="{E4A0E6D3-ACAB-4B64-AA1A-F5279A4306AA}" type="POI" name="Village: Πάνορμος" owner="3DSpotters" lat="36.9762741" lon="26.9369239" alt="116.55"/> 
+<LandmarkLocation instanceId="{ECD72D7C-C8BA-48F3-AC0C-F8CBE2A56D3A}" type="POI" name="Town: Chorio" owner="3DSpotters" lat="36.9639291" lon="26.9592627" alt="147.42000000000002"/> 
+<LandmarkLocation instanceId="{3104C9AD-0B92-48FE-B98E-9BAAEB72435B}" type="POI" name="Village: Argos" owner="3DSpotters" lat="36.9576594" lon="26.9448587" alt="100.8"/> 
+<LandmarkLocation instanceId="{3028B902-4D8B-43FF-A45B-6E36E1F5E002}" type="POI" name="Castle: Chrysocheria Castle" owner="3DSpotters" lat="36.9548608" lon="26.9699945" alt="88.9"/> 
+<LandmarkLocation instanceId="{1C50F4D3-D309-4CF1-80FA-4B2396A86B1D}" type="POI" name="Village: Vothyni" owner="3DSpotters" lat="36.9410489" lon="26.9675216" alt="134.4"/> 
+<LandmarkLocation instanceId="{13C659D6-4093-4D64-83E8-A21D1CDC7CED}" type="POI" name="Peak: Ράχη 457 m" owner="3DSpotters" lat="37.0077615" lon="26.9103677" alt="86.1"/> 
+<LandmarkLocation instanceId="{02174FB0-FB9B-4F4A-A950-4EBC76EF1644}" type="POI" name="Ruins: Old Byzantine settlement" owner="3DSpotters" lat="37.0123674" lon="26.912061" alt="66.5"/> 
+<LandmarkLocation instanceId="{F6FE7A7C-CE76-4D01-B934-3A34AA7CB62F}" type="POI" name="Ruins: Basilika of palaiopanayia" owner="3DSpotters" lat="36.999244" lon="26.9219217" alt="83.3"/> 
+<LandmarkLocation instanceId="{1087AC1D-64CE-4D7F-9C8E-91644AC35E08}" type="POI" name="Temple: Κοίμηση της Θεοτόκου" owner="3DSpotters" lat="36.995683" lon="26.9195404" alt="67.9"/> 
+<LandmarkLocation instanceId="{A8EE6523-A0E8-41F2-8B24-34CF45EBCE49}" type="POI" name="Temple: Agios Mamas" owner="3DSpotters" lat="36.6782245" lon="26.9675559" alt="66.5"/> 
+<LandmarkLocation instanceId="{6E1F6F04-EBC4-4247-ACB9-FC49B8033283}" type="POI" name="Fountain: Pili Fountain" owner="3DSpotters" lat="36.8420379" lon="27.1554993" alt="89.6"/> 
+<LandmarkLocation instanceId="{2516713A-67F0-4B14-91E9-53ABE45CE8BB}" type="POI" name="Attraction: Geological Excavation" owner="3DSpotters" lat="36.7842439" lon="27.1296548" alt="52.5"/> 
+<LandmarkLocation instanceId="{D76F3D55-A441-4D0E-B319-FCA9B4228297}" type="POI" name="Tree: Plane tree of Hippocrates" owner="3DSpotters" lat="36.8947582" lon="27.2909514" alt="74.9"/> 
+<LandmarkLocation instanceId="{9F339646-4513-4E90-B9A1-4EA557B509B7}" type="POI" name="Village: Zia" owner="3DSpotters" lat="36.8458412" lon="27.2046716" alt="112.35"/> 
+<LandmarkLocation instanceId="{F0CB8FBB-E756-4A09-9095-C7908659A47E}" type="POI" name="Archeo: Grave of Charmylos" owner="3DSpotters" lat="36.8424165" lon="27.1620073" alt="79.1"/> 
+<LandmarkLocation instanceId="{E763DCB9-601D-4EA4-9B2B-E1AA4FE7C2BB}" type="POI" name="Village: Lagoudi" owner="3DSpotters" lat="36.8493237" lon="27.2000769" alt="127.05"/> 
+<LandmarkLocation instanceId="{C3467E71-CA21-48D0-AF0B-75D909528E18}" type="POI" name="Village: Amaniou" owner="3DSpotters" lat="36.8458984" lon="27.1745119" alt="126.0"/> 
+<LandmarkLocation instanceId="{38F8EBB4-63A6-47F1-9CD1-9A4F567B1747}" type="POI" name="Suburb: Ampavris" owner="3DSpotters" lat="36.884872" lon="27.2846402" alt="118.65"/> 
+<LandmarkLocation instanceId="{83D492CF-588A-4848-9AD2-603E58C686EB}" type="POI" name="Town: Zipari" owner="3DSpotters" lat="36.876298" lon="27.2051213" alt="134.82"/> 
+<LandmarkLocation instanceId="{4FDEECFB-5DF6-48C6-82C6-C6DFCACA2C10}" type="POI" name="Ruins: Early Christian Basilica" owner="3DSpotters" lat="36.8719213" lon="27.2058869" alt="87.5"/> 
+<LandmarkLocation instanceId="{F5A965BE-9DA1-4454-B1C5-5EA0A87787FE}" type="POI" name="Town: Datça" owner="3DSpotters" lat="36.7263403" lon="27.6873855" alt="115.92"/> 
+<LandmarkLocation instanceId="{B0D5BAD6-2474-4792-BC2A-90BCA12746C3}" type="POI" name="Ferry_terminal: Kos - Santorini - Symi" owner="3DSpotters" lat="37.0320986" lon="27.4267305" alt="88.9"/> 
+<LandmarkLocation instanceId="{1A6C374C-EBAD-40C8-B41C-7B6CFB5107D6}" type="POI" name="Ferry_terminal: Κως" owner="3DSpotters" lat="36.8985594" lon="27.2904502" alt="85.4"/> 
+<LandmarkLocation instanceId="{AD45A905-5368-46C7-93B5-3C4041CD67D6}" type="POI" name="Archeo: Παλιό Πύλι" owner="3DSpotters" lat="36.8382871" lon="27.1873546" alt="91.0"/> 
+<LandmarkLocation instanceId="{0CA086E2-CE99-4B35-9295-D163E5AD28AA}" type="POI" name="Ruins: Myndos" owner="3DSpotters" lat="37.0586179" lon="27.2288193" alt="81.2"/> 
+<LandmarkLocation instanceId="{931ADF64-EA7F-4CBE-A40D-9D930F07BCE8}" type="POI" name="Peak: Kefala 662 m" owner="3DSpotters" lat="36.8434033" lon="27.2424959" alt="78.75"/> 
+<LandmarkLocation instanceId="{977C7308-2F1A-4B23-8D6E-A4D711D90CC0}" type="POI" name="Beach: Movenpick Plaj" owner="3DSpotters" lat="37.0227537" lon="27.3718357" alt="65.8"/> 
+<LandmarkLocation instanceId="{A1673827-3C1F-49F8-98D9-9FF44331109E}" type="POI" name="Beach: D Plaji" owner="3DSpotters" lat="37.0224453" lon="27.3714066" alt="67.9"/> 
+<LandmarkLocation instanceId="{70E74859-E4B9-4D23-A295-45F454822D69}" type="POI" name="Ruins: Pedasa Castle" owner="3DSpotters" lat="37.0663607" lon="27.4222616" alt="88.9"/> 
+<LandmarkLocation instanceId="{DEC07792-5E24-42E2-883C-B5F22673E8B5}" type="POI" name="Ruins: Akropolis" owner="3DSpotters" lat="37.0679007" lon="27.4219277" alt="70.0"/> 
+<LandmarkLocation instanceId="{DAD2EDED-7C77-4EF0-BB03-6CD1B01E2ECF}" type="POI" name="Ruins: Tower" owner="3DSpotters" lat="37.0680276" lon="27.4225615" alt="51.8"/> 
+<LandmarkLocation instanceId="{88FA5A4C-47C7-4297-9DC6-68559A341BB3}" type="POI" name="Archeo: Pedasa Visitor Center" owner="3DSpotters" lat="37.0662978" lon="27.4225501" alt="75.6"/> 
+<LandmarkLocation instanceId="{C8F4EC3A-6B17-43B4-9712-5A55529B8F9C}" type="POI" name="Ruins: Pedasa Castle" owner="3DSpotters" lat="37.0662157" lon="27.4186136" alt="64.4"/> 
+<LandmarkLocation instanceId="{05305CBB-3B7D-49C5-A84B-8B9EE2CBF506}" type="POI" name="Ruins: Kastelli" owner="3DSpotters" lat="36.7112923" lon="26.966104" alt="86.1"/> 
+<LandmarkLocation instanceId="{5955670B-22D6-4950-A1A1-B7E5EB5E23E4}" type="POI" name="LGKY: Kalymnos Island National Airport 235 m" owner="3DSpotters" lat="36.9634406" lon="26.9407219" alt="60.2"/> 
+<LandmarkLocation instanceId="{D95E051F-5EB6-44C5-9E04-416E2451147F}" type="POI" name="Peak: Mt. Zini 362 m" owner="3DSpotters" lat="36.7235025" lon="26.9739771" alt="95.55"/> 
+<LandmarkLocation instanceId="{7BB4FB70-085F-4904-8445-D8C13C61AA45}" type="POI" name="Peak: Latra 426 m" owner="3DSpotters" lat="36.7029358" lon="26.955554" alt="89.25"/> 
+<LandmarkLocation instanceId="{210CD750-8C2E-4E91-9B1C-C99ECA63359D}" type="POI" name="Peak: Σύμπετρο 482 m" owner="3DSpotters" lat="36.8580121" lon="27.3180448" alt="129.15"/> 
+<LandmarkLocation instanceId="{0462F9BB-C9AC-414E-B0A4-0DD0D306FD72}" type="POI" name="Suburb: Datça Mahallesi" owner="3DSpotters" lat="36.7391152" lon="27.6649668" alt="117.6"/> 
+<LandmarkLocation instanceId="{49E7E04B-B185-4CE8-AE8D-579EFF06A1E1}" type="POI" name="Village: Sındı" owner="3DSpotters" lat="36.7112972" lon="27.512195" alt="80.85"/> 
+<LandmarkLocation instanceId="{B1396811-6046-4921-8D66-7ABFF0B0652D}" type="POI" name="Village: Yazı" owner="3DSpotters" lat="36.6948672" lon="27.4475489" alt="106.05"/> 
+<LandmarkLocation instanceId="{0CB4D0D0-EA9C-425A-9D40-164040569848}" type="POI" name="Village: Hızırşah" owner="3DSpotters" lat="36.7394712" lon="27.6497775" alt="117.6"/> 
+<LandmarkLocation instanceId="{5CC88E13-D935-49C2-AB0F-1B9D98FBA620}" type="POI" name="Village: Gökpınar" owner="3DSpotters" lat="37.095623" lon="27.730011" alt="108.15"/> 
+<LandmarkLocation instanceId="{4A6E5817-85BE-4CBE-8FB2-EC88B212663A}" type="POI" name="Village: Meşelik" owner="3DSpotters" lat="37.148491" lon="27.595636" alt="81.9"/> 
+<LandmarkLocation instanceId="{5608C08B-5E23-48C5-A75B-AAD5A6033F47}" type="POI" name="Village: Sazköy" owner="3DSpotters" lat="37.098144" lon="27.609587" alt="78.75"/> 
+<LandmarkLocation instanceId="{A9631FFD-61E4-48F8-9B64-AA0D142B1331}" type="POI" name="Village: Çamlık" owner="3DSpotters" lat="37.068954" lon="27.537233" alt="101.85"/> 
+<LandmarkLocation instanceId="{B6AB60DE-8CFA-4A36-9317-527F1D502E86}" type="POI" name="Village: Asfendiou" owner="3DSpotters" lat="36.8528887" lon="27.2112808" alt="99.75"/> 
+<LandmarkLocation instanceId="{5A88FC74-CBDC-44A3-8C27-C02DD203B21A}" type="POI" name="Village: Kamari" owner="3DSpotters" lat="36.7395355" lon="26.9691568" alt="78.75"/> 
+<LandmarkLocation instanceId="{FDF95899-D4BC-4654-B8E3-232E47C2A4BE}" type="POI" name="Village: Pserimos" owner="3DSpotters" lat="36.93235" lon="27.1344889" alt="103.95"/> 
+<LandmarkLocation instanceId="{D38D195C-4F68-4EF4-BB19-36210197E99C}" type="POI" name="Village: Vathys" owner="3DSpotters" lat="36.9754861" lon="27.0256852" alt="127.05"/> 
+<LandmarkLocation instanceId="{3CA72C5E-59F7-41C1-B4F6-6439BFD754B4}" type="POI" name="Village: Vlychadia" owner="3DSpotters" lat="36.9325701" lon="26.9653138" alt="109.2"/> 
+<LandmarkLocation instanceId="{35F7E040-1322-4349-9191-0D05F3BD96BB}" type="POI" name="Town: Kalymnos" owner="3DSpotters" lat="36.9515787" lon="26.9820732" alt="109.62"/> 
+<LandmarkLocation instanceId="{CAA7FFB9-B306-4A47-9FF4-7DE599C69E5D}" type="POI" name="Village: Telendos" owner="3DSpotters" lat="36.9984265" lon="26.9211898" alt="82.95"/> 
+<LandmarkLocation instanceId="{15517860-F950-48BC-AB55-7166C116D341}" type="POI" name="Village: Alinda" owner="3DSpotters" lat="37.1635294" lon="26.8345615" alt="98.7"/> 
+<LandmarkLocation instanceId="{7875E3D8-397C-4C8E-A039-C448294C53FD}" type="POI" name="Village: Gourna" owner="3DSpotters" lat="37.1529103" lon="26.8330172" alt="90.3"/> 
+<LandmarkLocation instanceId="{9C4D4A5B-2904-45CA-86EB-60B4265BCF4E}" type="POI" name="Village: Drymonas" owner="3DSpotters" lat="37.1430083" lon="26.8269136" alt="124.95"/> 
+<LandmarkLocation instanceId="{4357BE2B-67E7-4EA8-8F7D-EAA20B8DC37B}" type="POI" name="Village: Kamara" owner="3DSpotters" lat="37.1616081" lon="26.8212038" alt="123.9"/> 
+<LandmarkLocation instanceId="{E967BA3A-C87A-43AC-B013-6DC76E631368}" type="POI" name="Village: Xirokampos" owner="3DSpotters" lat="37.1103882" lon="26.8681794" alt="106.05"/> 
+<LandmarkLocation instanceId="{B10A9B5C-E1E4-4C47-912A-30FBA3943AD7}" type="POI" name="Village: Temenia" owner="3DSpotters" lat="37.1277026" lon="26.8623383" alt="108.15"/> 
+<LandmarkLocation instanceId="{C55ABBBE-A945-4353-834C-788080BE1C9C}" type="POI" name="Peak: Kara Dağ 712 m" owner="3DSpotters" lat="36.7136527" lon="27.6368319" alt="103.95"/> 
+<LandmarkLocation instanceId="{0D7734D4-3385-43F0-88E0-926284F068AC}" type="POI" name="Peak: Flag Hill 180 m" owner="3DSpotters" lat="36.9916278" lon="27.2648467" alt="105.0"/> 
+<LandmarkLocation instanceId="{36F56D8E-FC20-4F04-AABB-D8E8B3185E12}" type="POI" name="Peak: Çilekdağı 379 m" owner="3DSpotters" lat="37.0614085" lon="27.3095376" alt="116.55"/> 
+<LandmarkLocation instanceId="{AAC39F31-F3A6-45D3-A951-AE9064A2DDC4}" type="POI" name="Village: Pınarlıbelen" owner="3DSpotters" lat="37.077473" lon="27.599711" alt="115.5"/> 
+<LandmarkLocation instanceId="{75B3DE3D-01C2-4A07-A7AA-212ABA45B873}" type="POI" name="Village: Platani" owner="3DSpotters" lat="36.8825518" lon="27.26984" alt="76.65"/> 
+<LandmarkLocation instanceId="{6074C7EF-DE25-4DCB-978E-034AC718F86C}" type="POI" name="Village: Giapili" owner="3DSpotters" lat="36.8722927" lon="27.2968077" alt="130.2"/> 
+<LandmarkLocation instanceId="{D7DFBE86-61A4-4991-AF82-FE9CBC5A439B}" type="POI" name="Village: Paradisi" owner="3DSpotters" lat="36.8791042" lon="27.3142229" alt="76.65"/> 
+<LandmarkLocation instanceId="{053FFDFF-BDB5-4BFD-A715-AFAE71F14ABA}" type="POI" name="Ruins: Old Greek Church" owner="3DSpotters" lat="37.0323414" lon="27.3744542" alt="77.0"/> 
+<LandmarkLocation instanceId="{A5ED51CB-2CC4-466C-9817-559128303C0D}" type="POI" name="Peak: Koca Dağı 474 m" owner="3DSpotters" lat="37.0150805" lon="27.5297844" alt="119.7"/> 
+<LandmarkLocation instanceId="{A375B8D2-5E75-405F-B771-CE7C3C6D8113}" type="POI" name="Peak: Bulgar Dağı 608 m" owner="3DSpotters" lat="37.0640238" lon="27.7137495" alt="77.7"/> 
+<LandmarkLocation instanceId="{4AED1B59-73C2-41DD-8D38-1FE01CF7D660}" type="POI" name="Peak: Gavur Dağı 585 m" owner="3DSpotters" lat="37.0484429" lon="27.6429213" alt="82.95"/> 
+<LandmarkLocation instanceId="{DDE61954-84D8-4AD1-987E-6C16D740F053}" type="POI" name="Peak: Kuşça Dağı 522 m" owner="3DSpotters" lat="37.0412576" lon="27.6033495" alt="95.55"/> 
+<LandmarkLocation instanceId="{539C693D-1B0B-43C6-8029-0FF6AF0DCE31}" type="POI" name="Peak: Yalı Dağı 308 m" owner="3DSpotters" lat="36.9925736" lon="27.5538196" alt="73.5"/> 
+<LandmarkLocation instanceId="{19A8C191-1DD8-4C3B-95A5-910F5B0AF158}" type="POI" name="Peak: Bayrak Tepesi 61 m" owner="3DSpotters" lat="37.0547545" lon="27.2300486" alt="91.35"/> 
+<LandmarkLocation instanceId="{48AFC7F8-F748-4EDA-B666-CA75F9632267}" type="POI" name="Village: Dağbelen" owner="3DSpotters" lat="37.086887" lon="27.3420897" alt="129.15"/> 
+<LandmarkLocation instanceId="{CE1D508C-0B4D-4D5B-BF60-22BB6DC7306C}" type="POI" name="Archeo: Knidos" owner="3DSpotters" lat="36.7355973" lon="27.6993785" alt="59.5"/> 
+<LandmarkLocation instanceId="{4E2B34D4-532B-4D7F-9799-A418074BC994}" type="POI" name="Archeo: Ancient Stadium" owner="3DSpotters" lat="36.8935185" lon="27.2853841" alt="76.3"/> 
+<LandmarkLocation instanceId="{1E9BC091-A4D3-4152-896D-6B6D630633EB}" type="POI" name="Archeo: Altar of Dionisus" owner="3DSpotters" lat="36.8908352" lon="27.2896896" alt="85.4"/> 
+<LandmarkLocation instanceId="{E15AA7B6-DA11-4E2D-A3BD-F6CF097956F5}" type="POI" name="Ferry_terminal: Κάλυμνος" owner="3DSpotters" lat="36.9486956" lon="26.9872845" alt="86.1"/> 
+<LandmarkLocation instanceId="{07D8B3D1-9E82-40C4-B98D-65785BA60BA7}" type="POI" name="Chapel: Ágios Isídoros" owner="3DSpotters" lat="37.1535663" lon="26.8142252" alt="67.2"/> 
+<LandmarkLocation instanceId="{2A085BAA-F66E-4A70-B4C2-72E8FC42E084}" type="POI" name="Ferry_terminal: Kos" owner="3DSpotters" lat="36.8979356" lon="27.2883859" alt="79.8"/> 
+<LandmarkLocation instanceId="{EAC0DBF8-45BF-4EC8-B3B2-6F5F23665D30}" type="POI" name="Ferry_terminal: Leros" owner="3DSpotters" lat="37.1278106" lon="26.8495505" alt="63.0"/> 
+<LandmarkLocation instanceId="{09A3F9CB-B452-4596-AF46-3F63D519E7DB}" type="POI" name="Chapel: Panaghia Eleousa" owner="3DSpotters" lat="37.1638853" lon="26.8115781" alt="69.3"/> 
+<LandmarkLocation instanceId="{AA295092-304D-4687-AAA8-1A044D03F082}" type="POI" name="Chapel: Aghios Petros" owner="3DSpotters" lat="37.1371193" lon="26.8229353" alt="65.1"/> 
+<LandmarkLocation instanceId="{92723C96-0063-4FA6-87B6-6C81110E8B09}" type="POI" name="Chapel: Prophitis Ilias" owner="3DSpotters" lat="37.1346287" lon="26.8285308" alt="77.7"/> 
+<LandmarkLocation instanceId="{6AC990B5-C970-4631-B962-C35ADCE9FCC1}" type="POI" name="Chapel: Aghios Raphael" owner="3DSpotters" lat="37.1346413" lon="26.8304024" alt="56.0"/> 
+<LandmarkLocation instanceId="{C2840D62-EA01-4BF7-94CC-C18EB7B9BBF9}" type="POI" name="Chapel: Aghios Gerghios" owner="3DSpotters" lat="37.1421731" lon="26.8216358" alt="78.4"/> 
+<LandmarkLocation instanceId="{A278F878-B70C-4869-AC66-56D87FE87C6A}" type="POI" name="Chapel: Aghios Spyiridhonas" owner="3DSpotters" lat="37.1247631" lon="26.8323155" alt="53.9"/> 
+<LandmarkLocation instanceId="{186E2C9A-F18D-4EC4-9BA9-5A36C7E12854}" type="POI" name="Archeo: Old Hellenic theatre" owner="3DSpotters" lat="36.7306311" lon="26.9564178" alt="70.0"/> 
+<LandmarkLocation instanceId="{9B1B149C-73DD-4C23-B4BA-A7746D0D7626}" type="POI" name="Ruins: Rock Tombs" owner="3DSpotters" lat="37.1277063" lon="27.2815195" alt="69.3"/> 
+<LandmarkLocation instanceId="{082E75B7-FE2F-4FE7-8CE9-3ABA234DED2A}" type="POI" name="Ruins: Ruinen - Geisterstadt" owner="3DSpotters" lat="36.8536762" lon="27.2282242" alt="59.5"/> 
+<LandmarkLocation instanceId="{DEAB8BB5-7059-4AAA-A7C8-DF2ED23A4EF2}" type="POI" name="Castle: Castle of Kefalos" owner="3DSpotters" lat="36.7444561" lon="26.9625864" alt="67.2"/> 
+<LandmarkLocation instanceId="{9B2F3421-19B8-482B-8B30-B98679591DDC}" type="POI" name="Ruins: Old Agios Mamas" owner="3DSpotters" lat="36.6782625" lon="26.9672146" alt="65.8"/> 
+<LandmarkLocation instanceId="{9D89A175-2E7A-4E56-A99C-D711BF91D785}" type="POI" name="Castle: Palio Pyli Castle" owner="3DSpotters" lat="36.8391428" lon="27.1866745" alt="66.5"/> 
+<LandmarkLocation instanceId="{453496EE-9D9B-46A7-B94F-BDA5D71C9DE6}" type="POI" name="Attraction: Kasteli Climbing Sector" owner="3DSpotters" lat="37.0171715" lon="26.9391001" alt="73.5"/> 
+<LandmarkLocation instanceId="{BD88920E-2634-4571-84B0-B339BE5383EE}" type="POI" name="Attraction: Kos Natural Park of Zia" owner="3DSpotters" lat="36.847172" lon="27.2071876" alt="80.5"/> 
+<LandmarkLocation instanceId="{79EAD5D4-7F8B-4801-848C-551D0FE3DB85}" type="POI" name="Ruins: Chapel" owner="3DSpotters" lat="36.7008418" lon="27.6730075" alt="85.4"/> 
+<LandmarkLocation instanceId="{826DB502-3837-4005-AF19-657BE6E7EBFB}" type="POI" name="Monument: Yener" owner="3DSpotters" lat="36.7286168" lon="27.6868516" alt="63.7"/> 
+<LandmarkLocation instanceId="{591BBB17-493B-4E93-940E-A8E7731B0C2E}" type="POI" name="Temple: AGIOI PANTES" owner="3DSpotters" lat="36.8811541" lon="27.314801" alt="56.7"/> 
+<LandmarkLocation instanceId="{84A25B6C-C006-4F1F-A4FB-D465ABF6F731}" type="POI" name="Monument: Monument of 'Poseidon'" owner="3DSpotters" lat="36.8503569" lon="27.0761109" alt="53.9"/> 
+<LandmarkLocation instanceId="{7CAEAAD5-3566-4483-A1B7-E6993FCCC0FD}" type="POI" name="Ruins: Alakilise" owner="3DSpotters" lat="36.9989699" lon="27.6493869" alt="77.0"/> 
+<LandmarkLocation instanceId="{58136DB0-9E1E-41B5-A411-1DCF13A67EF9}" type="POI" name="Attraction: War Museum" owner="3DSpotters" lat="37.1273443" lon="26.8396302" alt="49.0"/> 
+<LandmarkLocation instanceId="{BC812353-297E-45CE-BB62-07786F5694AF}" type="POI" name="Castle: Bunker" owner="3DSpotters" lat="36.8761905" lon="27.1396054" alt="76.3"/> 
+<LandmarkLocation instanceId="{BC49D257-554E-43F7-9917-E62F3FFD443C}" type="POI" name="Castle: Bunker" owner="3DSpotters" lat="36.8759572" lon="27.1392969" alt="65.8"/> 
+<LandmarkLocation instanceId="{DC3AAF5D-FA15-4014-9D2D-EB9F33DB0298}" type="POI" name="Castle: Bunker" owner="3DSpotters" lat="36.8790558" lon="27.1431683" alt="70.7"/> 
+<LandmarkLocation instanceId="{9A48F110-C1A4-44FD-B3E7-04BB334F118D}" type="POI" name="Castle: Bunker Reste?" owner="3DSpotters" lat="36.8745757" lon="27.1370592" alt="50.4"/> 
+<LandmarkLocation instanceId="{A990BE33-B09C-4A3B-A815-15CD19EB441F}" type="POI" name="Castle: Bunker (Unterstand)" owner="3DSpotters" lat="36.8741049" lon="27.1365708" alt="71.4"/> 
+<LandmarkLocation instanceId="{44337222-30E5-4AEE-8FB8-6F0375378BE5}" type="POI" name="Ruins: Agios Ioannis - Early Christian Basilica" owner="3DSpotters" lat="36.9860751" lon="26.9312044" alt="67.2"/> 
+<LandmarkLocation instanceId="{ADA28E1E-3383-4884-98B9-E5DCC8906AE1}" type="POI" name="Ruins: Christos tis Ierusalem (Early Christian Basilika)" owner="3DSpotters" lat="36.9654482" lon="26.9502826" alt="53.2"/> 
+<LandmarkLocation instanceId="{C2171813-B125-47C3-B382-C284CBE71EF9}" type="POI" name="Island: Πράσο" owner="3DSpotters" lat="36.7747543" lon="26.9649503" alt="148.68"/> 
+<LandmarkLocation instanceId="{8B612426-F669-4A4B-8137-6EA69AB64D9C}" type="POI" name="Attraction: ŞEVKET SABACI  CULTUR CENTER" owner="3DSpotters" lat="37.0008761" lon="27.2600334" alt="82.6"/> 
+<LandmarkLocation instanceId="{1C3D616C-B605-4F85-B033-471AF3C046EE}" type="POI" name="Attraction: D - MARİN  TURGUTREİS  MARİNA" owner="3DSpotters" lat="37.0009779" lon="27.2586459" alt="84.7"/> 
+<LandmarkLocation instanceId="{71FFA37C-CA74-4F08-ACC9-CE33678A3EF5}" type="POI" name="Attraction: Świnna beach" owner="3DSpotters" lat="36.7329986" lon="27.6985779" alt="88.9"/> 
+<LandmarkLocation instanceId="{21E09FEC-2CC0-407D-A120-A84C31466543}" type="POI" name="Attraction: ŞEVKET SABANCI PARKI" owner="3DSpotters" lat="36.9954292" lon="27.25821" alt="63.0"/> 
+<LandmarkLocation instanceId="{DE57D662-26EF-4E94-941D-414CA54BDC08}" type="POI" name="Ruins: Kastelli" owner="3DSpotters" lat="37.0167252" lon="26.9390478" alt="63.0"/> 
+<LandmarkLocation instanceId="{4F2AFB50-AB04-4653-A7A9-93CEA245CF8E}" type="POI" name="Chapel: Agia Paraskevi" owner="3DSpotters" lat="36.9505919" lon="26.9755002" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{61D85B16-C5A0-4BB1-B835-725337199D5D}" type="POI" name="Chapel: Agia Anna" owner="3DSpotters" lat="36.950285" lon="26.9752264" alt="59.5"/> 
+<LandmarkLocation instanceId="{BA9DDAF7-0D38-4E5F-AA62-81CA42028143}" type="POI" name="Chapel: Agios Paisios" owner="3DSpotters" lat="36.9572112" lon="26.9478209" alt="79.8"/> 
+<LandmarkLocation instanceId="{418A4281-AD67-447E-BEF2-B386C9089D0A}" type="POI" name="Attraction: Gebe Kilise" owner="3DSpotters" lat="37.0806166" lon="27.4467813" alt="88.2"/> 
+<LandmarkLocation instanceId="{29CA9FC5-B9C9-4FB5-AA5A-20450856BAC8}" type="POI" name="Peak: 106m" owner="3DSpotters" lat="37.0618747" lon="27.0923361" alt="79.8"/> 
+<LandmarkLocation instanceId="{07694818-1468-472D-BB5A-07C6DDD3FEEA}" type="POI" name="Attraction: Aquarium bay" owner="3DSpotters" lat="36.6893399" lon="27.6762416" alt="80.5"/> 
+<LandmarkLocation instanceId="{D9BC95D4-4B6B-42A8-AD66-A8511B14F02B}" type="POI" name="Bus_station: Datça Otogarı" owner="3DSpotters" lat="36.7323957" lon="27.6819654" alt="63.0"/> 
+<LandmarkLocation instanceId="{90201BDE-D1C4-44CA-A06A-1E639FCEBB77}" type="POI" name="Attraction: Turquoise Diving Centre" owner="3DSpotters" lat="37.0289828" lon="27.4386" alt="79.8"/> 
+<LandmarkLocation instanceId="{90AAF0CF-5DCB-4D8A-AE40-DEFA251D781A}" type="POI" name="Archeo: Early Christian Tomb" owner="3DSpotters" lat="36.9291911" lon="26.9835269" alt="83.3"/> 
+<LandmarkLocation instanceId="{BE5337EE-1DDE-477A-85DB-D84187E41FC9}" type="POI" name="Ferry_terminal: Bodrum - Datça" owner="3DSpotters" lat="37.0362075" lon="27.4269396" alt="49.0"/> 
+<LandmarkLocation instanceId="{51C8D1A3-DDA4-41A0-A714-E131691C17DD}" type="POI" name="Attraction: AeroPhone - Listening Wall 2nd World War built by the Italians" owner="3DSpotters" lat="37.1261899" lon="26.8197863" alt="85.4"/> 
+<LandmarkLocation instanceId="{4014C266-96CB-4349-8356-C9D8247DB5EC}" type="POI" name="Attraction: Old Bunker" owner="3DSpotters" lat="36.8992215" lon="27.2474878" alt="89.6"/> 
+<LandmarkLocation instanceId="{12121E88-9E0B-4D55-8E80-DBCCEADEF0D2}" type="POI" name="Peak: 122 113 m" owner="3DSpotters" lat="36.9625825" lon="27.3020939" alt="90.3"/> 
+<LandmarkLocation instanceId="{621D71B2-A181-4F3D-931F-DBDB3CBDF6EC}" type="POI" name="Peak: 125 128 m" owner="3DSpotters" lat="36.9653693" lon="27.3016543" alt="127.05"/> 
+<LandmarkLocation instanceId="{6D2EAEC5-4EBC-4647-9EE2-7F1B84FB1E96}" type="POI" name="Peak: 179 182 m" owner="3DSpotters" lat="37.0296441" lon="27.2616826" alt="119.7"/> 
+<LandmarkLocation instanceId="{8349C8AA-7C17-4545-AF56-8C6792B4E086}" type="POI" name="Peak: 207 204 m" owner="3DSpotters" lat="37.0344993" lon="27.2589152" alt="100.8"/> 
+<LandmarkLocation instanceId="{142E9A9A-FF6B-4FD2-870B-3D0E25C3B58B}" type="POI" name="Peak: 215 218 m" owner="3DSpotters" lat="37.0364779" lon="27.2594494" alt="103.95"/> 
+<LandmarkLocation instanceId="{3228975E-DA65-4FD9-AD50-56F145EFDE57}" type="POI" name="Peak: 182 177 m" owner="3DSpotters" lat="36.9804661" lon="27.3173959" alt="131.25"/> 
+<LandmarkLocation instanceId="{304D3935-0F19-413F-87CA-ED42474AFCB5}" type="POI" name="Monument: Traditional House of Kefalos" owner="3DSpotters" lat="36.7692768" lon="27.0198958" alt="78.4"/> 
+<LandmarkLocation instanceId="{2C88B35A-D600-4168-876C-52598DE42750}" type="POI" name="Suburb: İskele Mahallesi" owner="3DSpotters" lat="36.7317539" lon="27.6848182" alt="90.3"/> 
+<LandmarkLocation instanceId="{6C27359E-DEEF-46A4-B5C2-1D068CDCAA59}" type="POI" name="Suburb: Çiftlik" owner="3DSpotters" lat="37.0122626" lon="27.5585315" alt="73.5"/> 
+<LandmarkLocation instanceId="{C04137AC-5DE1-47AC-8C73-36650888E113}" type="POI" name="Suburb: Kızılağaç" owner="3DSpotters" lat="37.0338542" lon="27.4947955" alt="100.8"/> 
+<LandmarkLocation instanceId="{3E87BD89-591D-4206-B3A0-1A61F0FCE9D7}" type="POI" name="Suburb: Gölbaşı" owner="3DSpotters" lat="37.1220668" lon="27.6564142" alt="106.05"/> 
+<LandmarkLocation instanceId="{13D0F54E-3B86-4FA5-ACEA-DF6D3B4CFD04}" type="POI" name="Suburb: Karaova" owner="3DSpotters" lat="37.106779" lon="27.663798" alt="119.7"/> 
+<LandmarkLocation instanceId="{D9338576-32E8-49B6-A7B8-7CDD274343A7}" type="POI" name="Suburb: Mumcular" owner="3DSpotters" lat="37.1031894" lon="27.6665636" alt="110.25"/> 
+<LandmarkLocation instanceId="{F5AB3ECA-5552-4A5E-B4F8-2C36DBD28C0B}" type="POI" name="Suburb: Bitez" owner="3DSpotters" lat="37.0437876" lon="27.3793754" alt="114.45"/> 
+<LandmarkLocation instanceId="{B3F3DCF2-F6A8-460F-869A-002940EDEF23}" type="POI" name="Suburb: Torba Mah." owner="3DSpotters" lat="37.0739845" lon="27.4592747" alt="133.35"/> 
+<LandmarkLocation instanceId="{56BE6031-8AC8-4EC7-AD53-72B2E480DAD6}" type="POI" name="Suburb: Kumbahçe Mah." owner="3DSpotters" lat="37.0301666" lon="27.4405851" alt="75.6"/> 
+<LandmarkLocation instanceId="{A7751BA5-9223-473D-AD6D-28E21AC7B011}" type="POI" name="Suburb: Umurca Mah." owner="3DSpotters" lat="37.0348756" lon="27.442592" alt="89.25"/> 
+<LandmarkLocation instanceId="{ACEF9F2F-80E8-4593-955F-1A24601F0D5B}" type="POI" name="Suburb: Yokuşbaşı Mah." owner="3DSpotters" lat="37.0407513" lon="27.4362464" alt="111.3"/> 
+<LandmarkLocation instanceId="{E2268107-119F-4F22-B571-E0023AC3A248}" type="POI" name="Suburb: Çarşı Mah." owner="3DSpotters" lat="37.0364747" lon="27.433118" alt="110.25"/> 
+<LandmarkLocation instanceId="{68B50178-3B5D-4C1A-9A76-7A2855256532}" type="POI" name="Suburb: Tepecik Mah." owner="3DSpotters" lat="37.0375215" lon="27.4261147" alt="122.85"/> 
+<LandmarkLocation instanceId="{6A78FA4B-B2EB-4B72-B2D0-35776D050287}" type="POI" name="Suburb: Türkkuyusu Mah." owner="3DSpotters" lat="37.0399486" lon="27.428648" alt="111.3"/> 
+<LandmarkLocation instanceId="{28E5261C-9562-4225-80B2-A2803DFFBDA9}" type="POI" name="Suburb: Eskiçeşme Mah." owner="3DSpotters" lat="37.0349638" lon="27.4201588" alt="88.2"/> 
+<LandmarkLocation instanceId="{E0CD0CF1-3DF6-43B7-A103-225D28114BAD}" type="POI" name="Suburb: Yeniköy Mah." owner="3DSpotters" lat="37.0386542" lon="27.4198953" alt="95.55"/> 
+<LandmarkLocation instanceId="{43BC9545-8656-44E1-835E-10A8EB8B83A8}" type="POI" name="Suburb: Cevat Şakir Mah." owner="3DSpotters" lat="37.0400963" lon="27.4079566" alt="136.5"/> 
+<LandmarkLocation instanceId="{CF8B916C-EBD2-4CC2-89DF-4A0548C7E92D}" type="POI" name="Suburb: Gümbet Mah." owner="3DSpotters" lat="37.0331908" lon="27.4049706" alt="117.6"/> 
+<LandmarkLocation instanceId="{58EF69CD-18C1-4297-8635-15C18EF7600B}" type="POI" name="Suburb: Cumhuriyet Mah." owner="3DSpotters" lat="37.0445867" lon="27.4090256" alt="130.2"/> 
+<LandmarkLocation instanceId="{C97108C0-599B-4EA3-B14A-75180FBFEAD9}" type="POI" name="Suburb: Çırkan" owner="3DSpotters" lat="37.0482335" lon="27.4036422" alt="105.0"/> 
+<LandmarkLocation instanceId="{56CA947A-1A6D-42AB-9E69-DAA29E24C7CB}" type="POI" name="Suburb: Konacık" owner="3DSpotters" lat="37.0497485" lon="27.3983348" alt="98.7"/> 
+<LandmarkLocation instanceId="{540B4622-CE75-452F-8B4D-62C682DFD951}" type="POI" name="Suburb: Müskebi" owner="3DSpotters" lat="37.0476678" lon="27.3494172" alt="92.4"/> 
+<LandmarkLocation instanceId="{B689C1A7-A1AB-40F7-AAC0-4D07573BECA2}" type="POI" name="Suburb: Peksimet" owner="3DSpotters" lat="37.0409377" lon="27.271902" alt="117.6"/> 
+<LandmarkLocation instanceId="{F0CFBB96-8944-46BE-A5F4-592EF39246A7}" type="POI" name="Suburb: Bahçelievler" owner="3DSpotters" lat="37.0125804" lon="27.2610014" alt="92.4"/> 
+<LandmarkLocation instanceId="{4E5671EE-ED7A-48CC-B80D-F899FBBAD06A}" type="POI" name="Suburb: Turgutreis" owner="3DSpotters" lat="37.0077807" lon="27.2569224" alt="73.5"/> 
+<LandmarkLocation instanceId="{E690406F-4518-43A8-BECB-0A9CA380F641}" type="POI" name="Suburb: Karabağ" owner="3DSpotters" lat="37.0000805" lon="27.2762236" alt="93.45"/> 
+<LandmarkLocation instanceId="{3F85E2B1-61A4-4C62-B307-85707EC53B3A}" type="POI" name="Suburb: Akçaalan" owner="3DSpotters" lat="37.0137823" lon="27.2771064" alt="102.9"/> 
+<LandmarkLocation instanceId="{D4209E6C-330B-4058-8C23-EEB44FA9B3D5}" type="POI" name="Suburb: Gümüşlük" owner="3DSpotters" lat="37.0529305" lon="27.2502465" alt="91.35"/> 
+<LandmarkLocation instanceId="{745BD54B-AE27-434C-9268-A1EB75CD032A}" type="POI" name="Suburb: Koyunbaba" owner="3DSpotters" lat="37.0739741" lon="27.2451251" alt="84.0"/> 
+<LandmarkLocation instanceId="{0361B697-3768-4C7D-9771-BD6D76E0CB2D}" type="POI" name="Suburb: Geriş" owner="3DSpotters" lat="37.0853482" lon="27.2781254" alt="92.4"/> 
+<LandmarkLocation instanceId="{6D4A1B01-D0D1-4DB2-A0EE-944F31989D2A}" type="POI" name="Suburb: Yalıkavak" owner="3DSpotters" lat="37.1056168" lon="27.293058" alt="88.2"/> 
+<LandmarkLocation instanceId="{DEB0C869-4EA7-48D7-BCF3-12BF037054F7}" type="POI" name="Suburb: Dirmil" owner="3DSpotters" lat="37.1059591" lon="27.3244289" alt="87.15"/> 
+<LandmarkLocation instanceId="{4A568F65-D975-462F-98BB-29EFC685ADB7}" type="POI" name="Suburb: Küçükbük" owner="3DSpotters" lat="37.1382277" lon="27.3540506" alt="79.8"/> 
+<LandmarkLocation instanceId="{843608B6-FB93-4031-AC1A-478D49BB653A}" type="POI" name="Suburb: Farilya" owner="3DSpotters" lat="37.1159926" lon="27.3472467" alt="124.95"/> 
+<LandmarkLocation instanceId="{C8D5EB57-2805-4A68-A934-FF3472B88B70}" type="POI" name="Suburb: Gündoğan" owner="3DSpotters" lat="37.1294427" lon="27.3429924" alt="84.0"/> 
+<LandmarkLocation instanceId="{72FD38B1-996C-415C-AE93-03CF9A6D5557}" type="POI" name="Island: Çatal Ada" owner="3DSpotters" lat="37.0050995" lon="27.2156333" alt="118.44"/> 
+<LandmarkLocation instanceId="{D1D590A7-9405-49B1-991A-1C30B379561D}" type="POI" name="Island: Sarıot Ada" owner="3DSpotters" lat="36.9915151" lon="27.2243237" alt="162.54"/> 
+<LandmarkLocation instanceId="{9D55382E-0977-432D-8C62-23436BCB98B9}" type="POI" name="Island: Tüllüce Adası" owner="3DSpotters" lat="36.9847919" lon="27.2312055" alt="146.16"/> 
+<LandmarkLocation instanceId="{F3B4B8AB-8C45-433C-A3A3-E1E49E136B71}" type="POI" name="Island: Orak Adası" owner="3DSpotters" lat="36.9734398" lon="27.5949324" alt="157.5"/> 
+<LandmarkLocation instanceId="{B8365BA0-D29D-41D0-8F9F-1069D9418F91}" type="POI" name="Island: Black Island" owner="3DSpotters" lat="36.9773712" lon="27.4583736" alt="151.2"/> 
+<LandmarkLocation instanceId="{6E85683A-3367-4B3B-980F-75EBF17D7445}" type="POI" name="Island: Giali" owner="3DSpotters" lat="36.66069" lon="27.1241035" alt="119.7"/> 
+<LandmarkLocation instanceId="{41C0C394-775E-4FB7-835A-59A1FA1C4658}" type="POI" name="Island: Küçük Tavşan Adası" owner="3DSpotters" lat="37.1680892" lon="27.3701837" alt="95.76"/> 
+<LandmarkLocation instanceId="{B8A19915-5841-4735-92C2-9D2DDD405755}" type="POI" name="Island: Salih Adası" owner="3DSpotters" lat="37.1529935" lon="27.5132809" alt="107.1"/> 
+<LandmarkLocation instanceId="{59F6907E-DFAB-4ABA-B1D4-A0E43F1936CD}" type="POI" name="Island: Büyük Ada" owner="3DSpotters" lat="37.1384993" lon="27.3900448" alt="133.56"/> 
+<LandmarkLocation instanceId="{193BF2D9-F08B-4C51-85BF-E3883B2812EB}" type="POI" name="Island: İkiz Adaları" owner="3DSpotters" lat="37.1211041" lon="27.4720746" alt="157.5"/> 
+<LandmarkLocation instanceId="{2DC989D0-74FF-43E6-8C93-7F8D705BE2EB}" type="POI" name="Island: Küçükkiremit Adası" owner="3DSpotters" lat="37.0884729" lon="27.2367657" alt="122.22"/> 
+<LandmarkLocation instanceId="{BA6F1A96-6ACA-4F9B-BA89-0231756D00E2}" type="POI" name="Island: Büyükkiremit Adası" owner="3DSpotters" lat="37.085023" lon="27.2097255" alt="160.02"/> 
+<LandmarkLocation instanceId="{B0B3DD24-2E06-4BAE-BBC7-26772E9EE333}" type="POI" name="Island: Çavuş Adası" owner="3DSpotters" lat="37.0486092" lon="27.2015987" alt="109.62"/> 
+<LandmarkLocation instanceId="{D5A96AE1-7341-46E0-ACB7-D68389B4FB88}" type="POI" name="Island: Topan Adası" owner="3DSpotters" lat="37.0052479" lon="27.1815594" alt="122.22"/> 
+<LandmarkLocation instanceId="{38EA8C7B-AE59-4826-9313-769D2535FB32}" type="POI" name="Attraction: Anfi Tiyatro" owner="3DSpotters" lat="36.9958476" lon="27.25819" alt="72.8"/> 
+<LandmarkLocation instanceId="{3A621081-D2E5-4676-A53E-146A66F39F98}" type="POI" name="Island: Rabbit Island" owner="3DSpotters" lat="37.0529433" lon="27.2332446" alt="161.28"/> 
+<LandmarkLocation instanceId="{D587BAAB-FDE0-4AE4-9806-5439142B3BB8}" type="POI" name="Lake: Linopotti Lake" owner="3DSpotters" lat="36.8644911" lon="27.1595773" alt="56.7"/> 
+<LandmarkLocation instanceId="{3ADB2BE2-18FA-4015-898D-6FBC6A727689}" type="POI" name="Attraction: Paleo Pili" owner="3DSpotters" lat="36.8381634" lon="27.1868034" alt="74.2"/> 
+<LandmarkLocation instanceId="{0D1A2E68-4942-4C42-BA25-AA8523E3627C}" type="POI" name="Castle: Bodrum Castle" owner="3DSpotters" lat="37.0318147" lon="27.4292652" alt="80.5"/> 
+<LandmarkLocation instanceId="{F766D9CF-126B-42B4-BBA5-FBB74D431EB4}" type="POI" name="Lake: Alykes" owner="3DSpotters" lat="36.884918" lon="27.1713422" alt="63.7"/> 
+<LandmarkLocation instanceId="{36658FEA-3EA4-4F36-8695-11832C355FD2}" type="POI" name="Archeo: Gymnasion" owner="3DSpotters" lat="36.8912165" lon="27.2851472" alt="49.0"/> 
+<LandmarkLocation instanceId="{8595AAED-7144-4F6C-8DB1-182F6B3341E4}" type="POI" name="Archeo: Ancient Agora" owner="3DSpotters" lat="36.8936897" lon="27.2908841" alt="63.0"/> 
+<LandmarkLocation instanceId="{46C38A89-3943-4DF3-8728-8EA20A61A3F4}" type="POI" name="Castle: Castle of Antimachia" owner="3DSpotters" lat="36.8028374" lon="27.1287939" alt="70.7"/> 
+<LandmarkLocation instanceId="{65F8805E-A4AE-4A26-9C1E-E171AE2CDE00}" type="POI" name="Archeo: Roman Odeon" owner="3DSpotters" lat="36.8896562" lon="27.2847772" alt="83.3"/> 
+<LandmarkLocation instanceId="{50C30DD5-7705-4EC8-944B-8EA1EBEC5DF4}" type="POI" name="River: Kocadere" owner="3DSpotters" lat="37.1140806" lon="27.6746082" alt="88.9"/> 
+<LandmarkLocation instanceId="{C14EE55E-CD3F-4EA9-AB6D-60BD1062067C}" type="POI" name="Temple: Turgutreis Merkez Camii" owner="3DSpotters" lat="37.0068821" lon="27.2570367" alt="88.2"/> 
+<LandmarkLocation instanceId="{577B0031-62F9-489F-A697-477D54F18F91}" type="POI" name="Island: Καστρί" owner="3DSpotters" lat="36.7496906" lon="26.9880124" alt="104.58"/> 
+<LandmarkLocation instanceId="{6A08E64C-52E8-4758-8C0C-8C643EC4CAB7}" type="POI" name="Beach: Yeşil Plaj" owner="3DSpotters" lat="37.0225071" lon="27.3653876" alt="63.7"/> 
+<LandmarkLocation instanceId="{7A9671F6-2F3F-4C72-8803-D2F91C13C622}" type="POI" name="Archeo: Casa Romana" owner="3DSpotters" lat="36.8899425" lon="27.2885847" alt="71.4"/> 
+<LandmarkLocation instanceId="{73389EFA-7109-48DB-887A-C993A0F184F3}" type="POI" name="Reservoir: ΛΙΜΝΟΔΕΞΑΜΕΝΗ ΑΓΙΟΥ ΝΕΚΤΑΡΙΟΥ" owner="3DSpotters" lat="36.8681546" lon="27.2931729" alt="64.4"/> 
+<LandmarkLocation instanceId="{AB451A40-130F-4EAB-A137-091F8A7D8ADD}" type="POI" name="Theatre: Theatre" owner="3DSpotters" lat="36.6859998" lon="27.3752444" alt="65.8"/> 
+<LandmarkLocation instanceId="{E03EE455-20B8-4CB1-8D52-E6962D73C1BB}" type="POI" name="Military: NIKE launch site" owner="3DSpotters" lat="36.7331507" lon="27.5659217" alt="81.9"/> 
+<LandmarkLocation instanceId="{06E83FA2-B0BC-47C9-88DC-BEA461C728AD}" type="POI" name="Military: NIKE launch site" owner="3DSpotters" lat="36.7353477" lon="27.5665114" alt="73.5"/> 
+<LandmarkLocation instanceId="{543CCBF8-8C3D-49A6-842B-B2D3E4920360}" type="POI" name="Military: NIKE" owner="3DSpotters" lat="36.7303038" lon="27.5787681" alt="55.3"/> 
+<LandmarkLocation instanceId="{317722A8-91D2-4A3F-A561-B30D7F23D46C}" type="POI" name="Nature_reserve: Άγ. Πάντες (Καλύμνου)" owner="3DSpotters" lat="36.9503844" lon="26.966533" alt="50.4"/> 
+<LandmarkLocation instanceId="{AD7D7784-260C-40AF-9121-D7B7955AB228}" type="POI" name="Nature_reserve: Αγ. Θεολόγος - Χαλί Νήσου Καλύμνου" owner="3DSpotters" lat="36.959525" lon="27.0408617" alt="89.6"/> 
+<LandmarkLocation instanceId="{67164566-AA5E-44A5-BDEB-9947263392B8}" type="POI" name="Nature_reserve: Βίγλες-Αγριελιά-Θυμιανός-Ρίχτης-Παναγιά Στυλώτη (Κέφαλου Κω)" owner="3DSpotters" lat="36.709603" lon="26.9427824" alt="50.4"/> 
+<LandmarkLocation instanceId="{917E55A1-FDE4-4808-9E64-C939FCBE31C8}" type="POI" name="Nature_reserve: Ασφενδιού - Πυλίου Δήμου Δικαίου Νήσου Κω" owner="3DSpotters" lat="36.8584306" lon="27.1745556" alt="71.4"/> 
+<LandmarkLocation instanceId="{F8F9A002-B6AC-44EC-BE27-75A1BA7B2255}" type="POI" name="Nature_reserve: Διαπόρι Δήμου Λέρου Νήσου Λέρου" owner="3DSpotters" lat="37.1188001" lon="26.8831095" alt="52.5"/> 
+<LandmarkLocation instanceId="{A91B0980-C7CC-4AD6-BD95-DD4A0FD84A84}" type="POI" name="River: Kocadere" owner="3DSpotters" lat="37.1205413" lon="27.6459277" alt="90.3"/> 
+<LandmarkLocation instanceId="{BF10CC28-D001-4154-BD35-F77ABE967F2D}" type="POI" name="River: Kocadere" owner="3DSpotters" lat="37.1149534" lon="27.6582591" alt="85.4"/> 
+<LandmarkLocation instanceId="{7618B7EB-FBF8-4952-98F8-83E813C40EDB}" type="POI" name="Water: Mumcular Reservoir" owner="3DSpotters" lat="37.1179449" lon="27.6685256" alt="63.7"/> 
+<LandmarkLocation instanceId="{5AA31C73-ECC4-4BD4-BCC7-98A55BEC8AB9}" type="POI" name="Nature_reserve: Κουλούκι - Μερικιά - Φυτώριο Δήμου Λέρου Νήσου Λέρου" owner="3DSpotters" lat="37.1296379" lon="26.8368701" alt="84.7"/> 
+<LandmarkLocation instanceId="{C0503BCC-1AF9-4E83-8762-CC7105609666}" type="POI" name="Nature_reserve: Προφ. Ηλίας-Κατσουνδριά-Μεσόβουνο-Άμπελλα (Κω)" owner="3DSpotters" lat="36.7951034" lon="27.0607706" alt="70.0"/> 
+<LandmarkLocation instanceId="{FDD9B4A4-E977-4F15-8285-C11A2C915922}" type="POI" name="Nature_reserve: Σκουμπάρδος περιοχή Ξηροκάμπου Δήμου Λέρου" owner="3DSpotters" lat="37.1023809" lon="26.8635775" alt="83.3"/> 
+<LandmarkLocation instanceId="{F76302EA-394B-4B9E-B8D6-F5D8AADBF7DA}" type="POI" name="Nature_reserve: Τέλενδος (Καλυμνίων)" owner="3DSpotters" lat="37.0039544" lon="26.9042772" alt="65.1"/> 
+<LandmarkLocation instanceId="{94A3CCB6-07BC-497C-A353-115D271A37C9}" type="POI" name="Nature_reserve: Τσίγκουνα περιοχής Ξηροκάμπου Δήμου Λέρου" owner="3DSpotters" lat="37.1217755" lon="26.8701337" alt="49.7"/> 
+<LandmarkLocation instanceId="{6450CC02-E4DB-487C-893D-C7A05DE0DAA4}" type="POI" name="Nature_reserve: Υγροβιότοπος Αλυκής περιοχής Βάι Αλυκής Δήμου Δικαίου Νήσου Κω - Από Κοινοτήτων Πυλίου και Ασφενδίου Νήσου Κω" owner="3DSpotters" lat="36.8827497" lon="27.1701581" alt="67.2"/> 
+<LandmarkLocation instanceId="{90DBC7D5-79A2-49FD-A715-B021ACD03899}" type="POI" name="Archeo: Kos Asklepieion" owner="3DSpotters" lat="36.8756851" lon="27.2573838" alt="54.6"/> 
+<LandmarkLocation instanceId="{B889C1BE-B265-4B6D-B6BF-78785D4D1276}" type="POI" name="Archeo: Knidos" owner="3DSpotters" lat="36.6863015" lon="27.3739514" alt="66.5"/> 
+<LandmarkLocation instanceId="{65C27D7A-3DC9-42C9-9573-B1EAB888E878}" type="POI" name="Temple: Bitez Merkez Cami" owner="3DSpotters" lat="37.0428103" lon="27.3798355" alt="79.8"/> 
+<LandmarkLocation instanceId="{98FA5FDC-B61D-4F0D-90A3-2B2BE5928F9E}" type="POI" name="Ruins: Alazeytin Kalesi / Syangela" owner="3DSpotters" lat="37.0196895" lon="27.5409842" alt="58.8"/> 
+<LandmarkLocation instanceId="{3911A7D1-DD2E-48CB-98D8-859516C70837}" type="POI" name="Archeo: Kavakopoulou" owner="3DSpotters" lat="36.8909091" lon="27.2896002" alt="65.8"/> 
+<LandmarkLocation instanceId="{7B377AE1-B8C9-442A-9354-2B2A3C3D87E6}" type="POI" name="Town: Ζηπάρι" owner="3DSpotters" lat="36.8766178" lon="27.2044452" alt="151.2"/> 
+<LandmarkLocation instanceId="{FE32AC09-2C28-4A78-A823-AEB1809D5152}" type="POI" name="Castle: Chora Castle" owner="3DSpotters" lat="36.9678256" lon="26.9608485" alt="70.7"/> 
+<LandmarkLocation instanceId="{C936BB35-D188-4DB0-AB00-272767395C03}" type="POI" name="Archeo: Myndos Gate" owner="3DSpotters" lat="37.0376335" lon="27.4135636" alt="67.9"/> 
+<LandmarkLocation instanceId="{FE7C252F-9A7B-468A-8F0B-68F8E15AB684}" type="POI" name="Archeo: Basilica of Ayios Stefanos" owner="3DSpotters" lat="36.7526214" lon="26.9891387" alt="81.9"/> 
+<LandmarkLocation instanceId="{F8A2F244-8771-4F56-9DE1-62EBA0DD8C4F}" type="POI" name="Nature_reserve: Ενοποίηση Κέφαλος-Καμήλα and Λιμνιώνα-Σφακιά (Κέφαλου Κω)" owner="3DSpotters" lat="36.7627364" lon="26.9687712" alt="57.4"/> 
+<LandmarkLocation instanceId="{963B3594-3A71-4C09-9FE2-DE547D68CC07}" type="POI" name="Temple: Merkez Adliye Camii" owner="3DSpotters" lat="37.0343331" lon="27.4303598" alt="67.9"/> 
+<LandmarkLocation instanceId="{2724570A-75B9-4763-BE37-E56BA27EF4AA}" type="POI" name="Temple: Tepecik Cami" owner="3DSpotters" lat="37.0361678" lon="27.4255796" alt="85.4"/> 
+<LandmarkLocation instanceId="{8E1642F8-19AF-4BE1-A828-CEDC252B5DDE}" type="POI" name="Archeo: Nympheon" owner="3DSpotters" lat="36.8908892" lon="27.2870519" alt="85.4"/> 
+<LandmarkLocation instanceId="{3008811C-A4A8-4A25-9378-C40A40F018D1}" type="POI" name="Ruins: Temple of Apollion" owner="3DSpotters" lat="36.8757232" lon="27.2572488" alt="60.2"/> 
+<LandmarkLocation instanceId="{73958EDB-079B-4616-9332-91C9F075FDC5}" type="POI" name="Ruins: Big temple of Asklepieion" owner="3DSpotters" lat="36.875288" lon="27.256733" alt="77.0"/> 
+<LandmarkLocation instanceId="{2157262F-65B6-474B-B0DE-F8DAA6A403E5}" type="POI" name="Island: İkiz Adaları" owner="3DSpotters" lat="37.1278103" lon="27.4793342" alt="142.38"/> 
+<LandmarkLocation instanceId="{00B1ADE1-8AF4-4A28-92AD-B798CDB7A0FC}" type="POI" name="Temple: Agios Ioannis Prodromos" owner="3DSpotters" lat="36.9682474" lon="26.9615123" alt="79.1"/> 
+<LandmarkLocation instanceId="{1ABC9E52-DE65-48F4-96A1-35C49F991CB2}" type="POI" name="Archeo: Bodrum Antique Theatre" owner="3DSpotters" lat="37.0401376" lon="27.4215905" alt="63.7"/> 
+<LandmarkLocation instanceId="{1DAB1AC4-CE2C-4E20-9CF3-30351F1B1848}" type="POI" name="Water: Flatolitis Pool" owner="3DSpotters" lat="36.9991236" lon="26.9369321" alt="82.6"/> 
+<LandmarkLocation instanceId="{125B8320-2477-4BBE-9C5E-17EE16BFBDF0}" type="POI" name="Chapel: Agia Irini" owner="3DSpotters" lat="36.9748383" lon="27.0284762" alt="58.8"/> 
+<LandmarkLocation instanceId="{66F8CFAC-A0C9-4912-8590-E923B5A86FF1}" type="POI" name="Chapel: Άγιος Γεώργιος" owner="3DSpotters" lat="36.9739875" lon="27.0272352" alt="69.3"/> 
+<LandmarkLocation instanceId="{FFC8FA79-58E6-4851-B082-CA34511E71B7}" type="POI" name="Castle: Pantelio Castle" owner="3DSpotters" lat="37.1561626" lon="26.859387" alt="81.2"/> 
+<LandmarkLocation instanceId="{C2DB9A6D-7FE3-4160-99A6-83F446EB26EB}" type="POI" name="Ruins: Temple of Aphrodite, Knidos" owner="3DSpotters" lat="36.6889176" lon="27.3733237" alt="74.9"/> 
+<LandmarkLocation instanceId="{534D181D-F1F7-4B30-B068-2120571B51BF}" type="POI" name="Temple: ΠΑΝΑΓΙΑ Η ΦΑΝΑΙΡΩΜΕΝΗ" owner="3DSpotters" lat="36.8957214" lon="27.2825243" alt="60.2"/> 
+<LandmarkLocation instanceId="{ED6DD22E-19EC-4D4C-9C3B-CCBB9DC1821C}" type="POI" name="Temple: AGIOS PAULOS" owner="3DSpotters" lat="36.8990158" lon="27.2853613" alt="51.8"/> 
+<LandmarkLocation instanceId="{5FE31AB2-2A9C-4AC6-B41F-800F238DE8A3}" type="POI" name="Ruins: Bodrum Windmills" owner="3DSpotters" lat="37.0257782" lon="27.4137327" alt="60.2"/> 
+<LandmarkLocation instanceId="{6D77EA6F-1725-4C76-AC2A-FF2B375D5C78}" type="POI" name="Church: Αγία Παναγιά" owner="3DSpotters" lat="36.9976867" lon="26.9204152" alt="60.9"/> 
+<LandmarkLocation instanceId="{A29C78E9-CE83-425F-8AC2-548615D1E9D6}" type="POI" name="Chapel: Agios Georgios and Agios Eustachios" owner="3DSpotters" lat="36.9962254" lon="26.9386677" alt="87.5"/> 
+<LandmarkLocation instanceId="{B95A381F-D7B3-4885-B9A8-5825EF363093}" type="POI" name="Temple: Σωτήρος Χριστού" owner="3DSpotters" lat="36.9500902" lon="26.9839246" alt="77.7"/> 
+<LandmarkLocation instanceId="{FC53C974-0157-4E42-93E8-534C9337588F}" type="POI" name="Temple: 'Αγιος Παύλος" owner="3DSpotters" lat="36.9403444" lon="26.9742502" alt="63.7"/> 
+<LandmarkLocation instanceId="{D6AB5A86-CF31-424B-8D06-CF5BD8CCCA2F}" type="POI" name="Church: Ι. Μ. Αγίας Αικατερίνης" owner="3DSpotters" lat="36.9366608" lon="26.9526471" alt="67.9"/> 
+<LandmarkLocation instanceId="{D176F389-9E98-443F-8799-50DC1A8DE64E}" type="POI" name="Church: Agia paraskeuè" owner="3DSpotters" lat="36.8926679" lon="27.2882419" alt="60.2"/> 
+<LandmarkLocation instanceId="{FF0FCFD9-D36A-4EAB-BFD3-760B9B45CD8C}" type="POI" name="Ruins: Kadıkalesi" owner="3DSpotters" lat="37.0344975" lon="27.2453864" alt="91.0"/> 
+<LandmarkLocation instanceId="{3330522E-8519-491B-8240-F610812CFD99}" type="POI" name="Reservoir: ΛΙΜΝΟΔΕΞΑΜΕΝΗ ΜΕΣΣΑΡΙΑΣ" owner="3DSpotters" lat="36.8696705" lon="27.2247023" alt="78.4"/> 
+<LandmarkLocation instanceId="{BA9AB3D5-A5DD-4F33-8786-C4EF1FBCE24C}" type="POI" name="Archeo: Northern Baths" owner="3DSpotters" lat="36.8938115" lon="27.2869622" alt="85.4"/> 
+<LandmarkLocation instanceId="{E42E62DE-7146-433A-84A0-CEC69811200D}" type="POI" name="Playground: Kids Racers" owner="3DSpotters" lat="36.9095515" lon="27.2800006" alt="85.4"/> 
+<LandmarkLocation instanceId="{831790B5-1C0F-4C67-87F3-640D4C937781}" type="POI" name="Temple: Defterdar Mosque" owner="3DSpotters" lat="36.8933259" lon="27.2888113" alt="70.0"/> 
+<LandmarkLocation instanceId="{542C3796-A3D5-4533-A46A-D61D5AE5BE90}" type="POI" name="Temple: AGIOS NIKOLAOS" owner="3DSpotters" lat="36.8916461" lon="27.2919621" alt="71.4"/> 
+<LandmarkLocation instanceId="{FC099B68-946F-43A5-8FFF-644B750D44E9}" type="POI" name="Temple: Τζαμί Πλατάνι" owner="3DSpotters" lat="36.8819259" lon="27.2728016" alt="62.3"/> 
+<LandmarkLocation instanceId="{2CA9C66A-6A2C-4D4A-A9C2-3E67D262D19E}" type="POI" name="Church: Agios Nicolaos" owner="3DSpotters" lat="36.7502372" lon="26.9878646" alt="62.3"/> 
+<LandmarkLocation instanceId="{E38A2866-ED79-4060-8843-C2429A17F3C3}" type="POI" name="Church: ΑΝΑΛΗΨΗ" owner="3DSpotters" lat="36.8761056" lon="27.2031559" alt="60.9"/> 
+<LandmarkLocation instanceId="{2929A9F1-C426-4134-9BAE-8770B7B993A5}" type="POI" name="Forest: Olive" owner="3DSpotters" lat="36.7476379" lon="27.4813325" alt="67.9"/> 
+<LandmarkLocation instanceId="{C632F9CE-7A48-4C8E-8E49-5A27D1690997}" type="POI" name="LGKO: Kos island international airport" owner="3DSpotters" lat="36.7951488" lon="27.0910947" alt="53.2"/> 
+<LandmarkLocation instanceId="{B83CF606-B0F0-4B83-B062-2505953EBBE0}" type="POI" name="Temple: ΑΓΙΟΣ ΚΩΣΤΑΝΤΙΝΟΣ" owner="3DSpotters" lat="36.8825428" lon="27.3207493" alt="52.5"/> 
+<LandmarkLocation instanceId="{9EE13D81-BC87-4CB6-9B68-DCB1D30E26E7}" type="POI" name="Industrial: İSD Construction" owner="3DSpotters" lat="37.0333463" lon="27.3029297" alt="52.5"/> 
+<LandmarkLocation instanceId="{3E18417F-1BE0-4056-9707-8C8627D90BFB}" type="POI" name="Industrial: Pollat Galle SU" owner="3DSpotters" lat="37.0329904" lon="27.3023727" alt="88.9"/> 
+<LandmarkLocation instanceId="{4B8B00F8-3E4A-44BC-A30C-3FCCF0082253}" type="POI" name="Industrial: Karadeniz Mermer" owner="3DSpotters" lat="37.0304986" lon="27.3001616" alt="58.8"/> 
+<LandmarkLocation instanceId="{B6AB2FAC-601B-4E7D-AE6A-F1648356EDB7}" type="POI" name="Industrial: Arda Kireç" owner="3DSpotters" lat="37.0305108" lon="27.3007432" alt="85.4"/> 
+<LandmarkLocation instanceId="{8472A832-A5B3-406A-B88A-7863F62C303E}" type="POI" name="Industrial: Öntaş Mermer" owner="3DSpotters" lat="37.0317297" lon="27.3012948" alt="70.0"/> 
+<LandmarkLocation instanceId="{AF51B628-35D7-4AAD-B900-78D64F1D4557}" type="POI" name="Ruins: Cistern" owner="3DSpotters" lat="36.9991605" lon="27.6505684" alt="84.0"/> 
+<LandmarkLocation instanceId="{2B78AB99-B6E8-4DA5-9794-4FF12C3BABF2}" type="POI" name="Pond: Kocala" owner="3DSpotters" lat="37.0421894" lon="27.5168799" alt="59.5"/> 
+<LandmarkLocation instanceId="{BC741A2E-AF69-4D70-A1F0-9DC08F6FE0B5}" type="POI" name="Church: Agios Ioannis" owner="3DSpotters" lat="36.9859853" lon="26.9311665" alt="63.7"/> 
+<LandmarkLocation instanceId="{E57E226D-60CA-41CB-AE9D-D28AFEB2A248}" type="POI" name="Temple: Agios Ioannis Theologos" owner="3DSpotters" lat="36.950217" lon="26.9562469" alt="84.0"/> 
+<LandmarkLocation instanceId="{A75525CA-7057-46EB-BFC4-B47D6E8B0C81}" type="POI" name="LTBV: Bodrum-Imsık Airport 62 m" owner="3DSpotters" lat="37.1392611" lon="27.6709025" alt="52.5"/> 
+<LandmarkLocation instanceId="{FC9AAEB4-274D-4FE2-8C7F-F86377BF3C69}" type="POI" name="Water_park: Aquapark Bodrum" owner="3DSpotters" lat="37.0550765" lon="27.3620551" alt="54.6"/> 
+<LandmarkLocation instanceId="{69B71B71-AA41-47A5-B891-219F8CDBE2C8}" type="POI" name="Temple: Kızılhisarlı Mustafa Paşa Mosque" owner="3DSpotters" lat="37.0329195" lon="27.4296855" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{1801C84C-9E73-45AB-ADC3-118508D750AE}" type="POI" name="Temple: Παναγιά" owner="3DSpotters" lat="36.9516745" lon="26.9817037" alt="77.7"/> 
+<LandmarkLocation instanceId="{3B2D3311-C499-464C-AB4F-EE94895ABA66}" type="POI" name="Industrial: Yalıkavak Sanayi Sitesi" owner="3DSpotters" lat="37.1160364" lon="27.3306007" alt="54.6"/> 
+<LandmarkLocation instanceId="{0E827CD5-AEC4-46C3-AEC1-2BA1567F492B}" type="POI" name="Industrial: Bodrum Sanayi" owner="3DSpotters" lat="37.0404923" lon="27.4325092" alt="85.4"/> 
+<LandmarkLocation instanceId="{5377BA07-28CE-43EA-B594-07567FC136ED}" type="POI" name="Temple: Güvercinlik Camii" owner="3DSpotters" lat="37.1389631" lon="27.5829034" alt="85.4"/> 
+<LandmarkLocation instanceId="{2F1AEFF8-62AE-4487-B04B-B416DBEBDF3E}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.1375686" lon="27.6336861" alt="71.4"/> 
+<LandmarkLocation instanceId="{FECA255C-2ABB-445C-A97D-A94181F7BEC1}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.1222156" lon="27.656847" alt="60.2"/> 
+<LandmarkLocation instanceId="{3F1F8EBC-A10B-441D-8DB4-5CAF9C914C7D}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.127938" lon="27.3462536" alt="72.8"/> 
+<LandmarkLocation instanceId="{84A27465-A3AD-4CCD-8AD4-E09C51827379}" type="POI" name="Temple: Torba Cami" owner="3DSpotters" lat="37.0725886" lon="27.4589177" alt="79.1"/> 
+<LandmarkLocation instanceId="{90A1748E-E423-4D44-85EF-50D3438D905F}" type="POI" name="Temple: Sülüklü Camii" owner="3DSpotters" lat="37.0996546" lon="27.3052717" alt="77.0"/> 
+<LandmarkLocation instanceId="{46080282-0F0C-4036-8FA4-ACB78FB9B6DA}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.0377716" lon="27.3225562" alt="84.7"/> 
+<LandmarkLocation instanceId="{FB979524-3834-4F92-906D-AF1AF9DBB5A8}" type="POI" name="Archeo: Bodrum Antik Tiyatro" owner="3DSpotters" lat="37.0401682" lon="27.4216066" alt="60.9"/> 
+<LandmarkLocation instanceId="{4B6224C7-6FAC-4078-9F08-E72D003D6BC9}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.0862538" lon="27.3431207" alt="49.0"/> 
+<LandmarkLocation instanceId="{4D6CC457-94BC-469F-949B-941EC51D334E}" type="POI" name="Temple: Yukarı İslamhaneleri Köyü Cami" owner="3DSpotters" lat="37.0273344" lon="27.3127519" alt="60.9"/> 
+<LandmarkLocation instanceId="{C0896BB7-BF0A-4E84-8EDB-FF4B0DA76425}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.0303433" lon="27.5728635" alt="74.2"/> 
+<LandmarkLocation instanceId="{E193811E-64AB-445A-AA7B-C0B1E28509EE}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="37.0870371" lon="27.6792112" alt="78.4"/> 
+<LandmarkLocation instanceId="{8EB8760F-B91B-478E-8503-410E1A6EAECF}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="36.6887849" lon="27.5552678" alt="78.4"/> 
+<LandmarkLocation instanceId="{81EC1A22-556C-4FC7-AF67-5A20879449ED}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="36.6977868" lon="27.4911085" alt="89.6"/> 
+<LandmarkLocation instanceId="{163EDC8F-FF7A-4310-9DC2-46F1272BA402}" type="POI" name="Temple: Cami" owner="3DSpotters" lat="36.7741539" lon="27.6919625" alt="88.9"/> 
+<LandmarkLocation instanceId="{8CDB8835-765E-432A-BA3A-E95AAEA9C16B}" type="POI" name="Chapel: Cristos Sotinos" owner="3DSpotters" lat="36.9501978" lon="26.9837158" alt="75.6"/> 
+<LandmarkLocation instanceId="{093C06FC-B6C0-4070-B009-1E8CFC785D3B}" type="POI" name="Archeo: Damos" owner="3DSpotters" lat="36.9706666" lon="26.9474307" alt="51.8"/> 
+<LandmarkLocation instanceId="{15C59D7C-264B-45F7-8800-772B8207D7E7}" type="POI" name="Retail: Platanos" owner="3DSpotters" lat="37.1534488" lon="26.8566944" alt="57.4"/> 
+<LandmarkLocation instanceId="{2B449124-6451-4E9C-A02A-4F1A1CD5ABFB}" type="POI" name="Ruins: Αγία Τριάδα" owner="3DSpotters" lat="36.9981389" lon="26.9190172" alt="63.0"/> 
+<LandmarkLocation instanceId="{7EC177A9-BE3C-4880-942F-6FCBAB059845}" type="POI" name="Archeo: Θολάρια" owner="3DSpotters" lat="36.9941101" lon="26.9194403" alt="86.8"/> 
+<LandmarkLocation instanceId="{E436DD92-7722-4FB7-BE09-DD2F5465E2DC}" type="POI" name="Ruins: Άγιος Βασίλειος" owner="3DSpotters" lat="36.9996015" lon="26.9223884" alt="63.0"/> 
+<LandmarkLocation instanceId="{6BCD94CC-4F13-4DCB-BE75-FE3BCFE6B852}" type="POI" name="Chapel: St. George" owner="3DSpotters" lat="36.9950626" lon="26.9173211" alt="57.4"/> 
+<LandmarkLocation instanceId="{36231585-A1C6-4700-A4BD-C61583E437AB}" type="POI" name="Archeo: Mausoleum at Halicarnassus" owner="3DSpotters" lat="37.0378008" lon="27.4241447" alt="87.5"/> 
+<LandmarkLocation instanceId="{5CC939A7-B52C-45C3-B638-4C962ACF5BA6}" type="POI" name="Industrial: Konacık Sanayi Sitesi" owner="3DSpotters" lat="37.0583097" lon="27.3838468" alt="82.6"/> 
+<LandmarkLocation instanceId="{17631E0C-38C1-4C98-973E-AB0436D2E312}" type="POI" name="Castle: D.S LUXURIOUS VILLA 66" owner="3DSpotters" lat="36.8103776" lon="27.1568904" alt="54.6"/> 
+<LandmarkLocation instanceId="{BCF1BA69-6462-49FB-B5F9-FCB109C512BB}" type="POI" name="Temple: Aya nikola Kilisesi" owner="3DSpotters" lat="37.0333869" lon="27.4315621" alt="89.6"/> 
+<LandmarkLocation instanceId="{CC1AF21E-6EAD-445D-8FE4-EDA3D690E2F3}" type="POI" name="Industrial: Σφαγεία Κω" owner="3DSpotters" lat="36.8729617" lon="27.2466123" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{D1B72E78-749D-4D80-9F9E-4DA4768DC312}" type="POI" name="Island: Strongyli" owner="3DSpotters" lat="36.6807072" lon="27.1796005" alt="136.08"/> 
+<LandmarkLocation instanceId="{DF7B3BE8-5A12-462A-AE27-645D198F50C6}" type="POI" name="Island: Gyali" owner="3DSpotters" lat="36.66069" lon="27.1241035" alt="122.22"/> 
+<LandmarkLocation instanceId="{BE3CFA46-3816-4662-87E9-595AB8A3B701}" type="POI" name="Island: Leros" owner="3DSpotters" lat="37.1493666" lon="26.8282469" alt="108.36"/> 
+<LandmarkLocation instanceId="{A97A3D64-FC2D-49CE-9FD1-175BC9BE2C55}" type="POI" name="Island: Pserimos" owner="3DSpotters" lat="36.9396133" lon="27.1430596" alt="143.64"/> 
+<LandmarkLocation instanceId="{71C1A242-63D2-4219-8E0E-B1F51B0475E5}" type="POI" name="Island: Kos" owner="3DSpotters" lat="36.793677" lon="27.1365924" alt="146.16"/> 
+<LandmarkLocation instanceId="{0DCE16A2-C235-4BEA-9514-1D547441696A}" type="POI" name="Island: Telendos" owner="3DSpotters" lat="37.0038938" lon="26.9043566" alt="138.6"/> 
+<LandmarkLocation instanceId="{A2434C85-F9FC-409B-854D-00B147946213}" type="POI" name="Island: Kalymnos" owner="3DSpotters" lat="37.002678" lon="26.9684984" alt="110.88"/> 
+<LandmarkLocation instanceId="{B7E37658-B8AB-44D9-938F-DFA1920E4DA5}" type="POI" name="Island: Kalolimnos" owner="3DSpotters" lat="37.0611782" lon="27.0890471" alt="113.4"/> 
+<LandmarkLocation instanceId="{C3EDAD16-915B-4B28-ACFB-63DD5CA6C08F}" type="POI" name="Island: Safonidi" owner="3DSpotters" lat="36.8867915" lon="26.9212301" alt="90.72"/> 
+<LandmarkLocation instanceId="{B54E70EC-C820-4580-ADD7-61371E446E43}" type="POI" name="Island: Nera" owner="3DSpotters" lat="36.914363" lon="26.9385812" alt="109.62"/> 
+<LandmarkLocation instanceId="{2095E397-C741-4F0F-B6D8-8CEEB93E9F4D}" type="POI" name="Island: Kalavros" owner="3DSpotters" lat="37.0328992" lon="26.9294168" alt="148.68"/> 
+<LandmarkLocation instanceId="{079D6228-711E-4E95-83AE-CC6EF6225A7D}" type="POI" name="Island: Plati" owner="3DSpotters" lat="36.9421937" lon="27.0942864" alt="149.94"/> 
+<LandmarkLocation instanceId="{50937EF1-3229-4A82-926B-0B08B5A41FBA}" type="POI" name="Island: Sari" owner="3DSpotters" lat="36.9549664" lon="27.057267" alt="163.8"/> 
+<LandmarkLocation instanceId="{8D351E2B-50EB-4F45-BA0A-30EC450F9E5C}" type="POI" name="Island: Epano" owner="3DSpotters" lat="37.0048814" lon="26.8850706" alt="123.48"/> 
+<LandmarkLocation instanceId="{1C4FB8C3-6880-4143-8A5C-ED31086CCB36}" type="POI" name="Island: Κρεβάτι" owner="3DSpotters" lat="36.9187098" lon="27.1580729" alt="95.76"/> 
+<LandmarkLocation instanceId="{E853B406-D34A-49A2-97E6-2C4837B7BA5D}" type="POI" name="Island: Βασιλική" owner="3DSpotters" lat="36.9551781" lon="27.1655564" alt="103.32"/> 
+<LandmarkLocation instanceId="{9FBF513C-F017-49D4-9A0C-0FE318022904}" type="POI" name="Island: Λιγκιό" owner="3DSpotters" lat="36.9446194" lon="27.1737977" alt="138.6"/> 
+<LandmarkLocation instanceId="{89940CE2-D12E-4C88-BD6C-FF0F9B529288}" type="POI" name="Island: Gialo" owner="3DSpotters" lat="36.921653" lon="27.1481436" alt="93.24000000000001"/> 
+<LandmarkLocation instanceId="{419BF5B6-C2B9-4917-81F1-F14C739BB8E8}" type="POI" name="Island: Εξώπετρα" owner="3DSpotters" lat="36.9330508" lon="27.0945911" alt="127.26"/> 
+<LandmarkLocation instanceId="{673F0DFB-2043-4420-90A9-1E3525D8AAD3}" type="POI" name="Island: Ασπροπνίχτης" owner="3DSpotters" lat="36.9252946" lon="26.9608419" alt="143.64"/> 
+<LandmarkLocation instanceId="{809FB202-8A29-4DD3-BCF8-B08DB4B33A9D}" type="POI" name="Island: Αλέξης" owner="3DSpotters" lat="37.0473029" lon="26.912135" alt="107.1"/> 
+<LandmarkLocation instanceId="{970FDA17-3D14-4D10-A177-8B0053D8125A}" type="POI" name="Island: Καστρί" owner="3DSpotters" lat="36.7496906" lon="26.9880124" alt="120.96"/> 
+<LandmarkLocation instanceId="{E4A3EA73-E66C-4BCA-B108-2493D46A1E38}" type="POI" name="Island: Nekrothiki" owner="3DSpotters" lat="36.9533881" lon="27.0960937" alt="138.6"/> 
+<LandmarkLocation instanceId="{4DB1C954-E3C3-42FE-807F-E30CE28626EC}" type="POI" name="Nature_reserve: Mount Sırtlan Nature Reserve" owner="3DSpotters" lat="37.1613439" lon="27.5634428" alt="53.2"/> 
+<LandmarkLocation instanceId="{58BF3DE5-E57E-4751-B4BE-97A1623297E5}" type="POI" name="Nature_reserve: Αγ. Φωκάς - Ψαλίδι - Καστέλο - Ηρακλής Νήσου Κω" owner="3DSpotters" lat="36.8724391" lon="27.2894673" alt="89.6"/> 
+<LandmarkLocation instanceId="{53C72FF0-F66F-4C4E-8239-F2DBE3D6112E}" type="POI" name="Castle: Fortress of Neratzia" owner="3DSpotters" lat="36.8962971" lon="27.290157" alt="70.0"/> 
+<LandmarkLocation instanceId="{F62199E0-6385-4CB3-A7E7-F5CF4514BD49}" type="POI" name="Industrial: Datça Rüzgar Enerji Santrali" owner="3DSpotters" lat="36.7812119" lon="27.7323595" alt="89.6"/> 

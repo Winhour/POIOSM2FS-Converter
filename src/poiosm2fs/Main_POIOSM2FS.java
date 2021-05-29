@@ -148,6 +148,15 @@ public class Main_POIOSM2FS {
         
         jsap.registerParameter(opt11);
         
+        FlaggedOption opt12 = new FlaggedOption("TEXTURE_FONT")           /* Texture font */
+                                .setStringParser(JSAP.STRING_PARSER)
+                                .setDefault("Noto Sans") 
+                                .setRequired(true) 
+                                .setShortFlag(JSAP.NO_SHORTFLAG) 
+                                .setLongFlag("font");
+        
+        jsap.registerParameter(opt12);
+        
 
         
          /* Text color in texture */
@@ -274,11 +283,12 @@ public class Main_POIOSM2FS {
         System.out.println("--txw (Integer) sets width for the textures (default = 2048)");
         System.out.println("--cb:r,g,b sets texture background color example: --cb:100,0,0");
         System.out.println("--ct:r,g,b sets texture text color example: --ct:100,0,0");
+        System.out.println("--font sets texture text font (default = Noto Sans)");
         System.out.println("\nExample:\n");
         System.out.println("java -jar \"POIOSM2FS.jar\" -c ruinsplus.csv -l Ruins -w Winhour -a 356.7890 -o ruins -s 20 --rn --re");
         System.out.println("java -jar \"POIOSM2FS.jar\" -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki");
         System.out.println("java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10 -t");
-        System.out.println("java -jar POIOSM2FS.jar --ja targetGR_Kos_TEST2.json --re --rst 6 --rsv 4 -t --cb:100,100,100 --ct:0,150,0\n");
+        System.out.println("java -jar POIOSM2FS.jar --ja targetGR_Kos_TEST2.json --re --rst 6 --rsv 4 -t --cb:100,100,100 --ct:0,150,0 --font \"Arial Bold\" \n");
     }
     
     /**********************************************************************************************************************************************/

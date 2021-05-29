@@ -30,7 +30,7 @@ public class GraphicsInteraction {
         
         BufferedImage img = new BufferedImage(1, 1, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g2d = img.createGraphics();
-        Font font = new Font("Arial Bold", Font.PLAIN, ((90*width)/2048));                                          /* Set font and font size here */
+        Font font = new Font(config.getString("TEXTURE_FONT"), Font.BOLD, ((90*width)/2048));                                          /* Set font and font size here */
         g2d.setFont(font);
         FontMetrics fm = g2d.getFontMetrics();
         //int width = fm.stringWidth(text)+20;
@@ -62,7 +62,8 @@ public class GraphicsInteraction {
         
         else {                                                                             /* Case for multiple lines */
             //height = height*((fm.stringWidth(text)/width));
-            Font font2 = new Font("Arial Bold", Font.PLAIN, ((52*width)/2048));                 /* Smaller font for multiple lines */                         
+            Font font2 = new Font(config.getString("TEXTURE_FONT"), Font.BOLD, ((52*width)/2048));                 /* Smaller font for multiple lines */   
+            //Font font2 = new Font("Source Sans Pro", Font.BOLD, ((52*width)/2048));
             img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
             g2d = img.createGraphics();
             g2d = handleRenderingHints(g2d);
@@ -357,12 +358,33 @@ public class GraphicsInteraction {
                     case "Manor":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/manor.png"));
                         break;   
+                    case "Villa":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/manor.png"));
+                        break;      
                     case "Lagoon":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/lagoon.png"));
                         break;   
                     case "Wetland":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/wetland.png"));
+                        break;    
+                    case "Civic":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/civic.png"));
+                        break;     
+                    case "Shrine":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/shrine.png"));
                         break;       
+                    case "Fountain":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/fountain.png"));
+                        break;     
+                    case "Police":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/police.png"));
+                        break; 
+                    case "Cathedral":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/cathedral.png"));
+                        break; 
+                    case "Basilica":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/cathedral.png"));
+                        break;     
                     default:
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));
                         break;
