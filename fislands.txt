@@ -1,0 +1,1143 @@
+<LandmarkLocation instanceId="{251A8B42-26A3-4281-AFE7-6345B41A39A0}" type="POI" name="Village: Akrar" owner="3DSpotters" lat="61.455746" lon="-6.7590335" alt="88.2"/> 
+<LandmarkLocation instanceId="{E6DD3DA1-0290-40D3-A153-1546810FB42E}" type="POI" name="Village: Árnafjørður" owner="3DSpotters" lat="62.2551299" lon="-6.5355749" alt="119.7"/> 
+<LandmarkLocation instanceId="{9DB799BE-71CB-4219-AE17-DD24BFC60741}" type="POI" name="Village: Bøur" owner="3DSpotters" lat="62.0863166" lon="-7.3696034" alt="124.95"/> 
+<LandmarkLocation instanceId="{5DF891EF-1994-4E6A-8D2D-178A444E1972}" type="POI" name="Village: Dalur" owner="3DSpotters" lat="61.7843221" lon="-6.6785038" alt="136.5"/> 
+<LandmarkLocation instanceId="{5BEE68DA-5FC5-416B-BE81-E0AF90EBDD18}" type="POI" name="Village: Depil" owner="3DSpotters" lat="62.2866388" lon="-6.5299448" alt="77.7"/> 
+<LandmarkLocation instanceId="{6C63F4B6-DDE8-45A2-B59A-E13A6BDB3C9E}" type="POI" name="Village: Dímun" owner="3DSpotters" lat="61.6849993" lon="-6.7558718" alt="135.45"/> 
+<LandmarkLocation instanceId="{012D7C93-0CA3-4C1F-9903-FDBBF3098666}" type="POI" name="Village: Eiði" owner="3DSpotters" lat="62.3004264" lon="-7.0894368" alt="112.35"/> 
+<LandmarkLocation instanceId="{0289606B-2250-41FC-A381-B69EA6AD28CC}" type="POI" name="Village: Elduvík" owner="3DSpotters" lat="62.2821358" lon="-6.9116848" alt="128.1"/> 
+<LandmarkLocation instanceId="{7CF6B025-6E78-41EF-8BDC-66677445A89F}" type="POI" name="Village: Fámjin" owner="3DSpotters" lat="61.524861" lon="-6.8786368" alt="73.5"/> 
+<LandmarkLocation instanceId="{E4A7E6C0-E12C-4432-AD24-37DE21C9EB20}" type="POI" name="Village: Froðba" owner="3DSpotters" lat="61.547" lon="-6.771" alt="80.85"/> 
+<LandmarkLocation instanceId="{4EBB1517-06BA-40E4-82AA-036BA45BA92C}" type="POI" name="Village: Fuglafjørður" owner="3DSpotters" lat="62.2430836" lon="-6.8178206" alt="78.75"/> 
+<LandmarkLocation instanceId="{9B9B940D-0B58-4AE4-90DE-DB55E1084DEC}" type="POI" name="Village: Funningsfjørður" owner="3DSpotters" lat="62.238104" lon="-6.9316051" alt="106.05"/> 
+<LandmarkLocation instanceId="{DD7E7D3E-222A-4C92-BE0E-37127AA393A4}" type="POI" name="Village: Funningur" owner="3DSpotters" lat="62.2869174" lon="-6.9679178" alt="101.85"/> 
+<LandmarkLocation instanceId="{FBCF92CD-C311-453E-9D24-5006B58388EC}" type="POI" name="Village: Gásadalur" owner="3DSpotters" lat="62.110355" lon="-7.4379717" alt="128.1"/> 
+<LandmarkLocation instanceId="{F1788D28-CD96-456F-BAEC-8DB3FC0AAC03}" type="POI" name="Village: Glyvrar" owner="3DSpotters" lat="62.1286148" lon="-6.7240735" alt="109.2"/> 
+<LandmarkLocation instanceId="{F24E4ED4-64A8-4FDE-BB1F-6B739FFF2820}" type="POI" name="Village: Gjógv" owner="3DSpotters" lat="62.3248617" lon="-6.9482437" alt="106.05"/> 
+<LandmarkLocation instanceId="{CF8D873A-6054-4EF5-93E5-092FB66E74D2}" type="POI" name="Village: Gøtugjógv" owner="3DSpotters" lat="62.1918816" lon="-6.7487103" alt="121.8"/> 
+<LandmarkLocation instanceId="{C3A12DDD-64F2-4C79-A257-AAFF0828DE2D}" type="POI" name="Village: Gøtueiði" owner="3DSpotters" lat="62.1753702" lon="-6.7752761" alt="133.35"/> 
+<LandmarkLocation instanceId="{981D129F-2861-43A2-AF64-3213E1CBFC5D}" type="POI" name="Village: Haraldssund" owner="3DSpotters" lat="62.270646" lon="-6.6036466" alt="124.95"/> 
+<LandmarkLocation instanceId="{5CF70753-4CB8-4248-918E-84D82FB6DCFE}" type="POI" name="Village: Haldórsvík" owner="3DSpotters" lat="62.2754532" lon="-7.0934698" alt="105.0"/> 
+<LandmarkLocation instanceId="{628D7CC6-86A7-4F17-BD59-04308DE10B52}" type="POI" name="Village: Hellurnar" owner="3DSpotters" lat="62.263" lon="-6.844" alt="112.35"/> 
+<LandmarkLocation instanceId="{52120357-D423-4FE7-AF4C-D6C946E0FF7A}" type="POI" name="Village: Hattarvík" owner="3DSpotters" lat="62.3294992" lon="-6.2750044" alt="118.65"/> 
+<LandmarkLocation instanceId="{1E0F3717-5F5B-4909-861D-522BEC43815B}" type="POI" name="Village: Hósvík" owner="3DSpotters" lat="62.1514776" lon="-6.9467985" alt="96.6"/> 
+<LandmarkLocation instanceId="{0E6A27E7-0138-4FA6-914C-869C427208E7}" type="POI" name="Village: Hestur" owner="3DSpotters" lat="61.9558309" lon="-6.8829483" alt="121.8"/> 
+<LandmarkLocation instanceId="{5FA594D9-ACB5-48DB-A438-DF8326FD55AF}" type="POI" name="Village: Hov" owner="3DSpotters" lat="61.5067716" lon="-6.7623644" alt="121.8"/> 
+<LandmarkLocation instanceId="{51D69B1F-A16C-4C56-A0B0-F613374EA15E}" type="POI" name="Village: Húsavík" owner="3DSpotters" lat="61.8096495" lon="-6.6794956" alt="113.4"/> 
+<LandmarkLocation instanceId="{1C6475C4-C402-4A32-94FD-4722755987C0}" type="POI" name="Village: Húsar" owner="3DSpotters" lat="62.2649365" lon="-6.6962228" alt="98.7"/> 
+<LandmarkLocation instanceId="{7340AB3B-1812-4DD9-BB20-0D314A1D6071}" type="POI" name="Village: Hvalvík" owner="3DSpotters" lat="62.1871139" lon="-7.0354349" alt="122.85"/> 
+<LandmarkLocation instanceId="{AAA6E4E5-E5F0-49AE-9A6F-84BB23F9D6A5}" type="POI" name="Village: Hvalba" owner="3DSpotters" lat="61.6003139" lon="-6.9585472" alt="97.65"/> 
+<LandmarkLocation instanceId="{01B29A9B-CB2E-4523-9F24-1FF9440469DD}" type="POI" name="Village: Innan Glyvur" owner="3DSpotters" lat="62.1366229" lon="-6.7595184" alt="105.0"/> 
+<LandmarkLocation instanceId="{129B532B-054F-4931-9258-F4BCEC983C3D}" type="POI" name="Village: Kaldbak" owner="3DSpotters" lat="62.0610657" lon="-6.8287134" alt="113.4"/> 
+<LandmarkLocation instanceId="{F3F7BBD3-F93C-4907-8E4A-0C1C3EDA4447}" type="POI" name="Village: Hvannasund" owner="3DSpotters" lat="62.29727" lon="-6.5196605" alt="105.0"/> 
+<LandmarkLocation instanceId="{D77D9531-0DBD-47EF-91F7-C93D2E1F6101}" type="POI" name="Village: Hvítanes" owner="3DSpotters" lat="62.0445949" lon="-6.7726333" alt="106.05"/> 
+<LandmarkLocation instanceId="{4746C718-05D2-4003-AB33-046969BBDE0F}" type="POI" name="Village: Kirkjubøur" owner="3DSpotters" lat="61.9526502" lon="-6.7942333" alt="111.3"/> 
+<LandmarkLocation instanceId="{080671A6-06A1-4F4E-A4BF-576BC50E0520}" type="POI" name="Village: Klaksvík" owner="3DSpotters" lat="62.2266084" lon="-6.5852705" alt="94.5"/> 
+<LandmarkLocation instanceId="{67D380AF-5FA5-447A-9234-09D1D28884F0}" type="POI" name="Village: Kaldbaksbotnur" owner="3DSpotters" lat="62.0654423" lon="-6.9126848" alt="110.25"/> 
+<LandmarkLocation instanceId="{4A1BCFAC-6437-44BF-84E1-A851C3ABED9A}" type="POI" name="Village: Kirkja" owner="3DSpotters" lat="62.3182463" lon="-6.316458" alt="119.7"/> 
+<LandmarkLocation instanceId="{FAD8C49C-EBB3-4E8C-B0DD-6F867E58AC0D}" type="POI" name="Village: Kunoy" owner="3DSpotters" lat="62.2917787" lon="-6.6687901" alt="110.25"/> 
+<LandmarkLocation instanceId="{6780725D-6C7C-4CFB-804D-9CAB4B99AB1D}" type="POI" name="Village: Kvívík" owner="3DSpotters" lat="62.1170951" lon="-7.0745199" alt="128.1"/> 
+<LandmarkLocation instanceId="{788E044A-A2EF-4FD7-ACBF-6DD0FECE1488}" type="POI" name="Village: Kollafjørður" owner="3DSpotters" lat="62.1177429" lon="-6.9005919" alt="88.2"/> 
+<LandmarkLocation instanceId="{F63513D7-FA4A-4FDF-B1AE-8592B8B7FA4E}" type="POI" name="Village: Koltur" owner="3DSpotters" lat="61.985698" lon="-6.9670542" alt="120.75"/> 
+<LandmarkLocation instanceId="{C54C5D6B-87B9-4E00-A6AF-F6F37571C7DC}" type="POI" name="Village: Leirvík" owner="3DSpotters" lat="62.2095775" lon="-6.7077974" alt="114.45"/> 
+<LandmarkLocation instanceId="{E84258D1-4736-47DC-A53B-E044A84D0A0A}" type="POI" name="Village: Leynar" owner="3DSpotters" lat="62.1170151" lon="-7.0424071" alt="101.85"/> 
+<LandmarkLocation instanceId="{97602B52-EEB0-4F4A-9E2F-D8D350FC117F}" type="POI" name="Village: Lamba" owner="3DSpotters" lat="62.1417232" lon="-6.711869" alt="107.1"/> 
+<LandmarkLocation instanceId="{0B53BFF0-0AA0-4DF1-8CFA-F021771C8728}" type="POI" name="Village: Langasandur" owner="3DSpotters" lat="62.2315748" lon="-7.0486274" alt="96.6"/> 
+<LandmarkLocation instanceId="{C93576A1-2EAC-487A-9D95-239A8380882F}" type="POI" name="Village: Mikladalur" owner="3DSpotters" lat="62.335" lon="-6.766" alt="121.8"/> 
+<LandmarkLocation instanceId="{BEBA2A77-80D2-447E-8C3A-FAC04703C0A3}" type="POI" name="Village: Miðvágur" owner="3DSpotters" lat="62.0491394" lon="-7.189202" alt="132.3"/> 
+<LandmarkLocation instanceId="{41FE99B8-088A-4002-ABDB-CAA318F49780}" type="POI" name="Village: Lopra" owner="3DSpotters" lat="61.4435538" lon="-6.7710111" alt="89.25"/> 
+<LandmarkLocation instanceId="{0C8D91AF-7C5B-4C99-82F2-BC8FC73FE9B1}" type="POI" name="Village: Ljósá" owner="3DSpotters" lat="62.2674624" lon="-7.0617676" alt="132.3"/> 
+<LandmarkLocation instanceId="{F0680875-E815-4008-AB9E-81D6D94352F2}" type="POI" name="Village: Nes" owner="3DSpotters" lat="62.0811545" lon="-6.7294839" alt="134.4"/> 
+<LandmarkLocation instanceId="{463EAA8D-B80D-48D0-A0BB-579D1AABE232}" type="POI" name="Village: Oyri" owner="3DSpotters" lat="62.1910124" lon="-6.9864143" alt="127.05"/> 
+<LandmarkLocation instanceId="{7F0FFAA8-8505-4F2F-A4D8-AE3C561148EE}" type="POI" name="Village: Oyndarfjørður" owner="3DSpotters" lat="62.2769219" lon="-6.8540178" alt="124.95"/> 
+<LandmarkLocation instanceId="{CAF05D8B-6205-451D-98E5-6CCB7B072C63}" type="POI" name="Village: Norðragøta" owner="3DSpotters" lat="62.1985237" lon="-6.7401847" alt="113.4"/> 
+<LandmarkLocation instanceId="{379D7C68-4099-41ED-9323-2D3301F832EA}" type="POI" name="Village: Norðoyri" owner="3DSpotters" lat="62.2123327" lon="-6.5411128" alt="121.8"/> 
+<LandmarkLocation instanceId="{2DD93526-4A94-4AF2-B884-5FAA3BFCC05A}" type="POI" name="Village: Runavík" owner="3DSpotters" lat="62.1075979" lon="-6.7210814" alt="123.9"/> 
+<LandmarkLocation instanceId="{44EAB0A2-4272-4D4F-AED1-710E8C70E647}" type="POI" name="Village: Rituvík" owner="3DSpotters" lat="62.1073947" lon="-6.6841672" alt="100.8"/> 
+<LandmarkLocation instanceId="{1B59C647-EF88-4DCA-91D6-5C5BAEC7367C}" type="POI" name="Village: Porkeri" owner="3DSpotters" lat="61.4817399" lon="-6.7454998" alt="123.9"/> 
+<LandmarkLocation instanceId="{7317141C-5A1E-4385-8FE7-A7BF90CA6CF0}" type="POI" name="Village: Sandvík" owner="3DSpotters" lat="61.632964" lon="-6.9289986" alt="133.35"/> 
+<LandmarkLocation instanceId="{499D235B-E645-4514-8D27-CD2068D6BC38}" type="POI" name="Village: Selatrað" owner="3DSpotters" lat="62.159" lon="-6.878" alt="127.05"/> 
+<LandmarkLocation instanceId="{F307BB34-7736-4180-837B-E58C6DBD4CBE}" type="POI" name="Village: Skálabotnur" owner="3DSpotters" lat="62.1939598" lon="-6.8540808" alt="120.75"/> 
+<LandmarkLocation instanceId="{71105F7F-0E5D-45F5-90B6-49B02491D2F4}" type="POI" name="Village: Skálavík" owner="3DSpotters" lat="61.8297213" lon="-6.6658461" alt="127.05"/> 
+<LandmarkLocation instanceId="{49B6F20D-C9D1-4EA7-BDAF-DD2F959042FB}" type="POI" name="Village: Saltangará" owner="3DSpotters" lat="62.1169179" lon="-6.7188176" alt="99.75"/> 
+<LandmarkLocation instanceId="{23C854A9-804A-4BC2-B76C-09DA123D4D9F}" type="POI" name="Village: Saltnes" owner="3DSpotters" lat="62.1089748" lon="-6.7425141" alt="117.6"/> 
+<LandmarkLocation instanceId="{D23CF552-5538-49E2-B91C-A468BC1FA076}" type="POI" name="Village: Sandavágur" owner="3DSpotters" lat="62.0539859" lon="-7.1525739" alt="112.35"/> 
+<LandmarkLocation instanceId="{7E0BCB65-37B2-403A-9F6D-AB4CC5A4A3FC}" type="POI" name="Village: Sandur" owner="3DSpotters" lat="61.8348155" lon="-6.8175826" alt="91.35"/> 
+<LandmarkLocation instanceId="{F82423B9-3F47-4C54-A3C9-791831C29F88}" type="POI" name="Village: Skúvoy" owner="3DSpotters" lat="61.7706823" lon="-6.8066251" alt="131.25"/> 
+<LandmarkLocation instanceId="{93975A4F-FCFC-4D62-91CF-7D288AAB5E80}" type="POI" name="Village: Skælingur" owner="3DSpotters" lat="62.095984" lon="-7.0082285" alt="113.4"/> 
+<LandmarkLocation instanceId="{DBAF57E5-F87B-4542-AB0D-B8894745DFE5}" type="POI" name="Village: Strendur" owner="3DSpotters" lat="62.1076322" lon="-6.7655783" alt="75.6"/> 
+<LandmarkLocation instanceId="{1DC9B308-6683-43C5-8C75-0FEFD566AC6D}" type="POI" name="Village: Streymnes" owner="3DSpotters" lat="62.1914142" lon="-7.0316394" alt="100.8"/> 
+<LandmarkLocation instanceId="{6F7E34F9-6E4B-4D9D-B4C1-94B67E7BE934}" type="POI" name="Village: Skála" owner="3DSpotters" lat="62.1574049" lon="-6.7816595" alt="113.4"/> 
+<LandmarkLocation instanceId="{66201C1B-B840-436D-AB1F-5415FCE293FA}" type="POI" name="Village: Skarvanes" owner="3DSpotters" lat="61.7936323" lon="-6.7475006" alt="75.6"/> 
+<LandmarkLocation instanceId="{F4F0B1D2-2A34-42CD-B44F-B021C4555031}" type="POI" name="Village: Skipanes" owner="3DSpotters" lat="62.1732721" lon="-6.7704674" alt="91.35"/> 
+<LandmarkLocation instanceId="{6BDDAB21-0162-4E97-BFF2-1696B8D57744}" type="POI" name="Village: Skopun" owner="3DSpotters" lat="61.9037828" lon="-6.8866676" alt="135.45"/> 
+<LandmarkLocation instanceId="{E2108776-0464-467A-ABCB-18D2FCE796BA}" type="POI" name="Village: Syðradalur" owner="3DSpotters" lat="62.2452238" lon="-6.6672734" alt="100.8"/> 
+<LandmarkLocation instanceId="{4F8DD8D7-CA8C-4579-81E3-2EAE6F6D499A}" type="POI" name="Village: Svínoy" owner="3DSpotters" lat="62.2781765" lon="-6.3421026" alt="123.9"/> 
+<LandmarkLocation instanceId="{4FB96DB4-AAB3-4FB1-9123-596BA28C2E8D}" type="POI" name="Village: Syðrugøta" owner="3DSpotters" lat="62.1861301" lon="-6.7542366" alt="91.35"/> 
+<LandmarkLocation instanceId="{1E5F4C45-4845-40AA-81EB-89D102E87E27}" type="POI" name="Village: Syðradalur" owner="3DSpotters" lat="62.0187017" lon="-6.9123819" alt="94.5"/> 
+<LandmarkLocation instanceId="{194FF6B3-7C5B-433C-87E9-9191A25FC13D}" type="POI" name="Village: Sumba" owner="3DSpotters" lat="61.4039284" lon="-6.7133445" alt="91.35"/> 
+<LandmarkLocation instanceId="{C35EEC00-9A14-4F34-B9A1-DDFC3FC9EE93}" type="POI" name="Village: Stykkið" owner="3DSpotters" lat="62.1154894" lon="-7.0512945" alt="107.1"/> 
+<LandmarkLocation instanceId="{2AF9C919-9ED8-47DF-9C1B-4B92BA22B9AB}" type="POI" name="Village: Svínáir" owner="3DSpotters" lat="62.2297533" lon="-7.0257339" alt="90.3"/> 
+<LandmarkLocation instanceId="{326840B7-3BB4-45DF-A126-EBF1D0FF8E98}" type="POI" name="Village: Sund" owner="3DSpotters" lat="62.049116" lon="-6.8460495" alt="90.3"/> 
+<LandmarkLocation instanceId="{ED40111D-4307-45E3-B84A-93DD67FB5E63}" type="POI" name="Village: Trongisvágur" owner="3DSpotters" lat="61.564" lon="-6.844" alt="86.1"/> 
+<LandmarkLocation instanceId="{2B2FAD11-D718-490F-87AD-789B7DB64FB2}" type="POI" name="Town: Tórshavn" owner="3DSpotters" lat="62.012" lon="-6.768" alt="129.78"/> 
+<LandmarkLocation instanceId="{9A49C6C3-6E7A-431D-AA1C-A8EDF8C390D6}" type="POI" name="Village: Tvøroyri" owner="3DSpotters" lat="61.556" lon="-6.803" alt="127.05"/> 
+<LandmarkLocation instanceId="{DE654479-128A-4606-B396-B11A50100467}" type="POI" name="Village: Trøllanes" owner="3DSpotters" lat="62.3612244" lon="-6.7888073" alt="92.4"/> 
+<LandmarkLocation instanceId="{5DF45F36-9906-43BA-A954-A786DFA33AAE}" type="POI" name="Village: Sørvágur" owner="3DSpotters" lat="62.0716758" lon="-7.309821" alt="116.55"/> 
+<LandmarkLocation instanceId="{CEF820AF-DE14-4006-8E48-30A4A4FADE88}" type="POI" name="Village: Søldarfjørður" owner="3DSpotters" lat="62.1600626" lon="-6.7539129" alt="109.2"/> 
+<LandmarkLocation instanceId="{108EDD25-15DB-4BB6-8325-C8CF77A65734}" type="POI" name="Village: Toftir" owner="3DSpotters" lat="62.0916048" lon="-6.7378886" alt="99.75"/> 
+<LandmarkLocation instanceId="{B887D97F-0388-45F1-882E-890471C6BE9A}" type="POI" name="Village: Tjørnuvík" owner="3DSpotters" lat="62.2889614" lon="-7.1487437" alt="101.85"/> 
+<LandmarkLocation instanceId="{F8CE4921-7DE5-47F2-8F94-EA44CC11DDF1}" type="POI" name="Village: Æðuvík" owner="3DSpotters" lat="62.0693467" lon="-6.6939053" alt="81.9"/> 
+<LandmarkLocation instanceId="{EFE65C54-FA21-4EE3-820B-1FDFB0F3E7CD}" type="POI" name="Village: Ørðavík" owner="3DSpotters" lat="61.5338099" lon="-6.8134958" alt="123.9"/> 
+<LandmarkLocation instanceId="{2223812B-B97E-464A-AE1F-DB459E8BABC3}" type="POI" name="Village: Viðareiði" owner="3DSpotters" lat="62.36" lon="-6.533" alt="124.95"/> 
+<LandmarkLocation instanceId="{BC397A18-6519-406F-86EC-74E128912AEB}" type="POI" name="Village: Víkarbyrgi" owner="3DSpotters" lat="61.4423185" lon="-6.7255895" alt="112.35"/> 
+<LandmarkLocation instanceId="{FE5A0EA4-6D03-42DE-9A8C-69FDACC7D83E}" type="POI" name="Village: Velbastaður" owner="3DSpotters" lat="61.9830528" lon="-6.8540795" alt="126.0"/> 
+<LandmarkLocation instanceId="{64E82C7A-5046-4BF4-AA8D-C9C6A611D970}" type="POI" name="Village: Vestmanna" owner="3DSpotters" lat="62.156" lon="-7.166" alt="127.05"/> 
+<LandmarkLocation instanceId="{10889E8E-F743-4A85-B85C-B88431DD998C}" type="POI" name="Village: Vágur" owner="3DSpotters" lat="61.4747101" lon="-6.8071921" alt="100.8"/> 
+<LandmarkLocation instanceId="{D3AEA4A0-E65F-41B6-A1E6-4C039470BCE7}" type="POI" name="Village: Vatnsoyrar" owner="3DSpotters" lat="62.074" lon="-7.248" alt="110.25"/> 
+<LandmarkLocation instanceId="{01146E23-B533-4E1D-BB3A-896594710F74}" type="POI" name="Hotel: Bládýpi" owner="3DSpotters" lat="62.0102776" lon="-6.7761323" alt="67.9"/> 
+<LandmarkLocation instanceId="{5BDC0B7B-EB7F-4537-85A4-B6362263B609}" type="POI" name="Hotel: Hotel Hafnia" owner="3DSpotters" lat="62.0099546" lon="-6.7709563" alt="84.7"/> 
+<LandmarkLocation instanceId="{8BE978E2-9CE6-4426-B434-3413988B1BEF}" type="POI" name="Peak: Uppi á Manni" owner="3DSpotters" lat="61.9868986" lon="-6.6454694" alt="134.4"/> 
+<LandmarkLocation instanceId="{3C035A2B-A622-4C85-B064-9871D5FA5104}" type="POI" name="Peak: Slættafelli" owner="3DSpotters" lat="62.150567" lon="-6.825833" alt="121.8"/> 
+<LandmarkLocation instanceId="{EA9AB1CB-DFA6-49F2-9ECE-E906AB0A9BA4}" type="POI" name="Peak: Skælingsfjall" owner="3DSpotters" lat="62.0890078" lon="-6.9854268" alt="78.75"/> 
+<LandmarkLocation instanceId="{5287A9DA-3CC5-4B61-91CE-EA36AFD7BBFA}" type="POI" name="Peak: Reynsatindur" owner="3DSpotters" lat="62.0820369" lon="-7.187847" alt="108.15"/> 
+<LandmarkLocation instanceId="{109D2419-2EA1-4F66-B6C5-CAFB6BB7E43D}" type="POI" name="Village: Víkar" owner="3DSpotters" lat="62.1265719" lon="-7.3793823" alt="111.3"/> 
+<LandmarkLocation instanceId="{5531643B-0380-49AB-9B89-AF0CE5BD0E8C}" type="POI" name="Peak: Vørðuklettar" owner="3DSpotters" lat="62.0499973" lon="-7.2166676" alt="133.35"/> 
+<LandmarkLocation instanceId="{5CECF5C6-DBD9-4F7B-8F76-E761F56C1F6B}" type="POI" name="Peak: Sundsnøva" owner="3DSpotters" lat="62.071341" lon="-7.4059406" alt="73.5"/> 
+<LandmarkLocation instanceId="{FB47B2D5-CF2B-4975-99E4-AF11A92C6065}" type="POI" name="Peak: Skálafjall" owner="3DSpotters" lat="62.2094769" lon="-6.8921918" alt="123.9"/> 
+<LandmarkLocation instanceId="{A0B315B4-CE97-4E1C-AFA2-B6A3D11C8EC8}" type="POI" name="Peak: Skálafjall" owner="3DSpotters" lat="61.619815" lon="-6.9521156" alt="128.1"/> 
+<LandmarkLocation instanceId="{35936121-2250-46FE-A1C4-AB3AD5A42C64}" type="POI" name="Village: Lambareiði" owner="3DSpotters" lat="62.1393189" lon="-6.730604" alt="99.75"/> 
+<LandmarkLocation instanceId="{48A9637D-6149-47D5-AF88-781981B40D7A}" type="POI" name="Peak: Grímsfjall" owner="3DSpotters" lat="61.597482" lon="-6.9819218" alt="120.75"/> 
+<LandmarkLocation instanceId="{662DF963-5D1F-4540-82B6-6F1D0F7DAD4A}" type="POI" name="Peak: Byttufelli" owner="3DSpotters" lat="62.3145464" lon="-6.7566691" alt="126.0"/> 
+<LandmarkLocation instanceId="{5EB7D84A-4724-4AAB-9062-D5990CA9DE4A}" type="POI" name="Peak: Glopprók" owner="3DSpotters" lat="61.5045002" lon="-6.8741822" alt="130.2"/> 
+<LandmarkLocation instanceId="{72337DA4-6969-4AB7-B88F-CDBBC6F1AFC7}" type="POI" name="River: Gjógvará" owner="3DSpotters" lat="62.1492493" lon="-6.8505843" alt="58.1"/> 
+<LandmarkLocation instanceId="{7EFFD7CD-4EEF-4386-8B2B-62CF250A7A58}" type="POI" name="Peak: Høgaleiti" owner="3DSpotters" lat="62.118117" lon="-6.705917" alt="127.05"/> 
+<LandmarkLocation instanceId="{2842B38C-5A0F-4AD8-A8C2-B108E8C4FD4A}" type="POI" name="River: Blásendi" owner="3DSpotters" lat="62.15" lon="-6.9" alt="81.9"/> 
+<LandmarkLocation instanceId="{F5DF000E-B104-4D6D-A34D-295FEA586E44}" type="POI" name="Peak: Bøllufjall" owner="3DSpotters" lat="61.8550312" lon="-6.871888" alt="92.4"/> 
+<LandmarkLocation instanceId="{F4521FB1-8E97-4B63-86B9-24B12B7A28B1}" type="POI" name="Peak: Knúkin" owner="3DSpotters" lat="61.4162041" lon="-6.7085321" alt="124.95"/> 
+<LandmarkLocation instanceId="{D48974E1-BEEC-4A0D-8B37-A0E6DDC6BBAE}" type="POI" name="Peak: Havnartindur" owner="3DSpotters" lat="62.2742452" lon="-6.395335" alt="103.95"/> 
+<LandmarkLocation instanceId="{1A4D9B80-31FF-48D4-82C2-3834C8EA8942}" type="POI" name="Village: Nes" owner="3DSpotters" lat="61.4718123" lon="-6.762029" alt="92.4"/> 
+<LandmarkLocation instanceId="{0ACFE747-69AC-4835-AAE5-58BB120DBD85}" type="POI" name="Peak: Bolafløttur" owner="3DSpotters" lat="62.0563869" lon="-7.354437" alt="116.55"/> 
+<LandmarkLocation instanceId="{F52C77CF-1ADF-4CC6-8D15-67A16BA35DAD}" type="POI" name="Peak: Kirviskollur" owner="3DSpotters" lat="61.4382484" lon="-6.7825005" alt="133.35"/> 
+<LandmarkLocation instanceId="{FD1FEFFB-177E-4CD3-8573-33ED6F0FEFAA}" type="POI" name="Peak: Herðablaðið" owner="3DSpotters" lat="61.5435815" lon="-6.8887485" alt="135.45"/> 
+<LandmarkLocation instanceId="{9FD76C7D-EB75-4277-AFD7-A4BAB598D380}" type="POI" name="Peak: Enni" owner="3DSpotters" lat="61.5171047" lon="-6.7977437" alt="97.65"/> 
+<LandmarkLocation instanceId="{59DB822E-B8BF-47E7-AA1E-9DB4E4A4AF2C}" type="POI" name="Peak: Lírisfelli" owner="3DSpotters" lat="62.089373" lon="-7.1636702" alt="136.5"/> 
+<LandmarkLocation instanceId="{675DEB74-C1C1-4E47-AB08-EC9BD6F3CC76}" type="POI" name="Peak: Støðlafjall" owner="3DSpotters" lat="62.170467" lon="-6.745967" alt="76.65"/> 
+<LandmarkLocation instanceId="{0852B589-31E8-4CCE-BE47-4EE56BDAA2EC}" type="POI" name="Peak: Snæfelli" owner="3DSpotters" lat="62.262621" lon="-6.5639562" alt="136.5"/> 
+<LandmarkLocation instanceId="{349914AD-FA99-4F6A-831E-A29122A632E5}" type="POI" name="Peak: Middagsfjall" owner="3DSpotters" lat="62.0306173" lon="-7.1838947" alt="111.3"/> 
+<LandmarkLocation instanceId="{031F2D7D-4BCB-4CD5-B39F-269A1B3AC1E9}" type="POI" name="Village: Válur" owner="3DSpotters" lat="62.1499062" lon="-7.1515638" alt="80.85"/> 
+<LandmarkLocation instanceId="{73AB97A5-299B-4392-A32C-D348A02CBEFD}" type="POI" name="Peak: Lokki" owner="3DSpotters" lat="62.2907669" lon="-6.5575279" alt="121.8"/> 
+<LandmarkLocation instanceId="{99701EC8-14D1-4FB5-B562-84ED86185403}" type="POI" name="River: Tjørnudalsá" owner="3DSpotters" lat="61.7825899" lon="-6.8000258" alt="77.7"/> 
+<LandmarkLocation instanceId="{1EFDA57B-2907-435E-9F6B-9754D9212650}" type="POI" name="Peak: Múlin" owner="3DSpotters" lat="62.083333" lon="-6.833333" alt="98.7"/> 
+<LandmarkLocation instanceId="{A15CEE64-A728-4CD6-BC9D-67D5875B45C5}" type="POI" name="Peak: Tólvmarkaknúkur" owner="3DSpotters" lat="62.2600207" lon="-6.5202208" alt="80.85"/> 
+<LandmarkLocation instanceId="{E81D2004-D3CC-47DF-A86F-9FF6EF3427AE}" type="POI" name="River: Vikará" owner="3DSpotters" lat="62.304099" lon="-6.4880289" alt="61.6"/> 
+<LandmarkLocation instanceId="{F4C48D2D-CAD8-447D-A5C1-AFCA590A8DAA}" type="POI" name="Peak: Salthøvdi" owner="3DSpotters" lat="61.82006" lon="-6.8770033" alt="87.15"/> 
+<LandmarkLocation instanceId="{DA4DC514-71B4-4230-B28B-33EA20E944EF}" type="POI" name="Peak: Háfjall" owner="3DSpotters" lat="62.2092487" lon="-6.5848865" alt="112.35"/> 
+<LandmarkLocation instanceId="{55D1C48A-B54A-4C11-B68C-ED7DD7A57E28}" type="POI" name="Water: Krossvatn" owner="3DSpotters" lat="61.966667" lon="-6.8" alt="86.8"/> 
+<LandmarkLocation instanceId="{5FFF7665-E524-42A0-8306-896B331FE0A1}" type="POI" name="Peak: Hovstúgva" owner="3DSpotters" lat="61.5146059" lon="-6.7649528" alt="97.65"/> 
+<LandmarkLocation instanceId="{5E3A7347-A080-422D-AB3F-6F524805BF29}" type="POI" name="Peak: Beinisvørð" owner="3DSpotters" lat="61.4202039" lon="-6.7607557" alt="131.25"/> 
+<LandmarkLocation instanceId="{35C5F280-15B0-4A30-847B-3116C25A0F19}" type="POI" name="Peak: Gjógvaráfjall" owner="3DSpotters" lat="61.4730689" lon="-6.8509637" alt="89.25"/> 
+<LandmarkLocation instanceId="{CC2787CC-0719-4A86-AE9E-29F2861E53CF}" type="POI" name="Peak: Laðanfelli" owner="3DSpotters" lat="61.5122167" lon="-6.8316006" alt="80.85"/> 
+<LandmarkLocation instanceId="{391FA92C-5C15-48DA-9E0F-5D1CEAFD6AB2}" type="POI" name="Peak: Borgarfelli" owner="3DSpotters" lat="62.1618" lon="-6.826417" alt="114.45"/> 
+<LandmarkLocation instanceId="{7E8BFD01-952C-41BE-9492-933387ECE3F7}" type="POI" name="Peak: Eggjarók" owner="3DSpotters" lat="61.9583698" lon="-6.9116081" alt="115.5"/> 
+<LandmarkLocation instanceId="{6B603E0A-6D93-4E27-82D0-F42F0A0B7B19}" type="POI" name="Peak: Keldufjall" owner="3DSpotters" lat="62.2939627" lon="-6.3456922" alt="117.6"/> 
+<LandmarkLocation instanceId="{BCB927E9-732E-490D-A453-8A8608A65D55}" type="POI" name="Peak: Gásafjall" owner="3DSpotters" lat="62.3241243" lon="-6.7748307" alt="127.05"/> 
+<LandmarkLocation instanceId="{FDE27C53-7E56-4297-83F3-F8EA03B59D22}" type="POI" name="Peak: Knútur" owner="3DSpotters" lat="61.7681766" lon="-6.8553672" alt="106.05"/> 
+<LandmarkLocation instanceId="{9B2AF345-B789-4ED5-BD63-B8346BD7099C}" type="POI" name="Peak: Nestindar" owner="3DSpotters" lat="62.3504215" lon="-6.798485" alt="121.8"/> 
+<LandmarkLocation instanceId="{FB0EE19E-E11D-4214-91A8-7088CF7BFE39}" type="POI" name="Peak: Borðoyarnes" owner="3DSpotters" lat="62.1735695" lon="-6.5438832" alt="73.5"/> 
+<LandmarkLocation instanceId="{F8960B74-DCAF-408E-BA97-D24206E6AA78}" type="POI" name="Peak: Kunoyarnakkur" owner="3DSpotters" lat="62.3628436" lon="-6.6904901" alt="123.9"/> 
+<LandmarkLocation instanceId="{6B39A679-FE31-4098-B07B-FE68E879696C}" type="POI" name="Peak: Knúkur" owner="3DSpotters" lat="61.887647" lon="-6.8449435" alt="79.8"/> 
+<LandmarkLocation instanceId="{EE48DE4F-F6D3-4BFB-8EAC-7CC59AE42EA8}" type="POI" name="Water: Miðvatn" owner="3DSpotters" lat="61.4967625" lon="-6.9007625" alt="50.4"/> 
+<LandmarkLocation instanceId="{C48760D4-5658-4838-9689-9A0852F4F243}" type="POI" name="Peak: Borgin" owner="3DSpotters" lat="61.5048371" lon="-6.8596405" alt="124.95"/> 
+<LandmarkLocation instanceId="{CD8922EC-D5A7-4569-9543-F77521B44CF0}" type="POI" name="Peak: Tyril" owner="3DSpotters" lat="62.2027211" lon="-6.798914" alt="123.9"/> 
+<LandmarkLocation instanceId="{55E5132C-E457-4AC1-B566-5168D7AF88E2}" type="POI" name="Peak: Rógvukollur" owner="3DSpotters" lat="62.0990434" lon="-7.4164715" alt="78.75"/> 
+<LandmarkLocation instanceId="{217853B7-B7BC-4EAF-99DB-06FC376B3C55}" type="POI" name="Peak: Hvannafelli" owner="3DSpotters" lat="61.4935204" lon="-6.8395369" alt="119.7"/> 
+<LandmarkLocation instanceId="{AC37C445-F6DD-4901-B0CD-6D9259B1D48F}" type="POI" name="River: Ærgisá" owner="3DSpotters" lat="61.75" lon="-6.783333" alt="81.9"/> 
+<LandmarkLocation instanceId="{F8BD82A0-4C9F-4981-BDCE-BAC63B398D64}" type="POI" name="River: Mígandisá" owner="3DSpotters" lat="61.833333" lon="-6.666667" alt="81.2"/> 
+<LandmarkLocation instanceId="{66EA7BE3-5205-4791-B6CC-A9FA388F155B}" type="POI" name="Peak: Tindur" owner="3DSpotters" lat="62.3559525" lon="-6.6018244" alt="90.3"/> 
+<LandmarkLocation instanceId="{AC48892D-C1D9-4E9F-A3E4-8ACCC9B7AAEB}" type="POI" name="Peak: Múlin" owner="3DSpotters" lat="62.2457043" lon="-6.3719363" alt="90.3"/> 
+<LandmarkLocation instanceId="{903556E6-6D08-42D6-99D6-B391BB6C77AA}" type="POI" name="Peak: Skúvoyarfjall" owner="3DSpotters" lat="61.7678583" lon="-6.6793833" alt="126.0"/> 
+<LandmarkLocation instanceId="{AC29838A-CE00-42DA-9343-36F8789AF902}" type="POI" name="Peak: Oyrnafjall" owner="3DSpotters" lat="61.5468571" lon="-6.8511008" alt="103.95"/> 
+<LandmarkLocation instanceId="{D60BEB99-3038-4D3F-BFD9-72931B409427}" type="POI" name="Peak: Ritufelli" owner="3DSpotters" lat="62.0782177" lon="-6.8956117" alt="107.1"/> 
+<LandmarkLocation instanceId="{63CC39F5-AB43-4A45-9B8A-17BBD8B5AFA1}" type="POI" name="Village: Norðdepil" owner="3DSpotters" lat="62.29567" lon="-6.527047" alt="102.9"/> 
+<LandmarkLocation instanceId="{9B209C21-C948-4B1D-972F-01BA3D9BE70E}" type="POI" name="Peak: Skálhøvdi" owner="3DSpotters" lat="61.829268" lon="-6.6373116" alt="126.0"/> 
+<LandmarkLocation instanceId="{FC421E29-1A29-4CA3-8464-3A35499BE2F2}" type="POI" name="River: Krossdalsá" owner="3DSpotters" lat="62.3159989" lon="-6.5525489" alt="74.9"/> 
+<LandmarkLocation instanceId="{64F5C37F-04A4-49ED-B7A3-7B1C1804C982}" type="POI" name="Peak: Trælanípa" owner="3DSpotters" lat="62.0211875" lon="-7.23021" alt="95.55"/> 
+<LandmarkLocation instanceId="{934BF761-56AA-42B6-ACD7-C426EFC926A8}" type="POI" name="River: Marknará" owner="3DSpotters" lat="62.1" lon="-7.3" alt="57.4"/> 
+<LandmarkLocation instanceId="{950AC1E4-B668-4C12-A4DF-C332490161EA}" type="POI" name="Peak: Spáafelli" owner="3DSpotters" lat="61.4258605" lon="-6.7388873" alt="81.9"/> 
+<LandmarkLocation instanceId="{BA6C5636-FB6B-45F3-892C-D4652032C25E}" type="POI" name="Peak: Vágfelli" owner="3DSpotters" lat="61.4872441" lon="-6.8123596" alt="101.85"/> 
+<LandmarkLocation instanceId="{9D0B6C73-9D39-4C70-81B7-1DA10EE42001}" type="POI" name="Peak: Sigatindur" owner="3DSpotters" lat="62.1983098" lon="-6.692783" alt="121.8"/> 
+<LandmarkLocation instanceId="{B3E84C4B-8FCE-428F-8158-DE45D8CA4858}" type="POI" name="Peak: Spinarnir" owner="3DSpotters" lat="61.4255734" lon="-6.7474963" alt="94.5"/> 
+<LandmarkLocation instanceId="{2F824526-9B0C-45F5-A238-0A43B7A61156}" type="POI" name="Peak: Knattarheyggjur" owner="3DSpotters" lat="62.1073323" lon="-7.3749264" alt="131.25"/> 
+<LandmarkLocation instanceId="{89F341F2-39DC-4BB5-8A41-A8735F9F57D5}" type="POI" name="Peak: Heimarafjall" owner="3DSpotters" lat="62.3122914" lon="-6.7668782" alt="109.2"/> 
+<LandmarkLocation instanceId="{A33432C3-DAF5-46BA-AC28-43E8F4F2DBAB}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="61.881143" lon="-6.7387301" alt="76.3"/> 
+<LandmarkLocation instanceId="{B677940E-B2B1-47EC-84CA-F1E594F51CBC}" type="POI" name="Peak: Eystfelli" owner="3DSpotters" lat="62.341542" lon="-6.2635688" alt="74.55"/> 
+<LandmarkLocation instanceId="{CE031C35-7AF6-4319-A9FA-C55ED09CC908}" type="POI" name="River: Myllá" owner="3DSpotters" lat="61.5359094" lon="-6.7831043" alt="56.0"/> 
+<LandmarkLocation instanceId="{575C6A32-4555-42EC-8FD4-F5C37905E093}" type="POI" name="Peak: Depilsknúkur" owner="3DSpotters" lat="62.2756387" lon="-6.5432494" alt="90.3"/> 
+<LandmarkLocation instanceId="{DFD2E34B-09FF-4DFA-BF0F-61BFD01935BC}" type="POI" name="River: Deildará" owner="3DSpotters" lat="62.141333" lon="-6.9070329" alt="67.9"/> 
+<LandmarkLocation instanceId="{8514DC99-B9F5-4906-BE59-0BDBC2D078EE}" type="POI" name="Peak: Høgoyggj" owner="3DSpotters" lat="61.6949571" lon="-6.7640238" alt="116.55"/> 
+<LandmarkLocation instanceId="{889DEB87-64C1-4852-9459-1264E672CCDF}" type="POI" name="River: Gjógvará" owner="3DSpotters" lat="62.1490671" lon="-6.7665566" alt="63.7"/> 
+<LandmarkLocation instanceId="{629518C2-C065-474C-9445-F522C5B36B3A}" type="POI" name="Peak: Klubbin" owner="3DSpotters" lat="62.1201769" lon="-7.3627947" alt="87.15"/> 
+<LandmarkLocation instanceId="{21A01F1A-6C75-4D48-B11E-48F0AE5E70E2}" type="POI" name="Village: Blankskáli" owner="3DSpotters" lat="62.2333803" lon="-6.703373" alt="119.7"/> 
+<LandmarkLocation instanceId="{69E931EE-6435-4A03-8570-5A50393ED8A2}" type="POI" name="Peak: Malinsfjall" owner="3DSpotters" lat="62.3445602" lon="-6.539082" alt="130.2"/> 
+<LandmarkLocation instanceId="{2F957034-507E-458F-9866-E3FBCE1D28FA}" type="POI" name="River: Dalsá" owner="3DSpotters" lat="62.112567" lon="-7.4335393" alt="49.0"/> 
+<LandmarkLocation instanceId="{30259058-7602-49F7-9452-BC294D5E7B94}" type="POI" name="Peak: Halgafelstindur" owner="3DSpotters" lat="62.1932" lon="-6.90465" alt="100.8"/> 
+<LandmarkLocation instanceId="{96C640B3-7376-4BDC-A7F0-E61B2B3BE99C}" type="POI" name="Peak: Húsafelli" owner="3DSpotters" lat="62.0568796" lon="-7.1079414" alt="112.35"/> 
+<LandmarkLocation instanceId="{BDC78A2D-A8A2-4A46-92BB-BC92D49DC542}" type="POI" name="Peak: Gøtunestindur" owner="3DSpotters" lat="62.189434" lon="-6.6483353" alt="128.1"/> 
+<LandmarkLocation instanceId="{053470BE-AA11-4336-8488-02E11DE9CD93}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.3336727" lon="-6.4891855" alt="52.5"/> 
+<LandmarkLocation instanceId="{A6D2120B-6442-465B-9CA4-F68C4CE7F054}" type="POI" name="Peak: Slættafjall" owner="3DSpotters" lat="62.3316727" lon="-6.7893652" alt="124.95"/> 
+<LandmarkLocation instanceId="{4D790571-D305-4B2B-AFA4-4554CFE9F7E2}" type="POI" name="Water: Vatnið i Tindalið" owner="3DSpotters" lat="61.4997137" lon="-6.9146188" alt="87.5"/> 
+<LandmarkLocation instanceId="{4015E5DE-FC14-491D-B82E-77320E48AF87}" type="POI" name="Peak: Nøvin" owner="3DSpotters" lat="62.2768956" lon="-6.7171612" alt="99.75"/> 
+<LandmarkLocation instanceId="{69A45874-8F3B-4774-B940-649EB44A23A8}" type="POI" name="Peak: Skúvafjall" owner="3DSpotters" lat="61.970877" lon="-6.6346763" alt="113.4"/> 
+<LandmarkLocation instanceId="{05C2AF45-90D1-43A1-B137-CE2C9E9CA438}" type="POI" name="Peak: Snældansfjall" owner="3DSpotters" lat="62.1050895" lon="-7.3529276" alt="77.7"/> 
+<LandmarkLocation instanceId="{E0FE64F9-AD4B-4C48-A958-072CFB27E089}" type="POI" name="Water: Ryskivatn" owner="3DSpotters" lat="61.4823414" lon="-6.8826143" alt="64.4"/> 
+<LandmarkLocation instanceId="{59FC760F-D068-473B-BA0C-8C6A7EE931DE}" type="POI" name="Peak: Høvdin" owner="3DSpotters" lat="61.7842122" lon="-6.8528477" alt="98.7"/> 
+<LandmarkLocation instanceId="{B66D6C9D-49AD-4A40-B5D1-A23F90EDEADC}" type="POI" name="Peak: Tempilsklettur" owner="3DSpotters" lat="61.5718749" lon="-6.8972045" alt="126.0"/> 
+<LandmarkLocation instanceId="{02916F9A-5529-4186-BB4A-ECC8B038AB06}" type="POI" name="River: Havaldará" owner="3DSpotters" lat="62.18322" lon="-6.817698" alt="57.4"/> 
+<LandmarkLocation instanceId="{DAAE9049-63AF-4292-84F7-C7FA74BF78A9}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.133333" lon="-6.85" alt="80.5"/> 
+<LandmarkLocation instanceId="{4AC48085-B712-4EB9-AAC8-74404B4F3021}" type="POI" name="Peak: Gásafelli" owner="3DSpotters" lat="62.2027817" lon="-6.4847181" alt="82.95"/> 
+<LandmarkLocation instanceId="{71C409D4-EC9A-4631-AD7A-624A5F246025}" type="POI" name="Peak: Vestfelli" owner="3DSpotters" lat="61.8042284" lon="-6.7136203" alt="111.3"/> 
+<LandmarkLocation instanceId="{B69AE705-BF9C-494F-9446-6ACC7C1DF525}" type="POI" name="Peak: Fjallið Mikla" owner="3DSpotters" lat="61.527446" lon="-6.8571877" alt="127.05"/> 
+<LandmarkLocation instanceId="{6D2B9C2E-D1F9-4AC0-8C34-BCFDD68C6C03}" type="POI" name="River: Myllá" owner="3DSpotters" lat="62.2922584" lon="-6.6609179" alt="77.0"/> 
+<LandmarkLocation instanceId="{A6A732E7-1E6C-449D-982B-F723730E413E}" type="POI" name="Peak: Vatnfelli" owner="3DSpotters" lat="62.104433" lon="-6.70445" alt="118.65"/> 
+<LandmarkLocation instanceId="{B4C37010-CC20-4049-A67B-B2F40338D213}" type="POI" name="Peak: Teigafjall" owner="3DSpotters" lat="62.3233198" lon="-6.672467" alt="108.15"/> 
+<LandmarkLocation instanceId="{3DEF570B-15C3-48CD-85B5-A089D3E63A9E}" type="POI" name="Peak: Villingadalsfjall" owner="3DSpotters" lat="62.3810293" lon="-6.5561453" alt="85.05"/> 
+<LandmarkLocation instanceId="{4AE0631A-CEA9-4772-8CE4-7B4270CFF57D}" type="POI" name="Island: Sumbiarfles" owner="3DSpotters" lat="61.35" lon="-6.65" alt="137.34"/> 
+<LandmarkLocation instanceId="{339CBC15-9476-426B-BD70-2A49EC27D9B7}" type="POI" name="Peak: Talvborð" owner="3DSpotters" lat="62.3138814" lon="-6.4392818" alt="123.9"/> 
+<LandmarkLocation instanceId="{E1CF22AF-4DD1-4D9E-B8A3-D9CACB069EC0}" type="POI" name="Peak: Nakkur" owner="3DSpotters" lat="61.5640978" lon="-6.9267416" alt="117.6"/> 
+<LandmarkLocation instanceId="{12BD7E36-C4B7-492C-AC0B-317F4211CE34}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.3205216" lon="-6.9579611" alt="90.3"/> 
+<LandmarkLocation instanceId="{65162E1C-F867-4E6D-8223-DC364F9E3DC8}" type="POI" name="Peak: Antinisfjall" owner="3DSpotters" lat="62.143242" lon="-7.3162738" alt="95.55"/> 
+<LandmarkLocation instanceId="{EECB7053-D677-40F9-A9C9-FF3248B63614}" type="POI" name="Peak: Nónfjall" owner="3DSpotters" lat="61.5188994" lon="-6.8309465" alt="95.55"/> 
+<LandmarkLocation instanceId="{71ADEFE7-D844-48C4-9604-AC3DD0A89DD6}" type="POI" name="Peak: Nónfjall" owner="3DSpotters" lat="62.0564824" lon="-7.3305593" alt="110.25"/> 
+<LandmarkLocation instanceId="{FFC17304-B123-4D13-A5DA-44B0F44C168B}" type="POI" name="Peak: Gluggarnir" owner="3DSpotters" lat="61.546283" lon="-6.8930102" alt="85.05"/> 
+<LandmarkLocation instanceId="{C495F526-3580-46E0-AAA5-59E9B04150E0}" type="POI" name="Peak: Heiðafjall" owner="3DSpotters" lat="61.8167933" lon="-6.6727243" alt="129.15"/> 
+<LandmarkLocation instanceId="{5090BB8F-93D2-45DC-B2F9-0B3447B1118F}" type="POI" name="Peak: Jatnagarðar" owner="3DSpotters" lat="62.1125516" lon="-7.3912564" alt="87.15"/> 
+<LandmarkLocation instanceId="{4907A750-2253-4DCC-80D7-0A8D78768BA9}" type="POI" name="Peak: Høgafjall" owner="3DSpotters" lat="62.0622083" lon="-7.3827347" alt="79.8"/> 
+<LandmarkLocation instanceId="{67CE38BA-2DA8-4C5F-B3A6-5B6AC87FA6A2}" type="POI" name="Peak: Knúkur" owner="3DSpotters" lat="62.2053138" lon="-6.7302633" alt="91.35"/> 
+<LandmarkLocation instanceId="{7E2653A1-1EDF-4987-93A8-5FD424C63AB0}" type="POI" name="Peak: Knúkur" owner="3DSpotters" lat="62.3453893" lon="-6.5995428" alt="115.5"/> 
+<LandmarkLocation instanceId="{8FDA41B2-A336-4D2C-A3D7-518ACF5A2F75}" type="POI" name="Village: Slættanes" owner="3DSpotters" lat="62.1552189" lon="-7.2439552" alt="123.9"/> 
+<LandmarkLocation instanceId="{3ADE92E6-1D64-4459-AE69-B74ADFA79E89}" type="POI" name="River: Vesturdalsá" owner="3DSpotters" lat="62.2186175" lon="-6.9149028" alt="74.2"/> 
+<LandmarkLocation instanceId="{BF90E799-5C44-4239-BB36-54B94A70E0CA}" type="POI" name="Peak: Húsafelli" owner="3DSpotters" lat="62.2512" lon="-6.79445" alt="92.4"/> 
+<LandmarkLocation instanceId="{8194F3A6-BE5E-43EA-959E-C82C42F104C5}" type="POI" name="Peak: Kirkjubøkambur" owner="3DSpotters" lat="61.9547979" lon="-6.7787464" alt="92.4"/> 
+<LandmarkLocation instanceId="{96148BF1-A29F-4F14-A717-E31D8B179E2B}" type="POI" name="Peak: Myrkjanoyrarfjall" owner="3DSpotters" lat="62.2479563" lon="-6.562598" alt="92.4"/> 
+<LandmarkLocation instanceId="{C97EB372-B029-45C0-9B28-FF5F4E2F7538}" type="POI" name="Peak: Berinartindur" owner="3DSpotters" lat="62.0945788" lon="-7.3849721" alt="108.15"/> 
+<LandmarkLocation instanceId="{BEDA8304-DDD9-4EB4-B838-7799FB56D8DC}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.8816141" lon="-6.9344866" alt="74.2"/> 
+<LandmarkLocation instanceId="{4FC852F8-7215-4433-B120-D6A20E8DF0D8}" type="POI" name="Peak: Klettarnir" owner="3DSpotters" lat="61.7789711" lon="-6.8380125" alt="80.85"/> 
+<LandmarkLocation instanceId="{1BBDA4A6-E1C5-481E-93DC-CCB037C88DC8}" type="POI" name="Peak: Glyvraberg" owner="3DSpotters" lat="61.6287541" lon="-6.9876622" alt="77.7"/> 
+<LandmarkLocation instanceId="{B7903293-2C86-4396-83D1-9E908B6E9403}" type="POI" name="Peak: Nakkur" owner="3DSpotters" lat="61.755533" lon="-6.6808281" alt="97.65"/> 
+<LandmarkLocation instanceId="{5E4C59FC-1FDE-4452-92F6-D3C116E7FA03}" type="POI" name="Peak: Kvívíksskoranøva" owner="3DSpotters" lat="62.0682158" lon="-7.4037929" alt="78.75"/> 
+<LandmarkLocation instanceId="{7D4ABDB8-A415-4DA4-B109-8912365830FB}" type="POI" name="Peak: Reyðafelstindur" owner="3DSpotters" lat="62.1743689" lon="-6.8621367" alt="74.55"/> 
+<LandmarkLocation instanceId="{CF26A379-C660-4393-B623-30AE33AC8DD4}" type="POI" name="Peak: Skorin" owner="3DSpotters" lat="61.7539071" lon="-6.6798294" alt="86.1"/> 
+<LandmarkLocation instanceId="{6E060D30-93BB-4C7D-8F68-DB6E1E27CFD1}" type="POI" name="River: Tungá" owner="3DSpotters" lat="61.9056703" lon="-6.8340352" alt="70.0"/> 
+<LandmarkLocation instanceId="{97A735BA-B696-4C22-96C3-6CC062351BBD}" type="POI" name="Peak: Vørlufjall" owner="3DSpotters" lat="62.1365307" lon="-6.9275915" alt="129.15"/> 
+<LandmarkLocation instanceId="{81A5E3C4-E163-4D6D-ABA3-DA8AC1BC5DF3}" type="POI" name="River: Sandá" owner="3DSpotters" lat="62.1595572" lon="-6.8893647" alt="71.4"/> 
+<LandmarkLocation instanceId="{4EB5B702-217D-42AB-82DE-3ADF1D6BD7B0}" type="POI" name="Peak: Miðafelli" owner="3DSpotters" lat="62.162506" lon="-6.7121597" alt="119.7"/> 
+<LandmarkLocation instanceId="{3482871C-6D40-4731-B6BC-D7AC414E623B}" type="POI" name="River: Marknará" owner="3DSpotters" lat="61.8918832" lon="-6.7747626" alt="62.3"/> 
+<LandmarkLocation instanceId="{6A1EA17B-803F-4CD5-A613-E2C004510369}" type="POI" name="Peak: Skornasaklettur" owner="3DSpotters" lat="61.5690828" lon="-6.8247198" alt="124.95"/> 
+<LandmarkLocation instanceId="{CEA329E9-AAC0-4CFB-8310-8106C081C04F}" type="POI" name="River: Skálsá" owner="3DSpotters" lat="61.8904364" lon="-6.7747721" alt="77.0"/> 
+<LandmarkLocation instanceId="{017A0685-3311-4703-8B6A-4A8C9B77AC9A}" type="POI" name="River: Skúvadalsá" owner="3DSpotters" lat="62.1861922" lon="-6.496542" alt="77.7"/> 
+<LandmarkLocation instanceId="{2494EE4E-06D3-4288-BCC5-97D066C819DB}" type="POI" name="Peak: Nakkur" owner="3DSpotters" lat="61.6435403" lon="-6.9788008" alt="96.6"/> 
+<LandmarkLocation instanceId="{00FDFDA4-8399-4D79-B415-D5AE066C30EC}" type="POI" name="River: Skerá" owner="3DSpotters" lat="61.7597551" lon="-6.7256001" alt="49.0"/> 
+<LandmarkLocation instanceId="{401ABEAE-0FD6-4812-BA85-F6D96B4153DF}" type="POI" name="Village: Oyrareingir" owner="3DSpotters" lat="62.0996612" lon="-6.9512567" alt="93.45"/> 
+<LandmarkLocation instanceId="{F15A78ED-3B2E-43C6-A275-2BACC737A878}" type="POI" name="Peak: Múlatindur" owner="3DSpotters" lat="62.23535" lon="-6.90265" alt="81.9"/> 
+<LandmarkLocation instanceId="{0793BF54-8F1F-4F20-98E6-D585D88717F3}" type="POI" name="Peak: Malinstindur" owner="3DSpotters" lat="62.07703" lon="-7.1275261" alt="111.3"/> 
+<LandmarkLocation instanceId="{C011987C-7999-4AB3-9378-791AE2991705}" type="POI" name="Peak: Fýramarkaknúkur" owner="3DSpotters" lat="62.2399389" lon="-6.5499842" alt="132.3"/> 
+<LandmarkLocation instanceId="{A6C43752-EE4B-4228-9688-33C4876EF0BA}" type="POI" name="River: Botnsá" owner="3DSpotters" lat="61.7668184" lon="-6.8007315" alt="74.2"/> 
+<LandmarkLocation instanceId="{D2C3FF68-8B3F-437B-947F-53C16C28A7B6}" type="POI" name="Peak: Kjølur" owner="3DSpotters" lat="62.2321761" lon="-6.5703286" alt="89.25"/> 
+<LandmarkLocation instanceId="{BB497F47-4547-4A69-92D8-1EDF24302E23}" type="POI" name="Peak: Lambareyn" owner="3DSpotters" lat="62.1508877" lon="-6.6741593" alt="136.5"/> 
+<LandmarkLocation instanceId="{E4493E4E-DB5C-4248-8464-74065D9BEEDE}" type="POI" name="Peak: Grímstaðfjall" owner="3DSpotters" lat="62.1464982" lon="-7.2992618" alt="77.7"/> 
+<LandmarkLocation instanceId="{C047E769-065B-45D4-B530-C13156EF8C88}" type="POI" name="Village: Kolbeinagjógv" owner="3DSpotters" lat="62.1093293" lon="-6.7891679" alt="115.5"/> 
+<LandmarkLocation instanceId="{65866B40-E47A-41D7-B8BC-E81BA42DE13D}" type="POI" name="Peak: Froðbiarkambur" owner="3DSpotters" lat="61.5699231" lon="-6.7909074" alt="76.65"/> 
+<LandmarkLocation instanceId="{6E65A099-3EFF-4E5C-BF9D-E888C0DDFE45}" type="POI" name="Village: Signabøur" owner="3DSpotters" lat="62.0966606" lon="-6.9227618" alt="85.05"/> 
+<LandmarkLocation instanceId="{9A1D5A11-0689-4B0C-98FD-F4DD7006AB1C}" type="POI" name="Peak: Gleðin" owner="3DSpotters" lat="61.9044414" lon="-6.9374541" alt="78.75"/> 
+<LandmarkLocation instanceId="{9D0A6463-1283-424B-918F-E423C0CDB37D}" type="POI" name="Peak: Árnafjall" owner="3DSpotters" lat="62.1313875" lon="-7.436057" alt="122.85"/> 
+<LandmarkLocation instanceId="{BF92BE55-D126-40F9-8205-AD0ED624B893}" type="POI" name="Village: Norðtoftir" owner="3DSpotters" lat="62.2754871" lon="-6.5156844" alt="116.55"/> 
+<LandmarkLocation instanceId="{4D0A4D5D-9236-4C78-85FE-421B33E10561}" type="POI" name="Peak: Gásafelli" owner="3DSpotters" lat="62.095826" lon="-7.1858827" alt="80.85"/> 
+<LandmarkLocation instanceId="{018D7AE2-47BC-43C2-BF86-2F3F22477F84}" type="POI" name="Water: Gásdalsvatn" owner="3DSpotters" lat="61.7697283" lon="-6.6999069" alt="72.8"/> 
+<LandmarkLocation instanceId="{91998AD1-43D3-4830-A218-A4DC64679294}" type="POI" name="Peak: Kambur" owner="3DSpotters" lat="62.1441734" lon="-6.8157061" alt="131.25"/> 
+<LandmarkLocation instanceId="{8C892EEA-EFB4-41DE-9065-EC4D35615B47}" type="POI" name="Peak: Dyllan" owner="3DSpotters" lat="62.1131126" lon="-6.9448037" alt="123.9"/> 
+<LandmarkLocation instanceId="{F7C34136-B5D3-4A85-BA48-6930EFC3B6A4}" type="POI" name="Peak: Tunnafjall" owner="3DSpotters" lat="62.3141152" lon="-6.5145055" alt="100.8"/> 
+<LandmarkLocation instanceId="{E75B49E1-BF07-4CF0-BDB5-A0377BA9B54E}" type="POI" name="River: Tungáir" owner="3DSpotters" lat="62.1158152" lon="-6.816416" alt="81.9"/> 
+<LandmarkLocation instanceId="{C214226E-822C-4C05-957F-660CB1BB8AB9}" type="POI" name="Peak: Ritafjall" owner="3DSpotters" lat="62.2138882" lon="-6.7520779" alt="131.25"/> 
+<LandmarkLocation instanceId="{75C801CC-3272-4C97-8A32-0C36F2FBECA4}" type="POI" name="Peak: Rávan" owner="3DSpotters" lat="61.4500743" lon="-6.8009036" alt="76.65"/> 
+<LandmarkLocation instanceId="{80092FED-25D2-4A4B-91B4-EAA457CCF3EA}" type="POI" name="Village: Norðskáli" owner="3DSpotters" lat="62.2192052" lon="-7.0104449" alt="124.95"/> 
+<LandmarkLocation instanceId="{6586B7E8-9D33-43BC-A7CF-91815875C9DA}" type="POI" name="Village: Morskranes" owner="3DSpotters" lat="62.1297647" lon="-6.839913" alt="121.8"/> 
+<LandmarkLocation instanceId="{25C0C360-D3EF-4A8A-A724-EE36079D2B5D}" type="POI" name="Peak: Rútarfelli" owner="3DSpotters" lat="61.4513247" lon="-6.8136007" alt="107.1"/> 
+<LandmarkLocation instanceId="{EBDA0DA6-52B2-48B8-B1D2-BDE4C2E5EF0E}" type="POI" name="Peak: Borgarknappur" owner="3DSpotters" lat="61.5034914" lon="-6.8452881" alt="109.2"/> 
+<LandmarkLocation instanceId="{4881DF79-F98A-4F49-87A5-CE93DB7D454A}" type="POI" name="Peak: Borgin" owner="3DSpotters" lat="61.6446283" lon="-6.9239638" alt="88.2"/> 
+<LandmarkLocation instanceId="{3C9385EE-B7F5-482A-B7F7-BCDDF9CD63AB}" type="POI" name="Peak: Eysturhøvdi" owner="3DSpotters" lat="62.2887923" lon="-6.2893191" alt="106.05"/> 
+<LandmarkLocation instanceId="{9A0E6F96-2FB8-4827-AB48-8E9883F348B1}" type="POI" name="Peak: Hádegisfjall" owner="3DSpotters" lat="62.353437" lon="-6.7872458" alt="135.45"/> 
+<LandmarkLocation instanceId="{910ABFD4-7E3D-4E23-8345-6884E12CB396}" type="POI" name="Peak: Kolheyggjur" owner="3DSpotters" lat="61.5145877" lon="-6.7805041" alt="78.75"/> 
+<LandmarkLocation instanceId="{6A1AB31C-282A-4DE3-B21E-9F49D4E2454F}" type="POI" name="Peak: Lambaklettur" owner="3DSpotters" lat="61.4048928" lon="-6.6868669" alt="109.2"/> 
+<LandmarkLocation instanceId="{094651E4-4530-458D-8B0C-54A387E63922}" type="POI" name="Peak: Borgarin" owner="3DSpotters" lat="62.362083" lon="-6.8111593" alt="93.45"/> 
+<LandmarkLocation instanceId="{6E09EAD4-76D5-44C2-A21D-08666C5652E5}" type="POI" name="Peak: Middagsfjall" owner="3DSpotters" lat="62.31065" lon="-6.94535" alt="88.2"/> 
+<LandmarkLocation instanceId="{0B3317FD-BA3C-455B-8FD4-7DD8B865E80E}" type="POI" name="Peak: Urðafjall" owner="3DSpotters" lat="62.2944077" lon="-6.6398334" alt="123.9"/> 
+<LandmarkLocation instanceId="{C06667E4-7A2D-468E-BB0C-596C134C7649}" type="POI" name="Peak: Sandfelli" owner="3DSpotters" lat="62.1998815" lon="-6.9333084" alt="74.55"/> 
+<LandmarkLocation instanceId="{06233D7A-597F-476A-AF70-791A922ADC48}" type="POI" name="Peak: Lokkafelli" owner="3DSpotters" lat="62.2128" lon="-6.94225" alt="90.3"/> 
+<LandmarkLocation instanceId="{0C966296-B20F-4E76-AC22-C9459DD35650}" type="POI" name="Village: Oyrarbakki" owner="3DSpotters" lat="62.202568" lon="-6.9971948" alt="96.6"/> 
+<LandmarkLocation instanceId="{784A480C-8583-4FDE-BE00-A401AFA85313}" type="POI" name="Peak: Stórafjall" owner="3DSpotters" lat="61.7969691" lon="-6.6901847" alt="123.9"/> 
+<LandmarkLocation instanceId="{EF7F64D0-2409-48D6-B868-C6B90AC1D630}" type="POI" name="River: Torvadalsá" owner="3DSpotters" lat="62.1957507" lon="-6.5165351" alt="86.8"/> 
+<LandmarkLocation instanceId="{FC5A0D16-31F4-4D29-A75E-62DAE392F0CF}" type="POI" name="Peak: Slætnatindur" owner="3DSpotters" lat="62.2488" lon="-6.84" alt="131.25"/> 
+<LandmarkLocation instanceId="{DB4FB713-46FB-472E-8B8F-9A741BD67EE9}" type="POI" name="Peak: Lokkanøv" owner="3DSpotters" lat="62.2999971" lon="-6.5333325" alt="93.45"/> 
+<LandmarkLocation instanceId="{46E25F9A-2032-4A09-AB86-CA69CA88C901}" type="POI" name="Peak: Múlin" owner="3DSpotters" lat="61.9647129" lon="-6.9172657" alt="111.3"/> 
+<LandmarkLocation instanceId="{029D2828-948B-4274-9F85-DA749F4CAB8F}" type="POI" name="Village: Skarð" owner="3DSpotters" lat="62.3239518" lon="-6.6484829" alt="73.5"/> 
+<LandmarkLocation instanceId="{CE82C05E-BF9F-402A-A1C5-B2943EAFB7CB}" type="POI" name="Peak: Krúnufjall" owner="3DSpotters" lat="62.2652169" lon="-6.5020696" alt="98.7"/> 
+<LandmarkLocation instanceId="{9AFC2A35-871A-47EF-A85A-21E851F24542}" type="POI" name="Village: Nesvík" owner="3DSpotters" lat="62.2146052" lon="-7.0172303" alt="88.2"/> 
+<LandmarkLocation instanceId="{A37338A0-057D-4A53-B1E2-0E653D975BDF}" type="POI" name="Peak: Sornfelli" owner="3DSpotters" lat="62.0687736" lon="-6.967036" alt="100.8"/> 
+<LandmarkLocation instanceId="{B7351DCF-6679-4C96-91C1-7A206FC660D6}" type="POI" name="Peak: Klubbin" owner="3DSpotters" lat="62.3394224" lon="-6.3213793" alt="109.2"/> 
+<LandmarkLocation instanceId="{C95126F8-2A02-427D-A4C3-3E6A8C5003FE}" type="POI" name="Peak: Knúkur" owner="3DSpotters" lat="62.208931" lon="-6.9436968" alt="86.1"/> 
+<LandmarkLocation instanceId="{4ED8A1CB-0DC2-420E-8F2D-CF326AC115B6}" type="POI" name="Peak: Havnartindur" owner="3DSpotters" lat="62.3409063" lon="-6.6891601" alt="86.1"/> 
+<LandmarkLocation instanceId="{DC5F7CBA-6BF1-4699-BF9B-F821CA380FF1}" type="POI" name="Peak: Ravnsfjall" owner="3DSpotters" lat="62.033333" lon="-7.166667" alt="107.1"/> 
+<LandmarkLocation instanceId="{5CCE992A-E535-4394-98AE-C87017E26F7B}" type="POI" name="Water: Sørvágsvatn" owner="3DSpotters" lat="62.0469978" lon="-7.2307346" alt="70.7"/> 
+<LandmarkLocation instanceId="{B7408422-6D54-4BEF-8711-40B9F5C507C3}" type="POI" name="Peak: Prestfjall" owner="3DSpotters" lat="61.5740675" lon="-6.9514142" alt="90.3"/> 
+<LandmarkLocation instanceId="{27A54A54-9B30-41B9-8BE4-5B5A5B09E759}" type="POI" name="Peak: Stórafjall" owner="3DSpotters" lat="62.1549" lon="-6.728383" alt="127.05"/> 
+<LandmarkLocation instanceId="{728A155A-CE29-4097-AC3D-36626DF55744}" type="POI" name="River: Tvífaldará" owner="3DSpotters" lat="61.8128755" lon="-6.771891" alt="72.1"/> 
+<LandmarkLocation instanceId="{E4797580-B004-4672-8AAD-B7D9BEB8B20D}" type="POI" name="Peak: Endin" owner="3DSpotters" lat="61.8843828" lon="-6.9076478" alt="121.8"/> 
+<LandmarkLocation instanceId="{5911C0EE-7F5E-4BDE-8832-7A055269A020}" type="POI" name="Peak: Heldarstindur" owner="3DSpotters" lat="62.0829442" lon="-7.1031786" alt="113.4"/> 
+<LandmarkLocation instanceId="{0F954848-595F-4C11-9512-B79F1A2357BB}" type="POI" name="Peak: Heinanøva" owner="3DSpotters" lat="62.12276" lon="-7.4516444" alt="120.75"/> 
+<LandmarkLocation instanceId="{F9C74DF2-741C-4DD1-98C9-86EFFBB1438C}" type="POI" name="River: Árdalsá" owner="3DSpotters" lat="61.8822698" lon="-6.7388168" alt="63.7"/> 
+<LandmarkLocation instanceId="{84AFE5D9-BC35-4143-8D20-ED65873ADC17}" type="POI" name="Peak: Gásafelli" owner="3DSpotters" lat="62.1097368" lon="-6.654875" alt="78.75"/> 
+<LandmarkLocation instanceId="{3CFA8486-CE3F-4352-B7C4-0741EA763A16}" type="POI" name="River: Urðará" owner="3DSpotters" lat="62.1299795" lon="-6.8055195" alt="66.5"/> 
+<LandmarkLocation instanceId="{CBB5CF8C-AAB0-4663-86EC-6188345CC41F}" type="POI" name="River: Ærgisá" owner="3DSpotters" lat="62.283333" lon="-7.033333" alt="84.0"/> 
+<LandmarkLocation instanceId="{E849016F-D6B3-49C2-84AB-EE6A939A0884}" type="POI" name="River: Klívsdalsá" owner="3DSpotters" lat="62.3418127" lon="-6.5881723" alt="66.5"/> 
+<LandmarkLocation instanceId="{8B70DF64-2A75-4546-83D4-EC59672688DD}" type="POI" name="Peak: Árnadalstindur" owner="3DSpotters" lat="62.1332279" lon="-6.9570919" alt="124.95"/> 
+<LandmarkLocation instanceId="{871EBBC4-9465-4C5C-81F6-586B00BBB382}" type="POI" name="Peak: Hálgafelli" owner="3DSpotters" lat="62.2186038" lon="-6.6064926" alt="130.2"/> 
+<LandmarkLocation instanceId="{F2318962-2A8C-4C7C-8AC0-A2FA139C2343}" type="POI" name="Peak: Búrhella" owner="3DSpotters" lat="62.2500802" lon="-6.4468036" alt="73.5"/> 
+<LandmarkLocation instanceId="{B1E666E2-AE79-4513-BD18-071F9ED49184}" type="POI" name="Peak: Á Kletti" owner="3DSpotters" lat="61.6857046" lon="-6.7460699" alt="103.95"/> 
+<LandmarkLocation instanceId="{51E93725-61F7-4259-AF45-2889411BCB8F}" type="POI" name="Peak: Knúkur" owner="3DSpotters" lat="62.103383" lon="-7.581783" alt="77.7"/> 
+<LandmarkLocation instanceId="{758453A6-AB34-45D9-B762-26A57170E215}" type="POI" name="Peak: Dalsnípa" owner="3DSpotters" lat="62.033333" lon="-6.966667" alt="73.5"/> 
+<LandmarkLocation instanceId="{DD793A15-7A0C-4F13-ACCE-57D783A498D6}" type="POI" name="Peak: Kneysurin" owner="3DSpotters" lat="61.8700869" lon="-6.9021684" alt="128.1"/> 
+<LandmarkLocation instanceId="{78CE7EB9-7569-4585-BC0F-8CC6852BB2ED}" type="POI" name="Peak: Heðinsskorarfjall" owner="3DSpotters" lat="62.099183" lon="-7.575283" alt="74.55"/> 
+<LandmarkLocation instanceId="{BA1EBA76-74CA-447A-BDE6-538F727CC519}" type="POI" name="Peak: Breiðistíggjur" owner="3DSpotters" lat="62.0819235" lon="-7.1202242" alt="93.45"/> 
+<LandmarkLocation instanceId="{75679686-926A-4374-8CE9-F415009A50D8}" type="POI" name="Water: Hvilvíkinnavatn" owner="3DSpotters" lat="62.1187668" lon="-7.3572612" alt="84.7"/> 
+<LandmarkLocation instanceId="{4BDB870E-9065-4694-944A-630BD3CC1629}" type="POI" name="Peak: Siglifelli" owner="3DSpotters" lat="61.4433249" lon="-6.7566821" alt="135.45"/> 
+<LandmarkLocation instanceId="{821BC929-D646-4190-BD42-D402096E200C}" type="POI" name="River: Áin Svarta" owner="3DSpotters" lat="62.133333" lon="-6.866667" alt="65.1"/> 
+<LandmarkLocation instanceId="{CF75AFBB-4CF0-488B-A7CE-FDFDFDA80D3C}" type="POI" name="Peak: Nakkur" owner="3DSpotters" lat="61.5539234" lon="-6.7424908" alt="105.0"/> 
+<LandmarkLocation instanceId="{58236B90-C3A3-4F26-B221-B55C10D60A9C}" type="POI" name="River: Svíná" owner="3DSpotters" lat="62.233333" lon="-7.0" alt="79.1"/> 
+<LandmarkLocation instanceId="{DE0342D5-597D-41B1-9219-B645DC5213FA}" type="POI" name="Monument: Kongaminnið" owner="3DSpotters" lat="62.0120789" lon="-6.7693761" alt="50.4"/> 
+<LandmarkLocation instanceId="{EC56B59A-2DE4-4137-AA82-9CD0D9E4E6AE}" type="POI" name="River: Heltnará" owner="3DSpotters" lat="62.233333" lon="-6.866667" alt="85.4"/> 
+<LandmarkLocation instanceId="{F1277837-11BE-4987-B19F-B5B6BD8D490C}" type="POI" name="Peak: Gríslatindur" owner="3DSpotters" lat="62.2347887" lon="-6.6794723" alt="120.75"/> 
+<LandmarkLocation instanceId="{763A7F71-5A71-4275-99A6-74D71E250047}" type="POI" name="Peak: Stallur" owner="3DSpotters" lat="62.0855663" lon="-6.9619424" alt="106.05"/> 
+<LandmarkLocation instanceId="{17FADA92-7B15-4A7D-813E-DBBF5BE39BC6}" type="POI" name="Peak: Tindur" owner="3DSpotters" lat="61.43126" lon="-6.7202753" alt="84.0"/> 
+<LandmarkLocation instanceId="{5589A97B-A968-42AA-91F7-4D77521B5D5D}" type="POI" name="River: Skarðsskriðuá" owner="3DSpotters" lat="62.3" lon="-6.916667" alt="90.3"/> 
+<LandmarkLocation instanceId="{B0ED15A0-81F8-46EC-8CA7-D70FC5817E34}" type="POI" name="Peak: Tindur" owner="3DSpotters" lat="61.4798592" lon="-6.8548648" alt="126.0"/> 
+<LandmarkLocation instanceId="{B16C6710-34B2-4D64-9AA9-D9FB7C185578}" type="POI" name="Peak: Sneis" owner="3DSpotters" lat="62.2913164" lon="-6.4698065" alt="103.95"/> 
+<LandmarkLocation instanceId="{81FA17D2-5DCD-4962-A83A-81316846010C}" type="POI" name="Peak: Filthatturin" owner="3DSpotters" lat="62.3192605" lon="-6.5024992" alt="135.45"/> 
+<LandmarkLocation instanceId="{073872E1-DB50-4B92-A5CA-23C892C980C6}" type="POI" name="Peak: Tindur" owner="3DSpotters" lat="61.5598012" lon="-6.9279108" alt="120.75"/> 
+<LandmarkLocation instanceId="{9BC35263-A14E-4D93-9D29-02556A40AF32}" type="POI" name="Peak: Botnstindur" owner="3DSpotters" lat="62.2437454" lon="-6.6920758" alt="132.3"/> 
+<LandmarkLocation instanceId="{3F92904F-0E22-4E9B-AF9F-6A18F9886002}" type="POI" name="River: Dalsá" owner="3DSpotters" lat="61.583333" lon="-6.933333" alt="58.1"/> 
+<LandmarkLocation instanceId="{42460FE3-8689-4B64-ABE7-ACD70D934A69}" type="POI" name="Peak: Enni" owner="3DSpotters" lat="62.2964763" lon="-6.4882481" alt="116.55"/> 
+<LandmarkLocation instanceId="{AE89D790-E56C-4DB9-B163-26DDF1BABCDC}" type="POI" name="River: Litladalsá" owner="3DSpotters" lat="62.299922" lon="-6.55" alt="86.1"/> 
+<LandmarkLocation instanceId="{2A341A95-85CA-429F-86D6-DE87A970A978}" type="POI" name="Peak: Pætursfjall" owner="3DSpotters" lat="61.8395443" lon="-6.7271948" alt="106.05"/> 
+<LandmarkLocation instanceId="{E14FE450-AC56-4F6C-AE6F-B13F1716A207}" type="POI" name="River: Núpsá" owner="3DSpotters" lat="61.8701215" lon="-6.6828583" alt="74.2"/> 
+<LandmarkLocation instanceId="{58F4B59A-3FA7-4CB0-BBA6-89555605D588}" type="POI" name="Peak: Tindur" owner="3DSpotters" lat="61.8464244" lon="-6.7443093" alt="99.75"/> 
+<LandmarkLocation instanceId="{C191804D-9410-47E0-AB3C-B7B5C5425C7A}" type="POI" name="Peak: Krossur" owner="3DSpotters" lat="62.3225877" lon="-6.2864607" alt="107.1"/> 
+<LandmarkLocation instanceId="{0E9EA618-EDC4-4D6E-8147-AAF5320C9220}" type="POI" name="Water: Kirkjuvatn" owner="3DSpotters" lat="61.5321955" lon="-6.9183437" alt="87.5"/> 
+<LandmarkLocation instanceId="{399E5104-DE4B-481F-83BE-0DB2CA37F583}" type="POI" name="River: Fjarðará" owner="3DSpotters" lat="62.2013899" lon="-6.8573464" alt="88.2"/> 
+<LandmarkLocation instanceId="{35338AC9-CCE5-4FE3-88E3-5F50665BCD29}" type="POI" name="Peak: Miðardalstindur" owner="3DSpotters" lat="62.2846094" lon="-6.7277689" alt="73.5"/> 
+<LandmarkLocation instanceId="{932927EA-ADD6-4BC5-A07E-E5C3976CCA89}" type="POI" name="Peak: Uttarafjall" owner="3DSpotters" lat="61.4195045" lon="-6.7485198" alt="77.7"/> 
+<LandmarkLocation instanceId="{44031045-B264-4A5D-84A3-A171BB3B5E9F}" type="POI" name="Village: Nólsoy" owner="3DSpotters" lat="62.0096416" lon="-6.6744114" alt="118.65"/> 
+<LandmarkLocation instanceId="{E5E8156E-633A-4747-9B9A-D86B3324A0CE}" type="POI" name="Peak: Kúvingafjall" owner="3DSpotters" lat="62.3134209" lon="-6.6693841" alt="94.5"/> 
+<LandmarkLocation instanceId="{46989AFC-78FC-4F1D-92A1-983DC7F424FC}" type="POI" name="Peak: Hólmsskorafjall" owner="3DSpotters" lat="61.4342299" lon="-6.7136656" alt="133.35"/> 
+<LandmarkLocation instanceId="{A47CE745-A2FF-4261-ACEC-B00BDFE5A622}" type="POI" name="Peak: Hattardalstindur" owner="3DSpotters" lat="62.2919492" lon="-6.7376484" alt="111.3"/> 
+<LandmarkLocation instanceId="{94B18255-78BC-40EA-BFC6-7997C0BCEAEA}" type="POI" name="Peak: Toftaknúkur" owner="3DSpotters" lat="62.2670658" lon="-6.5211967" alt="88.2"/> 
+<LandmarkLocation instanceId="{C3814578-D69C-4F87-BCFD-AFF734E50E7F}" type="POI" name="Peak: Knúkur" owner="3DSpotters" lat="62.2622137" lon="-6.3526862" alt="121.8"/> 
+<LandmarkLocation instanceId="{E0916A28-E99B-4EEB-AF51-F74A8D0D01D6}" type="POI" name="Peak: Eggjarklettur" owner="3DSpotters" lat="61.9892382" lon="-6.6526743" alt="82.95"/> 
+<LandmarkLocation instanceId="{2E64B200-0DB9-4AE4-997C-14D19DBE6A00}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="61.966667" lon="-6.833333" alt="60.2"/> 
+<LandmarkLocation instanceId="{6CEEF776-4A3C-44BF-B8D8-FD06DDD6D43E}" type="POI" name="Peak: Borgin" owner="3DSpotters" lat="62.243617" lon="-6.785533" alt="106.05"/> 
+<LandmarkLocation instanceId="{F054D4B5-DCFC-477B-BAE1-3ADD2E9F7E8C}" type="POI" name="Peak: Klubbin" owner="3DSpotters" lat="62.309436" lon="-6.7632035" alt="126.0"/> 
+<LandmarkLocation instanceId="{B96217F8-3C34-4BA5-B831-D7B7BB61DBC7}" type="POI" name="Peak: Eiriksfjall" owner="3DSpotters" lat="61.8743361" lon="-6.9071769" alt="73.5"/> 
+<LandmarkLocation instanceId="{DE69E384-E169-4CFB-9972-516C37D7BC05}" type="POI" name="Peak: Hæddin" owner="3DSpotters" lat="62.133517" lon="-6.711383" alt="94.5"/> 
+<LandmarkLocation instanceId="{140695DD-057C-4D0B-B92B-66E598053CE1}" type="POI" name="River: Grøv" owner="3DSpotters" lat="62.1545409" lon="-7.2510926" alt="67.9"/> 
+<LandmarkLocation instanceId="{69851D1B-564A-48FF-B637-1809C6A467D9}" type="POI" name="Peak: Horn" owner="3DSpotters" lat="62.3288" lon="-7.009283" alt="123.9"/> 
+<LandmarkLocation instanceId="{0D3A4B01-BE7B-4B46-A536-89C3020EF4E2}" type="POI" name="Peak: Sandfelli" owner="3DSpotters" lat="62.3194554" lon="-6.9884106" alt="97.65"/> 
+<LandmarkLocation instanceId="{2239816F-F179-4FA0-9430-1057B3C8B73E}" type="POI" name="Peak: Gráfelli" owner="3DSpotters" lat="62.310733" lon="-6.9987" alt="75.6"/> 
+<LandmarkLocation instanceId="{1AD1CB22-8783-4DF3-87E1-E325C6B85ACA}" type="POI" name="Peak: Slættaratindur" owner="3DSpotters" lat="62.296717" lon="-7.0132" alt="100.8"/> 
+<LandmarkLocation instanceId="{E39A11BE-36E3-43DD-9AFD-ED18DC8937B4}" type="POI" name="Peak: Vaðhorn" owner="3DSpotters" lat="62.278267" lon="-7.013667" alt="131.25"/> 
+<LandmarkLocation instanceId="{D8836347-F947-42E0-A916-62239B25AF00}" type="POI" name="Peak: Mannsetur" owner="3DSpotters" lat="62.3101563" lon="-7.03177" alt="87.15"/> 
+<LandmarkLocation instanceId="{0158FA97-19CF-4E4C-95DA-D024006B3378}" type="POI" name="Peak: Eiðiskollur" owner="3DSpotters" lat="62.318933" lon="-7.1033" alt="134.4"/> 
+<LandmarkLocation instanceId="{3E2AF86C-F6F0-45E0-93B4-5C139C0A2CC9}" type="POI" name="Temple: Glyvra missiónshús" owner="3DSpotters" lat="62.1218368" lon="-6.7218478" alt="68.6"/> 
+<LandmarkLocation instanceId="{E923B8EC-A331-4134-A56D-E03D56B3C396}" type="POI" name="Hotel: Hotel Klaksvik" owner="3DSpotters" lat="62.22812" lon="-6.5945998" alt="81.9"/> 
+<LandmarkLocation instanceId="{730B5A25-1EFB-410E-8638-7BC201A375FA}" type="POI" name="Station: Smyril Tvøroyri" owner="3DSpotters" lat="61.5482192" lon="-6.8170571" alt="83.3"/> 
+<LandmarkLocation instanceId="{1C817796-31E1-45D6-B240-44712BE1A10A}" type="POI" name="Hotel: Hotel Runavík" owner="3DSpotters" lat="62.1094778" lon="-6.7226105" alt="72.8"/> 
+<LandmarkLocation instanceId="{876306E9-CD67-4939-A09D-0C92FA5B7452}" type="POI" name="Hotel: Hotel Tvøroyri" owner="3DSpotters" lat="61.5552979" lon="-6.8079252" alt="58.1"/> 
+<LandmarkLocation instanceId="{78ED91A0-93B2-4962-B5B9-2D947424ACFC}" type="POI" name="Village: Norðradalur" owner="3DSpotters" lat="62.0401" lon="-6.926943" alt="98.7"/> 
+<LandmarkLocation instanceId="{3B561996-B820-443A-900C-3CDB923B9A96}" type="POI" name="Village: Saksun" owner="3DSpotters" lat="62.2465585" lon="-7.1777219" alt="77.7"/> 
+<LandmarkLocation instanceId="{4F40370C-F9AD-417A-8C5A-DCA5DD70EA9B}" type="POI" name="Arts_centre: Listaskálin" owner="3DSpotters" lat="62.0175433" lon="-6.7806919" alt="70.7"/> 
+<LandmarkLocation instanceId="{442ACB54-EABC-4E56-ADD0-FA1DFD8178BE}" type="POI" name="Peak: Tindur" owner="3DSpotters" lat="62.1382869" lon="-7.1044567" alt="87.15"/> 
+<LandmarkLocation instanceId="{6FFAFEB3-3C49-4A11-8BAB-3F43C3F3A886}" type="POI" name="Peak: Loysingarfjall" owner="3DSpotters" lat="62.1696339" lon="-7.1218209" alt="98.7"/> 
+<LandmarkLocation instanceId="{38D99264-D3E2-41EA-AF4C-11FCF5F6E3B0}" type="POI" name="Peak: Mosarøkur" owner="3DSpotters" lat="62.1981761" lon="-7.1832315" alt="132.3"/> 
+<LandmarkLocation instanceId="{5CF94CE6-DD18-4024-8342-FCB5ADA80FBA}" type="POI" name="Peak: Sneis" owner="3DSpotters" lat="62.1658953" lon="-7.0463214" alt="116.55"/> 
+<LandmarkLocation instanceId="{FB58AB3F-9CFF-474D-BA8C-BD47158C82B0}" type="POI" name="Peak: Miðalfelli" owner="3DSpotters" lat="62.1831576" lon="-7.0918634" alt="76.65"/> 
+<LandmarkLocation instanceId="{C54AEDE4-7D48-470E-B7F9-46FE7B7E91D6}" type="POI" name="Peak: Koppsenni" owner="3DSpotters" lat="62.2284656" lon="-7.2066441" alt="122.85"/> 
+<LandmarkLocation instanceId="{E74FECD4-BB27-4311-8854-A417B87D80C1}" type="POI" name="Peak: Borgin" owner="3DSpotters" lat="62.2312045" lon="-7.1704733" alt="73.5"/> 
+<LandmarkLocation instanceId="{1100DE3E-F474-4801-876B-D4A9B08CF422}" type="POI" name="Peak: Gívrufjall" owner="3DSpotters" lat="62.1466281" lon="-6.9948052" alt="132.3"/> 
+<LandmarkLocation instanceId="{E2CED787-D729-44D2-B641-BE7BFE4AF7E7}" type="POI" name="Peak: Bollin" owner="3DSpotters" lat="62.1702103" lon="-7.0265307" alt="99.75"/> 
+<LandmarkLocation instanceId="{C5D28F85-92ED-4323-AD9D-76B09A64A841}" type="POI" name="Fuel: Effo" owner="3DSpotters" lat="62.1252882" lon="-6.7561017" alt="64.4"/> 
+<LandmarkLocation instanceId="{003A8468-ABAF-426A-8394-A90DEBC88FDB}" type="POI" name="Fuel: Klaksvik Effo" owner="3DSpotters" lat="62.2289089" lon="-6.5857649" alt="64.4"/> 
+<LandmarkLocation instanceId="{6BA63A23-3219-488B-8121-4A1543DD1386}" type="POI" name="Peak: TungulíðfjalI" owner="3DSpotters" lat="62.0367097" lon="-6.8978041" alt="77.7"/> 
+<LandmarkLocation instanceId="{ADB4883E-2AB8-45DD-A30A-C2968525AA54}" type="POI" name="Peak: Núgvan" owner="3DSpotters" lat="62.053186" lon="-6.9405815" alt="126.0"/> 
+<LandmarkLocation instanceId="{B6161164-2A8A-4B4F-8CDE-2383288D43AE}" type="POI" name="Peak: Sandfelli" owner="3DSpotters" lat="62.2254302" lon="-7.0984057" alt="86.1"/> 
+<LandmarkLocation instanceId="{65AA898D-B949-4B06-B742-CFB342D9231A}" type="POI" name="Peak: Hægstafjall" owner="3DSpotters" lat="62.1532982" lon="-7.1988786" alt="126.0"/> 
+<LandmarkLocation instanceId="{9E543AF1-D5B0-4AD5-B159-3205FE575BB0}" type="POI" name="Peak: Svartbakstindur" owner="3DSpotters" lat="62.256467" lon="-6.997833" alt="84.0"/> 
+<LandmarkLocation instanceId="{62DCC89B-3366-4CAC-9FB5-6405DECCFEAA}" type="POI" name="Peak: Høvdin" owner="3DSpotters" lat="62.2551933" lon="-7.2310228" alt="123.9"/> 
+<LandmarkLocation instanceId="{AF208283-1094-4FB2-B5D0-278926714CF1}" type="POI" name="Peak: Tyril" owner="3DSpotters" lat="62.3150054" lon="-6.9203632" alt="84.0"/> 
+<LandmarkLocation instanceId="{71970FAC-1171-4465-9227-E745B08D39B4}" type="POI" name="Peak: Húsafjall" owner="3DSpotters" lat="62.274217" lon="-6.9753" alt="111.3"/> 
+<LandmarkLocation instanceId="{B78779AE-4488-44CB-AF24-9EFAF5754214}" type="POI" name="Peak: Húgvan" owner="3DSpotters" lat="62.2800754" lon="-7.201925" alt="100.8"/> 
+<LandmarkLocation instanceId="{5CAB998D-0D67-4F31-AA84-2225BFEBA8F8}" type="POI" name="Peak: Gásafelli" owner="3DSpotters" lat="62.2598444" lon="-7.1026846" alt="129.15"/> 
+<LandmarkLocation instanceId="{C6B77935-D9F8-4368-AE86-A9233397BA5A}" type="POI" name="Peak: Egilsfjall" owner="3DSpotters" lat="62.1387086" lon="-7.0883523" alt="109.2"/> 
+<LandmarkLocation instanceId="{CACEBF55-D849-4803-93FD-D6652C28FDD8}" type="POI" name="Peak: Melin" owner="3DSpotters" lat="62.2657895" lon="-7.1710835" alt="122.85"/> 
+<LandmarkLocation instanceId="{C600309F-865E-4F94-912A-95B2E05BCCD6}" type="POI" name="Helipad: Frooba Heliport" owner="3DSpotters" lat="61.5436929" lon="-6.7744527" alt="62.3"/> 
+<LandmarkLocation instanceId="{390E9F9C-FD48-4967-A911-2E15491F2BE4}" type="POI" name="Helipad: Klaksvik Heliport" owner="3DSpotters" lat="62.2176209" lon="-6.5763003" alt="80.5"/> 
+<LandmarkLocation instanceId="{7BD48938-0396-47C0-B578-212E196CAB2E}" type="POI" name="Helipad: Tórshavn/Boðanes Heliport" owner="3DSpotters" lat="62.0216464" lon="-6.7573651" alt="63.0"/> 
+<LandmarkLocation instanceId="{7A4996C3-DBB7-4B3C-8D4D-0EC05019EA9C}" type="POI" name="Ferry_terminal: Hirtshals" owner="3DSpotters" lat="57.59589" lon="9.9755886" alt="75.6"/> 
+<LandmarkLocation instanceId="{6F2F385C-8F92-4A83-AE7D-E270B5B04007}" type="POI" name="Post_box: Worlds largest Postbox" owner="3DSpotters" lat="61.9052216" lon="-6.8882799" alt="79.1"/> 
+<LandmarkLocation instanceId="{BE9862DE-8CC6-4FCF-B2B6-043794657259}" type="POI" name="Fuel: Magnstøðin" owner="3DSpotters" lat="62.1151378" lon="-6.7233779" alt="76.3"/> 
+<LandmarkLocation instanceId="{B641C4D2-A43F-4941-A6D3-1C8587DCD9B8}" type="POI" name="Car_wash: Magnstøðin á Frælsinum" owner="3DSpotters" lat="62.005009" lon="-6.7828776" alt="86.1"/> 
+<LandmarkLocation instanceId="{27289B22-9832-4E23-AE51-3BD559D547D3}" type="POI" name="Peak: Trantur" owner="3DSpotters" lat="62.0947255" lon="-6.9876022" alt="119.7"/> 
+<LandmarkLocation instanceId="{BB1F814D-0360-4119-BD96-F6C5EC4D9003}" type="POI" name="Peak: Líðarfjall" owner="3DSpotters" lat="61.9615236" lon="-6.6204539" alt="119.7"/> 
+<LandmarkLocation instanceId="{6352D8F3-1D0B-45AC-AF21-6610AFF8A2FF}" type="POI" name="Peak: Melin" owner="3DSpotters" lat="62.1610543" lon="-7.1966722" alt="92.4"/> 
+<LandmarkLocation instanceId="{981D4416-06CA-41B7-821B-77CFBA672B69}" type="POI" name="Peak: Moskursfjall" owner="3DSpotters" lat="62.1821271" lon="-7.1348366" alt="126.0"/> 
+<LandmarkLocation instanceId="{BB56C0BE-0DC3-49D8-AA8A-AFFC1B61DE51}" type="POI" name="Peak: Postulakirkja" owner="3DSpotters" lat="62.1890469" lon="-7.2155129" alt="114.45"/> 
+<LandmarkLocation instanceId="{7BDB3F97-2DB3-43EC-85A6-E5F5CF63EDE0}" type="POI" name="Peak: Reynið" owner="3DSpotters" lat="62.1629281" lon="-7.1624155" alt="96.6"/> 
+<LandmarkLocation instanceId="{325D5E54-3C8C-4919-A054-AA221D290854}" type="POI" name="Peak: Fjallið Mikla" owner="3DSpotters" lat="61.9805631" lon="-6.9645474" alt="133.35"/> 
+<LandmarkLocation instanceId="{DD01BB1E-BC36-448D-BD50-9F9FD084DD3D}" type="POI" name="Peak: Navirnar" owner="3DSpotters" lat="61.9383892" lon="-6.8697876" alt="82.95"/> 
+<LandmarkLocation instanceId="{88DE879E-C2D9-4C61-B985-9D2FDEF1D750}" type="POI" name="Peak: Uppi á Oyggj" owner="3DSpotters" lat="61.9937309" lon="-6.9980004" alt="99.75"/> 
+<LandmarkLocation instanceId="{F5C207D1-DCD0-4AEA-9829-BD58F5246919}" type="POI" name="Peak: Árnafjall" owner="3DSpotters" lat="62.094783" lon="-7.5524" alt="120.75"/> 
+<LandmarkLocation instanceId="{F90A8E5D-BC0E-4789-921B-3D56AFF39E10}" type="POI" name="Peak: Knúkur, vestari" owner="3DSpotters" lat="62.260864" lon="-6.3801264" alt="85.05"/> 
+<LandmarkLocation instanceId="{B3D0FF6A-50D0-4226-AD8C-A1E1F9AB0226}" type="POI" name="Peak: Middagur" owner="3DSpotters" lat="62.2612938" lon="-6.3387562" alt="112.35"/> 
+<LandmarkLocation instanceId="{0E878615-CECD-4BEA-BB11-0C26F81B9AE8}" type="POI" name="Peak: Nakkurin (norðari)" owner="3DSpotters" lat="62.38951" lon="-6.5656709" alt="78.75"/> 
+<LandmarkLocation instanceId="{5739FD6A-E04D-45DE-858E-2540F844CF7B}" type="POI" name="Peak: Nakkurin" owner="3DSpotters" lat="62.3045109" lon="-6.4174287" alt="130.2"/> 
+<LandmarkLocation instanceId="{28233D37-D886-4AFD-B04A-05F0C68A1786}" type="POI" name="Peak: Oyggjarskoratindur" owner="3DSpotters" lat="62.3803729" lon="-6.5389547" alt="119.7"/> 
+<LandmarkLocation instanceId="{1832370A-5FAA-4337-94EA-1FBF26232E21}" type="POI" name="Peak: Blámansfjall" owner="3DSpotters" lat="62.266917" lon="-7.00395" alt="115.5"/> 
+<LandmarkLocation instanceId="{9986052A-DA48-4101-A88D-62FE1C37D3D4}" type="POI" name="Peak: Fjallið" owner="3DSpotters" lat="62.3304257" lon="-6.9702314" alt="113.4"/> 
+<LandmarkLocation instanceId="{3C7A0C42-F185-4914-8FA1-EB975110D2EB}" type="POI" name="Fuel: Magn Støðin Miðvágur" owner="3DSpotters" lat="62.0481991" lon="-7.1928409" alt="82.6"/> 
+<LandmarkLocation instanceId="{5CEBB421-C574-40E1-BE60-D0B07A1D24B8}" type="POI" name="Peak: Bøllufjall" owner="3DSpotters" lat="62.1423335" lon="-6.9872234" alt="74.55"/> 
+<LandmarkLocation instanceId="{8BE77A02-5D4C-4DC7-AD5B-4D6B6C73F30A}" type="POI" name="Peak: Bøllufjall" owner="3DSpotters" lat="62.2032002" lon="-7.1766345" alt="105.0"/> 
+<LandmarkLocation instanceId="{72F86117-C7B6-4FE3-BD0F-9ABC398D1704}" type="POI" name="Peak: Eggjarmúli" owner="3DSpotters" lat="62.2718319" lon="-7.2076879" alt="132.3"/> 
+<LandmarkLocation instanceId="{7ED911C5-E3C5-480B-A82E-63F486AE3FBE}" type="POI" name="Peak: FjalIið Litla" owner="3DSpotters" lat="62.2015544" lon="-7.1360996" alt="116.55"/> 
+<LandmarkLocation instanceId="{DD8A1361-0FE8-42D6-9704-DCF6EEDB1FD4}" type="POI" name="Peak: Fjallið millum Botnar" owner="3DSpotters" lat="62.059995" lon="-6.9574296" alt="124.95"/> 
+<LandmarkLocation instanceId="{93B9908E-ABD0-404E-B730-A268A5FBF7FE}" type="POI" name="Peak: Fjallið" owner="3DSpotters" lat="62.0035496" lon="-6.8722252" alt="82.95"/> 
+<LandmarkLocation instanceId="{C7156518-2A87-424C-A1E0-0FC3DDE3AD66}" type="POI" name="Peak: Fjallið" owner="3DSpotters" lat="62.0076945" lon="-6.8156649" alt="116.55"/> 
+<LandmarkLocation instanceId="{347511BD-7F4B-42E9-9E3C-44B48D612B0D}" type="POI" name="Peak: Fjallið" owner="3DSpotters" lat="62.2803707" lon="-7.1032587" alt="98.7"/> 
+<LandmarkLocation instanceId="{F766315E-1655-4138-8C95-8A6B238BFBDC}" type="POI" name="Peak: Gásafelli" owner="3DSpotters" lat="62.1375112" lon="-7.0652784" alt="73.5"/> 
+<LandmarkLocation instanceId="{1DD0D3C5-85F5-4CDB-9887-AD70591E5AB7}" type="POI" name="Peak: Gívrufelli" owner="3DSpotters" lat="62.2539237" lon="-7.1506059" alt="79.8"/> 
+<LandmarkLocation instanceId="{D27BB4A7-641D-4EC2-875E-4366C5D1F574}" type="POI" name="Peak: Heimariheyggjur" owner="3DSpotters" lat="62.2530933" lon="-7.2053189" alt="123.9"/> 
+<LandmarkLocation instanceId="{B35AA01C-8F5C-4A20-900E-B2CF89C54F68}" type="POI" name="Peak: Heyggjurin Mikli" owner="3DSpotters" lat="62.2834248" lon="-7.1809867" alt="132.3"/> 
+<LandmarkLocation instanceId="{4CAED48F-0EF9-4A8F-8969-A46D5773E3DE}" type="POI" name="Peak: Hægstafjall" owner="3DSpotters" lat="62.2845748" lon="-7.1347855" alt="122.85"/> 
+<LandmarkLocation instanceId="{1C9F5858-40D4-4D10-BE7B-0119A9ACF68B}" type="POI" name="Peak: Húsareyn" owner="3DSpotters" lat="62.0233736" lon="-6.8224362" alt="107.1"/> 
+<LandmarkLocation instanceId="{DDF43799-E981-43AF-AB6C-CF69BE81EFC5}" type="POI" name="Peak: Kaldbakskambur" owner="3DSpotters" lat="62.0931373" lon="-6.8619577" alt="114.45"/> 
+<LandmarkLocation instanceId="{70693789-0370-4A81-B5F3-40B4B97E5AC8}" type="POI" name="Peak: Kirkjubøreyn" owner="3DSpotters" lat="61.9848478" lon="-6.8133151" alt="134.4"/> 
+<LandmarkLocation instanceId="{574AC1F8-75C0-4AAC-970F-47FCEA95494C}" type="POI" name="Peak: Knúkurin" owner="3DSpotters" lat="62.2363021" lon="-7.1103548" alt="124.95"/> 
+<LandmarkLocation instanceId="{4FC28CA5-60A5-46EC-AA7F-E1E39AFC9625}" type="POI" name="Peak: KonufelIi" owner="3DSpotters" lat="62.0133798" lon="-6.8991802" alt="89.25"/> 
+<LandmarkLocation instanceId="{C0A7B7D1-0EE5-428B-ACF9-56919727DB0A}" type="POI" name="Peak: Lambafelli" owner="3DSpotters" lat="62.0432404" lon="-6.8708248" alt="110.25"/> 
+<LandmarkLocation instanceId="{CF59E31B-8DD9-4D86-8D16-35F01070FDF3}" type="POI" name="Peak: Langafjall" owner="3DSpotters" lat="62.2403166" lon="-7.1171838" alt="94.5"/> 
+<LandmarkLocation instanceId="{93861244-023E-4C29-A1D9-E8CCAD746978}" type="POI" name="Peak: Lágafjall" owner="3DSpotters" lat="62.1578684" lon="-7.0478557" alt="131.25"/> 
+<LandmarkLocation instanceId="{2E4E1294-4ECF-4C52-AD0A-7F3449F13D2F}" type="POI" name="Peak: Lítlafjall" owner="3DSpotters" lat="62.0035628" lon="-6.81973" alt="130.2"/> 
+<LandmarkLocation instanceId="{3A639F3E-9294-4E58-9654-0D19F56CA12B}" type="POI" name="Peak: Lómfelli" owner="3DSpotters" lat="62.2663503" lon="-7.1120163" alt="95.55"/> 
+<LandmarkLocation instanceId="{BF00E80F-D285-4E95-810C-E35C8B7D9C44}" type="POI" name="Peak: Malaknúkur" owner="3DSpotters" lat="62.2253353" lon="-7.2159167" alt="134.4"/> 
+<LandmarkLocation instanceId="{F77F9599-D848-4C5A-B873-4E3A52A9C363}" type="POI" name="Peak: Murufelli" owner="3DSpotters" lat="62.0263222" lon="-6.8892624" alt="91.35"/> 
+<LandmarkLocation instanceId="{425CBBAD-6CF0-4487-9420-19900E620E43}" type="POI" name="Peak: Múlin" owner="3DSpotters" lat="62.1928863" lon="-7.1145614" alt="84.0"/> 
+<LandmarkLocation instanceId="{EE3BAEFD-6D2A-466A-8332-78404080D5FD}" type="POI" name="Peak: Mýlingur" owner="3DSpotters" lat="62.3006855" lon="-7.2162386" alt="88.2"/> 
+<LandmarkLocation instanceId="{F627A138-8E70-4A49-8CA8-1F8D53F177D1}" type="POI" name="Peak: Navirnar" owner="3DSpotters" lat="62.1588796" lon="-6.9970735" alt="123.9"/> 
+<LandmarkLocation instanceId="{3757827E-E80C-4743-A526-3F4CE8E69CE4}" type="POI" name="Peak: Pætursfjall" owner="3DSpotters" lat="62.2148639" lon="-7.2049826" alt="80.85"/> 
+<LandmarkLocation instanceId="{ECE082AA-C599-4162-8AF6-84632E30F9F4}" type="POI" name="Peak: Rossafelli" owner="3DSpotters" lat="62.2092709" lon="-7.055697" alt="82.95"/> 
+<LandmarkLocation instanceId="{CDD5E40D-62EA-4593-BF7B-EBC19956499D}" type="POI" name="Peak: Snubburnar" owner="3DSpotters" lat="62.2930835" lon="-7.2241159" alt="124.95"/> 
+<LandmarkLocation instanceId="{156E897B-561D-4CC0-8A28-EA34685178E2}" type="POI" name="Peak: StiðjafjalI" owner="3DSpotters" lat="62.0469646" lon="-6.9090866" alt="74.55"/> 
+<LandmarkLocation instanceId="{2E0402F1-72B5-4AF9-B6AD-5CF158D709C6}" type="POI" name="Peak: Stígarnir" owner="3DSpotters" lat="62.1895118" lon="-7.1298846" alt="100.8"/> 
+<LandmarkLocation instanceId="{DA74EC0B-34D1-4240-A8B8-DAE4697FD0B1}" type="POI" name="Peak: Sátan" owner="3DSpotters" lat="62.1134459" lon="-7.0082867" alt="111.3"/> 
+<LandmarkLocation instanceId="{0A37B0CB-E214-45C7-BC48-6F7079CA5D39}" type="POI" name="Peak: Tindur" owner="3DSpotters" lat="62.1887466" lon="-7.2343451" alt="82.95"/> 
+<LandmarkLocation instanceId="{D4B55BBB-890D-4C96-A9D5-47F9EED3BB1F}" type="POI" name="Peak: Tosskorarhorn" owner="3DSpotters" lat="62.2159209" lon="-7.2279546" alt="82.95"/> 
+<LandmarkLocation instanceId="{ECF016B3-3378-4C71-A5A8-3A9895963443}" type="POI" name="Peak: Tvørfelli" owner="3DSpotters" lat="61.9895889" lon="-6.8411632" alt="80.85"/> 
+<LandmarkLocation instanceId="{6C879A9D-5383-4919-89B5-80B0CB0D6301}" type="POI" name="Peak: Vatnfelli" owner="3DSpotters" lat="62.2633253" lon="-7.1246866" alt="103.95"/> 
+<LandmarkLocation instanceId="{F31817FA-FFF7-4A38-8CAB-1984C4B12209}" type="POI" name="Peak: Vitin" owner="3DSpotters" lat="62.1667213" lon="-7.019902" alt="119.7"/> 
+<LandmarkLocation instanceId="{69706076-4D94-4F01-A7F7-29E1B9292A47}" type="POI" name="Peak: Víkartindur" owner="3DSpotters" lat="62.2616973" lon="-7.1535668" alt="84.0"/> 
+<LandmarkLocation instanceId="{D2B330DF-DB88-4B60-A4DA-E0D584A47BB7}" type="POI" name="Peak: Ytriheyggjur" owner="3DSpotters" lat="62.2533776" lon="-7.2134543" alt="107.1"/> 
+<LandmarkLocation instanceId="{BB242596-D192-4244-B872-4CA45099F6C0}" type="POI" name="Peak: Ørvisfelli" owner="3DSpotters" lat="62.2084786" lon="-7.1572341" alt="90.3"/> 
+<LandmarkLocation instanceId="{179C9494-6BF4-4546-A4D3-3E2004E788F6}" type="POI" name="Peak: Galvsskorafjall" owner="3DSpotters" lat="62.278681" lon="-6.6306355" alt="107.1"/> 
+<LandmarkLocation instanceId="{2DCB7CE7-66D0-4C5C-96C7-BBD12868DD52}" type="POI" name="Peak: Klettur" owner="3DSpotters" lat="62.3486631" lon="-6.6747003" alt="126.0"/> 
+<LandmarkLocation instanceId="{555E662D-BBFA-4750-B8D5-4D60E75B2E49}" type="POI" name="Peak: Klubbin" owner="3DSpotters" lat="62.3497051" lon="-6.6863135" alt="82.95"/> 
+<LandmarkLocation instanceId="{2E88DF25-D1EC-47FA-B5DC-937A56CEB252}" type="POI" name="Peak: Lítlafjall" owner="3DSpotters" lat="62.2994399" lon="-6.6384467" alt="91.35"/> 
+<LandmarkLocation instanceId="{AF7AE6C2-7371-473B-97F8-7484BBB38422}" type="POI" name="Peak: Middagsfjall" owner="3DSpotters" lat="62.309787" lon="-6.6506844" alt="97.65"/> 
+<LandmarkLocation instanceId="{2EFBC340-9106-4B02-83CF-766238358498}" type="POI" name="Peak: Suður á Nakki" owner="3DSpotters" lat="62.2605231" lon="-6.6177766" alt="73.5"/> 
+<LandmarkLocation instanceId="{4786C1FC-7A0F-4A0E-B151-3A1DAFB8CDAF}" type="POI" name="Peak: Urðafjall" owner="3DSpotters" lat="62.2898101" lon="-6.6403602" alt="106.05"/> 
+<LandmarkLocation instanceId="{A9636F73-AF41-4322-8ECB-BA34AE8D7F00}" type="POI" name="Peak: Hæddin" owner="3DSpotters" lat="62.2114182" lon="-6.5142103" alt="108.15"/> 
+<LandmarkLocation instanceId="{49811D76-92E6-426C-A675-79DDCDC6E547}" type="POI" name="Peak: Klakkur" owner="3DSpotters" lat="62.2357917" lon="-6.6160715" alt="78.75"/> 
+<LandmarkLocation instanceId="{E9D1C84F-F1F4-46F3-A61B-21A628A91A86}" type="POI" name="Peak: Landsuðursfjall" owner="3DSpotters" lat="62.2586381" lon="-6.4854169" alt="74.55"/> 
+<LandmarkLocation instanceId="{9E3A5D43-1359-4608-8B67-C7AB5C0AD878}" type="POI" name="Peak: Miðfjall" owner="3DSpotters" lat="62.1993849" lon="-6.5775987" alt="86.1"/> 
+<LandmarkLocation instanceId="{F8290649-A287-46FE-AA96-B06258B18F30}" type="POI" name="Peak: Mølin" owner="3DSpotters" lat="62.3000043" lon="-6.423184" alt="110.25"/> 
+<LandmarkLocation instanceId="{1AE5A9C7-BC11-4ECC-B16E-B8AC2BA6ED5E}" type="POI" name="Peak: Norðanfyri Kvíggjaskarð" owner="3DSpotters" lat="62.3070364" lon="-6.5673224" alt="123.9"/> 
+<LandmarkLocation instanceId="{DBF98EB0-11B3-4D3B-A770-F0F4DBC33593}" type="POI" name="Peak: Norðanfyri Lokkaskarð" owner="3DSpotters" lat="62.2947206" lon="-6.5657658" alt="114.45"/> 
+<LandmarkLocation instanceId="{C62513A0-A1C9-4037-8BBE-61C92A1593AF}" type="POI" name="Peak: Omanfyri Klivsdal" owner="3DSpotters" lat="62.3370962" lon="-6.5968425" alt="76.65"/> 
+<LandmarkLocation instanceId="{A89402AD-A836-4CDC-946F-CC30ABC8DFD8}" type="POI" name="Peak: Rustartindur" owner="3DSpotters" lat="62.26205" lon="-6.82755" alt="97.65"/> 
+<LandmarkLocation instanceId="{F8FC0DBA-9D43-4853-B9C4-9E1A2EBC6611}" type="POI" name="Peak: Blábjørg" owner="3DSpotters" lat="62.236367" lon="-6.862267" alt="107.1"/> 
+<LandmarkLocation instanceId="{0D5934AD-6714-41E1-9522-689722CB6113}" type="POI" name="Peak: Brigðufelli" owner="3DSpotters" lat="62.10845" lon="-6.775633" alt="106.05"/> 
+<LandmarkLocation instanceId="{987D25AE-614E-4BA4-9F3F-D1E35B8B2826}" type="POI" name="Peak: Dalkinsfjall" owner="3DSpotters" lat="62.254017" lon="-6.924867" alt="111.3"/> 
+<LandmarkLocation instanceId="{3FF2436F-6277-465C-BAC1-BE78E597B1A4}" type="POI" name="Peak: Eystnes" owner="3DSpotters" lat="62.0582935" lon="-6.6928806" alt="131.25"/> 
+<LandmarkLocation instanceId="{7EFE0C7F-F5D3-49B2-9A4E-AE36B3492F47}" type="POI" name="Peak: Fjallið" owner="3DSpotters" lat="62.1266478" lon="-6.7887579" alt="79.8"/> 
+<LandmarkLocation instanceId="{717D46D9-888E-424C-AF14-DF6105A8209C}" type="POI" name="Peak: Gjógvarafjall" owner="3DSpotters" lat="62.22665" lon="-6.850917" alt="122.85"/> 
+<LandmarkLocation instanceId="{7FAE8D09-4A2C-4FB5-BD7E-AAB4824A266F}" type="POI" name="Peak: Glyvrafjall" owner="3DSpotters" lat="62.118783" lon="-6.6856" alt="112.35"/> 
+<LandmarkLocation instanceId="{28AE6EC6-C160-475D-B749-F664CA152DBA}" type="POI" name="Peak: Gomlumannatindur" owner="3DSpotters" lat="62.248133" lon="-6.8925" alt="107.1"/> 
+<LandmarkLocation instanceId="{279A61D0-938F-4494-A571-E116E5F7738C}" type="POI" name="Peak: Hjarðardalstindur" owner="3DSpotters" lat="62.240017" lon="-6.86155" alt="100.8"/> 
+<LandmarkLocation instanceId="{C9336896-7167-4E36-B33D-CBFB21E48C9F}" type="POI" name="Peak: Høganes" owner="3DSpotters" lat="62.10685" lon="-6.73775" alt="108.15"/> 
+<LandmarkLocation instanceId="{52F271C1-06B8-4343-A8C3-D78BACF83BBA}" type="POI" name="Peak: Húsklond" owner="3DSpotters" lat="62.0941966" lon="-6.7308365" alt="79.8"/> 
+<LandmarkLocation instanceId="{1B914047-0A27-465F-B517-72C38DB577A0}" type="POI" name="Peak: Kambur" owner="3DSpotters" lat="62.2176891" lon="-6.8364115" alt="80.85"/> 
+<LandmarkLocation instanceId="{5E710DF6-9E8F-4A03-85C5-6FF79C4DF8DA}" type="POI" name="Peak: Klórarin" owner="3DSpotters" lat="62.13495" lon="-6.793817" alt="115.5"/> 
+<LandmarkLocation instanceId="{A8FC1CC6-F188-46AC-AF66-E3C4DECE861D}" type="POI" name="Peak: Lítlafelli" owner="3DSpotters" lat="62.225933" lon="-6.9606" alt="85.05"/> 
+<LandmarkLocation instanceId="{D3A6F5C1-2807-414C-9018-F4E6829FDC61}" type="POI" name="Peak: Miðafelli" owner="3DSpotters" lat="62.2353834" lon="-6.9746754" alt="124.95"/> 
+<LandmarkLocation instanceId="{A7C9F5F2-A8A8-47A1-AD7C-6E1019BD87BF}" type="POI" name="Peak: Mjóstíggjur" owner="3DSpotters" lat="62.2554052" lon="-6.8086397" alt="123.9"/> 
+<LandmarkLocation instanceId="{14070757-C5E5-42D3-A2E7-27C293735E2F}" type="POI" name="Peak: Norðanfyri Blámansfjall" owner="3DSpotters" lat="62.273533" lon="-6.999183" alt="93.45"/> 
+<LandmarkLocation instanceId="{84DF85D9-3815-4E6C-9F47-2F58F94BC5B3}" type="POI" name="Peak: Norðarafjall" owner="3DSpotters" lat="62.285167" lon="-7.0677" alt="81.9"/> 
+<LandmarkLocation instanceId="{EB57545D-89D9-481D-A91C-F582BD26100D}" type="POI" name="Peak: Oyndfjarðarfjall" owner="3DSpotters" lat="62.2851" lon="-6.845867" alt="90.3"/> 
+<LandmarkLocation instanceId="{B10248E7-1687-4872-A86C-B726971C8E69}" type="POI" name="Peak: Róvin" owner="3DSpotters" lat="62.258683" lon="-6.781233" alt="122.85"/> 
+<LandmarkLocation instanceId="{56BAB2C8-602F-430C-BA28-8D2F7DA3AB9C}" type="POI" name="Peak: Sandfelli" owner="3DSpotters" lat="62.2622282" lon="-6.8929229" alt="134.4"/> 
+<LandmarkLocation instanceId="{90C97549-AA47-4AA6-999F-58984ECEE42D}" type="POI" name="Peak: Skerðingur" owner="3DSpotters" lat="62.246167" lon="-6.981333" alt="97.65"/> 
+<LandmarkLocation instanceId="{2D42B2F6-2BD7-4ADC-A47E-653FAFF16E7E}" type="POI" name="Peak: Skoratindur" owner="3DSpotters" lat="62.284517" lon="-6.888467" alt="118.65"/> 
+<LandmarkLocation instanceId="{F70C0B17-04D2-4EE9-AEF3-271403023453}" type="POI" name="Peak: Sunnarafjall" owner="3DSpotters" lat="62.281933" lon="-7.062033" alt="131.25"/> 
+<LandmarkLocation instanceId="{2555E84C-C0F3-4EC5-ADC7-95DDF7A75768}" type="POI" name="Peak: Tindur" owner="3DSpotters" lat="62.287233" lon="-6.859183" alt="90.3"/> 
+<LandmarkLocation instanceId="{FE06ACBE-F33F-4585-8785-4288BFC3C286}" type="POI" name="Peak: Vørðan" owner="3DSpotters" lat="62.072033" lon="-6.709617" alt="123.9"/> 
+<LandmarkLocation instanceId="{B57F4F28-4871-48B9-8405-26CEC077F284}" type="POI" name="Peak: Eindalsfjall" owner="3DSpotters" lat="62.0871831" lon="-7.3305662" alt="92.4"/> 
+<LandmarkLocation instanceId="{B7AA1144-8BFA-42BB-8BF4-68CAB8D1C633}" type="POI" name="Peak: Eysturtindur" owner="3DSpotters" lat="62.1168866" lon="-7.3978653" alt="122.85"/> 
+<LandmarkLocation instanceId="{A57D658A-7340-4EE9-979A-21E2A78C3AB5}" type="POI" name="Peak: Jatnagarðar" owner="3DSpotters" lat="62.1383075" lon="-7.2793897" alt="123.9"/> 
+<LandmarkLocation instanceId="{88435A38-D673-4ACA-8CB3-CF246055613D}" type="POI" name="Peak: Jógvansfjall" owner="3DSpotters" lat="62.0769846" lon="-7.1969983" alt="100.8"/> 
+<LandmarkLocation instanceId="{2CF6C4EE-A1DC-42BD-9B78-239AB9D1997D}" type="POI" name="Peak: Krossafelli" owner="3DSpotters" lat="62.1155721" lon="-7.2290313" alt="126.0"/> 
+<LandmarkLocation instanceId="{4E4D77C8-640E-4BAB-AC53-D2C2FE0CFF37}" type="POI" name="Peak: Krosstindur" owner="3DSpotters" lat="62.0537254" lon="-7.0945426" alt="89.25"/> 
+<LandmarkLocation instanceId="{BBA9C96F-EAAE-4086-80A0-6AE53FC914E1}" type="POI" name="Peak: Ritubergsnøva" owner="3DSpotters" lat="62.0254755" lon="-7.2019013" alt="102.9"/> 
+<LandmarkLocation instanceId="{19E6711A-D467-400B-B771-581CD7FA7A34}" type="POI" name="Peak: Suður á FjaIli" owner="3DSpotters" lat="62.0447639" lon="-7.2780202" alt="117.6"/> 
+<LandmarkLocation instanceId="{6C6EF1E1-03D6-456A-8963-5E07C423EB91}" type="POI" name="Peak: Tungufelli" owner="3DSpotters" lat="62.1313723" lon="-7.2725819" alt="130.2"/> 
+<LandmarkLocation instanceId="{B8B7D2BE-BE24-4CF2-A92C-A91A6A343716}" type="POI" name="Peak: Tungufellið Lítla" owner="3DSpotters" lat="62.1236066" lon="-7.2537151" alt="123.9"/> 
+<LandmarkLocation instanceId="{E02B51EF-ABFA-4D70-9DEF-E81794862F27}" type="POI" name="Peak: Vatnsdalsfjall" owner="3DSpotters" lat="62.0933084" lon="-7.3274816" alt="134.4"/> 
+<LandmarkLocation instanceId="{D99BA006-9FC0-4C78-981B-E804ECCE74FB}" type="POI" name="Peak: Vørufelli" owner="3DSpotters" lat="62.0787131" lon="-7.2910726" alt="133.35"/> 
+<LandmarkLocation instanceId="{EBBCFA3E-CEA9-4418-BDC7-075AF240CF29}" type="POI" name="Peak: Knavin" owner="3DSpotters" lat="62.1028025" lon="-7.4199191" alt="133.35"/> 
+<LandmarkLocation instanceId="{3E340434-A1FF-406C-8A07-D6A2E77ABFB4}" type="POI" name="Peak: Endin" owner="3DSpotters" lat="61.8566249" lon="-6.784658" alt="93.45"/> 
+<LandmarkLocation instanceId="{8F9EFD9A-C96F-4C7A-829E-B8EE02644B5E}" type="POI" name="Peak: Fjallið" owner="3DSpotters" lat="61.8884402" lon="-6.8381754" alt="78.75"/> 
+<LandmarkLocation instanceId="{EB7C1820-45BD-4F6E-8941-28ED2D0D43EE}" type="POI" name="Peak: Skorarnar" owner="3DSpotters" lat="61.849584" lon="-6.7687294" alt="108.15"/> 
+<LandmarkLocation instanceId="{5389B6DD-8F33-485E-B146-4A46B63EF2B0}" type="POI" name="Peak: Skorin" owner="3DSpotters" lat="61.7500533" lon="-6.8219818" alt="74.55"/> 
+<LandmarkLocation instanceId="{1DE29140-923F-4132-9481-5F4794E49725}" type="POI" name="Peak: Bustin" owner="3DSpotters" lat="61.5740894" lon="-6.7676201" alt="96.6"/> 
+<LandmarkLocation instanceId="{091D29CE-7DCF-4C48-8B15-4A649C7E167C}" type="POI" name="Peak: Fjallið" owner="3DSpotters" lat="61.5756993" lon="-6.8319315" alt="105.0"/> 
+<LandmarkLocation instanceId="{147937AA-F18F-4706-9B5F-DD34491BBF2C}" type="POI" name="Peak: Fjallið" owner="3DSpotters" lat="61.6417581" lon="-6.9544296" alt="73.5"/> 
+<LandmarkLocation instanceId="{DED3D201-F563-42F3-9022-9F3ECA2D66BE}" type="POI" name="Peak: Galvurin" owner="3DSpotters" lat="61.5478966" lon="-6.9012232" alt="85.05"/> 
+<LandmarkLocation instanceId="{12A5EE66-5190-43C9-ADAE-FB78DD92D35E}" type="POI" name="Peak: Høguskorar" owner="3DSpotters" lat="61.5139697" lon="-6.8081426" alt="121.8"/> 
+<LandmarkLocation instanceId="{6325D5C8-A6BE-444D-B585-45638F4808C3}" type="POI" name="Peak: Høgøksl" owner="3DSpotters" lat="61.5070302" lon="-6.8802927" alt="127.05"/> 
+<LandmarkLocation instanceId="{C7C30F61-AFC4-4BD3-84D9-20DDD09EBCAC}" type="POI" name="Peak: Húgvan" owner="3DSpotters" lat="61.6844854" lon="-6.7437842" alt="119.7"/> 
+<LandmarkLocation instanceId="{D16ED1E2-DD38-4F71-BB72-5809BE3BCFBF}" type="POI" name="Peak: Kaguklettur" owner="3DSpotters" lat="61.5567647" lon="-6.7669949" alt="79.8"/> 
+<LandmarkLocation instanceId="{CF44EFDC-6F0D-47E3-82CA-A9603C0EE568}" type="POI" name="Peak: Kambur" owner="3DSpotters" lat="61.4869703" lon="-6.7358385" alt="121.8"/> 
+<LandmarkLocation instanceId="{05A8BEB3-1BDB-4BAF-BA74-95D7E67A2180}" type="POI" name="Peak: Mjóstíggjur" owner="3DSpotters" lat="61.5414307" lon="-6.8889439" alt="98.7"/> 
+<LandmarkLocation instanceId="{2B9675D7-E5A9-4934-A710-E41B88A6D2A6}" type="POI" name="Peak: Rávan" owner="3DSpotters" lat="61.6330073" lon="-6.7106475" alt="95.55"/> 
+<LandmarkLocation instanceId="{BDB1DC5F-0C92-44EE-BAEF-769E884CA313}" type="POI" name="Peak: Eystarafjall" owner="3DSpotters" lat="61.4160653" lon="-6.7377468" alt="123.9"/> 
+<LandmarkLocation instanceId="{ADB422E5-E9A3-46EA-B352-367A12D7D9EE}" type="POI" name="Peak: Rossaklettur" owner="3DSpotters" lat="61.5757987" lon="-6.8730083" alt="113.4"/> 
+<LandmarkLocation instanceId="{74B9D9C7-6F00-4EB5-BFD1-0E1976492224}" type="POI" name="Peak: Skálin" owner="3DSpotters" lat="61.4104388" lon="-6.6966248" alt="134.4"/> 
+<LandmarkLocation instanceId="{B3555236-CF7D-448B-BB34-3F94E8F20B9E}" type="POI" name="Peak: Vørðan" owner="3DSpotters" lat="61.5410299" lon="-6.822239" alt="113.4"/> 
+<LandmarkLocation instanceId="{51B5A240-ED47-496E-A24A-5838F843B4B9}" type="POI" name="Temple: Kirkjugrundin" owner="3DSpotters" lat="61.6850348" lon="-6.7588386" alt="67.2"/> 
+<LandmarkLocation instanceId="{1BF8B78D-EAEA-4242-B24A-CC306EC31B3D}" type="POI" name="Station: Norröna (Smyril Line)" owner="3DSpotters" lat="65.2633831" lon="-14.0036358" alt="50.4"/> 
+<LandmarkLocation instanceId="{A52A9BCD-58E6-4F84-89AC-29002230FE8E}" type="POI" name="Ruins: Fransatoftir" owner="3DSpotters" lat="62.0404598" lon="-6.8247474" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{1C61D9DC-EE14-4C0B-844C-0C792F92C1C8}" type="POI" name="Peak: Árndalsfjall" owner="3DSpotters" lat="62.174983" lon="-7.2115841" alt="73.5"/> 
+<LandmarkLocation instanceId="{EB45AC3A-FD66-48D1-81AB-DFE556FDB498}" type="POI" name="Monument: Loysing" owner="3DSpotters" lat="61.9862346" lon="-6.7524482" alt="75.6"/> 
+<LandmarkLocation instanceId="{2D2A68AE-2C62-4F4A-8366-09082C64309B}" type="POI" name="Shelter: Dupultbólið" owner="3DSpotters" lat="61.9685893" lon="-6.7457788" alt="81.9"/> 
+<LandmarkLocation instanceId="{CF579068-D045-4ECB-9806-00ED681C32D0}" type="POI" name="Attraction: Stadion TB Tvøroyri" owner="3DSpotters" lat="61.562377" lon="-6.8519684" alt="58.1"/> 
+<LandmarkLocation instanceId="{5D9B2F73-7A34-4DBB-BBA3-51F06DD902AA}" type="POI" name="Attraction: Footballstadium EB/Streymur" owner="3DSpotters" lat="62.1939277" lon="-7.0412217" alt="55.3"/> 
+<LandmarkLocation instanceId="{CE2F450C-834F-42E7-8151-DDB33A3C3C23}" type="POI" name="Village: Argir" owner="3DSpotters" lat="61.9971969" lon="-6.7774441" alt="115.5"/> 
+<LandmarkLocation instanceId="{E3380263-D5A6-4966-9342-E3561B6729CB}" type="POI" name="Attraction: Múlafossur" owner="3DSpotters" lat="62.1074743" lon="-7.4357693" alt="88.2"/> 
+<LandmarkLocation instanceId="{703DE54E-B463-4141-8B52-88354392A26A}" type="POI" name="Fuel: Effo" owner="3DSpotters" lat="62.0701366" lon="-7.3257322" alt="53.2"/> 
+<LandmarkLocation instanceId="{B5B1E0A8-4A49-4DBB-86D0-F4733E6AED6A}" type="POI" name="Ferry_terminal: Tórshavn" owner="3DSpotters" lat="62.0079024" lon="-6.7666734" alt="68.6"/> 
+<LandmarkLocation instanceId="{CEC46157-2D03-4998-8C23-CA72403E2460}" type="POI" name="Studio: Studio Bloch" owner="3DSpotters" lat="62.0080367" lon="-6.7762673" alt="63.0"/> 
+<LandmarkLocation instanceId="{67939E37-39E5-470F-A328-A5CF407D3795}" type="POI" name="Tax: TAKS" owner="3DSpotters" lat="62.00767" lon="-6.7760743" alt="81.9"/> 
+<LandmarkLocation instanceId="{7B88A6EC-4161-4D4A-881F-F0AFE1FAE0B6}" type="POI" name="Legislative: Løgtingið" owner="3DSpotters" lat="62.0105591" lon="-6.7718822" alt="79.8"/> 
+<LandmarkLocation instanceId="{E497F8F4-0F20-4B2D-8D08-389214811C5C}" type="POI" name="University: Ovastova" owner="3DSpotters" lat="62.0057765" lon="-6.7792693" alt="78.4"/> 
+<LandmarkLocation instanceId="{E0885935-2C0E-4E8F-A917-FC546888F30D}" type="POI" name="University: Fróðskaparsetur Føroya" owner="3DSpotters" lat="62.0056263" lon="-6.7797293" alt="83.3"/> 
+<LandmarkLocation instanceId="{86F4C115-B687-4659-8B10-CDA92E62DF4E}" type="POI" name="Ferry_terminal: M/F Teistin" owner="3DSpotters" lat="61.9032324" lon="-6.8781885" alt="65.1"/> 
+<LandmarkLocation instanceId="{9CD4E035-97F2-4EC1-A8C5-E8709A50651E}" type="POI" name="Fuel: Magn" owner="3DSpotters" lat="62.2309559" lon="-6.5893208" alt="60.2"/> 
+<LandmarkLocation instanceId="{CF279E58-320E-4A5C-83BF-F1F36A8602B5}" type="POI" name="Terminal: Heliport Check In" owner="3DSpotters" lat="62.1027078" lon="-7.6445624" alt="88.9"/> 
+<LandmarkLocation instanceId="{3D894BA4-1EFA-4910-9A9E-F9E523EA9AE2}" type="POI" name="Charging_station: Skálatrøð" owner="3DSpotters" lat="62.0085557" lon="-6.7758918" alt="74.2"/> 
+<LandmarkLocation instanceId="{1EA099DE-69A3-4CFB-AF4E-4C074DE5B3D0}" type="POI" name="Fuel: Effo" owner="3DSpotters" lat="62.2131436" lon="-6.7142433" alt="81.9"/> 
+<LandmarkLocation instanceId="{5ECFBEA9-930D-4F3B-9586-3B956CABFAA4}" type="POI" name="Social_facility: Tjarnargarður" owner="3DSpotters" lat="62.0153056" lon="-6.7653974" alt="56.7"/> 
+<LandmarkLocation instanceId="{4F54BEE4-AA33-4333-B11E-EAD94168FDAB}" type="POI" name="Treasury: Landsbanki Føroya" owner="3DSpotters" lat="61.9963887" lon="-6.7821571" alt="57.4"/> 
+<LandmarkLocation instanceId="{457282B5-D84A-45EE-9CF8-FC9FE466FD2C}" type="POI" name="Fuel: Effo" owner="3DSpotters" lat="62.2287169" lon="-6.5857002" alt="88.2"/> 
+<LandmarkLocation instanceId="{4CCF80DA-3BE6-4061-9EBF-1E48B1D6E05F}" type="POI" name="Village: Hoyvík" owner="3DSpotters" lat="62.0329436" lon="-6.7766308" alt="132.3"/> 
+<LandmarkLocation instanceId="{6BE5AAAF-9E9D-4E4C-8AE2-37D42816EB4F}" type="POI" name="Ruins: Við Gellingarklett" owner="3DSpotters" lat="62.0348724" lon="-6.8288952" alt="62.3"/> 
+<LandmarkLocation instanceId="{0A8EB310-D55A-4458-92E5-F33B2B285555}" type="POI" name="Monument: Símun á Høgabóli" owner="3DSpotters" lat="62.1148503" lon="-6.7225045" alt="55.3"/> 
+<LandmarkLocation instanceId="{13577D43-51FB-471F-B998-A7180E88251B}" type="POI" name="Fuel: Effo" owner="3DSpotters" lat="61.5549921" lon="-6.8097522" alt="53.9"/> 
+<LandmarkLocation instanceId="{2FD23B8A-ACF6-42B0-87AD-C2C8BCB01626}" type="POI" name="Fuel: Effo" owner="3DSpotters" lat="61.4732078" lon="-6.818227" alt="53.9"/> 
+<LandmarkLocation instanceId="{2B6E2116-E33E-4007-8F38-49D0418559D7}" type="POI" name="Attraction: Curved basalt" owner="3DSpotters" lat="61.5086744" lon="-6.739871" alt="88.2"/> 
+<LandmarkLocation instanceId="{CAD252BB-124D-4D50-858F-ED52D2F1BF70}" type="POI" name="Attraction: Knitted Stone" owner="3DSpotters" lat="61.835682" lon="-6.8291869" alt="56.0"/> 
+<LandmarkLocation instanceId="{5CB1D76E-9E47-43D2-A86D-1F71ADE645D8}" type="POI" name="Attraction: Visit Mykines" owner="3DSpotters" lat="62.1025451" lon="-7.6449715" alt="71.4"/> 
+<LandmarkLocation instanceId="{F9DDAB2D-8734-4178-AFFC-3EEB1E49A1ED}" type="POI" name="Bench: Mary's Bænk" owner="3DSpotters" lat="62.3266768" lon="-6.9415104" alt="58.8"/> 
+<LandmarkLocation instanceId="{E736B105-EC04-4C06-A3B0-19D81342BAC1}" type="POI" name="Car_rental: Avis" owner="3DSpotters" lat="62.0675869" lon="-7.28054" alt="75.6"/> 
+<LandmarkLocation instanceId="{4611B43F-2565-4C55-832E-A434753CBA09}" type="POI" name="Car_rental: 62ºN" owner="3DSpotters" lat="62.0676633" lon="-7.2808631" alt="91.0"/> 
+<LandmarkLocation instanceId="{D81DF863-7E0A-4FEB-B955-63F7B0D7157F}" type="POI" name="University: Náttúruvísindadeildin, Fróðskaparsetur Føroya" owner="3DSpotters" lat="62.0058837" lon="-6.7726731" alt="51.8"/> 
+<LandmarkLocation instanceId="{969165FA-895D-4A41-845C-D046A7D1CB2F}" type="POI" name="Charging_station: Magn við streymin" owner="3DSpotters" lat="62.2088653" lon="-6.9989953" alt="72.8"/> 
+<LandmarkLocation instanceId="{9AE181F2-2320-436C-8965-ADDFE584F545}" type="POI" name="Peak: Orrtindur" owner="3DSpotters" lat="62.1217128" lon="-7.4135589" alt="78.75"/> 
+<LandmarkLocation instanceId="{CF92E737-9544-4204-AF9A-92E076E76292}" type="POI" name="Archaeological_site: Gróthústangi" owner="3DSpotters" lat="62.0449592" lon="-7.2178273" alt="67.9"/> 
+<LandmarkLocation instanceId="{1D9BAB2C-9326-4CFA-83B4-2DBB461FC86F}" type="POI" name="Ruins: Sawbuck" owner="3DSpotters" lat="62.2900743" lon="-7.1494762" alt="64.4"/> 
+<LandmarkLocation instanceId="{A24D5B1B-C227-4EA3-A9CD-B2F6D66A133B}" type="POI" name="Temple: Soli Deo Gloria" owner="3DSpotters" lat="62.2277597" lon="-6.5910673" alt="71.4"/> 
+<LandmarkLocation instanceId="{25885B60-E074-495E-AE4D-4F23FB23628D}" type="POI" name="Peak: Ásmundarstakkur" owner="3DSpotters" lat="61.6421332" lon="-6.9806633" alt="97.65"/> 
+<LandmarkLocation instanceId="{C2437807-4A0E-46DF-A5D2-B5116F8FEE95}" type="POI" name="Temple: CityChurch" owner="3DSpotters" lat="62.0111532" lon="-6.7758087" alt="81.2"/> 
+<LandmarkLocation instanceId="{0670A2F9-CBA4-40C0-9D26-23CC79913794}" type="POI" name="Temple: РодичиСинихКитов" owner="3DSpotters" lat="62.1030593" lon="-7.6082452" alt="53.9"/> 
+<LandmarkLocation instanceId="{23D3DFE5-7AA4-4CA7-9F48-0D3DD575E58D}" type="POI" name="Temple: СоветСтарейшин" owner="3DSpotters" lat="62.1107775" lon="-7.5888879" alt="79.1"/> 
+<LandmarkLocation instanceId="{17E39EA1-7573-47D8-86AF-06AA7281775C}" type="POI" name="Temple: Рут" owner="3DSpotters" lat="62.0907596" lon="-7.3135958" alt="77.7"/> 
+<LandmarkLocation instanceId="{45D6DD8D-EA92-4C15-A9BF-B54CA28C8C26}" type="POI" name="Village: Kambsdalur" owner="3DSpotters" lat="62.2205556" lon="-6.8150991" alt="109.2"/> 
+<LandmarkLocation instanceId="{D7D69BBC-E9D1-48F2-B0FA-302FE4446C2D}" type="POI" name="Peak: Høgaleiti" owner="3DSpotters" lat="61.935785" lon="-6.8656251" alt="82.95"/> 
+<LandmarkLocation instanceId="{25530F6D-1DB9-4104-88CC-3B04F38176A2}" type="POI" name="Peak: Ærgisklettur" owner="3DSpotters" lat="61.9803759" lon="-6.6624031" alt="112.35"/> 
+<LandmarkLocation instanceId="{E86489F1-F6EC-4BC0-8CDB-AE2C6866FBE3}" type="POI" name="Peak: Knópanir" owner="3DSpotters" lat="62.0740236" lon="-6.9480055" alt="126.0"/> 
+<LandmarkLocation instanceId="{86282E32-E972-4980-82BB-7B5A7626858F}" type="POI" name="Peak: Rustin" owner="3DSpotters" lat="62.0978469" lon="-6.8853334" alt="130.2"/> 
+<LandmarkLocation instanceId="{3A9495B7-0017-445C-98D2-5F0C6C25673B}" type="POI" name="Village: Við Gjónna" owner="3DSpotters" lat="62.1365876" lon="-7.0223766" alt="113.4"/> 
+<LandmarkLocation instanceId="{3D82B845-2911-4609-9A39-13D6D7120645}" type="POI" name="Peak: Heygamúli" owner="3DSpotters" lat="62.1929787" lon="-7.1405967" alt="116.55"/> 
+<LandmarkLocation instanceId="{FDD30855-D812-46C3-B19A-8BB53AE3E63C}" type="POI" name="Peak: Reynini" owner="3DSpotters" lat="62.2187672" lon="-7.1844617" alt="87.15"/> 
+<LandmarkLocation instanceId="{E02FCD1E-F214-41A9-B48B-51B3E61BC78E}" type="POI" name="Temple: Jehovas vidners rigssal" owner="3DSpotters" lat="62.0166597" lon="-6.7562221" alt="75.6"/> 
+<LandmarkLocation instanceId="{DF042350-05A2-4288-A194-85AC3A2C72C5}" type="POI" name="Attraction: Reini" owner="3DSpotters" lat="62.0081595" lon="-6.7695968" alt="66.5"/> 
+<LandmarkLocation instanceId="{B9AABAB5-6BC7-46DB-A578-5D5363014FDD}" type="POI" name="Attraction: Reini - Den gamle bydel" owner="3DSpotters" lat="62.0088025" lon="-6.7702057" alt="82.6"/> 
+<LandmarkLocation instanceId="{7D2D0520-9C52-4E98-B8E1-1DD43F4D702C}" type="POI" name="Monument: Risin og Kellingin" owner="3DSpotters" lat="62.3011652" lon="-7.1170678" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{DC417CD5-606A-41FE-932C-ADE8176E95DA}" type="POI" name="Village: Skálatoftir" owner="3DSpotters" lat="62.3219866" lon="-6.6045631" alt="106.05"/> 
+<LandmarkLocation instanceId="{AA2A8693-4F54-4CA3-8D30-18C640AF0A91}" type="POI" name="Island: Nólsoy" owner="3DSpotters" lat="61.9853382" lon="-6.6513704" alt="99.54"/> 
+<LandmarkLocation instanceId="{0225ECDC-4578-4A4B-AFD2-EDF01B4B34A0}" type="POI" name="Island: Hestur" owner="3DSpotters" lat="61.9507894" lon="-6.8972252" alt="99.54"/> 
+<LandmarkLocation instanceId="{4264CC8D-3CE3-4EB0-B997-31377B1BD5B4}" type="POI" name="Island: Koltur" owner="3DSpotters" lat="61.9874788" lon="-6.98217" alt="119.7"/> 
+<LandmarkLocation instanceId="{7906994C-A6ED-4287-B46F-2180DE0E9EFA}" type="POI" name="Island: Mykines" owner="3DSpotters" lat="62.104488" lon="-7.5963521" alt="89.46000000000001"/> 
+<LandmarkLocation instanceId="{275CC646-3F55-4EB9-9331-32383E41025D}" type="POI" name="Island: Stóra Dímun" owner="3DSpotters" lat="61.694366" lon="-6.7527293" alt="112.14"/> 
+<LandmarkLocation instanceId="{611E88F5-21A7-44E5-8340-1EEF491CBD75}" type="POI" name="Island: Lítla Dímun" owner="3DSpotters" lat="61.633197" lon="-6.7103224" alt="94.5"/> 
+<LandmarkLocation instanceId="{768EBADE-4C3F-4514-9011-1EE4184DCA07}" type="POI" name="Island: Svínoy" owner="3DSpotters" lat="62.2694031" lon="-6.3499974" alt="162.54"/> 
+<LandmarkLocation instanceId="{DBB9BB52-CCC6-4485-909D-16F6D1373447}" type="POI" name="Reservoir: Heygavatn" owner="3DSpotters" lat="62.1535702" lon="-7.119674" alt="88.9"/> 
+<LandmarkLocation instanceId="{F92078D0-0406-4F4A-A3A0-84C8CBEE22B2}" type="POI" name="Stadium: Bylgjan" owner="3DSpotters" lat="62.1067432" lon="-6.7235564" alt="70.7"/> 
+<LandmarkLocation instanceId="{41DEF785-8CD1-4D57-882B-14677A2852D3}" type="POI" name="Fuel: Magn Norðragøta" owner="3DSpotters" lat="62.2036978" lon="-6.7574465" alt="77.0"/> 
+<LandmarkLocation instanceId="{7B5AEB61-2532-44BD-B758-F6FF6ED5A668}" type="POI" name="Fuel: Magn v. Streymin" owner="3DSpotters" lat="62.2090412" lon="-6.9994489" alt="90.3"/> 
+<LandmarkLocation instanceId="{4FC1E30E-BD08-48FA-A730-12CDFFBA55F7}" type="POI" name="Community_centre: Mentunarhúsið" owner="3DSpotters" lat="62.2420863" lon="-6.8157453" alt="84.0"/> 
+<LandmarkLocation instanceId="{C2CA8737-6317-4B2E-9294-7A248CA0FACB}" type="POI" name="Temple: Svínoyar kirkja" owner="3DSpotters" lat="62.2788315" lon="-6.3430871" alt="67.9"/> 
+<LandmarkLocation instanceId="{B1D40C8F-0EF7-46B9-9A8B-C15BB5AD395A}" type="POI" name="Temple: Glyvra kirkja" owner="3DSpotters" lat="62.1278017" lon="-6.725348" alt="49.7"/> 
+<LandmarkLocation instanceId="{23A69E05-E0CF-493F-81DF-1A534199D5A8}" type="POI" name="Temple: Glyrva missiónshús" owner="3DSpotters" lat="62.121848" lon="-6.7218645" alt="84.0"/> 
+<LandmarkLocation instanceId="{93AC2B3C-85A6-4585-8A52-998D077AC1B3}" type="POI" name="Temple: Berøa" owner="3DSpotters" lat="62.1167249" lon="-6.7228534" alt="61.6"/> 
+<LandmarkLocation instanceId="{7F4AC3D6-72B8-4A1A-9356-4ABD26014779}" type="POI" name="Fuel: Magn Vestmanna" owner="3DSpotters" lat="62.1533237" lon="-7.146285" alt="66.5"/> 
+<LandmarkLocation instanceId="{2786AD4A-DEA5-4C6E-AE07-0A7166CBA30C}" type="POI" name="Lake: Toftavatn" owner="3DSpotters" lat="62.0957446" lon="-6.7159732" alt="60.9"/> 
+<LandmarkLocation instanceId="{C1AB90C8-68C1-48DD-BB8E-433133289F3C}" type="POI" name="Reservoir: Frammi á vatni" owner="3DSpotters" lat="62.184063" lon="-7.1574041" alt="71.4"/> 
+<LandmarkLocation instanceId="{924EA5CC-EE60-4BC7-A177-2D7EB656C6D1}" type="POI" name="Bus_station;ferry_terminal: Farstøðin" owner="3DSpotters" lat="62.0078196" lon="-6.7655746" alt="57.4"/> 
+<LandmarkLocation instanceId="{5E465ECF-91BC-4B03-B2F5-04559F8D9C09}" type="POI" name="Lake: Vatnið" owner="3DSpotters" lat="61.4687831" lon="-6.8330006" alt="79.1"/> 
+<LandmarkLocation instanceId="{CAC3F1E1-959E-43E2-8EE8-9BA00EEEB61D}" type="POI" name="Fire_station: Tórshavnar Brandstøð" owner="3DSpotters" lat="62.0154048" lon="-6.7920014" alt="69.3"/> 
+<LandmarkLocation instanceId="{66B5C5D4-B1B4-4C33-83E4-EB5BBE8D8622}" type="POI" name="Hotel: Kerjalon" owner="3DSpotters" lat="62.0126337" lon="-6.8018756" alt="51.8"/> 
+<LandmarkLocation instanceId="{B3D28525-14A8-45D0-9D23-3366DEF6B1F2}" type="POI" name="Hotel: Hotel Føroyar" owner="3DSpotters" lat="62.0124727" lon="-6.7991747" alt="77.0"/> 
+<LandmarkLocation instanceId="{E3BC656F-238B-4013-8912-A808D5269B1C}" type="POI" name="Temple: Fríðrikskirkja" owner="3DSpotters" lat="62.0869918" lon="-6.7385626" alt="82.6"/> 
+<LandmarkLocation instanceId="{01EF3C17-4B71-4AB4-B8B1-E37CC5F3A4DA}" type="POI" name="Fuel: Magn" owner="3DSpotters" lat="62.0050232" lon="-6.7828455" alt="68.6"/> 
+<LandmarkLocation instanceId="{C2145CC5-1488-4262-BE56-DE48913F9374}" type="POI" name="Temple: Vesturkirkjan" owner="3DSpotters" lat="62.0074641" lon="-6.7841363" alt="62.3"/> 
+<LandmarkLocation instanceId="{4E1B1199-A240-478C-92E3-2606D2192F0C}" type="POI" name="Townhall: Tórshavnar Byråd" owner="3DSpotters" lat="62.0101739" lon="-6.7724355" alt="66.5"/> 
+<LandmarkLocation instanceId="{687BFBE3-AF14-40EB-8AFE-EF24228E4FDF}" type="POI" name="Temple: Havnar Kirkja" owner="3DSpotters" lat="62.0095857" lon="-6.7716551" alt="88.9"/> 
+<LandmarkLocation instanceId="{1284B343-6A51-4D77-8B1C-D74AEE94C8C9}" type="POI" name="Temple: Hests kirkja" owner="3DSpotters" lat="61.9565524" lon="-6.8848359" alt="51.8"/> 
+<LandmarkLocation instanceId="{B8A1E7B8-6DE3-4092-AF53-48FD230B2874}" type="POI" name="Temple: Nólsoyar Kirkja" owner="3DSpotters" lat="62.0084311" lon="-6.6759086" alt="79.1"/> 
+<LandmarkLocation instanceId="{B7605CAD-2EAC-48D0-A308-7331F1789E65}" type="POI" name="Hotel: Hotel Tórshavn" owner="3DSpotters" lat="62.0099622" lon="-6.7728432" alt="65.1"/> 
+<LandmarkLocation instanceId="{9E7720E1-A045-48BA-A3DF-4033D41ACA26}" type="POI" name="Temple: Ólavskirkjan" owner="3DSpotters" lat="61.9516414" lon="-6.7931127" alt="78.4"/> 
+<LandmarkLocation instanceId="{DDC2EC3D-1640-49F3-9388-3548ECD0C2B1}" type="POI" name="Temple: Bíggjar kirkja" owner="3DSpotters" lat="62.086387" lon="-7.3704046" alt="67.2"/> 
+<LandmarkLocation instanceId="{0BF25676-8A9F-470A-88C4-D386BF8BF27F}" type="POI" name="Hotel: Hotel Vágar" owner="3DSpotters" lat="62.0688496" lon="-7.2856085" alt="85.4"/> 
+<LandmarkLocation instanceId="{CA06D246-D4F5-49AC-A670-D9B692EDDEE4}" type="POI" name="Culture_center: Norðurlandahúsið" owner="3DSpotters" lat="62.0220756" lon="-6.7846352" alt="61.6"/> 
+<LandmarkLocation instanceId="{FC594E1E-76E5-4C16-A95B-6734C06473D6}" type="POI" name="Administrative: Fíggjamálaráðið" owner="3DSpotters" lat="61.9964425" lon="-6.7821483" alt="81.2"/> 
+<LandmarkLocation instanceId="{F22E68D5-966F-43F1-8C07-CEEDFB15BB24}" type="POI" name="Public_building: Umhvørvisstovan" owner="3DSpotters" lat="61.9971837" lon="-6.7830419" alt="90.3"/> 
+<LandmarkLocation instanceId="{D37FC538-EEBB-42FA-B75F-391F570715D6}" type="POI" name="Attraction: Aquarium" owner="3DSpotters" lat="61.9992302" lon="-6.7760192" alt="60.2"/> 
+<LandmarkLocation instanceId="{23075FFF-3049-4D15-BBE3-C19EA77CBE09}" type="POI" name="Temple: Argja Kirkja" owner="3DSpotters" lat="61.9975959" lon="-6.7743018" alt="78.4"/> 
+<LandmarkLocation instanceId="{A8C3FB87-B1CE-4B53-A35E-22B93BAC2C22}" type="POI" name="Temple: Sørvágs kirkja" owner="3DSpotters" lat="62.0729976" lon="-7.3090163" alt="70.0"/> 
+<LandmarkLocation instanceId="{AA10F713-5CEC-4102-93C7-9032FE7B7408}" type="POI" name="Temple: Miðvágs kirkja" owner="3DSpotters" lat="62.0481642" lon="-7.1943766" alt="74.2"/> 
+<LandmarkLocation instanceId="{BAA1E439-67DF-4F60-BCE0-B2FF778569FD}" type="POI" name="River: Stórá" owner="3DSpotters" lat="62.1894246" lon="-7.0375415" alt="56.7"/> 
+<LandmarkLocation instanceId="{86532275-937C-49D0-A9C7-2BFC38C22B60}" type="POI" name="Temple: Haldórsvíkar kirkja" owner="3DSpotters" lat="62.2759153" lon="-7.0923512" alt="58.1"/> 
+<LandmarkLocation instanceId="{190F580D-9D5E-4B45-BED2-EF0482877145}" type="POI" name="Temple: Tjørnuvíkar kirkja" owner="3DSpotters" lat="62.2892923" lon="-7.1482108" alt="84.7"/> 
+<LandmarkLocation instanceId="{24D44718-743C-4A8F-BFC6-25DDF9E01AAF}" type="POI" name="Community_centre: Ungmannahúsið Samljóð" owner="3DSpotters" lat="61.9049924" lon="-6.88855" alt="68.6"/> 
+<LandmarkLocation instanceId="{FAD001F5-E719-4E78-9DC4-F5D0BDD3B80D}" type="POI" name="Temple: Betania" owner="3DSpotters" lat="61.9035347" lon="-6.8832027" alt="49.7"/> 
+<LandmarkLocation instanceId="{D79B3ECF-6E94-4F89-9B4D-0D1E1E529753}" type="POI" name="Temple: Dals kirkja" owner="3DSpotters" lat="61.7836606" lon="-6.6764479" alt="70.7"/> 
+<LandmarkLocation instanceId="{C3255B09-6ABA-4D20-85B6-5B75379C817B}" type="POI" name="Temple: Húsavíkar Kirkja" owner="3DSpotters" lat="61.8093415" lon="-6.6784038" alt="68.6"/> 
+<LandmarkLocation instanceId="{B4884719-6E98-4FDE-8762-FD322230CC4B}" type="POI" name="Temple: Skúvoyar kirkja" owner="3DSpotters" lat="61.7700309" lon="-6.8050594" alt="76.3"/> 
+<LandmarkLocation instanceId="{5B24642D-5541-4E2A-8F48-E09019EDA56B}" type="POI" name="Temple: Hvalbiar kirkja" owner="3DSpotters" lat="61.5977295" lon="-6.9531876" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{09BCFE4A-3673-492D-B1F9-A92A9734712C}" type="POI" name="Fuel: Magn" owner="3DSpotters" lat="62.0211818" lon="-6.7786219" alt="78.4"/> 
+<LandmarkLocation instanceId="{54C656AD-4C30-40C2-8954-B6FF5082D9B5}" type="POI" name="Social_facility: Lágargarður" owner="3DSpotters" lat="62.0177387" lon="-6.7593994" alt="74.9"/> 
+<LandmarkLocation instanceId="{6FAA3DA3-1F9C-4FAA-91B3-ED429C369F29}" type="POI" name="Temple: Kirkju kirkja" owner="3DSpotters" lat="62.3185207" lon="-6.3180855" alt="63.0"/> 
+<LandmarkLocation instanceId="{3E034867-AB3C-45A4-ADC7-1487BECE05CD}" type="POI" name="Temple: Hattarvíkar kirkja" owner="3DSpotters" lat="62.3290421" lon="-6.2771313" alt="62.3"/> 
+<LandmarkLocation instanceId="{F38BDCD6-F5BE-4985-91F0-BF3E1F97EA89}" type="POI" name="Hotel: Hotel Norð" owner="3DSpotters" lat="62.3603342" lon="-6.5306836" alt="60.2"/> 
+<LandmarkLocation instanceId="{392370F7-EF6C-44B5-A971-90201B9CAAD0}" type="POI" name="Temple: Viðareiðis kirkja" owner="3DSpotters" lat="62.3598287" lon="-6.5435188" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{29D21B15-9377-43C7-BFBF-FEF1CDAD1CB0}" type="POI" name="Temple: Árnafjarðar kirkja" owner="3DSpotters" lat="62.2549404" lon="-6.5377569" alt="70.7"/> 
+<LandmarkLocation instanceId="{890D17CC-259C-4AB3-930B-89FECC0E7F77}" type="POI" name="River: Sandá" owner="3DSpotters" lat="62.0162736" lon="-6.8576609" alt="58.8"/> 
+<LandmarkLocation instanceId="{8445BE34-55C7-49C6-820A-5FB09DA3536B}" type="POI" name="Temple: Mykinesar kirkja" owner="3DSpotters" lat="62.1040053" lon="-7.6437938" alt="74.2"/> 
+<LandmarkLocation instanceId="{B50A6275-73B2-4FE2-B546-B74A368D9124}" type="POI" name="Temple: Mikladals kirkja" owner="3DSpotters" lat="62.3357338" lon="-6.7668182" alt="55.3"/> 
+<LandmarkLocation instanceId="{CCE56B7C-6805-47F7-8E89-236A2A39C477}" type="POI" name="Temple: Húsar Kirkja" owner="3DSpotters" lat="62.2648313" lon="-6.6955271" alt="91.0"/> 
+<LandmarkLocation instanceId="{806B2A4E-DC26-430B-B2B8-00465872E8EE}" type="POI" name="Temple: Funnings kirkja" owner="3DSpotters" lat="62.2868472" lon="-6.9663552" alt="79.8"/> 
+<LandmarkLocation instanceId="{2793DEA1-2112-4263-A75F-150EF27D1A1E}" type="POI" name="Temple: Gjáar kirkja" owner="3DSpotters" lat="62.3243359" lon="-6.9428598" alt="90.3"/> 
+<LandmarkLocation instanceId="{597B015B-4482-4946-A1E6-4A941945FE2D}" type="POI" name="Temple: Elduvíkar Kirkja" owner="3DSpotters" lat="62.2824205" lon="-6.9132328" alt="76.3"/> 
+<LandmarkLocation instanceId="{B1ADCD1D-D30D-4145-B775-A0A2EEFD5FB9}" type="POI" name="Temple: Christianskirkjan" owner="3DSpotters" lat="62.225404" lon="-6.586486" alt="62.3"/> 
+<LandmarkLocation instanceId="{D9EB5BE4-0F81-4BC3-8EFA-7A96B39AADD1}" type="POI" name="Police: Klaksvik" owner="3DSpotters" lat="62.2261426" lon="-6.5857129" alt="86.1"/> 
+<LandmarkLocation instanceId="{A34E87BB-B1E7-4481-93C2-4940145E963F}" type="POI" name="River: Hoydalsá" owner="3DSpotters" lat="62.0291489" lon="-6.7870133" alt="65.1"/> 
+<LandmarkLocation instanceId="{9685B3E1-1619-488E-8641-1EB52F408B3D}" type="POI" name="Fuel: Magn" owner="3DSpotters" lat="61.5621306" lon="-6.8423232" alt="75.6"/> 
+<LandmarkLocation instanceId="{C1C3213D-5D6B-4986-BC79-991270B6905B}" type="POI" name="Temple: Siloa" owner="3DSpotters" lat="62.2425767" lon="-6.8169008" alt="88.2"/> 
+<LandmarkLocation instanceId="{45FDED15-BDB1-4C18-A4D6-93DBAE074230}" type="POI" name="Temple: Vestmanna kirkja" owner="3DSpotters" lat="62.1536655" lon="-7.1723414" alt="85.4"/> 
+<LandmarkLocation instanceId="{EDACFBCA-6C15-40BA-93DF-9DB205C035AA}" type="POI" name="Temple: Skála Kirkja" owner="3DSpotters" lat="62.1565057" lon="-6.7777103" alt="88.2"/> 
+<LandmarkLocation instanceId="{C9016F2A-AB2F-4B65-B23E-3DC06F234AA3}" type="POI" name="Lake: Sørvágsvatn" owner="3DSpotters" lat="62.0477095" lon="-7.2370459" alt="66.5"/> 
+<LandmarkLocation instanceId="{EE14B8ED-C7B3-4900-9A49-31A3B8AFCD53}" type="POI" name="Reservoir: Lómundaroyri" owner="3DSpotters" lat="62.1713226" lon="-7.150366" alt="79.8"/> 
+<LandmarkLocation instanceId="{8DA6B307-ABFF-4E94-993E-ED59EF16F3EB}" type="POI" name="Reservoir: Mýranar" owner="3DSpotters" lat="62.1689446" lon="-7.0865077" alt="70.7"/> 
+<LandmarkLocation instanceId="{4D10F179-4F9B-4B17-B65D-387F0D9F551F}" type="POI" name="Reservoir: Eiðisvatn" owner="3DSpotters" lat="62.2851524" lon="-7.0566293" alt="76.3"/> 
+<LandmarkLocation instanceId="{CC95CE02-9262-496D-9BF3-7AA350299885}" type="POI" name="River: Fossá" owner="3DSpotters" lat="62.1618109" lon="-7.1481054" alt="74.9"/> 
+<LandmarkLocation instanceId="{932A9E90-76BE-4365-9CD0-45093E3907A1}" type="POI" name="River: Heljareya" owner="3DSpotters" lat="62.1528073" lon="-7.1318636" alt="49.0"/> 
+<LandmarkLocation instanceId="{44E1AAB9-1873-4792-8269-C0005D4E01B1}" type="POI" name="Courthouse: Føroya Rættur" owner="3DSpotters" lat="62.0106255" lon="-6.7706093" alt="78.4"/> 
+<LandmarkLocation instanceId="{55809129-6A85-4061-94AF-3D69E20643C4}" type="POI" name="Temple: Kollafjarðar kirkja" owner="3DSpotters" lat="62.1170122" lon="-6.9016549" alt="88.9"/> 
+<LandmarkLocation instanceId="{3818E5B8-449F-4AE5-B7E4-42CC89A68A50}" type="POI" name="Industrial: Skipasmiðan" owner="3DSpotters" lat="62.1534834" lon="-7.1653834" alt="67.9"/> 
+<LandmarkLocation instanceId="{F57055D7-9666-4449-9A06-352058042E23}" type="POI" name="Temple: Oyndarfjarðar kirkja" owner="3DSpotters" lat="62.2770111" lon="-6.8518549" alt="84.7"/> 
+<LandmarkLocation instanceId="{CEE55F16-5D4F-4D86-B77B-EC0C18615F69}" type="POI" name="Residential: Norðasta Horn" owner="3DSpotters" lat="62.0005022" lon="-6.8270104" alt="93.45"/> 
+<LandmarkLocation instanceId="{6279B675-C8C6-43AC-B2F5-ACE6365168C1}" type="POI" name="Temple: Sandvíkar kirkja" owner="3DSpotters" lat="61.6334459" lon="-6.9294375" alt="57.4"/> 
+<LandmarkLocation instanceId="{D5CE2517-1227-4783-ABA3-3B1E41B1A68E}" type="POI" name="Public_building: Havnaskrivustovan" owner="3DSpotters" lat="62.1516039" lon="-7.1703527" alt="58.8"/> 
+<LandmarkLocation instanceId="{E7C516E5-40B1-4B41-A790-1227C8C4A022}" type="POI" name="Temple: Bønhúsið" owner="3DSpotters" lat="62.2628622" lon="-6.8452545" alt="72.1"/> 
+<LandmarkLocation instanceId="{0BF3B5EF-2D94-4F20-8C0A-FFE491EBB224}" type="POI" name="Industrial: Marine Harvest Faroes P/f" owner="3DSpotters" lat="62.2597557" lon="-6.861488" alt="87.5"/> 
+<LandmarkLocation instanceId="{049E02F6-8153-495B-80BA-C66BC5E0C542}" type="POI" name="Recycling: Endurnýtslan" owner="3DSpotters" lat="62.0466977" lon="-6.7882017" alt="80.5"/> 
+<LandmarkLocation instanceId="{16CBAA3B-3A37-4828-9296-0EDC9E338B56}" type="POI" name="Temple: Gotu kirkje" owner="3DSpotters" lat="62.1933801" lon="-6.7462635" alt="77.0"/> 
+<LandmarkLocation instanceId="{EA220B93-AC95-4DC6-B25B-BF06E4855CE1}" type="POI" name="Ruins: Grundin" owner="3DSpotters" lat="62.1874205" lon="-6.7506882" alt="51.8"/> 
+<LandmarkLocation instanceId="{D4E55E95-B250-40D2-B8CD-7F8DBF2A5CC4}" type="POI" name="Temple: Rituvíkar kirkja" owner="3DSpotters" lat="62.1062355" lon="-6.6837615" alt="65.8"/> 
+<LandmarkLocation instanceId="{756B6020-49C1-4849-A225-F3FC7D7BE023}" type="POI" name="Temple: Tvøroyrar Kirkja" owner="3DSpotters" lat="61.5538987" lon="-6.8011026" alt="62.3"/> 
+<LandmarkLocation instanceId="{881A55C7-6F20-431A-A01A-9E15169981F4}" type="POI" name="Townhall: Kommunuskrivstovan" owner="3DSpotters" lat="61.8342433" lon="-6.816966" alt="81.9"/> 
+<LandmarkLocation instanceId="{F7E70951-278E-4CED-B145-BECAD647A461}" type="POI" name="Fuel: Magn" owner="3DSpotters" lat="61.8409706" lon="-6.8088553" alt="56.0"/> 
+<LandmarkLocation instanceId="{F7B19499-BD0E-4AD9-8FB2-95EB6EC4312D}" type="POI" name="Fuel: Maagn" owner="3DSpotters" lat="61.9965173" lon="-6.7832726" alt="73.5"/> 
+<LandmarkLocation instanceId="{24D97C65-AFE1-43D1-89ED-82FD94B742C8}" type="POI" name="River: Sandá" owner="3DSpotters" lat="61.996676" lon="-6.8003392" alt="89.6"/> 
+<LandmarkLocation instanceId="{297219A6-F4F9-4770-BA04-670BAFB42F5E}" type="POI" name="River: Sandá" owner="3DSpotters" lat="62.0094789" lon="-6.8468174" alt="80.5"/> 
+<LandmarkLocation instanceId="{985BE3DC-493F-4E64-A945-05E9A1426465}" type="POI" name="Temple: Sandavágs kirkja" owner="3DSpotters" lat="62.0539385" lon="-7.1515394" alt="83.3"/> 
+<LandmarkLocation instanceId="{21795694-E05E-4E8F-B2D0-969C6FCFA298}" type="POI" name="Lake: Stóratjørn" owner="3DSpotters" lat="61.9922887" lon="-6.847266" alt="72.1"/> 
+<LandmarkLocation instanceId="{8BEBCC9D-00C0-4BAD-9317-78F028291CC6}" type="POI" name="Dive_centre: Vinnukavaraskúlin" owner="3DSpotters" lat="62.2245654" lon="-6.5850769" alt="88.2"/> 
+<LandmarkLocation instanceId="{D211B5BA-277A-4618-8B33-92832C5189AB}" type="POI" name="Lake: Leynavatn" owner="3DSpotters" lat="62.128462" lon="-7.0239422" alt="65.1"/> 
+<LandmarkLocation instanceId="{AA935328-D311-4FC2-B6AC-A05B5B44B4E9}" type="POI" name="Hotel: Hotel Skálavík" owner="3DSpotters" lat="61.8273385" lon="-6.6746573" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{05012B78-3FF1-4456-B3B9-64682E9EEA3F}" type="POI" name="River: Niðri í Á" owner="3DSpotters" lat="61.8377949" lon="-6.8097898" alt="53.2"/> 
+<LandmarkLocation instanceId="{EA5A3F8C-0BE4-4794-A716-017831FE5246}" type="POI" name="Hotel: Hotel Streym" owner="3DSpotters" lat="62.0094359" lon="-6.7605066" alt="89.6"/> 
+<LandmarkLocation instanceId="{6E4EDFD2-33EF-40C0-97E3-4BC5912BBE5D}" type="POI" name="Hotel: Hotal Vagar" owner="3DSpotters" lat="62.0671457" lon="-7.3010515" alt="63.7"/> 
+<LandmarkLocation instanceId="{6E4F7AEF-C58E-4938-98BD-C0EA6BA5043B}" type="POI" name="River: Storá" owner="3DSpotters" lat="62.0640403" lon="-7.149897" alt="84.7"/> 
+<LandmarkLocation instanceId="{03A4CFE5-2946-4B43-8A70-8D7FA830EE8F}" type="POI" name="River: Storá" owner="3DSpotters" lat="62.054544" lon="-7.151578" alt="72.8"/> 
+<LandmarkLocation instanceId="{8439E90E-C9A4-42B4-97FE-EBD856FDD7B0}" type="POI" name="River: Sjatlá" owner="3DSpotters" lat="62.084572" lon="-7.2559919" alt="81.2"/> 
+<LandmarkLocation instanceId="{7E03142F-E4E6-43CD-8A34-CCDC333D7AE9}" type="POI" name="River: Tjørndalsá" owner="3DSpotters" lat="62.0872444" lon="-7.2316246" alt="89.6"/> 
+<LandmarkLocation instanceId="{086BAE0E-5F35-446A-8A3B-F0A65EF656BC}" type="POI" name="River: Bjarnadalsá" owner="3DSpotters" lat="62.1711437" lon="-7.1449057" alt="88.2"/> 
+<LandmarkLocation instanceId="{CE2523C1-E8BB-44C0-B759-595D123A3798}" type="POI" name="Temple: Leirvík Kirkja" owner="3DSpotters" lat="62.211534" lon="-6.7098044" alt="71.4"/> 
+<LandmarkLocation instanceId="{8BE35D49-A508-45AC-B778-F51AE77F1239}" type="POI" name="Temple: Mariukirkjan" owner="3DSpotters" lat="62.0143763" lon="-6.7797805" alt="72.8"/> 
+<LandmarkLocation instanceId="{E66D4CA7-CD6D-4C4C-A11C-6E5062C3F107}" type="POI" name="Aerodrome: Vágar Airport" owner="3DSpotters" lat="62.0635438" lon="-7.276162" alt="67.9"/> 
+<LandmarkLocation instanceId="{59E566E6-7C6C-43A2-A19F-65CBBFBEE31B}" type="POI" name="Lake: Tjørnin á Brekkunum" owner="3DSpotters" lat="62.1084887" lon="-6.9921813" alt="89.6"/> 
+<LandmarkLocation instanceId="{34942FDC-306A-4A58-BF89-208F65AA7189}" type="POI" name="Temple: Skopunar kirkja" owner="3DSpotters" lat="61.9024926" lon="-6.8810744" alt="91.0"/> 
+<LandmarkLocation instanceId="{C17C7E35-802A-4541-B3B6-962DB5E27CF9}" type="POI" name="Temple: Missiónshúsið" owner="3DSpotters" lat="61.901923" lon="-6.8810293" alt="90.3"/> 
+<LandmarkLocation instanceId="{D9C5FC02-A64B-4455-BEE6-E09AB43BBD6B}" type="POI" name="Ruins: Magnus Cathedral" owner="3DSpotters" lat="61.9518803" lon="-6.7921032" alt="58.1"/> 
+<LandmarkLocation instanceId="{676F8713-F6DE-49AE-900C-5B3C94C04276}" type="POI" name="River: Heljardalsá" owner="3DSpotters" lat="62.2225671" lon="-7.1447014" alt="91.0"/> 
+<LandmarkLocation instanceId="{381880D8-DCAC-454B-B36C-DA9B58617916}" type="POI" name="Industrial: Gamlarætt Havn" owner="3DSpotters" lat="61.9617626" lon="-6.8178395" alt="57.4"/> 
+<LandmarkLocation instanceId="{CFDF7740-5833-48DC-B2D0-B577B613BBDD}" type="POI" name="Lake: Mjáuvøtn" owner="3DSpotters" lat="62.1251346" lon="-6.9944404" alt="49.0"/> 
+<LandmarkLocation instanceId="{215AAEEA-95BC-437F-BE2E-B589EC9DF501}" type="POI" name="Lake: Tjarnirnar uppi á Klivi" owner="3DSpotters" lat="61.420695" lon="-6.7495515" alt="55.3"/> 
+<LandmarkLocation instanceId="{8535097E-9331-4C8A-823E-12FAF2F8C368}" type="POI" name="Industrial: Elektrisitetsverkið i Botni" owner="3DSpotters" lat="61.486244" lon="-6.8700297" alt="88.9"/> 
+<LandmarkLocation instanceId="{B55A2104-7A6B-4CA9-A0EF-E54EED58A322}" type="POI" name="Lake: Kirkjuvatn" owner="3DSpotters" lat="61.5298502" lon="-6.876301" alt="57.4"/> 
+<LandmarkLocation instanceId="{08378EF5-8542-4C8F-9877-1B2754F019A4}" type="POI" name="Industrial: Eiðisverkið" owner="3DSpotters" lat="62.2811154" lon="-7.0726555" alt="70.0"/> 
+<LandmarkLocation instanceId="{38AE13BA-8B9E-47F0-A978-FA04AE5313F0}" type="POI" name="Lake: Tjørnin" owner="3DSpotters" lat="62.0603387" lon="-6.6968906" alt="79.8"/> 
+<LandmarkLocation instanceId="{0D357319-AF92-4A50-9772-DA2E5EAD2ED9}" type="POI" name="Lake: Nesvatn" owner="3DSpotters" lat="62.061578" lon="-6.6994815" alt="70.7"/> 
+<LandmarkLocation instanceId="{3C162DB8-8B51-4E1E-AD30-E63C58232364}" type="POI" name="Lake: Vørðuvatn" owner="3DSpotters" lat="62.0694238" lon="-6.7082879" alt="77.0"/> 
+<LandmarkLocation instanceId="{56AAAA27-F4F3-46CA-A7D6-18E589A6213B}" type="POI" name="Lake: Hamravatn" owner="3DSpotters" lat="62.0862836" lon="-6.7248377" alt="49.7"/> 
+<LandmarkLocation instanceId="{4BECB490-AEFE-4E5F-8F60-8C870DBC1C63}" type="POI" name="Lake: Heimara Hálsavatn" owner="3DSpotters" lat="61.8806439" lon="-6.8633783" alt="77.7"/> 
+<LandmarkLocation instanceId="{6C2F2758-E689-44C6-B2A1-E9A8ACBD2C16}" type="POI" name="Lake: Grunnatjørn" owner="3DSpotters" lat="62.0100957" lon="-6.8453634" alt="86.8"/> 
+<LandmarkLocation instanceId="{14ABD758-122D-40DA-BE80-6417DC72B4B7}" type="POI" name="Lake: Reiðskarðsvatn" owner="3DSpotters" lat="62.0301477" lon="-6.88675" alt="85.4"/> 
+<LandmarkLocation instanceId="{CED453FE-6BAC-420C-B32F-DF964347A6DC}" type="POI" name="Lake: Tjørnin á Konufelli" owner="3DSpotters" lat="62.0107386" lon="-6.8893204" alt="56.0"/> 
+<LandmarkLocation instanceId="{3367B3B4-91FF-48F3-8AF4-F07A4D1B187B}" type="POI" name="Social_facility: Boðanesheimið" owner="3DSpotters" lat="62.0181841" lon="-6.7572419" alt="65.1"/> 
+<LandmarkLocation instanceId="{E700C505-A1DD-4E91-9C31-91533F4527D0}" type="POI" name="Lake: Heiðavatn" owner="3DSpotters" lat="62.1679573" lon="-7.2161128" alt="88.9"/> 
+<LandmarkLocation instanceId="{3ED94E64-3C83-4209-8E1F-9DC37F873BE2}" type="POI" name="Temple: Selatraðar kirkja" owner="3DSpotters" lat="62.1574539" lon="-6.8809948" alt="63.7"/> 
+<LandmarkLocation instanceId="{80CD9CF0-3667-4545-894D-478051E34A2E}" type="POI" name="River: Gjógvará" owner="3DSpotters" lat="62.1553563" lon="-6.856796" alt="85.4"/> 
+<LandmarkLocation instanceId="{DFDF78A8-DAD9-45BA-A125-3BC5F3FAC4BA}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.1076696" lon="-6.9668156" alt="64.4"/> 
+<LandmarkLocation instanceId="{4FD25859-34D7-44A0-85A3-3DB4823A511B}" type="POI" name="Temple: Hósvíkar kirkja" owner="3DSpotters" lat="62.1520947" lon="-6.9440497" alt="89.6"/> 
+<LandmarkLocation instanceId="{1E964C84-C5CF-48A7-9486-4F4F819E28DB}" type="POI" name="Station: Steinatún" owner="3DSpotters" lat="62.0113315" lon="-6.7742949" alt="58.1"/> 
+<LandmarkLocation instanceId="{5DC4C057-41B0-4C6F-82DD-8C16317545CD}" type="POI" name="Temple: Sumbiar Kirkja" owner="3DSpotters" lat="61.4041327" lon="-6.7131237" alt="81.2"/> 
+<LandmarkLocation instanceId="{7C88B42C-A7B1-4943-A8F4-08B6F192DEBC}" type="POI" name="Lake: Tjørnin á Sundshálsi" owner="3DSpotters" lat="62.0331827" lon="-6.8671418" alt="63.0"/> 
+<LandmarkLocation instanceId="{1643992B-05DA-40E0-82C8-09F503829310}" type="POI" name="Lake: Heiðatjørn" owner="3DSpotters" lat="62.1071687" lon="-6.7056679" alt="75.6"/> 
+<LandmarkLocation instanceId="{3C2D6B5F-9327-43A8-BA49-AC3F773A58F2}" type="POI" name="Temple: Missiónshúsið Tabor" owner="3DSpotters" lat="62.0888035" lon="-6.7372411" alt="59.5"/> 
+<LandmarkLocation instanceId="{A957253F-41D5-49FA-B3E2-51D01E057879}" type="POI" name="Lake: Stóratjørn" owner="3DSpotters" lat="62.0408818" lon="-6.7884507" alt="66.5"/> 
+<LandmarkLocation instanceId="{53089942-FDAB-45CA-AC4D-30B5840C72F2}" type="POI" name="Temple: Nes kirkja" owner="3DSpotters" lat="62.0813557" lon="-6.7300709" alt="77.7"/> 
+<LandmarkLocation instanceId="{A21E077F-1C7F-4999-BAAF-B656DB92955E}" type="POI" name="Lake: Grunnatjørn" owner="3DSpotters" lat="62.1259217" lon="-6.6929219" alt="70.0"/> 
+<LandmarkLocation instanceId="{7A152968-EC8E-4A1B-AE10-9CE1CB548C27}" type="POI" name="River: Fjarðará" owner="3DSpotters" lat="62.2182891" lon="-6.884998" alt="50.4"/> 
+<LandmarkLocation instanceId="{0431BF5E-C259-4056-B1DA-9127A17EAD3D}" type="POI" name="Temple: Kvívíkar kirkja" owner="3DSpotters" lat="62.1174633" lon="-7.0743597" alt="87.5"/> 
+<LandmarkLocation instanceId="{9150D3C0-53A0-471B-B6F9-26C370B3BE90}" type="POI" name="Hotel: Hotel Havgrím" owner="3DSpotters" lat="62.0101835" lon="-6.7588341" alt="77.7"/> 
+<LandmarkLocation instanceId="{97A56803-9581-41C2-A1D4-AEB9C0357FE6}" type="POI" name="Lake: Álkurðarvatn" owner="3DSpotters" lat="61.974225" lon="-6.6492985" alt="79.8"/> 
+<LandmarkLocation instanceId="{36586C76-96F8-4104-96B5-9BE1AAE3F890}" type="POI" name="Attraction: Football Stadium" owner="3DSpotters" lat="62.0553295" lon="-7.1511889" alt="74.9"/> 
+<LandmarkLocation instanceId="{B08739FF-95F2-4D93-AA79-4664C34A7DD2}" type="POI" name="Lake: Klingrutjørn" owner="3DSpotters" lat="61.9897937" lon="-6.7836207" alt="50.4"/> 
+<LandmarkLocation instanceId="{48EBA9BD-8B46-4E95-B428-C8290A9B33F7}" type="POI" name="Lake: Ljósávatn" owner="3DSpotters" lat="61.9864829" lon="-6.7753957" alt="77.7"/> 
+<LandmarkLocation instanceId="{620679C7-4A59-479C-8CF7-B09B1DF408D9}" type="POI" name="Lake: Porkerisvatn" owner="3DSpotters" lat="61.9769352" lon="-6.7841332" alt="63.7"/> 
+<LandmarkLocation instanceId="{A11D7FE5-D765-4879-8131-C099554C9340}" type="POI" name="Lake: Tjarnir millum Ryggja" owner="3DSpotters" lat="61.9648052" lon="-6.7771041" alt="81.9"/> 
+<LandmarkLocation instanceId="{E2F013A7-0396-41CF-942F-919367F79336}" type="POI" name="Lake: Tjørnin millum Viða" owner="3DSpotters" lat="61.9769644" lon="-6.8169902" alt="84.7"/> 
+<LandmarkLocation instanceId="{9BFFDC56-7BE8-438D-B36C-9F9805434763}" type="POI" name="Lake: Víkarvatn" owner="3DSpotters" lat="62.2607895" lon="-7.1125641" alt="66.5"/> 
+<LandmarkLocation instanceId="{B3753B8B-AB3B-4957-837A-E8A58C011213}" type="POI" name="Lake: Gásavatn" owner="3DSpotters" lat="62.2133705" lon="-7.1921941" alt="71.4"/> 
+<LandmarkLocation instanceId="{A5827D5E-598C-475C-9DA8-C520DF72734A}" type="POI" name="Lake: Tjørn á Røkur" owner="3DSpotters" lat="62.1549345" lon="-7.2087991" alt="74.9"/> 
+<LandmarkLocation instanceId="{026E6E4D-E825-4F71-9CC4-0A6A68056297}" type="POI" name="Fire_station: Vestmanna Sløkki- and Bjargingarlið" owner="3DSpotters" lat="62.157611" lon="-7.1798564" alt="73.5"/> 
+<LandmarkLocation instanceId="{1A6FE5F6-EF49-4488-8277-7BD3B9A58B2D}" type="POI" name="Temple: Kunoyar kirkja" owner="3DSpotters" lat="62.2928937" lon="-6.6714671" alt="71.4"/> 
+<LandmarkLocation instanceId="{2CB04C34-56A0-4AC4-9BBE-207F5289829C}" type="POI" name="Attraction: Viðarlundin í Kunoy" owner="3DSpotters" lat="62.292187" lon="-6.6640202" alt="49.0"/> 
+<LandmarkLocation instanceId="{7A680AF8-4033-40A7-B395-37CA84477577}" type="POI" name="Island: Drangarnir" owner="3DSpotters" lat="62.0752935" lon="-7.4143446" alt="123.48"/> 
+<LandmarkLocation instanceId="{80B3BD68-017F-42E7-BDDD-1527D7EEF59B}" type="POI" name="Ruins: RAF Eide" owner="3DSpotters" lat="62.3151872" lon="-7.1047719" alt="71.4"/> 
+<LandmarkLocation instanceId="{944A7F5E-1889-4E64-B6F0-5BBA4E83A943}" type="POI" name="Temple: Saksunar Kirkja" owner="3DSpotters" lat="62.2463715" lon="-7.1800677" alt="56.7"/> 
+<LandmarkLocation instanceId="{7AE181CB-8FC6-45C4-922F-254EE44C5880}" type="POI" name="Lake: Hvannavatn" owner="3DSpotters" lat="61.5791307" lon="-6.836155" alt="71.4"/> 
+<LandmarkLocation instanceId="{19896E56-6C59-4B43-B809-827772742944}" type="POI" name="Lake: Dúniavatn" owner="3DSpotters" lat="61.8000599" lon="-6.7410379" alt="58.8"/> 
+<LandmarkLocation instanceId="{7AEBDD05-40F8-48C5-969F-06C497864B8C}" type="POI" name="Temple: Sands kirkja" owner="3DSpotters" lat="61.8331113" lon="-6.8117342" alt="77.7"/> 
+<LandmarkLocation instanceId="{261ACC52-945A-478B-A17E-0D8629E5AE32}" type="POI" name="Lake: Tjørnin á Reynunum" owner="3DSpotters" lat="61.7861081" lon="-6.7266586" alt="84.0"/> 
+<LandmarkLocation instanceId="{2BC741E7-62A2-4AB8-9FD6-58ADC272D30D}" type="POI" name="Lake: Vatnsdalsvatn" owner="3DSpotters" lat="61.7841784" lon="-6.7249774" alt="65.8"/> 
+<LandmarkLocation instanceId="{A2E49DE8-349E-4701-B653-6620D69DC4E5}" type="POI" name="Lake: Lómatjørn" owner="3DSpotters" lat="61.7840224" lon="-6.7103594" alt="74.2"/> 
+<LandmarkLocation instanceId="{044973A5-D8D1-4753-AA94-5CAD7216CE53}" type="POI" name="Temple: Norðskála kirkja" owner="3DSpotters" lat="62.2159151" lon="-7.0059497" alt="67.2"/> 
+<LandmarkLocation instanceId="{BEBAF493-63BE-4FD5-97DD-D4200AAC5FBA}" type="POI" name="River: Reipsá" owner="3DSpotters" lat="62.1261317" lon="-7.3331004" alt="89.6"/> 
+<LandmarkLocation instanceId="{CBDFCE91-3ADC-49BF-9103-70265482B8EB}" type="POI" name="River: Marknará" owner="3DSpotters" lat="62.1065801" lon="-7.2887507" alt="50.4"/> 
+<LandmarkLocation instanceId="{7C79A389-54FE-4B00-97C6-725CD454AB9C}" type="POI" name="Lake: Hvilvtkinnavatn" owner="3DSpotters" lat="62.1173862" lon="-7.3574662" alt="90.3"/> 
+<LandmarkLocation instanceId="{830D9965-9066-4233-B65E-EC33872E2260}" type="POI" name="River: Gullringsá" owner="3DSpotters" lat="62.1226246" lon="-7.3503096" alt="71.4"/> 
+<LandmarkLocation instanceId="{A986B160-98DE-4EFB-9F76-9878D09DFEE2}" type="POI" name="Lake: Heygsvatn" owner="3DSpotters" lat="61.5951834" lon="-6.9647885" alt="86.8"/> 
+<LandmarkLocation instanceId="{CE2C1796-7369-4AF1-8CA9-C7C1C3163330}" type="POI" name="Lake: Norðbergsvatn" owner="3DSpotters" lat="61.6060677" lon="-6.9705677" alt="49.0"/> 
+<LandmarkLocation instanceId="{088A5C89-8E3A-4D25-9837-3A7085D71C90}" type="POI" name="Lake: Norðara Hálsavatn" owner="3DSpotters" lat="61.8870041" lon="-6.8692364" alt="74.2"/> 
+<LandmarkLocation instanceId="{B36D84BC-B5CD-45AB-BFDA-BC27BB03CCBC}" type="POI" name="Lake: Mølbursvatn" owner="3DSpotters" lat="61.8545743" lon="-6.792192" alt="51.8"/> 
+<LandmarkLocation instanceId="{BEDBCEA5-368A-415A-8385-51AEEBABF951}" type="POI" name="Lake: Nykurtjørn" owner="3DSpotters" lat="61.9432675" lon="-6.875701" alt="82.6"/> 
+<LandmarkLocation instanceId="{8AAA0783-6425-4E58-A701-0E200ABA0985}" type="POI" name="Lake: Hælsvatn" owner="3DSpotters" lat="61.9406801" lon="-6.880271" alt="85.4"/> 
+<LandmarkLocation instanceId="{CB5E1797-3B72-461F-BD76-0763DB31A1A1}" type="POI" name="Lake: Tjarnirnar Lítlu" owner="3DSpotters" lat="61.9411651" lon="-6.8837324" alt="54.6"/> 
+<LandmarkLocation instanceId="{A906D67E-76AB-4DB3-A899-DFE04ED258EA}" type="POI" name="Lake: Tjarnirnar Lítlu" owner="3DSpotters" lat="61.9418827" lon="-6.8836018" alt="65.1"/> 
+<LandmarkLocation instanceId="{310A18D5-B6A7-48CE-8373-FD555C5A1D63}" type="POI" name="Lake: Heygatjørn" owner="3DSpotters" lat="61.9433091" lon="-6.8799712" alt="69.3"/> 
+<LandmarkLocation instanceId="{23145730-6E8A-4ABF-8F52-AD471C05DB31}" type="POI" name="Lake: Barkulsvatn" owner="3DSpotters" lat="61.9457655" lon="-6.8846089" alt="62.3"/> 
+<LandmarkLocation instanceId="{FC306369-35D6-4E5B-BAF6-79409D0DCE79}" type="POI" name="Lake: Faradalsvatn" owner="3DSpotters" lat="61.9442206" lon="-6.8864122" alt="86.1"/> 
+<LandmarkLocation instanceId="{F9E3D5A8-F510-40D2-824C-19F4220BC103}" type="POI" name="Lake: Loftavatn" owner="3DSpotters" lat="61.9460017" lon="-6.8916662" alt="50.4"/> 
+<LandmarkLocation instanceId="{34B8A19A-885A-4382-817A-58340489653C}" type="POI" name="Lake: Tjørnin á Reyðastíg" owner="3DSpotters" lat="61.9601414" lon="-6.6371808" alt="61.6"/> 
+<LandmarkLocation instanceId="{73D29B51-87DB-4A27-809E-51B8A05BBBCB}" type="POI" name="Lake: Tjørnin í Buginum" owner="3DSpotters" lat="62.0721191" lon="-6.867317" alt="79.8"/> 
+<LandmarkLocation instanceId="{3BC45366-ED89-42BB-8623-EEE9A6A89328}" type="POI" name="Lake: Brúnavatn" owner="3DSpotters" lat="62.0700002" lon="-6.855745" alt="79.1"/> 
+<LandmarkLocation instanceId="{2001171F-807B-4952-99BE-EE2DDF006AA7}" type="POI" name="Lake: Niðastatjørn" owner="3DSpotters" lat="62.1329098" lon="-7.0438969" alt="81.9"/> 
+<LandmarkLocation instanceId="{0248A554-D150-44E0-BE61-9E3E0DCF8927}" type="POI" name="Lake: Heimastatjørn" owner="3DSpotters" lat="62.1323302" lon="-7.0512539" alt="59.5"/> 
+<LandmarkLocation instanceId="{9867217D-DAD7-4781-ABAC-C3A2D7D73C9B}" type="POI" name="Lake: Fremstatjørn" owner="3DSpotters" lat="62.1361125" lon="-7.0505175" alt="84.0"/> 
+<LandmarkLocation instanceId="{FB736B83-9D9C-4C7A-A4C7-FD979FD6FDBA}" type="POI" name="Stadium: Inni í Vika Stadium" owner="3DSpotters" lat="61.9950807" lon="-6.8026232" alt="77.7"/> 
+<LandmarkLocation instanceId="{E5143B5B-9B5A-4E19-A4DA-024FDB0A0FCD}" type="POI" name="Lake: Tjørnin á Melini" owner="3DSpotters" lat="62.2178508" lon="-7.0817491" alt="58.8"/> 
+<LandmarkLocation instanceId="{711E68FF-C6EC-41C2-8DBD-CD3CBBB5E1FF}" type="POI" name="Temple: Skálavíkar kirkja" owner="3DSpotters" lat="61.830131" lon="-6.669445" alt="59.5"/> 
+<LandmarkLocation instanceId="{A5EBC6A6-0B78-49B5-8374-E5C6860D0F4A}" type="POI" name="Temple: Hvannasunds kirkja" owner="3DSpotters" lat="62.2930171" lon="-6.5193193" alt="56.7"/> 
+<LandmarkLocation instanceId="{27C0A33A-1518-4EC5-8A86-4BABCC6A5C8C}" type="POI" name="Temple: Kaldbaks kirkja" owner="3DSpotters" lat="62.0583411" lon="-6.8325939" alt="57.4"/> 
+<LandmarkLocation instanceId="{47F68D62-87DE-4CC9-B41C-0B1A51214FC2}" type="POI" name="River: Týggjára" owner="3DSpotters" lat="62.0839063" lon="-6.885683" alt="53.2"/> 
+<LandmarkLocation instanceId="{224F56C0-E400-4780-B457-8F90912B0E2A}" type="POI" name="River: Týggvára" owner="3DSpotters" lat="62.071986" lon="-6.8747111" alt="51.8"/> 
+<LandmarkLocation instanceId="{23B53D5D-DDD3-4DF3-8511-A98E3F4E3DF7}" type="POI" name="River: Høgadalsá" owner="3DSpotters" lat="62.0680408" lon="-6.834929" alt="56.7"/> 
+<LandmarkLocation instanceId="{6A265BD1-8F61-4209-A658-9940F372F3B3}" type="POI" name="Townhall: Eysturkommuna" owner="3DSpotters" lat="62.1984166" lon="-6.7435871" alt="88.2"/> 
+<LandmarkLocation instanceId="{BEAD2D49-724B-440B-A3FE-22AF63F8018B}" type="POI" name="River: Sjóvará" owner="3DSpotters" lat="62.1165547" lon="-6.9118075" alt="69.3"/> 
+<LandmarkLocation instanceId="{DE2526A1-4589-4FC0-915A-11C2F76C6F76}" type="POI" name="River: Kirkjuá" owner="3DSpotters" lat="62.1178277" lon="-6.903373" alt="70.0"/> 
+<LandmarkLocation instanceId="{E170793F-E309-4DB6-897C-9254EA31276C}" type="POI" name="River: Títnabrekkuá" owner="3DSpotters" lat="62.1561001" lon="-6.9698713" alt="57.4"/> 
+<LandmarkLocation instanceId="{5450E663-E5C5-48F4-9145-24CCAA4BA234}" type="POI" name="River: Lagá" owner="3DSpotters" lat="62.1525001" lon="-6.9397113" alt="83.3"/> 
+<LandmarkLocation instanceId="{155F5BC1-3EF8-4D0C-9DA1-298C80611399}" type="POI" name="River: Torvadalsá" owner="3DSpotters" lat="62.1560278" lon="-6.9599773" alt="49.7"/> 
+<LandmarkLocation instanceId="{758B11E1-DC33-40BA-8212-7F53647D6D2D}" type="POI" name="Temple: Hvalvíkar kirkja" owner="3DSpotters" lat="62.1872837" lon="-7.0358977" alt="58.8"/> 
+<LandmarkLocation instanceId="{DACF5DC5-17F3-42FE-8143-0D6C06E790FF}" type="POI" name="Wetland: Úti á Sandur" owner="3DSpotters" lat="62.247926" lon="-7.1995954" alt="50.4"/> 
+<LandmarkLocation instanceId="{3F57FF58-EB68-41E1-8C4F-DF9D2443D1DE}" type="POI" name="Wetland: Gellisandur" owner="3DSpotters" lat="62.2496905" lon="-7.1928449" alt="91.0"/> 
+<LandmarkLocation instanceId="{DC3EACE4-67F2-453E-BA0F-28D0A2E30601}" type="POI" name="River: Gellingará" owner="3DSpotters" lat="62.2600968" lon="-7.1962116" alt="78.4"/> 
+<LandmarkLocation instanceId="{6A41E89A-7887-4B02-9968-4E28C7DED88C}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.1251259" lon="-7.0938266" alt="70.0"/> 
+<LandmarkLocation instanceId="{AAB0186B-BCA5-45DC-B0F5-7737BB46D349}" type="POI" name="River: Botnáin" owner="3DSpotters" lat="62.1265518" lon="-7.3103677" alt="81.9"/> 
+<LandmarkLocation instanceId="{1B44520A-6BF2-460F-BF5C-F1D64C8A0C2E}" type="POI" name="River: Marknará" owner="3DSpotters" lat="62.1033789" lon="-7.315458" alt="85.4"/> 
+<LandmarkLocation instanceId="{2776A167-5C6F-42D4-8863-66E7CD2AD20A}" type="POI" name="Helipad: Skúvoy Heliport" owner="3DSpotters" lat="61.7695676" lon="-6.8034395" alt="83.3"/> 
+<LandmarkLocation instanceId="{2E607BF4-2B05-4974-8CB4-E4E3F08EF2DA}" type="POI" name="River: Fossá" owner="3DSpotters" lat="62.0607336" lon="-7.1359245" alt="81.9"/> 
+<LandmarkLocation instanceId="{B29A9944-A3D0-4E6D-9554-C6692E6E3BEA}" type="POI" name="River: Gáansá" owner="3DSpotters" lat="62.0621" lon="-7.1538842" alt="90.3"/> 
+<LandmarkLocation instanceId="{1FF0C07E-FB5C-414E-8CDB-92B79806AF4D}" type="POI" name="Helipad: Heliport Klaksvik" owner="3DSpotters" lat="62.2176281" lon="-6.5762948" alt="53.9"/> 
+<LandmarkLocation instanceId="{4588BE7A-EEAA-4558-855A-CC8E92E33097}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.182736" lon="-6.9376752" alt="60.2"/> 
+<LandmarkLocation instanceId="{C2C54D4F-D97A-48D3-9864-B227CE966A33}" type="POI" name="River: Skarðsá" owner="3DSpotters" lat="62.21748" lon="-7.0010375" alt="79.8"/> 
+<LandmarkLocation instanceId="{560FCB7F-47C3-4322-9F59-5CA3202F7AC4}" type="POI" name="Temple: Eiðiskirkja" owner="3DSpotters" lat="62.2992502" lon="-7.0911053" alt="66.5"/> 
+<LandmarkLocation instanceId="{73E6A865-0468-4681-AF17-BF0583133270}" type="POI" name="River: Norði í Á" owner="3DSpotters" lat="62.3064616" lon="-7.0631957" alt="73.5"/> 
+<LandmarkLocation instanceId="{A20F7BE3-F06C-456C-BF27-30A0E40ABBF2}" type="POI" name="Temple: Porkeris kirkja" owner="3DSpotters" lat="61.4808547" lon="-6.7463122" alt="81.9"/> 
+<LandmarkLocation instanceId="{D506542A-B90E-41B9-8A07-6C8DFA57F53E}" type="POI" name="Temple: Sjóvar kirkja" owner="3DSpotters" lat="62.1177216" lon="-6.7538072" alt="74.9"/> 
+<LandmarkLocation instanceId="{0DAF7058-CE1C-4B7D-A299-E57255FAFAFF}" type="POI" name="Temple: Norðragøta Kirkja" owner="3DSpotters" lat="62.1974523" lon="-6.7392484" alt="60.2"/> 
+<LandmarkLocation instanceId="{39E465FB-029B-4BAE-8D45-F5639DEB3DC6}" type="POI" name="Temple: Hoyvíkar Kirkja" owner="3DSpotters" lat="62.0297743" lon="-6.7701183" alt="80.5"/> 
+<LandmarkLocation instanceId="{1FA727AE-81F9-477C-A69E-3CF1DC0DD10B}" type="POI" name="Temple: Fámjins kirkja" owner="3DSpotters" lat="61.5256969" lon="-6.8795081" alt="71.4"/> 
+<LandmarkLocation instanceId="{B0967FE4-E00D-4CAA-8F29-4DD8AD43AEA4}" type="POI" name="Temple: Øravíkar kirkja" owner="3DSpotters" lat="61.5324854" lon="-6.8106161" alt="79.8"/> 
+<LandmarkLocation instanceId="{F19671E3-B2D8-49DB-A03D-97C1CB5B4D48}" type="POI" name="Temple: Hovs kirkja" owner="3DSpotters" lat="61.5070147" lon="-6.7596248" alt="88.9"/> 
+<LandmarkLocation instanceId="{B8632DB8-A862-4518-9F80-F9B2FCE6432C}" type="POI" name="River: Storá" owner="3DSpotters" lat="62.2870679" lon="-6.9685292" alt="60.9"/> 
+<LandmarkLocation instanceId="{CA1DE0AE-B7B2-46C0-A21E-4EF0170F38A8}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.3230481" lon="-6.9531019" alt="57.4"/> 
+<LandmarkLocation instanceId="{6881A51A-B464-44D9-8C4B-7FCF6076074D}" type="POI" name="Temple: Vágs kirkja" owner="3DSpotters" lat="61.4736753" lon="-6.8082348" alt="66.5"/> 
+<LandmarkLocation instanceId="{D10D925D-FF1A-4715-85EE-1CB424A20828}" type="POI" name="River: Storá" owner="3DSpotters" lat="62.288513" lon="-6.9783079" alt="69.3"/> 
+<LandmarkLocation instanceId="{A1939257-725D-4F42-96D1-F26DED4D4348}" type="POI" name="River: Ljósá" owner="3DSpotters" lat="62.2607958" lon="-6.9639546" alt="91.0"/> 
+<LandmarkLocation instanceId="{5EC35408-202A-401C-B615-A0AA7049D72D}" type="POI" name="River: Ljósá" owner="3DSpotters" lat="62.26208" lon="-6.978649" alt="57.4"/> 
+<LandmarkLocation instanceId="{31E2EDA4-ADEE-4F7F-8D17-5FB1AF28BB0D}" type="POI" name="Lake: Kvíandalsvatn" owner="3DSpotters" lat="62.2425" lon="-6.9702463" alt="91.0"/> 
+<LandmarkLocation instanceId="{E9EF0319-9BA9-4FDE-98F5-89686E10B3A0}" type="POI" name="River: Vesturdalsá" owner="3DSpotters" lat="62.2255163" lon="-6.924423" alt="56.0"/> 
+<LandmarkLocation instanceId="{06A7C82F-23CC-4045-BFFB-459AF863A24F}" type="POI" name="River: Fjarðará" owner="3DSpotters" lat="62.200267" lon="-6.8567199" alt="76.3"/> 
+<LandmarkLocation instanceId="{BD0ECD19-07B0-4F0C-B5AE-354A13E31772}" type="POI" name="River: Fjarðará" owner="3DSpotters" lat="62.1985927" lon="-6.8519001" alt="67.9"/> 
+<LandmarkLocation instanceId="{25F4695F-886E-4180-8520-C8F13E383947}" type="POI" name="River: Gjógvará" owner="3DSpotters" lat="62.1551037" lon="-6.8452178" alt="54.6"/> 
+<LandmarkLocation instanceId="{F233FA32-BC4E-424B-871F-4E17D4FF7FBF}" type="POI" name="River: Sandá" owner="3DSpotters" lat="62.1629836" lon="-6.8882959" alt="56.7"/> 
+<LandmarkLocation instanceId="{907C7672-A597-437E-BC88-2DC0A9C490F6}" type="POI" name="River: Sølvá" owner="3DSpotters" lat="62.1730023" lon="-6.9282976" alt="58.1"/> 
+<LandmarkLocation instanceId="{5036202A-3BC6-4F30-A9CF-B14DF9A6BB84}" type="POI" name="Industrial: P/F Bakkafrost" owner="3DSpotters" lat="62.1260594" lon="-6.7282385" alt="60.2"/> 
+<LandmarkLocation instanceId="{2D357F6C-C83D-4DA2-91C4-1E1601DD6717}" type="POI" name="Wetland: Vøtnini" owner="3DSpotters" lat="62.2957725" lon="-6.6267653" alt="70.7"/> 
+<LandmarkLocation instanceId="{39B36809-DEED-440C-911B-52C15EB03196}" type="POI" name="River: Løkurin" owner="3DSpotters" lat="62.1051298" lon="-6.723509" alt="72.1"/> 
+<LandmarkLocation instanceId="{08164611-2D64-43B8-B697-F8B07094DEC1}" type="POI" name="River: Eiðisá" owner="3DSpotters" lat="62.2052298" lon="-6.7657123" alt="90.3"/> 
+<LandmarkLocation instanceId="{E507DD46-64D9-43CA-A5DF-CAB2DE6F5E7F}" type="POI" name="Hotel: Hotel Brandan" owner="3DSpotters" lat="62.0182794" lon="-6.77461" alt="58.1"/> 
+<LandmarkLocation instanceId="{8D17B4C1-B25B-41BE-83F2-C945338D11C7}" type="POI" name="River: Eiðisá" owner="3DSpotters" lat="62.2022977" lon="-6.7542578" alt="77.7"/> 
+<LandmarkLocation instanceId="{EAAE992A-DFF0-4FEB-B3D8-5C8560224596}" type="POI" name="River: Eiðisá" owner="3DSpotters" lat="62.2012118" lon="-6.7488085" alt="61.6"/> 
+<LandmarkLocation instanceId="{B065F85E-17A1-4F67-9815-125E984A8666}" type="POI" name="Lake: Eggjarvøtn" owner="3DSpotters" lat="62.1953435" lon="-6.7651544" alt="64.4"/> 
+<LandmarkLocation instanceId="{2B130CA0-12D6-4071-B69C-0F36E07B9B44}" type="POI" name="Wetland: Ærhjallabrúgv" owner="3DSpotters" lat="62.1975584" lon="-6.7671458" alt="84.7"/> 
+<LandmarkLocation instanceId="{203E4BDB-1F46-40E0-ABD2-02B1CBD7686E}" type="POI" name="Lake: Stóravatn" owner="3DSpotters" lat="62.1935531" lon="-6.6747357" alt="90.3"/> 
+<LandmarkLocation instanceId="{D2C354EF-07F9-4C63-82F9-AD50DD8CE33D}" type="POI" name="Lake: Lítlavatn" owner="3DSpotters" lat="62.1932272" lon="-6.6632321" alt="76.3"/> 
+<LandmarkLocation instanceId="{0400DEA5-8180-460F-9D7A-6DA2ACBD3D5D}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.2283857" lon="-6.8234423" alt="56.7"/> 
+<LandmarkLocation instanceId="{9611B2D3-8A73-4BBE-8BE3-0E5F0F76DA8E}" type="POI" name="River: Gjógvará" owner="3DSpotters" lat="62.2394009" lon="-6.835334" alt="58.1"/> 
+<LandmarkLocation instanceId="{9AAAE9AD-BC71-477D-9E89-DB13BAE4C196}" type="POI" name="Industrial: Sund" owner="3DSpotters" lat="62.0508068" lon="-6.8559551" alt="58.8"/> 
+<LandmarkLocation instanceId="{37D1B1F0-3B52-406B-A18B-CBD786B3FD94}" type="POI" name="Temple: Fuglafjarðar Kirkja" owner="3DSpotters" lat="62.2430712" lon="-6.8152727" alt="81.2"/> 
+<LandmarkLocation instanceId="{CC182B25-A294-4506-B9C4-2B836F0D36FE}" type="POI" name="Industrial: Havsbrún" owner="3DSpotters" lat="62.2375119" lon="-6.7993366" alt="61.6"/> 
+<LandmarkLocation instanceId="{8EE0E96A-DF5A-4AF8-AC22-08CAFE02AAAE}" type="POI" name="Hotel: Hilton Garden Inn" owner="3DSpotters" lat="62.0218356" lon="-6.7692173" alt="83.3"/> 
+<LandmarkLocation instanceId="{5C0FAB25-70CD-4F4C-839C-8FD650A4E379}" type="POI" name="Lake: Vatnaskarðstjárnir" owner="3DSpotters" lat="62.0409488" lon="-6.8031361" alt="79.8"/> 
+<LandmarkLocation instanceId="{2C948755-2DC6-4581-9572-DC81FBD7A905}" type="POI" name="Lake: Vatnaskarðstjárnir" owner="3DSpotters" lat="62.0405875" lon="-6.7990898" alt="50.4"/> 
+<LandmarkLocation instanceId="{B365493F-4C71-45E7-B4E1-080288899F6B}" type="POI" name="Lake: Vatnaskarðstjárnir" owner="3DSpotters" lat="62.0396699" lon="-6.8028642" alt="52.5"/> 
+<LandmarkLocation instanceId="{D71F7706-A6A1-4765-87C5-C1F28E88E848}" type="POI" name="Lake: Vatnaskarðstjárnir" owner="3DSpotters" lat="62.0401889" lon="-6.803829" alt="71.4"/> 
+<LandmarkLocation instanceId="{B89D7A16-00C7-4B06-B02A-84DEE13337AD}" type="POI" name="Lake: Vatnaskarðstjárnir" owner="3DSpotters" lat="62.0396472" lon="-6.8056691" alt="56.0"/> 
+<LandmarkLocation instanceId="{C78E6B80-BF63-4B55-BFF9-645241E8A67E}" type="POI" name="Lake: Vatnaskarðstjárnir" owner="3DSpotters" lat="62.0404827" lon="-6.8066029" alt="73.5"/> 
+<LandmarkLocation instanceId="{5332DDB9-75D5-4D56-8ED2-8CFCE3BA0604}" type="POI" name="River: Sundsá" owner="3DSpotters" lat="62.0405783" lon="-6.8496517" alt="76.3"/> 
+<LandmarkLocation instanceId="{5D2C5697-230C-4A47-99D2-CF6920D94F35}" type="POI" name="River: Áin Grøv" owner="3DSpotters" lat="62.0370126" lon="-6.8651393" alt="58.1"/> 
+<LandmarkLocation instanceId="{CD2D5CB8-99BA-418C-B998-48ADBB02EC27}" type="POI" name="River: Sundsá" owner="3DSpotters" lat="62.0465869" lon="-6.8427682" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{2FC0B9AA-2288-430E-9D05-0696E0F43A47}" type="POI" name="River: Sundsá" owner="3DSpotters" lat="62.0475371" lon="-6.842349" alt="51.8"/> 
+<LandmarkLocation instanceId="{105F1EA8-8915-4263-AF54-DC7AA5807D64}" type="POI" name="Lake: Longutjørn" owner="3DSpotters" lat="62.0267683" lon="-6.8310943" alt="62.3"/> 
+<LandmarkLocation instanceId="{856502A9-350E-46F8-AADF-076120491AA4}" type="POI" name="River: Nipá" owner="3DSpotters" lat="62.0437801" lon="-6.972204" alt="67.9"/> 
+<LandmarkLocation instanceId="{A445D586-1A7B-44F7-9C0C-8B7C52FFEA48}" type="POI" name="River: Nipá" owner="3DSpotters" lat="62.0520493" lon="-6.9749228" alt="71.4"/> 
+<LandmarkLocation instanceId="{57207577-57A3-4E89-BC63-D4CDCDB4674A}" type="POI" name="River: Stígabaksáin" owner="3DSpotters" lat="62.049937" lon="-6.966317" alt="73.5"/> 
+<LandmarkLocation instanceId="{A4710131-EADA-4E25-9921-9EFE667DDFF3}" type="POI" name="Island: Steyrur" owner="3DSpotters" lat="62.0396064" lon="-6.9831357" alt="124.74"/> 
+<LandmarkLocation instanceId="{194B70E0-6BC7-4257-AD04-2F39D63472BB}" type="POI" name="River: Tvørá" owner="3DSpotters" lat="62.0048808" lon="-6.8311097" alt="49.7"/> 
+<LandmarkLocation instanceId="{BB641397-1431-448D-BEE2-D994CFEFA1FA}" type="POI" name="River: Sandá" owner="3DSpotters" lat="61.9966927" lon="-6.83181" alt="74.9"/> 
+<LandmarkLocation instanceId="{7D09072A-57B1-44A4-B44C-C7EEB2475C38}" type="POI" name="River: Sandá" owner="3DSpotters" lat="62.0014322" lon="-6.8390863" alt="74.2"/> 
+<LandmarkLocation instanceId="{209108FD-423D-4A10-AC2B-0BFDEA0DEA8E}" type="POI" name="River: Mígandalsá" owner="3DSpotters" lat="61.9900009" lon="-6.8617202" alt="86.1"/> 
+<LandmarkLocation instanceId="{FF4FADCE-27F5-46C0-9F9E-4883DB990C48}" type="POI" name="River: Syðradalsá" owner="3DSpotters" lat="62.018421" lon="-6.9100171" alt="85.4"/> 
+<LandmarkLocation instanceId="{3946A22B-5DDC-45E4-85B5-4508026F364A}" type="POI" name="River: Syðradalsá" owner="3DSpotters" lat="62.0179274" lon="-6.9066266" alt="75.6"/> 
+<LandmarkLocation instanceId="{870EDBEB-8827-4448-9236-BBA554F566AD}" type="POI" name="River: Syðradalsá" owner="3DSpotters" lat="62.0184115" lon="-6.9161831" alt="53.2"/> 
+<LandmarkLocation instanceId="{7371BC07-5C3A-4C80-B3A2-B04C5B94997E}" type="POI" name="River: Syðradalsá" owner="3DSpotters" lat="62.0186153" lon="-6.9131354" alt="63.7"/> 
+<LandmarkLocation instanceId="{EF0320B8-A7DB-4290-B966-E7FF66D0D251}" type="POI" name="Island: Krunan" owner="3DSpotters" lat="61.993734" lon="-7.0063532" alt="109.62"/> 
+<LandmarkLocation instanceId="{E6494E70-19CD-49B6-9A93-8B99DA932081}" type="POI" name="Island: Krunan" owner="3DSpotters" lat="61.993939" lon="-7.0059401" alt="134.82"/> 
+<LandmarkLocation instanceId="{39621D2F-B61F-4848-97D0-D35FAC2E6011}" type="POI" name="Island: Hælsskoraberg" owner="3DSpotters" lat="61.9929591" lon="-7.0033347" alt="126.0"/> 
+<LandmarkLocation instanceId="{E2D20963-FFAA-4F1E-892F-B35F584026AA}" type="POI" name="Lake: Bænaditstjørn" owner="3DSpotters" lat="61.8408173" lon="-6.8314545" alt="49.0"/> 
+<LandmarkLocation instanceId="{F77B1C37-EE5D-4B94-B062-C152CFE2D045}" type="POI" name="Island: Flesin" owner="3DSpotters" lat="61.9601884" lon="-6.9244435" alt="162.54"/> 
+<LandmarkLocation instanceId="{69127182-0E77-45A6-8C3E-E3CF4EB65262}" type="POI" name="River: Stevná" owner="3DSpotters" lat="61.9382828" lon="-6.8763812" alt="50.4"/> 
+<LandmarkLocation instanceId="{E1889915-3588-4DE9-8E65-A3A69F66C773}" type="POI" name="Lake: Tjørn í Hupp" owner="3DSpotters" lat="61.9690117" lon="-6.815532" alt="80.5"/> 
+<LandmarkLocation instanceId="{0C36D2D2-054A-4359-BA34-23CD04AD7710}" type="POI" name="River: Nesá" owner="3DSpotters" lat="61.9445432" lon="-6.7456269" alt="53.9"/> 
+<LandmarkLocation instanceId="{BE901257-D993-4C0A-8BAE-44103189C3A3}" type="POI" name="River: Borá" owner="3DSpotters" lat="61.9710413" lon="-6.755732" alt="59.5"/> 
+<LandmarkLocation instanceId="{95E62001-0B78-4987-82B3-C7E101B1E5F0}" type="POI" name="Lake: Reynavatn" owner="3DSpotters" lat="61.9780643" lon="-6.7630459" alt="73.5"/> 
+<LandmarkLocation instanceId="{673A34C5-CAA7-414B-9C8A-F6BF61AB3B3E}" type="POI" name="Island: Flesin á Høsmøl" owner="3DSpotters" lat="61.9686482" lon="-6.6530214" alt="149.94"/> 
+<LandmarkLocation instanceId="{B8E5D0DB-3372-4566-BD5A-870CF8798CBD}" type="POI" name="Lake: Halavatn" owner="3DSpotters" lat="61.9596991" lon="-6.6285398" alt="53.9"/> 
+<LandmarkLocation instanceId="{F05C6F22-EBB4-4938-94B8-298DDD0BBAD3}" type="POI" name="Island: Kapilin" owner="3DSpotters" lat="61.9563949" lon="-6.6124802" alt="118.44"/> 
+<LandmarkLocation instanceId="{C661CC55-D14F-4487-AE4B-8887A882506E}" type="POI" name="River: Fjarðará" owner="3DSpotters" lat="62.0856055" lon="-6.9415885" alt="56.7"/> 
+<LandmarkLocation instanceId="{C19FE045-BD14-4F99-A7B0-F981267C213E}" type="POI" name="River: Fjarðará" owner="3DSpotters" lat="62.0856586" lon="-6.9414875" alt="86.8"/> 
+<LandmarkLocation instanceId="{CD587182-D98C-46AF-937C-7EB1CCEF308F}" type="POI" name="River: Fjarðará" owner="3DSpotters" lat="62.0857073" lon="-6.941301" alt="73.5"/> 
+<LandmarkLocation instanceId="{38AE8751-CB5F-44E6-A14C-3CDDEC0B0563}" type="POI" name="River: Fjarðará" owner="3DSpotters" lat="62.0859141" lon="-6.9407961" alt="79.1"/> 
+<LandmarkLocation instanceId="{5F480B99-2F76-40B5-8396-901195BEFBA9}" type="POI" name="River: Fjarðará" owner="3DSpotters" lat="62.075673" lon="-6.9272295" alt="64.4"/> 
+<LandmarkLocation instanceId="{DCAEE7C1-E3F8-4F11-8B67-19F81BF4AA87}" type="POI" name="River: Hamarssendaá" owner="3DSpotters" lat="62.0696023" lon="-6.9250079" alt="71.4"/> 
+<LandmarkLocation instanceId="{00C835A0-E4D7-4EEC-BA5A-576513C47EBA}" type="POI" name="River: Hamarssendaá" owner="3DSpotters" lat="62.0674019" lon="-6.9438862" alt="86.1"/> 
+<LandmarkLocation instanceId="{F69C8560-EF47-4C62-95A3-9C3D548BC3F2}" type="POI" name="River: Hamarssendaá" owner="3DSpotters" lat="62.0677297" lon="-6.9435208" alt="77.7"/> 
+<LandmarkLocation instanceId="{ADF9C6C1-4B3A-4979-A4B0-C7484578EE57}" type="POI" name="River: Hamarssendaá" owner="3DSpotters" lat="62.0695999" lon="-6.9355624" alt="65.8"/> 
+<LandmarkLocation instanceId="{E1C6F0A7-8EF4-4013-AC26-A4B68AC7BAFB}" type="POI" name="River: Hamarssendaá" owner="3DSpotters" lat="62.0696188" lon="-6.9272509" alt="69.3"/> 
+<LandmarkLocation instanceId="{D58929D9-8A93-47CF-A8E0-827E3F1B6E5C}" type="POI" name="River: Hamarssendaá" owner="3DSpotters" lat="62.0695567" lon="-6.9266919" alt="54.6"/> 
+<LandmarkLocation instanceId="{7126F26C-35F6-458F-A86F-C98BBA4C3A50}" type="POI" name="River: Syðradalsá" owner="3DSpotters" lat="62.0178404" lon="-6.9001832" alt="70.0"/> 
+<LandmarkLocation instanceId="{82FF3BDA-210C-449B-9654-80C4D1EE76C2}" type="POI" name="Lake: Tjørnin á Kambi" owner="3DSpotters" lat="62.0850687" lon="-6.9153052" alt="53.9"/> 
+<LandmarkLocation instanceId="{9CAD2A28-B63D-4DF3-8919-B5E5535DB094}" type="POI" name="River: Hamarsá" owner="3DSpotters" lat="61.602301" lon="-6.9606135" alt="74.2"/> 
+<LandmarkLocation instanceId="{76EC70FA-5BE0-4371-8F05-F899510CF3C0}" type="POI" name="Lake: Kjógvavatn" owner="3DSpotters" lat="61.5886194" lon="-6.9378906" alt="72.8"/> 
+<LandmarkLocation instanceId="{6DBBE192-616E-4174-9962-5C82A46DCDB9}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.1010675" lon="-6.9502244" alt="82.6"/> 
+<LandmarkLocation instanceId="{CFD668B4-BD62-4C2D-AE18-9101B784646D}" type="POI" name="Lake: Tjørnin á Breiðanesi" owner="3DSpotters" lat="62.1018952" lon="-6.8737249" alt="82.6"/> 
+<LandmarkLocation instanceId="{C52B548C-7D46-4078-87E3-E18F17F0F057}" type="POI" name="Island: Hólmakrógv" owner="3DSpotters" lat="62.1042959" lon="-6.9608343" alt="105.84"/> 
+<LandmarkLocation instanceId="{0E4BE050-6463-430E-9924-956AA60DCF4B}" type="POI" name="Lake: Lómstjørn" owner="3DSpotters" lat="62.1153749" lon="-6.9526653" alt="81.2"/> 
+<LandmarkLocation instanceId="{EBF3A6CA-FC82-4215-892F-8AA7DD2D67DE}" type="POI" name="River: Svartá" owner="3DSpotters" lat="62.1196928" lon="-6.9753649" alt="67.9"/> 
+<LandmarkLocation instanceId="{B1CF57B0-5DC5-4791-84AA-D158232D6A3A}" type="POI" name="River: Hvilvtá" owner="3DSpotters" lat="62.1197261" lon="-6.9866758" alt="52.5"/> 
+<LandmarkLocation instanceId="{381D1FD0-C2B9-4EB7-BF5C-BEBB1F689035}" type="POI" name="River: Hvilvtá" owner="3DSpotters" lat="62.1191541" lon="-6.980414" alt="69.3"/> 
+<LandmarkLocation instanceId="{292F5382-AC3E-4C06-AD01-DAA30FF3F51C}" type="POI" name="River: Djúpagil" owner="3DSpotters" lat="62.1261997" lon="-6.9800062" alt="72.8"/> 
+<LandmarkLocation instanceId="{2F777668-9539-4E60-AA51-5C66C0872148}" type="POI" name="River: Djúpagil" owner="3DSpotters" lat="62.1229248" lon="-6.9904814" alt="56.7"/> 
+<LandmarkLocation instanceId="{8CF73A98-E259-468F-B736-3CD1D931EEA6}" type="POI" name="River: Hvilvtá" owner="3DSpotters" lat="62.1199575" lon="-6.9860066" alt="79.8"/> 
+<LandmarkLocation instanceId="{BB9A94F8-D455-43E5-B375-0F5690E28CBF}" type="POI" name="River: Hvilvtá" owner="3DSpotters" lat="62.120174" lon="-6.9857408" alt="69.3"/> 
+<LandmarkLocation instanceId="{49301DC8-86A2-4DE9-B31B-D1E647D692C2}" type="POI" name="River: Hvilvtá" owner="3DSpotters" lat="62.1206023" lon="-6.9842509" alt="53.9"/> 
+<LandmarkLocation instanceId="{21F4829C-A5D0-43D3-BBC3-7CC6F268EF72}" type="POI" name="River: Breiðadalsá" owner="3DSpotters" lat="62.1297849" lon="-6.9913704" alt="71.4"/> 
+<LandmarkLocation instanceId="{9D397541-E26B-43A1-AB36-7027BEBF0CEF}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.1289775" lon="-7.0117446" alt="70.7"/> 
+<LandmarkLocation instanceId="{1B6FFDDC-3F7F-4067-988F-625BE1BF6D53}" type="POI" name="River: Rættará" owner="3DSpotters" lat="62.1332255" lon="-7.0378637" alt="74.2"/> 
+<LandmarkLocation instanceId="{89DCBDAF-CA34-4016-B84E-19CBAFC2025E}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.1482013" lon="-7.0240199" alt="61.6"/> 
+<LandmarkLocation instanceId="{1DC15BE4-F044-48F5-9F3E-0CDAD538CF89}" type="POI" name="River: Ærgisá" owner="3DSpotters" lat="62.1411613" lon="-7.0393891" alt="69.3"/> 
+<LandmarkLocation instanceId="{65A560CD-0084-4ECA-B087-2856AF264305}" type="POI" name="River: Navurtunguá" owner="3DSpotters" lat="62.1385464" lon="-7.0412088" alt="68.6"/> 
+<LandmarkLocation instanceId="{A09753D1-B30D-42DB-B123-56822F883A4E}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.100056" lon="-7.0112264" alt="60.9"/> 
+<LandmarkLocation instanceId="{4187B7EF-F406-4EAE-9F01-AA59769B5D55}" type="POI" name="River: Ravnagjógv" owner="3DSpotters" lat="62.1024695" lon="-7.0119429" alt="67.2"/> 
+<LandmarkLocation instanceId="{2CD263A1-B2C2-49A6-A418-FBE122CEF1AB}" type="POI" name="River: Marknagil" owner="3DSpotters" lat="62.1074489" lon="-7.0067097" alt="74.2"/> 
+<LandmarkLocation instanceId="{997CEF0C-1052-41BC-9EB6-C22FEC92E15C}" type="POI" name="River: Storá" owner="3DSpotters" lat="62.132054" lon="-7.0803067" alt="61.6"/> 
+<LandmarkLocation instanceId="{660DB125-B0C6-4D31-96F1-77F1E70DD066}" type="POI" name="River: Storá" owner="3DSpotters" lat="62.1246718" lon="-7.08215" alt="58.1"/> 
+<LandmarkLocation instanceId="{876113B9-8B15-4A62-8C07-A0E9D1649A19}" type="POI" name="River: Storá" owner="3DSpotters" lat="62.1211543" lon="-7.0776874" alt="56.0"/> 
+<LandmarkLocation instanceId="{CC9BA503-7649-455B-83D6-805F4EA61791}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.1213789" lon="-7.0543457" alt="84.0"/> 
+<LandmarkLocation instanceId="{A321CFF6-440A-435D-93BA-68379D3B6680}" type="POI" name="Wetland: Blotin" owner="3DSpotters" lat="62.1328669" lon="-7.0952639" alt="67.2"/> 
+<LandmarkLocation instanceId="{27797EC1-4EF2-490F-870B-6FFC82AB81A8}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.1172297" lon="-7.089618" alt="53.9"/> 
+<LandmarkLocation instanceId="{6E1B5351-2F24-4DA3-838F-DDD54CEFF6FC}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.114777" lon="-7.0870028" alt="79.8"/> 
+<LandmarkLocation instanceId="{F5C505C6-8D1F-4A02-8442-799ED1A2A6F7}" type="POI" name="River: Gassá" owner="3DSpotters" lat="62.1344866" lon="-7.1439987" alt="72.1"/> 
+<LandmarkLocation instanceId="{CBD89815-EB94-4EE8-AF58-51E65D8A3848}" type="POI" name="River: Gassá" owner="3DSpotters" lat="62.135681" lon="-7.1484272" alt="77.0"/> 
+<LandmarkLocation instanceId="{579EDDA1-002A-4D69-9AA4-1915D35255FB}" type="POI" name="River: Gassá" owner="3DSpotters" lat="62.1346603" lon="-7.1472005" alt="78.4"/> 
+<LandmarkLocation instanceId="{46F4C1A8-C259-4804-AE91-88A512D8D114}" type="POI" name="River: Gassá" owner="3DSpotters" lat="62.1374575" lon="-7.1563455" alt="60.9"/> 
+<LandmarkLocation instanceId="{AE8B10F7-5B48-449A-9B60-FEAE8AAC46D8}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.1431489" lon="-7.1297736" alt="70.7"/> 
+<LandmarkLocation instanceId="{31B2B798-DE67-4187-AE51-B2E662F6CA6B}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.1503323" lon="-7.1467896" alt="89.6"/> 
+<LandmarkLocation instanceId="{7FD6ACB3-70C7-43D9-8D4A-FC04A9619B4E}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.1495658" lon="-7.1458494" alt="90.3"/> 
+<LandmarkLocation instanceId="{30965F9F-BA38-419F-92B9-35E2D0AB7E76}" type="POI" name="River: Heljareya" owner="3DSpotters" lat="62.1524234" lon="-7.1379781" alt="60.2"/> 
+<LandmarkLocation instanceId="{A0C6B2F7-0C50-433D-97E0-E0BD095C4230}" type="POI" name="River: Heljareya" owner="3DSpotters" lat="62.1512459" lon="-7.1452859" alt="49.7"/> 
+<LandmarkLocation instanceId="{3AB58625-6D1A-4030-9956-3B61DE028C9C}" type="POI" name="River: Heljareya" owner="3DSpotters" lat="62.1514403" lon="-7.1439207" alt="67.2"/> 
+<LandmarkLocation instanceId="{788A977D-0273-4041-BD65-4356A1A117FB}" type="POI" name="River: Heljareygá" owner="3DSpotters" lat="62.152958" lon="-7.0809673" alt="65.8"/> 
+<LandmarkLocation instanceId="{F5D94491-B0DB-4744-9803-6602358954B9}" type="POI" name="River: Heljareygá" owner="3DSpotters" lat="62.1536621" lon="-7.0982412" alt="50.4"/> 
+<LandmarkLocation instanceId="{B58B01BC-06C6-4F31-84AD-C6ABF31A82B1}" type="POI" name="River: Fjórðingsá" owner="3DSpotters" lat="62.1610766" lon="-7.0686878" alt="69.3"/> 
+<LandmarkLocation instanceId="{62BC7D03-A16E-4599-B193-931A5658B721}" type="POI" name="River: Bjarnadalsá" owner="3DSpotters" lat="62.1855332" lon="-7.1093718" alt="79.1"/> 
+<LandmarkLocation instanceId="{0CD44702-57AF-44B3-928A-111008F91153}" type="POI" name="River: Bjarnadalsá" owner="3DSpotters" lat="62.1789536" lon="-7.1191859" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{284F308E-78CF-42D6-B708-D172B9D279A1}" type="POI" name="River: Bjarnadalsá" owner="3DSpotters" lat="62.184573" lon="-7.1085916" alt="73.5"/> 
+<LandmarkLocation instanceId="{9A2DF872-3FAC-48EB-B71B-5E2E3A014A68}" type="POI" name="River: Fossá" owner="3DSpotters" lat="62.1753446" lon="-7.1533949" alt="88.2"/> 
+<LandmarkLocation instanceId="{83898A75-F954-472B-9BA1-4F97F54BF85B}" type="POI" name="River: Fossá" owner="3DSpotters" lat="62.1952152" lon="-7.1585267" alt="73.5"/> 
+<LandmarkLocation instanceId="{C4228BA8-6D03-44F7-B136-30AEF6556382}" type="POI" name="River: Hamarsá" owner="3DSpotters" lat="61.6022166" lon="-6.9607365" alt="56.7"/> 
+<LandmarkLocation instanceId="{B5CE0086-9545-4C5A-83FA-F43459B9A0C2}" type="POI" name="River: Hamarsá" owner="3DSpotters" lat="61.602491" lon="-6.9605365" alt="79.1"/> 
+<LandmarkLocation instanceId="{2AEAA629-86D8-4CA1-94A7-DC9CF0551E8B}" type="POI" name="Island: Kjótholmur" owner="3DSpotters" lat="62.1588596" lon="-7.2194111" alt="136.08"/> 
+<LandmarkLocation instanceId="{FF1BEB57-A823-45F0-BD67-0FCEECA379CD}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.1643728" lon="-7.2042991" alt="51.8"/> 
+<LandmarkLocation instanceId="{0A3982E5-5B33-421E-971C-B3D7646FC7A7}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.1802721" lon="-7.1926159" alt="76.3"/> 
+<LandmarkLocation instanceId="{D8A13EC9-0F3D-4BA8-9BDC-F4871EF45EC0}" type="POI" name="River: Djúpadalsgjógv" owner="3DSpotters" lat="62.1943985" lon="-7.2256343" alt="51.8"/> 
+<LandmarkLocation instanceId="{41F931B6-76B0-4A0D-A166-AFA92DA11815}" type="POI" name="River: Reyná" owner="3DSpotters" lat="62.2198338" lon="-7.1857366" alt="60.2"/> 
+<LandmarkLocation instanceId="{79732770-261F-4BE7-AB29-E39DCD51E546}" type="POI" name="River: Reyná" owner="3DSpotters" lat="62.2066308" lon="-7.2050695" alt="86.8"/> 
+<LandmarkLocation instanceId="{EED3337F-1385-4A3F-B55E-1E29C446B390}" type="POI" name="River: Reyná" owner="3DSpotters" lat="62.2159056" lon="-7.1727496" alt="79.1"/> 
+<LandmarkLocation instanceId="{09FCC88B-7926-48F3-8A25-BCF4227D9623}" type="POI" name="River: Reyná" owner="3DSpotters" lat="62.2201521" lon="-7.1778598" alt="80.5"/> 
+<LandmarkLocation instanceId="{A372830E-350D-45A8-8D12-30A49742F42B}" type="POI" name="Lake: Vatnið á Koppi" owner="3DSpotters" lat="62.2226349" lon="-7.2063661" alt="50.4"/> 
+<LandmarkLocation instanceId="{9B2CE619-3CBB-4EB6-91FF-89DE1D57DC6E}" type="POI" name="River: Kirkjuá" owner="3DSpotters" lat="62.124987" lon="-6.9118213" alt="49.7"/> 
+<LandmarkLocation instanceId="{BE65E380-71D6-4AEB-9E7A-7B21DA5259B7}" type="POI" name="River: Toftá" owner="3DSpotters" lat="62.1478331" lon="-6.9458866" alt="89.6"/> 
+<LandmarkLocation instanceId="{FD74256B-7DF5-4EC6-B26D-29E534207151}" type="POI" name="River: Smørdalsá" owner="3DSpotters" lat="62.1519023" lon="-6.9621696" alt="65.1"/> 
+<LandmarkLocation instanceId="{735C5D1D-67D8-46FB-B68B-A26A84FDA699}" type="POI" name="River: Lagá" owner="3DSpotters" lat="62.1528646" lon="-6.9482515" alt="66.5"/> 
+<LandmarkLocation instanceId="{53D7D22E-A2B0-4F93-905A-AF3B696CF0DA}" type="POI" name="River: Torvtunguá" owner="3DSpotters" lat="62.1553459" lon="-6.9606763" alt="57.4"/> 
+<LandmarkLocation instanceId="{152CD8DF-3418-49D1-AB39-9AC9442867E2}" type="POI" name="Lake: Lómstjørn" owner="3DSpotters" lat="62.1610018" lon="-6.9558312" alt="88.2"/> 
+<LandmarkLocation instanceId="{51BD4A16-CEA9-4426-9F49-34A999571DEE}" type="POI" name="Lake: Stóratjørn" owner="3DSpotters" lat="62.1614926" lon="-6.9569061" alt="69.3"/> 
+<LandmarkLocation instanceId="{D086CD68-9A89-4A74-B391-A05EA2196BA7}" type="POI" name="River: Hamrá" owner="3DSpotters" lat="62.1711065" lon="-6.9872545" alt="88.9"/> 
+<LandmarkLocation instanceId="{B6CEF586-9D2A-45E7-8723-0FF968DD9524}" type="POI" name="River: Hamrá" owner="3DSpotters" lat="62.1739438" lon="-6.9748724" alt="70.7"/> 
+<LandmarkLocation instanceId="{50F5B3C9-0293-4D1C-9187-1F2F59F2CD68}" type="POI" name="River: Hamrá" owner="3DSpotters" lat="62.1732328" lon="-6.9760038" alt="83.3"/> 
+<LandmarkLocation instanceId="{867C73E7-5190-4919-874A-8229FA6FA18C}" type="POI" name="River: Toftadalsáir" owner="3DSpotters" lat="62.1780857" lon="-7.0091278" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{A68D3C24-E82A-4C97-90AA-92D71141D14E}" type="POI" name="River: Toftadalsáir" owner="3DSpotters" lat="62.1829394" lon="-7.0040057" alt="60.9"/> 
+<LandmarkLocation instanceId="{A142801B-139A-4B3F-BBE0-FA99AF487E7A}" type="POI" name="River: Toftadalsáir" owner="3DSpotters" lat="62.1823711" lon="-7.0047893" alt="70.0"/> 
+<LandmarkLocation instanceId="{6F0FF7AF-49CB-4669-AD85-39ADB5DEEE61}" type="POI" name="River: Halá" owner="3DSpotters" lat="62.18546" lon="-7.0254349" alt="58.1"/> 
+<LandmarkLocation instanceId="{B9F2EE7D-6FC3-4AD0-A97B-DC1AFA964F16}" type="POI" name="River: Halá" owner="3DSpotters" lat="62.1853534" lon="-7.0256804" alt="63.0"/> 
+<LandmarkLocation instanceId="{29CDE3C6-6EDA-4312-A7AC-F2AD2446C8EE}" type="POI" name="River: Halá" owner="3DSpotters" lat="62.1808928" lon="-7.0345544" alt="70.0"/> 
+<LandmarkLocation instanceId="{F4A5BE1E-BB5A-4061-9AE1-EDA69D518AB4}" type="POI" name="River: Myllá" owner="3DSpotters" lat="62.1861952" lon="-7.0457967" alt="57.4"/> 
+<LandmarkLocation instanceId="{1691979E-8BF6-4CC9-8A24-C66E114DDF2D}" type="POI" name="River: Storá" owner="3DSpotters" lat="62.1965783" lon="-7.0705325" alt="74.2"/> 
+<LandmarkLocation instanceId="{943E9B0B-D3E9-4670-B4ED-56FF88F56DFA}" type="POI" name="River: Bjerndalsáir" owner="3DSpotters" lat="62.1892919" lon="-7.0738089" alt="77.0"/> 
+<LandmarkLocation instanceId="{32D7C45B-E66F-4089-9EBC-83A88B39807E}" type="POI" name="River: Bjerndalsáir" owner="3DSpotters" lat="62.1912726" lon="-7.0822713" alt="70.7"/> 
+<LandmarkLocation instanceId="{94103591-FA2A-4CA3-B75A-D1CC69F01311}" type="POI" name="River: Ravnagjósa" owner="3DSpotters" lat="62.2003008" lon="-7.1190515" alt="79.8"/> 
+<LandmarkLocation instanceId="{E781762A-527F-4E50-98E7-36EB1394245C}" type="POI" name="River: Klovsá" owner="3DSpotters" lat="62.2077436" lon="-7.1189755" alt="59.5"/> 
+<LandmarkLocation instanceId="{1EA2B7D7-B575-4D23-9A10-A97428630AB1}" type="POI" name="River: Oksagilsá" owner="3DSpotters" lat="62.2076613" lon="-7.135305" alt="75.6"/> 
+<LandmarkLocation instanceId="{A97B7786-9DE9-4369-91E2-82A8ACF65C25}" type="POI" name="Lake: Tjørnin á Løk" owner="3DSpotters" lat="62.2104204" lon="-7.1091345" alt="86.1"/> 
+<LandmarkLocation instanceId="{28A17ED0-3EDE-4CB4-8954-594496CA6451}" type="POI" name="River: Storá" owner="3DSpotters" lat="62.2057692" lon="-7.1017019" alt="61.6"/> 
+<LandmarkLocation instanceId="{CADB5AEF-CC11-4FDE-8B6B-5115E662C194}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.2276651" lon="-7.132927" alt="81.9"/> 
+<LandmarkLocation instanceId="{08308181-215D-443E-9F11-506265E9EB86}" type="POI" name="Fuel: Magn" owner="3DSpotters" lat="61.4707539" lon="-6.8244571" alt="54.6"/> 
+<LandmarkLocation instanceId="{C85520EC-32E7-4818-B23C-D0B560B847B9}" type="POI" name="River: Gjógvará" owner="3DSpotters" lat="62.2435522" lon="-7.1723213" alt="65.8"/> 
+<LandmarkLocation instanceId="{0BBF3EBC-FC93-4FBD-91C1-FFED9281AFB1}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.240185" lon="-7.1739834" alt="51.8"/> 
+<LandmarkLocation instanceId="{BDE49F34-FD54-4F97-9A13-C11144CC3489}" type="POI" name="River: Breiðá" owner="3DSpotters" lat="62.2339267" lon="-7.1816794" alt="78.4"/> 
+<LandmarkLocation instanceId="{09295A53-97C2-4494-B49B-219D766D2190}" type="POI" name="River: Skipá" owner="3DSpotters" lat="62.2508893" lon="-7.1722011" alt="85.4"/> 
+<LandmarkLocation instanceId="{978F65AF-B33C-4425-A076-37C404AA28A4}" type="POI" name="River: Sunnara Gjánagjógvará" owner="3DSpotters" lat="62.219401" lon="-7.053939" alt="75.6"/> 
+<LandmarkLocation instanceId="{D68DB6C2-3589-4AEE-BDFC-F03A067EEF87}" type="POI" name="River: Norðara Gjánagjógvará" owner="3DSpotters" lat="62.2261071" lon="-7.0583621" alt="72.1"/> 
+<LandmarkLocation instanceId="{BB00C3C4-8F04-4E68-A929-68A0CFBCB902}" type="POI" name="River: Norðara Gjánagjógvará" owner="3DSpotters" lat="62.2247161" lon="-7.0412509" alt="90.3"/> 
+<LandmarkLocation instanceId="{D703AAD3-D639-4A0A-A6CC-C8DA63C03AAD}" type="POI" name="River: Torvgjá" owner="3DSpotters" lat="62.2354161" lon="-7.0670376" alt="70.7"/> 
+<LandmarkLocation instanceId="{8737C34E-2898-42BA-9D79-FF7297F3CAD4}" type="POI" name="River: Fossá" owner="3DSpotters" lat="62.2508888" lon="-7.0944827" alt="56.7"/> 
+<LandmarkLocation instanceId="{3D54E853-1B2F-4233-ADA2-3D7ED89137BD}" type="POI" name="River: Fossá" owner="3DSpotters" lat="62.2590497" lon="-7.1250582" alt="60.9"/> 
+<LandmarkLocation instanceId="{0DCAA935-10C1-43BE-9B2B-D04182D00053}" type="POI" name="River: Fossá" owner="3DSpotters" lat="62.2607395" lon="-7.1350276" alt="84.7"/> 
+<LandmarkLocation instanceId="{7C6E30AF-5DE3-45F4-B067-E8B7C60B323B}" type="POI" name="River: Dalá" owner="3DSpotters" lat="62.2512024" lon="-7.1167791" alt="85.4"/> 
+<LandmarkLocation instanceId="{099EDF4E-7641-46BA-A753-5639AB1150B6}" type="POI" name="River: Kluftá" owner="3DSpotters" lat="62.276736" lon="-7.1224336" alt="74.9"/> 
+<LandmarkLocation instanceId="{D20B7E4C-2341-4A5B-A86B-2DD684FC2DA5}" type="POI" name="River: Brekká" owner="3DSpotters" lat="62.2951531" lon="-7.2024987" alt="81.2"/> 
+<LandmarkLocation instanceId="{F6C3F834-BC1C-45D0-AC08-115BDCBBA3CD}" type="POI" name="River: Svínaskorará" owner="3DSpotters" lat="62.264575" lon="-7.2279454" alt="64.4"/> 
+<LandmarkLocation instanceId="{09B04503-623A-4F41-A9D5-C4E8EC41E6C1}" type="POI" name="Lake: Norðarávatn" owner="3DSpotters" lat="61.9060454" lon="-6.8941676" alt="67.2"/> 
+<LandmarkLocation instanceId="{DAAEE9E5-5B07-4FCD-8F75-5F25FE4E71DF}" type="POI" name="Lake: Lykkjuvøtnini" owner="3DSpotters" lat="61.9059059" lon="-6.9043859" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{6EC0EC18-DE3D-43B9-8329-41C80F76B864}" type="POI" name="Lake: Lykkjuvøtnini" owner="3DSpotters" lat="61.9075518" lon="-6.9068365" alt="56.0"/> 
+<LandmarkLocation instanceId="{FD6489C1-8915-484A-A968-096928923F8A}" type="POI" name="Lake: Hamarsvatnið" owner="3DSpotters" lat="61.9026335" lon="-6.9058078" alt="62.3"/> 
+<LandmarkLocation instanceId="{FBB1E086-A0D0-470E-A20B-40232D2EFCA0}" type="POI" name="Lake: Høvdarhagavatnið" owner="3DSpotters" lat="61.9048205" lon="-6.9131827" alt="56.7"/> 
+<LandmarkLocation instanceId="{C1FB6732-4636-4A1F-8235-31E4E4F0930A}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.9025881" lon="-6.8873129" alt="73.5"/> 
+<LandmarkLocation instanceId="{C1DAE3DE-BE4D-4710-A6D3-9068E25A1355}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.9030189" lon="-6.8858613" alt="73.5"/> 
+<LandmarkLocation instanceId="{02F700E5-BF7B-4312-AF92-A39D38B89AEC}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.9032746" lon="-6.8846497" alt="85.4"/> 
+<LandmarkLocation instanceId="{FB6EBEC5-B0B2-4632-B4E8-F88D0FB48E2E}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.9039767" lon="-6.8822219" alt="56.0"/> 
+<LandmarkLocation instanceId="{479B68F7-F1A0-41BB-8CF6-8D53924B9B49}" type="POI" name="River: Daláin" owner="3DSpotters" lat="61.898833" lon="-6.8845798" alt="81.9"/> 
+<LandmarkLocation instanceId="{E0809471-D9DD-4263-9A2A-C1606E916C21}" type="POI" name="River: Daláin" owner="3DSpotters" lat="61.8943244" lon="-6.884647" alt="57.4"/> 
+<LandmarkLocation instanceId="{C873021B-C45C-41A7-94D0-F9D3B74918AB}" type="POI" name="Lake: Hólmatjørn" owner="3DSpotters" lat="61.8992086" lon="-6.8970851" alt="58.8"/> 
+<LandmarkLocation instanceId="{8E242683-5096-4657-B99F-780BAF7C2A7B}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.903639" lon="-6.8833091" alt="84.7"/> 
+<LandmarkLocation instanceId="{950B7BE7-B5C3-494D-B446-E405B47FC02A}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.9036913" lon="-6.8830361" alt="84.7"/> 
+<LandmarkLocation instanceId="{5934B003-45E0-4979-8533-46C5A3AB30A3}" type="POI" name="Lake: Akrinatjørn" owner="3DSpotters" lat="61.8840881" lon="-6.8755388" alt="53.2"/> 
+<LandmarkLocation instanceId="{852CF9E4-41A9-4560-ADDB-A02DCE33AEAB}" type="POI" name="Lake: Eyrtjørn" owner="3DSpotters" lat="61.8818747" lon="-6.8892117" alt="66.5"/> 
+<LandmarkLocation instanceId="{D76D7832-7DBC-4334-91F2-80E7986FB116}" type="POI" name="River: Dalsá" owner="3DSpotters" lat="61.8700628" lon="-6.8442511" alt="85.4"/> 
+<LandmarkLocation instanceId="{8E2AF8D5-7577-4F12-A3DD-BF010C2702F2}" type="POI" name="Lake: Tjørnin við Rættina" owner="3DSpotters" lat="61.8776595" lon="-6.8358128" alt="89.6"/> 
+<LandmarkLocation instanceId="{AEF95DFF-317A-443A-919B-ED849C9C618B}" type="POI" name="Lake: Langatjørn" owner="3DSpotters" lat="61.8787388" lon="-6.8334663" alt="51.8"/> 
+<LandmarkLocation instanceId="{4A1F9736-DCBA-4BBA-8609-E5784B51C605}" type="POI" name="Lake: Stóratjørn" owner="3DSpotters" lat="61.8803312" lon="-6.8312496" alt="56.0"/> 
+<LandmarkLocation instanceId="{A33D677F-C649-4210-8000-E6BFF3B7DFCE}" type="POI" name="Lake: Løgasteinatjørnin" owner="3DSpotters" lat="61.8733405" lon="-6.81954" alt="87.5"/> 
+<LandmarkLocation instanceId="{D5038577-4B35-46CA-A135-C3DC0B782281}" type="POI" name="Lake: Tjarnirnar undir Reynsenda" owner="3DSpotters" lat="61.8736064" lon="-6.8157591" alt="81.9"/> 
+<LandmarkLocation instanceId="{31D084D9-87F5-467B-93A0-29D599554D3E}" type="POI" name="Lake: Tjørnin á Tvøránni" owner="3DSpotters" lat="61.8727979" lon="-6.8289724" alt="81.9"/> 
+<LandmarkLocation instanceId="{E7DA7CA6-EC93-4E33-93E1-88DFF2107099}" type="POI" name="Lake: Fossavatn" owner="3DSpotters" lat="61.8535208" lon="-6.8021988" alt="64.4"/> 
+<LandmarkLocation instanceId="{61B1F338-64D0-4496-93FC-60E777C1BDAB}" type="POI" name="Lake: Tjørnin í Fossabug" owner="3DSpotters" lat="61.8580907" lon="-6.8076181" alt="72.1"/> 
+<LandmarkLocation instanceId="{5D3E3BC1-8F8A-41B4-BFFD-1D51F2F78019}" type="POI" name="Temple: Missiónshúsið á Sandi" owner="3DSpotters" lat="61.834302" lon="-6.8152919" alt="65.8"/> 
+<LandmarkLocation instanceId="{773748A1-1417-43FB-B29D-47D04AF832AB}" type="POI" name="Clinic: Læknamiðstøðin á Sandi" owner="3DSpotters" lat="61.8349869" lon="-6.8164971" alt="71.4"/> 
+<LandmarkLocation instanceId="{3E5898C8-911C-456A-93C5-6BF88B552D8F}" type="POI" name="Water: Sprutthol" owner="3DSpotters" lat="61.8262811" lon="-6.8112455" alt="68.6"/> 
+<LandmarkLocation instanceId="{229F02FB-6499-436B-A1CB-2486866AD4C7}" type="POI" name="River: Fossamýrsá" owner="3DSpotters" lat="61.8534462" lon="-6.8426742" alt="85.4"/> 
+<LandmarkLocation instanceId="{66E557CA-6BB7-45AD-8BC6-A2ED59DA06EB}" type="POI" name="Lake: Tjørnin í Hilmansstíggj" owner="3DSpotters" lat="61.8343088" lon="-6.8764831" alt="52.5"/> 
+<LandmarkLocation instanceId="{2844EA9C-407E-447D-8549-52FC33FEBDDD}" type="POI" name="Lake: Lómatjørn" owner="3DSpotters" lat="61.8314096" lon="-6.8723522" alt="69.3"/> 
+<LandmarkLocation instanceId="{31678344-2A2D-49CE-AB7D-7A7D455ED428}" type="POI" name="Lake: Tjørnin á Mýrum" owner="3DSpotters" lat="61.8399749" lon="-6.8852646" alt="72.8"/> 
+<LandmarkLocation instanceId="{A99C8256-5030-44FA-B980-A7021B57A269}" type="POI" name="Lake: Tjørnin í Djúpadal" owner="3DSpotters" lat="61.8637994" lon="-6.9004552" alt="84.7"/> 
+<LandmarkLocation instanceId="{086E9505-0B35-41A0-A6F8-24D69C5305AC}" type="POI" name="Lake: Tjørnin á Fjalli" owner="3DSpotters" lat="61.8683985" lon="-6.888814" alt="85.4"/> 
+<LandmarkLocation instanceId="{70C0692D-126E-444B-8A6C-C99DFF4A6673}" type="POI" name="Lake: Lómatjørn" owner="3DSpotters" lat="61.8255805" lon="-6.7619137" alt="88.9"/> 
+<LandmarkLocation instanceId="{CC47A581-CFE0-41F5-9FE6-D89BCE32A317}" type="POI" name="River: Áin millum Vatna" owner="3DSpotters" lat="61.8191043" lon="-6.750494" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{989980B9-84EE-444D-904B-B2C36B4D67C9}" type="POI" name="River: Áin millum Vatna" owner="3DSpotters" lat="61.8201707" lon="-6.7472858" alt="79.8"/> 
+<LandmarkLocation instanceId="{93F0671D-FD2E-4168-BC26-2006D9946E48}" type="POI" name="River: Áin millum Vatna" owner="3DSpotters" lat="61.8206701" lon="-6.7410733" alt="84.7"/> 
+<LandmarkLocation instanceId="{1D8B4466-4B25-4681-ACF6-9F58957CF932}" type="POI" name="River: Rættá" owner="3DSpotters" lat="61.8299913" lon="-6.7426378" alt="88.9"/> 
+<LandmarkLocation instanceId="{43C17D8C-030A-4FD0-BD90-EEBF72D0C01D}" type="POI" name="Lake: Bøllheyggjavatnið" owner="3DSpotters" lat="61.8404621" lon="-6.7470249" alt="88.9"/> 
+<LandmarkLocation instanceId="{0E02CC86-13A5-4534-955E-41162139B044}" type="POI" name="River: Áin undir Skorunum" owner="3DSpotters" lat="61.8430051" lon="-6.7710503" alt="69.3"/> 
+<LandmarkLocation instanceId="{B6F8C75C-AD37-447D-AF96-69F216EB9D23}" type="POI" name="River: Áin undir Skorunum" owner="3DSpotters" lat="61.8372443" lon="-6.7597926" alt="63.0"/> 
+<LandmarkLocation instanceId="{89622C68-2B40-45F7-B2C5-C7C60B9DA9B8}" type="POI" name="River: Tifaldará" owner="3DSpotters" lat="61.8293717" lon="-6.7568138" alt="57.4"/> 
+<LandmarkLocation instanceId="{84901D25-6278-4E2B-8A01-E4E6C72BC87D}" type="POI" name="River: Tifaldará" owner="3DSpotters" lat="61.8241379" lon="-6.7498714" alt="60.9"/> 
+<LandmarkLocation instanceId="{33514C24-11ED-48D2-8465-8CB3F6DE487E}" type="POI" name="River: Tifaldará" owner="3DSpotters" lat="61.8283981" lon="-6.756244" alt="53.2"/> 
+<LandmarkLocation instanceId="{E6C7F9BF-07C2-4C87-BFF7-79E78C0B2C60}" type="POI" name="Lake: Tjørnin við Sorn" owner="3DSpotters" lat="61.814042" lon="-6.7572051" alt="58.1"/> 
+<LandmarkLocation instanceId="{7FFB5237-DCBC-4C83-AD7F-5EAA875D2E08}" type="POI" name="Lake: Stóratjørn" owner="3DSpotters" lat="61.7996211" lon="-6.7237957" alt="81.2"/> 
+<LandmarkLocation instanceId="{5D71DFEC-A2B9-42CA-815C-B95CD2C6FC53}" type="POI" name="Lake: Grunnatjørn" owner="3DSpotters" lat="61.7968057" lon="-6.7375238" alt="73.5"/> 
+<LandmarkLocation instanceId="{6F60AC4C-73EF-4F3E-A155-D6C2895DCCEE}" type="POI" name="Lake: Djúpatjørn" owner="3DSpotters" lat="61.7973634" lon="-6.7395586" alt="54.6"/> 
+<LandmarkLocation instanceId="{16F3CE84-B00B-4B3E-9DFD-FF9E2A74664C}" type="POI" name="Lake: Høvdatjørn" owner="3DSpotters" lat="61.8267907" lon="-6.6402383" alt="77.7"/> 
+<LandmarkLocation instanceId="{9BAB9115-F966-4769-8BC1-CBF656A176BB}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.8268953" lon="-6.6882757" alt="53.9"/> 
+<LandmarkLocation instanceId="{6DE29062-3C40-4098-BCD0-A4D19C6192C3}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.8272496" lon="-6.6825865" alt="58.8"/> 
+<LandmarkLocation instanceId="{75B371C4-1B65-4060-8400-9E7E33AA328A}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.8283555" lon="-6.6711921" alt="87.5"/> 
+<LandmarkLocation instanceId="{81219FE4-0882-437D-AEDF-DF73E7BA622B}" type="POI" name="Lake: Heiðatjørn" owner="3DSpotters" lat="61.822957" lon="-6.6974722" alt="84.7"/> 
+<LandmarkLocation instanceId="{631A89E1-D710-4B6E-A852-A216C95B905B}" type="POI" name="River: Núpsá" owner="3DSpotters" lat="61.8499025" lon="-6.7049857" alt="74.9"/> 
+<LandmarkLocation instanceId="{20C21DA2-1F1A-4326-830A-3938B74D0933}" type="POI" name="Lake: Núpsvatn" owner="3DSpotters" lat="61.8471739" lon="-6.7100161" alt="65.8"/> 
+<LandmarkLocation instanceId="{C94E3A68-98F2-45A8-A85C-C76A5703A656}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.8142228" lon="-6.6940625" alt="53.2"/> 
+<LandmarkLocation instanceId="{49E8CD11-7327-4BCA-AB63-65711C5FB364}" type="POI" name="River: Stórá" owner="3DSpotters" lat="61.7849242" lon="-6.6839533" alt="49.7"/> 
+<LandmarkLocation instanceId="{3D448951-7AC6-4490-B17D-3C5DD5A3B8C7}" type="POI" name="Lake: Suður á Tjørnini" owner="3DSpotters" lat="61.7620438" lon="-6.688253" alt="66.5"/> 
+<LandmarkLocation instanceId="{3ADC612E-C167-47D1-84C2-6BE0FB34277F}" type="POI" name="River: Skaðá" owner="3DSpotters" lat="61.7754929" lon="-6.7213755" alt="67.9"/> 
+<LandmarkLocation instanceId="{CBE862C5-E910-4F03-9271-5FDAA83D3D1B}" type="POI" name="Lake: Tjørnin í Sevdali" owner="3DSpotters" lat="61.7774853" lon="-6.7208838" alt="60.9"/> 
+<LandmarkLocation instanceId="{012227B7-7670-47E3-9B6F-DC9125C4072C}" type="POI" name="Lake: Tjørnin á Homrunum" owner="3DSpotters" lat="61.783655" lon="-6.716576" alt="75.6"/> 
+<LandmarkLocation instanceId="{170BE18E-9D88-409B-9BEF-A7F63746CEDB}" type="POI" name="River: Víkará" owner="3DSpotters" lat="61.4403526" lon="-6.7355731" alt="77.0"/> 
+<LandmarkLocation instanceId="{41946EE0-0660-4785-8990-96CB859A9CA8}" type="POI" name="River: Víkará" owner="3DSpotters" lat="61.440669" lon="-6.7267812" alt="54.6"/> 
+<LandmarkLocation instanceId="{05492168-F434-458B-9328-30A45ADD3243}" type="POI" name="River: Víkará" owner="3DSpotters" lat="61.441301" lon="-6.7248888" alt="88.2"/> 
+<LandmarkLocation instanceId="{BF5D3DE8-7CAE-4B61-8D7F-104BF27205FC}" type="POI" name="River: Storá" owner="3DSpotters" lat="61.4113933" lon="-6.7194533" alt="68.6"/> 
+<LandmarkLocation instanceId="{5D2CFDED-A75E-41CC-A3B0-61B2B9C1719F}" type="POI" name="River: Niðaragjógv" owner="3DSpotters" lat="61.42463" lon="-6.7012288" alt="81.9"/> 
+<LandmarkLocation instanceId="{62BE55A9-4C3C-4F78-B229-7ED5324E7490}" type="POI" name="River: Lopransá" owner="3DSpotters" lat="61.4374085" lon="-6.7705025" alt="67.2"/> 
+<LandmarkLocation instanceId="{216FB218-071F-4EB0-9F36-86CB4BC8EA2D}" type="POI" name="River: Lopransá" owner="3DSpotters" lat="61.4423301" lon="-6.7704032" alt="53.9"/> 
+<LandmarkLocation instanceId="{43D6E241-886B-420A-A4C0-CDA1A8EAC7DE}" type="POI" name="River: Lopransá" owner="3DSpotters" lat="61.4407301" lon="-6.7703596" alt="67.9"/> 
+<LandmarkLocation instanceId="{8E8EBB1D-8FB9-4702-A5FE-5B04663D971E}" type="POI" name="River: Lopransá" owner="3DSpotters" lat="61.4397128" lon="-6.7704429" alt="49.0"/> 
+<LandmarkLocation instanceId="{50396B9B-E36C-4C11-A588-4B2D478F24F0}" type="POI" name="River: Lopransá" owner="3DSpotters" lat="61.4388625" lon="-6.770566" alt="62.3"/> 
+<LandmarkLocation instanceId="{D4BC3132-EFB2-4896-9D44-6A957983D2CC}" type="POI" name="River: Lopransá" owner="3DSpotters" lat="61.4438759" lon="-6.7707838" alt="84.7"/> 
+<LandmarkLocation instanceId="{177DEB92-2078-46E5-9132-734CC41B56DB}" type="POI" name="River: Lopransá" owner="3DSpotters" lat="61.4442944" lon="-6.7712114" alt="49.0"/> 
+<LandmarkLocation instanceId="{4C40B6E2-73A6-42D9-9764-411E05EF7DC5}" type="POI" name="Social_facility: Umlættingar og rehabiliteringsdeplin" owner="3DSpotters" lat="62.035021" lon="-6.7740091" alt="79.8"/> 
+<LandmarkLocation instanceId="{25849A8A-7AE3-4F98-B17D-AA6EAF4D0748}" type="POI" name="Monument: Minnisvarðin" owner="3DSpotters" lat="61.4835297" lon="-6.7443891" alt="77.7"/> 
+<LandmarkLocation instanceId="{AD27ED9D-0891-45F8-B164-DB2C1CB32315}" type="POI" name="Station: Krambatangi" owner="3DSpotters" lat="61.5481324" lon="-6.8181121" alt="89.6"/> 
+<LandmarkLocation instanceId="{09937F88-4A98-45E2-9262-66B94A894A26}" type="POI" name="River: Løkurin" owner="3DSpotters" lat="62.1091817" lon="-6.7236205" alt="74.2"/> 
+<LandmarkLocation instanceId="{26AAD1A5-E79A-44D0-A7AB-408FBDE513D9}" type="POI" name="River: Løkurin" owner="3DSpotters" lat="62.1087205" lon="-6.7239078" alt="80.5"/> 
+<LandmarkLocation instanceId="{467A0A83-1D8B-45D3-9607-3BC2030A4292}" type="POI" name="River: Mýrabergsá" owner="3DSpotters" lat="61.9883288" lon="-6.9719703" alt="54.6"/> 
+<LandmarkLocation instanceId="{3C90387B-C0AE-46DC-B40A-22E01C25CCE7}" type="POI" name="River: Mýrabergsá" owner="3DSpotters" lat="61.9883525" lon="-6.9751332" alt="82.6"/> 
+<LandmarkLocation instanceId="{4B638498-7B5D-4FD3-A67C-DAAFED260D3E}" type="POI" name="River: Kellingará" owner="3DSpotters" lat="62.3319707" lon="-6.2830389" alt="72.8"/> 
+<LandmarkLocation instanceId="{BE59B833-5247-45FB-AEDF-612A6D9037FD}" type="POI" name="River: Kellingará" owner="3DSpotters" lat="62.3310434" lon="-6.2755224" alt="67.2"/> 
+<LandmarkLocation instanceId="{BBD52385-3471-4F44-956A-4E12ECB2C0EC}" type="POI" name="River: Kellingará" owner="3DSpotters" lat="62.332992" lon="-6.279174" alt="81.9"/> 
+<LandmarkLocation instanceId="{9BB74FC2-F355-464C-BDF4-E1DBBC5ACE70}" type="POI" name="Island: Eysturoy" owner="3DSpotters" lat="62.200839" lon="-6.8572503" alt="118.44"/> 
+<LandmarkLocation instanceId="{B1036250-27A3-4DF5-BD5A-08C7E426C325}" type="POI" name="Island: Streymoy" owner="3DSpotters" lat="62.130094" lon="-6.9769252" alt="133.56"/> 
+<LandmarkLocation instanceId="{6E12F131-1AD4-4724-BBDE-2B01022593BB}" type="POI" name="Island: Koltur" owner="3DSpotters" lat="61.9865884" lon="-6.9746121" alt="94.5"/> 
+<LandmarkLocation instanceId="{4D0CBEC3-05B6-4747-88C2-FECCBFDF544A}" type="POI" name="Island: Kalsoy" owner="3DSpotters" lat="62.2963833" lon="-6.7407143" alt="132.3"/> 
+<LandmarkLocation instanceId="{C6595914-6B33-4352-A3DC-82F73728E321}" type="POI" name="Island: Vágar" owner="3DSpotters" lat="62.0840131" lon="-7.2577798" alt="122.22"/> 
+<LandmarkLocation instanceId="{1F04BDD6-5F2C-4B70-9DCC-9CC1EE209564}" type="POI" name="Island: Suðuroy" owner="3DSpotters" lat="61.5237765" lon="-6.8380526" alt="129.78"/> 
+<LandmarkLocation instanceId="{A5F1AD4C-A388-430D-A318-550C2A4EC30E}" type="POI" name="Island: Kunoy" owner="3DSpotters" lat="62.2883029" lon="-6.6345634" alt="109.62"/> 
+<LandmarkLocation instanceId="{15725581-A9A0-422F-9B45-7CFB7D2D3437}" type="POI" name="Island: Fugloy" owner="3DSpotters" lat="62.3301885" lon="-6.2836485" alt="131.04"/> 
+<LandmarkLocation instanceId="{08509F4B-2CCE-4964-BBB4-103E70805684}" type="POI" name="Island: Viðoy" owner="3DSpotters" lat="62.3149246" lon="-6.4915065" alt="100.8"/> 
+<LandmarkLocation instanceId="{87302BC9-E1A6-47C1-BF8F-4A379AD5CF02}" type="POI" name="Island: Borðoy" owner="3DSpotters" lat="62.2574702" lon="-6.5312883" alt="104.58"/> 
+<LandmarkLocation instanceId="{DEEC4ECB-1870-4D5C-B375-07D9FFA142AF}" type="POI" name="Island: Sandoy" owner="3DSpotters" lat="61.8326364" lon="-6.7965828" alt="133.56"/> 
+<LandmarkLocation instanceId="{A63D0FE0-6A9E-450F-90B8-017000DF8DCC}" type="POI" name="Lake: Vatnsnes" owner="3DSpotters" lat="61.5041679" lon="-6.8149989" alt="63.0"/> 
+<LandmarkLocation instanceId="{95829D61-5FDC-4B70-B3F2-523DC0E3F634}" type="POI" name="Lake: Ryskivatn" owner="3DSpotters" lat="61.4920016" lon="-6.8608894" alt="52.5"/> 
+<LandmarkLocation instanceId="{07D01094-34C0-4838-A157-6CB4F36B012D}" type="POI" name="Reservoir: Miðvatn" owner="3DSpotters" lat="61.4959318" lon="-6.8519134" alt="74.2"/> 
+<LandmarkLocation instanceId="{207244B4-CC4F-4C0E-8AC3-5E47FDB96AB5}" type="POI" name="Island: Skúvoy" owner="3DSpotters" lat="61.7612927" lon="-6.8142224" alt="99.54"/> 
+<LandmarkLocation instanceId="{F9C2E250-A9A5-416E-BC9B-3099229B7E7F}" type="POI" name="Lake: Hólmatjørn" owner="3DSpotters" lat="61.9892909" lon="-6.8548535" alt="51.099999999999994"/> 
+<LandmarkLocation instanceId="{870D8819-0381-4049-972D-33C522983B67}" type="POI" name="Lake: Krossvatn" owner="3DSpotters" lat="61.9740564" lon="-6.8094097" alt="72.1"/> 
+<LandmarkLocation instanceId="{9AEB6912-62E8-47BC-9D60-BE2A240492BB}" type="POI" name="Lake: Hoyvíks tjørn" owner="3DSpotters" lat="62.0163074" lon="-6.7658028" alt="90.3"/> 
+<LandmarkLocation instanceId="{B04AB149-3E06-46F8-8EAC-3171AD636F69}" type="POI" name="Lake: Fjallavatn" owner="3DSpotters" lat="62.1190376" lon="-7.3115324" alt="56.7"/> 
+<LandmarkLocation instanceId="{2EDAACDE-DCF0-4803-9AE1-0EC0DE42D454}" type="POI" name="Lake: Niðara Vatn" owner="3DSpotters" lat="62.3046407" lon="-7.0871462" alt="54.6"/> 
+<LandmarkLocation instanceId="{C7B4BDAE-353A-451A-A342-7F794A9D7006}" type="POI" name="Lake: Starvatn" owner="3DSpotters" lat="62.0804855" lon="-6.721314" alt="84.7"/> 
+<LandmarkLocation instanceId="{0B5F6567-BFC8-4C1A-938F-433CC505B0B1}" type="POI" name="Lake: Kornvatn" owner="3DSpotters" lat="62.0845361" lon="-6.7211959" alt="53.2"/> 
+<LandmarkLocation instanceId="{3A7FDF23-DCFD-49CD-843C-A1CA02134576}" type="POI" name="Lake: Stóravatn" owner="3DSpotters" lat="62.0687246" lon="-6.8591133" alt="81.9"/> 
+<LandmarkLocation instanceId="{EA4D3344-15A1-470D-9361-47496D243BA0}" type="POI" name="Lake: Trælavatn" owner="3DSpotters" lat="62.2099585" lon="-6.8173102" alt="60.9"/> 
+<LandmarkLocation instanceId="{503B445B-9F09-40B2-9652-8CDBF8BF621C}" type="POI" name="River: Storá" owner="3DSpotters" lat="62.1982456" lon="-7.0700201" alt="81.2"/> 
+<LandmarkLocation instanceId="{D63AD5E5-D1F2-44D3-B258-AA4A5368DC10}" type="POI" name="Lake: Mjáuvøtn" owner="3DSpotters" lat="62.1278767" lon="-7.0020619" alt="74.2"/> 
+<LandmarkLocation instanceId="{7DD4D050-33ED-4A78-A93A-311C01A69E2F}" type="POI" name="River: Ósin" owner="3DSpotters" lat="62.188738" lon="-7.0304695" alt="90.3"/> 
+<LandmarkLocation instanceId="{E7E19810-CBB6-4008-B51C-78EC0047CFA9}" type="POI" name="Lake: Saksunarvatn" owner="3DSpotters" lat="62.2401822" lon="-7.1547646" alt="77.0"/> 
+<LandmarkLocation instanceId="{E8D7A8E0-3C22-429B-B209-38BD885EB2D6}" type="POI" name="Island: Grønhólmur" owner="3DSpotters" lat="62.1959189" lon="-7.003704" alt="102.06"/> 
+<LandmarkLocation instanceId="{4560310E-DA04-4360-9480-73B7B8EEEADE}" type="POI" name="Island: Tjørnuvíksstakkur" owner="3DSpotters" lat="62.3095678" lon="-7.1713416" alt="146.16"/> 
+<LandmarkLocation instanceId="{2E656841-6A3E-46E4-81CA-309A43B1C8B2}" type="POI" name="Island: Skeiðið" owner="3DSpotters" lat="62.3046058" lon="-7.2179796" alt="115.92"/> 
+<LandmarkLocation instanceId="{F62E6C81-70EF-4C84-9944-AC3AFFAFA307}" type="POI" name="Island: Hvannhólmur" owner="3DSpotters" lat="61.9127742" lon="-6.9385056" alt="144.9"/> 
+<LandmarkLocation instanceId="{B89C52B7-2769-434E-80C5-4EE744F72837}" type="POI" name="Lake: Tjarnirnar undir Endanum" owner="3DSpotters" lat="61.8625999" lon="-6.7987147" alt="71.4"/> 
+<LandmarkLocation instanceId="{35E24994-DB5B-4E61-8C9C-E823ABD53357}" type="POI" name="Lake: Tjarnirnar undir Brúnni" owner="3DSpotters" lat="61.8469133" lon="-6.7922517" alt="88.2"/> 
+<LandmarkLocation instanceId="{8BF8422F-D51F-4CCB-9047-41A972580E42}" type="POI" name="Lake: Sandsvatn" owner="3DSpotters" lat="61.8506118" lon="-6.8207027" alt="75.6"/> 
+<LandmarkLocation instanceId="{E549E9DE-4789-493B-8146-92022DFE854A}" type="POI" name="Island: Vatnsoyrarhólmur" owner="3DSpotters" lat="61.856327" lon="-6.8258094" alt="91.97999999999999"/> 
+<LandmarkLocation instanceId="{70580623-AA54-4B02-ABB4-4792AEAA886E}" type="POI" name="Island: Presthólmur" owner="3DSpotters" lat="61.8448967" lon="-6.8219388" alt="160.02"/> 
+<LandmarkLocation instanceId="{47247BA7-5FA3-4A2F-A4E4-F586C12A12E0}" type="POI" name="Lake: Gróthúsvatn" owner="3DSpotters" lat="61.842925" lon="-6.8330635" alt="67.9"/> 
+<LandmarkLocation instanceId="{859FB9AF-0F5E-4D17-81D8-8355F2F1E9D2}" type="POI" name="Wetland: Fossamýra" owner="3DSpotters" lat="61.8457443" lon="-6.8326558" alt="74.2"/> 
+<LandmarkLocation instanceId="{14E0FD35-58C9-457D-956D-FC60CADFE6A4}" type="POI" name="Lake: Nykutjørn" owner="3DSpotters" lat="61.8442183" lon="-6.8308161" alt="58.8"/> 
+<LandmarkLocation instanceId="{F0DB1A6B-0162-410B-B70A-8F18325D8C9E}" type="POI" name="Lake: Stóravatn" owner="3DSpotters" lat="61.816628" lon="-6.753505" alt="91.0"/> 
+<LandmarkLocation instanceId="{6E839898-6103-4E2C-817C-96ED7ADA8498}" type="POI" name="Island: Niðri í Hólminum" owner="3DSpotters" lat="61.8157029" lon="-6.7557906" alt="137.34"/> 
+<LandmarkLocation instanceId="{40F903F8-F892-44CF-B787-94B7A2672930}" type="POI" name="Lake: Lítlavatn" owner="3DSpotters" lat="61.820711" lon="-6.7339808" alt="54.6"/> 
+<LandmarkLocation instanceId="{357D1701-E057-4302-A571-C17A9D80D591}" type="POI" name="Lake: Hólmavatn" owner="3DSpotters" lat="61.8395818" lon="-6.7422268" alt="83.3"/> 
+<LandmarkLocation instanceId="{991A81FE-DF36-45ED-9EE4-1342034496C8}" type="POI" name="Lake: Matartjarnirnar" owner="3DSpotters" lat="61.795594" lon="-6.7194463" alt="53.2"/> 
+<LandmarkLocation instanceId="{E373233B-B926-47BB-A122-BE0647016B02}" type="POI" name="Lake: Krossvøtn" owner="3DSpotters" lat="61.8440865" lon="-6.7027563" alt="85.4"/> 
+<LandmarkLocation instanceId="{C745AC66-16DE-4290-8B29-E848384B67E9}" type="POI" name="Lake: Bøllheyggjavøtn" owner="3DSpotters" lat="61.8449464" lon="-6.710419" alt="66.5"/> 
+<LandmarkLocation instanceId="{FE4C22CD-83DD-42C7-AEF4-97BD8DD7E5F2}" type="POI" name="Lake: Gásdalsvatn" owner="3DSpotters" lat="61.7712157" lon="-6.7007744" alt="69.3"/> 
+<LandmarkLocation instanceId="{0F65000D-4629-4BE8-BF78-DBC8B5B6C03A}" type="POI" name="Lake: Kjógvatjarnirnar" owner="3DSpotters" lat="61.7749144" lon="-6.6984735" alt="67.2"/> 
+<LandmarkLocation instanceId="{BB02D41E-FA21-475F-AB84-3EF87700D158}" type="POI" name="Island: Nónklettur" owner="3DSpotters" lat="61.4056953" lon="-6.7298788" alt="112.14"/> 
+<LandmarkLocation instanceId="{FECE71A6-E33E-4EDF-8E64-56915CAB9ECF}" type="POI" name="Lake: Tjarnirnar" owner="3DSpotters" lat="61.4169205" lon="-6.7373624" alt="91.0"/> 
+<LandmarkLocation instanceId="{633C045D-EFCD-49FE-9043-CE89BDB9494F}" type="POI" name="Island: Hellurók" owner="3DSpotters" lat="61.4072365" lon="-6.7349844" alt="141.12"/> 
+<LandmarkLocation instanceId="{2E987EB2-D187-4D7F-A536-B2E4DE7B1C46}" type="POI" name="Island: Klubbin" owner="3DSpotters" lat="61.3896201" lon="-6.6911928" alt="99.54"/> 
+<LandmarkLocation instanceId="{843D8E58-CED8-4F76-AB31-8A9CC04FC3A3}" type="POI" name="Island: Lambafles" owner="3DSpotters" lat="61.397542" lon="-6.671173" alt="156.24"/> 
+<LandmarkLocation instanceId="{9F03690F-3335-46DE-8EB7-E2F681E8A49D}" type="POI" name="Island: Táaklettur" owner="3DSpotters" lat="61.4110801" lon="-6.7517322" alt="136.08"/> 
+<LandmarkLocation instanceId="{834E9024-BB6E-4A0F-A5C2-24D8862B2766}" type="POI" name="Island: Óðafles" owner="3DSpotters" lat="61.4117583" lon="-6.753094" alt="118.44"/> 
+<LandmarkLocation instanceId="{10899DED-CD8B-4FF4-8959-749216EC3AF7}" type="POI" name="Island: Kálvsstakkur" owner="3DSpotters" lat="61.4235008" lon="-6.7643785" alt="157.5"/> 
+<LandmarkLocation instanceId="{690BA5BC-7CCC-41FC-9007-13FD4C53D596}" type="POI" name="Island: Rivustakkur" owner="3DSpotters" lat="61.4228893" lon="-6.7656815" alt="93.24000000000001"/> 
+<LandmarkLocation instanceId="{73C456C5-9B33-452B-90A8-D5AB8E1EDC62}" type="POI" name="Island: Heyksfles" owner="3DSpotters" lat="61.419818" lon="-6.7671164" alt="97.02"/> 

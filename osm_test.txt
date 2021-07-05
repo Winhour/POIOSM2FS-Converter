@@ -1,0 +1,47 @@
+id : 29023724
+lat: 61.455746 lon: -6.7590335
+Name: Akrar   Type: village
+
+id : 29023727
+lat: 62.2551299 lon: -6.5355749
+Name: Árnafjor?ur   Type: village
+
+id : 29023728
+lat: 62.0863166 lon: -7.3696034
+Name: Bour   Type: village
+
+id : 29023729
+lat: 61.7843221 lon: -6.6785038
+Name: Dalur   Type: village
+
+id : 29023733
+lat: 62.2821358 lon: -6.9116848
+Name: Elduvík   Type: village
+
+id : 29023734
+lat: 61.524861 lon: -6.8786368
+Name: Fámjin   Type: village
+
+id : 29023735
+lat: 61.547 lon: -6.771
+Name: Froðba   Type: village
+
+id : 29023736
+lat: 62.2430836 lon: -6.8178206
+Name: Fuglafjørður   Type: village
+
+id : 29023737
+lat: 62.238104 lon: -6.9316051
+Name: Funningsfjørður   Type: village
+
+id : 29023738
+lat: 62.2869174 lon: -6.9679178
+Name: Funningur   Type: village
+
+id : 29023739
+lat: 62.110355 lon: -7.4379717
+Name: Gásadalur   Type: village
+
+
+
+Number of nodes: 11

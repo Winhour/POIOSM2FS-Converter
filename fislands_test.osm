@@ -1,0 +1,107 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.11" timestamp="2021-06-30T20:21:25Z">
+	<bounds minlat="61.3" minlon="-8.0" maxlat="63.0" maxlon="-6.0"/>
+	<node id="29023724" lat="61.455746" lon="-6.7590335" version="3" timestamp="2016-06-27T08:58:38Z" changeset="0">
+		<tag k="name" v="Akrar"/>
+		<tag k="is_in" v="Sumba (Su?uroy), Foroyar"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q420746"/>
+		<tag k="population" v="28"/>
+		<tag k="postal_code" v="927"/>
+	</node>
+	<node id="29023725" lat="62.2542456" lon="-6.5787155" version="5" timestamp="2019-05-14T17:45:02Z" changeset="0">
+		<tag k="name" v="Ánirnar"/>
+		<tag k="is_in" v="Klaksvík (Bor?oy), Foroyar"/>
+		<tag k="place" v="hamlet"/>
+		<tag k="wikidata" v="Q252128"/>
+		<tag k="population" v="8"/>
+		<tag k="postal_code" v="726"/>
+	</node>
+	<node id="29023727" lat="62.2551299" lon="-6.5355749" version="4" timestamp="2019-09-14T01:24:36Z" changeset="0">
+		<tag k="name" v="Árnafjor?ur"/>
+		<tag k="is_in" v="Klaksvík (Bor?oy), Foroyar"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q252240"/>
+		<tag k="population" v="59"/>
+		<tag k="postal_code" v="727"/>
+	</node>
+	<node id="29023728" lat="62.0863166" lon="-7.3696034" version="6" timestamp="2018-05-21T22:24:11Z" changeset="0">
+		<tag k="name" v="Bour"/>
+		<tag k="is_in" v="Bíggjar Kommuna (Vágar), Foroyar"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q855276"/>
+		<tag k="population" v="63"/>
+		<tag k="postal_code" v="386"/>
+	</node>
+	<node id="29023729" lat="61.7843221" lon="-6.6785038" version="3" timestamp="2016-06-27T09:10:06Z" changeset="0">
+		<tag k="name" v="Dalur"/>
+		<tag k="is_in" v="Húsavík (Färöer) (Sandoy), Foroyar"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q519723"/>
+		<tag k="population" v="48"/>
+		<tag k="postal_code" v="235"/>
+	</node>
+	<node id="29023733" lat="62.2821358" lon="-6.9116848" version="5" timestamp="2019-09-18T21:34:54Z" changeset="0">
+		<tag k="name" v="Elduvík"/>
+		<tag k="is_in" v="Elduvík (Eysturoy), Føroyar"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q222955"/>
+		<tag k="population" v="23"/>
+		<tag k="postal_code" v="478"/>
+	</node>
+	<node id="29023734" lat="61.524861" lon="-6.8786368" version="3" timestamp="2016-06-27T08:58:38Z" changeset="0">
+		<tag k="name" v="Fámjin"/>
+		<tag k="is_in" v="Fámjin (Suðuroy), Føroyar"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q932433"/>
+		<tag k="population" v="111"/>
+		<tag k="postal_code" v="870"/>
+	</node>
+	<node id="29023735" lat="61.547" lon="-6.771" version="3" timestamp="2016-06-27T08:58:38Z" changeset="0">
+		<tag k="name" v="Froðba"/>
+		<tag k="is_in" v="Tvøroyri (Suðuroy), Føroyar"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q301686"/>
+		<tag k="population" v="153"/>
+		<tag k="postal_code" v="825"/>
+	</node>
+	<node id="29023736" lat="62.2430836" lon="-6.8178206" version="5" timestamp="2020-02-03T19:40:59Z" changeset="0">
+		<tag k="name" v="Fuglafjørður"/>
+		<tag k="is_in" v="Fuglafjørður (Eysturoy), Føroyar"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q731990"/>
+		<tag k="population" v="1562"/>
+		<tag k="postal_code" v="530"/>
+	</node>
+	<node id="7797247894" lat="62.2482381" lon="-7.1756396" version="1" timestamp="2020-08-08T18:40:31Z" changeset="0"/>
+	<node id="7797247895" lat="62.2482629" lon="-7.1756723" version="1" timestamp="2020-08-08T18:40:31Z" changeset="0"/>
+	<node id="7797247896" lat="62.2483163" lon="-7.1757091" version="1" timestamp="2020-08-08T18:40:31Z" changeset="0"/>
+	<node id="7797247897" lat="62.2483639" lon="-7.1757255" version="1" timestamp="2020-08-08T18:40:31Z" changeset="0"/>
+	<node id="7797247898" lat="62.2484116" lon="-7.1757132" version="1" timestamp="2020-08-08T18:40:31Z" changeset="0"/>
+	<node id="7797247899" lat="62.2484478" lon="-7.1756846" version="1" timestamp="2020-08-08T18:40:31Z" changeset="0"/>
+	<node id="29023737" lat="62.238104" lon="-6.9316051" version="7" timestamp="2019-09-22T11:01:43Z" changeset="0">
+		<tag k="name" v="Funningsfjørður"/>
+		<tag k="is_in" v="Elduvík (Eysturoy), Føroyar"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q542954"/>
+		<tag k="population" v="68"/>
+		<tag k="postal_code" v="477"/>
+	</node>
+	<node id="29023738" lat="62.2869174" lon="-6.9679178" version="5" timestamp="2019-09-14T19:40:13Z" changeset="0">
+		<tag k="name" v="Funningur"/>
+		<tag k="is_in" v="Funningur (Eysturoy), Føroyar"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q585236"/>
+		<tag k="population" v="79"/>
+		<tag k="postal_code" v="475"/>
+	</node>
+	<node id="29023739" lat="62.110355" lon="-7.4379717" version="5" timestamp="2020-08-02T09:46:17Z" changeset="0">
+		<tag k="name" v="Gásadalur"/>
+		<tag k="place" v="village"/>
+		<tag k="wikidata" v="Q226056"/>
+		<tag k="population" v="16"/>
+		<tag k="postal_code" v="387"/>
+	</node>
+	<node id="7840102785" lat="61.8990367" lon="-6.8837582" version="1" timestamp="2020-08-24T13:01:25Z" changeset="0"/>
+	<node id="7840102786" lat="61.899336" lon="-6.883999" version="1" timestamp="2020-08-24T13:01:25Z" changeset="0"/>
+</osm>

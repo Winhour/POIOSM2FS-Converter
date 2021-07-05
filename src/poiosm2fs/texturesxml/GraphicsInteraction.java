@@ -95,7 +95,14 @@ public class GraphicsInteraction {
         
         g2d.dispose();
         try {
-            String jsn = config.getString("JSON_ALL").substring(0,config.getString("JSON_ALL").indexOf(".")+".".length());
+            String jsn = "";
+            if (!config.getString("JSON_ALL").equals("none")){
+                jsn = config.getString("JSON_ALL").substring(0,config.getString("JSON_ALL").indexOf(".")+".".length());
+            }
+            if (!config.getString("OSM").equals("none")){
+                jsn = config.getString("OSM").substring(0,config.getString("OSM").indexOf(".")+".".length());
+            }
+            
             jsn = jsn.substring(0, jsn.length() - 1);
             jsn = jsn.replace("target","");                             /* For testing purposes json strings start with target, so let's get rid of it */
             jsn = jsn.replace("Target","");
@@ -282,7 +289,10 @@ public class GraphicsInteraction {
                         break;  
                     case "Monument":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/monument.png"));
-                        break;    
+                        break;  
+                    case "Memorial":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/monument.png"));
+                        break;      
                     case "Military":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/military.png"));
                         break;  
@@ -370,6 +380,9 @@ public class GraphicsInteraction {
                     case "Civic":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/civic.png"));
                         break;     
+                    case "Townhall":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/civic.png"));
+                        break;       
                     case "Shrine":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/shrine.png"));
                         break;       
@@ -384,6 +397,36 @@ public class GraphicsInteraction {
                         break; 
                     case "Basilica":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/cathedral.png"));
+                        break;    
+                    case "Motorway":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/motorway.png"));
+                        break;
+                    case "Trunk":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/trunk.png"));
+                        break;      
+                    case "Prison":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/prison.png"));
+                        break;       
+                    case "Marketplace":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/marketplace.png"));
+                        break;  
+                    case "Helipad":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/helipad.png"));
+                        break;   
+                    case "Hangar":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/hangar.png"));
+                        break;  
+                    case "Fuel":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/fuel.png"));
+                        break;   
+                    case "Fire_station":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/fire.png"));
+                        break;  
+                    case "Charging_station":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/charging_station.png"));
+                        break;      
+                    case "Arts_centre":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/arts_centre.png"));
                         break;     
                     default:
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));

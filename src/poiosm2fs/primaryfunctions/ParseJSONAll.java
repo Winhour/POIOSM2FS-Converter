@@ -778,9 +778,14 @@ public class ParseJSONAll {
                                 if(config.getBoolean("textures")){
 
                                     /* Making XML's and Textures for each single POI */
-                                    createSinglePOIXMLsandTextures(linecount, outputfile, fname, config, capitalTag, assetGroups, sceneryObjects, uuid, fuuid, modifiedAlt, y);
-                                    capitalTag = "";
-                                    //isIcao = false;
+                                    
+                                    if (y.getLat() != 0.0 || y.getLon() != 0.0){
+                                    
+                                        createSinglePOIXMLsandTextures(linecount, outputfile, fname, config, capitalTag, assetGroups, sceneryObjects, uuid, fuuid, modifiedAlt, y);
+                                        capitalTag = "";
+                                        //isIcao = false;
+                                    
+                                    }
                                 }
                         }
                     } 

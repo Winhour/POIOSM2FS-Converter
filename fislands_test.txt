@@ -1,0 +1,11 @@
+<LandmarkLocation instanceId="{DA8F7F2C-6046-4697-927A-E9AF48ACCD10}" type="POI" name="Village: Akrar" owner="3DSpotters" lat="61.455746" lon="-6.7590335" alt="81.9"/> 
+<LandmarkLocation instanceId="{6CEFD0A6-8300-4061-BDCF-AC70B43D6D3A}" type="POI" name="Village: Árnafjor?ur" owner="3DSpotters" lat="62.2551299" lon="-6.5355749" alt="135.45"/> 
+<LandmarkLocation instanceId="{9950EC6C-775D-4661-8E5E-41D700BBC17D}" type="POI" name="Village: Bour" owner="3DSpotters" lat="62.0863166" lon="-7.3696034" alt="81.9"/> 
+<LandmarkLocation instanceId="{5010A3D7-9D0E-4006-95FC-67AFD856749E}" type="POI" name="Village: Dalur" owner="3DSpotters" lat="61.7843221" lon="-6.6785038" alt="121.8"/> 
+<LandmarkLocation instanceId="{94C28E72-CF4C-4D3D-89C0-418DBB1186B1}" type="POI" name="Village: Elduvík" owner="3DSpotters" lat="62.2821358" lon="-6.9116848" alt="86.1"/> 
+<LandmarkLocation instanceId="{0C442FE7-E63C-47D3-A2F3-54F5A53DF00C}" type="POI" name="Village: Fámjin" owner="3DSpotters" lat="61.524861" lon="-6.8786368" alt="121.8"/> 
+<LandmarkLocation instanceId="{E026F9BE-2E68-4844-B56B-311270C8D59A}" type="POI" name="Village: Froðba" owner="3DSpotters" lat="61.547" lon="-6.771" alt="133.35"/> 
+<LandmarkLocation instanceId="{59C1D1C1-2EA5-4310-89D9-0D56C67E456B}" type="POI" name="Village: Fuglafjørður" owner="3DSpotters" lat="62.2430836" lon="-6.8178206" alt="91.35"/> 
+<LandmarkLocation instanceId="{B716B0C7-0885-4EB4-BB1D-814526DAE8DF}" type="POI" name="Village: Funningsfjørður" owner="3DSpotters" lat="62.238104" lon="-6.9316051" alt="92.4"/> 
+<LandmarkLocation instanceId="{1005EA07-F236-4F7D-ADFB-ED63369B29C5}" type="POI" name="Village: Funningur" owner="3DSpotters" lat="62.2869174" lon="-6.9679178" alt="129.15"/> 
+<LandmarkLocation instanceId="{77EF179B-90D8-4411-ACAD-59DD2187302D}" type="POI" name="Village: Gásadalur" owner="3DSpotters" lat="62.110355" lon="-7.4379717" alt="126.0"/> 

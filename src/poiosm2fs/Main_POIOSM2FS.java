@@ -13,9 +13,11 @@ import com.martiansoftware.jsap.QualifiedSwitch;
 import com.martiansoftware.jsap.Switch;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import javax.xml.parsers.ParserConfigurationException;
 import poiosm2fs.primaryfunctions.ModifyFromJSON;
 import poiosm2fs.primaryfunctions.ParseCSV;
 import poiosm2fs.primaryfunctions.ParseJSONAll;
+import poiosm2fs.primaryfunctions.ParseOSM;
 
 /**
  *
@@ -25,7 +27,7 @@ public class Main_POIOSM2FS {
 
     /* Main function */
 
-    public static void main(String[] args) throws IOException, JSAPException, FileNotFoundException {
+    public static void main(String[] args) throws IOException, JSAPException, FileNotFoundException, ParserConfigurationException {
         
         /*XStreamInteraction xsi = new XStreamInteraction();                    //Will work on it later
         ConfigX loadedConfig = xsi.getConfigFromXML();
@@ -157,6 +159,15 @@ public class Main_POIOSM2FS {
         
         jsap.registerParameter(opt12);
         
+        FlaggedOption opt13 = new FlaggedOption("OSM")                   /* OSM input file name */
+                                .setStringParser(JSAP.STRING_PARSER)
+                                .setDefault("none") 
+                                .setRequired(true) 
+                                .setShortFlag(JSAP.NO_SHORTFLAG) 
+                                .setLongFlag("osm");
+        
+        jsap.registerParameter(opt13);
+        
 
         
          /* Text color in texture */
@@ -212,7 +223,7 @@ public class Main_POIOSM2FS {
     
     /**********************************************************************************************************************************************/
     
-    private static void chooseWhatToDo(JSAPResult config) throws IOException, FileNotFoundException{     /*Based on the command line input, choose which function to run*/
+    private static void chooseWhatToDo(JSAPResult config) throws IOException, FileNotFoundException, ParserConfigurationException{     /*Based on the command line input, choose which function to run*/
         
         if(!config.success()){
             System.out.println("\nThere was an error found within command line arguments, try again\n");        /*Error printed when a wrong command line argument exists */
@@ -223,21 +234,28 @@ public class Main_POIOSM2FS {
                 helpInfo();
             }
             else {        
-                if(!config.getString("JSON").equals("none") && config.getString("CSV").equals("none") && config.getString("JSON_ALL").equals("none")){
+                if(!config.getString("JSON").equals("none") && config.getString("CSV").equals("none") && config.getString("JSON_ALL").equals("none") && config.getString("OSM").equals("none")){
                     ModifyFromJSON mfj = new ModifyFromJSON();
                     mfj.modifyFromJSON(config);          /* Case when user wants to use short JSON */
                 }
-                else if(config.getString("JSON").equals("none") && config.getString("CSV").equals("none") && !config.getString("JSON_ALL").equals("none")){
+                else if(config.getString("JSON").equals("none") && config.getString("CSV").equals("none") && !config.getString("JSON_ALL").equals("none") && config.getString("OSM").equals("none")){
                     ParseJSONAll pja = new ParseJSONAll();
-                    pja.parseJSONAll(config);               /* Case when user wants to use long JSON */
+                    pja.parseJSONAll(config);               /* Case when user wants to use long JSON (This is currently the primary functionality, with texture and directory creation) */
                 }                
-                else if(config.getString("JSON").equals("none") && !config.getString("CSV").equals("none") && config.getString("JSON_ALL").equals("none")){
+                else if(config.getString("JSON").equals("none") && !config.getString("CSV").equals("none") && config.getString("JSON_ALL").equals("none") && config.getString("OSM").equals("none")){
                     ParseCSV pc = new ParseCSV();
                     pc.parseCSV(config);               /* Case when user wants to use CSV */
                 } 
+                else if(config.getString("JSON").equals("none") && config.getString("CSV").equals("none") && config.getString("JSON_ALL").equals("none") && !config.getString("OSM").equals("none")){
+                    ParseOSM po = new ParseOSM();
+                    po.parseOSM(config);               /*Case when user wants to use OSM */
+                }
                 else if(!config.getString("JSON").equals("none") && !config.getString("JSON_ALL").equals("none")
                         || !config.getString("JSON").equals("none") && !config.getString("CSV").equals("none")
-                        || !config.getString("CSV").equals("none") && !config.getString("JSON_ALL").equals("none")){
+                        || !config.getString("CSV").equals("none") && !config.getString("JSON_ALL").equals("none")
+                        || !config.getString("JSON").equals("none") && !config.getString("OSM").equals("none")
+                        || !config.getString("CSV").equals("none") && !config.getString("OSM").equals("none")
+                        || !config.getString("JSON_ALL").equals("none") && !config.getString("OSM").equals("none")){
                     System.out.println("\nPlease specify only one input file");         /*Two or more files were chosen at the same time*/
                     helpInfo();
                 } 
@@ -268,6 +286,7 @@ public class Main_POIOSM2FS {
         System.out.println("\nHow to use:\n");
         System.out.println("-j or --jr (json_file_path) selects a short JSON file to use (used mostly for rivers)");
         System.out.println("--ja (json_file_path) selects a long JSON file to use (containing various elements such as: rivers, ruins, peaks etc.)");
+        System.out.println("--osm (osm_file_path) selects an OSM file to use");
         System.out.println("-c (csv_file_path) selects a CSV file to use");
         System.out.println("-s (Integer) selects the interval between chosen nodes, applies only to the small JSON (default is 10)");
         System.out.println("-l (String) alows to add a label in front of element's name ex. Ruins: ruinsname (for small JSONs)");
@@ -289,8 +308,11 @@ public class Main_POIOSM2FS {
         System.out.println("java -jar \"POIOSM2FS.jar\" -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki");
         System.out.println("java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10 -t");
         System.out.println("java -jar POIOSM2FS.jar --ja targetGR_Kos_TEST2.json --re --rst 6 --rsv 4 -t --cb:100,100,100 --ct:0,150,0 --font \"Arial Bold\" \n");
+        System.out.println("java -jar POIOSM2FS.jar --osm fislands.osm -t");
     }
     
     /**********************************************************************************************************************************************/
+    
+    /* --ja targetGR_Kos_TEST.json --re --rst 6 --rsv 4 -t --font "Arial" */
     
 }
