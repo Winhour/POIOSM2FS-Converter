@@ -29,13 +29,13 @@ import poiosm2fs.primaryfunctions.ParseJSONAll;
  */
 public class XMLHandler extends DefaultHandler{
     
-    String name;
+    String name;                                /* Variables for a ModifiedData object */
     String name_en;
     String type;
     String lattmp;
     String lontmp;
     String elevation;
-    String k, v;
+    String k, v;                                /* Temporary containers for key value pairs from osm */
     
     double lat, lon;
     
@@ -61,7 +61,7 @@ public class XMLHandler extends DefaultHandler{
     
     String test_outputString = "";
     
-    int elementcounter = 0;
+    int elementcounter = 0;                                     /* For counting the number of output elements */
     
     FileWriter myWriter;
         
@@ -75,11 +75,11 @@ public class XMLHandler extends DefaultHandler{
     
     String id;
     
-    int motorwayflag = 0;
+    int motorwayflag = 0;                                       /* motorwayflag and MOTOR_LIMIT used to only take in a fraction of all motorways, currently set to half of them */
     
     final int MOTOR_LIMIT = 1;
     
-    String ref = null;
+    String ref = null;                                          /* Signifier for motorways */
     
     
     
@@ -89,7 +89,7 @@ public class XMLHandler extends DefaultHandler{
    /**********************************************************************************************************************************************/  
 
     @Override
-    public void startDocument() throws SAXException {
+    public void startDocument() throws SAXException {                       /* Activates at the start of the document */
         super.startDocument(); 
         
         System.out.println("OSM PARSING START");
@@ -100,7 +100,7 @@ public class XMLHandler extends DefaultHandler{
         
         outputfile = createStringOutputfile(config);
         
-        outputfileT = outputfile;                    /* To handle the silly target nonsense */
+        outputfileT = outputfile;                    /* To handle the target in input names */
         outputfile = outputfile.replace("target","");
         outputfile = outputfile.replace("Target","");
         
@@ -132,7 +132,7 @@ public class XMLHandler extends DefaultHandler{
 
     
     @Override
-    public void endDocument() throws SAXException {
+    public void endDocument() throws SAXException {                                    /* Activates at the end of the document */
         super.endDocument(); 
         
         test_outputString += "\n\n" + "Number of nodes: " + elementcounter;
@@ -170,7 +170,7 @@ public class XMLHandler extends DefaultHandler{
     
     
     @Override
-    public void startElement(
+    public void startElement(                                                   /* Activates at the start of every element, in case of these OSMs, <node> and <tag> are the only options  */
       String uri, String localName, String qName, Attributes attributes)
       throws SAXException {
         
@@ -188,7 +188,7 @@ public class XMLHandler extends DefaultHandler{
             k = attributes.getValue("k");
             v = attributes.getValue("v");
             
-            parsekandv();
+            parsekandv();                                                   /* Check whether k and v are ones we want to include in the output */
 
         }
       
@@ -208,7 +208,7 @@ public class XMLHandler extends DefaultHandler{
     /**********************************************************************************************************************************************/ 
 
    @Override
-   public void endElement(String uri, 
+   public void endElement(String uri,                                           /* Activates at the end of every element, in case of these OSMs, </node> and </tag> are the only options  */
       String localName, String qName) throws SAXException {
       
        super.endElement(uri, localName, qName);
@@ -251,7 +251,7 @@ public class XMLHandler extends DefaultHandler{
    
    
    @Override
-    public void characters(char[] ch, int start, int length) throws SAXException {
+    public void characters(char[] ch, int start, int length) throws SAXException {          /* Not necessary right now */
         
         super.characters(ch, start, length);
         
@@ -264,7 +264,7 @@ public class XMLHandler extends DefaultHandler{
     
     /**********************************************************************************************************************************************/ 
     
-    public void parsekandv(){
+    public void parsekandv(){                                       /* Check whether k and v are ones we want to include in the output */
         
         if (k.equals("name")){
             name = v;
@@ -371,11 +371,13 @@ public class XMLHandler extends DefaultHandler{
         
     }
     
+    /**********************************************************************************************************************************************/ 
+    
     public JSAPResult getConfig() {
         return config;
     }
 
-    public void setConfig(JSAPResult config) {
+    public void setConfig(JSAPResult config) {                          /* Need to set the config from outside, there might be a better solution, but for now this works */
         this.config = config;
     }
     
@@ -393,14 +395,14 @@ public class XMLHandler extends DefaultHandler{
     
     /**********************************************************************************************************************************************/
         
-        String createStringOutputfile (JSAPResult config){
+        String createStringOutputfile (JSAPResult config){                  
             
             String outputfile="";
             
             if (config.getString("OUTPUT").equals("output")){               /* Setting the name of output file */
                 String osmString = config.getString("OSM").substring(0,config.getString("OSM").indexOf(".")+".".length());
                 osmString = osmString.substring(0, osmString.length() - 1);
-                //jsn = jsn.replace("target","");                             /* For testing purposes json strings start with target, so let's get rid of it */
+                //jsn = jsn.replace("target","");                             
                 //jsn = jsn.replace("Target","");
                 outputfile = osmString + ".txt";
             }
@@ -471,6 +473,7 @@ public class XMLHandler extends DefaultHandler{
                                 if(config.getBoolean("textures")){
 
                                     /* Making XML's and Textures for each single POI */
+                                    /* Using the method from ParseJSONALL, seems to be working fine, but need to check whether any disrepancies exist */
                                     pja.createSinglePOIXMLsandTextures(elementcounter, outputfile, fname, config, capitalTag, assetGroups, sceneryObjects, uuid, fuuid, modifiedAlt, y);
                                     capitalTag = "";
                                     //isIcao = false;
@@ -488,7 +491,7 @@ public class XMLHandler extends DefaultHandler{
     /**********************************************************************************************************************************************/     
         
         
-    private void checktheNode() throws IOException{
+    private void checktheNode() throws IOException{                                     /* See whether the node is one we want to include, write info to osm_test.txt */
         
         if (type != null && type.equals("place_of_worship") ) type = "temple"; 
         if (type != null && type.equals("archaeological_site") ) type = "archeo";            
