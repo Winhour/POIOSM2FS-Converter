@@ -1,0 +1,174 @@
+Greece (GR)
+FULL
+===================
+
+Run the following script here: overpass turbo: https://overpass-turbo.eu/
+============================================================================
+[out:csv(::id,::lat,::lon,"ISO3166-2","name","name:en","ele","description","wikipedia";true;"|")][timeout:240];
+//[out:json][timeout:3600];
+( 
+  area["ISO3166-1"="GR"][admin_level=2];
+)->.searchArea;
+(
+
+ rel["admin_level"="4"](area.searchArea);
+
+);
+//out body;
+out center;
+>;
+out skel qt;
+
+
+The above should produce a list of Greece REGIONS (below) - this time we will not use these but for some other larger countries: if POIOSM2FS JAVA tool will produce more than
+let's say, 30 000 POI's than consider to mkae separate sceneries for each region or group of regions.
+==================================================================================================================================
+@id|@lat|@lon|ISO3166-2|name|name:en|ele|description|wikipedia
+223136|36.8748444|28.4533280|TR-48|Muğla|Muğla|||en:Muğla Province
+4458374|39.9332546|21.0922713||Αποκεντρωμένη Διοίκηση Ηπείρου - Δυτικής Μακεδονίας|Epirus and Western Macedonia|||el:Αποκεντρωμένη Διοίκηση Ηπείρου - Δυτικής Μακεδονίας
+4477553|37.0497920|23.4763754||Αποκεντρωμένη Διοίκηση Αττικής|Attica|||el:Αποκεντρωμένη Διοίκηση Αττικής
+4495677|39.0440211|22.9665511||Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδος|Thessaly and Central Greece|||el:Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδας
+4495892|38.1226591|21.2836847||"Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου"|"Peloponnese, Western Greece and the Ionian"|||"el:Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου"
+4496067|37.6693979|26.6883790||Αποκεντρωμένη Διοίκηση Αιγαίου|Aegean|||el:Αποκεντρωμένη Διοίκηση Αιγαίου
+4496068|35.2476328|24.9136119||Αποκεντρωμένη Διοίκηση Κρήτης|Region of Crete|||el:Αποκεντρωμένη Διοίκηση Κρήτης
+5208399|40.8084772|24.1698867||Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης|Macedonia and Thrace|||el:Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης
+
+
+If country is reasonably small (that is Greece) than we will use Linux (preferably Linux Mint) and
+wget tool to get the actual data from OpenStreetMap, through https://overpass-api.de service, to the raw JSON file, see next.
+================================================================================================================================
+
+Encode the below script here:
+URL Encode and Decode - Online https://www.urlencoder.org/﻿
+===========================================================
+[out:json][timeout:3600];
+( 
+area["ISO3166-1"="GR"][admin_level=2];
+)->.searchArea;
+(
+
+ // BODY
+ // ...(area.searchArea); OR ...({{bbox}});
+
+ nwr["historic"="archaeological_site"](area.searchArea);
+ nwr["historic"="ruins"](area.searchArea);
+ nwr["historic"="monument"](area.searchArea);
+ nwr["historic"="castle"](area.searchArea);
+ nwr["historic"="battlefield"](area.searchArea);
+ nwr["tourism"="attraction"](area.searchArea);
+ nwr["heritage"](area.searchArea);
+
+ nw["leisure"="stadium"](area.searchArea);
+ nw["amenity"="events_centre"](area.searchArea);
+
+
+ nw["place"="city"](area.searchArea); 
+ nw["place"="town"](area.searchArea);
+ nw["place"="suburb"](area.searchArea);
+ //nw["place"="quarter"](area.searchArea);
+ nw["place"="village"](area.searchArea);
+
+ nw["amenity"="place_of_worship"](area.searchArea);
+
+ node["natural"="peak"](area.searchArea);          // + elevation
+
+ nwr["place"="island"](area.searchArea);
+ nwr["leisure"="nature_reserve"](area.searchArea);
+ nwr["landuse"="forest"](area.searchArea);
+ //way["boundary"="protected_area"](area.searchArea);  // National Park, Nature Reserve, ...
+ 
+ way["natural"="wetland"]["wetland"="swamp"](area.searchArea); // Wetland Swamp
+ way["natural"="water"]["landuse"="salt_pond"](area.searchArea); // Salt Pond
+ 
+ nwr["natural"="glacier"](area.searchArea); // Glacier
+
+
+
+ node["public_transport"="station"](area.searchArea);
+ node["railway"="station"](area.searchArea);
+
+
+ way["waterway"="river"](area.searchArea);
+ way["waterway"="canal"](area.searchArea);
+
+
+ rel["natural"="water"](area.searchArea);
+ way["natural"="water"](area.searchArea);
+
+ way["landuse"="military"](area.searchArea);  // Military Area
+ rel["landuse"="military"](area.searchArea);  // Military Area
+ way["landuse"="industrial"](area.searchArea);  // Industrial Area
+ rel["landuse"="industrial"](area.searchArea);  // Industrial Area
+ way["landuse"="retail"](area.searchArea);  // Retail Area
+ rel["landuse"="retail"](area.searchArea);  // Retail Area
+
+ node["aeroway"="aerodrome"](area.searchArea);
+ way["aeroway"="aerodrome"](area.searchArea);
+
+ // Added
+ way["tourism"="museum"](area.searchArea);
+ way["tourism"="zoo"](area.searchArea);
+ way["government"="parliament"](area.searchArea);
+ way["amenity"="university"](area.searchArea);
+ way["landuse"="residential"](area.searchArea);
+ 
+ 
+);
+//out body;
+out center;
+>;
+out skel qt;
+
+
+After encoding save the data below:
+========================================================================
+%5Bout%3Ajson%5D%5Btimeout%3A3600%5D%3B%0A%28%20area%5B%22ISO3166-1%22%3D%22GR%22%5D%5Badmin_level%3D2%5D%3B%0A%29-%3E.searchArea%3B%0A%20%20%20%2F%2F%20OR%0A%2F%2F%28%20area%5B%22name%3Aen%22%3D%22North%20District%22%5D%5Badmin_level%3D4%5D%3B%20%29-%3E.searchArea%3B%0A%0A%28%0A%0A%20%2F%2F%20BODY%0A%20%2F%2F%20...%28area.searchArea%29%3B%20OR%20...%28%7B%7Bbbox%7D%7D%29%3B%0A%0A%20nwr%5B%22historic%22%3D%22archaeological_site%22%5D%28area.searchArea%29%3B%0A%20nwr%5B%22historic%22%3D%22ruins%22%5D%28area.searchArea%29%3B%0A%20nwr%5B%22historic%22%3D%22monument%22%5D%28area.searchArea%29%3B%0A%20nwr%5B%22historic%22%3D%22castle%22%5D%28area.searchArea%29%3B%0A%20nwr%5B%22historic%22%3D%22battlefield%22%5D%28area.searchArea%29%3B%0A%20nwr%5B%22tourism%22%3D%22attraction%22%5D%28area.searchArea%29%3B%0A%20nwr%5B%22heritage%22%5D%28area.searchArea%29%3B%0A%0A%20nw%5B%22leisure%22%3D%22stadium%22%5D%28area.searchArea%29%3B%0A%20nw%5B%22amenity%22%3D%22events_centre%22%5D%28area.searchArea%29%3B%0A%0A%0A%20nw%5B%22place%22%3D%22city%22%5D%28area.searchArea%29%3B%20%0A%20nw%5B%22place%22%3D%22town%22%5D%28area.searchArea%29%3B%0A%20nw%5B%22place%22%3D%22suburb%22%5D%28area.searchArea%29%3B%0A%20%2F%2Fnw%5B%22place%22%3D%22quarter%22%5D%28area.searchArea%29%3B%0A%20nw%5B%22place%22%3D%22village%22%5D%28area.searchArea%29%3B%0A%0A%20nw%5B%22amenity%22%3D%22place_of_worship%22%5D%28area.searchArea%29%3B%0A%0A%20node%5B%22natural%22%3D%22peak%22%5D%28area.searchArea%29%3B%20%20%20%20%20%20%20%20%20%20%2F%2F%20%2B%20elevation%0A%0A%20nwr%5B%22place%22%3D%22island%22%5D%28area.searchArea%29%3B%0A%20nwr%5B%22leisure%22%3D%22nature_reserve%22%5D%28area.searchArea%29%3B%0A%20nwr%5B%22landuse%22%3D%22forest%22%5D%28area.searchArea%29%3B%0A%20%2F%2Fway%5B%22boundary%22%3D%22protected_area%22%5D%28area.searchArea%29%3B%20%20%2F%2F%20National%20Park%2C%20Nature%20Reserve%2C%20...%0A%20%0A%20way%5B%22natural%22%3D%22wetland%22%5D%5B%22wetland%22%3D%22swamp%22%5D%28area.searchArea%29%3B%20%2F%2F%20Wetland%20Swamp%0A%20way%5B%22natural%22%3D%22water%22%5D%5B%22landuse%22%3D%22salt_pond%22%5D%28area.searchArea%29%3B%20%2F%2F%20Salt%20Pond%0A%20%0A%20nwr%5B%22natural%22%3D%22glacier%22%5D%28area.searchArea%29%3B%20%2F%2F%20Glacier%0A%0A%0A%0A%20node%5B%22public_transport%22%3D%22station%22%5D%28area.searchArea%29%3B%0A%20node%5B%22railway%22%3D%22station%22%5D%28area.searchArea%29%3B%0A%0A%0A%20way%5B%22waterway%22%3D%22river%22%5D%28area.searchArea%29%3B%20%20%2F%2F%20Bierz%20te%C5%BC%20np.%20co%2030-ty%20punkt%20dla%20danej%20rzeki%3F%20Dla%3A%20%5Bout%3Ajson%5D%0A%20way%5B%22waterway%22%3D%22canal%22%5D%28area.searchArea%29%3B%0A%0A%0A%20rel%5B%22natural%22%3D%22water%22%5D%28area.searchArea%29%3B%0A%20way%5B%22natural%22%3D%22water%22%5D%28area.searchArea%29%3B%0A%0A%20way%5B%22landuse%22%3D%22military%22%5D%28area.searchArea%29%3B%20%20%2F%2F%20Military%20Area%0A%20rel%5B%22landuse%22%3D%22military%22%5D%28area.searchArea%29%3B%20%20%2F%2F%20Military%20Area%0A%20way%5B%22landuse%22%3D%22industrial%22%5D%28area.searchArea%29%3B%20%20%2F%2F%20Industrial%20Area%0A%20rel%5B%22landuse%22%3D%22industrial%22%5D%28area.searchArea%29%3B%20%20%2F%2F%20Industrial%20Area%0A%20way%5B%22landuse%22%3D%22retail%22%5D%28area.searchArea%29%3B%20%20%2F%2F%20Retail%20Area%0A%20rel%5B%22landuse%22%3D%22retail%22%5D%28area.searchArea%29%3B%20%20%2F%2F%20Retail%20Area%0A%0A%20node%5B%22aeroway%22%3D%22aerodrome%22%5D%28area.searchArea%29%3B%0A%20way%5B%22aeroway%22%3D%22aerodrome%22%5D%28area.searchArea%29%3B%0A%0A%20%2F%2F%20Added%0A%20way%5B%22tourism%22%3D%22museum%22%5D%28area.searchArea%29%3B%0A%20way%5B%22tourism%22%3D%22zoo%22%5D%28area.searchArea%29%3B%0A%20way%5B%22government%22%3D%22parliament%22%5D%28area.searchArea%29%3B%0A%20way%5B%22amenity%22%3D%22university%22%5D%28area.searchArea%29%3B%0A%20way%5B%22landuse%22%3D%22residential%22%5D%28area.searchArea%29%3B%0A%20%0A%20%0A%29%3B%0A%2F%2Fout%20body%3B%0Aout%20center%3B%0A%3E%3B%0Aout%20skel%20qt%3B
+
+
+Now is the time to gently ask overpass-turbo for OSM data fo Greece!
+Use Linux terminal (you should have wget tool installed there already)
+========================================================================
+$ time wget -t 0 --timeout 3600 -O targetGR.json "https://overpass-api.de/api/interpreter?data=..."
+
+ATTENTION: paste the above encoded data instead of ...
+do not forget to have " in the end of the command line. Then press ENTER and wait a few minutes.
+
+
+When JSON file is ready you can use Linux (preferably) or Windows 10 (if you can fight out font fallback...) to run POIOSM2FS Converter.
+I installed "Source Sans Pro" to Linux additionally... this font have all the languages characters in one
+  including greek ,hebrew, arabic, korean, chinese, japanese...
+=================================================================================================================
+
+Linux:
+$ time java -Xmx3500m -jar POIOSM2FS.jar --ja targetGR.json --re --rst 6 --rsv 4 -t --txw 1024 --ct:255,255,255 --cb:0,0,0 --font "Source Sans"
+ 
+Win10 CMD:
+> chcp 65001
+> java -Xmx3500m -Dfile.encoding=UTF-8 -jar POIOSM2FS.jar --ja targetGR.json --re --rst 6 --rsv 4 -t --txw 1024 --ct:255,255,255 --cb:0,0,0 --font "Source Sans"
+
+
+THese files shoud be now generated, from the above targetGR.json !
+3DSp-POIOSM2FS-GR
+targetGR.txt
+You can now get some statistics of POI's (in Linux):
+=========================================================================
+$ ./poistat.sh targetGR
+
+You will get targetGR.STATISTIC.txt file.
+
+
+Copy 3DSp-POIOSM2FS-GR to your project place on Windows 10, with MSFS2020 (+SDK) installed.
+Run COMPILATION of the scenery!
+=======================================================================================
+> "C:\...MSFS SDK\Tools\bin\fspackagetool.exe" 3DSp-POIOSM2FS-GR\3DSp-POIOSM2FS-GR.xml
+
+
+Now add additional files: README, screenshots and release your scenery (preferable on Flightsim.to service).
+==============================================================================================================
+GIVE IT TO ALL AND FLY!
+Thank You.
+
+
+
+
+
