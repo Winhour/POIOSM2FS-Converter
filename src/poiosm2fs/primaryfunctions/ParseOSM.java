@@ -37,12 +37,12 @@ import poiosm2fs.models.ModifiedData;
  */
 public class ParseOSM {
     
-    private String name;             /* Default name */
-    private String name_en;          /* English name */
-    private String type;                   /* Type of element */
-    private double lat;               /* Latitude */
-    private double lon;               /* Longitude */
-    private String elevation = null;        /* Elevation */
+//    private String name;             /* Default name */
+//    private String name_en;          /* English name */
+//    private String type;                   /* Type of element */
+//    private double lat;               /* Latitude */
+//    private double lon;               /* Longitude */
+//    private String elevation = null;        /* Elevation */
     
     public void parseOSM (JSAPResult config) throws IOException, ParserConfigurationException{
      

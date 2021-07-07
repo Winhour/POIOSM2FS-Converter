@@ -114,11 +114,11 @@ public class XMLHandler extends DefaultHandler{
             
         }
         
-        try {
-            myWriter = new FileWriter("osm_test.txt");                                              /* Extra file with information for testing, will get rid of it later */
-        } catch (IOException ex) {
-            Logger.getLogger(XMLHandler.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            myWriter = new FileWriter("osm_test.txt");                                              /* Extra file with information for testing, will get rid of it later */
+//        } catch (IOException ex) {
+//            Logger.getLogger(XMLHandler.class.getName()).log(Level.SEVERE, null, ex);
+//        }
         
         try {
             myWriter2 = new FileWriter(outputfileT);
@@ -136,16 +136,16 @@ public class XMLHandler extends DefaultHandler{
         super.endDocument(); 
         
         test_outputString += "\n\n" + "Number of nodes: " + elementcounter;
-        try {
-            myWriter.write(test_outputString);
-        } catch (IOException ex) {
-            Logger.getLogger(XMLHandler.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        try {
-            myWriter.close();
-        } catch (IOException ex) {
-            Logger.getLogger(XMLHandler.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            myWriter.write(test_outputString);
+//        } catch (IOException ex) {
+//            Logger.getLogger(XMLHandler.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+//        try {
+//            myWriter.close();
+//        } catch (IOException ex) {
+//            Logger.getLogger(XMLHandler.class.getName()).log(Level.SEVERE, null, ex);
+//        }
         
         try {
             myWriter2.close();
@@ -282,11 +282,11 @@ public class XMLHandler extends DefaultHandler{
               type = v;
             }
         } else if (k.equals("historic")){
-            if (v.equals("archaeological_site") || v.equals("ruins") || v.equals("monument") || v.equals("castle") || v.equals("battlefield") || v.equals("memorial")){
+            if (v.equals("archaeological_site") || v.equals("ruins") || v.equals("monument") || v.equals("castle") || v.equals("battlefield") || v.equals("memorial") || v.equals("aircraft")){
               type = v;
             }
         } else if (k.equals("heritage")){
-            if(!v.equals("residential") && !v.equals("2") && !v.equals("1") && !v.equals("3") && !v.equals("4") && !v.equals("5") && !v.equals("yes") && !v.equals("no")){
+            if(!v.equals("residential") && !v.equals("2") && !v.equals("1") && !v.equals("3") && !v.equals("4") && !v.equals("5") && !v.equals("6") && !v.equals("7") && !v.equals("8") && !v.equals("9") && !v.equals("yes") && !v.equals("no")){
                 type = v;
             }
 //        } else if (k.equals("amenity")){
@@ -339,7 +339,9 @@ public class XMLHandler extends DefaultHandler{
             }
         } else if (k.equals("tourism")){
             if (v.equals("attraction") || v.equals("zoo")){
-              type = v;
+                if(type == null){
+                    type = v;
+                }
             }
         } else if (k.equals("government")){
             if (v.equals("parliament")){
@@ -499,12 +501,12 @@ public class XMLHandler extends DefaultHandler{
                     
             if (name != null && type != null){
 
-                myWriter.write("id : " + id + "\n");
-                myWriter.write("lat: " + lattmp + " lon: " + lontmp + "\n");
-
-                myWriter.write("Name: " + name + "   Type: " + type + "\n");
-
-                myWriter.write("\n");
+//                myWriter.write("id : " + id + "\n");
+//                myWriter.write("lat: " + lattmp + " lon: " + lontmp + "\n");
+//
+//                myWriter.write("Name: " + name + "   Type: " + type + "\n");
+//
+//                myWriter.write("\n");
 
                 lat = Double.parseDouble(lattmp);
                 lon = Double.parseDouble(lontmp);
@@ -526,12 +528,12 @@ public class XMLHandler extends DefaultHandler{
             }
             if (name == null && elevation != null && type != null){
 
-                myWriter.write("id : " + id + "\n");
-                myWriter.write("lat: " + lattmp + " lon: " + lontmp + "\n");
-
-                myWriter.write("Elevation: " + elevation + "   Type: " + type + "\n");
-
-                myWriter.write("\n");
+//                myWriter.write("id : " + id + "\n");
+//                myWriter.write("lat: " + lattmp + " lon: " + lontmp + "\n");
+//
+//                myWriter.write("Elevation: " + elevation + "   Type: " + type + "\n");
+//
+//                myWriter.write("\n");
 
                 y = new ModifiedData(name,name_en,type,lat,lon);
                 y.setEle(elevation);
