@@ -73,6 +73,29 @@
 		<tag k="population" v="1562"/>
 		<tag k="postal_code" v="530"/>
 	</node>
+	<node id="29013736" lat="62.2430536" lon="-6.8178406" version="5" timestamp="2020-02-03T19:40:59Z" changeset="0">
+		<tag k="addr:country" v="BR"/>
+		<tag k="addr:postcode" v="20021-340"/>
+		<tag k="addr:state" v="RJ"/>
+		<tag k="addr:street" v="Praça Senador Salgado Filho"/>
+		<tag k="addr:suburb" v="Centro"/>
+		<tag k="aerodrome" v="public;domestic;military"/>
+		<tag k="aerodrome:type" v="military/public"/>
+		<tag k="aeroway" v="aerodrome"/>
+		<tag k="ele" v="3"/>
+		<tag k="iata" v="SDU"/>
+		<tag k="icao" v="SBRJ"/>
+		<tag k="name" v="Aeroporto Santos Dumont"/>
+		<tag k="name:en" v="Santos Dumont Airport"/>
+		<tag k="name:ru" v="Аэропорт Сантос-Дюмон"/>
+		<tag k="note" v="Sem número / no house number"/>
+		<tag k="official_name" v="Aeroporto do Rio de Janeiro - Santos Dumont"/>
+		<tag k="opening_hours" v="06:00-23:00"/>
+		<tag k="operator" v="Infraero"/>
+		<tag k="operator:type" v="public"/>
+		<tag k="passengers" v="9924977"/>
+		<tag k="phone" v="+55-21-38147070"/>
+	</node>
 	<node id="7797247894" lat="62.2482381" lon="-7.1756396" version="1" timestamp="2020-08-08T18:40:31Z" changeset="0"/>
 	<node id="7797247895" lat="62.2482629" lon="-7.1756723" version="1" timestamp="2020-08-08T18:40:31Z" changeset="0"/>
 	<node id="7797247896" lat="62.2483163" lon="-7.1757091" version="1" timestamp="2020-08-08T18:40:31Z" changeset="0"/>
@@ -104,4 +127,12 @@
 	</node>
 	<node id="7840102785" lat="61.8990367" lon="-6.8837582" version="1" timestamp="2020-08-24T13:01:25Z" changeset="0"/>
 	<node id="7840102786" lat="61.899336" lon="-6.883999" version="1" timestamp="2020-08-24T13:01:25Z" changeset="0"/>
+	<node id="1042060569" lat="-22.9293174" lon="-43.7165494" version="8" timestamp="2020-05-25T20:46:23Z" changeset="0">
+		<tag k="ele" v="3"/>
+		<tag k="iata" v="SNZ"/>
+		<tag k="icao" v="SBSC"/>
+		<tag k="name" v="Santa Cruz"/>
+		<tag k="aeroway" v="aerodrome"/>
+		<tag k="military" v="airfield"/>
+	</node>
 </osm>

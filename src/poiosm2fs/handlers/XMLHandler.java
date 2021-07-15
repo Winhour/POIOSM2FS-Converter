@@ -77,9 +77,13 @@ public class XMLHandler extends DefaultHandler{
     
     int motorwayflag = 0;                                       /* motorwayflag and MOTOR_LIMIT used to only take in a fraction of all motorways, currently set to half of them */
     
-    final int MOTOR_LIMIT = 1;
+    final int MOTOR_LIMIT = 0;
     
     String ref = null;                                          /* Signifier for motorways */
+    
+    boolean icaoFlag = false;
+    
+    String icaoString;
     
     
     
@@ -189,7 +193,7 @@ public class XMLHandler extends DefaultHandler{
             v = attributes.getValue("v");
             
             parsekandv();                                                   /* Check whether k and v are ones we want to include in the output */
-
+             
         }
       
       /*if (qName.equalsIgnoreCase("node")) {
@@ -216,6 +220,7 @@ public class XMLHandler extends DefaultHandler{
        if(qName.equals("node")){
            
            if (ref != null && name != null){
+                
            
             String tmpname = name;
             name = ref;
@@ -224,6 +229,20 @@ public class XMLHandler extends DefaultHandler{
             ref = null;
             
            }
+           
+           if (icaoFlag){
+                
+                type = "Airport";
+                //System.out.println(name + " " + name_en);
+                if(name != null){
+                    name = icaoString + " " + name;
+                }
+                if(name_en != null){
+                    name_en = icaoString + " " + name_en;
+                }
+                icaoFlag = false;
+                
+            }  
            
            
            try {
@@ -267,11 +286,14 @@ public class XMLHandler extends DefaultHandler{
     public void parsekandv(){                                       /* Check whether k and v are ones we want to include in the output */
         
         if (k.equals("name")){
-            name = v;
+            if (name == null){
+                name = v;
+            }
         }
 
-        if (k.equals("name_en")){
+        if (k.equals("name:en") || k.equals("name_en")){
             name_en = v;
+            name = v;
         }
 
         
@@ -334,7 +356,7 @@ public class XMLHandler extends DefaultHandler{
                 }
             }
         } else if (k.equals("aeroway")){
-            if (v.equals("aerodrome") || v.equals("helioport")|| v.equals("helipad") || v.equals("hangar")){
+            if (v.equals("aerodrome") || v.equals("airport") || v.equals("helioport")|| v.equals("helipad") || v.equals("hangar")){
               type = v;
             }
         } else if (k.equals("tourism")){
@@ -360,6 +382,13 @@ public class XMLHandler extends DefaultHandler{
             }
         }
         
+        
+        if (k.equals("icao")){
+            
+            icaoFlag = true;
+            icaoString = v;
+            
+        }
 
 
         if (k.equals("ele")){

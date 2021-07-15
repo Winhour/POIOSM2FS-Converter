@@ -1,11 +1,13 @@
-<LandmarkLocation instanceId="{1EF26C4D-7601-4D1A-A74D-B8F16C0E513D}" type="POI" name="Village: Akrar" owner="3DSpotters" lat="61.455746" lon="-6.7590335" alt="110.25"/> 
-<LandmarkLocation instanceId="{529B3D30-DCF8-4DCD-9801-80356F0CC639}" type="POI" name="Village: Árnafjor?ur" owner="3DSpotters" lat="62.2551299" lon="-6.5355749" alt="76.65"/> 
-<LandmarkLocation instanceId="{CB8A1E35-360E-4BDD-BC20-76563221BB8A}" type="POI" name="Village: Bour" owner="3DSpotters" lat="62.0863166" lon="-7.3696034" alt="134.4"/> 
-<LandmarkLocation instanceId="{1968B28B-8448-4CE0-8D97-BC3628A9ED4E}" type="POI" name="Village: Dalur" owner="3DSpotters" lat="61.7843221" lon="-6.6785038" alt="131.25"/> 
-<LandmarkLocation instanceId="{406EF279-A1ED-4178-B84B-DCA1F7E512DD}" type="POI" name="Village: Elduvík" owner="3DSpotters" lat="62.2821358" lon="-6.9116848" alt="82.95"/> 
-<LandmarkLocation instanceId="{290359D4-472D-4EAF-A6C4-3D9459698AD5}" type="POI" name="Village: Fámjin" owner="3DSpotters" lat="61.524861" lon="-6.8786368" alt="116.55"/> 
-<LandmarkLocation instanceId="{A3BAD893-3020-4928-9D8E-5A8C65DDBFC7}" type="POI" name="Village: Froðba" owner="3DSpotters" lat="61.547" lon="-6.771" alt="101.85"/> 
-<LandmarkLocation instanceId="{072BD462-F8BF-47EF-B1B6-C5D2878FBC07}" type="POI" name="Village: Fuglafjørður" owner="3DSpotters" lat="62.2430836" lon="-6.8178206" alt="127.05"/> 
-<LandmarkLocation instanceId="{AD6C01C6-BC00-4D5B-AC19-CF264B8E5F51}" type="POI" name="Village: Funningsfjørður" owner="3DSpotters" lat="62.238104" lon="-6.9316051" alt="122.85"/> 
-<LandmarkLocation instanceId="{7508AD4B-C759-4EA2-B2E0-9F28EE2DA2F8}" type="POI" name="Village: Funningur" owner="3DSpotters" lat="62.2869174" lon="-6.9679178" alt="113.4"/> 
-<LandmarkLocation instanceId="{2D2231F3-D654-4411-BCB0-7AB63F791202}" type="POI" name="Village: Gásadalur" owner="3DSpotters" lat="62.110355" lon="-7.4379717" alt="75.6"/> 
+<LandmarkLocation instanceId="{8AFE4E6B-CDE8-4CD0-A0F6-636272308DF9}" type="POI" name="Village: Akrar" owner="3DSpotters" lat="61.455746" lon="-6.7590335" alt="89.25"/> 
+<LandmarkLocation instanceId="{2B4BB0E1-1B4F-4AF1-B6CB-BE9565F4613A}" type="POI" name="Village: Árnafjor?ur" owner="3DSpotters" lat="62.2551299" lon="-6.5355749" alt="81.9"/> 
+<LandmarkLocation instanceId="{9B3E8C9A-023B-4F81-A61B-5D0362810FDE}" type="POI" name="Village: Bour" owner="3DSpotters" lat="62.0863166" lon="-7.3696034" alt="117.6"/> 
+<LandmarkLocation instanceId="{5ED50668-CC87-49D1-A81E-F45BFEA0E012}" type="POI" name="Village: Dalur" owner="3DSpotters" lat="61.7843221" lon="-6.6785038" alt="122.85"/> 
+<LandmarkLocation instanceId="{55683D91-6864-4D68-9722-3ECC20ADBE5A}" type="POI" name="Village: Elduvík" owner="3DSpotters" lat="62.2821358" lon="-6.9116848" alt="129.15"/> 
+<LandmarkLocation instanceId="{72DF1F7B-612C-48C1-B930-FFFDE64F33C2}" type="POI" name="Village: Fámjin" owner="3DSpotters" lat="61.524861" lon="-6.8786368" alt="80.85"/> 
+<LandmarkLocation instanceId="{34286298-BAF2-4311-85EA-115C629D243F}" type="POI" name="Village: Froðba" owner="3DSpotters" lat="61.547" lon="-6.771" alt="102.9"/> 
+<LandmarkLocation instanceId="{14A57A7E-9337-4A0B-91C9-2F7ACDCA459E}" type="POI" name="Village: Fuglafjørður" owner="3DSpotters" lat="62.2430836" lon="-6.8178206" alt="86.1"/> 
+<LandmarkLocation instanceId="{95B61D09-64C5-44B8-B36C-B5450F0DB5F6}" type="POI" name="Airport: SBRJ Santos Dumont Airport" owner="3DSpotters" lat="62.2430536" lon="-6.8178406" alt="77.0"/> 
+<LandmarkLocation instanceId="{825B4C6A-95FD-467C-B354-46B52FD051EF}" type="POI" name="Village: Funningsfjørður" owner="3DSpotters" lat="62.238104" lon="-6.9316051" alt="84.0"/> 
+<LandmarkLocation instanceId="{4BDF5962-1CEC-467F-9213-4F8292944036}" type="POI" name="Village: Funningur" owner="3DSpotters" lat="62.2869174" lon="-6.9679178" alt="130.2"/> 
+<LandmarkLocation instanceId="{355C4172-9A26-4086-AF9E-AC654C23E40A}" type="POI" name="Village: Gásadalur" owner="3DSpotters" lat="62.110355" lon="-7.4379717" alt="136.5"/> 
+<LandmarkLocation instanceId="{5EB62633-4703-4ECA-A408-7F071D635FEA}" type="POI" name="Airport: SBSC Santa Cruz" owner="3DSpotters" lat="-22.9293174" lon="-43.7165494" alt="50.4"/> 
