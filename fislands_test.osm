@@ -135,4 +135,12 @@
 		<tag k="aeroway" v="aerodrome"/>
 		<tag k="military" v="airfield"/>
 	</node>
+	<node id="2567651138" lat="55.9169591" lon="37.3712416" version="1" timestamp="2013-12-06T09:58:45Z" changeset="0">
+		<tag k="ref" v="ХА1Г"/>
+		<tag k="icao" v="HA1G"/>
+		<tag k="name" v="Вертодром Филино"/>
+		<tag k="source" v="avialog.ru"/>
+		<tag k="aeroway" v="helipad"/>
+		<tag k="disused" v="yes"/>
+	</node>
 </osm>

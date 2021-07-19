@@ -77,13 +77,21 @@ public class XMLHandler extends DefaultHandler{
     
     int motorwayflag = 0;                                       /* motorwayflag and MOTOR_LIMIT used to only take in a fraction of all motorways, currently set to half of them */
     
-    final int MOTOR_LIMIT = 0;
+    final int MOTOR_LIMIT = 2;
     
     String ref = null;                                          /* Signifier for motorways */
     
     boolean icaoFlag = false;
     
     String icaoString;
+    
+    int streamflag = 0;
+    
+    final int STREAM_LIMIT = 5;
+    
+    int riverflag = 0;
+    
+    final int RIVER_LIMIT = 0;
     
     
     
@@ -219,7 +227,7 @@ public class XMLHandler extends DefaultHandler{
        
        if(qName.equals("node")){
            
-           if (ref != null && name != null){
+           if (ref != null && icaoFlag == false && name != null){                /* case for motorways etc. */
                 
            
             String tmpname = name;
@@ -228,21 +236,39 @@ public class XMLHandler extends DefaultHandler{
             
             ref = null;
             
+           } else if (ref != null && icaoFlag == false){
+               
+               name = ref;
+               
+               ref = null;
            }
            
            if (icaoFlag){
+               
+               
                 
-                type = "Airport";
+                if(type != null && (type.equals("aerodrome") || type.equals("airport"))){
+                    type = "Airport";
+                }
                 //System.out.println(name + " " + name_en);
                 if(name != null){
                     name = icaoString + " " + name;
                 }
+                else {
+                    name = icaoString;
+                }
                 if(name_en != null){
                     name_en = icaoString + " " + name_en;
+                } else {
+                    name_en = icaoString;
                 }
                 icaoFlag = false;
                 
             }  
+           
+           if (type != null && type.equals("ownpoi")){
+               type = "OWNPOI";
+           }
            
            
            try {
@@ -323,7 +349,7 @@ public class XMLHandler extends DefaultHandler{
             
             if (v.equals("place_of_worship") || v.equals("events_centre") || v.equals("stadium") || v.equals("university") || v.equals("fire_station")
                     || v.equals("helipad") || v.equals("fuel") || v.equals("townhall") || v.equals("charging_station") || v.equals("prison") || v.equals("marketplace")
-                    || v.equals("arts_centre") || v.equals("hangar")){
+                    || v.equals("arts_centre") || v.equals("hangar") || v.equals("fountain") || v.equals("ownpoi") || v.equals("hospital")){
               type = v;
             }
         
@@ -334,23 +360,43 @@ public class XMLHandler extends DefaultHandler{
               }
             }
         } else if (k.equals("leisure")){
-            if (v.equals("stadium") || v.equals("nature_reserve")){
+            if (v.equals("stadium") || v.equals("nature_reserve") || v.equals("sports_centre")){
               type = v;
             }
         } else if (k.equals("public_transport")){
-            if (v.equals("station")){
-              type = "bus_station";
+            
+            if (type == null){
+                if (v.equals("station")){
+                  type = "bus_station";
+                }
             }
+            
         } else if (k.equals("railway")){
+            
             if (v.equals("station")){
               type = "railway_station";
             }
+            
         } else if (k.equals("waterway")){
-            if (v.equals("river") || v.equals("canal")){
+            if (v.equals("river") || v.equals("canal") || v.equals("lake") || v.equals("dam") || v.equals("waterfall") || v.equals("drain")){
               type = v;
             }
+                if (v.equals("stream") && streamflag == STREAM_LIMIT){
+                    type = v;
+                    streamflag = 0;
+                } else if (v.equals("stream")){
+                    streamflag++;
+                }
+                
+                if (v.equals("river") && riverflag == RIVER_LIMIT){
+                    type = v;
+                    riverflag = 0;
+                } else if (v.equals("river")){
+                    riverflag++;
+                }
+                
         } else if (k.equals("landuse")){
-            if (v.equals("military") || v.equals("industrial") || v.equals("retail") || v.equals("forest")){
+            if (v.equals("military") || v.equals("industrial") || v.equals("retail") || v.equals("forest") || v.equals("railway") || v.equals("residential")){
                 if (type == null){
                     type = v;
                 }
@@ -360,7 +406,7 @@ public class XMLHandler extends DefaultHandler{
               type = v;
             }
         } else if (k.equals("tourism")){
-            if (v.equals("attraction") || v.equals("zoo")){
+            if (v.equals("attraction") || v.equals("zoo") || v.equals("museum")){
                 if(type == null){
                     type = v;
                 }
@@ -370,17 +416,28 @@ public class XMLHandler extends DefaultHandler{
               type = v;
             }
         } else if (k.equals("water")){
-            if (v.equals("lake")){
+            if (v.equals("lake") || v.equals("river") || v.equals("canal") || v.equals("pond") || v.equals("reservoir")){
                 type = v;
             }
+                if (v.equals("river") && riverflag == RIVER_LIMIT){
+                    type = v;
+                    riverflag = 0;
+                } else if (v.equals("river")){
+                    riverflag++;
+                }
         } else if (k.equals("highway")){
-            if ((v.equals("motorway") || v.equals("trunk")) && motorwayflag == MOTOR_LIMIT){
+            if ((v.equals("motorway") || v.equals("trunk") || v.equals("motorway_junction")) && motorwayflag == MOTOR_LIMIT){
                 type = v;
                 motorwayflag = 0;
-            } else if (v.equals("motorway") || v.equals("trunk")){
+            } else if (v.equals("motorway") || v.equals("trunk") || v.equals("motorway_junction")){
                 motorwayflag++;
             }
+        } else if (k.equals("shop")){
+            if (v.equals("supermarket")){
+                type = v;
+            }
         }
+        
         
         
         if (k.equals("icao")){
@@ -555,7 +612,7 @@ public class XMLHandler extends DefaultHandler{
 
 
             }
-            if (name == null && elevation != null && type != null){
+            else if (name == null && elevation != null && type != null){
 
 //                myWriter.write("id : " + id + "\n");
 //                myWriter.write("lat: " + lattmp + " lon: " + lontmp + "\n");
@@ -567,21 +624,41 @@ public class XMLHandler extends DefaultHandler{
                 y = new ModifiedData(name,name_en,type,lat,lon);
                 y.setEle(elevation);
                 
-                if(y.getLat() != 0.0 || y.getLon() != 0.0){
+                    if(y.getLat() != 0.0 || y.getLon() != 0.0){
 
-                    elementcounter++;
-                    if(elementcounter % 100 == 0) System.out.println("number of parsed elements: " + elementcounter);
+                        elementcounter++;
+                        if(elementcounter % 100 == 0) System.out.println("number of parsed elements: " + elementcounter);
 
-                    /* Main functionality creating the output text file and possibly textures and everything related to that */
+                        /* Main functionality creating the output text file and possibly textures and everything related to that */
 
-                    doMainOSM(y, mFunc, modifiedAlt, config, capitalTag, myWriter2, elementcounter, outputfile, assetGroups, sceneryObjects, pja);
-                
+                        doMainOSM(y, mFunc, modifiedAlt, config, capitalTag, myWriter2, elementcounter, outputfile, assetGroups, sceneryObjects, pja);
+
+                    }
                 }
+                else if (name == null && type != null){
+                    
+                    if(type.equals("helioport") || type.equals("helipad") || type.equals("hangar")){
+                        
+                        lat = Double.parseDouble(lattmp);
+                        lon = Double.parseDouble(lontmp);
+                        
+                        name = "";
+                        name_en= "";
 
+                        y = new ModifiedData(name,name_en,type,lat,lon);
 
+                        if(y.getLat() != 0.0 || y.getLon() != 0.0){
 
+                            elementcounter++;
+                            if(elementcounter % 100 == 0) System.out.println("number of parsed elements: " + elementcounter);
 
-            }
+                            /* Main functionality creating the output text file and possibly textures and everything related to that */
+
+                            doMainOSM(y, mFunc, modifiedAlt, config, capitalTag, myWriter2, elementcounter, outputfile, assetGroups, sceneryObjects, pja);
+
+                        }
+                    }
+                }
         
         
     }    

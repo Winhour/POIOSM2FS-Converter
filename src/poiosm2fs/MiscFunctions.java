@@ -104,8 +104,10 @@ public class MiscFunctions {
     
     public String checkFname(String fname){                 /* Making sure that fname doesn't contain unnecessary characters and isn't null */
         
-        if (fname != null) {                                                
-            fname = fname.substring(0, 1).toUpperCase() + fname.substring(1);   /* Capitalize first letter of the name */
+        if (fname != null) { 
+            if (fname.length()>0){
+                fname = fname.substring(0, 1).toUpperCase() + fname.substring(1);   /* Capitalize first letter of the name */
+            }
             fname = fname.replace("\"","'");            /* Characters which might cause problems in the final XML: ", „, & */
             fname = fname.replace("„","'");                     
             fname = fname.replace("&","and");
@@ -126,6 +128,7 @@ public class MiscFunctions {
         if (type != null && type.equals("village")) Alt *= 1.5;
         if (type != null && type.equals("suburb")) Alt *= 1.5;
         if (type != null && type.equals("residential")) Alt *= 1.5;
+        if (type != null && type.equals("OWNPOI")) Alt *= 1.5;
         if (type != null && type.equals("peak")) Alt *= 1.5;
         if (type != null && type.equals("city")) Alt *= 1.8;
         if (type != null && type.equals("town")) Alt *= 1.8;

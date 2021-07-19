@@ -282,7 +282,7 @@ public class GraphicsInteraction {
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
                         break;  
                     case "Water":
-                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/lake.png"));
                         break;   
                     case "Lake":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/lake.png"));
@@ -313,7 +313,10 @@ public class GraphicsInteraction {
                         break;     
                     case "Railway_station":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/railway_station.png"));
-                        break;      
+                        break;     
+                    case "Railway":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/railway_station.png"));
+                        break;     
                     case "Airfield":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/airport.png"));
                         break; 
@@ -404,6 +407,12 @@ public class GraphicsInteraction {
                     case "Trunk":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/trunk.png"));
                         break;      
+                    case "Highway":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/trunk.png"));
+                        break;      
+                    case "Motorway_junction":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/trunk.png"));
+                        break;        
                     case "Prison":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/prison.png"));
                         break;       
@@ -428,6 +437,27 @@ public class GraphicsInteraction {
                     case "Arts_centre":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/arts_centre.png"));
                         break;     
+                    case "Stream":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
+                        break;  
+                    case "Dam":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
+                        break;    
+                    case "Waterfall":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
+                        break;     
+                    case "Drain":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/river.png"));
+                        break;      
+                    case "Supermarket":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/retail.png"));
+                        break;    
+                    case "Sports_centre":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/stadium.png"));
+                        break;   
+                    case "Hospital":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/hospital.png"));
+                        break;      
                     default:
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));
                         break;
@@ -479,6 +509,14 @@ public class GraphicsInteraction {
                 rgbvalues[4] = 66;
                 rgbvalues[5] = 31;
                 break;    
+            case "OWNPOI":
+                rgbvalues[0] = 255;                                                                /* Color scheme for custom POIs */
+                rgbvalues[1] = 255;
+                rgbvalues[2] = 255;
+                rgbvalues[3] = 0;
+                rgbvalues[4] = 107;
+                rgbvalues[5] = 215;
+                break;        
             default:
                 /* Use either white on black, or chosen by the user */
                 try {
