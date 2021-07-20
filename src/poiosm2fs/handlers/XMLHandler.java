@@ -260,8 +260,9 @@ public class XMLHandler extends DefaultHandler{
                 if(name_en != null){
                     name_en = icaoString + " " + name_en;
                 } else {
-                    name_en = icaoString;
+                    //name_en = icaoString;
                 }
+                
                 icaoFlag = false;
                 
             }  
@@ -277,9 +278,13 @@ public class XMLHandler extends DefaultHandler{
                Logger.getLogger(XMLHandler.class.getName()).log(Level.SEVERE, null, ex);
            }
 
+            /* Zeroing all the values for ModifiedData objects */
+           
             name = null;             
             name_en = null;          
-            type = null;                   
+            type = null;     
+            lattmp = null;
+            lontmp = null;
             lat = 0;               
             lon = 0;               
             elevation = null;
@@ -296,7 +301,7 @@ public class XMLHandler extends DefaultHandler{
    
    
    @Override
-    public void characters(char[] ch, int start, int length) throws SAXException {          /* Not necessary right now */
+    public void characters(char[] ch, int start, int length) throws SAXException {          /* Not necessary to make any changes right now, part of SAXparser */
         
         super.characters(ch, start, length);
         
@@ -310,6 +315,11 @@ public class XMLHandler extends DefaultHandler{
     /**********************************************************************************************************************************************/ 
     
     public void parsekandv(){                                       /* Check whether k and v are ones we want to include in the output */
+        
+        /* Fill the variables name, name_en, type + special cases with appropiate values */
+        
+        
+        //NAME
         
         if (k.equals("name")){
             if (name == null){
@@ -349,7 +359,8 @@ public class XMLHandler extends DefaultHandler{
             
             if (v.equals("place_of_worship") || v.equals("events_centre") || v.equals("stadium") || v.equals("university") || v.equals("fire_station")
                     || v.equals("helipad") || v.equals("fuel") || v.equals("townhall") || v.equals("charging_station") || v.equals("prison") || v.equals("marketplace")
-                    || v.equals("arts_centre") || v.equals("hangar") || v.equals("fountain") || v.equals("ownpoi") || v.equals("hospital")){
+                    || v.equals("arts_centre") || v.equals("hangar") || v.equals("fountain") || v.equals("ownpoi") || v.equals("hospital")
+                    || v.equals("police")){
               type = v;
             }
         
@@ -439,6 +450,7 @@ public class XMLHandler extends DefaultHandler{
         }
         
         
+        //SPECIAL CASES
         
         if (k.equals("icao")){
             
@@ -473,7 +485,8 @@ public class XMLHandler extends DefaultHandler{
     
     /**********************************************************************************************************************************************/ 
     
-        static String formatOutString(String outputfile){                           /* Making an useful string thet can be put in names etc. */
+        static String formatOutString(String outputfile){                           /* Making a useful version of output string thet can be put in names etc. */
+
             
             String osmString = outputfile.substring(0,outputfile.indexOf(".")+".".length());  /* Name without file extension */
             osmString = osmString.substring(0, osmString.length() - 1);
@@ -484,7 +497,9 @@ public class XMLHandler extends DefaultHandler{
     
     /**********************************************************************************************************************************************/
         
-        String createStringOutputfile (JSAPResult config){                  
+        String createStringOutputfile (JSAPResult config){    
+            
+            /* Create output string/ output file name */
             
             String outputfile="";
             
@@ -507,6 +522,7 @@ public class XMLHandler extends DefaultHandler{
         private void doMainOSM(ModifiedData y, MiscFunctions mFunc, Double modifiedAlt, JSAPResult config, String capitalTag, FileWriter myWriter, int elementcounter,
         String outputfile, List<AssetGroup> assetGroups, List<SceneryObject> sceneryObjects, ParseJSONAll pja) throws IOException{
             
+            /* Create output text file with POI for the .osm */
             
             //doMainOSM(y, mFunc, modifiedAlt, config, capitalTag, myWriter2, elementcounter, outputfile, assetGroups, sceneryObjects, pja);
             
@@ -585,7 +601,7 @@ public class XMLHandler extends DefaultHandler{
         if (type != null && type.equals("place_of_worship") ) type = "temple"; 
         if (type != null && type.equals("archaeological_site") ) type = "archeo";            
                     
-            if (name != null && type != null){
+            if ((name != null || name_en != null) && type != null){                                                  /* Usual case, element is fine if it has a name and type */
 
 //                myWriter.write("id : " + id + "\n");
 //                myWriter.write("lat: " + lattmp + " lon: " + lontmp + "\n");
@@ -598,6 +614,10 @@ public class XMLHandler extends DefaultHandler{
                 lon = Double.parseDouble(lontmp);
 
                 y = new ModifiedData(name,name_en,type,lat,lon);
+                
+                if (elevation != null && type.equals("peak")){
+                    y.setEle(elevation);
+                }
                 
                 if(y.getLat() != 0.0 || y.getLon() != 0.0){
 
@@ -612,7 +632,7 @@ public class XMLHandler extends DefaultHandler{
 
 
             }
-            else if (name == null && elevation != null && type != null){
+            else if (name == null && elevation != null && type != null){                                                    /* Special case for peaks */
 
 //                myWriter.write("id : " + id + "\n");
 //                myWriter.write("lat: " + lattmp + " lon: " + lontmp + "\n");
@@ -637,7 +657,7 @@ public class XMLHandler extends DefaultHandler{
                 }
                 else if (name == null && type != null){
                     
-                    if(type.equals("helioport") || type.equals("helipad") || type.equals("hangar")){
+                    if(type.equals("helioport") || type.equals("helipad") || type.equals("hangar")){                                /* Special case for helipads/ hangars without names */
                         
                         lat = Double.parseDouble(lattmp);
                         lon = Double.parseDouble(lontmp);
@@ -646,6 +666,10 @@ public class XMLHandler extends DefaultHandler{
                         name_en= "";
 
                         y = new ModifiedData(name,name_en,type,lat,lon);
+                        
+                        if (elevation != null){
+                            y.setEle(elevation);
+                        }
 
                         if(y.getLat() != 0.0 || y.getLon() != 0.0){
 
