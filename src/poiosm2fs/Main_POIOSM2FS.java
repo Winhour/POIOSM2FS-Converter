@@ -192,7 +192,7 @@ public class Main_POIOSM2FS {
         
         jsap.registerParameter(qs2);
         
-        Switch sw1 = new Switch("help")                     /* help flag */
+        Switch sw1 = new Switch("help")                     /* help information flag */
                         .setShortFlag('h')
                         .setLongFlag("help");
 

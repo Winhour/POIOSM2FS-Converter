@@ -67,7 +67,7 @@ public class XMLHandler extends DefaultHandler{
         
     FileWriter myWriter2;
     
-    ModifiedData y;
+    ModifiedData y;                                             /* Container for data values: name, type etc. */
     
     String capitalTag = "";
     
@@ -81,15 +81,15 @@ public class XMLHandler extends DefaultHandler{
     
     String ref = null;                                          /* Signifier for motorways */
     
-    boolean icaoFlag = false;
+    boolean icaoFlag = false;                                   /* ICAO for aviation adjacent POI types */
     
     String icaoString;
     
-    int streamflag = 0;
+    int streamflag = 0;                                         /* Used to cut down on the total number of streams in the ouput */
     
     final int STREAM_LIMIT = 5;
     
-    int riverflag = 0;
+    int riverflag = 0;                                            /* Used to cut down on the total number of rivers in the ouput */
     
     final int RIVER_LIMIT = 0;
     
@@ -98,7 +98,8 @@ public class XMLHandler extends DefaultHandler{
     
     
     
-   /**********************************************************************************************************************************************/  
+   /**
+     * @throws org.xml.sax.SAXException********************************************************************************************************************************************/  
 
     @Override
     public void startDocument() throws SAXException {                       /* Activates at the start of the document */
@@ -140,7 +141,8 @@ public class XMLHandler extends DefaultHandler{
         
     }
     
-    /**********************************************************************************************************************************************/ 
+    /**
+     * @throws org.xml.sax.SAXException********************************************************************************************************************************************/ 
 
     
     @Override
@@ -177,7 +179,8 @@ public class XMLHandler extends DefaultHandler{
         
     }
     
-    /**********************************************************************************************************************************************/ 
+    /**
+     * @throws org.xml.sax.SAXException********************************************************************************************************************************************/ 
     
     
     
@@ -217,7 +220,8 @@ public class XMLHandler extends DefaultHandler{
       
     }
     
-    /**********************************************************************************************************************************************/ 
+    /**
+     * @throws org.xml.sax.SAXException********************************************************************************************************************************************/ 
 
    @Override
    public void endElement(String uri,                                           /* Activates at the end of every element, in case of these OSMs, </node> and </tag> are the only options  */
@@ -297,7 +301,8 @@ public class XMLHandler extends DefaultHandler{
       
    }
    
-   /**********************************************************************************************************************************************/ 
+   /**
+     * @throws org.xml.sax.SAXException********************************************************************************************************************************************/ 
    
    
    @Override
@@ -334,119 +339,148 @@ public class XMLHandler extends DefaultHandler{
 
         
         //TYPE
-        
-        if (k.equals("place")){
-            if (v.equals("village") || v.equals("city") || v.equals("town") || v.equals("suburb") || v.equals("island")){
-              type = v;
-            }
-        } else if (k.equals("historic")){
-            if (v.equals("archaeological_site") || v.equals("ruins") || v.equals("monument") || v.equals("castle") || v.equals("battlefield") || v.equals("memorial") || v.equals("aircraft")){
-              type = v;
-            }
-        } else if (k.equals("heritage")){
-            if(!v.equals("residential") && !v.equals("2") && !v.equals("1") && !v.equals("3") && !v.equals("4") && !v.equals("5") && !v.equals("6") && !v.equals("7") && !v.equals("8") && !v.equals("9") && !v.equals("yes") && !v.equals("no")){
-                type = v;
-            }
-//        } else if (k.equals("amenity")){
-//            if(!v.equals("restaurant") && !v.equals("cafe") && !v.equals("bank") && !v.equals("fast_food") && !v.equals("school") && !v.equals("pub")
+        switch (k) {
+            
+            case "place":
+                if (v.equals("village") || v.equals("city") || v.equals("town") || v.equals("suburb") || v.equals("island")){
+                    type = v;
+                }   
+                break;
+                
+            case "historic":
+                if (v.equals("archaeological_site") || v.equals("ruins") || v.equals("monument") || v.equals("castle") || v.equals("battlefield") || v.equals("memorial") 
+                        || v.equals("aircraft")){
+                    type = v;
+                }   
+                break;
+                
+            case "heritage":
+                if(!v.equals("residential") && !v.equals("2") && !v.equals("1") && !v.equals("3") && !v.equals("4") && !v.equals("5") && !v.equals("6") && !v.equals("7") 
+                        && !v.equals("8") && !v.equals("9") && !v.equals("yes") && !v.equals("no")){
+                    type = v;
+                }
+                break;
+                
+            case "amenity":
+                
+                /* Keeping in case there's a need to go back to the solution which takes everything instead of selected cases, rather than only taking what we want */
+                
+                //            if(!v.equals("restaurant") && !v.equals("cafe") && !v.equals("bank") && !v.equals("fast_food") && !v.equals("school") && !v.equals("pub")
 //              && !v.equals("bar") && !v.equals("grave_yard") && !v.equals("theatre") && !v.equals("kindergarten") && !v.equals("pharmacy")
 //              && !v.equals("library") && !v.equals("dentist") && !v.equals("nightclub") && !v.equals("cinema") && !v.equals("toilets")
 //              && !v.equals("taxi") && !v.equals("parking") && !v.equals("hospital") && !v.equals("doctors") && !v.equals("childcare")
 //              && !v.equals("veterinary")){
-//              type = v;
-//            }
-        } else if (k.equals("amenity")){
-            
-            if (v.equals("place_of_worship") || v.equals("events_centre") || v.equals("stadium") || v.equals("university") || v.equals("fire_station")
-                    || v.equals("helipad") || v.equals("fuel") || v.equals("townhall") || v.equals("charging_station") || v.equals("prison") || v.equals("marketplace")
-                    || v.equals("arts_centre") || v.equals("hangar") || v.equals("fountain") || v.equals("ownpoi") || v.equals("hospital")
-                    || v.equals("police")){
-              type = v;
-            }
-        
-        } else if (k.equals("natural")){
-            if (v.equals("wetland") || v.equals("water") || v.equals("glacier") || v.equals("peak") || v.equals("battlefield")){
-              if(type == null){
-                type = v;
-              }
-            }
-        } else if (k.equals("leisure")){
-            if (v.equals("stadium") || v.equals("nature_reserve") || v.equals("sports_centre")){
-              type = v;
-            }
-        } else if (k.equals("public_transport")){
-            
-            if (type == null){
+                
+                if (v.equals("place_of_worship") || v.equals("events_centre") || v.equals("stadium") || v.equals("university") || v.equals("fire_station")
+                        || v.equals("helipad") || v.equals("fuel") || v.equals("townhall") || v.equals("charging_station") || v.equals("prison") || v.equals("marketplace")
+                        || v.equals("arts_centre") || v.equals("hangar") || v.equals("fountain") || v.equals("ownpoi") || v.equals("hospital")
+                        || v.equals("police")){
+                    type = v;
+                }   
+                break;
+                
+            case "natural":
+                if (v.equals("wetland") || v.equals("water") || v.equals("glacier") || v.equals("peak") || v.equals("battlefield")){
+                    if(type == null){
+                        type = v;
+                    }
+                }   
+                break;
+                
+            case "leisure":
+                if (v.equals("stadium") || v.equals("nature_reserve") || v.equals("sports_centre")){
+                    type = v;
+                }  
+                break;
+                
+            case "public_transport":
+                if (type == null){
+                    if (v.equals("station")){
+                        type = "bus_station";
+                    }
+                }   
+                break;
+                
+            case "railway":
                 if (v.equals("station")){
-                  type = "bus_station";
-                }
-            }
-            
-        } else if (k.equals("railway")){
-            
-            if (v.equals("station")){
-              type = "railway_station";
-            }
-            
-        } else if (k.equals("waterway")){
-            if (v.equals("river") || v.equals("canal") || v.equals("lake") || v.equals("dam") || v.equals("waterfall") || v.equals("drain")){
-              type = v;
-            }
-                if (v.equals("stream") && streamflag == STREAM_LIMIT){
+                    type = "railway_station";
+                }   
+                break;
+                
+            case "waterway":
+                if (v.equals("river") || v.equals("canal") || v.equals("lake") || v.equals("dam") || v.equals("waterfall") || v.equals("drain")){
+                    type = v;
+                }   if (v.equals("stream") && streamflag == STREAM_LIMIT){
                     type = v;
                     streamflag = 0;
                 } else if (v.equals("stream")){
                     streamflag++;
                 }
-                
                 if (v.equals("river") && riverflag == RIVER_LIMIT){
                     type = v;
                     riverflag = 0;
                 } else if (v.equals("river")){
                     riverflag++;
                 }
+                break;
                 
-        } else if (k.equals("landuse")){
-            if (v.equals("military") || v.equals("industrial") || v.equals("retail") || v.equals("forest") || v.equals("railway") || v.equals("residential")){
-                if (type == null){
+            case "landuse":
+                if (v.equals("military") || v.equals("industrial") || v.equals("retail") || v.equals("forest") || v.equals("railway") || v.equals("residential")){
+                    if (type == null){
+                        type = v;
+                    }
+                }   
+                break;
+                
+            case "aeroway":
+                if (v.equals("aerodrome") || v.equals("airport") || v.equals("helioport")|| v.equals("helipad") || v.equals("hangar")){
                     type = v;
-                }
-            }
-        } else if (k.equals("aeroway")){
-            if (v.equals("aerodrome") || v.equals("airport") || v.equals("helioport")|| v.equals("helipad") || v.equals("hangar")){
-              type = v;
-            }
-        } else if (k.equals("tourism")){
-            if (v.equals("attraction") || v.equals("zoo") || v.equals("museum")){
-                if(type == null){
+                }   
+                break;
+                
+            case "tourism":
+                if (v.equals("attraction") || v.equals("zoo") || v.equals("museum")){
+                    if(type == null){
+                        type = v;
+                    }
+                }   
+                break;
+                
+            case "government":
+                if (v.equals("parliament")){
                     type = v;
-                }
-            }
-        } else if (k.equals("government")){
-            if (v.equals("parliament")){
-              type = v;
-            }
-        } else if (k.equals("water")){
-            if (v.equals("lake") || v.equals("river") || v.equals("canal") || v.equals("pond") || v.equals("reservoir")){
-                type = v;
-            }
-                if (v.equals("river") && riverflag == RIVER_LIMIT){
+                }   
+                break;
+                
+            case "water":
+                if (v.equals("lake") || v.equals("river") || v.equals("canal") || v.equals("pond") || v.equals("reservoir")){
+                    type = v;
+                }   if (v.equals("river") && riverflag == RIVER_LIMIT){
                     type = v;
                     riverflag = 0;
                 } else if (v.equals("river")){
                     riverflag++;
                 }
-        } else if (k.equals("highway")){
-            if ((v.equals("motorway") || v.equals("trunk") || v.equals("motorway_junction")) && motorwayflag == MOTOR_LIMIT){
-                type = v;
-                motorwayflag = 0;
-            } else if (v.equals("motorway") || v.equals("trunk") || v.equals("motorway_junction")){
-                motorwayflag++;
-            }
-        } else if (k.equals("shop")){
-            if (v.equals("supermarket")){
-                type = v;
-            }
+                break;
+                
+            case "highway":
+                if ((v.equals("motorway") || v.equals("trunk") || v.equals("motorway_junction")) && motorwayflag == MOTOR_LIMIT){
+                    type = v;
+                    motorwayflag = 0;
+                } else if (v.equals("motorway") || v.equals("trunk") || v.equals("motorway_junction")){
+                    motorwayflag++;
+                }   
+                break;
+                
+            case "shop":
+                if (v.equals("supermarket")){
+                    type = v;
+                }   
+                break;
+                
+            default:
+                
+                break;
         }
         
         

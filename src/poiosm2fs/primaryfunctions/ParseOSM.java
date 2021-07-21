@@ -9,25 +9,15 @@ import com.martiansoftware.jsap.JSAPResult;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.text.Normalizer;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-import javax.xml.XMLConstants;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import poiosm2fs.MiscFunctions;
 import poiosm2fs.models.xmlmodels.AssetGroup;
 import poiosm2fs.models.xmlmodels.SceneryObject;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
 import poiosm2fs.handlers.XMLHandler;
 import poiosm2fs.models.ModifiedData;
 
@@ -83,7 +73,7 @@ public class ParseOSM {
         
         printInfoOSM_ALL(config, outputfile, filepath);     /* Prints out information abouth chosen parameters */
         
-        String outputfileT = outputfile;                    /* To handle the silly target nonsense */
+        String outputfileT = outputfile;                    /* To handle 'target' cases */
         outputfile = outputfile.replace("target","");
         outputfile = outputfile.replace("Target","");
         
@@ -91,11 +81,11 @@ public class ParseOSM {
          File inputFile = new File(filepath);
          SAXParserFactory factory = SAXParserFactory.newInstance();
          SAXParser saxParser = factory.newSAXParser();
-         XMLHandler xmlhandler = new XMLHandler();
+         XMLHandler xmlhandler = new XMLHandler();                  /* Custom handler in poiosm2fs.handlers */
          
          xmlhandler.setConfig(config);
          
-         saxParser.parse(inputFile, xmlhandler);     
+         saxParser.parse(inputFile, xmlhandler);                    /* Parse using the logic in XMLHandler */
          
       } catch (Exception e) {
          e.printStackTrace();
