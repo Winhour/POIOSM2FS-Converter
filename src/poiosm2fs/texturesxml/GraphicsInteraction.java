@@ -485,6 +485,7 @@ public class GraphicsInteraction {
                 rgbvalues[4] = 0;
                 rgbvalues[5] = 128;
                 break;
+                
             case "Village":
                 rgbvalues[0] = 255;                                                                /* For villages slightly dark green background / white text */
                 rgbvalues[1] = 255;
@@ -493,6 +494,7 @@ public class GraphicsInteraction {
                 rgbvalues[4] = 77;
                 rgbvalues[5] = 0;
                 break;
+                
             case "Island":
                 rgbvalues[0] = 255;                                                                /* For islands orange background / white text */
                 rgbvalues[1] = 255;
@@ -501,6 +503,7 @@ public class GraphicsInteraction {
                 rgbvalues[4] = 67;
                 rgbvalues[5] = 0;
                 break;  
+                
             case "Peak":
                 rgbvalues[0] = 255;                                                                /* For peaks khaki background / white text */
                 rgbvalues[1] = 255;
@@ -509,6 +512,7 @@ public class GraphicsInteraction {
                 rgbvalues[4] = 66;
                 rgbvalues[5] = 31;
                 break;    
+                
             case "OWNPOI":
                 rgbvalues[0] = 255;                                                                /* Color scheme for custom POIs */
                 rgbvalues[1] = 255;
@@ -516,7 +520,8 @@ public class GraphicsInteraction {
                 rgbvalues[3] = 0;
                 rgbvalues[4] = 107;
                 rgbvalues[5] = 215;
-                break;        
+                break;  
+                
             default:
                 /* Use either white on black, or chosen by the user */
                 try {

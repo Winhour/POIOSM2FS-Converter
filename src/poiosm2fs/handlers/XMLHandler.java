@@ -35,6 +35,7 @@ public class XMLHandler extends DefaultHandler{
     String lattmp;
     String lontmp;
     String elevation;
+    
     String k, v;                                /* Temporary containers for key value pairs from osm */
     
     double lat, lon;
@@ -231,10 +232,10 @@ public class XMLHandler extends DefaultHandler{
        
        if(qName.equals("node")){
            
-           if (ref != null && icaoFlag == false && name != null){                /* case for motorways etc. */
+           if (ref != null && icaoFlag == false && name != null){                /* Case for motorways etc. */
                 
            
-            String tmpname = name;
+            String tmpname = name;                                              /* Add the ref signifier in front of name */
             name = ref;
             name += " " + tmpname;
             
@@ -249,7 +250,7 @@ public class XMLHandler extends DefaultHandler{
            
            if (icaoFlag){
                
-               
+                /* Add icaoString in front of name, if it has icao */
                 
                 if(type != null && (type.equals("aerodrome") || type.equals("airport"))){
                     type = "Airport";
@@ -292,6 +293,9 @@ public class XMLHandler extends DefaultHandler{
             lat = 0;               
             lon = 0;               
             elevation = null;
+            
+            ref = null;
+            icaoFlag = false;  
            
        } else if (qName.equals("tag")){
            
@@ -486,7 +490,7 @@ public class XMLHandler extends DefaultHandler{
         
         //SPECIAL CASES
         
-        if (k.equals("icao")){
+        if (k.equals("icao")){                  /* icao for aviation specific */
             
             icaoFlag = true;
             icaoString = v;
@@ -494,11 +498,11 @@ public class XMLHandler extends DefaultHandler{
         }
 
 
-        if (k.equals("ele")){
+        if (k.equals("ele")){                   /* elevation for peaks */
             elevation = v;
         } 
         
-        if (k.equals("ref")){
+        if (k.equals("ref")){                   /* ref for motorways */
             
             ref = v;
         } 
@@ -576,7 +580,7 @@ public class XMLHandler extends DefaultHandler{
             
             if(y.getNT()>=config.getInt("REMOVE_SENSITIVITY_THRESHOLD") && y.getNT2()>=config.getInt("REMOVE_SENSITIVITY_THRESHOLD_VL")){
                 if(y.getLat() != 0.0 || y.getLon() != 0.0){
-                    if(!(config.getBoolean("remove_empty") && fname.equals("(empty)"))){  
+                    if(!(config.getBoolean("remove_empty") && fname.equals("(empty)") && (!y.getType().equals("helipad") && !y.getType().equals("hangar")))){  
                         if(!(config.getBoolean("remove_nonlatin") && !valid)){
 
                             modifiedAlt = mFunc.modifyAlt(config.getDouble("ALT"), y.getType());
@@ -666,6 +670,7 @@ public class XMLHandler extends DefaultHandler{
 
 
             }
+            
             else if (name == null && elevation != null && type != null){                                                    /* Special case for peaks */
 
 //                myWriter.write("id : " + id + "\n");
@@ -689,6 +694,7 @@ public class XMLHandler extends DefaultHandler{
 
                     }
                 }
+            
                 else if (name == null && type != null){
                     
                     if(type.equals("helioport") || type.equals("helipad") || type.equals("hangar")){                                /* Special case for helipads/ hangars without names */

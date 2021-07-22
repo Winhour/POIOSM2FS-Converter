@@ -143,4 +143,20 @@
 		<tag k="aeroway" v="helipad"/>
 		<tag k="disused" v="yes"/>
 	</node>
+	<node id="1042145446" lat="48.7523233" lon="16.8778692" version="4" timestamp="2016-12-31T15:36:13Z" changeset="0">
+		<tag k="source" v="ourairports.com"/>
+		<tag k="aeroway" v="helipad"/>
+		<tag k="operator" v="IZS"/>
+	</node>
+	<node id="1042145446" lat="49.7523233" lon="17.8778692" version="4" timestamp="2016-12-31T15:36:13Z" changeset="0">
+		<tag k="source" v="ourairports.com"/>
+		<tag k="icao" v="T35T"/>
+		<tag k="aeroway" v="helipad"/>
+		<tag k="operator" v="IZS"/>
+	</node>
+	<node id="1042145450" lat="49.0084119" lon="17.1106897" version="4" timestamp="2020-05-20T15:38:48Z" changeset="0">
+		<tag k="name" v="Střecha Nem Hospital Heliport"/>
+		<tag k="source" v="ourairports.com"/>
+		<tag k="aeroway" v="helipad"/>
+	</node>
 </osm>

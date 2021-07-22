@@ -29,7 +29,7 @@ public class Main_POIOSM2FS {
 
     public static void main(String[] args) throws IOException, JSAPException, FileNotFoundException, ParserConfigurationException {
         
-        /*XStreamInteraction xsi = new XStreamInteraction();                    //Will work on it later
+        /*XStreamInteraction xsi = new XStreamInteraction();                    //Might work on it later
         ConfigX loadedConfig = xsi.getConfigFromXML();
         System.out.println(loadedConfig.getOwner() + " " + loadedConfig.getLabel()+ " " + loadedConfig.getAltitude() + " " + loadedConfig.getStep() + " " + loadedConfig.getTexture_width());*/
 
@@ -87,9 +87,9 @@ public class Main_POIOSM2FS {
         
         jsap.registerParameter(opt4);
         
-        FlaggedOption opt5 = new FlaggedOption("ALT")           /* Altitude at which the note will appear */
+        FlaggedOption opt5 = new FlaggedOption("ALT")           /* Altitude at which the banner will appear */
                                 .setStringParser(JSAP.DOUBLE_PARSER)
-                                .setDefault("70.00") 
+                                .setDefault("60.00") 
                                 .setRequired(true) 
                                 .setShortFlag('a') 
                                 .setLongFlag(JSAP.NO_LONGFLAG);
@@ -308,7 +308,7 @@ public class Main_POIOSM2FS {
         System.out.println("java -jar \"POIOSM2FS.jar\" -s 25 -j rzeki_IL.json -l Rzeki -w Winhour -a 421.3358 -o rzeki");
         System.out.println("java -jar POIOSM2FS.jar --ja all.json --rst 5 --rsv 10 -t");
         System.out.println("java -jar POIOSM2FS.jar --ja targetGR_Kos_TEST2.json --re --rst 6 --rsv 4 -t --cb:100,100,100 --ct:0,150,0 --font \"Arial Bold\" \n");
-        System.out.println("java -jar POIOSM2FS.jar --osm fislands.osm -t");
+        System.out.println("java -jar POIOSM2FS.jar --osm fislands_test.osm -t");
     }
     
     /**********************************************************************************************************************************************/

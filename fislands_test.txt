@@ -1,14 +1,17 @@
-<LandmarkLocation instanceId="{65089AFD-8C16-461F-8522-D6AA5608F6B3}" type="POI" name="Village: Akrar" owner="3DSpotters" lat="61.455746" lon="-6.7590335" alt="93.45"/> 
-<LandmarkLocation instanceId="{F5363DD1-B650-43DE-90E8-A8A29E5513C8}" type="POI" name="Village: Árnafjor?ur" owner="3DSpotters" lat="62.2551299" lon="-6.5355749" alt="106.05"/> 
-<LandmarkLocation instanceId="{710E6E39-3616-47B8-84D2-2EA3CF5D069D}" type="POI" name="Village: Bour" owner="3DSpotters" lat="62.0863166" lon="-7.3696034" alt="92.4"/> 
-<LandmarkLocation instanceId="{D11C3406-B401-4575-B89E-3285E26A46FE}" type="POI" name="Village: Dalur" owner="3DSpotters" lat="61.7843221" lon="-6.6785038" alt="118.65"/> 
-<LandmarkLocation instanceId="{3588F8B9-6BEC-4F77-A26B-8A4B0FC8A2B8}" type="POI" name="Village: Elduvík" owner="3DSpotters" lat="62.2821358" lon="-6.9116848" alt="77.7"/> 
-<LandmarkLocation instanceId="{E7C40343-5818-4D37-987C-04B88BAE74A8}" type="POI" name="Village: Fámjin" owner="3DSpotters" lat="61.524861" lon="-6.8786368" alt="114.45"/> 
-<LandmarkLocation instanceId="{F3DCE168-DFE8-4BCC-A18E-80C6324A1D3A}" type="POI" name="Village: Froðba" owner="3DSpotters" lat="61.547" lon="-6.771" alt="89.25"/> 
-<LandmarkLocation instanceId="{28343C52-3587-49AA-A4BC-C8389F3AB95C}" type="POI" name="Village: Fuglafjørður" owner="3DSpotters" lat="62.2430836" lon="-6.8178206" alt="97.65"/> 
-<LandmarkLocation instanceId="{1AF01A89-34A7-47C3-807C-7FC8DB974A3A}" type="POI" name="Airport: SBRJ Santos Dumont Airport" owner="3DSpotters" lat="62.2430536" lon="-6.8178406" alt="74.2"/> 
-<LandmarkLocation instanceId="{E5EADE50-3F46-4CBD-BD46-9FFF84243A06}" type="POI" name="Village: Funningsfjørður" owner="3DSpotters" lat="62.238104" lon="-6.9316051" alt="132.3"/> 
-<LandmarkLocation instanceId="{4F56035A-4F8D-4475-8F98-A981029BBB8B}" type="POI" name="Village: Funningur" owner="3DSpotters" lat="62.2869174" lon="-6.9679178" alt="89.25"/> 
-<LandmarkLocation instanceId="{DD6826E4-711C-44AC-958D-9CB1C97BE6A7}" type="POI" name="Village: Gásadalur" owner="3DSpotters" lat="62.110355" lon="-7.4379717" alt="95.55"/> 
-<LandmarkLocation instanceId="{DDDF7658-724B-47FE-9610-9F4D70071F5C}" type="POI" name="Airport: SBSC Santa Cruz" owner="3DSpotters" lat="-22.9293174" lon="-43.7165494" alt="86.1"/> 
-<LandmarkLocation instanceId="{748684AD-904C-47F0-BA62-69075086A3E6}" type="POI" name="Helipad: HA1G Вертодром Филино" owner="3DSpotters" lat="55.9169591" lon="37.3712416" alt="74.2"/> 
+<LandmarkLocation instanceId="{F5E2BED2-A23B-4721-B59F-9C6D89521377}" type="POI" name="Village: Akrar" owner="3DSpotters" lat="61.455746" lon="-6.7590335" alt="83.7"/> 
+<LandmarkLocation instanceId="{EFFC20C0-77BC-4DF0-9193-629C33F55730}" type="POI" name="Village: Árnafjor?ur" owner="3DSpotters" lat="62.2551299" lon="-6.5355749" alt="112.5"/> 
+<LandmarkLocation instanceId="{6486AD0D-F6EB-4C69-8097-619DC04C7A33}" type="POI" name="Village: Bour" owner="3DSpotters" lat="62.0863166" lon="-7.3696034" alt="80.1"/> 
+<LandmarkLocation instanceId="{70339B82-D52E-4A22-8BFF-AB5288DAF7F0}" type="POI" name="Village: Dalur" owner="3DSpotters" lat="61.7843221" lon="-6.6785038" alt="117.0"/> 
+<LandmarkLocation instanceId="{6E957D31-90B7-4B37-8247-FDD91AB10B8C}" type="POI" name="Village: Elduvík" owner="3DSpotters" lat="62.2821358" lon="-6.9116848" alt="87.3"/> 
+<LandmarkLocation instanceId="{09B32550-D003-4403-BA3C-1CE447E15D32}" type="POI" name="Village: Fámjin" owner="3DSpotters" lat="61.524861" lon="-6.8786368" alt="80.1"/> 
+<LandmarkLocation instanceId="{49F4D986-EB27-4B6A-98CF-4548DD239E9E}" type="POI" name="Village: Froðba" owner="3DSpotters" lat="61.547" lon="-6.771" alt="110.7"/> 
+<LandmarkLocation instanceId="{5263E578-D8CF-45F7-9103-745BD8486DD2}" type="POI" name="Village: Fuglafjørður" owner="3DSpotters" lat="62.2430836" lon="-6.8178206" alt="117.0"/> 
+<LandmarkLocation instanceId="{CAA50BAA-4695-455A-AC6D-6E5C5AFEF9D0}" type="POI" name="Airport: SBRJ Santos Dumont Airport" owner="3DSpotters" lat="62.2430536" lon="-6.8178406" alt="42.6"/> 
+<LandmarkLocation instanceId="{D3900556-9AB4-4BEC-8602-FE10D946C218}" type="POI" name="Village: Funningsfjørður" owner="3DSpotters" lat="62.238104" lon="-6.9316051" alt="108.9"/> 
+<LandmarkLocation instanceId="{AD4ECB1B-8EF2-46B5-BF02-10F0517318A0}" type="POI" name="Village: Funningur" owner="3DSpotters" lat="62.2869174" lon="-6.9679178" alt="65.7"/> 
+<LandmarkLocation instanceId="{57AA5F90-E258-4AEF-AB32-181C98F76612}" type="POI" name="Village: Gásadalur" owner="3DSpotters" lat="62.110355" lon="-7.4379717" alt="114.3"/> 
+<LandmarkLocation instanceId="{8E81597F-2DD1-48B4-B002-DF7C006C8998}" type="POI" name="Airport: SBSC Santa Cruz" owner="3DSpotters" lat="-22.9293174" lon="-43.7165494" alt="73.8"/> 
+<LandmarkLocation instanceId="{88AC2411-2842-40D1-A0F2-19EEB1388134}" type="POI" name="Helipad: HA1G Вертодром Филино" owner="3DSpotters" lat="55.9169591" lon="37.3712416" alt="68.4"/> 
+<LandmarkLocation instanceId="{AD2DA8D6-F64C-402B-B297-53FBA62E1258}" type="POI" name="Helipad: (empty)" owner="3DSpotters" lat="48.7523233" lon="16.8778692" alt="51.6"/> 
+<LandmarkLocation instanceId="{6E849CBA-9E73-4DD9-99BF-2F7F3215C509}" type="POI" name="Helipad: T35T" owner="3DSpotters" lat="49.7523233" lon="17.8778692" alt="67.8"/> 
+<LandmarkLocation instanceId="{6E886C1F-CDDA-4239-BAB8-3E3F9C1E91F7}" type="POI" name="Helipad: Střecha Nem Hospital Heliport" owner="3DSpotters" lat="49.0084119" lon="17.1106897" alt="50.4"/> 

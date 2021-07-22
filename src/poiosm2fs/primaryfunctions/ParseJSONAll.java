@@ -393,13 +393,29 @@ public class ParseJSONAll {
             
             String formatted = String.format("%05d", linecount);
             String jsn = formatOutString(outputfile);
+            
             /* Each POI requires a subdirectory for model and texture */ 
             new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/Texture").mkdirs();
             new File(System.getProperty("user.dir") + "/3DSp-POIOSM2FS-" + jsn + "/PackageSources/" + "poi_" + formatted + "-modellib/" + "poi_" + formatted).mkdirs();
+            
             /* Function creating texture for a POI (from GraphicsInteraction) */
             GraphicsInteraction gi = new GraphicsInteraction();
             boolean isIcao = y.isIsIcao();
-            gi.texttoGraphics(capitalTag + ": " + fname, config, formatted, config.getInt("TEXTURE_WIDTH"), capitalTag, isIcao);
+            
+            if(y.getEle() != null && (y.getType().equals("Peak") || y.getType().equals("peak"))){
+                
+                /* If element has elevation and is a peak, add the elevation to the name */
+                
+                gi.texttoGraphics(capitalTag + ": " + fname + " " + y.getEle() + " m", config, formatted, config.getInt("TEXTURE_WIDTH"), capitalTag, isIcao);
+                
+            }
+            else {
+                
+                /* Standard case */
+                
+                gi.texttoGraphics(capitalTag + ": " + fname, config, formatted, config.getInt("TEXTURE_WIDTH"), capitalTag, isIcao);
+            
+            }
             
 
             AssetGroup ag = new AssetGroup("poiosmtofs-" + jsn.toLowerCase() + linecount + "-models", "ArtProj", new FlagsAG(), 
