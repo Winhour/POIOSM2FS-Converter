@@ -409,6 +409,10 @@ public class XMLHandler extends DefaultHandler{
                 if (v.equals("station")){
                     type = "railway_station";
                 }   
+                if (v.equals("halt")){
+                    type = "halt";
+                    //type = "railway_halt";
+                }
                 break;
                 
             case "waterway":
