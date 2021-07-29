@@ -76,6 +76,9 @@ public class XMLHandler extends DefaultHandler{
     
     String id;
     
+    
+    /*****************************************************************************************************************************************************************************/
+    
     int motorwayflag = 0;                                       /* motorwayflag and MOTOR_LIMIT used to only take in a fraction of all motorways, currently set to half of them */
     
     final int MOTOR_LIMIT = 2;
@@ -93,6 +96,12 @@ public class XMLHandler extends DefaultHandler{
     int riverflag = 0;                                            /* Used to cut down on the total number of rivers in the ouput */
     
     final int RIVER_LIMIT = 0;
+    
+    int drainflag = 0;
+    
+    final int DRAIN_LIMIT = 5;
+    
+    
     
     
     
@@ -416,13 +425,19 @@ public class XMLHandler extends DefaultHandler{
                 break;
                 
             case "waterway":
-                if (v.equals("river") || v.equals("canal") || v.equals("lake") || v.equals("dam") || v.equals("waterfall") || v.equals("drain")){
+                if (v.equals("river") || v.equals("canal") || v.equals("lake") || v.equals("dam") || v.equals("waterfall")){
                     type = v;
                 }   if (v.equals("stream") && streamflag == STREAM_LIMIT){
                     type = v;
                     streamflag = 0;
                 } else if (v.equals("stream")){
                     streamflag++;
+                } 
+                if (v.equals("drain") && drainflag == DRAIN_LIMIT){
+                    type = v;
+                    drainflag = 0;
+                } else if (v.equals("drain")){
+                    drainflag++;
                 }
                 if (v.equals("river") && riverflag == RIVER_LIMIT){
                     type = v;
@@ -483,6 +498,12 @@ public class XMLHandler extends DefaultHandler{
             case "shop":
                 if (v.equals("supermarket")){
                     type = v;
+                }   
+                break;
+                
+            case "boundary":
+                if (v.equals("administrative")){
+                    type = "admin";
                 }   
                 break;
                 
@@ -590,6 +611,10 @@ public class XMLHandler extends DefaultHandler{
                             modifiedAlt = mFunc.modifyAlt(config.getDouble("ALT"), y.getType());
                             double altRandomizer = (double)Math.floor(Math.random()*(30.00-(-30.00)+1)+(-30.00));   /*Randomizing alt +/- 30%*/
                             modifiedAlt = modifiedAlt + modifiedAlt*(altRandomizer/100);
+                            
+                            if ((y.getType().equals("hangar") || y.getType().equals("helipad")) && fname.equals("(empty)")){        /* Special case */
+                                fname = "";
+                            }
 
                             if (y.getEle() == null){
                                 if(y.getType() != null){

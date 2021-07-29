@@ -461,6 +461,9 @@ public class GraphicsInteraction {
                     case "Halt":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/railway_station.png"));
                         break;
+                    case "Admin":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/suburb.png"));
+                        break;      
                     default:
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));
                         break;

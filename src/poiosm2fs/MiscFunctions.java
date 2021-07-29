@@ -128,6 +128,7 @@ public class MiscFunctions {
         if (type != null && type.equals("village")) Alt *= 1.5;
         if (type != null && type.equals("suburb")) Alt *= 1.5;
         if (type != null && type.equals("residential")) Alt *= 1.5;
+        if (type != null && type.equals("admin")) Alt *= 1.5;
         if (type != null && type.equals("OWNPOI")) Alt *= 1.5;
         if (type != null && type.equals("peak")) Alt *= 1.5;
         if (type != null && type.equals("city")) Alt *= 1.8;

@@ -408,6 +408,12 @@ public class ParseJSONAll {
                 
                 gi.texttoGraphics(capitalTag + ": " + fname + " " + y.getEle() + " m", config, formatted, config.getInt("TEXTURE_WIDTH"), capitalTag, isIcao);
                 
+            } else if ((y.getType().equals("Helipad") || y.getType().equals("helipad") || y.getType().equals("Hangar") || y.getType().equals("hangar")) && fname.equals("(empty)")){
+                
+                /* Case for empty Helipads and Hangars */
+                
+                gi.texttoGraphics(capitalTag, config, formatted, config.getInt("TEXTURE_WIDTH"), capitalTag, isIcao);
+                
             }
             else {
                 
