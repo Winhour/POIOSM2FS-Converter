@@ -463,6 +463,15 @@ public class GraphicsInteraction {
                         break;
                     case "Admin":
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/suburb.png"));
+                        break;    
+                    case "Sand":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/desert.jpg"));
+                        break;  
+                    case "Viewpoint":
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/viewpoint.jpg"));
+                        break;  
+                    case "Camp_site":    
+                        bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/camp.png"));
                         break;      
                     default:
                         bi = ImageIO.read(new File(System.getProperty("user.dir") + "/asset/blank.png"));

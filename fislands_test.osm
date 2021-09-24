@@ -159,4 +159,51 @@
 		<tag k="source" v="ourairports.com"/>
 		<tag k="aeroway" v="helipad"/>
 	</node>
+	<node id="287477136" lat="39.3762241" lon="22.9309999" version="5" timestamp="2021-03-01T20:16:26Z" changeset="0">
+		<tag k="aeroway" v="helipad"/>
+	</node>
+	<node id="1434001507" lat="39.7812459" lon="20.338525" version="1" timestamp="2011-09-16T04:01:23Z" changeset="0">
+		<tag k="aeroway" v="helipad"/>
+	</node>
+	<node id="1438520293" lat="39.1727398" lon="23.5037462" version="2" timestamp="2012-03-25T21:51:13Z" changeset="0">
+		<tag k="name" v="Greek Helicopters Landing Site"/>
+		<tag k="aeroway" v="helipad"/>
+		<tag k="int_name" v="GreekHelicopters.gr Landing Site"/>
+	</node>
+	<node id="1753766897" lat="40.3299748" lon="22.5807261" version="1" timestamp="2012-05-15T10:48:36Z" changeset="0">
+		<tag k="aeroway" v="helipad"/>
+	</node>
+	<node id="1042046874" lat="38.1394486" lon="24.0144279" version="3" timestamp="2011-09-13T11:12:02Z" changeset="0">
+		<tag k="name" v="Marathon Wasser Airport"/>
+		<tag k="source" v="ourairports.com"/>
+		<tag k="aeroway" v="helipad"/>
+	</node>
+	<node id="1042147942" lat="37.9915534" lon="23.5744532" version="4" timestamp="2021-04-17T06:10:00Z" changeset="0">
+		<tag k="aeroway" v="helipad"/>
+		<tag k="name" v="Heliport"/>
+		<tag k="operator" v="Hellenic Navy"/>
+		<tag k="source" v="ourairports.com"/>
+		<tag k="surface" v="concrete"/>
+	</node>
+	<node id="1446283396" lat="36.8979182" lon="27.2449847" version="2" timestamp="2016-06-23T12:45:43Z" changeset="0">
+		<tag k="source" v="survey"/>
+		<tag k="aeroway" v="helipad"/>
+	</node>
+	<node id="1581588633" lat="37.9344121" lon="23.8547638" version="1" timestamp="2012-01-07T21:20:47Z" changeset="0">
+		<tag k="aeroway" v="helipad"/>
+	</node>
+	<node id="1753729489" lat="37.4716163" lon="25.3156944" version="2" timestamp="2015-08-18T16:03:22Z" changeset="0">
+		<tag k="name" v="Rocabella Mykonos Helipad"/>
+		<tag k="aeroway" v="helipad"/>
+	</node>
+	<node id="428922114" lat="37.0324839" lon="25.0767685" version="1" timestamp="2009-06-24T20:51:51Z" changeset="0">
+		<tag k="aeroway" v="helipad"/>
+	</node>
+	<node id="428922156" lat="38.1424839" lon="26.1167685" version="1" timestamp="2009-06-24T20:51:51Z" changeset="0">
+		<tag k="tourism" v="viewpoint"/>
+	</node>
+	<node id="428922156" lat="37.9924822" lon="24.2466611" version="1" timestamp="2009-06-24T20:51:51Z" changeset="0">
+		<tag k="tourism" v="camp_site"/>
+	</node>
+	
 </osm>

@@ -99,7 +99,7 @@ public class XMLHandler extends DefaultHandler{
     
     int drainflag = 0;
     
-    final int DRAIN_LIMIT = 5;
+    final int DRAIN_LIMIT = 10;
     
     
     
@@ -393,7 +393,7 @@ public class XMLHandler extends DefaultHandler{
                 break;
                 
             case "natural":
-                if (v.equals("wetland") || v.equals("water") || v.equals("glacier") || v.equals("peak") || v.equals("battlefield")){
+                if (v.equals("wetland") || v.equals("water") || v.equals("glacier") || v.equals("peak") || v.equals("battlefield") || v.equals("sand")){
                     if(type == null){
                         type = v;
                     }
@@ -462,7 +462,7 @@ public class XMLHandler extends DefaultHandler{
                 break;
                 
             case "tourism":
-                if (v.equals("attraction") || v.equals("zoo") || v.equals("museum")){
+                if (v.equals("attraction") || v.equals("zoo") || v.equals("museum") || v.equals("camp_site") || v.equals("viewpoint")){
                     if(type == null){
                         type = v;
                     }
@@ -592,6 +592,9 @@ public class XMLHandler extends DefaultHandler{
             UUID uuid = UUID.randomUUID();                      /* Random UUID (universally unique identifier)*/
             String fuuid = uuid.toString().toUpperCase();       /* UUID changed to upper-case */
             String fname;                                       /* English name will be used if possible, if not the default name */
+            
+            String tmpMyString = "";                                 /* Temporary String that will be added to output */
+            
             if (y.getEnName() != null){
                 fname = y.getEnName();
             } else
@@ -605,42 +608,49 @@ public class XMLHandler extends DefaultHandler{
             
             if(y.getNT()>=config.getInt("REMOVE_SENSITIVITY_THRESHOLD") && y.getNT2()>=config.getInt("REMOVE_SENSITIVITY_THRESHOLD_VL")){
                 if(y.getLat() != 0.0 || y.getLon() != 0.0){
-                    if(!(config.getBoolean("remove_empty") && fname.equals("(empty)") && (!y.getType().equals("helipad") && !y.getType().equals("hangar")))){  
+                    if(!(config.getBoolean("remove_empty") && fname.equals("(empty)") && (!y.getType().equals("helipad") && !y.getType().equals("hangar") && !y.getType().equals("viewpoint") && !y.getType().equals("camp_site")))){  
                         if(!(config.getBoolean("remove_nonlatin") && !valid)){
 
                             modifiedAlt = mFunc.modifyAlt(config.getDouble("ALT"), y.getType());
                             double altRandomizer = (double)Math.floor(Math.random()*(30.00-(-30.00)+1)+(-30.00));   /*Randomizing alt +/- 30%*/
                             modifiedAlt = modifiedAlt + modifiedAlt*(altRandomizer/100);
                             
-                            if ((y.getType().equals("hangar") || y.getType().equals("helipad")) && fname.equals("(empty)")){        /* Special case */
+                            if ((y.getType().equals("hangar") || y.getType().equals("helipad") || y.getType().equals("viewpoint") || y.getType().equals("camp_site")) && fname.equals("(empty)")){        /* Special case */
                                 fname = "";
                             }
 
                             if (y.getEle() == null){
                                 if(y.getType() != null){
                                     capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);      /*Capitalize first letter of tag*/
-                                    myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
+                                    tmpMyString = "<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
                                             + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
-                                            + modifiedAlt +"\"/> \n");
+                                            + modifiedAlt +"\"/> \n";
                                 } else {
-                                    myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" 
+                                    tmpMyString = "<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" 
                                             + fname + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
-                                            + modifiedAlt +"\"/> \n");
+                                            + modifiedAlt +"\"/> \n";
                                 }
                             } else {     
                                 if(y.getType() != null){
                                     capitalTag = y.getType().substring(0, 1).toUpperCase() + y.getType().substring(1);
-                                    myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
+                                    tmpMyString = "<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" + capitalTag + ": "
                                             + fname + " " + y.getEle() + " m"
                                             + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
-                                            + modifiedAlt +"\"/> \n");
+                                            + modifiedAlt +"\"/> \n";
                                 } else {
-                                    myWriter.write("<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" 
+                                    tmpMyString = "<LandmarkLocation instanceId=\"{" + fuuid + "}\" type=\"POI\" name=\"" 
                                             + fname + " " + y.getEle() + " m"
                                             + "\" owner=\""+ config.getString("OWNER") + "\" lat=\"" + y.getLat() + "\" lon=\"" + y.getLon() + "\" alt=\"" 
-                                            + modifiedAlt +"\"/> \n");
+                                            + modifiedAlt +"\"/> \n";
                                 }
                             }
+                                if (fname.equals("")){
+                                    tmpMyString = getRidOfColonInSomeCases(tmpMyString, fname);                         //Annoying special cases again
+                                }
+                                
+                                tmpMyString.replace("\n", " ");                                                         //Get rid of new lines, which can appear sporadically
+                                
+                                myWriter.write(tmpMyString);
                                 
                                 if(config.getBoolean("textures")){
 
@@ -751,6 +761,32 @@ public class XMLHandler extends DefaultHandler{
 
                         }
                     }
+                    
+                    if(type.equals("viewpoint") || type.equals("camp_site")){                                /* Special case for viewpoint / camp sites without names */
+                        
+                        lat = Double.parseDouble(lattmp);
+                        lon = Double.parseDouble(lontmp);
+                        
+                        name = "";
+                        name_en= "";
+
+                        y = new ModifiedData(name,name_en,type,lat,lon);
+                        
+                        if (elevation != null){
+                            y.setEle(elevation);
+                        }
+
+                        if(y.getLat() != 0.0 || y.getLon() != 0.0){
+
+                            elementcounter++;
+                            if(elementcounter % 100 == 0) System.out.println("number of parsed elements: " + elementcounter);
+
+                            /* Main functionality creating the output text file and possibly textures and everything related to that */
+
+                            doMainOSM(y, mFunc, modifiedAlt, config, capitalTag, myWriter2, elementcounter, outputfile, assetGroups, sceneryObjects, pja);
+
+                        }
+                    }
                 }
         
         
@@ -758,5 +794,19 @@ public class XMLHandler extends DefaultHandler{
         
         
 /**********************************************************************************************************************************************/
-   
+    
+    String getRidOfColonInSomeCases(String tmpString, String fname){
+        
+        tmpString = tmpString.replace("Helipad: ","Helipad");
+        tmpString = tmpString.replace("Hangar: ","Hangar");
+        tmpString = tmpString.replace("Viewpoint: ","Viewpoint");
+        tmpString = tmpString.replace("Camp_site: ","Camp_site");
+        
+        
+        return tmpString;
+    }
+
+    
+/**********************************************************************************************************************************************/
+    
 }
